@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "protocol_package": "0.5.0",
+  "runtime": {
+    "graphifyy": "0.9.65",
+    "python_major_minor": [
+      3,
+      12
+    ],
+    "yaml_backend": "ruby-psych"
+  },
+  "exclude_roots": [
+    "graphify-out",
+    "output",
+    "tmp",
+    ".codex-build",
+    ".codex-finalizer",
+    ".git",
+    "catalog"
+  ],
+  "exclude_prefixes": [
+    "registry/generated/",
+    "implementations/web/node_modules/",
+    "implementations/web/.pnpm-store/",
+    "implementations/web/.next/",
+    "implementations/web/out/",
+    "implementations/web/test-results/",
+    "implementations/web/playwright-report/",
+    "implementations/web/src/generated/",
+    "implementations/web/public/",
+    "output/skills/"
+  ],
+  "supplemental_design_data": [
+    "sources/inventories/tokens.inventory.json",
+    "sources/figma-snapshots/input-fields.followups.target-tokens.json",
+    "qa/implementations/select.v0.1.0.tokens.json",
+    "qa/implementations/radio-checkbox.refinement.v0.1.0.tokens.json"
+  ],
+  "supplemental_documents": [
+    "implementations/figjam/sdd-flow-2026-10-07/*.mmd"
+  ],
+  "protected_data": {
+    "sources/inventories/tokens.inventory.json": {
+      "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+      "authority": "specs/foundations/foundations-tokens.contract.md"
+    }
+  },
+  "graph_smoke_pairs": [
+    [
+      "registry/DEC-GRAPH-CONTINUOUS-SYNC-001.md",
+      "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md"
+    ],
+    [
+      "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+      "specs/tokens/ai-design-system.character-identity.v0.1.0.json"
+    ],
+    [
+      "specs/components/fuentes.contract.v0.1.0.md",
+      "sources/inventories/tokens.inventory.json"
+    ],
+    [
+      "protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md",
+      "implementations/web/README.md"
+    ]
+  ],
+  "historical_link_exceptions": [
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+      "line": 16,
+      "target": "../foundations/ai-design-system.avatar-roles.v0.1.1.json",
+      "source_sha256": "a685925b9b9b680c56dddf58716119d9119a11aefb32612ad6b0ae98df9ac6de",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md",
+      "line": 15,
+      "target": "../foundations/ai-design-system.avatar-roles.v0.1.0.json",
+      "source_sha256": "4604a1002076ff0613890411994ce89f39c05e46358abdfe268cd1277efc60fb",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+      "line": 23,
+      "target": "../foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json",
+      "source_sha256": "f10deb6a36483ce22c260451c3a15b9e12112be2703c07d3ffeb01c1c7785746",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.chart-colors.v0.1.0.json",
+      "source_sha256": "9b367f12ef1331397b1730e5a0781595d21dda6d87e6408a66f14b39249a8f25",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "line": 16,
+      "target": "../foundations/ai-design-system.control-colors.v0.1.1.json",
+      "source_sha256": "260b16db658d073d9c0bb2fd522d669b0263487fdb47e56cdeadb53a5dd3ba2b",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.control-colors.v0.1.0.json",
+      "source_sha256": "e53c97caaa47a606f07eab5159cacdfc48fae8a797783c20d2e8ecc7865708e4",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md",
+      "line": 15,
+      "target": "../foundations/ai-design-system.dot-background-colors.v0.1.0.json",
+      "source_sha256": "f93f3c648fe8d603265beab69a21a2860fee10b7b5211ea4a291d0f18d0998d5",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.feedback-icon-scopes.amendment.v0.1.7.md",
+      "line": 15,
+      "target": "../foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json",
+      "source_sha256": "416e624c0df854c162fe83434712f840c90b85411558c947cdeaa053ce26bd1c",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.focus-effects.v0.1.0.json",
+      "source_sha256": "4ca4f11c6d858fe2237256019a8b9b4ea046e10b30021887a97a35128df1572d",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+      "line": 15,
+      "target": "../foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json",
+      "source_sha256": "185227fa124e6d593ce46b0efa80a6c62b0d737dc16a10b8686203e4594f2517",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.linear-progress-colors.v0.1.0.json",
+      "source_sha256": "0b416066e3f74e64c62b761bd0677e6337fcf6d755ebd72bdebcfbd610cafcd4",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.metric-card-roles.v0.1.0.json",
+      "source_sha256": "c3c038c6da9795fc8e41a4dfd0afe7c84c080bfcdcc272b33165110dcdd8af78",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "line": 19,
+      "target": "../foundations/ai-design-system.radio-indicator-colors.v0.1.0.json",
+      "source_sha256": "b0a3a629b3f20dc011ab1e2122e22f23b6353670c585534630f81d668bb42915",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+      "line": 19,
+      "target": "toggle.contract.v0.1.0.md",
+      "source_sha256": "07ae4f7700bd4670156e5be211f9476d97eb97e15275addd69198f5152cd6266",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+      "line": 26,
+      "target": "../foundations/ai-design-system.focus-effects.v0.1.0.json",
+      "source_sha256": "07ae4f7700bd4670156e5be211f9476d97eb97e15275addd69198f5152cd6266",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+      "line": 19,
+      "target": "toggle.contract.v0.1.0.md",
+      "source_sha256": "f81bd14ba58ce0401904e09e79fb30c7ed498b4f67dd05335b037daa20e54af9",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+      "line": 19,
+      "target": "../behavior/toggle-mixed/behavior-contract.md",
+      "source_sha256": "f81bd14ba58ce0401904e09e79fb30c7ed498b4f67dd05335b037daa20e54af9",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "archive/specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md",
+      "line": 21,
+      "target": "toggle.contrast-amendment.v0.1.1.md",
+      "source_sha256": "13674dd7d6f61efd015ae760b6a89bc71c80c323ff45e665fc4d48f8e89b9187",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "qa/contracts/chat-section.v0.1.0.prebuild-candidate.md",
+      "line": 105,
+      "target": "chat-section.source.component-contract.md",
+      "source_sha256": "6376fdb0e368221b9a06dadf50cad302db30614c5d8305249e79734cf5cdbf64",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "qa/contracts/conversation.v0.1.0.pre-promotion.md",
+      "line": 107,
+      "target": "conversation.source.component-contract.md",
+      "source_sha256": "cb0d6bae4eeeabd7205ecf73ef3f3a5988329753bb106de65a7dfaba5d18b0bd",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    },
+    {
+      "source": "qa/contracts/conversation.v0.1.0.prebuild-candidate.md",
+      "line": 107,
+      "target": "conversation.source.component-contract.md",
+      "source_sha256": "38f39a6b4bbedfab741e3100cb25293734bff97b94f5d3ccb3cb7b15fa4c27ad",
+      "reason": "Referencia preservada en evidencia histórica; no modificar bytes originales."
+    }
+  ],
+  "prose_relations": [
+    {
+      "source": "specs/components/chat.layout.amendment.v0.1.1.md",
+      "targets": [
+        "CHAT-SECTION-001",
+        "CHAT-TOOLBAR-001"
+      ],
+      "evidence_contains": "Sustituye únicamente sus reglas de dimensiones, sizing",
+      "source_sha256": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c"
+    },
+    {
+      "source": "specs/components/six-family-color.amendment.v0.1.0.md",
+      "targets": [
+        "BUTTON-001",
+        "ICON-BUTTON-001",
+        "BREADCRUMBS-001",
+        "METRIC-CARD-001",
+        "CHARTS-001",
+        "LINEAR-PROGRESS-BAR-001"
+      ],
+      "evidence_contains": "Sustituye exclusivamente las recetas de color afectadas",
+      "source_sha256": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+    },
+    {
+      "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+      "targets": [
+        "CONVERSATION-001"
+      ],
+      "evidence_contains": "BENI",
+      "source_sha256": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f"
+    },
+    {
+      "source": "specs/composition-slots.amendment.v0.1.0.md",
+      "targets": [
+        "SELECT-001",
+        "NAVIGATION-SWITCH-TAB-001",
+        "BREADCRUMBS-001"
+      ],
+      "evidence_contains": "Select",
+      "source_sha256": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5"
+    },
+    {
+      "source": "specs/composition-slots.amendment.v0.1.1.md",
+      "targets": [
+        "STEPS-001",
+        "NAVIGATION-PAGINATION-001",
+        "CHARTS-001"
+      ],
+      "evidence_contains": "Pagination",
+      "source_sha256": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041"
+    },
+    {
+      "source": "specs/input-field.disabled-text.amendment.v0.1.1.md",
+      "targets": [
+        "INPUT-FIELD-001"
+      ],
+      "evidence_contains": "Disabled",
+      "source_sha256": "fc73aef18bd2c4ca6fcdd4eaa17d92c9e65aee0f4e54ff993eb9aeefc0f98a45"
+    }
+  ],
+  "family_context_selectors": [
+    {
+      "source": "specs/MIGRATION-AUDIT.md",
+      "source_sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+      "heading": "## Chat · observaciones de layout2026-10-09",
+      "targets": [
+        "CHAT-SECTION-001",
+        "CHAT-TOOLBAR-001"
+      ]
+    },
+    {
+      "source": "specs/MIGRATION-AUDIT.md",
+      "source_sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+      "heading": "## Logos · decisión acotada pendiente · 2026-10-06",
+      "targets": [
+        "LOGOS-001"
+      ]
+    },
+    {
+      "source": "specs/MIGRATION-AUDIT.md",
+      "source_sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+      "heading": "## Actualización cromática de seis familias · 2026-10-05",
+      "targets": [
+        "BUTTON-001",
+        "ICON-BUTTON-001",
+        "BREADCRUMBS-001",
+        "METRIC-CARD-001",
+        "CHARTS-001",
+        "LINEAR-PROGRESS-BAR-001"
+      ]
+    },
+    {
+      "source": "specs/MIGRATION-AUDIT.md",
+      "source_sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+      "heading": "## Radio Buttons / Checkboxes · cierre técnico · 2026-10-06",
+      "targets": [
+        "RADIO-BUTTON-001",
+        "CHECKBOX-001"
+      ]
+    },
+    {
+      "source": "specs/MIGRATION-AUDIT.md",
+      "source_sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+      "heading": "## Hallazgo documental · 2026-10-01 · DOC-SEARCH-001",
+      "targets": [
+        "SEARCH-001"
+      ]
+    },
+    {
+      "source": "specs/MIGRATION-TRACEABILITY-STATUS.md",
+      "source_sha256": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+      "heading": "## Paso 4 · promoción a specs · 2026-10-06",
+      "targets": [
+        "TOOLTIP-001",
+        "TOGGLE-001",
+        "AVATAR-001",
+        "LOGOS-001"
+      ]
+    }
+  ],
+  "supplemental_web_sources": [
+    "implementations/web/src/styles.css",
+    "implementations/web/src/app/catalog.css",
+    "implementations/web/pnpm-lock.yaml"
+  ],
+  "supplemental_skill_sources": [
+    "skills/contpaqi-po-prototypes/assets/starter/prototype/globals.css"
+  ]
+}

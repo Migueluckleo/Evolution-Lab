@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "sources_assets_web_logos_434_3888_logotipo_observado",
+      "label": "Logotipo observado 434:3888: product=bancos, type=horizontal",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISUAL_READ_ONLY",
+      "figma_node_id": "434:3888",
+      "manifest_variant": "product=bancos, type=horizontal",
+      "manifest_family": "contables",
+      "source_manifest": "sources/assets/web/logos.manifest.json",
+      "approval_inferred": false
+    },
+    {
+      "id": "sources_assets_web_logos_434_3888_motivo_visual",
+      "label": "Flecha circular azul alrededor de símbolo monetario y sello B",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    },
+    {
+      "id": "sources_assets_web_logos_434_3888_composicion_visual",
+      "label": "Símbolo a la izquierda de CONTPAQi y del nombre Bancos",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sources_assets_web_logos_434_3888_logotipo_observado",
+      "target": "sources_assets_web_logos_434_3888_motivo_visual",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sources_assets_web_logos_434_3888_logotipo_observado",
+      "target": "sources_assets_web_logos_434_3888_composicion_visual",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sources_assets_web_logos_434_3888_logotipo_observado",
+      "target": "specs_components_logos_scope_amendment_v0_1_1_scope",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/sources/assets/web/logos/434-3888.svg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

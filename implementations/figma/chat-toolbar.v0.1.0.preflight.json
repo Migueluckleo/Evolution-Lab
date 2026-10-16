@@ -1,0 +1,1358 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable.",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:4",
+      "name": "font/weight/medium",
+      "description": "Peso tipográfico semántico para énfasis moderado. Úsalo cuando el contenido necesite mayor presencia que el peso regular sin competir con niveles de énfasis superiores.",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:4"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:4"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:4"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:4"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "font/weight/bold",
+      "description": "Peso tipográfico semántico de máximo énfasis dentro del conjunto actual. Úsalo cuando el contenido requiera la mayor presencia tipográfica definida por el sistema.",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:6"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:6"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:6"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:6"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:8",
+      "name": "font/size/xs",
+      "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        }
+      }
+    },
+    {
+      "id": "VariableID:10:10",
+      "name": "font/size/md",
+      "description": "Nivel base de la escala semántica de tamaño tipográfico. Úsalo cuando no exista una necesidad explícita de reducir o aumentar la presencia del texto.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:5"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:5"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:5"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:5"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:8",
+      "name": "font/line-height/sm",
+      "description": "Nivel compacto de interlineado semántico. Úsalo cuando el texto necesite una separación vertical contenida sin recurrir al mínimo de la escala.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:13"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:13"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:13"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:13"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:16",
+      "name": "font/letter-spacing/normal",
+      "description": "Tracking semántico neutro. Úsalo cuando el texto deba conservar el espaciado entre caracteres de referencia sin expansión ni contracción adicional.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:21"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:21"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:21"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:21"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:22",
+      "name": "size/lg",
+      "description": "Nivel base de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:26"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:26"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:26"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:26"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:23",
+      "name": "size/xl",
+      "description": "Nivel ampliado de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:27"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:27"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:27"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:27"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:24",
+      "name": "size/2xl",
+      "description": "Nivel grande de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:28"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:28"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:28"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:28"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:29",
+      "name": "spacing/xs",
+      "description": "Nivel mínimo de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:34"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:34"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:34"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:34"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:34",
+      "name": "spacing/2xl",
+      "description": "Nivel grande de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:6",
+      "name": "radius/md",
+      "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:38"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:38"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:38"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:38"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:11",
+      "name": "radius/full",
+      "description": "Radio semántico para redondeo total. Úsalo cuando la intención sea obtener extremos completamente redondeados independientemente de la dimensión concreta del elemento.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:43"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:43"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:43"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:43"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "description": "Color neutral de mayor jerarquía para iconografía informativa o funcional. Úsalo cuando el ícono deba tener presencia principal sin comunicar una identidad de marca o un estado específico.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:24",
+      "name": "color/icon/disabled",
+      "description": "Color para iconografía en estado deshabilitado o no disponible. Úsalo para comunicar menor disponibilidad mediante reducción de jerarquía visual, sin añadir semántica de error.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "description": "Color de iconografía que adopta la identidad principal del modo activo. Úsalo cuando un ícono deba comunicar marca, selección o énfasis temático.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:28",
+      "name": "color/text/secondary",
+      "description": "Color de texto de jerarquía secundaria. Úsalo para contenido de apoyo que deba conservar legibilidad sin competir con el texto principal.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:98"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:98"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:98"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:98"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:29",
+      "name": "color/text/tertiary",
+      "description": "Color de texto de baja jerarquía. Úsalo para información auxiliar cuya presencia deba ser más discreta que el contenido secundario.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:97"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:97"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:97"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:97"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:32",
+      "name": "color/text/brand",
+      "description": "Color de texto que adopta la identidad principal del modo activo. Úsalo cuando el contenido textual deba comunicar marca, selección o énfasis temático.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:36",
+      "name": "color/background/subtle",
+      "description": "Fondo neutral de baja prominencia para crear una separación suave respecto al fondo base. Úsalo cuando una región necesite diferenciación ligera sin asumir un rol interactivo o de estado.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:61",
+      "name": "color/interactive/secondary/hover",
+      "description": "Superficie de interacción secundaria durante hover. Úsala cuando una acción secundaria necesite incorporar un realce cromático suave al detectar intención de interacción.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:85"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:59"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:68"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:77"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:62",
+      "name": "color/interactive/secondary/active",
+      "description": "Superficie de interacción secundaria durante el estado activo o presionado. Úsala cuando una acción secundaria necesite un fondo de marca muy suave para confirmar la interacción.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:57"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:58"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:67"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:76"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:64",
+      "name": "color/interactive/disabled/text",
+      "description": "Color de contenido textual para interacciones deshabilitadas. Úsalo cuando una acción no esté disponible y su texto deba perder jerarquía sin comunicar error.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:96"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:69",
+      "name": "color/surface/brand",
+      "description": "Superficie de baja intensidad alineada con la familia de marca de cada modo. Úsala para aportar identidad cromática a una región sin emplear el color principal de marca a plena intensidad.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:57"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:58"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:67"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:76"
+        }
+      }
+    },
+    {
+      "id": "VariableID:219:122",
+      "name": "color/background/progress/track",
+      "description": "Pista de barra de progreso lineal; superficie restante neutra que permite distinguir el tramo avanzado sin expresar deshabilitación.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        }
+      }
+    },
+    {
+      "id": "VariableID:219:123",
+      "name": "color/background/progress/primary",
+      "description": "Tramo avanzado de barra de progreso lineal con tono de marca del modo; no expresa por sí solo éxito o error.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:8",
+      "name": "radius/xl",
+      "description": "Nivel muy alto de redondeo semántico. Úsalo cuando la geometría requiera una curvatura dominante sin llegar al radio completo.",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback.",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        }
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "id": "VariableID:7:2",
+      "name": "font/family/manrope",
+      "valuesByMode": {
+        "6:4": "manrope"
+      }
+    },
+    {
+      "id": "VariableID:7:3",
+      "name": "font/weight/regular",
+      "valuesByMode": {
+        "6:4": "regular"
+      }
+    },
+    {
+      "id": "VariableID:7:4",
+      "name": "font/weight/medium",
+      "valuesByMode": {
+        "6:4": "medium"
+      }
+    },
+    {
+      "id": "VariableID:7:6",
+      "name": "font/weight/bold",
+      "valuesByMode": {
+        "6:4": "bold"
+      }
+    },
+    {
+      "id": "VariableID:8:3",
+      "name": "font/size/12",
+      "valuesByMode": {
+        "6:4": 12
+      }
+    },
+    {
+      "id": "VariableID:8:4",
+      "name": "font/size/14",
+      "valuesByMode": {
+        "6:4": 14
+      }
+    },
+    {
+      "id": "VariableID:8:5",
+      "name": "font/size/16",
+      "valuesByMode": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:13",
+      "name": "font/line-height/20",
+      "valuesByMode": {
+        "6:4": 20
+      }
+    },
+    {
+      "id": "VariableID:8:21",
+      "name": "font/letter-spacing/normal",
+      "valuesByMode": {
+        "6:4": 0
+      }
+    },
+    {
+      "id": "VariableID:8:33",
+      "name": "spacing/0",
+      "valuesByMode": {
+        "6:4": 0
+      }
+    },
+    {
+      "id": "VariableID:8:26",
+      "name": "size/16",
+      "valuesByMode": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:27",
+      "name": "size/24",
+      "valuesByMode": {
+        "6:4": 24
+      }
+    },
+    {
+      "id": "VariableID:8:28",
+      "name": "size/32",
+      "valuesByMode": {
+        "6:4": 32
+      }
+    },
+    {
+      "id": "VariableID:8:34",
+      "name": "spacing/4",
+      "valuesByMode": {
+        "6:4": 4
+      }
+    },
+    {
+      "id": "VariableID:8:44",
+      "name": "spacing/8",
+      "valuesByMode": {
+        "6:4": 8
+      }
+    },
+    {
+      "id": "VariableID:8:46",
+      "name": "spacing/16",
+      "valuesByMode": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:48",
+      "name": "spacing/32",
+      "valuesByMode": {
+        "6:4": 32
+      }
+    },
+    {
+      "id": "VariableID:8:38",
+      "name": "radius/8",
+      "valuesByMode": {
+        "6:4": 8
+      }
+    },
+    {
+      "id": "VariableID:8:39",
+      "name": "radius/12",
+      "valuesByMode": {
+        "6:4": 12
+      }
+    },
+    {
+      "id": "VariableID:8:43",
+      "name": "radius/9999",
+      "valuesByMode": {
+        "6:4": 9999
+      }
+    },
+    {
+      "id": "VariableID:8:96",
+      "name": "color/neutral/400",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.5803921818733215,
+          "g": 0.6392157077789307,
+          "b": 0.7215686440467834,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:101",
+      "name": "color/neutral/900",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:87",
+      "name": "color/blue/400",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:62",
+      "name": "color/green/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:71",
+      "name": "color/orange/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 0.32549020648002625,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:80",
+      "name": "color/purple/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:98",
+      "name": "color/neutral/600",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.27843138575553894,
+          "g": 0.3333333432674408,
+          "b": 0.4117647111415863,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:97",
+      "name": "color/neutral/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.3921568691730499,
+          "g": 0.45490196347236633,
+          "b": 0.545098066329956,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:93",
+      "name": "color/neutral/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:94",
+      "name": "color/neutral/200",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.9450980424880981,
+          "g": 0.9607843160629272,
+          "b": 0.9764705896377563,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:85",
+      "name": "color/blue/200",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.7490196228027344,
+          "g": 0.8078431487083435,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:59",
+      "name": "color/green/200",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.5764706134796143,
+          "g": 0.8274509906768799,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:68",
+      "name": "color/orange/200",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 0.8470588326454163,
+          "b": 0.7843137383460999,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:77",
+      "name": "color/purple/200",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.8784313797950745,
+          "g": 0.7921568751335144,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:57",
+      "name": "color/blue/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:58",
+      "name": "color/green/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.9254902005195618,
+          "g": 0.9921568632125854,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:67",
+      "name": "color/orange/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 0.9686274528503418,
+          "b": 0.9254902005195618,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:76",
+      "name": "color/purple/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:40",
+      "name": "radius/16",
+      "valuesByMode": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:95",
+      "name": "color/neutral/300",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      }
+    }
+  ]
+}

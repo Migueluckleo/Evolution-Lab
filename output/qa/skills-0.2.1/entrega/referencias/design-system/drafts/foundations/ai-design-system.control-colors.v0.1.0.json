@@ -1,0 +1,48 @@
+{
+  "extensionId": "FOUNDATIONS-CONTROL-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "variables": [
+    {
+      "name": "color/border/control",
+      "resolvedType": "COLOR",
+      "description": "Borde neutral contrastante para delimitar controles interactivos disponibles sin comunicar selección, hover ni un estado de feedback.",
+      "scopes": ["STROKE_COLOR"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:1": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:2": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:3": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" }
+      }
+    },
+    {
+      "name": "color/background/control-hover",
+      "resolvedType": "COLOR",
+      "description": "Fondo neutral para controles interactivos apagados en hover, diferenciado del estado normal sin comunicar selección ni deshabilitación.",
+      "scopes": ["FRAME_FILL", "SHAPE_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:1": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:2": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" },
+        "6:3": { "type": "VARIABLE_ALIAS", "name": "color/neutral/500", "targetId": "VariableID:8:97" }
+      }
+    }
+  ]
+}

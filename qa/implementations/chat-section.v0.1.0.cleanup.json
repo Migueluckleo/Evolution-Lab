@@ -1,0 +1,399 @@
+{
+  "removedFixtureIds": [
+    "788:239",
+    "788:320",
+    "788:409",
+    "788:530",
+    "788:606",
+    "788:686"
+  ],
+  "mutatedNodeIds": [
+    "784:100",
+    "784:101"
+  ],
+  "remainingPageChildren": [
+    {
+      "id": "783:9",
+      "name": ".Chat / BENI Welcome"
+    },
+    {
+      "id": "784:96",
+      "name": "Chat Suggestion"
+    },
+    {
+      "id": "784:98",
+      "name": "Chat Section"
+    },
+    {
+      "id": "784:99",
+      "name": "Chat / Review"
+    }
+  ],
+  "dependencyVariables": [
+    {
+      "id": "VariableID:10:8",
+      "name": "font/size/xs",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "FLOAT",
+      "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema.",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:3"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:7",
+      "name": "font/line-height/xs",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "FLOAT",
+      "description": "Nivel más compacto de interlineado semántico. Úsalo cuando la composición tipográfica requiera la menor separación vertical disponible dentro de esta escala.",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:12"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:12"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:12"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:12"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback.",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:95"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:18",
+      "name": "color/border/on-brand",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Borde destinado a leerse sobre una superficie de marca. Úsalo cuando la delimitación necesite mantener contraste frente a un fondo cromático de alta identidad.",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Color neutral de mayor jerarquía para iconografía informativa o funcional. Úsalo cuando el ícono deba tener presencia principal sin comunicar una identidad de marca o un estado específico.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:23",
+      "name": "color/icon/on-brand",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Color de iconografía destinado a aparecer sobre superficies de marca. Úsalo cuando el ícono necesite conservar contraste y legibilidad dentro de un fondo cromático de identidad.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:33",
+      "name": "color/text/on-brand",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Color de texto destinado a superficies de marca. Úsalo cuando el texto necesite mantener contraste y legibilidad dentro de un fondo cromático de identidad.",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:57",
+      "name": "color/interactive/primary/default",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Superficie de interacción de máxima prominencia en su estado base. Úsala cuando una acción deba adoptar la identidad cromática principal definida por el modo activo.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "id": "VariableID:154:125",
+      "name": "color/background/notification-count",
+      "collection": "VariableCollectionId:6:2",
+      "resolvedType": "COLOR",
+      "description": "Fondo del indicador compacto que presenta un conteo de notificaciones; comparte valor primitivo con status-busy sin compartir su significado.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:125"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:125"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:125"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:125"
+        }
+      }
+    }
+  ],
+  "primitives": [
+    {
+      "id": "VariableID:8:3",
+      "name": "font/size/12",
+      "valuesByMode": {
+        "6:4": 12
+      }
+    },
+    {
+      "id": "VariableID:8:12",
+      "name": "font/line-height/16",
+      "valuesByMode": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:62",
+      "name": "color/green/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:71",
+      "name": "color/orange/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 0.32549020648002625,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:80",
+      "name": "color/purple/500",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:87",
+      "name": "color/blue/400",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:93",
+      "name": "color/neutral/100",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:95",
+      "name": "color/neutral/300",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:101",
+      "name": "color/neutral/900",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:125",
+      "name": "color/red/600",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.8313725590705872,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      }
+    }
+  ]
+}

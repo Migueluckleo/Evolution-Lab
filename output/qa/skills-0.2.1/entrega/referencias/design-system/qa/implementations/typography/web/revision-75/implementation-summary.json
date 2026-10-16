@@ -1,0 +1,113 @@
+{
+  "kind": "DERIVED_QA_NOT_AUTHORITY",
+  "status": "PASS",
+  "revision": "75-styles",
+  "previousEvidence": "../README.md",
+  "source": {
+    "path": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+    "sha256": "2b47811d3175b801f41e32e3bb174060697e7c265053741541bf7e602700afed"
+  },
+  "counts": {
+    "base": 18,
+    "complementary": 57,
+    "total": 75,
+    "newMaterializedScaleStyles": 3,
+    "existingFigmaRangesReferenced": 103
+  },
+  "results": {
+    "generatorPythonTests": 9,
+    "determinism": "PASS",
+    "typecheck": "PASS",
+    "staticBuild": "PASS",
+    "affectedBrowserTests": 2,
+    "renderedStyleRecipes": 300,
+    "consumerFamilies": 43,
+    "themes": 4,
+    "consumerTextMeasurements": 2956,
+    "consumerMeasurementsUnchanged": true
+  },
+  "fullBrowserSuite": "NOT_REPEATED; historical 61 PASS in ../browser-suite-61.json",
+  "files": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/scripts/typography.py": "956d899f3ecfca42584626901346d78dbbf003888565149f87869a4d2a8727aa",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/scripts/test_typography.py": "4cc8e2ae5ef1df719bc9fde36283d42788b1c622e32b072a59124f963ffac8ae",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/typography.spec.ts": "691ce8c1f638fd20a48f70f48f843d9bb6ba2a3dbd6007fdb66766fa579a968a",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.css": "655760885e0fe8cebc8593b81fbd675e8a1bf6b75c032bc407a6cb0bc63f5bd3",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.ts": "3ca2670e3462a01f2b45cbcd13dd5b2512cf4a2485a1c430149752a01ca1d1a7",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.manifest.json": "73621ffc687c53a61e1d42e2b992fd8f88a1704beae74422d63346d76f643ee8",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/docs/TYPOGRAPHY.md": "0500a17918a614173599541268c3f6997443826cd5604ca526cf43be83415041",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/docs/WEB-ADAPTATION.md": "97b5822711d73d0afc67475fa3a763656b6399f704899e314fb2cc9ac8abf2ca"
+  },
+  "materializedStyles": [
+    {
+      "id": "ui-checkbox-label-scaled-two-thirds",
+      "fontSize": 9.333333969116211,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13.333333969116211
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.0
+      },
+      "derivedFrom": {
+        "baseStyleId": "ui-body-compact",
+        "scaleFactor": 0.6666666865348816,
+        "scaleRatio": {
+          "numerator": 2,
+          "denominator": 3
+        },
+        "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+        "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+      }
+    },
+    {
+      "id": "ui-checkbox-label-scaled-five-sixths",
+      "fontSize": 11.666666030883789,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16.66666603088379
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.0
+      },
+      "derivedFrom": {
+        "baseStyleId": "ui-body-compact",
+        "scaleFactor": 0.8333333134651184,
+        "scaleRatio": {
+          "numerator": 5,
+          "denominator": 6
+        },
+        "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+        "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+      }
+    },
+    {
+      "id": "micro-count-small-scaled-four-thirds",
+      "fontSize": 5.333333492279053,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "derivedFrom": {
+        "baseStyleId": "micro-count-small",
+        "scaleFactor": 1.3333333730697632,
+        "scaleRatio": {
+          "numerator": 4,
+          "denominator": 3
+        },
+        "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+        "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+      }
+    }
+  ],
+  "limitations": [
+    "No reassignment of existing web consumers",
+    "Chrome only; browser computed-style strings serialize numeric precision independently of exact source CSS",
+    "No Figma validation is inferred from web QA"
+  ]
+}

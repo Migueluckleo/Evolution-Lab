@@ -1,0 +1,151 @@
+{
+  "nodes": 3519,
+  "edges": 7787,
+  "communities": 352,
+  "gods": [
+    {
+      "id": "registry_sources_document",
+      "label": "Registro de fuentes",
+      "degree": 141
+    },
+    {
+      "id": "registry_qa_document",
+      "label": "Registro de QA",
+      "degree": 107
+    },
+    {
+      "id": "specs_migration_traceability_status_document",
+      "label": "Cobertura de trazabilidad · Librería anterior → AI Design System",
+      "degree": 44
+    },
+    {
+      "id": "specs_migration_audit_document",
+      "label": "Auditoría por excepciones · migración de la Librería anterior",
+      "degree": 40
+    },
+    {
+      "id": "registry_contracts_document",
+      "label": "Contract registry versioned approvals and delegation",
+      "degree": 27
+    },
+    {
+      "id": "drafts_contracts_filter_chip_contract_filter_chip",
+      "label": "Filter Chip",
+      "degree": 25
+    },
+    {
+      "id": "drafts_contracts_button_contract_contrato_candidato_button",
+      "label": "Contrato candidato: Button",
+      "degree": 25
+    },
+    {
+      "id": "specs_components_button_contract_contrato_aprobado_button",
+      "label": "Contrato aprobado: Button",
+      "degree": 25
+    },
+    {
+      "id": "drafts_contracts_radio_button_contract_v0_1_0_candidate_radio_button_contrato_candidato_de_reconstrucción_0_1_0",
+      "label": "Radio Button · contrato candidato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_badge_contract_v0_1_0_candidate_badge_candidato_de_contrato_0_1_0",
+      "label": "Badge · candidato de contrato 0.1.0",
+      "degree": 23
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Dot source color documentary QA 0.1.2",
+      "target": "Dot inactive alias override",
+      "source_files": [
+        "qa/contracts/dot.source-color-amendment.v0.1.2.review.md",
+        "drafts/foundations/ai-design-system.dot-inactive-border.v0.1.1.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories"
+    },
+    {
+      "source": "Navigation Pagination documentary QA 0.1.0",
+      "target": "Pagination border token extension",
+      "source_files": [
+        "qa/contracts/navigation-pagination.v0.1.0.review.md",
+        "drafts/foundations/ai-design-system.navigation-pagination-border.v0.1.0.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories"
+    },
+    {
+      "source": "Foundations · borde sutil de Pagination 0.1.14",
+      "target": "Pagination border token extension",
+      "source_files": [
+        "specs/foundations.navigation-pagination-border.amendment.v0.1.14.md",
+        "drafts/foundations/ai-design-system.navigation-pagination-border.v0.1.0.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code ↔ doc); connects across different repos/directories"
+    },
+    {
+      "source": "Icon Button documentary QA 0.1.0",
+      "target": "Icon Button background token extension",
+      "source_files": [
+        "qa/contracts/icon-button.v0.1.0.review.md",
+        "drafts/foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories"
+    },
+    {
+      "source": "Environment and Tools Protocol",
+      "target": "Graphify",
+      "source_files": [
+        "protocols/01-ENVIRONMENT-AND-TOOLS.md",
+        ".codex/skills/graphify/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Environment and Tools Protocol` connect `Documentation Sources` to `Graph Operations`, `Query`?",
+      "why": "High betweenness centrality (0.008) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Graphify` connect `Query` to `Documentation Sources`?",
+      "why": "High betweenness centrality (0.007) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Registro de fuentes` connect `Fuentes y procedencia` to `Fuentes y procedencia`, `Scrollbar Contract`, `Fuentes y procedencia`, `Navigation Tab Contract`, `Navigation Switch Tab Item Contract`, `Search Contract`, `Select Contract`, `Textarea Contract`, `Fuentes y procedencia`, `Loader Contract`, `Navigation Pagination Contract`, `Stepper Contract`, `Steps Contract`, `Scrollbar Contract`, `Dot Contract`, `Icon Button Contract`, `Inline Notification Contract`, `Metric Card Contract`, `Auditoría por excepciones`, `Continuidad y pendientes`, `Input Field Dependencies`, `Toggle Mixed Amendment`, `Header Discovery`, `Dropdown Item Contract`?",
+      "why": "High betweenness centrality (0.005) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Specs Driven Design — paquete 0.2.3`, `DELEGATED_FOR_BUILD no equivale a APPROVED`, `P-SLOTS: REQUIRED, NOT_APPLICABLE o UNRESOLVED` to the rest of the system?",
+      "why": "139 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.021900826446280993 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Composition Slots` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `QA y evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.034061458718992965 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+const fs=require('fs'),assert=require('assert'),AsyncFunction=Object.getPrototypeOf(async function(){}).constructor;
+const all=new Map();let calls=0;
+function n(id,type,name=id){const x={id,type,name,visible:true,componentPropertyReferences:{},parent:null,children:[]};all.set(id,x);return x;}
+function add(p,c){p.children.push(c);c.parent=p;return c;}
+function text(id){const x=n(id,'TEXT','Label');Object.assign(x,{width:10,height:10,textAutoResize:'WIDTH_AND_HEIGHT',characters:'x',getStyledTextSegments(){return[{start:0,end:1,fontName:{family:'Manrope',style:'Regular'},fontWeight:400,fontSize:14,lineHeight:{unit:'PIXELS',value:20},letterSpacing:{unit:'PIXELS',value:0},textStyleId:id==='principal'?'STYLE_A':'',textStyleOverrides:[],boundVariables:{},textDecoration:'NONE',textCase:'ORIGINAL',fills:[],hyperlink:null,paragraphSpacing:0,paragraphIndent:0}];}});return x;}
+function inst(id,main){const x=n(id,'INSTANCE','Nested');Object.assign(x,{scaleFactor:0.5,overrides:[],componentProperties:{},async getMainComponentAsync(){calls++;return main;}});return x;}
+const doc=n('doc','DOCUMENT'),page=add(doc,n('page','PAGE')),component=add(page,n('main','COMPONENT')),principal=add(component,text('principal'));
+const outerMain=add(page,n('outer-main','COMPONENT')),intermediate=add(outerMain,inst('intermediate-instance',component)),middle=add(intermediate,text('middle-text'));
+const outer=add(page,inst('outer-instance',outerMain)),inner=add(outer,inst('inner-instance',component)),leaf=add(inner,text('leaf-text'));
+page.findAllWithCriteria=()=>[leaf,middle,principal];
+const cfg={pageId:'page',mappingSha256:'fixture',targets:[{nodeId:leaf.id}]};
+const api={skipInvisibleInstanceChildren:true,async getNodeByIdAsync(id){if(id!=='page')throw Error('No virtual text ID lookups allowed');return all.get(id);},async setCurrentPageAsync(p){assert.equal(p,page);}};
+(async()=>{const fn=new AsyncFunction('figma','CFG','PART_INDEX',fs.readFileSync('/tmp/typography-inheritance-supplement-v3/audit.js','utf8'));const result=await fn(api,cfg,0);assert.equal(result.parts,1);const p=JSON.parse(result.payload);assert.deepStrictEqual(p.issues,[]);assert.equal(p.routes.length,3);assert.equal(p.counts.allTexts,3);assert.equal(p.counts.blankTargetRanges,1);assert(p.routes.some(r=>p.ids[r[0]]===leaf.id&&p.ids[r[1]]===outer.id&&p.ids[r[6]]===middle.id));assert(p.routes.some(r=>p.ids[r[0]]===middle.id&&p.ids[r[6]]===principal.id));assert(p.texts.find(t=>p.ids[t[0]]===principal.id)[7]);assert.equal(calls,3);console.log('PASS nested actual children -> outer main counterpart -> inner main principal; 3 actual routes, main calls deduplicated, no suffix parsing');})();

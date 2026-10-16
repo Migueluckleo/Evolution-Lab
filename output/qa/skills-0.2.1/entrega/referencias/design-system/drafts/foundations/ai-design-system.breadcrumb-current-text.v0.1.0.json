@@ -1,0 +1,30 @@
+{
+  "extensionId": "FOUNDATIONS-BREADCRUMB-CURRENT-TEXT-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {"6:0": "Contable", "6:1": "Administrativo", "6:2": "Servicios", "6:3": "Personas"}
+  },
+  "variables": [
+    {
+      "name": "color/text/breadcrumb/current",
+      "resolvedType": "COLOR",
+      "description": "Texto del último segmento de Breadcrumb sobre fondo claro; conserva el acento de marca de cada modo con contraste suficiente para texto normal.",
+      "scopes": ["TEXT_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/blue/400", "targetId": "VariableID:8:87"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/green/500", "targetId": "VariableID:8:62"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/orange/700", "targetId": "VariableID:8:73"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/purple/500", "targetId": "VariableID:8:80"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "implementationId": "IMP-NAVIGATION-PAGINATION-FIGMA-001",
+  "slotsReview": {"contract": "specs/composition-slots.amendment.v0.1.1.md", "state": "implementations/figma/composition-slots.v0.1.1.state.json", "status": "VALIDATED", "date": "2026-09-30", "scope": "Pages y herencia contextual de Disabled; datos siguientes son históricos", "tokenData": "drafts/foundations/ai-design-system.pagination-slot-state.v0.1.0.json"},
+  "runId": "legacy-navigation-pagination-2026-09-24",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "contract": {
+    "id": "NAVIGATION-PAGINATION-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "path": "specs/navigation-pagination.contract.v0.1.0.md"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "268:20245",
+    "setId": "2461:714",
+    "variantIds": ["2461:715", "2461:741", "2461:767", "2461:793", "2461:819"]
+  },
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Navigation",
+    "pageId": "275:122",
+    "setId": "297:454",
+    "variantIds": ["291:301", "297:122", "297:147", "297:172", "297:197"]
+  },
+  "tokenBindings": {
+    "paginationSubtleBorder": "VariableID:290:122",
+    "focusBorder": "VariableID:13:71",
+    "focusStrokeWidth": "VariableID:13:3"
+  },
+  "iconComponents": {
+    "caretLeftSourceKey": "4472d4a157a44ccd6e7e4911b4c9dcad1dc04b34",
+    "caretRightSourceKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+    "caretDownTargetKey": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+    "caretDoubleLeftTargetKey": "791ac575d3135af604b137c620e66fb2bec69d1c",
+    "caretDoubleRightTargetKey": "e0c3dba96eb798c7b3ca6ddb8bb5bced41505ccc"
+  },
+  "completedSteps": ["P1", "P2", "P3", "P4"],
+  "lastReadback": {
+    "variantCount": 5,
+    "publicPropertyCount": 7,
+    "width": 354,
+    "height": 66,
+    "iconInstanceCount": 25,
+    "paintCount": 125,
+    "boundPaintCount": 125,
+    "scopeOrSemanticIssues": 0,
+    "textCount": 25,
+    "typographyAliasCount": 75,
+    "reactionCount": 0,
+    "propertyInstanceTest": "PASS",
+    "visualReview": "PASS; source and target set captures compared",
+    "qaRecord": "QA-NAVIGATION-PAGINATION-FIGMA-001"
+  },
+  "knownLimits": [
+    "Page numbers and items per page are demo placeholders; pagination behavior is not implemented in Figma.",
+    "Published Phosphor variants replace three source-local Caret keys; the keys are not identical.",
+    "Navigation Tab and other remaining families are not yet migrated."
+  ]
+}

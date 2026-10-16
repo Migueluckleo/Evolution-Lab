@@ -1,0 +1,42 @@
+{
+  "amendmentId": "FOUNDATIONS-NAVIGATION-TAB-BORDERS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {
+      "name": "color/border/navigation-tab/subtle",
+      "targetId": "VariableID:309:122",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Línea y divisor sutil del Tab de navegación. Conserva los colores observados por modo en la Librería anterior sin alterar el borde sutil compartido.",
+      "scopes": ["STROKE_COLOR"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/blue/200", "targetId": "VariableID:8:85"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/green/200", "targetId": "VariableID:8:59"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/red/200", "targetId": "VariableID:8:121"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/purple/200", "targetId": "VariableID:8:77"}
+      }
+    },
+    {
+      "name": "color/border/navigation-tab/disabled",
+      "targetId": "VariableID:309:123",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Borde del Tab de navegación deshabilitado, vinculado al gris neutral/400 observado en la Librería anterior; no representa el estado Off operable.",
+      "scopes": ["STROKE_COLOR"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/neutral/400", "targetId": "VariableID:8:96"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/neutral/400", "targetId": "VariableID:8:96"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/neutral/400", "targetId": "VariableID:8:96"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/neutral/400", "targetId": "VariableID:8:96"}
+      }
+    }
+  ]
+}

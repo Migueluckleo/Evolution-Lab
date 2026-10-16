@@ -1,0 +1,16 @@
+{
+  "amendmentId": "FOUNDATIONS-FEEDBACK-ICON-SCOPES-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "scopeOverrides": [
+    {"name": "color/feedback/positive/icon", "targetId": "VariableID:13:44", "previousScopes": ["FRAME_FILL", "SHAPE_FILL"], "scopes": ["SHAPE_FILL"]},
+    {"name": "color/feedback/warning/icon", "targetId": "VariableID:13:48", "previousScopes": ["FRAME_FILL", "SHAPE_FILL"], "scopes": ["SHAPE_FILL"]},
+    {"name": "color/feedback/danger/icon", "targetId": "VariableID:13:52", "previousScopes": ["FRAME_FILL", "SHAPE_FILL"], "scopes": ["SHAPE_FILL"]}
+  ],
+  "unchangedFields": ["description", "resolvedType", "codeSyntax", "valuesByMode", "aliases"]
+}

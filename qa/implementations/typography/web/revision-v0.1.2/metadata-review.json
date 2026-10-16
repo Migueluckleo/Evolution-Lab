@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "version": "0.1.2",
+  "result": "PASS",
+  "scope": "Documentary typography update; exact79 recipes and identical CSS declarations/selectors",
+  "counts": {
+    "styles": 79,
+    "base": 18,
+    "complementary": 61,
+    "descriptionChanges": 3,
+    "reasonChanges": 3
+  },
+  "checks": {
+    "activeSelector": true,
+    "exact79IdentitiesAndRecipes": true,
+    "onlyThreeDescriptionsAndReasons": true,
+    "presentationCssByteIdentical": true,
+    "generated:src/generated/typography.css": true,
+    "generated:src/generated/typography.ts": true,
+    "generated:src/generated/typography.manifest.json": true,
+    "generated:docs/TYPOGRAPHY.md": true,
+    "existing11UnitTests": true
+  },
+  "styleChanges": [
+    {
+      "styleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "field": "description"
+    },
+    {
+      "styleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "field": "derivedFrom.reason"
+    },
+    {
+      "styleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "field": "description"
+    },
+    {
+      "styleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "field": "derivedFrom.reason"
+    },
+    {
+      "styleLogicalId": "micro-count-small-scaled-four-thirds",
+      "field": "description"
+    },
+    {
+      "styleLogicalId": "micro-count-small-scaled-four-thirds",
+      "field": "derivedFrom.reason"
+    }
+  ],
+  "presentationCssSha256": "54fb093c570a60958946f71f83bf122719c2f5a4111f8bc13ab4d94f6f535f45",
+  "tests": {
+    "command": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "implementations/web/scripts",
+      "-p",
+      "test_typography.py"
+    ],
+    "exitCode": 0,
+    "output": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.003s\n\nOK\n"
+  },
+  "browser": "NOT_RERUN_FOR_DOCUMENTARY_CHANGE",
+  "limits": [
+    "No new browser, Figma consumer or visual-approval claim.",
+    "CSS comparison excludes only the generated first-line provenance comment; all declarations and selectors compare byte-for-byte."
+  ],
+  "sources": {
+    "drafts/foundations/ai-design-system.avatar-roles.v0.1.0.json": "66a680bbb494895c76b43b9ca0d1b081c51afbb9c4dd079b6cf841c6488dc1f6",
+    "drafts/foundations/ai-design-system.avatar-roles.v0.1.1.json": "513d22e690587bf3be16ae71f16ac869d6cb00c6e1d2231ecc140169b486fa53",
+    "drafts/foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json": "b4ea10cbc0165d737a0dff9c75e8ce8de920b2084df31e722e5f9823e85c5603",
+    "drafts/foundations/ai-design-system.chart-colors.v0.1.0.json": "12768f8d7d3f786ece264678263a3acc94417255e4de34d23554ec762113b9e0",
+    "drafts/foundations/ai-design-system.control-colors.v0.1.0.json": "4ef75143af30b0e934cb94aa62d3acb56c32874dc7e229a500a31c8928a7f839",
+    "drafts/foundations/ai-design-system.control-colors.v0.1.1.json": "921e7cc9e375dbf5a5317dfd974afc33d7477e09b65a8631a6863305896be683",
+    "drafts/foundations/ai-design-system.dot-background-colors.v0.1.0.json": "6b78e90c03bf1406807564569ccacdaae15c9ffa4e795b02c7dfdf7151a16667",
+    "drafts/foundations/ai-design-system.dot-inactive-border.v0.1.0.json": "edd8a4afe5f70502a395a5a1190aa11db3600b6a84472298f9b3a5e325f8c98a",
+    "drafts/foundations/ai-design-system.dot-inactive-border.v0.1.1.json": "fa9d3408c87936c88f867de9ea037ecab7ad6b08886f2dc30c3b49aedd87aceb",
+    "drafts/foundations/ai-design-system.empty-states.v0.1.0.json": "80836276852d21dd46c827f1f40d0e167f942553e3777b8c85cc3a551279772c",
+    "drafts/foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json": "455adef5111796d6e14f97fdf310e768f5ac6bdb9190491714335a0c520dab2e",
+    "drafts/foundations/ai-design-system.focus-effects.v0.1.0.json": "0baef3e14a121d3284c04d28bd8bf2cc66a940270f3486994a23e3456d7fc3d4",
+    "drafts/foundations/ai-design-system.header-release.v0.1.0.json": "8c5e8d90c55c04edba7020cdf03a4749aea369b85047e1bc84b0055d363a202b",
+    "drafts/foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json": "036d143ca6169355bb2ba345e80a9c6941ce545ef2fbabaae679f1a925201b0e",
+    "drafts/foundations/ai-design-system.linear-progress-colors.v0.1.0.json": "8dfbd5c2952bc47feabbf202687a69da14e60277f250b6493fe4222d5a66472b",
+    "drafts/foundations/ai-design-system.metric-card-roles.v0.1.0.json": "61e3eb83c09cd8eef57da4dc7b30a3f425f7f22983a4231bc72e0540ac7f8df0",
+    "drafts/foundations/ai-design-system.navigation-pagination-border.v0.1.0.json": "863f1711d70cb2f020680d89686693fcb1b2e65055afc017e9e10947c506f7c7",
+    "drafts/foundations/ai-design-system.navigation-tab-borders.v0.1.0.json": "fe78ac2b642db5bb6f355dda93af1d6ecf54bb8c11c29c6249b6addfe949c2eb",
+    "drafts/foundations/ai-design-system.navigation-tab-colors.v0.1.0.json": "513f1dd9e009d09b1f42c270ce7354ccc2bcebc72dd51d0642a3415e269825bf",
+    "drafts/foundations/ai-design-system.pagination-slot-state.v0.1.0.json": "e1c3990ae542c41415d45270236e65e5dc82f73e81f3f28dc77fbcd00a822ac0",
+    "drafts/foundations/ai-design-system.radio-indicator-colors.v0.1.0.json": "46f53dc329a93374f486ad26452cdd991c6cb0651a6c068865e34352d8e6161a",
+    "drafts/foundations/ai-design-system.scrollbar-colors.v0.1.1.json": "22d7e5f428732ce8158267873c0e10d52311d748a7a5a7f4ac64a40010ac78d4",
+    "drafts/foundations/ai-design-system.sidebar.v0.1.0.json": "800475639b8c18f683f8fe336105b8ae0a424e1cbac04b0f6aee6c9c6283615a",
+    "drafts/foundations/ai-design-system.stepper-colors.v0.1.1.json": "ba53e25baec0fa80d9f53e30ca3f5cec5e9e85563cfcc7e1b138cc74018bea14",
+    "drafts/foundations/ai-design-system.steps-colors.v0.1.1.json": "a02f22afaf3966a08d559e6420a7bdcec6f60bc2ef83b5cc80ece78b0cd69e33",
+    "drafts/foundations/ai-design-system.warning-icon-contrast.v0.1.1.json": "565fddec17b67743a320d91beb3850e2166bbfc892ba81443cc0a4905e6b7887",
+    "implementations/web/docs/TYPOGRAPHY.md": "e4ea9dc03045a9735f00a621337f0f609d5dc79c250420a1a1dace38443ebd44",
+    "implementations/web/scripts/test_typography.py": "d007c88754729c985d6cc6574c0bb6e242499ffa0c4821cbfa6fd4913af17cf4",
+    "implementations/web/scripts/tokens.py": "a1bc0df982b7627b66a0b9480591bce2c4c84364d11cb738c4d5d3a3194adeef",
+    "implementations/web/scripts/typography.py": "9e81e6a4d4a58c24ee1ec22a7d2876777602e692d3704176d02d50c6cd147c08",
+    "implementations/web/src/generated/typography.css": "a7e05b69d3da339aac7cd9f50139a2d6e7f44283f721435c099fe0b62ab1b229",
+    "implementations/web/src/generated/typography.manifest.json": "4c0a0581caa349612fae3bd09247b4f9bf6e5d5f4fb0a19236b4ace8ca2e6806",
+    "implementations/web/src/generated/typography.ts": "6a72e8d36bb4feb5cd23cec106e14e289af4568d7cf189d1b3783d73bd17d5b4",
+    "qa/implementations/typography/web/revision-v0.1.2/review.py": "7fa8b426bca7825a7b5b26991d23f4035df9ca0b17f4c282520360f6383984ad",
+    "sources/inventories/ai-design-system.fuentes-hover.v0.1.0.json": "37f23b5ddab3c88a2840eb8b9cb4971f48aee6a3755c3c586bae01eb4e528511",
+    "sources/inventories/tokens.inventory.json": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "specs/tokens/ai-design-system.character-identity.v0.1.0.json": "08d7ce889cae493027d97af1cf991ed77a5a11941eb02926a4c8d46eb0711fe4",
+    "specs/tokens/ai-design-system.character-shadow.v0.1.0.json": "9ff2751fb2ac32d5ce4960c5d24fdcc928a98331331a45e826dfb5cebbe3b0e4",
+    "specs/tokens/ai-design-system.inverse-icon.v0.1.0.json": "7f982ccc0952adbc3eef0ec9e96da0f5531fe9ce643a69156492fab0a8372a7f",
+    "specs/tokens/ai-design-system.six-family-color.v0.1.0.json": "42e29b60c02b629c4b4d537c8e1f1b6f14e492e7b4fe29e2ec17204e5e5cc2ff",
+    "specs/tokens/ai-design-system.typography.v0.1.1.json": "26b05557aeeb40f78398a673f768a82035474dc84796aa6f5350f1ce911664cd",
+    "specs/tokens/ai-design-system.typography.v0.1.2.json": "074a31a83f09b30a02fa8b8f0a7730bdb33fc0a8a9c59e3c8d2469b5799e934c"
+  }
+}

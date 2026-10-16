@@ -1,0 +1,342 @@
+{
+  "family": "chat-toolbar",
+  "sources": {
+    "base": "specs/chat-toolbar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat.layout.amendment.v0.1.1.md"
+    ]
+  },
+  "checks": 80,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/false",
+      "actual": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "contable/true",
+      "actual": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "contable/true/header",
+      "actual": {
+        "width": 232,
+        "height": 32
+      },
+      "expected": {
+        "width": 232,
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/true/plan",
+      "actual": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      },
+      "expected": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      }
+    },
+    {
+      "case": "contable/true/track",
+      "actual": {
+        "width": 200,
+        "height": 8
+      },
+      "expected": {
+        "width": 200,
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/true/fill",
+      "actual": {
+        "width": 56,
+        "height": 8
+      },
+      "expected": {
+        "width": 56,
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/false",
+      "actual": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "administrativo/true",
+      "actual": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "administrativo/true/header",
+      "actual": {
+        "width": 232,
+        "height": 32
+      },
+      "expected": {
+        "width": 232,
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/true/plan",
+      "actual": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      },
+      "expected": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      }
+    },
+    {
+      "case": "administrativo/true/track",
+      "actual": {
+        "width": 200,
+        "height": 8
+      },
+      "expected": {
+        "width": 200,
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/true/fill",
+      "actual": {
+        "width": 56,
+        "height": 8
+      },
+      "expected": {
+        "width": 56,
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/false",
+      "actual": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "servicios/true",
+      "actual": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "servicios/true/header",
+      "actual": {
+        "width": 232,
+        "height": 32
+      },
+      "expected": {
+        "width": 232,
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/true/plan",
+      "actual": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      },
+      "expected": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      }
+    },
+    {
+      "case": "servicios/true/track",
+      "actual": {
+        "width": 200,
+        "height": 8
+      },
+      "expected": {
+        "width": 200,
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/true/fill",
+      "actual": {
+        "width": 56,
+        "height": 8
+      },
+      "expected": {
+        "width": 56,
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/false",
+      "actual": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 79,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "personas/true",
+      "actual": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 264,
+        "height": 791,
+        "min-height": "791px",
+        "padding": "16px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "personas/true/header",
+      "actual": {
+        "width": 232,
+        "height": 32
+      },
+      "expected": {
+        "width": 232,
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/true/plan",
+      "actual": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      },
+      "expected": {
+        "width": 232,
+        "height": 144,
+        "padding": "16px",
+        "row-gap": "16px"
+      }
+    },
+    {
+      "case": "personas/true/track",
+      "actual": {
+        "width": 200,
+        "height": 8
+      },
+      "expected": {
+        "width": 200,
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/true/fill",
+      "actual": {
+        "width": 56,
+        "height": 8
+      },
+      "expected": {
+        "width": 56,
+        "height": 8
+      }
+    }
+  ]
+}

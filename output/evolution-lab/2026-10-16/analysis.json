@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "title": "Evolution Lab · análisis de viabilidad y propuesta",
+  "date": "2026-10-16",
+  "timezone": "America/Merida",
+  "status": "PROPOSAL_NOT_IMPLEMENTED",
+  "scope": "Optimización del sistema de diseño CONTPAQi y sus dos skills de consumo",
+  "authorization": {
+    "requested": "Analizar cómo hacer Evolution Lab dentro de Codex con agentes",
+    "clarification": "Optimización del sistema de diseño y sus skills",
+    "executed": "Lectura, navegación del grafo, verificación local y registro del análisis",
+    "not_executed": [
+      "Experimentos",
+      "Delegación a subagentes",
+      "Cambios en las skills",
+      "Escrituras en Figma",
+      "Instalaciones",
+      "Automatizaciones",
+      "Publicaciones"
+    ]
+  },
+  "reference_images": {
+    "interpretation": "Referencias conceptuales aportadas por el usuario, no instrucciones ejecutables ni aprobación de implementación",
+    "roles": [
+      "Orquestación",
+      "Diagnóstico",
+      "Investigación",
+      "Innovación",
+      "Experimentación",
+      "Evaluación",
+      "Auditoría"
+    ],
+    "reported_example": {
+      "baseline_minutes": 40,
+      "candidate_minutes": 15,
+      "reduction_percent": 62.5,
+      "classification": "HYPOTHETICAL_NOT_MEASURED"
+    }
+  },
+  "observed_foundation": {
+    "release_record": "registry/skills.md",
+    "latest_recorded_release": "0.2.1",
+    "families_in_release": 43,
+    "editable_skills": [
+      "skills/contpaqi-po-prototypes",
+      "skills/contpaqi-figma-screens"
+    ],
+    "existing_runner": "scripts/ds",
+    "existing_packager": "scripts/ds_skills.py",
+    "governance": [
+      "P05",
+      "P06",
+      "P07 cuando cambia un componente",
+      "P08",
+      "P-SLOTS cuando se construye o modifica una familia"
+    ],
+    "handoff_review": {
+      "source": "qa/skills/release-0.2.1/md-forward-test.md",
+      "recorded_result": "PASS_MD_ONLY_FORWARD_REVIEW",
+      "figma_execution_for_that_test": "NOT_RUN",
+      "meaning": "La revisión documental no certifica reconstrucción ni fidelidad visual en Figma"
+    }
+  },
+  "checks_executed": [
+    {
+      "command": "graphify query skills release contracts validation --budget 1300",
+      "result": "Navigation succeeded; output truncated by requested budget",
+      "use": "Localizar fuentes; afirmaciones confirmadas en archivos originales",
+      "expanded_vocabulary": [
+        "skills",
+        "release",
+        "contracts",
+        "validation"
+      ]
+    },
+    {
+      "command": "./scripts/ds graph plan",
+      "result": "NO_SOURCE_DELTA",
+      "corpus_files": 2325,
+      "new": [],
+      "changed": [],
+      "deleted_or_excluded": []
+    },
+    {
+      "command": "./scripts/ds check",
+      "exit_code": 0,
+      "result": "PASS",
+      "documentation": "PASS",
+      "graph": "CURRENT",
+      "derived_view": "CURRENT",
+      "skills": "CURRENT",
+      "warnings": [
+        "specs/components/button.contract.md: PLUS-CIRCLE-OBSERVED-001",
+        "specs/components/button.contract.md: PHOSPHOR-ICONS-001",
+        "specs/components/button.contract.v0.2.0.md: PHOSPHOR-ICONS-001",
+        "specs/components/filter-chip.contract.v0.2.0.md: PlusCircle"
+      ],
+      "limitation": "Control documental y determinista; no es nueva validación visual ni funcional de Figma"
+    }
+  ],
+  "recommended_architecture": {
+    "entrypoint": "Skill evolution-lab propuesta, aún no creada",
+    "orchestrator": "Chat principal de Codex que conserva objetivo, presupuesto, estado y decisiones",
+    "roles": [
+      {
+        "name": "diagnostico",
+        "output": "Problemas reproducibles, alcance afectado, fuentes y medición inicial"
+      },
+      {
+        "name": "investigacion",
+        "output": "Alternativas documentadas, compatibilidad y restricciones"
+      },
+      {
+        "name": "innovacion",
+        "output": "Hipótesis falsable, cambio único y beneficio esperado; puede asumirlo el orquestador"
+      },
+      {
+        "name": "experimentacion",
+        "output": "Candidato aislado y evidencia de ejecución; no decide su aceptación"
+      },
+      {
+        "name": "evaluacion",
+        "output": "Comparación con referencia mediante controles previamente fijados"
+      },
+      {
+        "name": "auditoria",
+        "output": "Revisión separada de evidencia, sesgos, regresiones y límites"
+      }
+    ],
+    "scheduling": "Roles bajo demanda; en esta sesión hay cuatro posiciones concurrentes incluyendo el orquestador. Los roles se ejecutan por tandas.",
+    "delegation": "La futura skill debe solicitar explícitamente delegación para tareas independientes; describir roles no crea agentes persistentes.",
+    "isolation": "Worktree por candidato o propiedad exclusiva de archivos; un solo integrador. Los subagentes comparten permisos y entorno, y un worktree no aísla Figma ni instalaciones globales.",
+    "state": "Registro persistente por corrida con referencia exacta, versiones, hashes, hipótesis, mediciones, decisión y siguientes pasos",
+    "learning": "Actualizar conocimientos operativos con evidencia; no implica reentrenar el modelo ni convertir aprendizajes en normas automáticamente",
+    "continuity": "Ejecución manual inicial; programación posterior solo si se solicita. Una tarea local programada necesita equipo y aplicación disponibles."
+  },
+  "experiment_protocol_proposal": {
+    "objective_fields": [
+      "Resultado esperado",
+      "Métrica principal",
+      "Restricciones",
+      "Archivos permitidos",
+      "Presupuesto",
+      "Reglas de parada",
+      "Autoridad de promoción"
+    ],
+    "baseline": "Congelar versiones y hashes del DS, skills, casos, herramientas y configuración; capturar también cambios locales aún no confirmados en Git",
+    "controls": [
+      "Una hipótesis por candidato y comparación contra la misma referencia",
+      "Mantener configuración comparable y separar efecto de caché o red",
+      "Registrar todas las ejecuciones, reintentos y fallos",
+      "Incluir casos reservados para evaluación y agentes con contexto nuevo",
+      "Separar tiempos de agente, tiempo transcurrido y minutos de intervención humana",
+      "Conservar evidencia bruta; el evaluador reejecuta controles y no se limita al resumen del autor",
+      "Fijar criterio de mejora práctica y tolerancias antes de ver resultados; no hay umbrales aprobados en este análisis",
+      "Registrar consumo real cuando exista telemetría; en su ausencia UNAVAILABLE y contadores observables sin convertirlos en tokens o coste inventados"
+    ],
+    "stop_conditions_proposed": [
+      "Presupuesto agotado",
+      "Evidencia insuficiente",
+      "Conflicto material",
+      "Regresión obligatoria",
+      "Falta de mejora útil"
+    ],
+    "outcomes_proposed": [
+      "ADOPT",
+      "REJECT",
+      "INCONCLUSIVE",
+      "BLOCKED"
+    ],
+    "status_boundary": "Estos estados experimentales no sustituyen aprobación contractual, QA de implementación ni auditoría humana del proyecto",
+    "promotion": "Corregir o versionar fuentes editables según alcance; P07 si afecta componentes; generar ambas skills por P08; verificar cierre P05/P06 y conservar reversión. Un candidato ganador no se instala por sí solo."
+  },
+  "pilot_proposal": {
+    "name": "Reducir tiempo y retrabajo de prompt a HTML, Markdown y pantalla Figma verificable",
+    "first_step": "Instrumentar y medir el recorrido actual antes de elegir optimización",
+    "cases": [
+      "Formulario sencillo con error y éxito",
+      "Tabla con texto largo y contenido variable",
+      "Modal con contenido dinámico y navegación por teclado",
+      "Chat con tipografía y personajes",
+      "Caso de transferencia Markdown sin acceso al HTML original",
+      "Caso de componente o dependencia inaccesible, con resultado esperado definido"
+    ],
+    "sample_proposal": "Selección acotada de casos y varias repeticiones por caso; como arranque exploratorio, tres. No equivale a evidencia estadística concluyente.",
+    "candidate_hypotheses": [
+      "Resolver automáticamente fuentes y dependencias necesarias reduce búsquedas sin perder cobertura",
+      "Prevalidar el handoff detecta omisiones antes de construir Figma y reduce correcciones"
+    ],
+    "primary_metric": "Tiempo total hasta un resultado que cumpla todos los controles obligatorios del caso",
+    "secondary_metrics": [
+      "Minutos de intervención humana",
+      "Éxito al primer intento",
+      "Reintentos",
+      "Errores por clase",
+      "Consumo disponible",
+      "Llamadas a herramientas"
+    ],
+    "quality_constraints": [
+      "Contratos y versiones correctos",
+      "Bindings y aliases",
+      "Tipografía por rango y excepción nativa",
+      "Slots aplicables",
+      "Assets originales",
+      "HTML offline",
+      "Estados y accesibilidad web",
+      "Evidencia real de Figma"
+    ],
+    "figma_dependency": "Archivo de pruebas autorizado y acceso efectivo; no usar la biblioteca maestra como sandbox",
+    "fallback": "Si Figma no puede ejecutarse, medir tramo local y declarar limitada la evidencia de extremo a extremo"
+  },
+  "planned_artifacts_not_created": [
+    "Skill evolution-lab",
+    "Perfiles de agentes del laboratorio",
+    "Configuración de objetivos, presupuestos y promoción",
+    "Casos de evaluación versionados",
+    "Extensión o scripts que reutilizan scripts/ds",
+    "Registro por corrida con referencia, candidato, métricas, evidencia y decisión",
+    "Reporte humano de antes/después, límites y reversión"
+  ],
+  "unresolved_for_execution": [
+    "Objetivo cuantificado y criterio de mejora práctica",
+    "Presupuesto de tiempo y uso por experimento",
+    "Conjunto inicial de casos y repeticiones",
+    "Destino Figma de pruebas",
+    "Telemetría realmente disponible para medir consumo por corrida"
+  ],
+  "record_retention": "Análisis bajo output/, excluido del corpus canónico por configuración existente. No cambia contratos, skills ni la autoridad documental; no requiere regenerar el grafo sin delta de fuentes.",
+  "official_sources": [
+    "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+    "https://learn.chatgpt.com/docs/environments/git-worktrees",
+    "https://learn.chatgpt.com/docs/build-skills",
+    "https://learn.chatgpt.com/docs/automations?surface=app"
+  ],
+  "local_sources_read": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "23bc32030a9a31ee1f2a5cabec1b12b2a701f7e0a94cd9dabcb0f086d1952b2a"
+    },
+    {
+      "path": "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+      "sha256": "92a1abd32d5db5f1d423aaab41cffc85efe898a72b59c3d7b562bc351479eaa3"
+    },
+    {
+      "path": "protocols/06-QA-AND-VALIDATION.md",
+      "sha256": "8ef1a9217731291917213dc1b78e2eba5f9c656e0926d5aecbd5b6ccbbbfac32"
+    },
+    {
+      "path": "protocols/08-SKILLS-AND-RELEASES.md",
+      "sha256": "71cb5c40b6c18ae10494a55698dbd5b0bc423eb71a3cf4b72417fa180c8c5783"
+    },
+    {
+      "path": "references/PROJECT-TOOLING.md",
+      "sha256": "86a6a0f959c29a7092442a2f16ef03b65d1574070fd38b5ff3706a3fcafa50a0"
+    },
+    {
+      "path": "config/ds-project.json",
+      "sha256": "e20c08137ef416b602b8c4d26119b0b74dcdafb77b5e37b111eb8b4bce6825b0"
+    },
+    {
+      "path": "registry/skills.md",
+      "sha256": "61ffcb6ab9080759b583b548f142c139190e5a511d6a095b4f189030d6cced44"
+    },
+    {
+      "path": "skills/contpaqi-po-prototypes/SKILL.md",
+      "sha256": "0255248886284f505fcf94a5b3821881716e9b5389643d60f6afc0ca09485d4a"
+    },
+    {
+      "path": "skills/contpaqi-figma-screens/SKILL.md",
+      "sha256": "87c5c4b743d343bb3586e6397ef823c74146988b455ff1bcbabff7cd3a038c18"
+    },
+    {
+      "path": "qa/skills/release-0.2.1/md-forward-test.md",
+      "sha256": "81145ddf1dde5f6bee765966e390478539e8e6cb266c0f3374d48a27bac5cb4b"
+    }
+  ],
+  "communication_visibility_requirement": {
+    "provenance": "EXPLICIT_USER_REQUEST",
+    "request": "Ver explícitamente cómo se comunican los agentes, qué se solicitan y por qué.",
+    "implementation_status": "PROPOSED_NOT_IMPLEMENTED",
+    "views": [
+      "Diagrama de participantes y relaciones",
+      "Historial cronológico de solicitudes, respuestas y decisiones",
+      "Detalle de cada intercambio con evidencia"
+    ],
+    "message_fields": [
+      "Identidad del intercambio",
+      "Emisor",
+      "Destinatario",
+      "Tipo de mensaje",
+      "Objeto solicitado",
+      "Motivo operativo resumido",
+      "Entregable esperado",
+      "Fuentes o artefactos adjuntos",
+      "Dependencia o mensaje al que responde",
+      "Estado",
+      "Respuesta y evidencia",
+      "Decisión resultante"
+    ],
+    "coordination": "El orquestador asigna y consolida. Los agentes pueden consultarse directamente dentro de su alcance; esas consultas también se registran. Los cambios de alcance o presupuesto vuelven al orquestador.",
+    "visibility_boundary": "Mostrar comunicaciones efectivamente enviadas y recibidas, resultados y motivos operativos resumidos. No presentar razonamiento interno privado ni inventar conversaciones.",
+    "runtime_boundary": "La actividad nativa de subagentes y la interfaz detallada del laboratorio son capas distintas. El historial enriquecido requiere implementación y validación.",
+    "example": "Ejemplo ilustrativo sobre retrabajo del traspaso Markdown a Figma; no corresponde a agentes ejecutados.",
+    "persistence": "Cada solicitud y respuesta conserva vínculo al experimento, referencias a evidencia y estado observado; respuesta completada no equivale a tarea aceptada."
+  },
+  "user_directives": {
+    "provenance": "EXPLICIT_USER_REQUEST",
+    "status": "REQUIREMENTS_CAPTURED_ARCHITECTURE_PENDING",
+    "primary_objectives": [
+      {
+        "id": "MAINTENANCE",
+        "requirement": "Mantenimiento y documentación central fáciles de consultar; incorporar nuevos componentes sin redistribuir la skill por cada alta.",
+        "github": "Alternativa sugerida por el usuario; destino y mecanismo de consumo por definir.",
+        "implication": "Separar evolución del contenido DS y versión del motor de la skill; revisar el modelo de snapshots de P08 en el futuro alcance de implementación."
+      },
+      {
+        "id": "INGEST_TO_FIGMA",
+        "requirement": "Cada incorporación de sistemas o componentes debe recorrer protocolos aplicables, producir specs, contratos y QA, construir en Figma y verificar resultados.",
+        "boundary": "Objetivo de diseño del laboratorio; no implica que se haya activado un monitor o autorizado una escritura Figma concreta en esta conversación."
+      },
+      {
+        "id": "TOKEN_PREFLIGHT",
+        "requirement": "Antes de construir cualquier elemento, revisar obligatoriamente cómo ahorrar tokens según el escenario.",
+        "precedence": "Puerta de entrada de cada trabajo de construcción.",
+        "quality": "Conservar requisitos, autoridad documental, trazabilidad y QA aplicables."
+      }
+    ],
+    "token_preflight_proposal": {
+      "owner": "Orquestador; sin agente adicional obligatorio",
+      "steps": [
+        "Identificar objetivo y alcance mínimo",
+        "Reutilizar contratos, índices, evidencia y artefactos vigentes comprobando versiones y hashes",
+        "Leer solo las fuentes y dependencias necesarias",
+        "Elegir ejecución directa o delegación acotada",
+        "Intercambiar resúmenes y referencias a evidencia en lugar de duplicar corpus",
+        "Usar comprobaciones deterministas y actualizar solo el delta cuando conserve cobertura"
+      ],
+      "visible_output": [
+        "Qué se reutiliza",
+        "Qué se debe consultar o ejecutar",
+        "Por qué hace falta cada agente",
+        "Límites y criterio de parada"
+      ],
+      "measurement": "Evaluar consumo total incluyendo preflight, coordinación y reintentos; datos medidos solo si hay telemetría, estimaciones claramente identificadas y consumo no disponible marcado UNAVAILABLE."
+    },
+    "prior_pilot_status": "El piloto HTML a Figma anterior se conserva como candidato ilustrativo, no como prioridad que sustituya estas tres directrices.",
+    "not_performed": [
+      "Cambios de protocolos",
+      "Implementación de consumo remoto",
+      "Modificación de skills",
+      "Ejecución de agentes",
+      "Construcción Figma",
+      "Automatización de ingesta"
+    ]
+  },
+  "distribution_decision": {
+    "provenance": "EXPLICIT_USER_REQUEST",
+    "status": "DEFINED_NOT_IMPLEMENTED",
+    "private_repository": "Mantenimiento, fuentes internas, protocolos y evidencia de trabajo",
+    "public_repository": "Distribución derivada de specs y recursos elegibles para consumo sin inicio de sesión en GitHub",
+    "credentials": "Ninguna credencial compartida se incluye en las skills públicas",
+    "versioning": "Separar versión del motor de la skill y entrega del DS; fijar un corte compatible por ejecución y usar caché verificada",
+    "repositories": "URLs concretas pendientes de recibir o confirmar",
+    "figma_access": "La lectura pública del DS no concede permisos de edición en Figma"
+  },
+  "security_design": {
+    "status": "PROPOSED_NOT_CONFIGURED",
+    "trigger": "El usuario preguntó por inyección de contenido en el repositorio público",
+    "principles": [
+      "Lectura pública no equivale a escritura pública",
+      "Escritura de distribución limitada a identidades autorizadas y publicación automatizada acotada",
+      "Ramas y etiquetas protegidas con controles automáticos; aportaciones externas no se publican por sí solas",
+      "Exportación por lista permitida desde el privado, sin copiar su historial ni secretos",
+      "Verificar procedencia del publicador y hashes del contenido; un hash junto al archivo no demuestra autenticidad por sí solo",
+      "Skills consumen versiones oficiales fijadas, sin tratar el contenido de specs como instrucciones para cambiar permisos o ejecutar acciones ajenas",
+      "Retirada de versiones afectadas, conservación del último corte verificado y recuperación documentada"
+    ],
+    "residual_risk": "El compromiso de una cuenta o del proceso autorizado de publicación sigue siendo posible; firma y QA no garantizan inocuidad semántica."
+  },
+  "architecture_definition": {
+    "status": "DEFINED_NOT_IMPLEMENTED",
+    "roles": [
+      "Orquestador",
+      "Documentalista",
+      "Constructor",
+      "Verificador",
+      "Optimizador"
+    ],
+    "activation": "Bajo demanda; el orquestador realiza el preflight de consumo sin otro agente obligatorio",
+    "flow": [
+      "Preflight de tokens",
+      "Ingesta",
+      "Specs y contratos",
+      "QA documental",
+      "Construcción solicitada",
+      "Readback y QA",
+      "Cierre técnico y distribución"
+    ],
+    "human_review": "Opcional no bloqueante conforme DEC-AI-TECHNICAL-CLOSURE-001; fallos y límites técnicos permanecen",
+    "communications": "Registro de solicitudes y respuestas reales, con motivo, evidencia y efecto sobre decisiones",
+    "remote_trigger": "Cola persistente y ejecutor de Codex pendiente de implementación; un push no despierta por sí solo al agente local"
+  },
+  "repository_verified": {
+    "url": "https://github.com/Migueluckleo/Evolution-Lab",
+    "visibility": "public",
+    "permissions": {
+      "push": true,
+      "admin": true
+    },
+    "user_decision": "Publish publicly; redact corporate email before push; notify immediately before push. Supersedes earlier private internal repository proposal.",
+    "remote_publication": "NOT_YET_PUSHED",
+    "remote_skill_loader": "NOT_IMPLEMENTED"
+  },
+  "consumer_portability_requirement": {
+    "requested_by_user": true,
+    "figma_connection": "Each designer configures their own remote Figma MCP and authenticates with their own account and file permissions.",
+    "skills": "Host must support skill workflow plus official Figma instructions/dependencies. Discover capabilities; do not assume all MCP clients support canvas writing.",
+    "github": "Public spec consumption must not require GitHub authentication.",
+    "status": "DESIGN_REQUIREMENT; remote loader and cross-client integration tests pending.",
+    "official_reference": "https://developers.figma.com/docs/figma-mcp-server/"
+  },
+  "component_reuse_requirement": {
+    "latest_user_directive": "Prioritize real existing Design System components; create new local components only for needs not covered by the DS. Do not adopt the proposed automatic reconstruction of existing inaccessible families.",
+    "destination": "Explicit user URL or explicit request for new file; master is read-only.",
+    "access_requirement": "Existing DS instances must be available in destination or through accessible library; public specs do not grant Figma access. Distribution/access model for designers remains to be settled.",
+    "implementation": "Existing local-components rules retained; MCP and explicit destination guards added."
+  }
+}

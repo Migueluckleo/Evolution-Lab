@@ -1,0 +1,709 @@
+[
+  {
+    "id": "15006:75163",
+    "name": "Molecule / Anticipa / TableHeader",
+    "type": "COMPONENT",
+    "width": 1279.999755859375,
+    "height": 52,
+    "visible": true,
+    "layoutMode": "HORIZONTAL",
+    "layoutSizingHorizontal": "HUG",
+    "layoutSizingVertical": "HUG",
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisSizingMode": "AUTO",
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "CENTER",
+    "itemSpacing": 0,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27784"
+          }
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27786"
+          }
+        }
+      }
+    ],
+    "strokeTopWeight": 1,
+    "strokeBottomWeight": 1,
+    "strokeLeftWeight": 1,
+    "strokeRightWeight": 1,
+    "cornerRadius": 0,
+    "clipsContent": true,
+    "boundVariables": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17569:27784"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17569:27786"
+        }
+      ]
+    },
+    "effects": [],
+    "reactions": [],
+    "componentPropertyReferences": {},
+    "children": [
+      {
+        "id": "15006:86218",
+        "name": "checkbox",
+        "type": "INSTANCE",
+        "width": 24,
+        "height": 24,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "is selectable#15006:7"
+        }
+      },
+      {
+        "id": "15006:86229",
+        "name": "Atom / Table / Header / Cell",
+        "type": "INSTANCE",
+        "width": 140,
+        "height": 52,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 0,
+        "strokeBottomWeight": 0,
+        "strokeLeftWeight": 0,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "contain actions#15006:9"
+        }
+      },
+      {
+        "id": "15006:75575",
+        "name": "cells",
+        "type": "SLOT",
+        "width": 1263.999755859375,
+        "height": 52,
+        "visible": true,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "componentPropertyReferences": {
+          "slotContentId": "cells#15006:2"
+        }
+      }
+    ]
+  },
+  {
+    "id": "15006:83463",
+    "name": "hover=false",
+    "type": "COMPONENT",
+    "width": 1279.999755859375,
+    "height": 36,
+    "visible": true,
+    "layoutMode": "HORIZONTAL",
+    "layoutSizingHorizontal": "HUG",
+    "layoutSizingVertical": "HUG",
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisSizingMode": "AUTO",
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "CENTER",
+    "itemSpacing": 0,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27778"
+          }
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27786"
+          }
+        }
+      }
+    ],
+    "strokeTopWeight": 0,
+    "strokeBottomWeight": 1,
+    "strokeLeftWeight": 0,
+    "strokeRightWeight": 0,
+    "cornerRadius": 0,
+    "clipsContent": true,
+    "boundVariables": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17569:27778"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17569:27786"
+        }
+      ]
+    },
+    "effects": [],
+    "reactions": [
+      {
+        "action": {
+          "type": "NODE",
+          "destinationId": "19227:37531",
+          "navigation": "CHANGE_TO",
+          "transition": null,
+          "resetVideoPosition": false
+        },
+        "actions": [
+          {
+            "type": "NODE",
+            "destinationId": "19227:37531",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          }
+        ],
+        "trigger": {
+          "type": "ON_HOVER"
+        }
+      }
+    ],
+    "componentPropertyReferences": {},
+    "children": [
+      {
+        "id": "15006:86162",
+        "name": "checkbox",
+        "type": "INSTANCE",
+        "width": 24,
+        "height": 24,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "is selectable#19227:1"
+        }
+      },
+      {
+        "id": "17279:10633",
+        "name": "Atom / Table / Content / Cell / Actions",
+        "type": "INSTANCE",
+        "width": 140,
+        "height": 64,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 16,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "paddingBottom": 8,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 0,
+        "strokeBottomWeight": 0,
+        "strokeLeftWeight": 0,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "Contain Actions#19227:2"
+        }
+      },
+      {
+        "id": "15006:83003",
+        "name": "cells",
+        "type": "SLOT",
+        "width": 1263.999755859375,
+        "height": 36,
+        "visible": true,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "componentPropertyReferences": {
+          "slotContentId": "cells#19227:0"
+        }
+      }
+    ]
+  },
+  {
+    "id": "19227:37531",
+    "name": "hover=true",
+    "type": "COMPONENT",
+    "width": 1287.999755859375,
+    "height": 36,
+    "visible": true,
+    "layoutMode": "HORIZONTAL",
+    "layoutSizingHorizontal": "HUG",
+    "layoutSizingVertical": "HUG",
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisSizingMode": "AUTO",
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "CENTER",
+    "itemSpacing": 8,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27786"
+          }
+        }
+      }
+    ],
+    "strokeTopWeight": 0,
+    "strokeBottomWeight": 1,
+    "strokeLeftWeight": 0,
+    "strokeRightWeight": 0,
+    "cornerRadius": 0,
+    "clipsContent": true,
+    "boundVariables": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17569:27786"
+        }
+      ]
+    },
+    "effects": [],
+    "reactions": [],
+    "componentPropertyReferences": {},
+    "children": [
+      {
+        "id": "19227:37532",
+        "name": "checkbox",
+        "type": "INSTANCE",
+        "width": 24,
+        "height": 24,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "is selectable#19227:1"
+        }
+      },
+      {
+        "id": "19227:37533",
+        "name": "Atom / Table / Content / Cell / Actions",
+        "type": "INSTANCE",
+        "width": 140,
+        "height": 64,
+        "visible": false,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 16,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "paddingBottom": 8,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 0,
+        "strokeBottomWeight": 0,
+        "strokeLeftWeight": 0,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {
+          "visible": "Contain Actions#19227:2"
+        }
+      },
+      {
+        "id": "19227:37563",
+        "name": "Button Icon",
+        "type": "INSTANCE",
+        "width": 24,
+        "height": 24,
+        "visible": true,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "MAX",
+        "itemSpacing": -102,
+        "paddingLeft": 4,
+        "paddingRight": 4,
+        "paddingTop": 4,
+        "paddingBottom": 4,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 8,
+        "clipsContent": false,
+        "boundVariables": {
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+          }
+        },
+        "effects": [],
+        "reactions": [],
+        "componentPropertyReferences": {}
+      },
+      {
+        "id": "19227:37534",
+        "name": "cells",
+        "type": "SLOT",
+        "width": 1239.999755859375,
+        "height": 36,
+        "visible": true,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 8,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9450980424880981,
+              "g": 0.9607843160629272,
+              "b": 0.9764705896377563
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:17569:27779"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17569:27779"
+            }
+          ]
+        },
+        "effects": [],
+        "componentPropertyReferences": {
+          "slotContentId": "cells#19227:0"
+        }
+      }
+    ]
+  },
+  {
+    "id": "15006:85698",
+    "name": "Atom / Table / Content / Cell / Actions",
+    "type": "COMPONENT",
+    "width": 112,
+    "height": 56,
+    "visible": true,
+    "layoutMode": "HORIZONTAL",
+    "layoutSizingHorizontal": "HUG",
+    "layoutSizingVertical": "HUG",
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisSizingMode": "AUTO",
+    "primaryAxisAlignItems": "MIN",
+    "counterAxisAlignItems": "CENTER",
+    "itemSpacing": 16,
+    "paddingLeft": 8,
+    "paddingRight": 8,
+    "paddingTop": 8,
+    "paddingBottom": 8,
+    "fills": [],
+    "strokes": [],
+    "strokeTopWeight": 0,
+    "strokeBottomWeight": 0,
+    "strokeLeftWeight": 0,
+    "strokeRightWeight": 1,
+    "cornerRadius": 0,
+    "clipsContent": false,
+    "boundVariables": {},
+    "effects": [],
+    "reactions": [],
+    "componentPropertyReferences": {},
+    "children": [
+      {
+        "id": "15006:85699",
+        "name": "actions",
+        "type": "SLOT",
+        "width": 96,
+        "height": 40,
+        "visible": true,
+        "layoutMode": "HORIZONTAL",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "CENTER",
+        "itemSpacing": 16,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "fills": [],
+        "strokes": [],
+        "strokeTopWeight": 1,
+        "strokeBottomWeight": 1,
+        "strokeLeftWeight": 1,
+        "strokeRightWeight": 1,
+        "cornerRadius": 0,
+        "clipsContent": false,
+        "boundVariables": {},
+        "effects": [],
+        "componentPropertyReferences": {
+          "slotContentId": "actions#15006:5"
+        }
+      }
+    ]
+  }
+]

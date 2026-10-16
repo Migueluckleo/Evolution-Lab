@@ -1,0 +1,7 @@
+# QA documental · Stepper Item tema de marca 0.1.1
+
+Estado: `PASS` para construcción delegada; auditoría humana `PENDING`. Fecha: 2026-09-24.
+
+La solicitud explícita del usuario sustituye los acentos fijos de Stepper por colores de marca sensibles al tema. La selección de marca fuerte para Checked y marca base para Default es criterio delegado, señalado como tal. La [enmienda de componente](../../specs/stepper.brand-theme.amendment.v0.1.1.md) identifica exactamente las tres frases/criterios sustituidos y mantiene estructura, propiedades y textos de 0.1.0. [Foundations 0.1.20](../../specs/foundations.stepper-brand.amendment.v0.1.20.md) remite a un solo [JSON vigente](../../drafts/foundations/ai-design-system.stepper-colors.v0.1.1.json) con ocho roles, IDs locales, scopes y cuatro aliases por rol; no duplica los datos canónicos en Markdown.
+
+`Checked` (círculo y conector) corresponde a `color/brand/strong`, `Default` (círculo) a `color/brand/default`. Cada alias apunta a una primitiva existente del mismo modo, no a una variable de otra categoría. Inactive, conectores Default e iconos/textos conservan las reglas anteriores. El origen histórico y el cambio intencional quedan diferenciados; no hay conflicto bloqueante ni creación de variables. El QA de implementación debe cotejar los doce pares de alias y los consumidores reales. Este `PASS` no significa aprobación humana ni publicación.

@@ -1,0 +1,181 @@
+schema_version: '0.1.0'
+generated_at: '2026-09-25T17:24:53Z'
+generator: {skill: figma-component-contract, skill_version: 0.1.0}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 581, inspected_nodes: 581, pending_nodes: 0, invisible_nodes_inspected: 4, truncated: false, limit: null}
+  mcp_limitations: []
+contract_id: LOADER-SOURCE-001
+contract_version: 0.1.0
+status: DRAFT
+source:
+  file_name: Libreria v1.1.0
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  page_name: ❖ Loader
+  page_node_id: '3917:1263'
+  component_set_name: Loader
+  component_set_node_id: '7561:47164'
+  component_set_key: b7b6e1e6560ca57d1a8b9f431551d63fe65116eb
+component:
+  id: '7561:47164'
+  key: b7b6e1e6560ca57d1a8b9f431551d63fe65116eb
+  name: Loader
+  description: null
+  type: COMPONENT_SET
+  parent: {id: '7722:50484', name: Content, type: FRAME}
+  page: {id: '3917:1263', name: '❖ Loader'}
+  source: {url: 'https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=7561-47164', file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: '7561:47164'}
+  anatomy:
+    - public_loader_variant
+    - internal_animated_ring_instance
+    - gradient_ring
+    - solid_arc_cap
+  properties:
+    - name: SIze
+      type: VARIANT
+      options: [Sm, Md, Lg, Xl]
+      default: Sm
+      note: El nombre SIze conserva la capitalización observada.
+    - name: Color
+      type: VARIANT
+      options: [Primary, Secondary, Default, On color]
+      default: Primary
+  variants:
+    count: 16
+    dimensions:
+      Sm: 24
+      Md: 40
+      Lg: 64
+      Xl: 88
+    unit: px
+  dependencies:
+    internal_component_sets:
+      - {name: Loader sm, node_id: '4283:240', frames: 24}
+      - {name: Loader md, node_id: '7556:45810', frames: 24}
+      - {name: Loader lg, node_id: '7556:46291', frames: 24}
+      - {name: Loader xl, node_id: '7556:46652', frames: 24}
+  visual:
+    gradient_stops: [0, 0.0001, 1]
+    opaque_stop: 1
+    colors:
+      Primary: '#3255F7'
+      Secondary: '#64748B'
+      Default: '#0F172A'
+      On color: '#FFFFFF'
+    source_semantic_variables:
+      Primary: color/icon/brand
+      Secondary: color/icon/secondary
+      Default: color/icon/primary
+      On color: color/icon/on-brand
+  motion:
+    frames_per_size: 24
+    rotation_step_degrees: -15
+    frame_trigger: AFTER_TIMEOUT
+    timeout_seconds: 0.001
+    action: CHANGE_TO
+    transition: SMART_ANIMATE
+    easing: LINEAR
+    duration_seconds: 0.05
+    loop: true
+  source_anomaly:
+    affected_public_colors: [Secondary, Default, On color]
+    observed: Solo el primer fotograma publico tiene override de color; los demas fotogramas internos conservan Primary.
+    destination_resolution: Secuencia interna completa por cada combinacion Size por Color.
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: []
+  undefined: [accessible_label, reduced_motion]
+  source_text_label: null
+  source_role: null
+  note: La fuente no define texto accesible ni comportamiento de reducción de movimiento.
+evidence:
+  figma_direct: ['7561:47164', '4283:240', '7556:45810', '7556:46291', '7556:46652']
+  derived: [variant_matrix_4x4, motion_cycles_4x24]
+  requires_definition: [accessible_label, reduced_motion]
+  confidence: {level: HIGH, reason: Exhaustive node and reaction traversal}
+  inspection: Lectura profunda de 581 nodos y 96 reacciones; captura de 16 variantes.
+  provenance: OBSERVED
+unresolved:
+  - No hay definición de comportamiento para reduced motion.
+  - No hay etiqueta accesible definida en el archivo fuente.
+classification: {kind: component, reusable: true, composition: false, evidence_refs: ['7561:47164']}
+identity:
+  position: {x: 64, y: 32}
+  dimensions: {width: 331, height: 512}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: '7561:47154', name: 'SIze=Sm, Color=Primary', type: COMPONENT}
+  - {id: '7561:47161', name: 'SIze=Sm, Color=Secondary', type: COMPONENT}
+  - {id: '7561:47163', name: 'SIze=Sm, Color=Default', type: COMPONENT}
+  - {id: '7561:47162', name: 'SIze=Sm, Color=On color', type: COMPONENT}
+  - {id: '7561:47152', name: 'SIze=Md, Color=Primary', type: COMPONENT}
+  - {id: '7561:47159', name: 'SIze=Md, Color=Secondary', type: COMPONENT}
+  - {id: '7561:47156', name: 'SIze=Md, Color=Default', type: COMPONENT}
+  - {id: '7561:47155', name: 'SIze=Md, Color=On color', type: COMPONENT}
+  - {id: '7561:47160', name: 'SIze=Lg, Color=Primary', type: COMPONENT}
+  - {id: '7561:47153', name: 'SIze=Lg, Color=Secondary', type: COMPONENT}
+  - {id: '7561:47151', name: 'SIze=Lg, Color=Default', type: COMPONENT}
+  - {id: '7561:47150', name: 'SIze=Lg, Color=On color', type: COMPONENT}
+  - {id: '7561:47158', name: 'SIze=Xl, Color=Primary', type: COMPONENT}
+  - {id: '7561:47149', name: 'SIze=Xl, Color=Secondary', type: COMPONENT}
+  - {id: '7561:47157', name: 'SIze=Xl, Color=Default', type: COMPONENT}
+  - {id: '7561:47148', name: 'SIze=Xl, Color=On color', type: COMPONENT}
+anatomy:
+  functional_tree: [public_variant, animated_frame_instance, gradient_ring, arc_cap]
+  graphical_details_omitted: []
+dependency_inventory:
+  components: {total_instances: 16, total: 4, local: 4, remote: 0, unknown_locality: 0, resolved: 4, partially_resolved: 0, unresolved: 0}
+  variables: {total: 4, local: 4, remote: 0, unknown_locality: 0, resolved: 4, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - {name: Loader sm, id: '4283:240', type: COMPONENT_SET}
+  - {name: Loader md, id: '7556:45810', type: COMPONENT_SET}
+  - {name: Loader lg, id: '7556:46291', type: COMPONENT_SET}
+  - {name: Loader xl, id: '7556:46652', type: COMPONENT_SET}
+variable_dependencies:
+  - {name: color/icon/brand, id: 'VariableID:2849:196141', scope: SHAPE_FILL}
+  - {name: color/icon/secondary, id: 'VariableID:2849:196139', scope: SHAPE_FILL}
+  - {name: color/icon/primary, id: 'VariableID:2849:196138', scope: SHAPE_FILL}
+  - {name: color/icon/on-brand, id: 'VariableID:2849:196142', scope: SHAPE_FILL}
+style_dependencies: []
+properties:
+  definitions: [{name: SIze, type: VARIANT, options: [Sm, Md, Lg, Xl], default: Sm}, {name: Color, type: VARIANT, options: [Primary, Secondary, Default, On color], default: Primary}]
+  observed: [SIze, Color]
+  available: [SIze, Color]
+  unknown: []
+variants:
+  observed_combinations: [Sm/Primary, Sm/Secondary, Sm/Default, Sm/On-color, Md/Primary, Md/Secondary, Md/Default, Md/On-color, Lg/Primary, Lg/Secondary, Lg/Default, Lg/On-color, Xl/Primary, Xl/Secondary, Xl/Default, Xl/On-color]
+  available_values: [{SIze: [Sm, Md, Lg, Xl]}, {Color: [Primary, Secondary, Default, On color]}]
+  unknown: []
+states: {observed: [], available: [], unknown: []}
+layout:
+  node: {node: {id: '7561:47164', name: Loader, type: COMPONENT_SET}, dimensions: {width: 331, height: 512}}
+  children: []
+  relationships: [four_sizes_by_four_colors]
+visual:
+  node: {shape: circular_ring, gradient: ANGULAR}
+  descendants: [Subtract, Ellipse 8 Stroke]
+  icons: []
+typography: {styles: [], text_runs: []}
+tokens:
+  summary: {total: 4, local: 4, remote: 0}
+  categories: {icon: 4}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: []}
+  component_rules: []
+  truncation_and_wrapping: []
+interactions:
+  status: OBSERVED
+  reason: 96 prototype reactions observed in internal motion sets.
+  rules: [24-frame cycle per size, AFTER_TIMEOUT 0.001 seconds, CHANGE_TO SMART_ANIMATE LINEAR 0.05 seconds]
+semantic_contract:
+  explicit_descriptions: []
+  purpose: {status: REQUIRES_PRODUCT_DEFINITION}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+external_dependencies: []
+implementation_notes: [Three non-Primary public colors override only the first frame; later frames retain Primary in the source.]

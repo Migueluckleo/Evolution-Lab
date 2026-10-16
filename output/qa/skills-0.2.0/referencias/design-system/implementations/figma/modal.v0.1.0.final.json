@@ -1,0 +1,362 @@
+{
+  "page": {
+    "id": "565:122",
+    "name": "Modal"
+  },
+  "topLevel": [
+    {
+      "id": "566:235",
+      "name": "__Modal/Close",
+      "type": "COMPONENT",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "566:257",
+      "name": "__Modal/Header",
+      "type": "COMPONENT_SET",
+      "width": 608,
+      "height": 330
+    },
+    {
+      "id": "566:280",
+      "name": "__Modal/Footer",
+      "type": "COMPONENT_SET",
+      "width": 888,
+      "height": 260
+    },
+    {
+      "id": "566:281",
+      "name": "__Modal/Content example",
+      "type": "COMPONENT",
+      "width": 416,
+      "height": 48
+    },
+    {
+      "id": "567:360",
+      "name": "Modal / Basic",
+      "type": "COMPONENT_SET",
+      "width": 2070,
+      "height": 960
+    },
+    {
+      "id": "568:4095",
+      "name": "__Modal/ImageMedia",
+      "type": "COMPONENT",
+      "width": 580,
+      "height": 260
+    },
+    {
+      "id": "568:4096",
+      "name": "__Modal/ImageSide",
+      "type": "COMPONENT",
+      "width": 340,
+      "height": 400
+    },
+    {
+      "id": "569:301",
+      "name": "Modal / Media",
+      "type": "COMPONENT",
+      "width": 580,
+      "height": 472
+    },
+    {
+      "id": "569:327",
+      "name": "Modal / SideBySide",
+      "type": "COMPONENT",
+      "width": 840,
+      "height": 484
+    },
+    {
+      "id": "569:357",
+      "name": "__Modal/Side note",
+      "type": "COMPONENT",
+      "width": 129,
+      "height": 20
+    },
+    {
+      "id": "578:301",
+      "name": "Modal / Review",
+      "type": "FRAME",
+      "width": 2028,
+      "height": 1557
+    }
+  ],
+  "ownedNodeIds": [
+    "565:122",
+    "566:235",
+    "566:236",
+    "566:257",
+    "566:238",
+    "566:239",
+    "566:240",
+    "566:241",
+    "566:242",
+    "566:244",
+    "566:245",
+    "566:246",
+    "566:249",
+    "566:250",
+    "566:251",
+    "566:252",
+    "566:253",
+    "566:254",
+    "566:255",
+    "566:256",
+    "566:280",
+    "566:258",
+    "566:259",
+    "566:262",
+    "566:263",
+    "566:269",
+    "566:275",
+    "566:276",
+    "566:277",
+    "566:278",
+    "566:279",
+    "566:281",
+    "566:282",
+    "567:360",
+    "567:139",
+    "567:140",
+    "567:150",
+    "567:151",
+    "567:152",
+    "567:163",
+    "567:164",
+    "567:165",
+    "567:166",
+    "567:216",
+    "567:167",
+    "567:220",
+    "567:221",
+    "567:222",
+    "567:223",
+    "567:224",
+    "567:244",
+    "567:245",
+    "567:246",
+    "567:247",
+    "567:287",
+    "567:248",
+    "567:290",
+    "567:291",
+    "567:292",
+    "567:293",
+    "567:294",
+    "567:314",
+    "567:315",
+    "567:316",
+    "567:317",
+    "567:357",
+    "567:318",
+    "568:4095",
+    "568:4096",
+    "569:301",
+    "569:302",
+    "569:303",
+    "569:304",
+    "569:305",
+    "569:306",
+    "569:324",
+    "569:327",
+    "569:328",
+    "569:329",
+    "569:330",
+    "569:340",
+    "569:341",
+    "569:342",
+    "569:354",
+    "569:343",
+    "569:357",
+    "569:358",
+    "569:360",
+    "578:301",
+    "578:302",
+    "578:303",
+    "578:304",
+    "578:305",
+    "578:329",
+    "578:330",
+    "578:331",
+    "578:355",
+    "578:356",
+    "578:357",
+    "578:381",
+    "578:382",
+    "578:383",
+    "578:384",
+    "578:411",
+    "578:412",
+    "578:413",
+    "578:440",
+    "578:441",
+    "578:442",
+    "578:469",
+    "578:470",
+    "578:471",
+    "578:472",
+    "578:496",
+    "578:497",
+    "578:498"
+  ],
+  "componentCount": 17,
+  "sets": [
+    {
+      "id": "566:257",
+      "name": "__Modal/Header",
+      "count": 2,
+      "properties": [
+        {
+          "name": "Title#566:25",
+          "type": "TEXT",
+          "defaultValue": "Modal title"
+        },
+        {
+          "name": "Subtitle#566:26",
+          "type": "TEXT",
+          "defaultValue": "Modal subtitle, can come with icon"
+        },
+        {
+          "name": "Link text#566:27",
+          "type": "TEXT",
+          "defaultValue": "and link."
+        },
+        {
+          "name": "Show subtitle#566:28",
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        {
+          "name": "Show icon#566:29",
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        {
+          "name": "Show link#566:30",
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        {
+          "name": "Show close#566:31",
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        {
+          "name": "Icon#566:32",
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "566:195"
+        },
+        {
+          "name": "Scroll",
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "566:280",
+      "name": "__Modal/Footer",
+      "count": 2,
+      "properties": [
+        {
+          "name": "Side content#566:35",
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        },
+        {
+          "name": "Actions#566:36",
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        },
+        {
+          "name": "Scroll",
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "567:360",
+      "name": "Modal / Basic",
+      "count": 6,
+      "properties": [
+        {
+          "name": "Body#567:1",
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        },
+        {
+          "name": "Size",
+          "type": "VARIANT",
+          "defaultValue": "Small",
+          "variantOptions": [
+            "Small",
+            "Medium",
+            "Large"
+          ]
+        },
+        {
+          "name": "Scroll",
+          "type": "VARIANT",
+          "defaultValue": "No",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      ]
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "S:8d38f6a5868e5d5e0366907a63e27299dbac2c50,",
+      "name": "Modal/Body"
+    },
+    {
+      "id": "S:cb4052453d42d5ce9ce98f08640582004d80f602,",
+      "name": "Modal/Title"
+    },
+    {
+      "id": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "name": "Modal/Caption"
+    }
+  ],
+  "effectStyles": [
+    {
+      "id": "S:87ca4170d815d54d4b926a96370ad2386f516c8b,",
+      "name": "Modal/Shadow/Large"
+    },
+    {
+      "id": "S:1461132e4c299a607db08a027a9f360f811921be,",
+      "name": "Modal/Shadow/Footer"
+    }
+  ],
+  "localVariableCount": 332
+}

@@ -1,0 +1,49 @@
+{
+  "id": "QA-WEB-CHARACTERS-011",
+  "date": "2026-10-13",
+  "status": "PASS",
+  "classification": "IMPLEMENTATION_DEFECT",
+  "cause": "Nested group translation applied twice from component-relative eye coordinates",
+  "fix": "SVG local matrix = inverse(parent absolute matrix) × child absolute matrix",
+  "unit_tests": {
+    "passed": 8,
+    "vectors_with_verified_coordinates": 64,
+    "frames": 13
+  },
+  "browser_tests": {
+    "passed": 2,
+    "scope": [
+      "Chat hero and 13 SVG frames",
+      "four themes with fixed character identity"
+    ]
+  },
+  "geometry": {
+    "status": "PASS",
+    "frames": 13,
+    "paintedPaths": 47,
+    "chatHero": "PASS",
+    "tolerance": 0.001,
+    "toleranceSource": "CHARACTERS-001 AC-02",
+    "scope": "SVG CTM matches source absolute matrices; visual review separate"
+  },
+  "visual_review": "13 frames compared with existing Figma capture; eyes aligned, proportions/colors preserved",
+  "base_inventory_sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+  "files_sha256": {
+    "implementations/web/scripts/assets.py": "6d4694063ed8d24ac65e015b903139c5e7b30b4fe9ebb285945f493b1f77c552",
+    "implementations/web/scripts/generate.py": "a595d3791d0acf7c4d8adf60534ea5e40c80f42256865bfad7fa2cf3b756ec32",
+    "implementations/web/components.registry.json": "d0e3627cf514e9ec3876e3a497a3f3af761401e9e237bec2fb6b6d644b4e9fa8",
+    "implementations/web/src/generated/characters.json": "ede361f2d8dc3fe08a458a4ac10f14eb81124d540461715d13000d10c7f41596",
+    "implementations/web/tests/characters.test.tsx": "d158d2a0a3311a6b501cb6e5f66e2ff9e17805f360ddeaa82dfd23c26ddfefc7",
+    "implementations/web/tests/render-characters.tsx": "6eb1517d267b91eafcc034901891e62ca6e7ea16502d8b4ca99eece6080ee438",
+    "implementations/web/tests/browser/characters.spec.tsx": "ddb00f1e250864c4680fc6b6bcb56960944d402abe65547250b5d43cc0465ff7",
+    "implementations/web/docs/WEB-ADAPTATION.md": "0ba36b938d08d788aa14be4ec3a4f8809dec5ab50de7959c15b28037b663c0cc",
+    "implementations/web/docs/components/characters.md": "11576b36b7a1e46e834ee0e23ed8234262338ef013d8b3f61eeca03e106cfc27",
+    "implementations/web/docs/components/conversation.md": "17ffd7528611b84a329840692d05e009042653dbd4ef535963c716fb76b74cd9",
+    "implementations/web/docs/components/chat-section.md": "bc6d2fdf0496aaabc12bdcc8b241654694f80f60fb80c3b67c9a8d59a7e89a09",
+    "sources/figma-snapshots/characters.ecosistema.2026-10-08.json": "e2c074b06f8e0eec918f32c8e26e3d45c17e69983b6133469c114d9b75441d29",
+    "qa/implementations/web.beni.v0.1.1.before.png": "b318e1bdd48747190ca1478b35bd2b985521a951402bcb7b6bd256302d39d1e5",
+    "qa/implementations/web.beni.v0.1.1.png": "f07c951bff6e9a2b5e376fb4220e0fd701c5a1fac27b50474cccd091d33106cc",
+    "qa/implementations/web.beni.v0.1.1.chat.png": "b2c0ce6967bf9239f02654c27881d375f2ac5969f4cd11b490ddc0a50dd09364",
+    "qa/implementations/web.characters.v0.1.1.png": "bf8c1fa01b300bf9b1f685690dab9aea1b02222099ae12d4edddb52332f77a37"
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "capturedAt": "2026-10-15T22:45:45.448Z",
+  "part": 0,
+  "styles": [
+    {
+      "id": "S:9833f030c6025a16d7f81e77b4e3121d2c157b01,",
+      "key": "9833f030c6025a16d7f81e77b4e3121d2c157b01",
+      "name": "Heading 1/Bold",
+      "description": "Encabezado de máxima presencia para una portada o hero con espacio amplio. Reservarlo para el mensaje dominante; no usarlo en formularios, tablas o paneles densos.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 56,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:6"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:2645f0c7cf5bc6d41288f08d7f89ea219568c6bb,",
+      "key": "2645f0c7cf5bc6d41288f08d7f89ea219568c6bb",
+      "name": "Heading 1/Semibold",
+      "description": "Encabezado de portada o hero cuando se necesita la máxima escala con énfasis menor que Bold. No usarlo para grupos secundarios ni reducirlo manualmente para adaptarlo a un control.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 56,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:6"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:014940359ed10d6f10697a1a358c678dea5aa8aa,",
+      "key": "014940359ed10d6f10697a1a358c678dea5aa8aa",
+      "name": "Heading 2/Bold",
+      "description": "Título principal de página con alto énfasis y suficiente espacio. No repetirlo en cada tarjeta ni usarlo para competir con otro título principal dentro de la misma vista.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:5"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:6f8443109da2e312b7402cf216b0ebea0295cff6,",
+      "key": "6f8443109da2e312b7402cf216b0ebea0295cff6",
+      "name": "Heading 2/Medium",
+      "description": "Título principal de página con presencia amplia y peso moderado. No usarlo como texto de lectura ni cambiar su peso mediante overrides para simular otra variante.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 125
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:5"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:4"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:02586f720d4d22c4411ace4cd8f396f56ddbf32c,",
+      "key": "02586f720d4d22c4411ace4cd8f396f56ddbf32c",
+      "name": "Heading 3/Semibold",
+      "description": "Título de sección importante que organiza bloques extensos de una página. No usarlo en encabezados compactos de tabla ni sustituir con él todas las etiquetas de sección menores.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:4"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:7c1b6bafaa0f7412e3fe0df1ab125f1b0bd14abf,",
+      "key": "7c1b6bafaa0f7412e3fe0df1ab125f1b0bd14abf",
+      "name": "Heading 3/Medium",
+      "description": "Título de sección amplia con jerarquía clara y énfasis moderado. No usarlo para descripciones largas ni para distinguir estados de un control.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:4"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:4"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:127597e8190b591e2b0ccfdf99c2dd3e331fa135,",
+      "key": "127597e8190b591e2b0ccfdf99c2dd3e331fa135",
+      "name": "Heading 4/Medium",
+      "description": "Título de subsección que separa contenido dentro de una sección mayor. No usarlo como etiqueta de campo ni imponerlo en un componente cuya caja compacta tenga otra receta contractual.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:3"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:4"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:d2d27770cd75e393727fd3ff06af0ca052750a54,",
+      "key": "d2d27770cd75e393727fd3ff06af0ca052750a54",
+      "name": "Heading 4/Bold",
+      "description": "Título de subsección que requiere énfasis fuerte dentro de la jerarquía de la vista. No usarlo para resaltar palabras sueltas de un párrafo ni alterar su interlineado para forzarlo en una caja fija.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:3"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:cd1a1dc2be169b189043215213f923d1b669ed35,",
+      "key": "cd1a1dc2be169b189043215213f923d1b669ed35",
+      "name": "Heading 5/Bold",
+      "description": "Título de panel, tarjeta o diálogo que necesita una entrada visual clara. No usarlo para todas las cifras de una tarjeta ni sustituir una receta compacta sin comprobar su composición.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:2"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:ee60c02037503a3f01d679e9a9d8958823a631c4,",
+      "key": "ee60c02037503a3f01d679e9a9d8958823a631c4",
+      "name": "Heading 5/Semibold",
+      "description": "Título de panel o grupo de contenido con énfasis intermedio. No usarlo como cuerpo de texto ni cambiar el peso de una instancia para fabricar una variante ausente.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 133.00000429153442
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:2"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:9ede8742eef3e1fb6934bab6a40514015285f2de,",
+      "key": "9ede8742eef3e1fb6934bab6a40514015285f2de",
+      "name": "Subheading 1/Bold",
+      "description": "Encabezado de grupo de contenido o formulario que necesita énfasis fuerte bajo un título de panel. No usarlo para párrafos largos ni como reemplazo automático de métricas o iniciales del mismo tamaño.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:4ef70322ea2c1d4c083d7717cef8ecbd70dbf555,",
+      "key": "4ef70322ea2c1d4c083d7717cef8ecbd70dbf555",
+      "name": "Subheading 1/Semibold",
+      "description": "Encabezado de grupo que organiza contenido relacionado sin dominar el panel. No usarlo para mensajes auxiliares ni para cambiar una receta Medium o Regular contractual solo por compartir tamaño.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:3b19c3c859e9a9c8b1fc6d13bab3d09aba21efd8,",
+      "key": "3b19c3c859e9a9c8b1fc6d13bab3d09aba21efd8",
+      "name": "Subheading 2/Bold",
+      "description": "Etiqueta o encabezado breve de control o grupo compacto cuando su contrato admite esta receta y requiere alto énfasis. No usarlo como párrafo completo ni imponerlo a controles con altura restringida sin comprobar el layout.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:10"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:de7485e92daf267b92db677255a68ace97bc8a32,",
+      "key": "de7485e92daf267b92db677255a68ace97bc8a32",
+      "name": "Subheading 2/Semibold",
+      "description": "Etiqueta o encabezado breve de control o grupo compacto con énfasis moderado. No usarlo para todo el contenido de un formulario ni sustituir automáticamente una receta Regular del mismo tamaño.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:10"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:ba9f7a5c3e8665f41e72f8b1317a9cc36e4714aa,",
+      "key": "ba9f7a5c3e8665f41e72f8b1317a9cc36e4714aa",
+      "name": "Body/Regular",
+      "description": "Texto de lectura, descripción y contenido continuo de interfaz. No usarlo para títulos de sección ni ajustar su interlineado por instancia para resolver una restricción que requiere un estilo complementario.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:4ee45102c701e2a111b2c448495a18fd46e6a8c8,",
+      "key": "4ee45102c701e2a111b2c448495a18fd46e6a8c8",
+      "name": "Body/Semibold",
+      "description": "Texto de lectura con énfasis puntual, dato destacado o fragmento relevante dentro del nivel Body. No usarlo para párrafos completos por defecto ni como sustituto automático de etiquetas Bold contractuales.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:ed58d525ce135d142794e5c47e201096c023a800,",
+      "key": "ed58d525ce135d142794e5c47e201096c023a800",
+      "name": "Caption/Regular",
+      "description": "Ayuda breve, metadato o información secundaria próxima al contenido que explica. No usarlo como texto principal de lectura ni como sustituto de recetas compactas más pequeñas sin revisar su contrato.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:8"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,",
+      "key": "44d1ab87ed7291cac7a1f308466f04aca4cb25b8",
+      "name": "Caption/Semibold",
+      "description": "Ayuda o metadato breve que necesita énfasis dentro del nivel Caption. No usarlo como título de panel ni como única señal para comunicar un estado o una acción importante.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:8"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "key": "2987fb55403e26b9fd23807ce894f58cc084820d",
+      "name": "Micro/Count/Small",
+      "description": "Conteo y overflow Small de Dot y sus instancias existentes. Texto 4 px conservado por excepción; no comunicar información indispensable sin alternativa accesible. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 4,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:249112e571c2a957d3d7b3fd4bf48c12b5796052,",
+      "key": "249112e571c2a957d3d7b3fd4bf48c12b5796052",
+      "name": "Micro/Source path",
+      "description": "Ruta compacta 8 px de Fuentes Path Item y sus separadores. Excepción de legibilidad de esa familia; no usar como caption general. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:7"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    }
+  ],
+  "issues": []
+}

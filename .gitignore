@@ -1,0 +1,49 @@
+# Archivos del sistema operativo
+.DS_Store
+._*
+
+# Dependencias y cachés locales
+node_modules
+__pycache__/
+*.py[cod]
+
+# Credenciales locales; conservar ejemplos sin secretos
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Derivados locales de Graphify; política: references/ARTIFACT-RETENTION.md
+# Se conservan el grafo activo, la extracción semántica y los comprobantes de QA.
+/graphify-out/cache/
+/graphify-out/.vocab.txt
+/graphify-out/.graphify_detect.json
+/graphify-out/.graphify_ast.json
+/graphify-out/.graphify_cached.json
+/graphify-out/.graphify_semantic.json
+/graphify-out/.graphify_semantic_new.json
+/graphify-out/.graphify_uncached.txt
+/graphify-out/retention/
+/graphify-out/runs/*/before/
+/graphify-out/runs/*/staged/
+/graphify-out/runs/*/after/
+/graphify-out/runs/*/ast.json
+/graphify-out/runs/*/combined.json
+/graphify-out/runs/*/combined-raw.json
+/graphify-out/runs/*/structural-supplement.json
+/graphify-out/20??-??-??/graph.json
+
+# Salidas locales del catálogo web
+/implementations/web/.pnpm-store/
+/implementations/web/.next/
+/implementations/web/out/
+/implementations/web/test-results/
+/implementations/web/playwright-report/
+/implementations/web/tsconfig.tsbuildinfo
+
+# Releases portables de skills; fuentes mantenidas en skills/.
+/output/skills/
+/output/skills-validation/
+
+# Instaladores entregados localmente por solicitud del usuario
+/output/genspark/**/*.zip

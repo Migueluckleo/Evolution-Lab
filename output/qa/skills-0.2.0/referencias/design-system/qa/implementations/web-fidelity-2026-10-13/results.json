@@ -1,0 +1,168 @@
+{
+  "status": "PASS_FOR_RECORDED_SCOPE",
+  "date": "2026-10-13",
+  "families": 43,
+  "reference_cases": 442,
+  "generation": "PASS 0 stale",
+  "typecheck": "PASS",
+  "unit": {
+    "passed": 8,
+    "failed": 0
+  },
+  "production_build": "PASS static Next.js",
+  "browser": {
+    "startTime": "2026-10-13T21:42:36.744Z",
+    "duration": 13912.812,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "checks": [
+    {
+      "name": "todos los ejemplos se renderizan sin errores ni assets rotos",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "controles locales y teclado funcionan",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "los cuatro temas cambian marca y preservan personajes",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "pantalla compuesta agrega, filtra y conserva solo datos locales",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "semántica accesible básica y catálogo en ancho reducido",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "alturas de controles respetan los tres tamaños",
+      "file": "catalog.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "BENI en Chat y 13 frames coinciden con las coordenadas fuente en SVG",
+      "file": "characters.spec.tsx",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "las 43 familias y sus variantes no producen errores ni assets rotos",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "Sidebar reproduce las 22 recetas, 2 cajas, TopBar y 4 temas",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "Sidebar conserva submenús y selección al contraer; tooltip no duplica foco",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "las ocho Metric Card conservan dimensiones finales del contrato",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "campos, selectores, scrollbar y Modal mantienen geometría contractual",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "estados interactivos usan el rol del contrato y respetan disabled",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "Chart conserva cajas, desplazamientos y leyendas; File Upload conserva trazos y alturas",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    },
+    {
+      "name": "Table, Header, AppShell y ChatToolbar conservan sus cajas documentadas",
+      "file": "fidelity.spec.ts",
+      "status": "expected",
+      "runs": [
+        "passed"
+      ]
+    }
+  ],
+  "characters": {
+    "status": "PASS",
+    "frames": 13,
+    "paintedPaths": 47,
+    "chatHero": "PASS",
+    "tolerance": 0.001,
+    "toleranceSource": "CHARACTERS-001 AC-02",
+    "scope": "SVG CTM matches source absolute matrices; visual review separate"
+  },
+  "canonical_inventory_sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+  "logos": {
+    "available": 72,
+    "missing": 0
+  },
+  "limitations": [
+    "No comparación pixel a pixel de todos los estados/temas de las43 familias.",
+    "Chrome local; no certificación multi-browser, lectores de pantalla o WCAG integral.",
+    "QA/aprobaciones Figma y excepciones históricas sin cambios."
+  ],
+  "files": {
+    "implementations/web/src/styles.css": "00cffaf2841f67bea2919ef97c85ead0f075f7873d1285001f5ed9165c9f7f22",
+    "implementations/web/src/variants.tsx": "d0f100570a0b738401801b37d84b4095d2c70e49264eb2fe32806a438d7617e9",
+    "implementations/web/scripts/assets.py": "7801947566a0b018b6832f53d251a387a8f65e7a81c71072f16b41cbb624eb6e",
+    "implementations/web/tests/browser/fidelity.spec.ts": "fbad3224bb1f26af98a57652643993abba39f160ef1c4f7908174b37652ad646"
+  }
+}

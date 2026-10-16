@@ -1,0 +1,4317 @@
+// Generado por scripts/typography.py; las recetas editables viven en specs/tokens/ai-design-system.typography.v0.1.0.json
+export const typography = {
+  "heading-1-bold": {
+    "id": "heading-1-bold",
+    "name": "Heading 1/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 56,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 125
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Encabezado de máxima presencia para una portada o hero con espacio amplio. Reservarlo para el mensaje dominante; no usarlo en formularios, tablas o paneles densos.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/5xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 1/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-1-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-5xl)",
+      "line-height": "1.25",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-1-semibold": {
+    "id": "heading-1-semibold",
+    "name": "Heading 1/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 56,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 125
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Encabezado de portada o hero cuando se necesita la máxima escala con énfasis menor que Bold. No usarlo para grupos secundarios ni reducirlo manualmente para adaptarlo a un control.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/5xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 1/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-1-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-5xl)",
+      "line-height": "1.25",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-2-bold": {
+    "id": "heading-2-bold",
+    "name": "Heading 2/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 48,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 125
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título principal de página con alto énfasis y suficiente espacio. No repetirlo en cada tarjeta ni usarlo para competir con otro título principal dentro de la misma vista.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/4xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 2/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-2-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-4xl)",
+      "line-height": "1.25",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-2-medium": {
+    "id": "heading-2-medium",
+    "name": "Heading 2/Medium",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 48,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 125
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título principal de página con presencia amplia y peso moderado. No usarlo como texto de lectura ni cambiar su peso mediante overrides para simular otra variante.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/4xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 2/Medium",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-2-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-4xl)",
+      "line-height": "1.25",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-3-semibold": {
+    "id": "heading-3-semibold",
+    "name": "Heading 3/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 40,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de sección importante que organiza bloques extensos de una página. No usarlo en encabezados compactos de tabla ni sustituir con él todas las etiquetas de sección menores.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/3xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 3/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-3-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-3xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-3-medium": {
+    "id": "heading-3-medium",
+    "name": "Heading 3/Medium",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 40,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de sección amplia con jerarquía clara y énfasis moderado. No usarlo para descripciones largas ni para distinguir estados de un control.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/3xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 3/Medium",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-3-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-3xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-4-medium": {
+    "id": "heading-4-medium",
+    "name": "Heading 4/Medium",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 32,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de subsección que separa contenido dentro de una sección mayor. No usarlo como etiqueta de campo ni imponerlo en un componente cuya caja compacta tenga otra receta contractual.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/2xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 4/Medium",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-4-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-2xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-4-bold": {
+    "id": "heading-4-bold",
+    "name": "Heading 4/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 32,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de subsección que requiere énfasis fuerte dentro de la jerarquía de la vista. No usarlo para resaltar palabras sueltas de un párrafo ni alterar su interlineado para forzarlo en una caja fija.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/2xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 4/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-4-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-2xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-5-bold": {
+    "id": "heading-5-bold",
+    "name": "Heading 5/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 24,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de panel, tarjeta o diálogo que necesita una entrada visual clara. No usarlo para todas las cifras de una tarjeta ni sustituir una receta compacta sin comprobar su composición.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 5/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-5-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "heading-5-semibold": {
+    "id": "heading-5-semibold",
+    "name": "Heading 5/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 24,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 133
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de panel o grupo de contenido con énfasis intermedio. No usarlo como cuerpo de texto ni cambiar el peso de una instancia para fabricar una variante ausente.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/xl"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Heading 5/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-heading-5-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-xl)",
+      "line-height": "1.33",
+      "tracking": "-0.02em"
+    }
+  },
+  "subheading-1-bold": {
+    "id": "subheading-1-bold",
+    "name": "Subheading 1/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 20,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 150
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Encabezado de grupo de contenido o formulario que necesita énfasis fuerte bajo un título de panel. No usarlo para párrafos largos ni como reemplazo automático de métricas o iniciales del mismo tamaño.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/lg"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Subheading 1/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-subheading-1-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "1.5",
+      "tracking": "-0.02em"
+    }
+  },
+  "subheading-1-semibold": {
+    "id": "subheading-1-semibold",
+    "name": "Subheading 1/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 20,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 150
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Encabezado de grupo que organiza contenido relacionado sin dominar el panel. No usarlo para mensajes auxiliares ni para cambiar una receta Medium o Regular contractual solo por compartir tamaño.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/lg"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Subheading 1/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-subheading-1-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "1.5",
+      "tracking": "-0.02em"
+    }
+  },
+  "subheading-2-bold": {
+    "id": "subheading-2-bold",
+    "name": "Subheading 2/Bold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 150
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Etiqueta o encabezado breve de control o grupo compacto cuando su contrato admite esta receta y requiere alto énfasis. No usarlo como párrafo completo ni imponerlo a controles con altura restringida sin comprobar el layout.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/md"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Subheading 2/Bold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-subheading-2-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "1.5",
+      "tracking": "-0.02em"
+    }
+  },
+  "subheading-2-semibold": {
+    "id": "subheading-2-semibold",
+    "name": "Subheading 2/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 150
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Etiqueta o encabezado breve de control o grupo compacto con énfasis moderado. No usarlo para todo el contenido de un formulario ni sustituir automáticamente una receta Regular del mismo tamaño.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/md"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Subheading 2/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-subheading-2-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "1.5",
+      "tracking": "-0.02em"
+    }
+  },
+  "body-regular": {
+    "id": "body-regular",
+    "name": "Body/Regular",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Texto de lectura, descripción y contenido continuo de interfaz. No usarlo para títulos de sección ni ajustar su interlineado por instancia para resolver una restricción que requiere un estilo complementario.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Body/Regular",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-body-regular",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "body-semibold": {
+    "id": "body-semibold",
+    "name": "Body/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Texto de lectura con énfasis puntual, dato destacado o fragmento relevante dentro del nivel Body. No usarlo para párrafos completos por defecto ni como sustituto automático de etiquetas Bold contractuales.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/sm"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Body/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-body-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "caption-regular": {
+    "id": "caption-regular",
+    "name": "Caption/Regular",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Ayuda breve, metadato o información secundaria próxima al contenido que explica. No usarlo como texto principal de lectura ni como sustituto de recetas compactas más pequeñas sin revisar su contrato.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/xs"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Caption/Regular",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-caption-regular",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "caption-semibold": {
+    "id": "caption-semibold",
+    "name": "Caption/Semibold",
+    "category": "base",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 12,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Ayuda o metadato breve que necesita énfasis dentro del nivel Caption. No usarlo como título de panel ni como única señal para comunicar un estado o una acción importante.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/xs"
+    },
+    "evidence": [
+      {
+        "source": "sources/references/typography/user-style-list.2026-10-15.png",
+        "locator": "Caption/Semibold",
+        "provenance": "EXPLICIT"
+      }
+    ],
+    "cssClass": "ds-type-caption-semibold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "micro-count-small": {
+    "id": "micro-count-small",
+    "name": "Micro/Count/Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 4,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Conteo y overflow Small de Dot y sus instancias existentes. Texto 4 px conservado por excepción; no comunicar información indispensable sin alternativa accesible. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/dot.contract.v0.1.0.md",
+        "sha256": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
+        "locator": "§§8,10; lines60,72–75: 4/8px exception",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.155-122.json",
+        "sha256": "22154ddaad5b6d00a8f3a27aa736f5cbac583486055ed5d7cbf3e4c37fc0cb7d",
+        "locator": "recipes indices 2; nodes 155:137,155:143",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.183-160.json",
+        "sha256": "85358f69021539ff07414f487968bec250a71f1fa62c68bd156021e07e5f8934",
+        "locator": "recipes indices 0; nodes I183:164;155:137,I183:179;155:137,I183:194;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.546-122.json",
+        "sha256": "c610b04b98919e824c8f3600c4235ed68aa61a44523f5ca71093d88401ccc399",
+        "locator": "recipes indices 4; nodes I548:885;183:164;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 12; nodes I619:483;183:164;155:137,I619:498;183:164;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 7; nodes I737:412;3425:3674;183:164;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.765-6.json",
+        "sha256": "cd6ad04f0c0e1bb647098b9db41f93f67fe36fcab82ca8c76078ab983336c37f",
+        "locator": "recipes indices 6; nodes I765:415;183:164;155:137,I765:422;183:164;155:137,I765:429;183:164;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 8; nodes I783:47;765:415;183:164;155:137,I783:47;765:422;183:164;155:137,I783:47;765:429;183:164;155:137",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-micro-count-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "4px",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "micro-source-path": {
+    "id": "micro-source-path",
+    "name": "Micro/Source path",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 8,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Ruta compacta 8 px de Fuentes Path Item y sus separadores. Excepción de legibilidad de esa familia; no usar como caption general. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/fuentes.contract.v0.1.0.md",
+        "sha256": "284f22ca2bcb36291bcfcfeb00d48cb0b3f7fef46d9a71c579a4f58456a17799",
+        "locator": "§10, lines68–73: source12, path8, LH16, tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.847-7.json",
+        "sha256": "ff7bd7ac672567189736820d22bb67569194c2ba4a0fd9223840a07bbea73935",
+        "locator": "recipes indices 0; nodes 848:9,848:10,I848:20;848:9",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-micro-source-path",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "8px",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "micro-count-medium": {
+    "id": "micro-count-medium",
+    "name": "Micro/Count/Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 8,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Conteo y overflow Medium de Dot:8 px con interlineado AUTO. Conservar en sus instancias; no extender esta receta a texto auxiliar común. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/dot.contract.v0.1.0.md",
+        "sha256": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
+        "locator": "§§8,10; lines60,72–75: 4/8px exception",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.155-122.json",
+        "sha256": "22154ddaad5b6d00a8f3a27aa736f5cbac583486055ed5d7cbf3e4c37fc0cb7d",
+        "locator": "recipes indices 1; nodes 155:135,155:141",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.183-160.json",
+        "sha256": "85358f69021539ff07414f487968bec250a71f1fa62c68bd156021e07e5f8934",
+        "locator": "recipes indices 1; nodes I183:169;155:135,I183:184;155:135,I183:199;155:135",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.275-122.json",
+        "sha256": "4aea717e82d2cd4cfb632e1656c93d2c44c03033e19239d6bee18ac6958dfe66",
+        "locator": "recipes indices 1; nodes I276:184;155:135,I276:192;155:135,I276:200;155:135",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes indices 2; nodes I522:431;183:169;155:135,I522:439;183:169;155:135,I522:445;183:169;155:135",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.546-122.json",
+        "sha256": "c610b04b98919e824c8f3600c4235ed68aa61a44523f5ca71093d88401ccc399",
+        "locator": "recipes indices 3; nodes I548:370;155:135,I548:374;183:244;155:135,I548:380;548:370;155:135",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 2; nodes I737:305;522:431;183:169;155:135,I737:305;522:439;183:169;155:135,I737:305;522:445;183:169;155:135",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.847-7.json",
+        "sha256": "ff7bd7ac672567189736820d22bb67569194c2ba4a0fd9223840a07bbea73935",
+        "locator": "recipes indices 1; nodes I848:14;155:135,I848:29;155:135",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-micro-count-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "8px",
+      "line-height": "normal",
+      "tracking": "-0.02em"
+    }
+  },
+  "micro-count-large": {
+    "id": "micro-count-large",
+    "name": "Micro/Count/Large",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 8,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Conteo y overflow Large de Dot:8 px con interlineado 160%. Conservar su geometría; no reemplazar por la receta AUTO de Medium. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/dot.contract.v0.1.0.md",
+        "sha256": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
+        "locator": "§§8,10; lines60,72–75: 4/8px exception",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.155-122.json",
+        "sha256": "22154ddaad5b6d00a8f3a27aa736f5cbac583486055ed5d7cbf3e4c37fc0cb7d",
+        "locator": "recipes indices 0; nodes 155:133,155:139",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.183-160.json",
+        "sha256": "85358f69021539ff07414f487968bec250a71f1fa62c68bd156021e07e5f8934",
+        "locator": "recipes indices 2; nodes I183:174;155:133,I183:189;155:133,I183:204;155:133",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.275-122.json",
+        "sha256": "4aea717e82d2cd4cfb632e1656c93d2c44c03033e19239d6bee18ac6958dfe66",
+        "locator": "recipes indices 12; nodes I311:251;1241:39860,I312:172;1241:39860,I312:179;1241:39860",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-micro-count-large",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "8px",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "ui-stepper-caption": {
+    "id": "ui-stepper-caption",
+    "name": "UI/Stepper/Caption",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 10,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Step y Caption de Stepper,10 Regular/16 con tracking −2%; mantiene sus cajas de 77×15 y el bloque 57 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/2xs",
+      "lineHeight": "font/line-height/xs"
+    },
+    "evidence": [
+      {
+        "source": "specs/stepper.contract.v0.1.0.md",
+        "sha256": "5c3f8d75fe20736fd08411654db5757ea9517af6dd6b078234a17627bac19466",
+        "locator": "Tokens y tipografía, lines38–42; 10 Regular/14 SemiBold, lines16/20",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/MIGRATION-AUDIT.md",
+        "sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+        "locator": "AUD-009, line135: tracking fuente −2% en54 textos Stepper preservado para evitar salto del título",
+        "provenance": "OBSERVED",
+        "scope": "Registro de excepción y QA histórico; no equivale a aprobación humana."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.347-122.json",
+        "sha256": "0ac10669f775bb66d4743e6ff09f2cfef08a72c560fb455917173e7ccc4db7e2",
+        "locator": "recipes indices 0,2; nodes 350:162,350:164,350:174",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-stepper-caption",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-2xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "-0.02em"
+    }
+  },
+  "ui-upload-format-success": {
+    "id": "ui-upload-format-success",
+    "name": "UI/Upload/Format success",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 10,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Formatos admitidos en File Upload Success,10 Regular/16. Mantener esta excepción acotada; otros estados usan 12 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/2xs",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/file-upload.contract.v0.1.0.md",
+        "sha256": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5",
+        "locator": "REQ-04 and §10, lines56,96: LH20/16, sizes14/12/10, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 19; nodes 420:296",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-upload-format-success",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-2xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-avatar-initials-small": {
+    "id": "ui-avatar-initials-small",
+    "name": "UI/Avatar/Initials Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 10,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Iniciales de Avatar Small,10 SemiBold/AUTO dentro de cara 20 px. Consume el rol específico avatar-small; no reemplazar por un escalón general por igualdad numérica. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/avatar-small",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "drafts/contracts/avatar.contract.v0.1.0.md",
+        "sha256": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
+        "locator": "§§6,8,10, lines49,61,71–72: initials10/12/14/20, SemiBold",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/foundations/foundations.avatar-roles.amendment.v0.1.6.md",
+        "sha256": "cc70d2bd05961f9b82f8c628d32602ddd2944fb8b02375b1863ee3510f00c60d",
+        "locator": "line24: font/size/avatar-small dedicated semantic role",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.165-198.json",
+        "sha256": "0606d1aea24040efc0192e5e0d6ea77ab6cf673ab365b6e9879dd7b7e5a0f893",
+        "locator": "recipes indices 3; nodes 165:245",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-avatar-initials-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-avatar-small)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-sidebar-release": {
+    "id": "ui-sidebar-release",
+    "name": "UI/Sidebar/Release",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 10,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta BETA de Sidebar,10 Bold/AUTO; sustitución contractual de Inter por Manrope, manteniendo caja compacta. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/2xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/sidebar.contract.v0.1.0.md",
+        "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+        "locator": "§7, lines52–55: labels14/24, submenuAUTO, BETA10BoldAUTO",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 1; nodes 615:360,I619:500;7268:1070",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-sidebar-release",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-2xs)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-caption-compact": {
+    "id": "ui-caption-compact",
+    "name": "UI/Caption/Compact",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Ayuda y metadatos compactos 12 Regular/16: helpers de campo, Badge, valores de progreso y chart, celdas auxiliares, disclaimer, RFC y metadata de Fuentes según sus contratos. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/input-field.contract.v0.1.0.md",
+        "sha256": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d",
+        "locator": "§§6,10: labels14Bold20, value14Regular20, prefix14Regular16, helper12Regular16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/file-upload.contract.v0.1.0.md",
+        "sha256": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5",
+        "locator": "REQ-04 and §10, lines56,96: LH20/16, sizes14/12/10, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/linear-progress-bar.contract.v0.1.0.md",
+        "sha256": "6fa5650cfec2b1c200f58097b29746974defad6198ce76784ff42ab77892b316",
+        "locator": "§10 line78: sizes12/14, lines16/20, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/badge.contract.v0.1.0.md",
+        "sha256": "886fd8376f440063532a526825287e030918bf9092d827108ca58a49596e4b0b",
+        "locator": "§10 lines99–100: Regular12, line16, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/conversation.contract.v0.1.0.md",
+        "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+        "locator": "§10 line67; lines117,127: preview16/24, caption12/16, normal tracking and Button consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/header.contract.v0.1.0.md",
+        "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+        "locator": "§10 line57: version16AUTO, companyLH20/0.1%, RFC LH16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/fuentes.contract.v0.1.0.md",
+        "sha256": "284f22ca2bcb36291bcfcfeb00d48cb0b3f7fef46d9a71c579a4f58456a17799",
+        "locator": "§10, lines68–73: source12, path8, LH16, tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 8; nodes 202:273",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 1; nodes 210:132,213:124,213:125",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.220-122.json",
+        "sha256": "22f018328717840f7a6bddcfe0f19c0aef2b2bd48034c32504d69915bc0478bc",
+        "locator": "recipes indices 1,2; nodes 220:126,220:127,220:130",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 6,7,8,11; nodes 395:221,395:237,395:253",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes indices 17; nodes I456:403;395:221,I456:422;395:461",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes indices 5; nodes 522:418",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.546-122.json",
+        "sha256": "c610b04b98919e824c8f3600c4235ed68aa61a44523f5ca71093d88401ccc399",
+        "locator": "recipes indices 1; nodes I546:293;97:203,I548:767;546:293;97:203,I548:787;546:293;97:203",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 5; nodes I737:305;522:418",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.765-6.json",
+        "sha256": "cd6ad04f0c0e1bb647098b9db41f93f67fe36fcab82ca8c76078ab983336c37f",
+        "locator": "recipes indices 1,3; nodes I765:263;97:179,765:398,I765:283;97:179",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 6; nodes I783:47;765:398,I783:129;765:398",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.847-7.json",
+        "sha256": "ff7bd7ac672567189736820d22bb67569194c2ba4a0fd9223840a07bbea73935",
+        "locator": "recipes indices 2,4; nodes 848:16,848:18,848:30",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.94-122.json",
+        "sha256": "8cceb89b6c36621b87c236c8a369d78733bf167f84ebc57b3f4654b44dfb30ea",
+        "locator": "recipes indices 0,1,2,3,4; nodes 97:173,97:179,97:185",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-caption-compact",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chart-description": {
+    "id": "ui-chart-description",
+    "name": "UI/Chart/Description",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Descripción del Chart Header,12 Regular/20; completa el encabezado de 48 px con título y gap 8. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 7; nodes 213:165",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chart-description",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-metric-description-small": {
+    "id": "ui-metric-description-small",
+    "name": "UI/Metric/Description Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Descripción de Vertical Metric Small,12 Regular/24; preserva su composición fija existente. No generalizar como una segunda escala de caption. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 4; nodes 202:237",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-description-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chip-label-small": {
+    "id": "ui-chip-label-small",
+    "name": "UI/Chip/Label Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 12,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta de Filter Chip Small,12 Medium/16, dentro del control 32 px con padding 8. Medium no se sustituye por SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/filter-chip.contract.v0.2.0.md",
+        "sha256": "325a408cfa6a5880c2136aee89a448e9ab3a6d928199543d946d6ae3a52a6cb8",
+        "locator": "§6: Small12/16, Middle14/20, Large16/24 Medium",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.67-122.json",
+        "sha256": "bfbae0f2615152190aeef9f9ea75afc00e0ff85de4f2672d129e4de374863d2f",
+        "locator": "recipes indices 1,2,3,4; nodes 72:124,72:128,72:132",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chip-label-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chat-metadata": {
+    "id": "ui-chat-metadata",
+    "name": "UI/Chat/Metadata",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 12,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Timestamp de Chat History y metadatos de uso de Chat Toolbar,12 Medium/20. Mantener el peso Medium de los roles existentes. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/chat-history-item.contract.v0.1.0.md",
+        "sha256": "a07e46bc5a0c28ab77278d0b74a458aff3b187a1aaec1c2035fe49cd691c29fd",
+        "locator": "§§2,6,10, lines22,34,50: timestamp12/20 Medium",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/chat-toolbar.contract.v0.1.0.md",
+        "sha256": "2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43",
+        "locator": "§10, line65: Manrope Regular/Medium/Bold sizes12/14/16, LH20 tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 10,12; nodes 796:461,796:470,796:477",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chat-metadata",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-avatar-initials-medium": {
+    "id": "ui-avatar-initials-medium",
+    "name": "UI/Avatar/Initials Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 12,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Iniciales de Avatar Medium,12 SemiBold/AUTO, dentro de cara 24 px. Mantiene centrado y altura natural; no imponer Caption 160%. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "drafts/contracts/avatar.contract.v0.1.0.md",
+        "sha256": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
+        "locator": "§§6,8,10, lines49,61,71–72: initials10/12/14/20, SemiBold",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.165-198.json",
+        "sha256": "0606d1aea24040efc0192e5e0d6ea77ab6cf673ab365b6e9879dd7b7e5a0f893",
+        "locator": "recipes indices 2; nodes 165:241",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-avatar-initials-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-caption-compact-emphasis": {
+    "id": "ui-caption-compact-emphasis",
+    "name": "UI/Caption/Compact emphasis",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 12,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Leyenda Small de Chart y contador de Textarea,12 SemiBold/16. Énfasis compacto de esos roles; no convertir su peso a Regular. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/textarea.contract.v0.1.0.md",
+        "sha256": "5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa",
+        "locator": "§10, line86: preserve Regular/Bold/SemiBold; lines16/20 and tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 3; nodes 210:140",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 13,14; nodes 419:213,419:223,419:233",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-caption-compact-emphasis",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-source-title": {
+    "id": "ui-source-title",
+    "name": "UI/Source/Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 12,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Source de tarjeta Fuentes,12 Bold/16. Mantener el título distinguible del metadato Regular; no usarlo como heading general. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/xs",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/fuentes.contract.v0.1.0.md",
+        "sha256": "284f22ca2bcb36291bcfcfeb00d48cb0b3f7fef46d9a71c579a4f58456a17799",
+        "locator": "§10, lines68–73: source12, path8, LH16, tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.847-7.json",
+        "sha256": "ff7bd7ac672567189736820d22bb67569194c2ba4a0fd9223840a07bbea73935",
+        "locator": "recipes indices 3; nodes 848:17,848:31",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-source-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-xs)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-navigation-label-auto": {
+    "id": "ui-navigation-label-auto",
+    "name": "UI/Navigation/Label Auto",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta de Navigation Tab Off y submenu Sidebar inactivo,14 Regular/AUTO. Conserva altura natural y geometría contractual de navegación. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/navigation-tab.contract.v0.1.0.md",
+        "sha256": "1f28dbd13b0e5c055d2dc551e6a957b2b64f91701425d0b1089ef505c9b0035c",
+        "locator": "§6 line41 and §10: Manrope14, source geometry; actual AUTO evidence in census",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/sidebar.contract.v0.1.0.md",
+        "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+        "locator": "§7, lines52–55: labels14/24, submenuAUTO, BETA10BoldAUTO",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.275-122.json",
+        "sha256": "4aea717e82d2cd4cfb632e1656c93d2c44c03033e19239d6bee18ac6958dfe66",
+        "locator": "recipes indices 15,16; nodes 312:192,312:199,312:206",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 4,7; nodes 615:389,615:409,I619:501;3374:24367",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-navigation-label-auto",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-field-prefix-compact": {
+    "id": "ui-field-prefix-compact",
+    "name": "UI/Field/Prefix compact",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Prefijo Input, etiquetas ocultas de Toggle y rótulos compactos de Metric,14 Regular/16. Mantener únicamente en los roles existentes de línea estrecha. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/input-field.contract.v0.1.0.md",
+        "sha256": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d",
+        "locator": "§§6,10: labels14Bold20, value14Regular20, prefix14Regular16, helper12Regular16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "drafts/contracts/toggle.contract.v0.1.0.md",
+        "sha256": "c3b6d1100241e3bdb5c89cc98e89854cda999c87f775a8552211280979326c38",
+        "locator": "line90: labels14Regular/16, normal tracking, hidden default",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.111-122.json",
+        "sha256": "0316fccc7e5ec144a692343e0d150276eee88cd059bcf7ebe546708fb11df295",
+        "locator": "recipes indices 0,1; nodes 111:124,111:127,111:129",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 5; nodes 202:240,202:243",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 5; nodes 395:217,395:233,395:249",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes indices 16; nodes I456:403;395:217,I456:422;395:457",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-field-prefix-compact",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-action-text-small": {
+    "id": "ui-action-text-small",
+    "name": "UI/Action/Text Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0.1
+    },
+    "description": "Button Text Small y sus instancias en Steps, más empresa del Header con la misma receta 14 Regular/20 y tracking 0.1%. La coincidencia no convierte el nombre de empresa en acción. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/button.contract.v0.2.0.md",
+        "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+        "locator": "§§6,10; sizes14/16; inherits approved0.1.0 technical baseline",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.contract.md",
+        "sha256": "4b94f80787c1fc9d9990f806c99900e17db060e65b624471b0c8d93f534f2abb",
+        "locator": "§§6,10: approved technical baseline; exact label properties/readback",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/header.contract.v0.1.0.md",
+        "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+        "locator": "§10 line57: version16AUTO, companyLH20/0.1%, RFC LH16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/steps.contract.v0.1.0.md",
+        "sha256": "dad5b88393048c35391c09a5a13369849adf5b6fb9f1bfdd9fe16847690697e9",
+        "locator": "lines27,35: numbers45×20, Manrope Regular14, reused buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.0-1.json",
+        "sha256": "01da10d9ffd1bea7e069b86b0a24da257e9630fba91564a205431f9f42446fb8",
+        "locator": "recipes indices 7,13,18; nodes 26:128,26:176,26:224",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.341-122.json",
+        "sha256": "973cd128ed197f0f021dd5db525a4de98ab5d8d4f19b6ebc3368b81fcec38345",
+        "locator": "recipes indices 0,2; nodes I342:122;26:128,I343:128;26:128,I343:146;26:128",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes indices 4; nodes 522:417",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 4; nodes I737:305;522:417",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-action-text-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "0.001em"
+    }
+  },
+  "ui-body-compact": {
+    "id": "ui-body-compact",
+    "name": "UI/Body/Compact",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Contenido y etiquetas 14 Regular/20 en campos, selección, celdas, caption Modal, Empty states, Conversation y Chat; también contador de Steps. Conserva el interlineado compacto contractual. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/input-field.contract.v0.1.0.md",
+        "sha256": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d",
+        "locator": "§§6,10: labels14Bold20, value14Regular20, prefix14Regular16, helper12Regular16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/radio-button.contract.v0.1.0.md",
+        "sha256": "37be63a92fd4b30468c15d50689487e84a3a67de5c43547c390a083a2427fbfe",
+        "locator": "§§6,10: label14Regular, local line-height and tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/checkbox.contract.v0.1.0.md",
+        "sha256": "3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095",
+        "locator": "§§6,10: label14Regular, local line-height and tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/linear-progress-bar.contract.v0.1.0.md",
+        "sha256": "6fa5650cfec2b1c200f58097b29746974defad6198ce76784ff42ab77892b316",
+        "locator": "§10 line78: sizes12/14, lines16/20, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/conversation.contract.v0.1.0.md",
+        "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+        "locator": "§10 line67; lines117,127: preview16/24, caption12/16, normal tracking and Button consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/chat-section.contract.v0.1.0.md",
+        "sha256": "59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f",
+        "locator": "§10 lines60–63:32Bold/40,20Regular/28,14Regular/20, tracking normal",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/modal.contract.v0.1.0.md",
+        "sha256": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+        "locator": "lines36,59,63: Title24/32,Body16/24,Caption14/20; normal tracking for nested Buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/empty-states.contract.v0.1.0.md",
+        "sha256": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f",
+        "locator": "§10 lines59–68: Title24Bold/24, Main20Medium/24, description14/20, normal Button overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/steps.contract.v0.1.0.md",
+        "sha256": "dad5b88393048c35391c09a5a13369849adf5b6fb9f1bfdd9fe16847690697e9",
+        "locator": "lines27,35: numbers45×20, Manrope Regular14, reused buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.142-122.json",
+        "sha256": "5f8b51c712db0d510e0e1d7ad83e56c6619abf5cd6c613aff395138257dcb6a4",
+        "locator": "recipes indices 0,1; nodes 143:123,143:127,143:129",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.149-122.json",
+        "sha256": "ee2756622bb1312da943a2bc453cc71f465ed7b87289eedbacfed354e95e1694",
+        "locator": "recipes indices 0,1; nodes 149:124,149:129,149:131",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 9,12; nodes 202:276,202:279,202:299",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.220-122.json",
+        "sha256": "22f018328717840f7a6bddcfe0f19c0aef2b2bd48034c32504d69915bc0478bc",
+        "locator": "recipes indices 3; nodes 220:154,220:155,220:161",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.341-122.json",
+        "sha256": "973cd128ed197f0f021dd5db525a4de98ab5d8d4f19b6ebc3368b81fcec38345",
+        "locator": "recipes indices 1,3; nodes 343:161,343:203",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 4,10,12; nodes 395:215,395:231,395:247",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes indices 1,4,9,15; nodes I446:124;149:180,I446:124;149:183,I446:147;149:180",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.546-122.json",
+        "sha256": "c610b04b98919e824c8f3600c4235ed68aa61a44523f5ca71093d88401ccc399",
+        "locator": "recipes indices 2; nodes 546:302,I548:409;149:180,I548:409;149:183",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.565-122.json",
+        "sha256": "64e0b8ba1b81b69908fcc399fb6b883f1cd254c67667d5ae6315249ef592d869",
+        "locator": "recipes indices 5,6; nodes I569:306;566:259;569:323;149:180,I569:306;566:259;569:323;149:183,I569:343;566:276;569:366;569:360",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.639-128.json",
+        "sha256": "904f0c344ec762bfd3ea8ff2062c489719fbc7fabdccb7e7d3a063e5b72dcaee",
+        "locator": "recipes indices 1; nodes 645:148,645:168,645:197",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.765-6.json",
+        "sha256": "cd6ad04f0c0e1bb647098b9db41f93f67fe36fcab82ca8c76078ab983336c37f",
+        "locator": "recipes indices 2,4; nodes 765:273,765:401,765:290",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 0,4,5,9; nodes 783:20,783:23,I783:43;765:273",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-body-compact",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-tooltip-content": {
+    "id": "ui-tooltip-content",
+    "name": "UI/Tooltip/Content",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": -0.01
+    },
+    "description": "Contenido de Tooltip 14 Regular/24 con tracking tight −0.01 px de destino. No reinterpretar ese literal como −1% o −2%. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/tight"
+    },
+    "evidence": [
+      {
+        "source": "drafts/contracts/tooltip.contract.v0.1.0.md",
+        "sha256": "522b74426f781231dbf0a3ce7daed35909ab8f1358e347efe97e34f454416402",
+        "locator": "§10 lines100–109: Manrope14/24, tracking tight literal-unit distinction",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.85-122.json",
+        "sha256": "d6d3c1101bd50cd1b7a3f6829567d16613e716fbdfecb836d569937c15876037",
+        "locator": "recipes indices 0; nodes 87:124,87:129,87:134",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-tooltip-content",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-tight)"
+    }
+  },
+  "ui-body-spacious": {
+    "id": "ui-body-spacious",
+    "name": "UI/Body/Spacious",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Descripción Inline Notification y Metric, y label Sidebar inactivo 14 Regular/24. Conserva la altura de línea de esos roles existentes. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/inline-notification.contract.v0.1.0.md",
+        "sha256": "cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63",
+        "locator": "§§6,10: title/body semantic local typography",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/sidebar.contract.v0.1.0.md",
+        "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+        "locator": "§7, lines52–55: labels14/24, submenuAUTO, BETA10BoldAUTO",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.175-391.json",
+        "sha256": "e2965cbe346e96974d06a1bb60cb176fbe79f3299edbaa6530ddd0d9957b64af",
+        "locator": "recipes indices 1; nodes 175:397,175:405,175:413",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 1,14; nodes 202:219,202:255,202:323",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 2,3,8,10; nodes I615:376;87:139,I615:379;87:139,615:382",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-body-spacious",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chip-label-middle": {
+    "id": "ui-chip-label-middle",
+    "name": "UI/Chip/Label Middle",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 14,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta Filter Chip Middle,14 Medium/20 dentro de control 40 px. El peso Medium es contractual. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/filter-chip.contract.v0.2.0.md",
+        "sha256": "325a408cfa6a5880c2136aee89a448e9ab3a6d928199543d946d6ae3a52a6cb8",
+        "locator": "§6: Small12/16, Middle14/20, Large16/24 Medium",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.67-122.json",
+        "sha256": "bfbae0f2615152190aeef9f9ea75afc00e0ff85de4f2672d129e4de374863d2f",
+        "locator": "recipes indices 5,6,7,8; nodes 72:164,72:168,72:172",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chip-label-middle",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-navigation-emphasis-auto": {
+    "id": "ui-navigation-emphasis-auto",
+    "name": "UI/Navigation/Emphasis Auto",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Iniciales Avatar Large y submenu activo Sidebar,14 SemiBold/AUTO. Compartir métricas no cambia la función ni la caja contractual de cada consumidor. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "drafts/contracts/avatar.contract.v0.1.0.md",
+        "sha256": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
+        "locator": "§§6,8,10, lines49,61,71–72: initials10/12/14/20, SemiBold",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/sidebar.contract.v0.1.0.md",
+        "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+        "locator": "§7, lines52–55: labels14/24, submenuAUTO, BETA10BoldAUTO",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.165-198.json",
+        "sha256": "0606d1aea24040efc0192e5e0d6ea77ab6cf673ab365b6e9879dd7b7e5a0f893",
+        "locator": "recipes indices 1; nodes 165:237",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 5,6; nodes 615:396,615:403,I619:503;3374:24402",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-navigation-emphasis-auto",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-stepper-title": {
+    "id": "ui-stepper-title",
+    "name": "UI/Stepper/Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Título de Stepper 14 SemiBold/20 y tracking −2%; conservar el ancho 77 px y evitar el salto de línea ya auditado. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/stepper.contract.v0.1.0.md",
+        "sha256": "5c3f8d75fe20736fd08411654db5757ea9517af6dd6b078234a17627bac19466",
+        "locator": "Tokens y tipografía, lines38–42; 10 Regular/14 SemiBold, lines16/20",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/MIGRATION-AUDIT.md",
+        "sha256": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
+        "locator": "AUD-009, line135: tracking fuente −2% en54 textos Stepper preservado para evitar salto del título",
+        "provenance": "OBSERVED",
+        "scope": "Registro de excepción y QA histórico; no equivale a aprobación humana."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.347-122.json",
+        "sha256": "0ac10669f775bb66d4743e6ff09f2cfef08a72c560fb455917173e7ccc4db7e2",
+        "locator": "recipes indices 1; nodes 350:163,350:175,350:185",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-stepper-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "-0.02em"
+    }
+  },
+  "ui-upload-action-feedback": {
+    "id": "ui-upload-action-feedback",
+    "name": "UI/Upload/Action and feedback",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Acción y feedback de File Upload 14 SemiBold/20. La acción conserva UNDERLINE como formato semántico; success/error permanecen sin subrayado. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/file-upload.contract.v0.1.0.md",
+        "sha256": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5",
+        "locator": "REQ-04 and §10, lines56,96: LH20/16, sizes14/12/10, normal tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 15,17,18,20; nodes 420:229,420:246,420:263",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-upload-action-feedback",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-sidebar-label-active": {
+    "id": "ui-sidebar-label-active",
+    "name": "UI/Sidebar/Label Active",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 14,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta activa de Sidebar 14 SemiBold/24. No aplicar a submenus AUTO ni sustituir por Body 160% sin revisión del componente. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/sidebar.contract.v0.1.0.md",
+        "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+        "locator": "§7, lines52–55: labels14/24, submenuAUTO, BETA10BoldAUTO",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.614-125.json",
+        "sha256": "eb4641205014683f79eb2e9d146a077cc951d2995969cdc21205e00fed13be35",
+        "locator": "recipes indices 0,9,11; nodes 615:358,615:412,615:417",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-sidebar-label-active",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-navigation-tab-active": {
+    "id": "ui-navigation-tab-active",
+    "name": "UI/Navigation/Tab Active",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta On de Navigation Tab 14 Bold/AUTO; preserva el peso y altura natural del tab activo. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/navigation-tab.contract.v0.1.0.md",
+        "sha256": "1f28dbd13b0e5c055d2dc551e6a957b2b64f91701425d0b1089ef505c9b0035c",
+        "locator": "§6 line41 and §10: Manrope14, source geometry; actual AUTO evidence in census",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.275-122.json",
+        "sha256": "4aea717e82d2cd4cfb632e1656c93d2c44c03033e19239d6bee18ac6958dfe66",
+        "locator": "recipes indices 11,13,14; nodes 311:250,312:171,312:178",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-navigation-tab-active",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-navigation-switch-active": {
+    "id": "ui-navigation-switch-active",
+    "name": "UI/Navigation/Switch Active",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Etiqueta activa Switch Tab 14 Bold/160% y −2%. Body base solo ofrece Regular/SemiBold; mantener Bold evita cambiar el estado de énfasis. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/navigation-switch-tab-item.contract.v0.1.0.md",
+        "sha256": "60d2caa198236e8a508711b185be780814187e2e72ff11f2a6eda30d9a4cb44b",
+        "locator": "§10 line78:14Regular/Bold,22.4px lines,−0.28px tracking",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.275-122.json",
+        "sha256": "4aea717e82d2cd4cfb632e1656c93d2c44c03033e19239d6bee18ac6958dfe66",
+        "locator": "recipes indices 0; nodes 276:183,I283:129;276:183",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-navigation-switch-active",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  },
+  "ui-action-label-small": {
+    "id": "ui-action-label-small",
+    "name": "UI/Action/Label Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0.1
+    },
+    "description": "Etiqueta Button Primary/Default/Link Small 14 Bold/20 y tracking 0.1%. Link conserva subrayado por semántica de acción; no crear otra receta métrica. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/button.contract.v0.2.0.md",
+        "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+        "locator": "§§6,10; sizes14/16; inherits approved0.1.0 technical baseline",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.contract.md",
+        "sha256": "4b94f80787c1fc9d9990f806c99900e17db060e65b624471b0c8d93f534f2abb",
+        "locator": "§§6,10: approved technical baseline; exact label properties/readback",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.local-bindings.amendment.v0.2.2.md",
+        "sha256": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
+        "locator": "lines42–46,57: preserve rendered fonts/metrics and scoped existing consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.0-1.json",
+        "sha256": "01da10d9ffd1bea7e069b86b0a24da257e9630fba91564a205431f9f42446fb8",
+        "locator": "recipes indices 1,3,5,9,11,15,19; nodes 26:92,26:104,26:140",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-action-label-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "0.001em"
+    }
+  },
+  "ui-label-compact-bold": {
+    "id": "ui-label-compact-bold",
+    "name": "UI/Label/Compact Bold",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Label y Required de formulario, encabezado compacto de tabla y énfasis Conversation 14 Bold/20. Preserva pesoBold y trackingnormal propios de estos roles. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/sm",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/input-field.contract.v0.1.0.md",
+        "sha256": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d",
+        "locator": "§§6,10: labels14Bold20, value14Regular20, prefix14Regular16, helper12Regular16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/conversation.contract.v0.1.0.md",
+        "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+        "locator": "§10 line67; lines117,127: preview16/24, caption12/16, normal tracking and Button consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/chat-toolbar.contract.v0.1.0.md",
+        "sha256": "2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43",
+        "locator": "§10, line65: Manrope Regular/Medium/Bold sizes12/14/16, LH20 tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.394-122.json",
+        "sha256": "80d4bb678b15ef6ffca912dfc290d700d1e65bcfe5c471c1b97f8abfcefcc827",
+        "locator": "recipes indices 2,3,9,16; nodes 395:211,395:212,395:227",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes indices 13,14; nodes I456:403;395:211,I456:403;395:212,I456:422;395:451",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.546-122.json",
+        "sha256": "c610b04b98919e824c8f3600c4235ed68aa61a44523f5ca71093d88401ccc399",
+        "locator": "recipes indices 0; nodes 546:284,I548:414;546:284,I548:481;546:284",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.765-6.json",
+        "sha256": "cd6ad04f0c0e1bb647098b9db41f93f67fe36fcab82ca8c76078ab983336c37f",
+        "locator": "recipes indices 5,7,8; nodes 765:409,765:282,I765:304;26:92",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 7; nodes I783:47;765:409,I783:129;765:409",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-label-compact-bold",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-sm)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-header-release": {
+    "id": "ui-header-release",
+    "name": "UI/Header/Release",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Version Number y release del Header 16 Regular/AUTO; mantiene 22 px de altura natural explícita. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/header.contract.v0.1.0.md",
+        "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+        "locator": "§10 line57: version16AUTO, companyLH20/0.1%, RFC LH16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes indices 0,1; nodes 522:400,522:402",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 0,1; nodes I737:305;522:400,I737:305;522:402",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-header-release",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-metric-label-compact": {
+    "id": "ui-metric-label-compact",
+    "name": "UI/Metric/Label Compact",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta métrica y leyenda Medium regular 16/16. Mantener solo en sus cajas compactas existentes; no es texto de lectura general. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 2; nodes 202:222,202:225,202:233",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 2; nodes 210:136",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-label-compact",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-action-text-medium": {
+    "id": "ui-action-text-medium",
+    "name": "UI/Action/Text Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0.1
+    },
+    "description": "Etiqueta Button Text Middle/Large 16 Regular/20 y tracking 0.1%. Mantener el peso Regular propio del tipo Text. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/button.contract.v0.2.0.md",
+        "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+        "locator": "§§6,10; sizes14/16; inherits approved0.1.0 technical baseline",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.contract.md",
+        "sha256": "4b94f80787c1fc9d9990f806c99900e17db060e65b624471b0c8d93f534f2abb",
+        "locator": "§§6,10: approved technical baseline; exact label properties/readback",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.0-1.json",
+        "sha256": "01da10d9ffd1bea7e069b86b0a24da257e9630fba91564a205431f9f42446fb8",
+        "locator": "recipes indices 6,12,17; nodes 26:120,26:124,26:168",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-action-text-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "0.001em"
+    }
+  },
+  "ui-metric-label-trend": {
+    "id": "ui-metric-label-trend",
+    "name": "UI/Metric/Label and trend",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Label y Trend de Metric 16 Regular/20. Preservar las composiciones Horizontal y V 1 cuyos altos ya fueron ajustados para este interlineado. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 6,11; nodes 202:258,202:261,202:288",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-label-trend",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-breadcrumb-label": {
+    "id": "ui-breadcrumb-label",
+    "name": "UI/Breadcrumb/Label",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": -0.01
+    },
+    "description": "Etiqueta Breadcrumb 16 Regular/24 y trackingtight −0.01 px. Unidad de destino deliberada; no sustituir por porcentaje. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/tight"
+    },
+    "evidence": [
+      {
+        "source": "specs/breadcrumbs.contract.v0.1.0.md",
+        "sha256": "241c1b03d7f0d93c8c39324e604739a670926d719e3c801e82ed7c018c59323d",
+        "locator": "§10 lines78–81:16Regular/SemiBold/24, tight−0.01 Figma unit preserved",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.190-188.json",
+        "sha256": "9efe58fa1d88c149189e253868f5beed36799c5e55c13b75a282e758188e1fc2",
+        "locator": "recipes indices 0,2,3,4; nodes 190:190,190:203,190:207",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-breadcrumb-label",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-tight)"
+    }
+  },
+  "ui-content-large": {
+    "id": "ui-content-large",
+    "name": "UI/Content/Large",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Texto amplio 16 Regular/24: cuerpo y subtítulo Modal, título Inline Notification, labels Select Large y textos Metric según sus contratos. No sustituir por SubheadingBold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/modal.contract.v0.1.0.md",
+        "sha256": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+        "locator": "lines36,59,63: Title24/32,Body16/24,Caption14/20; normal tracking for nested Buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/inline-notification.contract.v0.1.0.md",
+        "sha256": "cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63",
+        "locator": "§§6,10: title/body semantic local typography",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/select.contract.v0.1.0.md",
+        "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
+        "locator": "§§6,10: scaled nested checkbox, preserved source label roles and local typography",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.175-391.json",
+        "sha256": "e2965cbe346e96974d06a1bb60cb176fbe79f3299edbaa6530ddd0d9957b64af",
+        "locator": "recipes indices 0; nodes 175:396,175:404,175:412",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 7,13; nodes 202:269,202:311,202:321",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes indices 0,5,8; nodes 446:132,446:133,446:150",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.565-122.json",
+        "sha256": "64e0b8ba1b81b69908fcc399fb6b883f1cd254c67667d5ae6315249ef592d869",
+        "locator": "recipes indices 1,2; nodes 566:244,566:245,566:254",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-content-large",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chip-label-large": {
+    "id": "ui-chip-label-large",
+    "name": "UI/Chip/Label Large",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 16,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Etiqueta Filter Chip Large 16 Medium/24 dentro de control 48 px con padding 12. No sustituir Medium por SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/filter-chip.contract.v0.2.0.md",
+        "sha256": "325a408cfa6a5880c2136aee89a448e9ab3a6d928199543d946d6ae3a52a6cb8",
+        "locator": "§6: Small12/16, Middle14/20, Large16/24 Medium",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.67-122.json",
+        "sha256": "bfbae0f2615152190aeef9f9ea75afc00e0ff85de4f2672d129e4de374863d2f",
+        "locator": "recipes indices 0,9,10,11; nodes 70:125,72:204,72:208",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chip-label-large",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chart-legend-medium-emphasis": {
+    "id": "ui-chart-legend-medium-emphasis",
+    "name": "UI/Chart/Legend Medium emphasis",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Leyenda Chart Medium SemiBold 16/16, dentro de la caja 76×16 del componente. Un line-height 24 requiere rediseñar esa caja. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 4; nodes 210:144",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chart-legend-medium-emphasis",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-xs)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-breadcrumb-shortened": {
+    "id": "ui-breadcrumb-shortened",
+    "name": "UI/Breadcrumb/Shortened",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 16,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": -0.01
+    },
+    "description": "Elipsis de Breadcrumb Shortened 16 SemiBold/24 y trackingtight −0.01 px. No convertir su formato al Regular del resto de etiquetas. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/tight"
+    },
+    "evidence": [
+      {
+        "source": "specs/breadcrumbs.contract.v0.1.0.md",
+        "sha256": "241c1b03d7f0d93c8c39324e604739a670926d719e3c801e82ed7c018c59323d",
+        "locator": "§10 lines78–81:16Regular/SemiBold/24, tight−0.01 Figma unit preserved",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.190-188.json",
+        "sha256": "9efe58fa1d88c149189e253868f5beed36799c5e55c13b75a282e758188e1fc2",
+        "locator": "recipes indices 1; nodes 190:199",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-breadcrumb-shortened",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-tight)"
+    }
+  },
+  "ui-action-label-medium": {
+    "id": "ui-action-label-medium",
+    "name": "UI/Action/Label Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": 0.1
+    },
+    "description": "Etiqueta Button Primary/Default/Link Middle/Large 16 Bold/20 y tracking 0.1%; Link conserva UNDERLINE semántico. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/sm"
+    },
+    "evidence": [
+      {
+        "source": "specs/components/button.contract.v0.2.0.md",
+        "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+        "locator": "§§6,10; sizes14/16; inherits approved0.1.0 technical baseline",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.contract.md",
+        "sha256": "4b94f80787c1fc9d9990f806c99900e17db060e65b624471b0c8d93f534f2abb",
+        "locator": "§§6,10: approved technical baseline; exact label properties/readback",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/components/button.local-bindings.amendment.v0.2.2.md",
+        "sha256": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
+        "locator": "lines42–46,57: preserve rendered fonts/metrics and scoped existing consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.0-1.json",
+        "sha256": "01da10d9ffd1bea7e069b86b0a24da257e9630fba91564a205431f9f42446fb8",
+        "locator": "recipes indices 0,2,4,8,10,14,16; nodes 26:84,26:88,26:96",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-action-label-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "0.001em"
+    }
+  },
+  "ui-action-label-normal": {
+    "id": "ui-action-label-normal",
+    "name": "UI/Action/Label Normal",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Botones consumidores de Modal y Empty states 16 Bold/20 con trackingnormal explícito, y nombre de plan Chat con esa receta. No propagar el override al main Button. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/modal.contract.v0.1.0.md",
+        "sha256": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+        "locator": "lines36,59,63: Title24/32,Body16/24,Caption14/20; normal tracking for nested Buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/empty-states.contract.v0.1.0.md",
+        "sha256": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f",
+        "locator": "§10 lines59–68: Title24Bold/24, Main20Medium/24, description14/20, normal Button overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/chat-toolbar.contract.v0.1.0.md",
+        "sha256": "2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43",
+        "locator": "§10, line65: Manrope Regular/Medium/Bold sizes12/14/16, LH20 tracking0",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.565-122.json",
+        "sha256": "64e0b8ba1b81b69908fcc399fb6b883f1cd254c67667d5ae6315249ef592d869",
+        "locator": "recipes indices 3,4; nodes I566:263;26:100,I566:269;26:88,I566:278;26:100",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.639-128.json",
+        "sha256": "904f0c344ec762bfd3ea8ff2062c489719fbc7fabdccb7e7d3a063e5b72dcaee",
+        "locator": "recipes indices 2,3; nodes I645:150;26:88,I645:170;26:88,I645:199;26:88",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 11; nodes 797:450,797:482",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-action-label-normal",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-conversation-preview-title": {
+    "id": "ui-conversation-preview-title",
+    "name": "UI/Conversation/Preview Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Preview Conversation 16 Bold/24; mantiene el bloque multilínea de la tarjeta sin modificar su ancho. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/conversation.contract.v0.1.0.md",
+        "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+        "locator": "§10 line67; lines117,127: preview16/24, caption12/16, normal tracking and Button consumer overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.765-6.json",
+        "sha256": "cd6ad04f0c0e1bb647098b9db41f93f67fe36fcab82ca8c76078ab983336c37f",
+        "locator": "recipes indices 0; nodes 765:262,I765:292;765:262,I765:351;765:262",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-conversation-preview-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chart-header-title": {
+    "id": "ui-chart-header-title",
+    "name": "UI/Chart/Header Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 20,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Chart Header 20 Regular/20 dentro del encabezado 48 px. No aplicar Subheading 20 Bold/SemiBold ni línea 30 px a esta composición. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/lg",
+      "lineHeight": "font/line-height/sm",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 6; nodes 213:164",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chart-header-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "var(--ds-font-line-height-sm)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-metric-value-small": {
+    "id": "ui-metric-value-small",
+    "name": "UI/Metric/Value Small",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 20,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Valor Horizontal Small y título One Metric V 1 Small 20 Regular/24. Preserva 20 px en lugar de forzar 24 px o pesoSemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/lg",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 10; nodes 202:277,202:280,202:297",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-value-small",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chat-subtitle": {
+    "id": "ui-chat-subtitle",
+    "name": "UI/Chat/Subtitle",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 20,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 28
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Subtítulo Chat 20 Regular/28 de Standby/Active. La base 20 solo define pesosBold/SemiBold; esta receta conserva el rol Regular contractual. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/lg",
+      "lineHeight": "font/line-height/lg",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/chat-section.contract.v0.1.0.md",
+        "sha256": "59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f",
+        "locator": "§10 lines60–63:32Bold/40,20Regular/28,14Regular/20, tracking normal",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 3; nodes 783:40,783:124",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chat-subtitle",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "var(--ds-font-line-height-lg)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-empty-main-title": {
+    "id": "ui-empty-main-title",
+    "name": "UI/Empty/Main Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Medium",
+    "fontSize": 20,
+    "fontWeight": 500,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Empty states Main 20 Medium/24, homologación explícita desde la fuente. No reemplazar Medium por SemiBold del catálogo base. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/medium",
+      "fontSize": "font/size/lg",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/empty-states.contract.v0.1.0.md",
+        "sha256": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f",
+        "locator": "§10 lines59–68: Title24Bold/24, Main20Medium/24, description14/20, normal Button overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.639-128.json",
+        "sha256": "904f0c344ec762bfd3ea8ff2062c489719fbc7fabdccb7e7d3a063e5b72dcaee",
+        "locator": "recipes indices 4; nodes 645:225",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-empty-main-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-medium)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-avatar-initials-extra-large": {
+    "id": "ui-avatar-initials-extra-large",
+    "name": "UI/Avatar/Initials Extra Large",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 20,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "AUTO"
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Iniciales Avatar Extra Large 20 SemiBold/AUTO y sus instancias de Header/App Shell. Preservar centrado de cara 48 px y altura natural 27 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/lg",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "drafts/contracts/avatar.contract.v0.1.0.md",
+        "sha256": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
+        "locator": "§§6,8,10, lines49,61,71–72: initials10/12/14/20, SemiBold",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "specs/header.contract.v0.1.0.md",
+        "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+        "locator": "§10 line57: version16AUTO, companyLH20/0.1%, RFC LH16",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.165-198.json",
+        "sha256": "0606d1aea24040efc0192e5e0d6ea77ab6cf673ab365b6e9879dd7b7e5a0f893",
+        "locator": "recipes indices 0; nodes 165:233",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes indices 6; nodes I522:424;165:233",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes indices 6; nodes I737:305;522:424;165:233",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-avatar-initials-extra-large",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-lg)",
+      "line-height": "normal",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-metric-value-medium": {
+    "id": "ui-metric-value-medium",
+    "name": "UI/Metric/Value Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 24,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Títulos y valores Metric 24 Regular/24. Mantener los roles de cifra y título existentes; el catálogo base 24 solo ofrece Bold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/xl",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 0; nodes 202:215,202:241,202:244",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-value-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-xl)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-empty-title": {
+    "id": "ui-empty-title",
+    "name": "UI/Empty/Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 24,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Empty states Default/Compact/Inline 24 Bold/24. Mantener la composición; Heading 5 tiene distinta altura y tracking. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/xl",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/empty-states.contract.v0.1.0.md",
+        "sha256": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f",
+        "locator": "§10 lines59–68: Title24Bold/24, Main20Medium/24, description14/20, normal Button overrides",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.639-128.json",
+        "sha256": "904f0c344ec762bfd3ea8ff2062c489719fbc7fabdccb7e7d3a063e5b72dcaee",
+        "locator": "recipes indices 0; nodes 645:147,645:167,645:196",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-empty-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-xl)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-modal-title": {
+    "id": "ui-modal-title",
+    "name": "UI/Modal/Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 24,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 32
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Título Modal 24 Bold/32 y trackingnormal. Conserva la normalización contractual desde 30 px de fuente; Heading 5 difiere en tracking y línea 31.92 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/xl",
+      "lineHeight": "font/line-height/xl",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/modal.contract.v0.1.0.md",
+        "sha256": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+        "locator": "lines36,59,63: Title24/32,Body16/24,Caption14/20; normal tracking for nested Buttons",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.565-122.json",
+        "sha256": "64e0b8ba1b81b69908fcc399fb6b883f1cd254c67667d5ae6315249ef592d869",
+        "locator": "recipes indices 0; nodes 566:240,566:251,I567:140;566:240",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-modal-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-xl)",
+      "line-height": "var(--ds-font-line-height-xl)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-metric-value-large": {
+    "id": "ui-metric-value-large",
+    "name": "UI/Metric/Value Large",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 32,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 32
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Valor grande Metric 32 Regular/32. No convertir al pesoMedium/Bold del catálogo base; preservar caja fija del importe. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/2xl",
+      "lineHeight": "font/line-height/xl",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/metric-card.contract.v0.1.0.md",
+        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
+        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 3; nodes 202:223,202:226,202:287",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-metric-value-large",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-2xl)",
+      "line-height": "var(--ds-font-line-height-xl)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chart-gauge-value": {
+    "id": "ui-chart-gauge-value",
+    "name": "UI/Chart/Gauge Value",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "SemiBold",
+    "fontSize": 32,
+    "fontWeight": 600,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 24
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Porcentaje central de Gauge 32 SemiBold/24 en caja fija 105×66. Receta acotada a Gauge; no usarla como heading ni como escala general de 32 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/semibold",
+      "fontSize": "font/size/2xl",
+      "lineHeight": "font/line-height/md",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 5; nodes 211:125,211:129,211:133",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chart-gauge-value",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-semibold)",
+      "size": "var(--ds-font-size-2xl)",
+      "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-chat-title": {
+    "id": "ui-chat-title",
+    "name": "UI/Chat/Title",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 32,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 40
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Saludo y nombre de usuario Chat 32 Bold/40 y trackingnormal. Preserva la composición contractual; Heading 4 usa 42.56 px y −2%. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold",
+      "fontSize": "font/size/2xl",
+      "lineHeight": "font/line-height/2xl",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/chat-section.contract.v0.1.0.md",
+        "sha256": "59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f",
+        "locator": "§10 lines60–63:32Bold/40,20Regular/28,14Regular/20, tracking normal",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.783-6.json",
+        "sha256": "0fc1384c45ef91d97ccef9b67040e1ce4124291fea9f4f898a649ac07939fbf0",
+        "locator": "recipes indices 1,2; nodes 783:34,783:35,783:122",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-chat-title",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "var(--ds-font-size-2xl)",
+      "line-height": "var(--ds-font-line-height-2xl)",
+      "tracking": "var(--ds-font-letter-spacing-normal)"
+    }
+  },
+  "ui-checkbox-label-scaled-two-thirds": {
+    "id": "ui-checkbox-label-scaled-two-thirds",
+    "name": "UI/Select/Checkbox label Small (2-3)",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 9.333333969116211,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13.333333969116211
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0.0
+    },
+    "description": "Etiquetas ocultas de Checkbox dentro de Select Small y sus muestras existentes, escaladas a dos tercios. Conserva el tamaño y la línea efectivos de esta composición; no es un nuevo tamaño de Checkbox ni un escalón general. Complementario derivado de compatibilidad limitado a consumidores censados. Permite un TextStyle explícito con las métricas resueltas cuando la escala de instancia no conserva el vínculo directo; no aplicar otra vez el factor a esta receta.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular"
+    },
+    "derivedFrom": {
+      "baseStyleId": "ui-body-compact",
+      "scaleFactor": 0.6666666865348816,
+      "scaleRatio": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+      "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+    },
+    "consumerScope": {
+      "rangeCount": 14,
+      "principalTextNodeIds": [
+        "149:124",
+        "149:129",
+        "149:180",
+        "149:183",
+        "149:185",
+        "149:188",
+        "149:195",
+        "149:198"
+      ],
+      "instanceTextNodeIds": [
+        "I446:207;149:180",
+        "I446:207;149:183",
+        "I446:227;149:180",
+        "I446:227;149:183",
+        "I446:295;149:185",
+        "I446:295;149:188",
+        "I446:367;149:195",
+        "I446:367;149:198",
+        "I446:444;149:124",
+        "I446:444;149:129",
+        "I446:510;149:180",
+        "I446:510;149:183",
+        "I448:569;446:207;149:180",
+        "I448:569;446:207;149:183"
+      ]
+    },
+    "evidence": [
+      {
+        "source": "specs/checkbox.contract.v0.1.0.md",
+        "sha256": "3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095",
+        "locator": "Receta del principal; derivación limitada a consumidores escalados del censo.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "specs/select.contract.v0.1.0.md",
+        "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
+        "locator": "Composición consumidora existente; no altera el principal ni su escala general.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/scaled-instance-evidence.json",
+        "sha256": "e3acf1d780e138848655a40420c381ecd7a52124e8eaf02b3e4e64721626c218",
+        "locator": "scaleFactor observado 0.6666666865348816; no multiplicar factores acumulados de ancestros.",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes 3,7; 14 rangos; nodos I446:207;149:180,I446:207;149:183,I446:227;149:180",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-checkbox-label-scaled-two-thirds",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "9.333333969116211px",
+      "line-height": "13.333333969116211px",
+      "tracking": "0px"
+    }
+  },
+  "ui-checkbox-label-scaled-five-sixths": {
+    "id": "ui-checkbox-label-scaled-five-sixths",
+    "name": "UI/Select/Checkbox label Medium (5-6)",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 11.666666030883789,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16.66666603088379
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0.0
+    },
+    "description": "Etiquetas ocultas de Checkbox dentro de Select Medium y sus muestras existentes, escaladas a cinco sextos. Conserva las métricas efectivas sin cambiar la composición ni el principal Checkbox. Complementario derivado de compatibilidad limitado a consumidores censados. Permite un TextStyle explícito con las métricas resueltas cuando la escala de instancia no conserva el vínculo directo; no aplicar otra vez el factor a esta receta.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular"
+    },
+    "derivedFrom": {
+      "baseStyleId": "ui-body-compact",
+      "scaleFactor": 0.8333333134651184,
+      "scaleRatio": {
+        "numerator": 5,
+        "denominator": 6
+      },
+      "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+      "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+    },
+    "consumerScope": {
+      "rangeCount": 76,
+      "principalTextNodeIds": [
+        "149:124",
+        "149:129",
+        "149:180",
+        "149:183",
+        "149:185",
+        "149:188",
+        "149:195",
+        "149:198"
+      ],
+      "instanceTextNodeIds": [
+        "I446:167;149:180",
+        "I446:167;149:183",
+        "I446:187;149:180",
+        "I446:187;149:183",
+        "I446:271;149:185",
+        "I446:271;149:188",
+        "I446:343;149:195",
+        "I446:343;149:198",
+        "I446:418;149:124",
+        "I446:418;149:129",
+        "I446:490;149:180",
+        "I446:490;149:183",
+        "I456:441;446:167;149:180",
+        "I456:441;446:167;149:183",
+        "I456:450;446:167;149:180",
+        "I456:450;446:167;149:183",
+        "I456:459;446:167;149:180",
+        "I456:459;446:167;149:183",
+        "I456:468;446:167;149:180",
+        "I456:468;446:167;149:183",
+        "I456:477;446:167;149:180",
+        "I456:477;446:167;149:183",
+        "I458:470;456:441;446:167;149:180",
+        "I458:470;456:441;446:167;149:183",
+        "I458:470;456:450;446:167;149:180",
+        "I458:470;456:450;446:167;149:183",
+        "I458:470;456:459;446:167;149:180",
+        "I458:470;456:459;446:167;149:183",
+        "I458:470;456:468;446:167;149:180",
+        "I458:470;456:468;446:167;149:183",
+        "I458:470;456:477;446:167;149:180",
+        "I458:470;456:477;446:167;149:183",
+        "I466:602;446:167;149:180",
+        "I466:602;446:167;149:183",
+        "I466:603;446:167;149:180",
+        "I466:603;446:167;149:183",
+        "I466:604;446:167;149:180",
+        "I466:604;446:167;149:183",
+        "I466:605;446:167;149:180",
+        "I466:605;446:167;149:183",
+        "I466:606;446:167;149:180",
+        "I466:606;446:167;149:183",
+        "I467:1052;456:440;467:1191;446:167;149:180",
+        "I467:1052;456:440;467:1191;446:167;149:183",
+        "I467:1052;456:440;467:1192;446:418;149:124",
+        "I467:1052;456:440;467:1192;446:418;149:129",
+        "I467:1052;456:440;467:1193;446:167;149:180",
+        "I467:1052;456:440;467:1193;446:167;149:183",
+        "I467:1052;456:440;467:1194;446:167;149:180",
+        "I467:1052;456:440;467:1194;446:167;149:183",
+        "I467:1052;456:440;467:1195;446:167;149:180",
+        "I467:1052;456:440;467:1195;446:167;149:183",
+        "I467:1052;456:440;467:1196;446:167;149:180",
+        "I467:1052;456:440;467:1196;446:167;149:183",
+        "I467:1052;456:440;467:1217;446:167;149:180",
+        "I467:1052;456:440;467:1217;446:167;149:183",
+        "I467:1052;456:440;467:1238;446:167;149:180",
+        "I467:1052;456:440;467:1238;446:167;149:183",
+        "I467:688;456:440;467:807;446:167;149:180",
+        "I467:688;456:440;467:807;446:167;149:183",
+        "I467:811;456:440;467:930;446:167;149:180",
+        "I467:811;456:440;467:930;446:167;149:183",
+        "I467:811;456:440;467:931;446:167;149:180",
+        "I467:811;456:440;467:931;446:167;149:183",
+        "I467:811;456:440;467:932;446:167;149:180",
+        "I467:811;456:440;467:932;446:167;149:183",
+        "I467:934;456:441;446:167;149:180",
+        "I467:934;456:441;446:167;149:183",
+        "I467:934;456:450;446:167;149:180",
+        "I467:934;456:450;446:167;149:183",
+        "I467:934;456:459;446:167;149:180",
+        "I467:934;456:459;446:167;149:183",
+        "I467:934;456:468;446:167;149:180",
+        "I467:934;456:468;446:167;149:183",
+        "I467:934;456:477;446:167;149:180",
+        "I467:934;456:477;446:167;149:183"
+      ]
+    },
+    "evidence": [
+      {
+        "source": "specs/checkbox.contract.v0.1.0.md",
+        "sha256": "3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095",
+        "locator": "Receta del principal; derivación limitada a consumidores escalados del censo.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "specs/select.contract.v0.1.0.md",
+        "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
+        "locator": "Composición consumidora existente; no altera el principal ni su escala general.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/scaled-instance-evidence.json",
+        "sha256": "e3acf1d780e138848655a40420c381ecd7a52124e8eaf02b3e4e64721626c218",
+        "locator": "scaleFactor observado 0.8333333134651184; no multiplicar factores acumulados de ancestros.",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.444-122.json",
+        "sha256": "96efb819732bb62b75a4cc5489a9a59a45b9de94f6fbc05decf97e67704af95c",
+        "locator": "recipes 2,6; 76 rangos; nodos I446:167;149:180,I446:167;149:183,I446:187;149:180",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-ui-checkbox-label-scaled-five-sixths",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "11.666666030883789px",
+      "line-height": "16.66666603088379px",
+      "tracking": "0px"
+    }
+  },
+  "micro-count-small-scaled-four-thirds": {
+    "id": "micro-count-small-scaled-four-thirds",
+    "name": "Micro/Count/Small in Header (4-3)",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Bold",
+    "fontSize": 5.333333492279053,
+    "fontWeight": 700,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 160
+    },
+    "letterSpacing": {
+      "unit": "PERCENT",
+      "value": -2
+    },
+    "description": "Count Small oculto de Icon Button en Header, App Shell y sus muestras existentes, escalado a cuatro tercios. Excepción diminuta conservada; no comunicar un conteo indispensable sin alternativa accesible ni generalizarla a otros textos. Complementario derivado de compatibilidad limitado a consumidores censados. Permite un TextStyle explícito con las métricas resueltas cuando la escala de instancia no conserva el vínculo directo; no aplicar otra vez el factor a esta receta.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/bold"
+    },
+    "derivedFrom": {
+      "baseStyleId": "micro-count-small",
+      "scaleFactor": 1.3333333730697632,
+      "scaleRatio": {
+        "numerator": 4,
+        "denominator": 3
+      },
+      "numericEncoding": "FLOAT32_BASE_TIMES_FLOAT32_SCALE",
+      "reason": "Materializar la receta resuelta para vinculación explícita de TextStyle preservando métricas existentes. La instancia mantiene su escala; el estilo derivado se aplica con recipeScale=1. No crea primitivas ni un binding multiplicativo inexistente."
+    },
+    "consumerScope": {
+      "rangeCount": 13,
+      "principalTextNodeIds": [
+        "155:137"
+      ],
+      "instanceTextNodeIds": [
+        "I522:408;183:164;155:137",
+        "I526:1046;522:408;183:164;155:137",
+        "I526:1185;522:408;183:164;155:137",
+        "I526:1347;522:408;183:164;155:137",
+        "I526:1462;522:408;183:164;155:137",
+        "I526:257;522:408;183:164;155:137",
+        "I526:363;522:408;183:164;155:137",
+        "I526:469;522:408;183:164;155:137",
+        "I526:575;522:408;183:164;155:137",
+        "I526:682;522:408;183:164;155:137",
+        "I526:798;522:408;183:164;155:137",
+        "I526:918;522:408;183:164;155:137",
+        "I737:305;522:408;183:164;155:137"
+      ]
+    },
+    "evidence": [
+      {
+        "source": "specs/components/dot.contract.v0.1.0.md",
+        "sha256": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
+        "locator": "Receta del principal; derivación limitada a consumidores escalados del censo.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "specs/header.contract.v0.1.0.md",
+        "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+        "locator": "Composición consumidora existente; no altera el principal ni su escala general.",
+        "provenance": "EXPLICIT"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/header-scaled-instance-evidence.json",
+        "sha256": "a2df39a45e737aa443d2e1d3876b39e0c6665e9bacd1eee58cdc0be3393639d6",
+        "locator": "scaleFactor observado 1.3333333730697632; no multiplicar factores acumulados de ancestros.",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "qa/implementations/typography/scaled-counter.pre-inheritance.json",
+        "sha256": "bbdaca3a2dcd3d476c82867f150a33311ba1e604021d313da776b83456405046",
+        "locator": "instanceId I737:305;522:408;183:164; snapshot de texto155:137 con estilo vacío y métricas escaladas.",
+        "provenance": "OBSERVED",
+        "scope": "Respaldo previo del ensayo; no acredita resultado final ni suficiencia universal de la técnica de aplicación."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.518-122.json",
+        "sha256": "c21e1c8b61ce13f8ec6d41000dd9f721ca04d328f1f42c0b15bcf437683f92bc",
+        "locator": "recipes 3; 12 rangos; nodos I522:408;183:164;155:137,I526:257;522:408;183:164;155:137,I526:363;522:408;183:164;155:137",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.737-303.json",
+        "sha256": "e1630ecf71a7363ac222e36d16cbcd439c3155c8b196156ea5fd90d566c86c63",
+        "locator": "recipes 3; 1 rangos; nodos I737:305;522:408;183:164;155:137",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "cssClass": "ds-type-micro-count-small-scaled-four-thirds",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-bold)",
+      "size": "5.333333492279053px",
+      "line-height": "1.6",
+      "tracking": "-0.02em"
+    }
+  }
+} as const;
+export type TypographyId = keyof typeof typography;
+export const typographyIds = ["heading-1-bold", "heading-1-semibold", "heading-2-bold", "heading-2-medium", "heading-3-semibold", "heading-3-medium", "heading-4-medium", "heading-4-bold", "heading-5-bold", "heading-5-semibold", "subheading-1-bold", "subheading-1-semibold", "subheading-2-bold", "subheading-2-semibold", "body-regular", "body-semibold", "caption-regular", "caption-semibold", "micro-count-small", "micro-source-path", "micro-count-medium", "micro-count-large", "ui-stepper-caption", "ui-upload-format-success", "ui-avatar-initials-small", "ui-sidebar-release", "ui-caption-compact", "ui-chart-description", "ui-metric-description-small", "ui-chip-label-small", "ui-chat-metadata", "ui-avatar-initials-medium", "ui-caption-compact-emphasis", "ui-source-title", "ui-navigation-label-auto", "ui-field-prefix-compact", "ui-action-text-small", "ui-body-compact", "ui-tooltip-content", "ui-body-spacious", "ui-chip-label-middle", "ui-navigation-emphasis-auto", "ui-stepper-title", "ui-upload-action-feedback", "ui-sidebar-label-active", "ui-navigation-tab-active", "ui-navigation-switch-active", "ui-action-label-small", "ui-label-compact-bold", "ui-header-release", "ui-metric-label-compact", "ui-action-text-medium", "ui-metric-label-trend", "ui-breadcrumb-label", "ui-content-large", "ui-chip-label-large", "ui-chart-legend-medium-emphasis", "ui-breadcrumb-shortened", "ui-action-label-medium", "ui-action-label-normal", "ui-conversation-preview-title", "ui-chart-header-title", "ui-metric-value-small", "ui-chat-subtitle", "ui-empty-main-title", "ui-avatar-initials-extra-large", "ui-metric-value-medium", "ui-empty-title", "ui-modal-title", "ui-metric-value-large", "ui-chart-gauge-value", "ui-chat-title", "ui-checkbox-label-scaled-two-thirds", "ui-checkbox-label-scaled-five-sixths", "micro-count-small-scaled-four-thirds"] as const;
+export const typographyClass = (id: TypographyId) => typography[id].cssClass;

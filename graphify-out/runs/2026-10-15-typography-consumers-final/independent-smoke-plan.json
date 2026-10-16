@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_WITH_VERIFIED_IDS_NOT_EXECUTED",
+  "run": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/graphify-out/runs/2026-10-15-typography-consumers-final",
+  "execution_gate": "Root confirms CURRENT; never query the before graph as final evidence. Recheck actual live IDs and vocabulary before execution.",
+  "interpreter": "/Users/miguel.leo/.local/share/uv/tools/graphifyy/bin/python",
+  "graph": "graphify-out/graph.json",
+  "results": "graphify-out/runs/2026-10-15-typography-consumers-final/independent-smoke-queries.json",
+  "graph_mutation": "NONE; do not run save-result or reflect",
+  "queries": [
+    {
+      "id": "native_consumption_chain",
+      "original_question": "¿Cómo conecta la enmienda nativa 0.1.2 con catálogo79 y QAglobal3353:3250directos+103nativos, conservando la historia de103IDslocalesvacíos?",
+      "expanded_tokens": [
+        "typography",
+        "native",
+        "inheritance",
+        "closure",
+        "consumer",
+        "acceptance"
+      ],
+      "command_args": [
+        "query",
+        "typography native inheritance closure consumer acceptance",
+        "--budget",
+        "5000"
+      ],
+      "source_anchors": [
+        "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+        "specs/tokens/ai-design-system.typography.v0.1.2.json",
+        "qa/implementations/typography/consumption-v0.1.1/consumer-final.global.v0.1.2.json",
+        "qa/implementations/typography/consumption-v0.1.1/consumer-final.native-inheritance.v0.1.2.json"
+      ],
+      "must_recover": [
+        "79styles",
+        "3353resolvedUIranges",
+        "3250DIRECT_STYLE_ID",
+        "103INHERITED_NATIVE_SCALE",
+        "103observedemptylocalIDs",
+        "historicalFAILretained",
+        "Tablewholepageguardgap"
+      ],
+      "must_not_claim": [
+        "zeroemptylocalIDs",
+        "newprototypeimplicitlyvalidated",
+        "universalgeometryPASS"
+      ],
+      "verified_node_anchors": [
+        {
+          "id": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+          "label": "TYPOGRAPHY NATIVE INHERITANCE 001",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+          "source_location": "L3"
+        },
+        {
+          "id": "specs_typography_native_inheritance_amendment_v0_1_2_final_bounded_typography_consumer_acceptance",
+          "label": "Final bounded typography consumer acceptance",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+          "source_location": "L69"
+        },
+        {
+          "id": "qa_implementations_typography_v0_1_2_review_coverage",
+          "label": "Current3353-range typography closure",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography.v0.1.2.review.md",
+          "source_location": null
+        }
+      ]
+    },
+    {
+      "id": "release_skills_protocol_specs",
+      "original_question": "¿Qué conecta release0.2.1 con las dos skills, P08 y43familias/Specs?",
+      "expanded_tokens": [
+        "consumer",
+        "skills",
+        "release",
+        "contpaqi",
+        "prototypes",
+        "paired"
+      ],
+      "command_args": [
+        "query",
+        "consumer skills release contpaqi prototypes paired",
+        "--budget",
+        "5000"
+      ],
+      "source_anchors": [
+        "registry/skills.md",
+        "qa/skills/release-0.2.1/README.md",
+        "skills/contpaqi-figma-screens/SKILL.md",
+        "skills/contpaqi-po-prototypes/SKILL.md",
+        "protocols/08-SKILLS-AND-RELEASES.md"
+      ],
+      "verified_prior_anchor_ids": [
+        "protocols_08_skills_and_releases_release_acoplado_de_contpaqi_figma_screens_y_contpaqi_po_prototypes",
+        "protocols_08_skills_and_releases_sincronizar_verificar_exportar_instalar_y_registrar_release"
+      ],
+      "must_recover": [
+        "release0.2.1CURRENT",
+        "contpaqi-figma-screens",
+        "contpaqi-po-prototypes",
+        "43families",
+        "P08",
+        "2131sources",
+        "sharedDSdigest"
+      ],
+      "must_not_claim": [
+        "newFigmaScreenexecuted",
+        "humanAuditapproved"
+      ],
+      "verified_node_anchors": [
+        {
+          "id": "registry_skills_consumer_skills_release_0_2_1",
+          "label": "Consumer skills release 0.2.1",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/registry/skills.md",
+          "source_location": "L31"
+        },
+        {
+          "id": "qa_skills_release_0_2_1_readme_release",
+          "label": "Final paired release0.2.1 identity",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/README.md",
+          "source_location": null
+        },
+        {
+          "id": "skills_contpaqi_figma_screens_skill_contpaqi_figma_screens",
+          "label": "contpaqi figma screens",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/skills/contpaqi-figma-screens/SKILL.md",
+          "source_location": "L2"
+        },
+        {
+          "id": "skills_contpaqi_po_prototypes_skill_contpaqi_po_prototypes",
+          "label": "contpaqi po prototypes",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/skills/contpaqi-po-prototypes/SKILL.md",
+          "source_location": "L2"
+        },
+        {
+          "id": "protocols_08_skills_and_releases_release_acoplado_de_contpaqi_figma_screens_y_contpaqi_po_prototypes",
+          "label": "Release acoplado de contpaqi-figma-screens y contpaqi-po-prototypes",
+          "source_file": "protocols/08-SKILLS-AND-RELEASES.md",
+          "source_location": null
+        }
+      ]
+    },
+    {
+      "id": "count_causal_restoration_cleanup",
+      "original_question": "¿Qué demuestra el pilotoCount4/3 sobreA/B/Arestaurado,guardiasdeoriginales ycleanup?",
+      "expanded_tokens": [
+        "count",
+        "causal",
+        "restoration",
+        "cleanup"
+      ],
+      "command_args": [
+        "query",
+        "count causal restoration cleanup",
+        "--budget",
+        "5000"
+      ],
+      "source_anchors": [
+        "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+        "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/evaluation.json"
+      ],
+      "must_recover": [
+        "A/B/Arestored",
+        "12checks",
+        "source155:136/text155:137",
+        "restored5.333333492279053Bold700",
+        "localIDremainedempty",
+        "originalsunchanged",
+        "CLEANUP_COMPLETE"
+      ],
+      "must_not_claim": [
+        "pilotprovesall103withoutAPIcensus",
+        "fabricatedlocalstyleID"
+      ],
+      "verified_node_anchors": [
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+          "label": "Count four-thirds causal pilot",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": null
+        },
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_causal",
+          "label": "Count4/3 causal A→B→A",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": null
+        },
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_restoration",
+          "label": "Count exact restoration and cleanup complete",
+          "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": null
+        }
+      ]
+    }
+  ],
+  "vocabulary_evidence": "All selected tokens occur in actual chunk00/01 and prior labels. Anchors are copied from actual nodes, not synthesized IDs. Recheck published graph after CURRENT.",
+  "limits": "A CLI traversal is a navigation smoke test. Expected counts must be tied to returned nodes/source locations, not inferred from matching words. If traversal omits an anchor, resolve its real ID in live graph and run graphify path on exact labels; preserve failure/truncation honestly."
+}

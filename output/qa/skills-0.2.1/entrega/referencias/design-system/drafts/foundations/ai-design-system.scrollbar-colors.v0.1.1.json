@@ -1,0 +1,34 @@
+{
+  "amendmentId": "FOUNDATIONS-SCROLLBAR-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "version": "0.1.1",
+  "supersedes": "drafts/foundations/ai-design-system.scrollbar-colors.v0.1.0.json",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "removedVariable": {
+    "name": "color/neutral/350",
+    "previousTargetId": "VariableID:327:122",
+    "reason": "Sustituida por la primitiva existente más cercana bajo DEC-MIGRATION-NEAREST-PRIMITIVE-001; eliminación tras verificar cero consumidores directos."
+  },
+  "variables": [
+    {
+      "name": "color/background/scrollbar/thumb",
+      "targetId": "VariableID:327:123",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Relleno del thumb visible de Scrollbar en ambas orientaciones y todas sus posiciones; aproxima el gris original mediante la primitiva neutral/300 existente, sin usar roles de texto, icono o borde.",
+      "scopes": ["SHAPE_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"}
+      }
+    }
+  ]
+}

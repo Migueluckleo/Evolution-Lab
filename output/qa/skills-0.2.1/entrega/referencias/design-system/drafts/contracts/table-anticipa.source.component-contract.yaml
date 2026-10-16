@@ -1,0 +1,3204 @@
+schema_version: "0.1.0"
+generated_at: "2026-10-01"
+generator:
+  skill: "figma-component-contract"
+  skill_version: "0.1.0"
+inspection:
+  status: "PARTIAL_DEPENDENCY_METADATA"
+  read_only: true
+  traversal:
+    discovered_nodes: 1449
+    inspected_nodes: 1449
+    pending_nodes: 0
+    invisible_nodes_inspected: 360
+    truncated: false
+    limit: null
+  mcp_limitations:
+    - "Large responses reissued in bounded blocks; truncated attempts are not canonical evidence."
+    - "All 456 instance identities resolved. Per-instance full overrides and all variable usage paths are not archived; available alternatives are shallow."
+    - "Remote library version metadata not exposed; source primitive alias chains not fully resolved. Snapshot paints establish observed RGB."
+component:
+  id: "15006:84823"
+  name: "Organism / Anticipa / Table"
+  type: "COMPONENT"
+  key: "2554d8d2676ae38aac0d9e92716a32e46876cd46"
+  parent:
+    id: "17001:89457"
+    name: "Table"
+    type: "SECTION"
+  page:
+    id: "17001:89455"
+    name: "Components"
+  width: 1280
+  height: 412
+  description: ""
+  properties:
+    tableContent#15006:4:
+      type: "SLOT"
+      description: ""
+      slotSettings:
+        stretchChildOnInsert: false
+        displayEmptyByDefault: false
+        minChildren: null
+        maxChildren: null
+        allowPreferredValuesOnly: true
+      preferredValues:
+        - 
+          type: "COMPONENT"
+          key: "c5bccf1975cc7292cc8e1c8fc65d6618b0d8561b"
+  layout: "VERTICAL"
+  source:
+    url: "https://www.figma.com/design/zuUq3gcF9T3CLid44bjY6W/Anticipa-Junio2026?node-id=15006-84823"
+    file_key: "zuUq3gcF9T3CLid44bjY6W"
+    node_id: "15006:84823"
+classification:
+  kind: "component"
+  reusable: true
+  composition: true
+  evidence_refs:
+    - "E001"
+identity:
+  position:
+    x: 56
+    y: 447
+  dimensions:
+    width: 1280
+    height: 412
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: "PASS_THROUGH"
+direct_children:
+  - 
+    id: "15006:83464"
+    type: "INSTANCE"
+    name: "Molecule / Anticipa / TableHeader"
+    depth: 1
+    visible: true
+    children: 3
+  - 
+    id: "15006:84377"
+    type: "SLOT"
+    name: "tableContent"
+    depth: 1
+    visible: true
+    children: 10
+anatomy:
+  functional_tree:
+    - "Table → Header + Rows SLOT"
+    - "Header → Checkbox (hidden) + Action header (hidden) + Cells SLOT"
+    - "Row → Checkbox (hidden) + Actions Cell (hidden) + Cells SLOT"
+    - "Hover Row → Checkbox + Actions Cell + DotsThree action + Cells SLOT"
+    - "Header Cell → Logo (hidden) + Text + Sort (hidden)"
+    - "Body Cell → Badge (hidden) + Text + Copy (hidden)"
+    - "Actions Cell → Actions SLOT"
+  graphical_details_omitted:
+    - "514 vectors and216 groups are represented referentially by icon/logo dependencies."
+dependency_inventory:
+  components:
+    total: 15
+    local: 5
+    remote: 10
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 15
+    unresolved: 0
+    total_instances: 456
+  variables:
+    total: 36
+    local: 9
+    remote: 27
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 36
+    unresolved: 0
+  styles:
+    total: 2
+    local: 0
+    remote: 2
+    unknown_locality: 0
+    resolved: 2
+    partially_resolved: 0
+    unresolved: 0
+dependencies:
+  - 
+    dependency_id: "56fa094afd2ba9e0fc614602ff2096386c254431"
+    kind: "COMPONENT"
+    instance_ids:
+      - "15006:83464"
+    instance_count: 1
+    main_component:
+      id: "15006:75163"
+      key: "56fa094afd2ba9e0fc614602ff2096386c254431"
+      name: "Molecule / Anticipa / TableHeader"
+    component_set: null
+    locality: "LOCAL"
+    property_definitions:
+      cells#15006:2:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: true
+        preferredValues:
+          count: 1
+      is selectable#15006:7:
+        type: "BOOLEAN"
+        defaultValue: false
+      contain actions#15006:9:
+        type: "BOOLEAN"
+        defaultValue: false
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "56fa094afd2ba9e0fc614602ff2096386c254431.component-contract.md"
+  - 
+    dependency_id: "70b8f0441f67fc2234a47478753cac146164d4d3"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:83464;15006:86218"
+      - "I15006:84201;15006:86162"
+      - "I15006:84378;15006:86162"
+      - "I15006:84575;15006:86162"
+      - "I15006:84606;15006:86162"
+      - "I15006:84637;15006:86162"
+      - "I15006:84668;15006:86162"
+      - "I15006:84699;15006:86162"
+      - "I15006:84730;15006:86162"
+      - "I15006:84761;15006:86162"
+      - "I15006:84792;15006:86162"
+    instance_count: 11
+    main_component:
+      id: "20204:9008"
+      key: "70b8f0441f67fc2234a47478753cac146164d4d3"
+      name: "type=unselected, state=enabled"
+    component_set:
+      id: "20204:8999"
+      name: "checkbox"
+    locality: "REMOTE"
+    property_definitions:
+      show left field label#20125:0:
+        type: "BOOLEAN"
+        defaultValue: false
+      show right field label#102635:0:
+        type: "BOOLEAN"
+        defaultValue: false
+      type:
+        type: "VARIANT"
+        defaultValue: "selected"
+        variantOptions:
+          - "selected"
+          - "indeterminate"
+          - "unselected"
+      state:
+        type: "VARIANT"
+        defaultValue: "enabled"
+        variantOptions:
+          - "hover"
+          - "focus"
+          - "disabled"
+          - "enabled"
+    variants:
+      - 
+        id: "20204:9000"
+        name: "type=selected, state=enabled"
+      - 
+        id: "20204:9001"
+        name: "type=selected, state=hover"
+      - 
+        id: "20204:9002"
+        name: "type=selected, state=focus"
+      - 
+        id: "20204:9003"
+        name: "type=selected, state=disabled"
+      - 
+        id: "20204:9004"
+        name: "type=indeterminate, state=enabled"
+      - 
+        id: "20204:9005"
+        name: "type=indeterminate, state=hover"
+      - 
+        id: "20204:9006"
+        name: "type=indeterminate, state=focus"
+      - 
+        id: "20204:9007"
+        name: "type=indeterminate, state=disabled"
+      - 
+        id: "20204:9008"
+        name: "type=unselected, state=enabled"
+      - 
+        id: "20204:9009"
+        name: "type=unselected, state=hover"
+      - 
+        id: "20204:9010"
+        name: "type=unselected, state=focus"
+      - 
+        id: "20204:9011"
+        name: "type=unselected, state=disabled"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "70b8f0441f67fc2234a47478753cac146164d4d3.component-contract.md"
+  - 
+    dependency_id: "b4dc2065de621a9e0e27934497fc0f222ab6a7d2"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:83464;15006:86229"
+      - "I15006:83464;15006:75575;15006:84825"
+      - "I15006:83464;15006:75575;15006:84826"
+      - "I15006:83464;15006:75575;15006:84827"
+      - "I15006:83464;15006:75575;15006:84828"
+      - "I15006:83464;15006:75575;15006:84829"
+      - "I15006:83464;15006:75575;15006:84830"
+      - "I15006:83464;15006:75575;15006:84831"
+    instance_count: 8
+    main_component:
+      id: "15004:75056"
+      key: "b4dc2065de621a9e0e27934497fc0f222ab6a7d2"
+      name: "Atom / Table / Header / Cell"
+    component_set: null
+    locality: "LOCAL"
+    property_definitions:
+      it's sortable#15005:0:
+        type: "BOOLEAN"
+        defaultValue: false
+      is Branded#17141:0:
+        type: "BOOLEAN"
+        defaultValue: false
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "b4dc2065de621a9e0e27934497fc0f222ab6a7d2.component-contract.md"
+  - 
+    dependency_id: "36ccde1b4574576c9382e70371f819f71ac240d5"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:83464;15006:86229;17141:20071"
+      - "I15006:83464;15006:75575;15006:84825;17141:20071"
+      - "I15006:83464;15006:75575;15006:84826;17141:20071"
+      - "I15006:83464;15006:75575;15006:84827;17141:20071"
+      - "I15006:83464;15006:75575;15006:84828;17141:20071"
+      - "I15006:83464;15006:75575;15006:84829;17141:20071"
+      - "I15006:83464;15006:75575;15006:84830;17141:20071"
+      - "I15006:83464;15006:75575;15006:84831;17141:20071"
+      - "I15006:84201;17279:10633;17279:5929"
+      - "I15006:84378;17279:10633;17279:5929"
+      - "I15006:84575;17279:10633;17279:5929"
+      - "I15006:84606;17279:10633;17279:5929"
+      - "I15006:84637;17279:10633;17279:5929"
+      - "I15006:84668;17279:10633;17279:5929"
+      - "I15006:84699;17279:10633;17279:5929"
+      - "I15006:84730;17279:10633;17279:5929"
+      - "I15006:84761;17279:10633;17279:5929"
+      - "I15006:84792;17279:10633;17279:5929"
+    instance_count: 18
+    main_component:
+      id: "17563:4272"
+      key: "36ccde1b4574576c9382e70371f819f71ac240d5"
+      name: "product=contabilidad, type=isotipo"
+    component_set:
+      id: "17563:4263"
+      name: "contables"
+    locality: "REMOTE"
+    property_definitions:
+      product:
+        type: "VARIANT"
+        defaultValue: "conecta_tu_banco"
+        variantOptions:
+          - "anticipa"
+          - "bancos"
+          - "conecta_tu_banco"
+          - "contabilidad"
+          - "optimiza"
+          - "tesoreria"
+          - "xml_en_linea"
+      type:
+        type: "VARIANT"
+        defaultValue: "vertical"
+        variantOptions:
+          - "isotipo"
+          - "horizontal"
+          - "vertical"
+    variants:
+      - 
+        id: "17563:4264"
+        name: "product=conecta_tu_banco, type=vertical"
+      - 
+        id: "17563:4265"
+        name: "product=conecta_tu_banco, type=horizontal"
+      - 
+        id: "17563:4266"
+        name: "product=conecta_tu_banco, type=isotipo"
+      - 
+        id: "17563:4267"
+        name: "product=xml_en_linea, type=vertical"
+      - 
+        id: "17563:4268"
+        name: "product=xml_en_linea, type=horizontal"
+      - 
+        id: "17563:4269"
+        name: "product=xml_en_linea, type=isotipo"
+      - 
+        id: "17563:4270"
+        name: "product=contabilidad, type=vertical"
+      - 
+        id: "17563:4271"
+        name: "product=contabilidad, type=horizontal"
+      - 
+        id: "17563:4272"
+        name: "product=contabilidad, type=isotipo"
+      - 
+        id: "17563:4273"
+        name: "product=tesoreria, type=vertical"
+      - 
+        id: "17563:4274"
+        name: "product=tesoreria, type=horizontal"
+      - 
+        id: "17563:4275"
+        name: "product=tesoreria, type=isotipo"
+      - 
+        id: "17563:4276"
+        name: "product=optimiza, type=vertical"
+      - 
+        id: "17563:4277"
+        name: "product=optimiza, type=horizontal"
+      - 
+        id: "17563:4278"
+        name: "product=optimiza, type=isotipo"
+      - 
+        id: "17563:4279"
+        name: "product=bancos, type=vertical"
+      - 
+        id: "17563:4280"
+        name: "product=bancos, type=horizontal"
+      - 
+        id: "17563:4281"
+        name: "product=bancos, type=isotipo"
+      - 
+        id: "17563:4282"
+        name: "product=anticipa, type=vertical"
+      - 
+        id: "17563:4283"
+        name: "product=anticipa, type=horizontal"
+      - 
+        id: "17563:4284"
+        name: "product=anticipa, type=isotipo"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "36ccde1b4574576c9382e70371f819f71ac240d5.component-contract.md"
+  - 
+    dependency_id: "f6a9dc8dc9a0cd278cdf840d16509218eba83d22"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:83464;15006:86229;15001:198355"
+      - "I15006:83464;15006:75575;15006:84825;15001:198355"
+      - "I15006:83464;15006:75575;15006:84826;15001:198355"
+      - "I15006:83464;15006:75575;15006:84827;15001:198355"
+      - "I15006:83464;15006:75575;15006:84828;15001:198355"
+      - "I15006:83464;15006:75575;15006:84829;15001:198355"
+      - "I15006:83464;15006:75575;15006:84830;15001:198355"
+      - "I15006:83464;15006:75575;15006:84831;15001:198355"
+    instance_count: 8
+    main_component:
+      id: "42:2523"
+      key: "f6a9dc8dc9a0cd278cdf840d16509218eba83d22"
+      name: "sort-down"
+    component_set: null
+    locality: "REMOTE"
+    property_definitions:
+
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "f6a9dc8dc9a0cd278cdf840d16509218eba83d22.component-contract.md"
+  - 
+    dependency_id: "efc79c22caa601189fa3f4d8d170f54f8d199b29"
+    kind: "COMPONENT"
+    instance_ids:
+      - "15006:84201"
+      - "15006:84378"
+      - "15006:84575"
+      - "15006:84606"
+      - "15006:84637"
+      - "15006:84668"
+      - "15006:84699"
+      - "15006:84730"
+      - "15006:84761"
+      - "15006:84792"
+    instance_count: 10
+    main_component:
+      id: "15006:83463"
+      key: "efc79c22caa601189fa3f4d8d170f54f8d199b29"
+      name: "hover=false"
+    component_set:
+      id: "19227:37530"
+      name: "Molecule | Anticipa | tableArrow"
+    locality: "LOCAL"
+    property_definitions:
+      cells#19227:0:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: true
+        preferredValues:
+          count: 1
+      is selectable#19227:1:
+        type: "BOOLEAN"
+        defaultValue: false
+      Contain Actions#19227:2:
+        type: "BOOLEAN"
+        defaultValue: false
+      hover:
+        type: "VARIANT"
+        defaultValue: "false"
+        variantOptions:
+          - "false"
+          - "true"
+    variants:
+      - 
+        id: "15006:83463"
+        name: "hover=false"
+      - 
+        id: "19227:37531"
+        name: "hover=true"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "efc79c22caa601189fa3f4d8d170f54f8d199b29.component-contract.md"
+  - 
+    dependency_id: "ac5623208273ee4846d77ed3e69df27ecf4a6107"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;17279:10633"
+      - "I15006:84378;17279:10633"
+      - "I15006:84575;17279:10633"
+      - "I15006:84606;17279:10633"
+      - "I15006:84637;17279:10633"
+      - "I15006:84668;17279:10633"
+      - "I15006:84699;17279:10633"
+      - "I15006:84730;17279:10633"
+      - "I15006:84761;17279:10633"
+      - "I15006:84792;17279:10633"
+    instance_count: 10
+    main_component:
+      id: "15006:85698"
+      key: "ac5623208273ee4846d77ed3e69df27ecf4a6107"
+      name: "Atom / Table / Content / Cell / Actions"
+    component_set: null
+    locality: "LOCAL"
+    property_definitions:
+      actions#15006:5:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: false
+        preferredValues:
+          count: 0
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "ac5623208273ee4846d77ed3e69df27ecf4a6107.component-contract.md"
+  - 
+    dependency_id: "0954da38c91f3b5766de68697db73a309b25cf21"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;17279:10633;17274:6107"
+      - "I15006:84378;17279:10633;17274:6107"
+      - "I15006:84575;17279:10633;17274:6107"
+      - "I15006:84606;17279:10633;17274:6107"
+      - "I15006:84637;17279:10633;17274:6107"
+      - "I15006:84668;17279:10633;17274:6107"
+      - "I15006:84699;17279:10633;17274:6107"
+      - "I15006:84730;17279:10633;17274:6107"
+      - "I15006:84761;17279:10633;17274:6107"
+      - "I15006:84792;17279:10633;17274:6107"
+    instance_count: 10
+    main_component:
+      id: "20168:14283"
+      key: "0954da38c91f3b5766de68697db73a309b25cf21"
+      name: "state=default, size=middle, type=outline"
+    component_set:
+      id: "20168:14267"
+      name: "Button Icon"
+    locality: "REMOTE"
+    property_definitions:
+      icon#2828:223:
+        type: "INSTANCE_SWAP"
+        defaultValue: "17095:6624"
+        preferredValues:
+          count: 1512
+      show badge indicator#4508:14:
+        type: "BOOLEAN"
+        defaultValue: true
+      state:
+        type: "VARIANT"
+        defaultValue: "default"
+        variantOptions:
+          - "default"
+          - "disabled"
+          - "hover"
+          - "focus"
+          - "active"
+      size:
+        type: "VARIANT"
+        defaultValue: "small"
+        variantOptions:
+          - "large"
+          - "middle"
+          - "small"
+      type:
+        type: "VARIANT"
+        defaultValue: "default"
+        variantOptions:
+          - "default"
+          - "outline"
+    variants:
+      - 
+        id: "20168:14268"
+        name: "state=default, size=middle, type=default"
+      - 
+        id: "20168:14269"
+        name: "state=default, size=large, type=default"
+      - 
+        id: "20168:14270"
+        name: "state=default, size=small, type=default"
+      - 
+        id: "20168:14271"
+        name: "state=disabled, size=middle, type=default"
+      - 
+        id: "20168:14272"
+        name: "state=disabled, size=large, type=default"
+      - 
+        id: "20168:14273"
+        name: "state=disabled, size=small, type=default"
+      - 
+        id: "20168:14274"
+        name: "state=active, size=middle, type=default"
+      - 
+        id: "20168:14275"
+        name: "state=active, size=large, type=default"
+      - 
+        id: "20168:14276"
+        name: "state=active, size=small, type=default"
+      - 
+        id: "20168:14277"
+        name: "state=hover, size=middle, type=default"
+      - 
+        id: "20168:14278"
+        name: "state=hover, size=large, type=default"
+      - 
+        id: "20168:14279"
+        name: "state=hover, size=small, type=default"
+      - 
+        id: "20168:14280"
+        name: "state=focus, size=middle, type=default"
+      - 
+        id: "20168:14281"
+        name: "state=focus, size=large, type=default"
+      - 
+        id: "20168:14282"
+        name: "state=focus, size=small, type=default"
+      - 
+        id: "20168:14283"
+        name: "state=default, size=middle, type=outline"
+      - 
+        id: "20168:14284"
+        name: "state=default, size=large, type=outline"
+      - 
+        id: "20168:14285"
+        name: "state=default, size=small, type=outline"
+      - 
+        id: "20168:14286"
+        name: "state=disabled, size=middle, type=outline"
+      - 
+        id: "20168:14287"
+        name: "state=disabled, size=large, type=outline"
+      - 
+        id: "20168:14288"
+        name: "state=disabled, size=small, type=outline"
+      - 
+        id: "20168:14289"
+        name: "state=active, size=middle, type=outline"
+      - 
+        id: "20168:14290"
+        name: "state=active, size=large, type=outline"
+      - 
+        id: "20168:14291"
+        name: "state=active, size=small, type=outline"
+      - 
+        id: "20168:14292"
+        name: "state=hover, size=middle, type=outline"
+      - 
+        id: "20168:14293"
+        name: "state=hover, size=large, type=outline"
+      - 
+        id: "20168:14294"
+        name: "state=hover, size=small, type=outline"
+      - 
+        id: "20168:14295"
+        name: "state=focus, size=middle, type=outline"
+      - 
+        id: "20168:14296"
+        name: "state=focus, size=large, type=outline"
+      - 
+        id: "20168:14297"
+        name: "state=focus, size=small, type=outline"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "0954da38c91f3b5766de68697db73a309b25cf21.component-contract.md"
+  - 
+    dependency_id: "93c1dc4338b4b467d084ec42fd9890a5079bd518"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;17279:10633;17274:6107;1430:18897"
+      - "I15006:84378;17279:10633;17274:6107;1430:18897"
+      - "I15006:84575;17279:10633;17274:6107;1430:18897"
+      - "I15006:84606;17279:10633;17274:6107;1430:18897"
+      - "I15006:84637;17279:10633;17274:6107;1430:18897"
+      - "I15006:84668;17279:10633;17274:6107;1430:18897"
+      - "I15006:84699;17279:10633;17274:6107;1430:18897"
+      - "I15006:84730;17279:10633;17274:6107;1430:18897"
+      - "I15006:84761;17279:10633;17274:6107;1430:18897"
+      - "I15006:84792;17279:10633;17274:6107;1430:18897"
+    instance_count: 10
+    main_component:
+      id: "17096:18581"
+      key: "93c1dc4338b4b467d084ec42fd9890a5079bd518"
+      name: "Format=Outline, Weight=Light"
+    component_set:
+      id: "17096:18578"
+      name: "FileText"
+    locality: "REMOTE"
+    property_definitions:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+    variants:
+      - 
+        id: "17096:18579"
+        name: "Format=Outline, Weight=Regular"
+      - 
+        id: "17096:18580"
+        name: "Format=Outline, Weight=Thin"
+      - 
+        id: "17096:18581"
+        name: "Format=Outline, Weight=Light"
+      - 
+        id: "17096:18582"
+        name: "Format=Outline, Weight=Bold"
+      - 
+        id: "17096:18583"
+        name: "Format=Outline, Weight=Fill"
+      - 
+        id: "17096:18584"
+        name: "Format=Outline, Weight=Duotone"
+      - 
+        id: "17096:18585"
+        name: "Format=Stroke, Weight=Regular"
+      - 
+        id: "17096:18586"
+        name: "Format=Stroke, Weight=Thin"
+      - 
+        id: "17096:18587"
+        name: "Format=Stroke, Weight=Light"
+      - 
+        id: "17096:18588"
+        name: "Format=Stroke, Weight=Bold"
+      - 
+        id: "17096:18589"
+        name: "Format=Stroke, Weight=Fill"
+      - 
+        id: "17096:18590"
+        name: "Format=Stroke, Weight=Duotone"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "93c1dc4338b4b467d084ec42fd9890a5079bd518.component-contract.md"
+  - 
+    dependency_id: "06df8e9033e095bd1ca776691d73501daf5fdda9"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898"
+      - "I15006:84201;17279:10633;17279:5887"
+      - "I15006:84378;17279:10633;17274:6107;1430:18898"
+      - "I15006:84378;17279:10633;17279:5887"
+      - "I15006:84575;17279:10633;17274:6107;1430:18898"
+      - "I15006:84575;17279:10633;17279:5887"
+      - "I15006:84606;17279:10633;17274:6107;1430:18898"
+      - "I15006:84606;17279:10633;17279:5887"
+      - "I15006:84637;17279:10633;17274:6107;1430:18898"
+      - "I15006:84637;17279:10633;17279:5887"
+      - "I15006:84668;17279:10633;17274:6107;1430:18898"
+      - "I15006:84668;17279:10633;17279:5887"
+      - "I15006:84699;17279:10633;17274:6107;1430:18898"
+      - "I15006:84699;17279:10633;17279:5887"
+      - "I15006:84730;17279:10633;17274:6107;1430:18898"
+      - "I15006:84730;17279:10633;17279:5887"
+      - "I15006:84761;17279:10633;17274:6107;1430:18898"
+      - "I15006:84761;17279:10633;17279:5887"
+      - "I15006:84792;17279:10633;17274:6107;1430:18898"
+      - "I15006:84792;17279:10633;17279:5887"
+    instance_count: 20
+    main_component:
+      id: "20168:14252"
+      key: "06df8e9033e095bd1ca776691d73501daf5fdda9"
+      name: "type=number, size=middle"
+    component_set:
+      id: "20168:14245"
+      name: "dot"
+    locality: "REMOTE"
+    property_definitions:
+      type:
+        type: "VARIANT"
+        defaultValue: "active"
+        variantOptions:
+          - "number expand"
+          - "active"
+          - "inactive"
+          - "busy"
+          - "number"
+      size:
+        type: "VARIANT"
+        defaultValue: "large"
+        variantOptions:
+          - "large"
+          - "middle"
+          - "small"
+    variants:
+      - 
+        id: "20168:14246"
+        name: "type=active, size=small"
+      - 
+        id: "20168:14247"
+        name: "type=active, size=middle"
+      - 
+        id: "20168:14248"
+        name: "type=active, size=large"
+      - 
+        id: "20168:14249"
+        name: "type=busy, size=large"
+      - 
+        id: "20168:14250"
+        name: "type=inactive, size=large"
+      - 
+        id: "20168:14251"
+        name: "type=number, size=small"
+      - 
+        id: "20168:14252"
+        name: "type=number, size=middle"
+      - 
+        id: "20168:14253"
+        name: "type=number, size=large"
+      - 
+        id: "20168:14254"
+        name: "type=number expand, size=small"
+      - 
+        id: "20168:14255"
+        name: "type=number expand, size=middle"
+      - 
+        id: "20168:14256"
+        name: "type=number expand, size=large"
+      - 
+        id: "20168:14257"
+        name: "type=inactive, size=small"
+      - 
+        id: "20168:14258"
+        name: "type=inactive, size=middle"
+      - 
+        id: "20168:14259"
+        name: "type=busy, size=small"
+      - 
+        id: "20168:14260"
+        name: "type=busy, size=middle"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "06df8e9033e095bd1ca776691d73501daf5fdda9.component-contract.md"
+  - 
+    dependency_id: "707a874a7e13733ca02c6503f2dc910fe31c54a5"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;15006:83003;15006:84568"
+      - "I15006:84201;15006:83003;15006:84569"
+      - "I15006:84201;15006:83003;15006:84570"
+      - "I15006:84201;15006:83003;15006:84571"
+      - "I15006:84201;15006:83003;15006:84572"
+      - "I15006:84201;15006:83003;15006:84573"
+      - "I15006:84201;15006:83003;15006:84574"
+      - "I15006:84378;15006:83003;15006:84528"
+      - "I15006:84378;15006:83003;15006:84529"
+      - "I15006:84378;15006:83003;15006:84530"
+      - "I15006:84378;15006:83003;15006:84531"
+      - "I15006:84378;15006:83003;15006:84532"
+      - "I15006:84378;15006:83003;15006:84533"
+      - "I15006:84378;15006:83003;15006:84534"
+      - "I15006:84575;15006:83003;15006:84577"
+      - "I15006:84575;15006:83003;15006:84578"
+      - "I15006:84575;15006:83003;15006:84579"
+      - "I15006:84575;15006:83003;15006:84580"
+      - "I15006:84575;15006:83003;15006:84581"
+      - "I15006:84575;15006:83003;15006:84582"
+      - "I15006:84575;15006:83003;15006:84583"
+      - "I15006:84606;15006:83003;15006:84608"
+      - "I15006:84606;15006:83003;15006:84609"
+      - "I15006:84606;15006:83003;15006:84610"
+      - "I15006:84606;15006:83003;15006:84611"
+      - "I15006:84606;15006:83003;15006:84612"
+      - "I15006:84606;15006:83003;15006:84613"
+      - "I15006:84606;15006:83003;15006:84614"
+      - "I15006:84637;15006:83003;15006:84639"
+      - "I15006:84637;15006:83003;15006:84640"
+      - "I15006:84637;15006:83003;15006:84641"
+      - "I15006:84637;15006:83003;15006:84642"
+      - "I15006:84637;15006:83003;15006:84643"
+      - "I15006:84637;15006:83003;15006:84644"
+      - "I15006:84637;15006:83003;15006:84645"
+      - "I15006:84668;15006:83003;15006:84670"
+      - "I15006:84668;15006:83003;15006:84671"
+      - "I15006:84668;15006:83003;15006:84672"
+      - "I15006:84668;15006:83003;15006:84673"
+      - "I15006:84668;15006:83003;15006:84674"
+      - "I15006:84668;15006:83003;15006:84675"
+      - "I15006:84668;15006:83003;15006:84676"
+      - "I15006:84699;15006:83003;15006:84701"
+      - "I15006:84699;15006:83003;15006:84702"
+      - "I15006:84699;15006:83003;15006:84703"
+      - "I15006:84699;15006:83003;15006:84704"
+      - "I15006:84699;15006:83003;15006:84705"
+      - "I15006:84699;15006:83003;15006:84706"
+      - "I15006:84699;15006:83003;15006:84707"
+      - "I15006:84730;15006:83003;15006:84732"
+      - "I15006:84730;15006:83003;15006:84733"
+      - "I15006:84730;15006:83003;15006:84734"
+      - "I15006:84730;15006:83003;15006:84735"
+      - "I15006:84730;15006:83003;15006:84736"
+      - "I15006:84730;15006:83003;15006:84737"
+      - "I15006:84730;15006:83003;15006:84738"
+      - "I15006:84761;15006:83003;15006:84763"
+      - "I15006:84761;15006:83003;15006:84764"
+      - "I15006:84761;15006:83003;15006:84765"
+      - "I15006:84761;15006:83003;15006:84766"
+      - "I15006:84761;15006:83003;15006:84767"
+      - "I15006:84761;15006:83003;15006:84768"
+      - "I15006:84761;15006:83003;15006:84769"
+      - "I15006:84792;15006:83003;15006:84794"
+      - "I15006:84792;15006:83003;15006:84795"
+      - "I15006:84792;15006:83003;15006:84796"
+      - "I15006:84792;15006:83003;15006:84797"
+      - "I15006:84792;15006:83003;15006:84798"
+      - "I15006:84792;15006:83003;15006:84799"
+      - "I15006:84792;15006:83003;15006:84800"
+    instance_count: 70
+    main_component:
+      id: "15006:75177"
+      key: "707a874a7e13733ca02c6503f2dc910fe31c54a5"
+      name: "Atom / Table / Content / Cell"
+    component_set: null
+    locality: "LOCAL"
+    property_definitions:
+      contains action#15006:1:
+        type: "BOOLEAN"
+        defaultValue: false
+      it's status#17141:1:
+        type: "BOOLEAN"
+        defaultValue: false
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "707a874a7e13733ca02c6503f2dc910fe31c54a5.component-contract.md"
+  - 
+    dependency_id: "59430ef2a0f48aeb6f70e4740ff97b6bc8391ce4"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308"
+      - "I15006:84201;15006:83003;15006:84569;17141:22308"
+      - "I15006:84201;15006:83003;15006:84570;17141:22308"
+      - "I15006:84201;15006:83003;15006:84571;17141:22308"
+      - "I15006:84201;15006:83003;15006:84572;17141:22308"
+      - "I15006:84201;15006:83003;15006:84573;17141:22308"
+      - "I15006:84201;15006:83003;15006:84574;17141:22308"
+      - "I15006:84378;15006:83003;15006:84528;17141:22308"
+      - "I15006:84378;15006:83003;15006:84529;17141:22308"
+      - "I15006:84378;15006:83003;15006:84530;17141:22308"
+      - "I15006:84378;15006:83003;15006:84531;17141:22308"
+      - "I15006:84378;15006:83003;15006:84532;17141:22308"
+      - "I15006:84378;15006:83003;15006:84533;17141:22308"
+      - "I15006:84378;15006:83003;15006:84534;17141:22308"
+      - "I15006:84575;15006:83003;15006:84577;17141:22308"
+      - "I15006:84575;15006:83003;15006:84578;17141:22308"
+      - "I15006:84575;15006:83003;15006:84579;17141:22308"
+      - "I15006:84575;15006:83003;15006:84580;17141:22308"
+      - "I15006:84575;15006:83003;15006:84581;17141:22308"
+      - "I15006:84575;15006:83003;15006:84582;17141:22308"
+      - "I15006:84575;15006:83003;15006:84583;17141:22308"
+      - "I15006:84606;15006:83003;15006:84608;17141:22308"
+      - "I15006:84606;15006:83003;15006:84609;17141:22308"
+      - "I15006:84606;15006:83003;15006:84610;17141:22308"
+      - "I15006:84606;15006:83003;15006:84611;17141:22308"
+      - "I15006:84606;15006:83003;15006:84612;17141:22308"
+      - "I15006:84606;15006:83003;15006:84613;17141:22308"
+      - "I15006:84606;15006:83003;15006:84614;17141:22308"
+      - "I15006:84637;15006:83003;15006:84639;17141:22308"
+      - "I15006:84637;15006:83003;15006:84640;17141:22308"
+      - "I15006:84637;15006:83003;15006:84641;17141:22308"
+      - "I15006:84637;15006:83003;15006:84642;17141:22308"
+      - "I15006:84637;15006:83003;15006:84643;17141:22308"
+      - "I15006:84637;15006:83003;15006:84644;17141:22308"
+      - "I15006:84637;15006:83003;15006:84645;17141:22308"
+      - "I15006:84668;15006:83003;15006:84670;17141:22308"
+      - "I15006:84668;15006:83003;15006:84671;17141:22308"
+      - "I15006:84668;15006:83003;15006:84672;17141:22308"
+      - "I15006:84668;15006:83003;15006:84673;17141:22308"
+      - "I15006:84668;15006:83003;15006:84674;17141:22308"
+      - "I15006:84668;15006:83003;15006:84675;17141:22308"
+      - "I15006:84668;15006:83003;15006:84676;17141:22308"
+      - "I15006:84699;15006:83003;15006:84701;17141:22308"
+      - "I15006:84699;15006:83003;15006:84702;17141:22308"
+      - "I15006:84699;15006:83003;15006:84703;17141:22308"
+      - "I15006:84699;15006:83003;15006:84704;17141:22308"
+      - "I15006:84699;15006:83003;15006:84705;17141:22308"
+      - "I15006:84699;15006:83003;15006:84706;17141:22308"
+      - "I15006:84699;15006:83003;15006:84707;17141:22308"
+      - "I15006:84730;15006:83003;15006:84732;17141:22308"
+      - "I15006:84730;15006:83003;15006:84733;17141:22308"
+      - "I15006:84730;15006:83003;15006:84734;17141:22308"
+      - "I15006:84730;15006:83003;15006:84735;17141:22308"
+      - "I15006:84730;15006:83003;15006:84736;17141:22308"
+      - "I15006:84730;15006:83003;15006:84737;17141:22308"
+      - "I15006:84730;15006:83003;15006:84738;17141:22308"
+      - "I15006:84761;15006:83003;15006:84763;17141:22308"
+      - "I15006:84761;15006:83003;15006:84764;17141:22308"
+      - "I15006:84761;15006:83003;15006:84765;17141:22308"
+      - "I15006:84761;15006:83003;15006:84766;17141:22308"
+      - "I15006:84761;15006:83003;15006:84767;17141:22308"
+      - "I15006:84761;15006:83003;15006:84768;17141:22308"
+      - "I15006:84761;15006:83003;15006:84769;17141:22308"
+      - "I15006:84792;15006:83003;15006:84794;17141:22308"
+      - "I15006:84792;15006:83003;15006:84795;17141:22308"
+      - "I15006:84792;15006:83003;15006:84796;17141:22308"
+      - "I15006:84792;15006:83003;15006:84797;17141:22308"
+      - "I15006:84792;15006:83003;15006:84798;17141:22308"
+      - "I15006:84792;15006:83003;15006:84799;17141:22308"
+      - "I15006:84792;15006:83003;15006:84800;17141:22308"
+    instance_count: 70
+    main_component:
+      id: "19220:11024"
+      key: "59430ef2a0f48aeb6f70e4740ff97b6bc8391ce4"
+      name: "type=success"
+    component_set:
+      id: "19220:11018"
+      name: "badge"
+    locality: "REMOTE"
+    property_definitions:
+      show right icon#1234:0:
+        type: "BOOLEAN"
+        defaultValue: false
+      show left icon#1234:7:
+        type: "BOOLEAN"
+        defaultValue: true
+      badge text#1241:27:
+        type: "TEXT"
+        defaultValue: "Light"
+      left icon#2817:26:
+        type: "INSTANCE_SWAP"
+        defaultValue: "17084:9568"
+        preferredValues:
+          count: 1512
+      right icon#2817:33:
+        type: "INSTANCE_SWAP"
+        defaultValue: "17084:9568"
+        preferredValues:
+          count: 1512
+      type:
+        type: "VARIANT"
+        defaultValue: "base"
+        variantOptions:
+          - "error"
+          - "informational"
+          - "light"
+          - "success"
+          - "warning"
+          - "base"
+    variants:
+      - 
+        id: "19220:11019"
+        name: "type=base"
+      - 
+        id: "19220:11020"
+        name: "type=light"
+      - 
+        id: "19220:11021"
+        name: "type=informational"
+      - 
+        id: "19220:11022"
+        name: "type=warning"
+      - 
+        id: "19220:11023"
+        name: "type=error"
+      - 
+        id: "19220:11024"
+        name: "type=success"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "59430ef2a0f48aeb6f70e4740ff97b6bc8391ce4.component-contract.md"
+  - 
+    dependency_id: "2a6fa63a7acf982fd583c591681a3d9fe1f1abe1"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84569;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84570;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84571;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84572;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84573;17141:22308;1234:66895"
+      - "I15006:84201;15006:83003;15006:84574;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84528;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84529;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84530;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84531;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84532;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84533;17141:22308;1234:66895"
+      - "I15006:84378;15006:83003;15006:84534;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84577;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84578;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84579;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84580;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84581;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84582;17141:22308;1234:66895"
+      - "I15006:84575;15006:83003;15006:84583;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84608;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84609;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84610;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84611;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84612;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84613;17141:22308;1234:66895"
+      - "I15006:84606;15006:83003;15006:84614;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84639;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84640;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84641;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84642;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84643;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84644;17141:22308;1234:66895"
+      - "I15006:84637;15006:83003;15006:84645;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84670;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84671;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84672;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84673;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84674;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84675;17141:22308;1234:66895"
+      - "I15006:84668;15006:83003;15006:84676;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84701;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84702;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84703;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84704;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84705;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84706;17141:22308;1234:66895"
+      - "I15006:84699;15006:83003;15006:84707;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84732;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84733;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84734;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84735;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84736;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84737;17141:22308;1234:66895"
+      - "I15006:84730;15006:83003;15006:84738;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84763;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84764;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84765;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84766;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84767;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84768;17141:22308;1234:66895"
+      - "I15006:84761;15006:83003;15006:84769;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84794;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84795;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84796;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84797;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84798;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84799;17141:22308;1234:66895"
+      - "I15006:84792;15006:83003;15006:84800;17141:22308;1234:66895"
+    instance_count: 70
+    main_component:
+      id: "17084:9674"
+      key: "2a6fa63a7acf982fd583c591681a3d9fe1f1abe1"
+      name: "Format=Outline, Weight=Fill"
+    component_set:
+      id: "17084:9669"
+      name: "Circle"
+    locality: "REMOTE"
+    property_definitions:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+    variants:
+      - 
+        id: "17084:9670"
+        name: "Format=Outline, Weight=Regular"
+      - 
+        id: "17084:9671"
+        name: "Format=Outline, Weight=Thin"
+      - 
+        id: "17084:9672"
+        name: "Format=Outline, Weight=Light"
+      - 
+        id: "17084:9673"
+        name: "Format=Outline, Weight=Bold"
+      - 
+        id: "17084:9674"
+        name: "Format=Outline, Weight=Fill"
+      - 
+        id: "17084:9675"
+        name: "Format=Outline, Weight=Duotone"
+      - 
+        id: "17084:9676"
+        name: "Format=Stroke, Weight=Regular"
+      - 
+        id: "17084:9677"
+        name: "Format=Stroke, Weight=Thin"
+      - 
+        id: "17084:9678"
+        name: "Format=Stroke, Weight=Light"
+      - 
+        id: "17084:9679"
+        name: "Format=Stroke, Weight=Bold"
+      - 
+        id: "17084:9680"
+        name: "Format=Stroke, Weight=Fill"
+      - 
+        id: "17084:9681"
+        name: "Format=Stroke, Weight=Duotone"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "2a6fa63a7acf982fd583c591681a3d9fe1f1abe1.component-contract.md"
+  - 
+    dependency_id: "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84569;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84570;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84571;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84572;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84573;17141:22308;1234:66940"
+      - "I15006:84201;15006:83003;15006:84574;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84528;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84529;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84530;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84531;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84532;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84533;17141:22308;1234:66940"
+      - "I15006:84378;15006:83003;15006:84534;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84577;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84578;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84579;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84580;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84581;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84582;17141:22308;1234:66940"
+      - "I15006:84575;15006:83003;15006:84583;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84608;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84609;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84610;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84611;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84612;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84613;17141:22308;1234:66940"
+      - "I15006:84606;15006:83003;15006:84614;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84639;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84640;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84641;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84642;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84643;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84644;17141:22308;1234:66940"
+      - "I15006:84637;15006:83003;15006:84645;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84670;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84671;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84672;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84673;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84674;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84675;17141:22308;1234:66940"
+      - "I15006:84668;15006:83003;15006:84676;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84701;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84702;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84703;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84704;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84705;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84706;17141:22308;1234:66940"
+      - "I15006:84699;15006:83003;15006:84707;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84732;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84733;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84734;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84735;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84736;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84737;17141:22308;1234:66940"
+      - "I15006:84730;15006:83003;15006:84738;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84763;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84764;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84765;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84766;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84767;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84768;17141:22308;1234:66940"
+      - "I15006:84761;15006:83003;15006:84769;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84794;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84795;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84796;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84797;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84798;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84799;17141:22308;1234:66940"
+      - "I15006:84792;15006:83003;15006:84800;17141:22308;1234:66940"
+    instance_count: 70
+    main_component:
+      id: "17084:9568"
+      key: "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230"
+      name: "Format=Outline, Weight=Fill"
+    component_set:
+      id: "17084:9563"
+      name: "Presentation"
+    locality: "REMOTE"
+    property_definitions:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+    variants:
+      - 
+        id: "17084:9564"
+        name: "Format=Outline, Weight=Regular"
+      - 
+        id: "17084:9565"
+        name: "Format=Outline, Weight=Thin"
+      - 
+        id: "17084:9566"
+        name: "Format=Outline, Weight=Light"
+      - 
+        id: "17084:9567"
+        name: "Format=Outline, Weight=Bold"
+      - 
+        id: "17084:9568"
+        name: "Format=Outline, Weight=Fill"
+      - 
+        id: "17084:9569"
+        name: "Format=Outline, Weight=Duotone"
+      - 
+        id: "17084:9570"
+        name: "Format=Stroke, Weight=Regular"
+      - 
+        id: "17084:9571"
+        name: "Format=Stroke, Weight=Thin"
+      - 
+        id: "17084:9572"
+        name: "Format=Stroke, Weight=Light"
+      - 
+        id: "17084:9573"
+        name: "Format=Stroke, Weight=Bold"
+      - 
+        id: "17084:9574"
+        name: "Format=Stroke, Weight=Fill"
+      - 
+        id: "17084:9575"
+        name: "Format=Stroke, Weight=Duotone"
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230.component-contract.md"
+  - 
+    dependency_id: "7b0069586b87eae9c4fd07924da8d6d06cdad66e"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I15006:84201;15006:83003;15006:84568;15006:75170"
+      - "I15006:84201;15006:83003;15006:84569;15006:75170"
+      - "I15006:84201;15006:83003;15006:84570;15006:75170"
+      - "I15006:84201;15006:83003;15006:84571;15006:75170"
+      - "I15006:84201;15006:83003;15006:84572;15006:75170"
+      - "I15006:84201;15006:83003;15006:84573;15006:75170"
+      - "I15006:84201;15006:83003;15006:84574;15006:75170"
+      - "I15006:84378;15006:83003;15006:84528;15006:75170"
+      - "I15006:84378;15006:83003;15006:84529;15006:75170"
+      - "I15006:84378;15006:83003;15006:84530;15006:75170"
+      - "I15006:84378;15006:83003;15006:84531;15006:75170"
+      - "I15006:84378;15006:83003;15006:84532;15006:75170"
+      - "I15006:84378;15006:83003;15006:84533;15006:75170"
+      - "I15006:84378;15006:83003;15006:84534;15006:75170"
+      - "I15006:84575;15006:83003;15006:84577;15006:75170"
+      - "I15006:84575;15006:83003;15006:84578;15006:75170"
+      - "I15006:84575;15006:83003;15006:84579;15006:75170"
+      - "I15006:84575;15006:83003;15006:84580;15006:75170"
+      - "I15006:84575;15006:83003;15006:84581;15006:75170"
+      - "I15006:84575;15006:83003;15006:84582;15006:75170"
+      - "I15006:84575;15006:83003;15006:84583;15006:75170"
+      - "I15006:84606;15006:83003;15006:84608;15006:75170"
+      - "I15006:84606;15006:83003;15006:84609;15006:75170"
+      - "I15006:84606;15006:83003;15006:84610;15006:75170"
+      - "I15006:84606;15006:83003;15006:84611;15006:75170"
+      - "I15006:84606;15006:83003;15006:84612;15006:75170"
+      - "I15006:84606;15006:83003;15006:84613;15006:75170"
+      - "I15006:84606;15006:83003;15006:84614;15006:75170"
+      - "I15006:84637;15006:83003;15006:84639;15006:75170"
+      - "I15006:84637;15006:83003;15006:84640;15006:75170"
+      - "I15006:84637;15006:83003;15006:84641;15006:75170"
+      - "I15006:84637;15006:83003;15006:84642;15006:75170"
+      - "I15006:84637;15006:83003;15006:84643;15006:75170"
+      - "I15006:84637;15006:83003;15006:84644;15006:75170"
+      - "I15006:84637;15006:83003;15006:84645;15006:75170"
+      - "I15006:84668;15006:83003;15006:84670;15006:75170"
+      - "I15006:84668;15006:83003;15006:84671;15006:75170"
+      - "I15006:84668;15006:83003;15006:84672;15006:75170"
+      - "I15006:84668;15006:83003;15006:84673;15006:75170"
+      - "I15006:84668;15006:83003;15006:84674;15006:75170"
+      - "I15006:84668;15006:83003;15006:84675;15006:75170"
+      - "I15006:84668;15006:83003;15006:84676;15006:75170"
+      - "I15006:84699;15006:83003;15006:84701;15006:75170"
+      - "I15006:84699;15006:83003;15006:84702;15006:75170"
+      - "I15006:84699;15006:83003;15006:84703;15006:75170"
+      - "I15006:84699;15006:83003;15006:84704;15006:75170"
+      - "I15006:84699;15006:83003;15006:84705;15006:75170"
+      - "I15006:84699;15006:83003;15006:84706;15006:75170"
+      - "I15006:84699;15006:83003;15006:84707;15006:75170"
+      - "I15006:84730;15006:83003;15006:84732;15006:75170"
+      - "I15006:84730;15006:83003;15006:84733;15006:75170"
+      - "I15006:84730;15006:83003;15006:84734;15006:75170"
+      - "I15006:84730;15006:83003;15006:84735;15006:75170"
+      - "I15006:84730;15006:83003;15006:84736;15006:75170"
+      - "I15006:84730;15006:83003;15006:84737;15006:75170"
+      - "I15006:84730;15006:83003;15006:84738;15006:75170"
+      - "I15006:84761;15006:83003;15006:84763;15006:75170"
+      - "I15006:84761;15006:83003;15006:84764;15006:75170"
+      - "I15006:84761;15006:83003;15006:84765;15006:75170"
+      - "I15006:84761;15006:83003;15006:84766;15006:75170"
+      - "I15006:84761;15006:83003;15006:84767;15006:75170"
+      - "I15006:84761;15006:83003;15006:84768;15006:75170"
+      - "I15006:84761;15006:83003;15006:84769;15006:75170"
+      - "I15006:84792;15006:83003;15006:84794;15006:75170"
+      - "I15006:84792;15006:83003;15006:84795;15006:75170"
+      - "I15006:84792;15006:83003;15006:84796;15006:75170"
+      - "I15006:84792;15006:83003;15006:84797;15006:75170"
+      - "I15006:84792;15006:83003;15006:84798;15006:75170"
+      - "I15006:84792;15006:83003;15006:84799;15006:75170"
+      - "I15006:84792;15006:83003;15006:84800;15006:75170"
+    instance_count: 70
+    main_component:
+      id: "15006:75172"
+      key: "7b0069586b87eae9c4fd07924da8d6d06cdad66e"
+      name: "copy"
+    component_set: null
+    locality: "REMOTE"
+    property_definitions:
+
+    variants:
+      []
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E002"
+      missing_fields:
+        - "remote library version"
+        - "full instance override arrays"
+      reason: "Active definitions and observed structure resolved; referential inspection, not independent child contracts."
+    contract_ref:
+      status: "NOT_GENERATED"
+      suggested_path: "7b0069586b87eae9c4fd07924da8d6d06cdad66e.component-contract.md"
+variable_dependencies:
+  - 
+    id: "VariableID:15006:84096"
+    key: "e4b24e0466973034e44bcf265a00fef78235de4e"
+    name: "Size/ Radius / Base"
+    type: "FLOAT"
+    remote: false
+    scopes:
+      - "ALL_SCOPES"
+    collectionId: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: 8
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "15006:84823.boundVariables.topLeftRadius"
+    observed_usage_count: 4
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:17569:27784"
+    key: "2fdcaf042c5770e91c9843e33824b8044a5b66f0"
+    name: "Color/background/informative"
+    type: "COLOR"
+    remote: false
+    scopes:
+      - "FRAME_FILL"
+    collectionId: "VariableCollectionId:17569:27760"
+    valuesByMode:
+      17569:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "15006:83464.boundVariables.fills.0"
+    observed_usage_count: 2
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:17569:27786"
+    key: "737040cf8c151ab9c4165f8d5f2552ddf3bb6d15"
+    name: "Color/stroke/base"
+    type: "COLOR"
+    remote: false
+    scopes:
+      - "STROKE_COLOR"
+    collectionId: "VariableCollectionId:17569:27760"
+    valuesByMode:
+      17569:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:d451813be0c500439dc999a132408d2b5ee39846/2507:687"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "15006:83464.boundVariables.strokes.0"
+    observed_usage_count: 154
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+    key: "ca2ca2cc17d99357b05a0401d6eb230dfad804b5"
+    name: "color/text/primary"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "TEXT_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+    description: "Texto primario — contenido principal. Headings, labels, cuerpo de texto."
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28821.boundVariables.fills.0"
+    observed_usage_count: 44
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:5b6478e0ce1305efedeaf4a605843e3af57a32ca/8394:2"
+    key: "5b6478e0ce1305efedeaf4a605843e3af57a32ca"
+    name: "font/family/base"
+    type: "STRING"
+    remote: true
+    scopes:
+      - "FONT_FAMILY"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/8394:1"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/8394:1"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/8394:1"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/8394:1"
+    description: "Fuente base del sistema"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28821.boundVariables.fontFamily.0"
+    observed_usage_count: 32
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:127a590c83af7e9167ebd4daaca4658d7e6ca288/3639:862"
+    key: "127a590c83af7e9167ebd4daaca4658d7e6ca288"
+    name: "font/size/sm"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "FONT_SIZE"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:ad9a549aea92cbb386b2a91f0d6a7f80c180d645/2846:59"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:ad9a549aea92cbb386b2a91f0d6a7f80c180d645/2846:59"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:ad9a549aea92cbb386b2a91f0d6a7f80c180d645/2846:59"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:ad9a549aea92cbb386b2a91f0d6a7f80c180d645/2846:59"
+    description: "Tamaño sm — 14px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28821.boundVariables.fontSize.0"
+    observed_usage_count: 22
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:60ddc1af6f284d6ebc5ef222764a2ff061a7cf3f/45:522"
+    key: "60ddc1af6f284d6ebc5ef222764a2ff061a7cf3f"
+    name: "radius/md"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "CORNER_RADIUS"
+    collectionId: "VariableCollectionId:ada85fdb1262052d07535735d0f143c8dfee98f0/45:1"
+    valuesByMode:
+      45:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:c6a33ba3e3d2993f6be04dd66c0dee603e233fc8/45:479"
+    description: ""
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28824.boundVariables.topLeftRadius"
+    observed_usage_count: 44
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+    key: "06a98ee346a24b7252c46757d35453bf61945838"
+    name: "stroke/stroke-focus"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "STROKE_FLOAT"
+    collectionId: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+    valuesByMode:
+      319:3: 2
+    description: ""
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28824.boundVariables.strokeTopWeight"
+    observed_usage_count: 44
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:6895a1ae8da99e8cd2d5a008d5d4bc9710695b39/3639:905"
+    key: "6895a1ae8da99e8cd2d5a008d5d4bc9710695b39"
+    name: "color/border/default"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "STROKE_COLOR"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:768352bae3eaf783fa23cc49b4676422da21cdd0/2507:684"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:768352bae3eaf783fa23cc49b4676422da21cdd0/2507:684"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:768352bae3eaf783fa23cc49b4676422da21cdd0/2507:684"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:768352bae3eaf783fa23cc49b4676422da21cdd0/2507:684"
+    description: "Borde por defecto — inputs y cards en reposo."
+    locality: "REMOTE"
+    used_by:
+      - "I15006:83464;15006:86218;1221:28824.boundVariables.strokes.0"
+    observed_usage_count: 22
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:17569:27770"
+    key: "9c684d7b75159edbaab7706f53d5ed458f6dc6b8"
+    name: "Color/text/base"
+    type: "COLOR"
+    remote: false
+    scopes:
+      - "SHAPE_FILL"
+      - "TEXT_FILL"
+    collectionId: "VariableCollectionId:17569:27760"
+    valuesByMode:
+      17569:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "I15006:83464;15006:86229;15001:198354.boundVariables.fills.0"
+    observed_usage_count: 16
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:15006:75178"
+    key: "4204aefcedc5de6a2c8113e8e3b0b387495f7701"
+    name: "Font/Primary"
+    type: "STRING"
+    remote: false
+    scopes:
+      - "ALL_SCOPES"
+    collectionId: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: "Manrope"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "I15006:83464;15006:86229;15001:198354.boundVariables.fontFamily.0"
+    observed_usage_count: 78
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:15006:75542"
+    key: "f648c71c358aa10f00ccc7220c2d27b800f4e667"
+    name: "Size/Font/Body/Base"
+    type: "FLOAT"
+    remote: false
+    scopes:
+      - "ALL_SCOPES"
+    collectionId: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: 14
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "I15006:83464;15006:86229;15001:198354.boundVariables.fontSize.0"
+    observed_usage_count: 78
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:15005:75097"
+    key: "e026ff23a201fab5cbd75a51a22b260737aa285f"
+    name: "Color / Text / Base"
+    type: "COLOR"
+    remote: false
+    scopes:
+      []
+    collectionId: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:15001:198237"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "I15006:83464;15006:86229;15001:198355;1287:5444.boundVariables.fills.0"
+    observed_usage_count: 296
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:17569:27778"
+    key: "cbd691c817c064c9d4a2593f657e77016f29b08d"
+    name: "Color/background/base"
+    type: "COLOR"
+    remote: false
+    scopes:
+      - "FRAME_FILL"
+    collectionId: "VariableCollectionId:17569:27760"
+    valuesByMode:
+      17569:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "15006:84201.boundVariables.fills.0"
+    observed_usage_count: 20
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:634220d13f50e842b56b814d7b2f7d8049cc0c95/3639:806"
+    key: "634220d13f50e842b56b814d7b2f7d8049cc0c95"
+    name: "spacing/sm"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "GAP"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:905553c9f99b82ad2eadd208447b72517f35a8c0/2507:651"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:905553c9f99b82ad2eadd208447b72517f35a8c0/2507:651"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:905553c9f99b82ad2eadd208447b72517f35a8c0/2507:651"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:905553c9f99b82ad2eadd208447b72517f35a8c0/2507:651"
+    description: "Espaciado sm — 8px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107.boundVariables.paddingLeft"
+    observed_usage_count: 220
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+    key: "31c39dae3354372bf695953f2b7d26172742bdeb"
+    name: "radius/md"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "CORNER_RADIUS"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+    description: "Border radius md — 8px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107.boundVariables.topLeftRadius"
+    observed_usage_count: 80
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+    key: "09bf0f399feb2dd1331a55f613f3fec11642c615"
+    name: "stroke/xs"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "STROKE_FLOAT"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:13289f3d82d403959575d7dab547ba0d7ff74e2f/2507:699"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:13289f3d82d403959575d7dab547ba0d7ff74e2f/2507:699"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:13289f3d82d403959575d7dab547ba0d7ff74e2f/2507:699"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:13289f3d82d403959575d7dab547ba0d7ff74e2f/2507:699"
+    description: "Borde xs — 1px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107.boundVariables.strokeTopWeight"
+    observed_usage_count: 80
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:17569:27768"
+    key: "2a078b0821679b6c2b9880ec736289c82e8290c0"
+    name: "Color/text/brand"
+    type: "COLOR"
+    remote: false
+    scopes:
+      - "SHAPE_FILL"
+      - "TEXT_FILL"
+    collectionId: "VariableCollectionId:17569:27760"
+    valuesByMode:
+      17569:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:17569:27761"
+    description: ""
+    locality: "LOCAL"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107.boundVariables.strokes.0"
+    observed_usage_count: 60
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:476dc0c24aa3bd4a9d24e145c9b7f14063069900/4360:7"
+    key: "476dc0c24aa3bd4a9d24e145c9b7f14063069900"
+    name: "icons/md-icon-size"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "WIDTH_HEIGHT"
+    collectionId: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+    valuesByMode:
+      319:3: 24
+    description: ""
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18897.boundVariables.width"
+    observed_usage_count: 20
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+    key: "4f36a89ff3f1560665805305d5132f9b73d4b2ad"
+    name: "spacing/none"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "GAP"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+    description: "Sin espaciado — 0px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.itemSpacing"
+    observed_usage_count: 60
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+    key: "90435138fcc3da9fb6d745fd768eea1072696e3e"
+    name: "spacing/xs"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "GAP"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f886fba5a15f60efb0c4776bf6d92c0ac88d1eb7/2507:650"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f886fba5a15f60efb0c4776bf6d92c0ac88d1eb7/2507:650"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f886fba5a15f60efb0c4776bf6d92c0ac88d1eb7/2507:650"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f886fba5a15f60efb0c4776bf6d92c0ac88d1eb7/2507:650"
+    description: "Espaciado xs — 4px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.paddingLeft"
+    observed_usage_count: 250
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272"
+    key: "c3b5a3b53e7cb477f0043af3d678d534ea99dcf4"
+    name: "radius/radius-full"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "CORNER_RADIUS"
+    collectionId: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+    valuesByMode:
+      319:3: 9999999
+    description: ""
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.topLeftRadius"
+    observed_usage_count: 80
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211"
+    key: "0caa4b020638062b7107a63deb45ff0893dd23c9"
+    name: "stroke/stroke-default"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "STROKE_FLOAT"
+    collectionId: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+    valuesByMode:
+      319:3: 1
+    description: ""
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.strokeTopWeight"
+    observed_usage_count: 80
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+    key: "9b1e68d1f4dd4f9560cbe322415f543969f12fdf"
+    name: "color/feedback/danger/icon"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:179dee67fbe06135b067837fd6c13814d2e0546b/6075:40"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:179dee67fbe06135b067837fd6c13814d2e0546b/6075:40"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:179dee67fbe06135b067837fd6c13814d2e0546b/6075:40"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:179dee67fbe06135b067837fd6c13814d2e0546b/6075:40"
+    description: "Ícono de estado peligro/error"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.fills.0"
+    observed_usage_count: 40
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:ec51ea7981e9079db3a1c4ec443ecfab50c11122/5638:36"
+    key: "ec51ea7981e9079db3a1c4ec443ecfab50c11122"
+    name: "color/border/on-brand"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "STROKE_COLOR"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+    description: "Borde sobre fondo de marca — siempre blanco. Avatar border, tab active underline."
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898.boundVariables.strokes.0"
+    observed_usage_count: 40
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:21c68664aad258aad360610ceb69cc12c98be563/3639:900"
+    key: "21c68664aad258aad360610ceb69cc12c98be563"
+    name: "color/text/on-brand"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "TEXT_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:62efbf1e2833249572d3aabff667944eb18958c5/2507:663"
+    description: "Texto sobre botones y fondos de marca — siempre blanco."
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898;1133:31555.boundVariables.fills.0"
+    observed_usage_count: 40
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:68953aef437f5350d545fc4a9000b6ca1328f7b2/4655:15"
+    key: "68953aef437f5350d545fc4a9000b6ca1328f7b2"
+    name: "font/weight/bold"
+    type: "STRING"
+    remote: true
+    scopes:
+      - "ALL_SCOPES"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:11333dc14fb9ed3fe0692fb173369bb1a9573be2/4655:14"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:11333dc14fb9ed3fe0692fb173369bb1a9573be2/4655:14"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:11333dc14fb9ed3fe0692fb173369bb1a9573be2/4655:14"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:11333dc14fb9ed3fe0692fb173369bb1a9573be2/4655:14"
+    description: "Peso bold — headings y énfasis fuerte"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17274:6107;1430:18898;1133:31555.boundVariables.fontStyle.0"
+    observed_usage_count: 20
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:5b6478e0ce1305efedeaf4a605843e3af57a32ca/3639:856"
+    key: "5b6478e0ce1305efedeaf4a605843e3af57a32ca"
+    name: "font/family/base"
+    type: "STRING"
+    remote: true
+    scopes:
+      - "FONT_FAMILY"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/2507:610"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/2507:610"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/2507:610"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:f3d3858554ed4855547618607214751961be432a/2507:610"
+    description: "Fuente base del sistema"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;17279:10633;17279:5887;1133:31555.boundVariables.fontFamily.0"
+    observed_usage_count: 80
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:3ae4611e96f2ce2dea9afff292184554b70766d0/3639:798"
+    key: "3ae4611e96f2ce2dea9afff292184554b70766d0"
+    name: "radius/sm"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "CORNER_RADIUS"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:9f53665e64bf7b5e9a83626675135ae35dd7cf7f/2507:644"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:9f53665e64bf7b5e9a83626675135ae35dd7cf7f/2507:644"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:9f53665e64bf7b5e9a83626675135ae35dd7cf7f/2507:644"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:9f53665e64bf7b5e9a83626675135ae35dd7cf7f/2507:644"
+    description: "Border radius sm — 4px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308.boundVariables.topLeftRadius"
+    observed_usage_count: 280
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:43fe59b2dbaa0a2b3d6598e9420f6e428321b6d3/6075:96"
+    key: "43fe59b2dbaa0a2b3d6598e9420f6e428321b6d3"
+    name: "color/feedback/positive/bg"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:d6f993cd4b14c71c5d19612e100e13fba91865a8/6075:95"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:d6f993cd4b14c71c5d19612e100e13fba91865a8/6075:95"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:d6f993cd4b14c71c5d19612e100e13fba91865a8/6075:95"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:d6f993cd4b14c71c5d19612e100e13fba91865a8/6075:95"
+    description: "Fondo de estado positivo/éxito"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308.boundVariables.fills.0"
+    observed_usage_count: 140
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:bac769da2aa4520a8708f10d024390d0c88246b7/7596:2"
+    key: "bac769da2aa4520a8708f10d024390d0c88246b7"
+    name: "color/feedback/positive/icon"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+    description: "Ícono de estado positivo/éxito"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:66895;8899:27923.boundVariables.fills.0"
+    observed_usage_count: 140
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:d28ce5904b5f1be08faf4711ad89f1de57815998/6075:76"
+    key: "d28ce5904b5f1be08faf4711ad89f1de57815998"
+    name: "color/feedback/positive/text"
+    type: "COLOR"
+    remote: true
+    scopes:
+      - "TEXT_FILL"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a12d8ba27285365a0fab2a85ee642be854816ba4/6075:60"
+    description: "Texto de estado positivo/éxito"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:65359.boundVariables.fills.0"
+    observed_usage_count: 280
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:79fe3a30a9b92bac34cd254ab77fd25797247666/3639:879"
+    key: "79fe3a30a9b92bac34cd254ab77fd25797247666"
+    name: "font/letter-spacing/normal"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "LETTER_SPACING"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:45495ca5a833fbbef0ad9d065d111d52c5189ae5/2507:632"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:45495ca5a833fbbef0ad9d065d111d52c5189ae5/2507:632"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:45495ca5a833fbbef0ad9d065d111d52c5189ae5/2507:632"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:45495ca5a833fbbef0ad9d065d111d52c5189ae5/2507:632"
+    description: "Tracking normal — cuerpo de texto"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:65359.boundVariables.letterSpacing.0"
+    observed_usage_count: 70
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:44a21f9f8d118524aceb4bab4db4c656140a3b4a/3639:861"
+    key: "44a21f9f8d118524aceb4bab4db4c656140a3b4a"
+    name: "font/size/xs"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "FONT_SIZE"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:3dc7f1e7639aed45c63317bd9ac38229c2068272/2846:58"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:3dc7f1e7639aed45c63317bd9ac38229c2068272/2846:58"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:3dc7f1e7639aed45c63317bd9ac38229c2068272/2846:58"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:3dc7f1e7639aed45c63317bd9ac38229c2068272/2846:58"
+    description: "Tamaño xs — 12px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:65359.boundVariables.fontSize.0"
+    observed_usage_count: 70
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea/4655:3"
+    key: "d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea"
+    name: "font/weight/regular"
+    type: "STRING"
+    remote: true
+    scopes:
+      - "ALL_SCOPES"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:88d45537c73363f0876e7203c7dd18df2ee76dde/4655:2"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:88d45537c73363f0876e7203c7dd18df2ee76dde/4655:2"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:88d45537c73363f0876e7203c7dd18df2ee76dde/4655:2"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:88d45537c73363f0876e7203c7dd18df2ee76dde/4655:2"
+    description: "Peso regular — cuerpo de texto"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:65359.boundVariables.fontStyle.0"
+    observed_usage_count: 70
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+  - 
+    id: "VariableID:5a156743257bea0783f4d33628bd3a8262bc35e2/3639:870"
+    key: "5a156743257bea0783f4d33628bd3a8262bc35e2"
+    name: "font/line-height/xs"
+    type: "FLOAT"
+    remote: true
+    scopes:
+      - "LINE_HEIGHT"
+    collectionId: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:411d99c3da7eb5ab61c73ba41da74ea571756efc/2507:623"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:411d99c3da7eb5ab61c73ba41da74ea571756efc/2507:623"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:411d99c3da7eb5ab61c73ba41da74ea571756efc/2507:623"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:411d99c3da7eb5ab61c73ba41da74ea571756efc/2507:623"
+    description: "Line height xs — 16px"
+    locality: "REMOTE"
+    used_by:
+      - "I15006:84201;15006:83003;15006:84568;17141:22308;1234:65359.boundVariables.lineHeight.0"
+    observed_usage_count: 70
+    resolution:
+      status: "PARTIALLY_RESOLVED"
+      evidence:
+        - "E003"
+      missing_fields:
+        - "all occurrence paths"
+        - "recursive primitive alias resolution"
+      reason: "Exact reference and valuesByMode retained. Usage paths sampled; complete counts in snapshot."
+style_dependencies:
+  - 
+    id: "S:8b90dbfbb92b0923fd2e007fbaa6ce10b47bddcb,"
+    name: "body/emphasis"
+    type: "TEXT"
+    fontName:
+      family: "Manrope"
+      style: "Bold"
+      variationSettings:
+        wght: 700
+    fontSize: 14
+    lineHeight:
+      unit: "PIXELS"
+      value: 20
+    letterSpacing:
+      unit: "PERCENT"
+      value: 0
+    locality: "REMOTE"
+    used_by:
+      - "node:15001:198354.textStyleId"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "E004"
+  - 
+    id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    name: "body/regular"
+    type: "TEXT"
+    fontName:
+      family: "Manrope"
+      style: "Regular"
+      variationSettings:
+        wght: 400
+    fontSize: 14
+    lineHeight:
+      unit: "PIXELS"
+      value: 20
+    letterSpacing:
+      unit: "PERCENT"
+      value: 0
+    locality: "REMOTE"
+    used_by:
+      - "node:15006:75169.textStyleId"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "E004"
+properties:
+  definitions:
+    - 
+      tableContent#15006:4:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: true
+        preferredValues:
+          - 
+            type: "COMPONENT"
+            key: "c5bccf1975cc7292cc8e1c8fc65d6618b0d8561b"
+    - 
+      cells#15006:2:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: true
+        preferredValues:
+          count: 1
+      is selectable#15006:7:
+        type: "BOOLEAN"
+        defaultValue: false
+      contain actions#15006:9:
+        type: "BOOLEAN"
+        defaultValue: false
+    - 
+      it's sortable#15005:0:
+        type: "BOOLEAN"
+        defaultValue: false
+      is Branded#17141:0:
+        type: "BOOLEAN"
+        defaultValue: false
+    - 
+      cells#19227:0:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: true
+        preferredValues:
+          count: 1
+      is selectable#19227:1:
+        type: "BOOLEAN"
+        defaultValue: false
+      Contain Actions#19227:2:
+        type: "BOOLEAN"
+        defaultValue: false
+      hover:
+        type: "VARIANT"
+        defaultValue: "false"
+        variantOptions:
+          - "false"
+          - "true"
+    - 
+      actions#15006:5:
+        type: "SLOT"
+        description: ""
+        slotSettings:
+          stretchChildOnInsert: false
+          displayEmptyByDefault: false
+          minChildren: null
+          maxChildren: null
+          allowPreferredValuesOnly: false
+        preferredValues:
+          count: 0
+    - 
+      contains action#15006:1:
+        type: "BOOLEAN"
+        defaultValue: false
+      it's status#17141:1:
+        type: "BOOLEAN"
+        defaultValue: false
+  observed:
+    - "Root Rows10; Header Cells7; row Cells7; optional booleans false"
+  available:
+    - "Native SLOT insertion"
+    - "Header selectable/actions, HeaderCell branded/sortable, BodyCell status/copy, Row selectable/actions"
+  unknown:
+    - "Sorting algorithm"
+    - "Selection aggregation"
+    - "Action destinations"
+variants:
+  observed_combinations:
+    - "Row hover=false"
+    - "Row hover=true"
+  available_values:
+    - 
+      property: "hover"
+      values:
+        - "false"
+        - "true"
+      availability: "AVAILABLE"
+  unknown:
+    []
+states:
+  observed:
+    - "Default table"
+    - "Row Hover main inspected separately"
+  available:
+    - "hover=false"
+    - "hover=true"
+  unknown:
+    - "Loading"
+    - "Error"
+    - "Empty message"
+layout:
+  node: null
+  children:
+    []
+  relationships:
+    []
+  snapshot_refs:
+    - "sources/figma-snapshots/table-anticipa.v0.1.0.cells.json"
+    - "sources/figma-snapshots/table-anticipa.v0.1.0.containers.json"
+  summary:
+    baseline:
+      - 1280
+      - 412
+    headerHeight: 52
+    rowHeight: 36
+    columns:
+      - 156
+      - 371.999755859375
+      - 132
+      - 224
+      - 156
+      - 88
+      - 88
+    rowPaddingLR: 8
+    cellGap: 8
+    hoverWidth: 1287.999755859375
+    hoverFirstCell: 132
+visual:
+  node: null
+  descendants:
+    []
+  icons:
+    []
+  snapshot_refs:
+    - "sources/figma-snapshots/table-anticipa.v0.1.0.assets.json"
+  observed:
+    header: "#EFF3FF"
+    row: "#FFFFFF"
+    hover: "#F1F5F9"
+    border: "#E2E8F0"
+    headerText: "#0F172A"
+    bodyText: "#000000"
+    radius: 8
+typography:
+  styles:
+    - 
+      id: "S:8b90dbfbb92b0923fd2e007fbaa6ce10b47bddcb,"
+      name: "body/emphasis"
+      type: "TEXT"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 14
+      lineHeight:
+        unit: "PIXELS"
+        value: 20
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      locality: "REMOTE"
+      used_by:
+        - "node:15001:198354.textStyleId"
+      resolution:
+        status: "RESOLVED"
+        evidence:
+          - "E004"
+    - 
+      id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+      name: "body/regular"
+      type: "TEXT"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 14
+      lineHeight:
+        unit: "PIXELS"
+        value: 20
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      locality: "REMOTE"
+      used_by:
+        - "node:15006:75169.textStyleId"
+      resolution:
+        status: "RESOLVED"
+        evidence:
+          - "E004"
+  text_runs:
+    []
+  snapshot_ref: "sources/figma-snapshots/table-anticipa.v0.1.0.inventory.json"
+  summary: "Manrope Bold/Regular 14/20, tracking0, single line with ending truncation"
+tokens:
+  summary:
+    total: 36
+    local: 9
+    remote: 27
+  categories:
+    Other:
+      - "VariableID:15006:84096"
+      - "VariableID:17569:27784"
+      - "VariableID:17569:27786"
+      - "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      - "VariableID:5b6478e0ce1305efedeaf4a605843e3af57a32ca/8394:2"
+      - "VariableID:127a590c83af7e9167ebd4daaca4658d7e6ca288/3639:862"
+      - "VariableID:60ddc1af6f284d6ebc5ef222764a2ff061a7cf3f/45:522"
+      - "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+      - "VariableID:6895a1ae8da99e8cd2d5a008d5d4bc9710695b39/3639:905"
+      - "VariableID:17569:27770"
+      - "VariableID:15006:75178"
+      - "VariableID:15006:75542"
+      - "VariableID:15005:75097"
+      - "VariableID:17569:27778"
+      - "VariableID:634220d13f50e842b56b814d7b2f7d8049cc0c95/3639:806"
+      - "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      - "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      - "VariableID:17569:27768"
+      - "VariableID:476dc0c24aa3bd4a9d24e145c9b7f14063069900/4360:7"
+      - "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      - "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805"
+      - "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272"
+      - "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211"
+      - "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+      - "VariableID:ec51ea7981e9079db3a1c4ec443ecfab50c11122/5638:36"
+      - "VariableID:21c68664aad258aad360610ceb69cc12c98be563/3639:900"
+      - "VariableID:68953aef437f5350d545fc4a9000b6ca1328f7b2/4655:15"
+      - "VariableID:5b6478e0ce1305efedeaf4a605843e3af57a32ca/3639:856"
+      - "VariableID:3ae4611e96f2ce2dea9afff292184554b70766d0/3639:798"
+      - "VariableID:43fe59b2dbaa0a2b3d6598e9420f6e428321b6d3/6075:96"
+      - "VariableID:bac769da2aa4520a8708f10d024390d0c88246b7/7596:2"
+      - "VariableID:d28ce5904b5f1be08faf4711ad89f1de57815998/6075:76"
+      - "VariableID:79fe3a30a9b92bac34cd254ab77fd25797247666/3639:879"
+      - "VariableID:44a21f9f8d118524aceb4bab4db4c656140a3b4a/3639:861"
+      - "VariableID:d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea/4655:3"
+      - "VariableID:5a156743257bea0783f4d33628bd3a8262bc35e2/3639:870"
+  source: "variable_dependencies"
+content:
+  example_content:
+    observed_strings:
+      - "Fecha de cancelacion"
+      - "UUID"
+      - "RFC emisor"
+      - "Nombre emisor"
+      - "Fecha de expedición"
+      - "Moneda"
+      - "Subtotal"
+      - "17/06/2025"
+      - "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+      - "HETC900416M8B"
+      - "Héctor Enrique Torres Cruz"
+      - "15/07/2025 "
+      - "MXN "
+      - "$8,318.00 "
+      - "17/06/2025"
+      - "9f8ad3c2-7641-4bfc-bf6c-98e3a94dbe31"
+      - "ZAPJ8211064T1"
+      - "Zaira Alejandra Ponce Jiménez"
+      - "16/07/2025 "
+      - "MXN "
+      - "$9,500.00 "
+      - "18/06/2025"
+      - "d2c3b4a5-0e1f-2345-6789-gh0123456789"
+      - "SDFT2010051A2"
+      - "Samuel David Fernández Torres"
+      - "17/07/2025 "
+      - "MXN "
+      - "$7,200.00 "
+      - "19/06/2025"
+      - "bcdef123-4567-89ab-cdef-ghijklmnopqr"
+      - "PLMN3412089G3"
+      - "Paola Laura Mendoza Núñez"
+      - "18/07/2025 "
+      - "MXN "
+      - "$10,750.00 "
+      - "20/06/2025"
+      - "456789ab-cdef-0123-4567-89abcdef0123"
+      - "QRST9812095E4"
+      - "Quintín Raúl Soto Trejo"
+      - "19/07/2025 "
+      - "MXN "
+      - "$11,400.00 "
+      - "21/06/2025"
+      - "1234abcd-5678-90ef-ghij-klmnopqrstuv"
+      - "JKLP0103123Z5"
+      - "Jazmín Karina López Pérez"
+      - "20/07/2025 "
+      - "MXN "
+      - "$8,900.00 "
+      - "22/06/2025"
+      - "fghij123-4567-890a-bcde-fghijklmnopq"
+      - "HJKL1013123R6"
+      - "Hugo Javier Karam Lira"
+      - "21/07/2025 "
+      - "MXN "
+      - "$12,300.00 "
+      - "23/06/2025"
+      - "mnopq456-7890-abcd-efgh-ijklmnopqrstu"
+      - "MNOP2345067T7"
+      - "María Noemí Ortiz Padilla"
+      - "22/07/2025 "
+      - "MXN "
+      - "$6,500.00 "
+      - "24/06/2025"
+      - "qrst7890-abcd-efgh-ijkl-mnopqrstuvwx"
+      - "UVWX5678901X8"
+      - "Fernando Gabriel Pérez Martínez"
+      - "23/07/2025 "
+      - "MXN "
+      - "$9,150.00 "
+      - "25/06/2025"
+      - "yzabc1234-5678-90ab-cdef-ghijklmnopqr"
+      - "YZAB6789012Y9"
+      - "Lucía Estefanía Reyes Sáenz"
+      - "24/07/2025 "
+      - "MXN "
+      - "$10,200.00 "
+  component_rules:
+    []
+  truncation_and_wrapping:
+    - "ENDING, maxLines1"
+interactions:
+  status: "PARTIALLY_DEFINED"
+  reason: "Row ON_HOVER changes to19227:37531. No product action/selection/sort definition."
+  rules:
+    - 
+      status: "FIGMA_DEFINED"
+      source: "15006:83463"
+      trigger: "ON_HOVER"
+      action: "CHANGE_TO"
+      destination: "19227:37531"
+semantic_contract:
+  explicit_descriptions:
+    []
+  purpose:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+  usage_rules:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+accessibility:
+  status: "REQUIRES_DEFINITION"
+  observed:
+    - "Truncated text"
+    - "Hidden selection and action controls"
+  undefined:
+    - "Keyboard model"
+    - "Accessible labels"
+    - "Sort announcements"
+external_dependencies:
+  - 
+    id: "20204:9008"
+    key: "70b8f0441f67fc2234a47478753cac146164d4d3"
+    name: "type=unselected, state=enabled"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "17563:4272"
+    key: "36ccde1b4574576c9382e70371f819f71ac240d5"
+    name: "product=contabilidad, type=isotipo"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "42:2523"
+    key: "f6a9dc8dc9a0cd278cdf840d16509218eba83d22"
+    name: "sort-down"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "20168:14283"
+    key: "0954da38c91f3b5766de68697db73a309b25cf21"
+    name: "state=default, size=middle, type=outline"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "17096:18581"
+    key: "93c1dc4338b4b467d084ec42fd9890a5079bd518"
+    name: "Format=Outline, Weight=Light"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "20168:14252"
+    key: "06df8e9033e095bd1ca776691d73501daf5fdda9"
+    name: "type=number, size=middle"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "19220:11024"
+    key: "59430ef2a0f48aeb6f70e4740ff97b6bc8391ce4"
+    name: "type=success"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "17084:9674"
+    key: "2a6fa63a7acf982fd583c591681a3d9fe1f1abe1"
+    name: "Format=Outline, Weight=Fill"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "17084:9568"
+    key: "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230"
+    name: "Format=Outline, Weight=Fill"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    id: "15006:75172"
+    key: "7b0069586b87eae9c4fd07924da8d6d06cdad66e"
+    name: "copy"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+unresolved:
+  - 
+    id: "TABLE-SOURCE-001"
+    category: "SOURCE_INCONSISTENCY"
+    subject: "Hover geometry"
+    reason: "Row widens8px and first cell shrinks24px to insert24px action with8px gap."
+    impact: "Column alignment shifts."
+  - 
+    id: "TABLE-SOURCE-002"
+    category: "SOURCE_INCONSISTENCY"
+    subject: "Slot preferred keys"
+    reason: "Preferred keys differ from active definitions."
+    impact: "Destination must map actual local keys; source remains unchanged."
+  - 
+    id: "TABLE-SOURCE-003"
+    category: "INSPECTION_LIMITATION"
+    subject: "Dependency metadata"
+    reason: "Usage paths sampled, full per-instance override arrays not archived."
+    impact: "Partial metadata, not complete dependency contracts."
+implementation_notes:
+  - "No product behavior inferred."
+  - "Ten rows and seven columns are observed sample counts, not cardinality rules."
+  - "Raw layout/paint snapshots supplement normalized summaries; no production code."
+evidence:
+  figma_direct:
+    - 
+      id: "E001"
+      source: "node:15006:84823"
+      value: "identity/containers snapshots"
+    - 
+      id: "E002"
+      source: "instances:getMainComponentAsync"
+      value: "456 instances grouped into15stable keys"
+    - 
+      id: "E003"
+      source: "boundVariables/getVariableByIdAsync"
+      value: "36refs with sampled usage paths"
+    - 
+      id: "E004"
+      source: "getStyleByIdAsync"
+      value: "2named text styles"
+  derived:
+    - "Grouping, counts and functional anatomy"
+  requires_definition:
+    - "Product behavior and accessibility"
+  confidence:
+    level: "MEDIUM"
+    reason: "Visual/composition evidence strong; referential metadata incomplete and marked."

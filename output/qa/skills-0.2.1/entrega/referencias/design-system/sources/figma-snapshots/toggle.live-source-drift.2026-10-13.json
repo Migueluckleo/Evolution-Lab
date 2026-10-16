@@ -1,0 +1,777 @@
+{
+  "authority": "OBSERVED only. Live source differs from contracted historical baseline; do not adopt as requirements.",
+  "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+  "readOnly": true,
+  "readAt": "2026-10-13",
+  "node": {
+    "id": "1230:23858",
+    "name": "toggle",
+    "type": "COMPONENT_SET",
+    "visible": true,
+    "box": [
+      110,
+      28,
+      352,
+      128
+    ],
+    "layout": "GRID",
+    "padding": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "gap": 128,
+    "effects": [],
+    "children": [
+      {
+        "id": "1230:23894",
+        "name": "selected=false, state=default",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          24,
+          24,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:453",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:454",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  2,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:455",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23889",
+        "name": "selected=false, state=hover",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          112,
+          24,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:456",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:457",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  2,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:458",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23884",
+        "name": "selected=false, state=focus",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          200,
+          24,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:459",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:460",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  2,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              },
+              {
+                "id": "9030:461",
+                "name": "Focus ring",
+                "type": "FRAME",
+                "visible": true,
+                "box": [
+                  -4,
+                  -4,
+                  48,
+                  32
+                ],
+                "layout": "NONE",
+                "padding": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "gap": 0,
+                "effects": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "9030:462",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23879",
+        "name": "selected=false, state=disabled",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          288,
+          24,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:463",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:464",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  2,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:465",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23874",
+        "name": "selected=true, state=default",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          24,
+          80,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:440",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:441",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  18,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:442",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23869",
+        "name": "selected=true, state=hover",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          112,
+          80,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:443",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:444",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  18,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:445",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23864",
+        "name": "selected=true, state=focus",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          200,
+          80,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:446",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:447",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  18,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              },
+              {
+                "id": "9030:448",
+                "name": "Focus ring",
+                "type": "FRAME",
+                "visible": true,
+                "box": [
+                  -4,
+                  -4,
+                  48,
+                  32
+                ],
+                "layout": "NONE",
+                "padding": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "gap": 0,
+                "effects": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "9030:449",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "1230:23859",
+        "name": "selected=true, state=disabled",
+        "type": "COMPONENT",
+        "visible": true,
+        "box": [
+          288,
+          80,
+          40,
+          24
+        ],
+        "layout": "HORIZONTAL",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gap": 8,
+        "effects": [],
+        "children": [
+          {
+            "id": "9030:450",
+            "name": "Track",
+            "type": "FRAME",
+            "visible": true,
+            "box": [
+              0,
+              0,
+              40,
+              24
+            ],
+            "layout": "NONE",
+            "padding": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "gap": 0,
+            "effects": [],
+            "children": [
+              {
+                "id": "9030:451",
+                "name": "Thumb",
+                "type": "ELLIPSE",
+                "visible": true,
+                "box": [
+                  18,
+                  2,
+                  20,
+                  20
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "9030:452",
+            "name": "Label",
+            "type": "TEXT",
+            "visible": false,
+            "box": [
+              48,
+              0,
+              35,
+              24
+            ],
+            "font": {
+              "family": "Manrope",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "tracking": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "effects": []
+          }
+        ]
+      }
+    ]
+  }
+}

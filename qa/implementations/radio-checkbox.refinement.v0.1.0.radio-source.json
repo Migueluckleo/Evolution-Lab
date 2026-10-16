@@ -1,0 +1,1427 @@
+{
+  "page": {
+    "id": "1144:34653",
+    "name": "❖ Radio button  ✅"
+  },
+  "sets": [
+    {
+      "id": "1230:24283",
+      "name": "radio button",
+      "description": "",
+      "properties": {
+        "show left field label#20125:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show right field label#102635:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "radio": {
+          "type": "VARIANT",
+          "defaultValue": "on",
+          "variantOptions": [
+            "on",
+            "off"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "enabled",
+          "variantOptions": [
+            "hover",
+            "focus",
+            "disabled",
+            "enabled"
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "t": "COMPONENT_SET",
+      "w": 678,
+      "h": 194,
+      "v": true,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 148,
+      "paddingTop": 34,
+      "paddingRight": 68,
+      "paddingBottom": 34,
+      "paddingLeft": 68,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "componentPropertyReferences": null,
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "COMPONENT",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 18,
+      "v": false,
+      "x": 0,
+      "y": 3,
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "show left field label#20125:0"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196116"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160887"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160893"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196116"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "INSTANCE",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "x": 0,
+      "y": 0,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 12,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 2,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4717fecb878f4b5a8e4a036d7eb6dc5da9fbd93f/63288:105"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497"
+        }
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "FRAME",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "x": 0,
+      "y": 0,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "GROUP",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 5,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196131"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196131"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 18,
+      "v": false,
+      "x": 32,
+      "y": 3,
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "show right field label#102635:0"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196116"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160887"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160893"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196116"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 5,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2992:2261"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2992:2261"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 5,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196131"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 0.9725490212440491,
+            "g": 0.9803921580314636,
+            "b": 0.9882352948188782,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196131"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 18,
+      "v": false,
+      "x": 0,
+      "y": 3,
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "show left field label#20125:0"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196119"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160887"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160893"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196119"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 5,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196137"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196137"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 18,
+      "v": false,
+      "x": 32,
+      "y": 3,
+      "strokeWeight": 0,
+      "strokeAlign": "CENTER",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "show right field label#102635:0"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196119"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160887"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2845:160893"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196119"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196128"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196128"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2992:2261"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2992:2261"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196131"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {},
+          "color": {
+            "r": 0.9725490212440491,
+            "g": 0.9803921580314636,
+            "b": 0.9882352948188782,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196131"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 100,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196104"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196137"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196104"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196137"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    [
+      "1230:24283",
+      "radio button",
+      null,
+      0
+    ],
+    [
+      "1230:24305",
+      "radio=on, state=enabled",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24306",
+      "Label",
+      "1230:24305",
+      2
+    ],
+    [
+      "1232:301",
+      "radio",
+      "1230:24305",
+      3
+    ],
+    [
+      "I1232:301;1144:34815",
+      "Content",
+      "1232:301",
+      4
+    ],
+    [
+      "I1232:301;1144:34816",
+      "radio",
+      "I1232:301;1144:34815",
+      5
+    ],
+    [
+      "I1232:301;1144:34817",
+      "radio",
+      "I1232:301;1144:34816",
+      6
+    ],
+    [
+      "1230:24307",
+      "Label right",
+      "1230:24305",
+      7
+    ],
+    [
+      "1230:24284",
+      "radio=on, state=hover",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24285",
+      "Label",
+      "1230:24284",
+      2
+    ],
+    [
+      "1232:306",
+      "radio",
+      "1230:24284",
+      3
+    ],
+    [
+      "I1232:306;1144:34815",
+      "Content",
+      "1232:306",
+      4
+    ],
+    [
+      "I1232:306;1144:34816",
+      "radio",
+      "I1232:306;1144:34815",
+      5
+    ],
+    [
+      "I1232:306;1144:34817",
+      "radio",
+      "I1232:306;1144:34816",
+      8
+    ],
+    [
+      "1230:24286",
+      "Label right",
+      "1230:24284",
+      7
+    ],
+    [
+      "1230:24291",
+      "radio=on, state=focus",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24292",
+      "Label",
+      "1230:24291",
+      2
+    ],
+    [
+      "1232:311",
+      "radio",
+      "1230:24291",
+      3
+    ],
+    [
+      "I1232:311;1144:34815",
+      "Content",
+      "1232:311",
+      4
+    ],
+    [
+      "I1232:311;1144:34816",
+      "radio",
+      "I1232:311;1144:34815",
+      5
+    ],
+    [
+      "I1232:311;1144:34817",
+      "radio",
+      "I1232:311;1144:34816",
+      9
+    ],
+    [
+      "1230:24293",
+      "Label right",
+      "1230:24291",
+      7
+    ],
+    [
+      "1230:24298",
+      "radio=on, state=disabled",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24299",
+      "Label",
+      "1230:24298",
+      10
+    ],
+    [
+      "1232:316",
+      "radio",
+      "1230:24298",
+      3
+    ],
+    [
+      "I1232:316;1144:34815",
+      "Content",
+      "1232:316",
+      4
+    ],
+    [
+      "I1232:316;1144:34816",
+      "radio",
+      "I1232:316;1144:34815",
+      5
+    ],
+    [
+      "I1232:316;1144:34817",
+      "radio",
+      "I1232:316;1144:34816",
+      11
+    ],
+    [
+      "1230:24300",
+      "Label right",
+      "1230:24298",
+      12
+    ],
+    [
+      "1230:24312",
+      "radio=off, state=enabled",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24313",
+      "Label",
+      "1230:24312",
+      2
+    ],
+    [
+      "1230:24504",
+      "radio",
+      "1230:24312",
+      3
+    ],
+    [
+      "I1230:24504;1144:34825",
+      "Content",
+      "1230:24504",
+      4
+    ],
+    [
+      "I1230:24504;1144:34826",
+      "radio",
+      "I1230:24504;1144:34825",
+      13
+    ],
+    [
+      "1230:24314",
+      "Label right",
+      "1230:24312",
+      7
+    ],
+    [
+      "1230:24319",
+      "radio=off, state=hover",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24320",
+      "Label",
+      "1230:24319",
+      2
+    ],
+    [
+      "1230:24508",
+      "radio",
+      "1230:24319",
+      3
+    ],
+    [
+      "I1230:24508;1144:34825",
+      "Content",
+      "1230:24508",
+      4
+    ],
+    [
+      "I1230:24508;1144:34826",
+      "radio",
+      "I1230:24508;1144:34825",
+      14
+    ],
+    [
+      "1230:24321",
+      "Label right",
+      "1230:24319",
+      7
+    ],
+    [
+      "1230:24326",
+      "radio=off, state=focus",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24327",
+      "Label",
+      "1230:24326",
+      2
+    ],
+    [
+      "1230:24512",
+      "radio",
+      "1230:24326",
+      3
+    ],
+    [
+      "I1230:24512;1144:34825",
+      "Content",
+      "1230:24512",
+      4
+    ],
+    [
+      "I1230:24512;1144:34826",
+      "radio",
+      "I1230:24512;1144:34825",
+      15
+    ],
+    [
+      "1230:24328",
+      "Label right",
+      "1230:24326",
+      7
+    ],
+    [
+      "1230:24333",
+      "radio=off, state=disabled",
+      "1230:24283",
+      1
+    ],
+    [
+      "1230:24334",
+      "Label",
+      "1230:24333",
+      10
+    ],
+    [
+      "1230:24516",
+      "radio",
+      "1230:24333",
+      3
+    ],
+    [
+      "I1230:24516;1144:34825",
+      "Content",
+      "1230:24516",
+      4
+    ],
+    [
+      "I1230:24516;1144:34826",
+      "radio",
+      "I1230:24516;1144:34825",
+      16
+    ],
+    [
+      "1230:24335",
+      "Label right",
+      "1230:24333",
+      12
+    ]
+  ],
+  "instances": [
+    {
+      "id": "1232:301",
+      "main": "1144:34814",
+      "key": "e7e03dc78344bdff6df2adac7aa643e9a131cc91"
+    },
+    {
+      "id": "1232:306",
+      "main": "1144:34814",
+      "key": "e7e03dc78344bdff6df2adac7aa643e9a131cc91"
+    },
+    {
+      "id": "1232:311",
+      "main": "1144:34814",
+      "key": "e7e03dc78344bdff6df2adac7aa643e9a131cc91"
+    },
+    {
+      "id": "1232:316",
+      "main": "1144:34814",
+      "key": "e7e03dc78344bdff6df2adac7aa643e9a131cc91"
+    },
+    {
+      "id": "1230:24504",
+      "main": "1144:34824",
+      "key": "86581df5fac3d8ec945e4e055656830c93bcb4f7"
+    },
+    {
+      "id": "1230:24508",
+      "main": "1144:34824",
+      "key": "86581df5fac3d8ec945e4e055656830c93bcb4f7"
+    },
+    {
+      "id": "1230:24512",
+      "main": "1144:34824",
+      "key": "86581df5fac3d8ec945e4e055656830c93bcb4f7"
+    },
+    {
+      "id": "1230:24516",
+      "main": "1144:34824",
+      "key": "86581df5fac3d8ec945e4e055656830c93bcb4f7"
+    }
+  ]
+}

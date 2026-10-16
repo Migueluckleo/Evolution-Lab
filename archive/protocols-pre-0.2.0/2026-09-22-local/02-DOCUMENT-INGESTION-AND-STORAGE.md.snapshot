@@ -1,0 +1,71 @@
+# Protocol 02: Document Ingestion and Storage
+
+## Purpose
+
+Receive, classify, preserve and index JSONs, Markdown contracts, audits,
+amendments and references. **Ingest before implementing.**
+
+### Intake
+
+For every source: read it; identify purpose; classify authority;
+identify entities, dependencies, references and version; detect
+conflicts; choose repository location; preserve original; register it;
+then decide readiness.
+
+Classes: canonical contract, canonical structured data, audit,
+amendment/correction, reference/evidence, implementation artifact,
+unknown.
+
+Never silently rewrite originals. Normalized/derived files must retain
+explicit provenance.
+
+### Recommended structure
+
+``` text
+/
+├── AGENTS.md
+├── protocols/
+├── specs/{foundations,tokens,components,patterns,flows}/
+├── sources/{inventories,audits,amendments,references}/
+├── registry/{contracts,sources,implementations,qa,decisions,environment}.md
+├── implementations/{figma,web}/
+├── qa/
+└── graphify-out/
+```
+
+Canonical contracts/data belong under `specs/`. Audits report evidence
+but do not automatically redefine the system. Amendments explicitly
+authorize/record changes and must link to affected sources. References
+inform but do not govern.
+
+### Current token baseline
+
+The supplied corrected inventory has 270 variables across primitive and
+semantic collections. Its adjustment report records conservative
+corrections based on demonstrable structure or observable Figma bindings
+and leaves unresolved observations unchanged. Once approved in the
+project, recommended paths are:
+`specs/tokens/tokens.inventory.corrected.json`
+`sources/amendments/tokens.audit.adjustments.md`
+
+Do not delete superseded history.
+
+### Registry
+
+Record at least: id, title, path, type, status, authority, version,
+received_from, supersedes, superseded_by, depends_on, related_to,
+implementation_targets, notes.
+
+Before `READY`, check token, typography, asset, component, pattern,
+state, accessibility, behavior and tooling dependencies. Missing
+dependency =\> `BLOCKED`.
+
+Conflicts are never silently merged. Apply AGENTS authority; unresolved
+conflicts become `CONFLICT`.
+
+Prefer names such as `button.contract.md`, `modal.contract.md`,
+`tokens.inventory.corrected.json`. SDD is the methodology, not the file
+type.
+
+`INDEXED` means role, authority, location, provenance, dependencies,
+conflicts and registry state are known.

@@ -1,0 +1,79 @@
+# AGENTS.md
+
+## Specs Driven Design repository
+
+**Methodology:** Specs Driven Design (SDD)\
+**Phase:** Design System reconstruction in Figma\
+**Primary environment:** Codex
+
+### Role
+
+This file is the navigation and governance layer. It is not the complete
+operating manual. SDD is the methodology; individual specifications are
+**contracts** (`.md`) or approved structured sources (`.json`).
+Repository specifications are canonical; Figma and front-end are
+projections.
+
+Read the applicable protocol before acting:
+
+1. `protocols/01-ENVIRONMENT-AND-TOOLS.md`
+2. `protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md`
+3. `protocols/03-FIGMA-CONSTRUCTION.md`
+4. `protocols/04-SELF-DOCUMENTATION-AND-TRACEABILITY.md`
+5. `protocols/05-QA-AND-VALIDATION.md`
+6. `protocols/06-GRAPH-SELF-DOCUMENTATION.md`
+
+### Authority
+
+Precedence: current explicit user instruction \> approved contract \>
+approved canonical structured data \> approved amendments/decisions \>
+extracted repository evidence \> observed Figma \> observed web
+implementation \> inference. Same-level unresolved disagreement is
+`CONFLICT`.
+
+### Non-negotiable rules
+
+Never silently invent Design System intent. Never promote Figma/code
+appearance over an approved contract. Never flatten token aliases into
+literals when an applicable token exists. Preserve IDs, aliases, modes,
+names, scopes, values and relationships unless an approved source
+authorizes change. Observation is not correction. Equal values do not
+imply equal semantics. A successful write is not validation. Every
+implementation must trace to source contracts and pass QA.
+
+Evidence labels: `EXPLICIT`, `DERIVED`, `OBSERVED`, `INFERRED`,
+`UNRESOLVED`, `CONFLICT`. Inference never becomes canonical without
+approval.
+
+Lifecycle:
+`RECEIVED → INDEXED → READY → IMPLEMENTING → IMPLEMENTED → VALIDATING → VALIDATED`.
+Exceptional: `BLOCKED`, `CONFLICT`, `SUPERSEDED`.
+
+Normal cycle:
+`INGEST → INDEX → RESOLVE DEPENDENCIES → BUILD → READ BACK → QA → DOCUMENT → VALIDATE`.
+
+Graphify is navigation, not truth. Figma is an implementation target.
+Planned web target is React + TypeScript + Vite, with Storybook when
+component work begins. Both targets consume the same specifications.
+
+Stop when required sources are missing, authoritative sources conflict,
+system intent would need invention, the target is unknown, destructive
+work lacks authority, or required postconditions cannot be verified.
+
+Definition of Done: authoritative source identified, dependencies
+resolved, indexed, implemented, read back, compared to contract,
+discrepancies resolved/accepted, traceability recorded, status
+`VALIDATED`.
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

@@ -1,0 +1,70 @@
+schema: figma-component-contract/1
+contract_id: SRC-FIGMA-NAVIGATION-TAB-001
+status: SOURCE_INSPECTED
+source:
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  page_id: '268:20245'
+  set_id: '1183:1146'
+  set_key: 3fbabad3e0521532b6055ea2e5de2f74de4b2693
+  read_only: true
+inventory:
+  variant_count: 17
+  node_count: 132
+  hidden_node_count: 16
+  reaction_count: 4
+  icon_instance_count: 33
+  dot_instance_count: 16
+properties:
+  - {name: type, type: VARIANT, values: [base, dynamic]}
+  - {name: tab, type: VARIANT, values: [on, off]}
+  - {name: state, type: VARIANT, values: [default, hovered, selected, focused, disabled]}
+  - {name: tab_text, source_name: 'tab text', type: TEXT, default: 'Tab title'}
+  - {name: show_divisor, source_name: 'show divisor', type: BOOLEAN, default: true}
+  - {name: show_dot, source_name: 'show dot', type: BOOLEAN, default: false}
+  - {name: show_left_icon, source_name: 'show left icon', type: BOOLEAN, default: true}
+  - {name: show_right_icon, source_name: 'show right icon', type: BOOLEAN, default: true}
+  - {name: left_icon, source_name: 'left icon', type: INSTANCE_SWAP, preferred_count: 1512}
+  - {name: right_icon, source_name: 'right icon', type: INSTANCE_SWAP, preferred_count: 1512}
+variants:
+  - {id: '1183:1155', type: base, tab: on, state: default, width: 135, height: 42}
+  - {id: '1334:8323', type: base, tab: on, state: hovered, width: 135, height: 42}
+  - {id: '1334:8329', type: base, tab: on, state: focused, width: 135, height: 42}
+  - {id: '1334:8365', type: base, tab: on, state: disabled, width: 135, height: 42}
+  - {id: '1183:1147', type: base, tab: off, state: default, width: 135, height: 42}
+  - {id: '1183:1151', type: base, tab: off, state: hovered, width: 135, height: 42}
+  - {id: '1183:1159', type: base, tab: off, state: focused, width: 135, height: 42}
+  - {id: '1183:1163', type: base, tab: off, state: disabled, width: 135, height: 42}
+  - {id: '1308:5505', type: dynamic, tab: on, state: selected, width: 135, height: 35, anatomy_exception: true}
+  - {id: '1339:8406', type: dynamic, tab: on, state: default, width: 136, height: 35}
+  - {id: '1334:8380', type: dynamic, tab: on, state: hovered, width: 136, height: 35}
+  - {id: '1308:5512', type: dynamic, tab: on, state: focused, width: 136, height: 35}
+  - {id: '1308:5498', type: dynamic, tab: off, state: hovered, width: 133, height: 35}
+  - {id: '1339:8387', type: dynamic, tab: off, state: focused, width: 133, height: 35}
+  - {id: '1308:5519', type: dynamic, tab: off, state: disabled, width: 133, height: 35}
+  - {id: '1339:8413', type: dynamic, tab: on, state: disabled, width: 136, height: 35}
+  - {id: '1308:5394', type: dynamic, tab: off, state: default, width: 133, height: 35}
+dependencies:
+  image_square_ordinary_key: f273018f11d7d4e938078bd0b21b0b3a9e7f2634
+  image_square_selected_key: 7e704a5154aa535ff118cc9d6970e0bfce641037
+  dot_key: 309ba73acbf0853df307a033c09a1a40856357d5
+reactions:
+  - {source: '1183:1155', trigger: ON_HOVER, destination: '1334:8323', action: CHANGE_TO}
+  - {source: '1183:1147', trigger: ON_HOVER, destination: '1183:1151', action: CHANGE_TO}
+  - {source: '1339:8406', trigger: ON_HOVER, destination: '1334:8380', action: CHANGE_TO}
+  - {source: '1308:5394', trigger: ON_HOVER, destination: '1308:5498', action: CHANGE_TO}
+observed_semantic_misuse:
+  - text_disabled_on_border_stroke
+  - surface_brand_accent_on_border_stroke
+  - focus_ring_on_shape_fill
+  - border_subtle_on_shape_fill
+  - brand_strong_on_border_stroke
+focus_effect:
+  source_node: Rectangle 1
+  type: DROP_SHADOW
+  offset: [0, 0]
+  radius: 0
+  spread: 2
+  rgb: '#1D21B0'
+  affected_variants: ['1334:8329', '1183:1159', '1308:5512', '1339:8387']
+destination_ready: true
+destination_contract: specs/navigation-tab.contract.v0.1.0.md

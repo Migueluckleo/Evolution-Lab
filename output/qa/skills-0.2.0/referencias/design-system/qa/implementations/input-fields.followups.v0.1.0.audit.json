@@ -1,0 +1,1293 @@
+{
+  "sets": [
+    {
+      "id": "418:263",
+      "name": "Search",
+      "variants": [
+        {
+          "id": "418:152",
+          "name": "Size=Large, State=Default",
+          "w": 464,
+          "h": 76
+        },
+        {
+          "id": "418:160",
+          "name": "Size=Medium, State=Default",
+          "w": 464,
+          "h": 68
+        },
+        {
+          "id": "418:168",
+          "name": "Size=Small, State=Default",
+          "w": 464,
+          "h": 60
+        },
+        {
+          "id": "418:176",
+          "name": "Size=Large, State=Selected",
+          "w": 464,
+          "h": 76
+        },
+        {
+          "id": "418:186",
+          "name": "Size=Medium, State=Selected",
+          "w": 464,
+          "h": 68
+        },
+        {
+          "id": "418:196",
+          "name": "Size=Small, State=Selected",
+          "w": 464,
+          "h": 60
+        },
+        {
+          "id": "418:206",
+          "name": "Size=Large, State=Focus",
+          "w": 464,
+          "h": 76
+        },
+        {
+          "id": "418:217",
+          "name": "Size=Medium, State=Focus",
+          "w": 464,
+          "h": 68
+        },
+        {
+          "id": "418:228",
+          "name": "Size=Small, State=Focus",
+          "w": 464,
+          "h": 60
+        },
+        {
+          "id": "418:239",
+          "name": "Size=Large, State=Disabled",
+          "w": 464,
+          "h": 76
+        },
+        {
+          "id": "418:247",
+          "name": "Size=Medium, State=Disabled",
+          "w": 464,
+          "h": 68
+        },
+        {
+          "id": "418:255",
+          "name": "Size=Small, State=Disabled",
+          "w": 464,
+          "h": 60
+        }
+      ],
+      "counts": {
+        "nodes": 112,
+        "paints": 82,
+        "effects": 3,
+        "typo": 120,
+        "refs": 54,
+        "instances": 18
+      },
+      "defs": {
+        "Label#418:0": {
+          "type": "TEXT",
+          "defaultValue": "Buscar"
+        },
+        "Text#418:13": {
+          "type": "TEXT",
+          "defaultValue": "Buscar"
+        },
+        "Show label#418:26": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Search icon#418:39": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "417:155"
+        },
+        "Clear icon#418:52": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "175:356"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "Large",
+            "Medium",
+            "Small"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Selected",
+            "Focus",
+            "Disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "419:247",
+      "name": "Textarea",
+      "variants": [
+        {
+          "id": "419:207",
+          "name": "State=Default",
+          "w": 305,
+          "h": 160
+        },
+        {
+          "id": "419:217",
+          "name": "State=Focus",
+          "w": 305,
+          "h": 160
+        },
+        {
+          "id": "419:227",
+          "name": "State=Disabled",
+          "w": 305,
+          "h": 160
+        },
+        {
+          "id": "419:237",
+          "name": "State=Error",
+          "w": 305,
+          "h": 160
+        }
+      ],
+      "counts": {
+        "nodes": 41,
+        "paints": 29,
+        "effects": 0,
+        "typo": 80,
+        "refs": 32,
+        "instances": 4
+      },
+      "defs": {
+        "Label#419:0": {
+          "type": "TEXT",
+          "defaultValue": "Enter your password"
+        },
+        "Text#419:5": {
+          "type": "TEXT",
+          "defaultValue": "Enter your text here..."
+        },
+        "Counter#419:10": {
+          "type": "TEXT",
+          "defaultValue": "100/300"
+        },
+        "Helper#419:15": {
+          "type": "TEXT",
+          "defaultValue": "Helper text"
+        },
+        "Show label#419:20": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show helper#419:25": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show counter#419:30": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Resize icon#419:35": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "419:173"
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Focus",
+            "Disabled",
+            "Error"
+          ]
+        }
+      }
+    },
+    {
+      "id": "420:320",
+      "name": "File Upload",
+      "variants": [
+        {
+          "id": "420:222",
+          "name": "State=Default",
+          "w": 500,
+          "h": 148
+        },
+        {
+          "id": "420:239",
+          "name": "State=Hover",
+          "w": 500,
+          "h": 148
+        },
+        {
+          "id": "420:256",
+          "name": "State=Focus",
+          "w": 500,
+          "h": 148
+        },
+        {
+          "id": "420:273",
+          "name": "State=Disabled",
+          "w": 500,
+          "h": 148
+        },
+        {
+          "id": "420:290",
+          "name": "State=Success",
+          "w": 500,
+          "h": 162
+        },
+        {
+          "id": "420:306",
+          "name": "State=Error",
+          "w": 500,
+          "h": 140
+        }
+      ],
+      "counts": {
+        "nodes": 99,
+        "paints": 78,
+        "effects": 0,
+        "typo": 160,
+        "refs": 72,
+        "instances": 24
+      },
+      "defs": {
+        "Message prefix#420:0": {
+          "type": "TEXT",
+          "defaultValue": "Haz clic para"
+        },
+        "Action text#420:7": {
+          "type": "TEXT",
+          "defaultValue": "subir tu archivo"
+        },
+        "Message suffix#420:14": {
+          "type": "TEXT",
+          "defaultValue": "o arrástralo aquí"
+        },
+        "Success message#420:21": {
+          "type": "TEXT",
+          "defaultValue": "Archivo cargado exitosamente"
+        },
+        "Error message#420:28": {
+          "type": "TEXT",
+          "defaultValue": "Error al cargar el archivo"
+        },
+        "Formats#420:35": {
+          "type": "TEXT",
+          "defaultValue": "Formatos compatibles: .XLS, XLSX o CSV - Tamaño máximo 50 MB"
+        },
+        "Helper#420:42": {
+          "type": "TEXT",
+          "defaultValue": "Optional helper text"
+        },
+        "Show helper#420:49": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show button#420:56": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Upload icon#420:63": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "420:177"
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled",
+            "Success",
+            "Error"
+          ]
+        }
+      }
+    }
+  ],
+  "issues": [],
+  "usedVariables": [
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:93",
+        "VariableID:8:93",
+        "VariableID:8:93",
+        "VariableID:8:93"
+      ]
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:101",
+        "VariableID:8:101",
+        "VariableID:8:101",
+        "VariableID:8:101"
+      ]
+    },
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "aliases": [
+        "VariableID:7:2",
+        "VariableID:7:2",
+        "VariableID:7:2",
+        "VariableID:7:2"
+      ]
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "font/weight/bold",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "aliases": [
+        "VariableID:7:6",
+        "VariableID:7:6",
+        "VariableID:7:6",
+        "VariableID:7:6"
+      ]
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "aliases": [
+        "VariableID:8:4",
+        "VariableID:8:4",
+        "VariableID:8:4",
+        "VariableID:8:4"
+      ]
+    },
+    {
+      "id": "VariableID:12:8",
+      "name": "font/line-height/sm",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "aliases": [
+        "VariableID:8:13",
+        "VariableID:8:13",
+        "VariableID:8:13",
+        "VariableID:8:13"
+      ]
+    },
+    {
+      "id": "VariableID:12:16",
+      "name": "font/letter-spacing/normal",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "aliases": [
+        "VariableID:8:21",
+        "VariableID:8:21",
+        "VariableID:8:21",
+        "VariableID:8:21"
+      ]
+    },
+    {
+      "id": "VariableID:13:13",
+      "name": "color/border/default",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96"
+      ]
+    },
+    {
+      "id": "VariableID:13:29",
+      "name": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:97",
+        "VariableID:8:97",
+        "VariableID:8:97",
+        "VariableID:8:97"
+      ]
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "aliases": [
+        "VariableID:7:3",
+        "VariableID:7:3",
+        "VariableID:7:3",
+        "VariableID:7:3"
+      ]
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:87",
+        "VariableID:8:62",
+        "VariableID:8:71",
+        "VariableID:8:80"
+      ]
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:101",
+        "VariableID:8:101",
+        "VariableID:8:101",
+        "VariableID:8:101"
+      ]
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95"
+      ]
+    },
+    {
+      "id": "VariableID:136:122",
+      "name": "color/focus/effect-outer",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:88",
+        "VariableID:8:88",
+        "VariableID:8:88",
+        "VariableID:8:88"
+      ]
+    },
+    {
+      "id": "VariableID:13:30",
+      "name": "color/text/disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96"
+      ]
+    },
+    {
+      "id": "VariableID:13:36",
+      "name": "color/background/subtle",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:94",
+        "VariableID:8:94",
+        "VariableID:8:94",
+        "VariableID:8:94"
+      ]
+    },
+    {
+      "id": "VariableID:13:24",
+      "name": "color/icon/disabled",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96",
+        "VariableID:8:96"
+      ]
+    },
+    {
+      "id": "VariableID:10:5",
+      "name": "font/weight/semibold",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "aliases": [
+        "VariableID:7:5",
+        "VariableID:7:5",
+        "VariableID:7:5",
+        "VariableID:7:5"
+      ]
+    },
+    {
+      "id": "VariableID:10:8",
+      "name": "font/size/xs",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "aliases": [
+        "VariableID:8:3",
+        "VariableID:8:3",
+        "VariableID:8:3",
+        "VariableID:8:3"
+      ]
+    },
+    {
+      "id": "VariableID:12:7",
+      "name": "font/line-height/xs",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "aliases": [
+        "VariableID:8:12",
+        "VariableID:8:12",
+        "VariableID:8:12",
+        "VariableID:8:12"
+      ]
+    },
+    {
+      "id": "VariableID:13:21",
+      "name": "color/icon/secondary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:97",
+        "VariableID:8:97",
+        "VariableID:8:97",
+        "VariableID:8:97"
+      ]
+    },
+    {
+      "id": "VariableID:13:71",
+      "name": "color/focus/ring",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:88",
+        "VariableID:8:88",
+        "VariableID:8:88",
+        "VariableID:8:88"
+      ]
+    },
+    {
+      "id": "VariableID:13:50",
+      "name": "color/feedback/danger/text",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125"
+      ]
+    },
+    {
+      "id": "VariableID:13:51",
+      "name": "color/feedback/danger/border",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125"
+      ]
+    },
+    {
+      "id": "VariableID:13:32",
+      "name": "color/text/brand",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:87",
+        "VariableID:8:62",
+        "VariableID:8:71",
+        "VariableID:8:80"
+      ]
+    },
+    {
+      "id": "VariableID:13:14",
+      "name": "color/border/subtle",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:85",
+        "VariableID:8:59",
+        "VariableID:8:68",
+        "VariableID:8:77"
+      ]
+    },
+    {
+      "id": "VariableID:13:78",
+      "name": "color/background/brand",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:57",
+        "VariableID:8:57",
+        "VariableID:8:76",
+        "VariableID:8:76"
+      ]
+    },
+    {
+      "id": "VariableID:13:16",
+      "name": "color/border/brand",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:87",
+        "VariableID:8:62",
+        "VariableID:8:71",
+        "VariableID:8:80"
+      ]
+    },
+    {
+      "id": "VariableID:13:17",
+      "name": "color/border/disabled",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": [
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95"
+      ]
+    },
+    {
+      "id": "VariableID:13:44",
+      "name": "color/feedback/positive/icon",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116"
+      ]
+    },
+    {
+      "id": "VariableID:13:42",
+      "name": "color/feedback/positive/text",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116"
+      ]
+    },
+    {
+      "id": "VariableID:10:7",
+      "name": "font/size/2xs",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "aliases": [
+        "VariableID:8:2",
+        "VariableID:8:2",
+        "VariableID:8:2",
+        "VariableID:8:2"
+      ]
+    },
+    {
+      "id": "VariableID:13:37",
+      "name": "color/background/muted",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95",
+        "VariableID:8:95"
+      ]
+    },
+    {
+      "id": "VariableID:219:125",
+      "name": "color/background/progress/positive",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116",
+        "VariableID:8:116"
+      ]
+    },
+    {
+      "id": "VariableID:13:52",
+      "name": "color/feedback/danger/icon",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": [
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125",
+        "VariableID:8:125"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "source": "418:239",
+      "instanceId": "423:210",
+      "w": 320,
+      "h": 48,
+      "texts": [
+        {
+          "name": "Label",
+          "text": "Buscar",
+          "visible": false,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Buscar",
+          "text": "Información precargada",
+          "visible": true,
+          "color": "VariableID:13:30"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Label",
+          "visible": false,
+          "w": 464,
+          "h": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Surface",
+          "visible": true,
+          "w": 320,
+          "h": 48,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "source": "418:206",
+      "instanceId": "423:218",
+      "w": 320,
+      "h": 76,
+      "texts": [
+        {
+          "name": "Label",
+          "text": "Buscar",
+          "visible": true,
+          "color": "VariableID:13:27"
+        },
+        {
+          "name": "Buscar",
+          "text": "Buscar documentos",
+          "visible": true,
+          "color": "VariableID:13:27"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Label",
+          "visible": true,
+          "w": 320,
+          "h": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Focus support",
+          "visible": true,
+          "w": 320,
+          "h": 48,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Surface",
+          "visible": true,
+          "w": 320,
+          "h": 48,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "source": "419:227",
+      "instanceId": "423:229",
+      "w": 320,
+      "h": 136,
+      "texts": [
+        {
+          "name": "Label",
+          "text": "Enter your password",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Enter your text here...",
+          "text": "Contenido precargado",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Counter",
+          "text": "100/300",
+          "visible": false,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Helper",
+          "text": "Helper text",
+          "visible": false,
+          "color": "VariableID:13:30"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Label",
+          "visible": true,
+          "w": 320,
+          "h": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Surface",
+          "visible": true,
+          "w": 320,
+          "h": 108,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Counter",
+          "visible": false,
+          "w": 48,
+          "h": 16,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Helper",
+          "visible": false,
+          "w": 305,
+          "h": 16,
+          "x": 0,
+          "y": 116
+        }
+      ]
+    },
+    {
+      "source": "420:273",
+      "instanceId": "423:239",
+      "w": 500,
+      "h": 192,
+      "texts": [
+        {
+          "name": "Message prefix",
+          "text": "Haz clic para",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Action text",
+          "text": "subir tu archivo",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Message suffix",
+          "text": "o arrástralo aquí",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Formats",
+          "text": "Formatos compatibles: .XLS, XLSX o CSV - Tamaño máximo 50 MB",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "label-text",
+          "text": "Subir archivo",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "Helper",
+          "text": "Optional helper text",
+          "visible": true,
+          "color": "VariableID:13:30"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Message",
+          "visible": true,
+          "w": 468,
+          "h": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Upload button",
+          "visible": true,
+          "w": 122,
+          "h": 32,
+          "x": 189,
+          "y": 120
+        },
+        {
+          "name": "Helper",
+          "visible": true,
+          "w": 500,
+          "h": 16,
+          "x": 0,
+          "y": 176
+        }
+      ]
+    },
+    {
+      "source": "420:306",
+      "instanceId": "423:256",
+      "w": 500,
+      "h": 140,
+      "texts": [
+        {
+          "name": "Error message",
+          "text": "Error al cargar el archivo",
+          "visible": true,
+          "color": "VariableID:13:50"
+        },
+        {
+          "name": "Formats",
+          "text": "Formatos compatibles: .XLS, XLSX o CSV - Tamaño máximo 50 MB",
+          "visible": true,
+          "color": "VariableID:13:30"
+        },
+        {
+          "name": "label-text",
+          "text": "Subir nuevamente",
+          "visible": true,
+          "color": "VariableID:13:32"
+        },
+        {
+          "name": "Helper",
+          "text": "Optional helper text",
+          "visible": true,
+          "color": "VariableID:13:50"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Upload button",
+          "visible": false,
+          "w": 156,
+          "h": 32,
+          "x": 172,
+          "y": 113
+        },
+        {
+          "name": "Helper",
+          "visible": true,
+          "w": 500,
+          "h": 16,
+          "x": 0,
+          "y": 124
+        }
+      ]
+    },
+    {
+      "source": "420:222",
+      "instanceId": "423:270",
+      "w": 320,
+      "h": 140,
+      "texts": [
+        {
+          "name": "Message prefix",
+          "text": "Haz clic para",
+          "visible": true,
+          "color": "VariableID:13:27"
+        },
+        {
+          "name": "Action text",
+          "text": "subir archivo",
+          "visible": true,
+          "color": "VariableID:13:32"
+        },
+        {
+          "name": "Message suffix",
+          "text": "o arrástralo aquí",
+          "visible": true,
+          "color": "VariableID:13:27"
+        },
+        {
+          "name": "Formats",
+          "text": "Formatos compatibles: .XLS, XLSX o CSV - Tamaño máximo 50 MB",
+          "visible": true,
+          "color": "VariableID:13:29"
+        },
+        {
+          "name": "label-text",
+          "text": "Subir archivo",
+          "visible": true,
+          "color": "VariableID:13:32"
+        },
+        {
+          "name": "Helper",
+          "text": "Optional helper text",
+          "visible": false,
+          "color": "VariableID:13:30"
+        }
+      ],
+      "controls": [
+        {
+          "name": "Message",
+          "visible": true,
+          "w": 288,
+          "h": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "Upload button",
+          "visible": false,
+          "w": 122,
+          "h": 32,
+          "x": 189,
+          "y": 121
+        },
+        {
+          "name": "Helper",
+          "visible": false,
+          "w": 500,
+          "h": 16,
+          "x": 0,
+          "y": 132
+        }
+      ]
+    }
+  ],
+  "createdNodeIds": [
+    "423:210",
+    "I423:210;418:240",
+    "I423:210;418:241",
+    "I423:210;418:242",
+    "I423:210;418:243",
+    "I423:210;418:244",
+    "I423:210;418:245",
+    "I423:210;418:245;8899:47225",
+    "423:218",
+    "I423:218;418:207",
+    "I423:218;418:208",
+    "I423:218;418:209",
+    "I423:218;418:210",
+    "I423:218;418:211",
+    "I423:218;418:212",
+    "I423:218;418:212;8899:54529",
+    "I423:218;418:214",
+    "I423:218;418:215",
+    "I423:218;418:215;8899:47225",
+    "423:229",
+    "I423:229;419:228",
+    "I423:229;419:229",
+    "I423:229;419:230",
+    "I423:229;419:231",
+    "I423:229;419:232",
+    "I423:229;419:233",
+    "I423:229;419:234",
+    "I423:229;419:234;8899:30803",
+    "I423:229;419:236",
+    "423:239",
+    "I423:239;420:274",
+    "I423:239;420:275",
+    "I423:239;420:275;8899:43810",
+    "I423:239;420:277",
+    "I423:239;420:278",
+    "I423:239;420:279",
+    "I423:239;420:280",
+    "I423:239;420:281",
+    "I423:239;420:282",
+    "I423:239;420:283",
+    "I423:239;420:283;26:298",
+    "I423:239;420:283;26:298;8899:53829",
+    "I423:239;420:283;26:299",
+    "I423:239;420:283;26:300",
+    "I423:239;420:283;26:300;8899:53829",
+    "I423:239;420:289",
+    "423:256",
+    "I423:256;420:307",
+    "I423:256;420:308",
+    "I423:256;420:308;8899:54585",
+    "I423:256;420:310",
+    "I423:256;420:311",
+    "I423:256;420:312",
+    "I423:256;420:313",
+    "I423:256;420:313;26:103",
+    "I423:256;420:313;26:103;8899:53829",
+    "I423:256;420:313;26:104",
+    "I423:256;420:313;26:105",
+    "I423:256;420:313;26:105;8899:53829",
+    "I423:256;420:319",
+    "423:270",
+    "I423:270;420:223",
+    "I423:270;420:224",
+    "I423:270;420:224;8899:43810",
+    "I423:270;420:226",
+    "I423:270;420:227",
+    "I423:270;420:228",
+    "I423:270;420:229",
+    "I423:270;420:230",
+    "I423:270;420:231",
+    "I423:270;420:232",
+    "I423:270;420:232;26:103",
+    "I423:270;420:232;26:103;8899:53829",
+    "I423:270;420:232;26:104",
+    "I423:270;420:232;26:105",
+    "I423:270;420:232;26:105;8899:53829",
+    "I423:270;420:238"
+  ],
+  "removedNodeIds": [
+    "423:210",
+    "423:218",
+    "423:229",
+    "423:239",
+    "423:256",
+    "423:270"
+  ],
+  "inputFieldPreserved": {
+    "id": "397:152",
+    "count": 30
+  },
+  "auditStatus": "PASS",
+  "contrast": [
+    {
+      "role": "Contorno normal",
+      "fg": "#94a3b8",
+      "bg": "#ffffff",
+      "ratio": 2.56
+    },
+    {
+      "role": "Texto Disabled sobre sutil",
+      "fg": "#94a3b8",
+      "bg": "#f1f5f9",
+      "ratio": 2.34
+    },
+    {
+      "role": "Helper File Upload",
+      "fg": "#94a3b8",
+      "bg": "#ffffff",
+      "ratio": 2.56
+    },
+    {
+      "role": "Acción Servicios",
+      "fg": "#ff5300",
+      "bg": "#ffffff",
+      "ratio": 3.24
+    },
+    {
+      "role": "Acción Servicios Hover",
+      "fg": "#ff5300",
+      "bg": "#f5f0ff",
+      "ratio": 2.9
+    },
+    {
+      "role": "Texto terciario",
+      "fg": "#64748b",
+      "bg": "#ffffff",
+      "ratio": 4.76
+    },
+    {
+      "role": "Success",
+      "fg": "#098300",
+      "bg": "#ffffff",
+      "ratio": 4.93
+    },
+    {
+      "role": "Error",
+      "fg": "#d40000",
+      "bg": "#ffffff",
+      "ratio": 5.53
+    }
+  ],
+  "supplement": {
+    "unboundMetrics": [],
+    "fileUpload320": {
+      "messageWidth": 288,
+      "messageHeight": 40,
+      "wrap": "WRAP",
+      "lines": 2
+    },
+    "themeSmoke": {
+      "modes": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "brand": [
+        "#3255f7",
+        "#037255",
+        "#ff5300",
+        "#8300f8"
+      ],
+      "background": [
+        "#eff3ff",
+        "#eff3ff",
+        "#f5f0ff",
+        "#f5f0ff"
+      ]
+    },
+    "temporaryInstancesRemoved": true
+  }
+}

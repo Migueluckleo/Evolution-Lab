@@ -1,0 +1,105 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:10:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 26, inspected_nodes: 26, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote spacing libraries and versions not exposed"]
+component:
+  id: "2977:2066"
+  key: "ddc93f484212024c51d2cdddc480ea242a4db18f"
+  name: cell
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "2970:1794", name: "Group 7", type: GROUP}
+  page: {id: "268:20756", name: "❖ Chart ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2977-2066", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "2977:2066"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 123, y: 105}
+  dimensions: {width: 484, height: 392}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "2977:2092", name: "hasContent=false, position=-, segment=-", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:1090", name: "hasContent=true, position=first, segment=solo", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2977:2067", name: "hasContent=true, position=first, segment=upper", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2977:2071", name: "hasContent=true, position=first, segment=middle", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2977:2074", name: "hasContent=true, position=first, segment=lower", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:1094", name: "hasContent=true, position=middle, segment=solo", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:580", name: "hasContent=true, position=middle, segment=upper", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:582", name: "hasContent=true, position=middle, segment=middle", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:584", name: "hasContent=true, position=middle, segment=lower", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "3014:1092", name: "hasContent=true, position=last, segment=solo", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2984:2265", name: "hasContent=true, position=last, segment=upper", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2984:2267", name: "hasContent=true, position=last, segment=middle", type: COMPONENT, dimensions: [26, 35]}
+  - {id: "2984:2269", name: "hasContent=true, position=last, segment=lower", type: COMPONENT, dimensions: [26, 35]}
+anatomy: {functional_tree: ["cell → dashed border", "12 content variants → BarCell 14x35"], graphical_details_omitted: []}
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 8, local: 6, remote: 2, unknown_locality: 0, resolved: 8, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:562:10", name: "spacing/xs", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 22, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", name: "Spacing/Small/spacing-sm-8", locality: REMOTE, scopes: ["WIDTH_HEIGHT", "GAP"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", locality: REMOTE, scopes: ["WIDTH_HEIGHT", "GAP"], observed_binding_count: 26, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2896:2347", name: "color/border/accent", locality: LOCAL, scopes: ["STROKE_COLOR"], observed_binding_count: 26, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: "spacing/sm", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:3", name: "radius/sm", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 24, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:386", name: "color/brand/default", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"], observed_binding_count: 24, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:559:40", name: "radius/none", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 24, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties:
+  definitions: [{name: hasContent, type: VARIANT, default: "false", options: ["false", "true"]}, {name: position, type: VARIANT, default: "-", options: ["-", first, middle, last]}, {name: segment, type: VARIANT, default: "-", options: ["-", solo, upper, middle, lower]}]
+  observed: ["hasContent=false, position=-, segment=-", "hasContent=true, position=first, segment=solo", "hasContent=true, position=first, segment=upper", "hasContent=true, position=first, segment=middle", "hasContent=true, position=first, segment=lower", "hasContent=true, position=middle, segment=solo", "hasContent=true, position=middle, segment=upper", "hasContent=true, position=middle, segment=middle", "hasContent=true, position=middle, segment=lower", "hasContent=true, position=last, segment=solo", "hasContent=true, position=last, segment=upper", "hasContent=true, position=last, segment=middle", "hasContent=true, position=last, segment=lower"]
+  available: ["hasContent false/true", "position -/first/middle/last", "segment -/solo/upper/middle/lower"]
+  unknown: ["27 unmaterialized Cartesian combinations"]
+variants:
+  observed_combinations: ["hasContent=false, position=-, segment=-", "hasContent=true, position=first, segment=solo", "hasContent=true, position=first, segment=upper", "hasContent=true, position=first, segment=middle", "hasContent=true, position=first, segment=lower", "hasContent=true, position=middle, segment=solo", "hasContent=true, position=middle, segment=upper", "hasContent=true, position=middle, segment=middle", "hasContent=true, position=middle, segment=lower", "hasContent=true, position=last, segment=solo", "hasContent=true, position=last, segment=upper", "hasContent=true, position=last, segment=middle", "hasContent=true, position=last, segment=lower"]
+  available_values: ["hasContent=false/true", "position=-/first/middle/last", "segment=-/solo/upper/middle/lower"]
+  unknown: ["27 missing combinations"]
+states: {observed: [], available: [], unknown: ["interaction states not defined"]}
+layout:
+  node: {node: {id: "2977:2066", name: cell, type: COMPONENT_SET}, dimensions: {width: 484, height: 392}, layout_mode: NONE, evidence_refs: [E001]}
+  children:
+    - {node: {id: "2977:2092", name: "hasContent=false, position=-, segment=-", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 8}, evidence_refs: [E002]}
+    - {node: {id: "3014:1090", name: "hasContent=true, position=first, segment=solo", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 8}, evidence_refs: [E002]}
+    - {node: {id: "2977:2067", name: "hasContent=true, position=first, segment=upper", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 8}, evidence_refs: [E002]}
+    - {node: {id: "2977:2071", name: "hasContent=true, position=first, segment=middle", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 8}, evidence_refs: [E002]}
+    - {node: {id: "2977:2074", name: "hasContent=true, position=first, segment=lower", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 8}, evidence_refs: [E002]}
+    - {node: {id: "3014:1094", name: "hasContent=true, position=middle, segment=solo", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 6, bottom: 0, left: 6}, evidence_refs: [E002]}
+    - {node: {id: "3014:580", name: "hasContent=true, position=middle, segment=upper", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 6, bottom: 0, left: 6}, evidence_refs: [E002]}
+    - {node: {id: "3014:582", name: "hasContent=true, position=middle, segment=middle", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 6, bottom: 0, left: 6}, evidence_refs: [E002]}
+    - {node: {id: "3014:584", name: "hasContent=true, position=middle, segment=lower", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 6, bottom: 0, left: 6}, evidence_refs: [E002]}
+    - {node: {id: "3014:1092", name: "hasContent=true, position=last, segment=solo", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 8, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "2984:2265", name: "hasContent=true, position=last, segment=upper", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 8, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "2984:2267", name: "hasContent=true, position=last, segment=middle", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 8, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "2984:2269", name: "hasContent=true, position=last, segment=lower", type: COMPONENT}, dimensions: {width: 26, height: 35}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 8, bottom: 0, left: 4}, evidence_refs: [E002]}
+  relationships: []
+visual:
+  node: {node: {id: "2977:2066", name: cell, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["13 inside dashed strokes #BFCEFE with dash [2,2]", "12 BarCell fills #3255F7", "segment controls top/bottom 4px radius"]
+  icons: []
+typography: {styles: [], text_runs: []}
+tokens:
+  summary: {total: 8, local: 6, remote: 2}
+  categories: {color: ["color/border/accent", "color/brand/default"], spacing: ["spacing/xs", "spacing/sm", "Spacing/Small/spacing-sm-8", "Spacing/Small/spacing-sm-0"], radius: ["radius/sm", "radius/none"]}
+  source: variable_dependencies
+content: {example_content: {observed_strings: []}, component_rules: ["hasContent=false removes BarCell"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["bar and dashed border"], undefined: ["data value", "axis semantics", "series meaning", "alternative text"]}
+external_dependencies:
+  - {kind: VARIABLE, id: "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", name: "Spacing/Small/spacing-sm-8", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}
+  - {kind: VARIABLE, id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}
+unresolved: ["series-data meaning", "27 missing variant combinations", "generic brand token on BarCell fill"]
+implementation_notes: ["Preserve 13 materialized variants only", "Map BarCell to destination background/chart series role", "Do not copy remote spacing variable IDs"]
+evidence:
+  figma_direct: [{id: E001, source: "node:2977:2066", value: "COMPONENT_SET 484x392"}, {id: E002, source: "traversal:2977:2066", value: "26 nodes, 13 strokes, 12 fills"}]
+  derived: [{id: D001, source: "variant grouping", value: "one empty plus 12 position-segment combinations"}]
+  requires_definition: ["data meaning, axis, accessibility"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; remote spacing libraries unavailable"}

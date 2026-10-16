@@ -1,0 +1,151 @@
+{
+  "nodes": 14143,
+  "edges": 34770,
+  "communities": 1006,
+  "gods": [
+    {
+      "id": "registry_contracts_document",
+      "label": "Registro de contratos",
+      "degree": 536
+    },
+    {
+      "id": "registry_implementations_document",
+      "label": "Registro de implementaciones",
+      "degree": 381
+    },
+    {
+      "id": "registry_sources_document",
+      "label": "Registro de fuentes",
+      "degree": 261
+    },
+    {
+      "id": "registry_qa_document",
+      "label": "Registro de QA",
+      "degree": 137
+    },
+    {
+      "id": "specs_foundations_typography_contract_v0_1_0_document",
+      "label": "Estilos tipográficos · contrato 0.1.0",
+      "degree": 88
+    },
+    {
+      "id": "drafts_contracts_chat_toolbar_source_component_contract_organism___anticipa___chat___toolbar",
+      "label": "Organism / Anticipa / Chat / Toolbar",
+      "degree": 79
+    },
+    {
+      "id": "specs_components_logos_scope_amendment_v0_1_1_scope",
+      "label": "Six sets and72 variants in Logos closure scope",
+      "degree": 74
+    },
+    {
+      "id": "registry_decisions_document",
+      "label": "Registro de decisiones",
+      "degree": 74
+    },
+    {
+      "id": "specs_migration_traceability_status_actualizaci_n_2026_09_29___select",
+      "label": "Actualización 2026-09-29 · Select",
+      "degree": 68
+    },
+    {
+      "id": "implementations_web_docs_web_adaptation_document",
+      "label": "Adaptación técnica web 0.1.5",
+      "degree": 62
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Logotipo observado 434:3798: product=optimiza, type=horizontal",
+      "target": "Six sets and72 variants in Logos closure scope",
+      "source_files": [
+        "sources/assets/web/logos/434-3798.svg",
+        "specs/components/logos.scope.amendment.v0.1.1.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Isotipo naranja con dispositivos y letra E",
+      "target": "Six sets and72 variants in Logos closure scope",
+      "source_files": [
+        "sources/assets/web/logos/434-5038.png",
+        "specs/components/logos.scope.amendment.v0.1.1.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Logotipo horizontal CONTPAQi Escritorio Virtual",
+      "target": "Six sets and72 variants in Logos closure scope",
+      "source_files": [
+        "sources/assets/web/logos/434-5062.png",
+        "specs/components/logos.scope.amendment.v0.1.1.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Logotipo horizontal CONTPAQi Comercial Premium",
+      "target": "Six sets and72 variants in Logos closure scope",
+      "source_files": [
+        "sources/assets/web/logos/435-2656.png",
+        "specs/components/logos.scope.amendment.v0.1.1.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Logotipo observado 429:357: product=CONTPAQi, Mode=dark",
+      "target": "Six sets and72 variants in Logos closure scope",
+      "source_files": [
+        "sources/assets/web/logos/429-357.png",
+        "specs/components/logos.scope.amendment.v0.1.1.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image ↔ doc); connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Registro de contratos` connect `Contratos e implementación` to `Contratos e implementación`, `Implementations · Evidencias`, `Filter Chip`, `Fuentes y procedencia`, `Toggle Color Amendment`, `Anticipa Screen Composition`, `Foundations Tokens`, `Loader · Evidencias`, `Primitivas y aliases`, `Auditoría por excepciones`, `Continuidad y pendientes`, `Dec Typography Styles 001`, `Conversation · Evidencias`, `Avatar Contract`, `Navigation Tab`, `Slots Review Status`, `Anticipa Screen Composition`, `App Shell Typography`, `App Shell`, `Toggle · Evidencias`, `Tooltip · Evidencias`, `Scrollbar Contract`, `Chart Donut Contract`, `Breadcrumbs Contract`, `Foundations Focus Effects`, `Loader Contract`, `Textarea Contract`, `Textarea Contract`, `Filter Chip Semantic`, `Loader Qa`, `Button · Evidencias`, `Foundations Feedback Icon Scopes`, `Stepper · Evidencias`, `Migration V0 2 0`, `Chat Section`, `Filter Chip`, `Foundations Radio Indicator Colors`, `Radio Button`, `Radio Button Typography`, `Decisiones de migración`, `Characters · Evidencias`, `Ai Design System Steps Colors`, `Fuentes · Evidencias`, `Ai Design System Stepper Colors`, `Sidebar Typography`, `Typography · Evidencias`, `Input Field Typography`, `Badge · Evidencias`, `Charts · Evidencias`, `Primitivas y aliases`, `Button · Evidencias`, `Chat History Item`, `Header Contract`, `Search Contract`, `Stepper Contract`, `Steps Contract`, `Chat Layout`, `Tooltip Plan`, `Metric Card`, `Scrollbar Contract`, `File Upload`, `Chat Toolbar`, `Chart Header Contract`, `Chart Progress Item Contract`, `Chart Gauge Build`, `Identidad BENI y NAVI`, `Navigation Switch Tab`, `Chart Cell Contract`, `Chart Label Cell Contract`, `Icon Button Contract`, `Metric Card Contract`, `Navigation Batch 2026 09 24`, `Checkbox Contract`, `Filter Chip`, `Logos y fidelidad visual`, `Filter Chip`, `Table Typography`, `Badge Contrast Amendment`, `Button Synthesis`, `Button Usage Synthesis`, `Empty States`, `Toggle Contrast Amendment`, `Chart Donut Contract`, `Chat Tool Item`, `Foundations Tokens Synthesis`, `Linear Progress Bar Contract`, `Anticipa Screen Composition Synthesis`, `Input Field`, `Modal Typography`, `Select Typography`, `Inline Notification Contract`, `Navigation Switch Tab Item Contract`, `Linear Progress Bar Typography`, `Auditoría por excepciones`, `Button · Evidencias`, `Filter Chip Plan`, `Navigation Switch Tab Item Typography`, `Selection Control Source Color`, `Empty States`, `Logos · Evidencias`, `Conversation External Intake 2026 10`, `Ai Design System Character Shadow`, `Charts Typography`, `Conversation Contract`, `Dropdown Item`, `App Shell`, `Stepper Typography`, `Button Semantic Scope Amendment`, `Dec Character Identity 001`, `Conversation Contract`, `Ai Design System Empty States`, `Breadcrumbs · Evidencias`, `Button · Evidencias`, `Semantic Scope Retrospective`, `Session Handoff 2026 10 08`, `Navigation Pagination Contract`, `App Shell Synthesis`, `Loader · Evidencias`, `Inline Notification Plan`?",
+      "why": "High betweenness centrality (0.059) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Registro de fuentes` connect `Fuentes y procedencia` to `Toggle Color Amendment`, `Primitivas y aliases`, `434 4672`, `Contratos e implementación`, `Web Adaptation`, `Auditoría por excepciones`, `Modal · Evidencias`, `Dec Typography Styles 001`, `Conversation · Evidencias`, `Avatar Contract`, `Navigation Tab`, `Toggle · Evidencias`, `Tooltip · Evidencias`, `Scrollbar Contract`, `Chart Donut Contract`, `Breadcrumbs Contract`, `Loader Contract`, `Textarea Contract`, `Textarea Contract`, `Filter Chip Semantic`, `Chat Section Web`, `Typography · Evidencias`, `Filter Chip`, `Foundations Radio Indicator Colors`, `Radio Button`, `Decisiones de migración`, `Badge · Evidencias`, `Button · Evidencias`, `Legacy Library Pages Inventory`, `Header Contract`, `Search Contract`, `Stepper Contract`, `Steps Contract`, `Chat Layout`, `Scrollbar Contract`, `Button 26 81`, `Filter Chip 8203 10`, `Button Component Configuration`, `Chart Header Contract`, `Chart Progress Item Contract`, `Chart Gauge Build`, `App Shell`, `Chart Cell Contract`, `Chart Label Cell Contract`, `Icon Button Contract`, `Metric Card Contract`, `Chat Tool Item Contract`, `Chat Toolbar Contract`, `Checkbox Contract`, `Chat History Item Contract`, `Logos y fidelidad visual`, `Select Composition`, `Empty States`, `Header Dependencies`, `Chart Donut Contract`, `Foundations Tokens Synthesis`, `Linear Progress Bar Contract`, `Fuentes y procedencia`, `Inline Notification Contract`, `Navigation Switch Tab Item Contract`, `Empty States`, `Conversation External Intake 2026 10`, `Chat Layout Structure`, `Fuentes · Evidencias`, `Conversation Contract`, `Input Field Dependencies`, `Fuentes y procedencia`, `Conversation Contract`, `Retention 2026 10 13`, `Modal Contract`, `Logo Categoria Discovery`, `Fuentes y procedencia`, `Navigation Pagination Contract`, `App Shell Dependencies`, `Input Fields Inventory`, `App Shell Contract`, `Table Anticipa Contract`, `Sidebar Observed`, `Select Contract`?",
+      "why": "High betweenness centrality (0.039) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Registro de implementaciones` connect `Implementations · Evidencias` to `QA y evidencias`, `Foundations Tokens`, `Toggle Color Amendment`, `Loader · Evidencias`, `Select · Evidencias`, `Contratos e implementación`, `Primitivas y aliases`, `Web Adaptation`, `Auditoría por excepciones`, `Dec Typography Styles 001`, `Conversation · Evidencias`, `Avatar Contract`, `Navigation Tab`, `Anticipa Screen Composition`, `App Shell`, `Toggle · Evidencias`, `Scrollbar Contract`, `Filter Chip Semantic`, `Family Matrix`, `Family Matrix`, `Chat Section Web`, `Foundations Feedback Icon Scopes`, `Manifiestos de evidencia`, `Stepper · Evidencias`, `Chat Section`, `Foundations Radio Indicator Colors`, `Session Handoff 2026 10 07`, `Readme · Evidencias`, `Decisiones de migración`, `Characters · Evidencias`, `Ai Design System Steps Colors`, `Ai Design System Stepper Colors`, `Sidebar Typography`, `Typography · Evidencias`, `Input Field Typography`, `Charts · Evidencias`, `Header · Evidencias`, `Header Contract`, `Chat Toolbar`, `Chat Layout`, `Metric Card`, `Chat Toolbar`, `File Upload`, `Chart Gauge Build`, `Navigation Switch Tab`, `Icon Button Contract`, `Navigation Batch 2026 09 24`, `Checkbox Contract`, `Conversation · Evidencias`, `Composition Slots`, `Logos y fidelidad visual`, `Filter Chip`, `Badge Contrast Amendment`, `Button Usage Synthesis`, `Metric Card Build`, `Empty States`, `Chart Progress Header Build`, `Foundations Tokens Synthesis`, `Composition Slots`, `Charts Final Qa`, `Icon Button Build`, `Input Field`, `Inline Notification Build`, `Toggle Build`, `Inline Notification Contract`, `Breadcrumb Item Build`, `Web Characters`, `Avatar Build`, `Button · Evidencias`, `Navigation Switch Tab Item Typography`, `Selection Control Source Color`, `Logos · Evidencias`, `Charts Foundation Build`, `Checkbox Build`, `Linear Progress Bar Final Qa`, `Dropdown Item`, `App Shell`, `Stepper Typography`, `Breadcrumbs Composition Build`, `Dot Build`, `Linear Progress Bar Build`, `Radio Button Build`, `Button Semantic Scope Amendment`, `Radio Indicator Build`, `Web · Evidencias`, `Button · Evidencias`, `Semantic Scope Retrospective`, `Session Handoff 2026 10 01`, `Loader · Evidencias`, `Metric Card Visual Correction`, `Figjam Sdd Flow 2026 10`?",
+      "why": "High betweenness centrality (0.028) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 43 inferred relationships involving `Estilos tipográficos · contrato 0.1.0` (e.g. with `AppShell: recetas tipográficas por rol y variante` and `Avatar: recetas tipográficas por rol y variante`) actually correct?",
+      "why": "`Estilos tipográficos · contrato 0.1.0` has 43 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Donut fuente: tres porcentajes estáticos 75 50 25`, `Porcentaje arbitrario no definido`, `Preservación de seis vector paths` to the rest of the system?",
+      "why": "189 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Contratos e implementación` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.007260770266550614 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Implementations · Evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.009523489406518548 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

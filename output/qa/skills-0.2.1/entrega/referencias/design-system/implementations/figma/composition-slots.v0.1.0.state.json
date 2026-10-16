@@ -1,0 +1,25 @@
+{
+  "implementationId": "IMP-COMPOSITION-SLOTS-FIGMA-001",
+  "protocol": "P-SLOTS/0.1.0",
+  "date": "2026-09-29",
+  "status": "VALIDATED",
+  "qaScope": "Native Slots in Select, Switch Tab and Breadcrumbs only; not a global library or accessibility certification",
+  "contract": "specs/composition-slots.amendment.v0.1.0.md",
+  "contractDigest": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
+  "contractStatus": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "libraryPublication": "UNPUBLISHED",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "families": {
+    "Select": {"pageId":"444:122","mainId":"457:470","slotProperty":"Options#466:0","slotIds":["456:440","466:601"],"testInstances":["467:688","467:811","467:934","467:1052","467:1239"],"qa":"qa/implementations/composition-slots.v0.1.0.select.json"},
+    "Switch Tab": {"pageId":"275:122","mainId":"283:128","slotProperty":"Tabs#468:0","slotIds":["468:206"],"testInstances":["469:206","469:244","469:282","469:316","469:382"],"qa":"qa/implementations/composition-slots.v0.1.0.switch-tab.json"},
+    "Breadcrumbs": {"pageId":"190:188","mainId":"191:229","slotProperty":"Trail#470:0","slotIds":["191:168","191:178","191:192","191:210"],"testInstances":["470:165","470:192","470:219","470:241","470:284"],"qa":"qa/implementations/composition-slots.v0.1.0.breadcrumbs.final.json","layoutCorrection":"qa/implementations/composition-slots.v0.1.0.breadcrumbs.correction.json","itemCorrection":"implementations/figma/composition-slots.v0.1.0.breadcrumb-item-fix.json"}
+  },
+  "tokens": {"created":0,"modified":0,"canonicalDigest":"cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"},
+  "qaReport":"qa/implementations/composition-slots.v0.1.0.figma.review.md",
+  "tracking":"registry/SLOTS-REVIEW-STATUS.md",
+  "handoff":"registry/SESSION-HANDOFF-2026-09-29-SLOTS.md",
+  "graphify":"STALE",
+  "pendingCandidates":["Steps/Gallery indicators","Pagination/Pages","Charts/legend lists"],
+  "limitations":["Empty slots retain editing placeholders; product empty behavior undefined","Horizontal compositions can overflow a constrained width; no automatic scroll or wrapping","State and Current of inserted items are author-controlled","Breadcrumb historical color review remains separate","Not all library components have live native-Slot QA"]
+}

@@ -1,0 +1,588 @@
+{
+  "date": "2026-10-05",
+  "scope": "Color, aliases, scopes and bindings of six existing families; not global accessibility QA",
+  "canonicalDefinitions": 84,
+  "canonicalErrors": [],
+  "families": [
+    {
+      "name": "buttons",
+      "paints": 243,
+      "nodes": 364,
+      "definitions": 60,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "buttons",
+        "sourcePaints": 243,
+        "targetPaints": 243,
+        "differences": []
+      }
+    },
+    {
+      "name": "icon-button",
+      "paints": 159,
+      "nodes": 151,
+      "definitions": 30,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "icon-button",
+        "sourcePaints": 159,
+        "targetPaints": 159,
+        "differences": []
+      }
+    },
+    {
+      "name": "breadcrumbs",
+      "paints": 38,
+      "nodes": 87,
+      "definitions": 10,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "breadcrumbs",
+        "sourcePaints": 38,
+        "targetPaints": 38,
+        "differences": []
+      }
+    },
+    {
+      "name": "metric-card",
+      "paints": 70,
+      "nodes": 119,
+      "definitions": 8,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "metric-card",
+        "sourcePaints": 70,
+        "targetPaints": 70,
+        "differences": []
+      }
+    },
+    {
+      "name": "charts",
+      "paints": 82,
+      "nodes": 141,
+      "definitions": 23,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "charts",
+        "sourcePaints": 70,
+        "targetPaints": 82,
+        "differences": [
+          [
+            [
+              "RECTANGLE",
+              "fills",
+              [
+                "D9D9D9",
+                "D9D9D9",
+                "D9D9D9",
+                "D9D9D9"
+              ]
+            ],
+            4,
+            0
+          ],
+          [
+            [
+              "TEXT",
+              "fills",
+              [
+                "0F172A",
+                "0F172A",
+                "0F172A",
+                "0F172A"
+              ]
+            ],
+            22,
+            28
+          ],
+          [
+            [
+              "RECTANGLE",
+              "fills",
+              [
+                "3255F7",
+                "037255",
+                "FF5300",
+                "8300F8"
+              ]
+            ],
+            4,
+            5
+          ],
+          [
+            [
+              "RECTANGLE",
+              "fills",
+              [
+                "BFCEFE",
+                "93D3BF",
+                "FFD8C8",
+                "E0CAFC"
+              ]
+            ],
+            5,
+            9
+          ],
+          [
+            [
+              "RECTANGLE",
+              "fills",
+              [
+                "EFF3FF",
+                "ECFDF5",
+                "FFF7EC",
+                "F5F0FF"
+              ]
+            ],
+            1,
+            2
+          ],
+          [
+            [
+              "RECTANGLE",
+              "fills",
+              [
+                "E2E8F0",
+                "E2E8F0",
+                "E2E8F0",
+                "E2E8F0"
+              ]
+            ],
+            0,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "name": "linear-progress-bar",
+      "paints": 240,
+      "nodes": 337,
+      "definitions": 48,
+      "geometryUnchanged": true,
+      "apiUnchanged": true,
+      "paletteComparison": {
+        "name": "linear-progress-bar",
+        "sourcePaints": 240,
+        "targetPaints": 240,
+        "differences": []
+      }
+    }
+  ],
+  "scopeIssues": [],
+  "semanticIssues": [],
+  "contrast": [
+    {
+      "label": "Breadcrumb Current",
+      "family": "breadcrumbs",
+      "role": "color/text/breadcrumb/current",
+      "threshold": 4.5,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "FFFFFF",
+          "ratio": 5.558346714814152,
+          "limited": false
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "FFFFFF",
+          "ratio": 5.928899416062741,
+          "limited": false
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "FFFFFF",
+          "ratio": 3.2360950421651804,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "FFFFFF",
+          "ratio": 6.324308581617716,
+          "limited": false
+        }
+      ]
+    },
+    {
+      "label": "Metric Trend",
+      "family": "metric-card",
+      "role": "color/text/metric/trend",
+      "threshold": 4.5,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "F1F5F9",
+          "ratio": 5.073719278241465,
+          "limited": false
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "F1F5F9",
+          "ratio": 5.411963810364409,
+          "limited": false
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "F1F5F9",
+          "ratio": 2.9539427178759734,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "F1F5F9",
+          "ratio": 5.772897593196401,
+          "limited": false
+        }
+      ]
+    },
+    {
+      "label": "Metric icon",
+      "family": "metric-card",
+      "role": "color/icon/metric/brand",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "F1F5F9",
+          "ratio": 5.073719278241465,
+          "limited": false
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "F1F5F9",
+          "ratio": 5.411963810364409,
+          "limited": false
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "F1F5F9",
+          "ratio": 2.9539427178759734,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "F1F5F9",
+          "ratio": 5.772897593196401,
+          "limited": false
+        }
+      ]
+    },
+    {
+      "label": "Gauge avance/pista",
+      "family": "charts",
+      "role": "color/shape/chart/progress",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "5F85FB",
+          "ratio": 1.6501931202669666,
+          "limited": true
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "5DAF95",
+          "ratio": 2.2674949607208372,
+          "limited": true
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "FCBA92",
+          "ratio": 1.9382230940020788,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "C698FB",
+          "ratio": 2.7963848383104892,
+          "limited": true
+        }
+      ]
+    },
+    {
+      "label": "Header series2/blanco",
+      "family": "charts",
+      "role": "color/shape/chart/series-2",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "BFCEFE",
+          "background": "FFFFFF",
+          "ratio": 1.5584476564132714,
+          "limited": true
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "93D3BF",
+          "background": "FFFFFF",
+          "ratio": 1.7058424696602361,
+          "limited": true
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FFD8C8",
+          "background": "FFFFFF",
+          "ratio": 1.3200595798285124,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "E0CAFC",
+          "background": "FFFFFF",
+          "ratio": 1.4975049856775904,
+          "limited": true
+        }
+      ]
+    },
+    {
+      "label": "Legend neutral/blanco",
+      "family": "charts",
+      "role": "color/shape/chart/legend-neutral",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "E2E8F0",
+          "background": "FFFFFF",
+          "ratio": 1.2327814619127655,
+          "limited": true
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "E2E8F0",
+          "background": "FFFFFF",
+          "ratio": 1.2327814619127655,
+          "limited": true
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "E2E8F0",
+          "background": "FFFFFF",
+          "ratio": 1.2327814619127655,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "E2E8F0",
+          "background": "FFFFFF",
+          "ratio": 1.2327814619127655,
+          "limited": true
+        }
+      ]
+    },
+    {
+      "label": "Linear Primary/pista",
+      "family": "linear-progress-bar",
+      "role": "color/background/progress/primary",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "F1F5F9",
+          "ratio": 5.073719278241465,
+          "limited": false
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "F1F5F9",
+          "ratio": 5.411963810364409,
+          "limited": false
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "F1F5F9",
+          "ratio": 2.9539427178759734,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "F1F5F9",
+          "ratio": 5.772897593196401,
+          "limited": false
+        }
+      ]
+    },
+    {
+      "label": "Button Primary texto Default",
+      "family": "buttons",
+      "role": "color/interactive/primary/default",
+      "threshold": 4.5,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "3255F7",
+          "background": "FFFFFF",
+          "ratio": 5.558346714814152,
+          "limited": false
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "037255",
+          "background": "FFFFFF",
+          "ratio": 5.928899416062741,
+          "limited": false
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FF5300",
+          "background": "FFFFFF",
+          "ratio": 3.2360950421651804,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "8300F8",
+          "background": "FFFFFF",
+          "ratio": 6.324308581617716,
+          "limited": false
+        }
+      ]
+    },
+    {
+      "label": "Button Primary texto Press",
+      "family": "buttons",
+      "role": "color/interactive/primary/active",
+      "threshold": 4.5,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "5F85FB",
+          "background": "FFFFFF",
+          "ratio": 3.3683007440455985,
+          "limited": true
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "5DAF95",
+          "background": "FFFFFF",
+          "ratio": 2.6147354321695793,
+          "limited": true
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FCBA92",
+          "background": "FFFFFF",
+          "ratio": 1.6696194840415568,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "C698FB",
+          "background": "FFFFFF",
+          "ratio": 2.2616016561721586,
+          "limited": true
+        }
+      ]
+    },
+    {
+      "label": "Bordes suaves/blanco",
+      "family": "buttons",
+      "role": "color/border/control/subtle",
+      "threshold": 3,
+      "modes": [
+        {
+          "mode": "Contable",
+          "foreground": "BFCEFE",
+          "background": "FFFFFF",
+          "ratio": 1.5584476564132714,
+          "limited": true
+        },
+        {
+          "mode": "Administrativo",
+          "foreground": "93D3BF",
+          "background": "FFFFFF",
+          "ratio": 1.7058424696602361,
+          "limited": true
+        },
+        {
+          "mode": "Servicios",
+          "foreground": "FFBBB0",
+          "background": "FFFFFF",
+          "ratio": 1.6169957137922688,
+          "limited": true
+        },
+        {
+          "mode": "Personas",
+          "foreground": "E0CAFC",
+          "background": "FFFFFF",
+          "ratio": 1.4975049856775904,
+          "limited": true
+        }
+      ]
+    }
+  ],
+  "visualReview": {
+    "status": "PASS visual acotado",
+    "theme": "Contable / modo resuelto en captura",
+    "screenshots": [
+      [
+        "buttons",
+        "26:81"
+      ],
+      [
+        "icon-button",
+        "183:311"
+      ],
+      [
+        "breadcrumbs",
+        "190:210"
+      ],
+      [
+        "metric-card",
+        "202:327"
+      ],
+      [
+        "charts",
+        "211:134",
+        "213:161",
+        "213:162"
+      ],
+      [
+        "linear-progress-bar",
+        "220:460"
+      ]
+    ],
+    "note": "No clipping or layout regression in reviewed captures; transparency is preserved. Four-mode QA is alias/RGB readback, not four screenshot galleries."
+  },
+  "chartsExceptions": {
+    "neutralSource": "D9D9D9",
+    "neutralTarget": "E2E8F0",
+    "approximatePaints": 4,
+    "additionalTopSlotPaints": 12,
+    "additionalRecipe": {
+      "textPrimary": 6,
+      "progress": 1,
+      "remaining": 1,
+      "legendAccent": 4
+    }
+  },
+  "humanAudit": "PENDING",
+  "libraryPublication": "NOT_PERFORMED"
+}

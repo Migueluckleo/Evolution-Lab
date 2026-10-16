@@ -1,0 +1,139 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T21:10:10Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 65, inspected_nodes: 65, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote component/style library and version not exposed"]
+component:
+  id: "2425:35937"
+  key: 6fb836fc24e1d24e6a0b0c933f97cfc32ff58680
+  name: Breadcrumbs
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "2425:35869", name: Content, type: FRAME}
+  page: {id: "1098:28190", name: "❖ Breadcrumb  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2425-35937", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2425:35937"}
+classification: {kind: component, reusable: true, composition: true, evidence_refs: [E001]}
+identity:
+  position: {x: 360, y: 31}
+  dimensions: {width: 650, height: 296}
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "2425:35938", name: "type=Level 2", type: COMPONENT, dimensions: [242, 24]}
+  - {id: "2425:35941", name: "type=Level 3", type: COMPONENT, dimensions: [362, 24]}
+  - {id: "2425:35945", name: "type=Level 4", type: COMPONENT, dimensions: [482, 24]}
+  - {id: "2425:35950", name: "type=Level 5", type: COMPONENT, dimensions: [602, 24]}
+anatomy:
+  functional_tree: ["variant → ArrowLeft + Breadcrumbs frame → 2–5 Breadcrumb item instances", "last item active=on; previous items default/off"]
+  graphical_details_omitted: ["14 nested icon vectors represented by active icon instances"]
+dependency_inventory:
+  components: {total_instances: 28, total: 4, local: 2, remote: 2, unknown_locality: 0, resolved: 4, partially_resolved: 0, unresolved: 0}
+  variables: {total: 15, local: 11, remote: 4, unknown_locality: 0, resolved: 15, partially_resolved: 0, unresolved: 0}
+  styles: {total: 1, local: 0, remote: 1, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: 395e4dcf16b8451c0b295bb7402a9319d1b4a9f2
+    kind: COMPONENT
+    instance_ids: ["3460:156", "3460:198", "3460:199", "3460:200"]
+    instance_count: 4
+    main_component: {id: "3460:162", key: 395e4dcf16b8451c0b295bb7402a9319d1b4a9f2, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: ArrowLeft}
+    locality: REMOTE
+    active_properties: [{Format: Outline, Weight: Light}]
+    resolution: {status: RESOLVED, evidence: ["instance:3460:156.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: ab6176ac277d326bbc20fb8308bde5bb7bb7e5af
+    kind: COMPONENT
+    instance_ids: ["2425:35939", "2425:35942", "2425:35943", "2425:35946", "2425:35947", "2425:35948", "2425:35951", "2425:35952", "2425:35953", "2425:35954"]
+    instance_count: 10
+    main_component: {id: "2425:35898", key: ab6176ac277d326bbc20fb8308bde5bb7bb7e5af, name: "State=default, active=off"}
+    component_set: {id: "2425:35897", key: e96a86bbd1d613d821281d737f2cdc262791cbe6, name: Breadcrumb item}
+    locality: LOCAL
+    active_properties: [{State: default, active: "off", text: Breadcrumb}]
+    resolution: {status: RESOLVED, evidence: ["instance:2425:35939.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: "breadcrumb-item.source.component-contract.yaml"}
+  - dependency_id: d269df770ecbbc7cb9563bb730f7b0ee461aadbb
+    kind: COMPONENT
+    instance_ids: ["2425:35940", "2425:35944", "2425:35949", "2425:35955"]
+    instance_count: 4
+    main_component: {id: "2425:35910", key: d269df770ecbbc7cb9563bb730f7b0ee461aadbb, name: "State=default, active=on"}
+    component_set: {id: "2425:35897", key: e96a86bbd1d613d821281d737f2cdc262791cbe6, name: Breadcrumb item}
+    locality: LOCAL
+    active_properties: [{State: default, active: "on", text: Breadcrumb}]
+    resolution: {status: RESOLVED, evidence: ["instance:2425:35940.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: "breadcrumb-item.source.component-contract.yaml"}
+  - dependency_id: e2fc671298e81c590f5a4a5272d9c97709515666
+    kind: COMPONENT
+    instance_ids: ["I2425:35939;2833:585", "I2425:35942;2833:585", "I2425:35943;2833:585", "I2425:35946;2833:585", "I2425:35947;2833:585", "I2425:35948;2833:585", "I2425:35951;2833:585", "I2425:35952;2833:585", "I2425:35953;2833:585", "I2425:35954;2833:585"]
+    instance_count: 10
+    main_component: {id: "3374:24967", key: e2fc671298e81c590f5a4a5272d9c97709515666, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretRight}
+    locality: REMOTE
+    active_properties: [{Format: Outline, Weight: Light}]
+    resolution: {status: RESOLVED, evidence: ["instance:I2425:35939;2833:585.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+variable_dependencies:
+  - {id: "VariableID:34fe56afb84b558df44c1bf4c34ac5ffeff6348f/5165:705", name: "Size/sm-4", locality: REMOTE, used_by: ["I2425:35940;2425:35911.fontSize", "I2425:35944;2425:35911.fontSize", "I2425:35949;2425:35911.fontSize", "I2425:35955;2425:35911.fontSize"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:e2073ff7d646032d4b9c0822bf3105ca0806c49c/368:62", name: "Small/sm-spacing-4", locality: REMOTE, used_by: ["2425:35939.itemSpacing", "2425:35940.itemSpacing", "2425:35942.itemSpacing", "2425:35943.itemSpacing", "2425:35944.itemSpacing", "2425:35946.itemSpacing", "2425:35947.itemSpacing", "2425:35948.itemSpacing", "2425:35949.itemSpacing", "2425:35951.itemSpacing", "2425:35952.itemSpacing", "2425:35953.itemSpacing", "2425:35954.itemSpacing", "2425:35955.itemSpacing"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196104", name: "color/background/default", locality: LOCAL, used_by: ["3460:156.hiddenFill", "I2425:35939;2833:585.hiddenFill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196138", name: "color/icon/primary", locality: LOCAL, used_by: ["I3460:156;8899:76071.fill", "I3460:198;8899:76071.fill", "I3460:199;8899:76071.fill", "I3460:200;8899:76071.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196139", name: "color/icon/secondary", locality: LOCAL, used_by: ["I2425:35939;2833:585;8899:79841.fill", "I2425:35942;2833:585;8899:79841.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196121", name: "color/text/brand", locality: LOCAL, used_by: ["I2425:35940;2425:35911.fill", "I2425:35944;2425:35911.fill", "I2425:35949;2425:35911.fill", "I2425:35955;2425:35911.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196118", name: "color/text/tertiary", locality: LOCAL, used_by: ["I2425:35939;2425:35899.fill", "I2425:35942;2425:35899.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:10bd99bb5555e6d868cc939a856eaacf0c148750/5453:61", name: family/inter, locality: REMOTE, used_by: ["I2425:35940;2425:35911.fontFamily", "I2425:35944;2425:35911.fontFamily", "I2425:35949;2425:35911.fontFamily", "I2425:35955;2425:35911.fontFamily"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", locality: LOCAL, used_by: ["I2425:35939;2425:35899.fontFamily", "I2425:35940;2425:35911.fontFamily"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:52:708", name: "font/size/16", locality: LOCAL, used_by: ["I2425:35940;2425:35911.fontSize", "I2425:35944;2425:35911.fontSize", "I2425:35949;2425:35911.fontSize", "I2425:35955;2425:35911.fontSize"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160888", name: "font/weight/regular", locality: LOCAL, used_by: ["I2425:35939;2425:35899.fontStyle", "I2425:35940;2425:35911.fontStyle"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:19", name: "size/lg", locality: LOCAL, used_by: ["I2425:35939;2425:35899.fontSize", "I2425:35942;2425:35899.fontSize"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:20", name: "size/xl", locality: LOCAL, used_by: ["3460:156.width", "I2425:35939;2833:585.width"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: "spacing/sm", locality: LOCAL, used_by: ["2425:35938.itemSpacing", "2425:35941.itemSpacing", "2425:35945.itemSpacing", "2425:35950.itemSpacing"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2c0a76613b04dd3f82c346be1686355d90a8edb2/4308:226", name: weight/regular, locality: REMOTE, used_by: ["I2425:35940;2425:35911.fontStyle", "I2425:35944;2425:35911.fontStyle", "I2425:35949;2425:35911.fontStyle", "I2425:35955;2425:35911.fontStyle"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies:
+  - id: "S:f245a7834e8b976cea42f6faba9b5d898bef1fff,5453:72"
+    key: f245a7834e8b976cea42f6faba9b5d898bef1fff
+    name: Body 1 - 16px/Regular
+    type: TEXT
+    locality: REMOTE
+    used_by: ["I2425:35940;2425:35911", "I2425:35944;2425:35911", "I2425:35949;2425:35911", "I2425:35955;2425:35911"]
+    resolution: {status: RESOLVED, evidence: ["style getter: Inter Regular 16, 150% line-height, -2% letter-spacing"], missing_fields: [], reason: null}
+properties:
+  definitions: [{name: type, type: VARIANT, default: Level 2, options: [Level 2, Level 3, Level 4, Level 5]}]
+  observed: [Level 2, Level 3, Level 4, Level 5]
+  available: [Level 2, Level 3, Level 4, Level 5]
+  unknown: ["No parent TEXT property for segment labels"]
+variants:
+  observed_combinations: [Level 2, Level 3, Level 4, Level 5]
+  available_values: [Level 2, Level 3, Level 4, Level 5]
+  unknown: []
+states: {observed: ["previous default/off", "last default/on"], available: [], unknown: []}
+layout:
+  node: {node: {id: "2425:35937", name: Breadcrumbs, type: COMPONENT_SET}, dimensions: {width: 650, height: 296}, layout_mode: NONE, evidence_refs: [E001]}
+  children: [{node: {id: "2425:35938", name: "type=Level 2", type: COMPONENT}, layout_mode: HORIZONTAL, spacing: {gap: 8}, dimensions: {width: 242, height: 24}, evidence_refs: [E002]}]
+  relationships: ["ArrowLeft 24 + gap 8 + inner Breadcrumbs frame", "inner frame gap 4 between item instances"]
+visual:
+  node: {node: {id: "2425:35937", name: Breadcrumbs, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: []
+  icons: [{node: {id: "3460:156", name: ArrowLeft, type: INSTANCE}, dimensions: {width: 24, height: 24, unit: px}, format: Outline, weight: Light, vector_descendant_count: 1, evidence_refs: [E003]}]
+typography:
+  styles: [{style: {id: "S:f245a7834e8b976cea42f6faba9b5d898bef1fff,5453:72", key: f245a7834e8b976cea42f6faba9b5d898bef1fff, name: Body 1 - 16px/Regular, locality: REMOTE}, font_family: Inter, font_style: Regular, font_size: 16, line_height: "150%", letter_spacing: "-2%", used_by: ["four active example labels"], evidence_refs: [E004]}]
+  text_runs: [{node: {id: "I2425:35939;2425:35899", name: Breadcrumb}, characters: Breadcrumb, font_family: Manrope, font_style: Regular, font_size: 16, line_height: "150%", letter_spacing: "-2%", evidence_refs: [E004]}, {node: {id: "I2425:35940;2425:35911", name: Breadcrumb}, characters: Breadcrumb, font_family: Inter, font_style: Regular, font_size: 16, line_height: "150%", letter_spacing: "-2%", evidence_refs: [E004]}]
+tokens:
+  summary: {total: 15, local: 11, remote: 4}
+  categories: {color: ["color/background/default", "color/icon/primary", "color/icon/secondary", "color/text/brand", "color/text/tertiary"], typography: ["font/family/base", "font/size/16", "font/weight/regular", "family/inter", "weight/regular", "Size/sm-4"], sizing: ["size/lg", "size/xl", "spacing/sm", "Small/sm-spacing-4"]}
+  source: variable_dependencies
+content: {example_content: {observed_strings: [Breadcrumb]}, component_rules: [], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible labels and icon dimensions"], undefined: ["navigation semantics", "current page", "keyboard focus", "destinations"]}
+external_dependencies: [{kind: COMPONENT, key: 395e4dcf16b8451c0b295bb7402a9319d1b4a9f2, name: ArrowLeft, remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}, {kind: COMPONENT, key: e2fc671298e81c590f5a4a5272d9c97709515666, name: CaretRight, remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}, {kind: STYLE, key: f245a7834e8b976cea42f6faba9b5d898bef1fff, name: Body 1 - 16px/Regular, remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}]
+unresolved: []
+implementation_notes: ["Keep Breadcrumb item instances; do not duplicate icon vectors", "Active sample Inter override differs from Manrope item definition", "No parent segment-label properties exposed"]
+evidence:
+  figma_direct: [{id: E001, source: "node:2425:35937.identity", value: "COMPONENT_SET 650x296"}, {id: E002, source: "node:2425:35938.layoutMode", value: HORIZONTAL}, {id: E003, source: "instance:3460:156.mainComponent", value: ArrowLeft}, {id: E004, source: "style:S:f245a7834e8b976cea42f6faba9b5d898bef1fff,5453:72", value: "Inter Regular 16"}]
+  derived: [{id: D001, source: "traversal:2425:35937", value: "65 nodes, 28 instances, 15 variables, 1 style"}]
+  requires_definition: ["navigation and accessibility behavior", "dynamic hierarchy"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; external library identity unavailable"}

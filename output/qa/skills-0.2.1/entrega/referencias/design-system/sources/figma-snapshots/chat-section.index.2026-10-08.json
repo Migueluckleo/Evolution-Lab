@@ -1,0 +1,814 @@
+[
+  {
+    "id": "20355:74859",
+    "parent": "20355:72762",
+    "type": "COMPONENT_SET",
+    "name": "Organism | AI Ecosistem | sectionChat",
+    "visible": true
+  },
+  {
+    "id": "20355:74860",
+    "parent": "20355:74859",
+    "type": "COMPONENT",
+    "name": "state=active",
+    "visible": true
+  },
+  {
+    "id": "20355:74861",
+    "parent": "20355:74860",
+    "type": "SLOT",
+    "name": "chat",
+    "visible": true
+  },
+  {
+    "id": "20355:74862",
+    "parent": "20355:74861",
+    "type": "INSTANCE",
+    "name": "Molecules | Anticipa | Conversation",
+    "visible": true
+  },
+  {
+    "id": "I20355:74862;20355:72765",
+    "parent": "20355:74862",
+    "type": "FRAME",
+    "name": "message",
+    "visible": true
+  },
+  {
+    "id": "I20355:74862;20355:72766",
+    "parent": "I20355:74862;20355:72765",
+    "type": "TEXT",
+    "name": "content",
+    "visible": true
+  },
+  {
+    "id": "20355:74863",
+    "parent": "20355:74861",
+    "type": "INSTANCE",
+    "name": "Leyendo la informaci...",
+    "visible": true
+  },
+  {
+    "id": "I20355:74863;217:5715",
+    "parent": "20355:74863",
+    "type": "TEXT",
+    "name": "L",
+    "visible": true
+  },
+  {
+    "id": "20355:74864",
+    "parent": "20355:74860",
+    "type": "FRAME",
+    "name": "messages",
+    "visible": true
+  },
+  {
+    "id": "20355:74867",
+    "parent": "20355:74864",
+    "type": "INSTANCE",
+    "name": "Molecules | Anticipa | Conversation",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72816",
+    "parent": "20355:74867",
+    "type": "FRAME",
+    "name": "disclaimer",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72817",
+    "parent": "I20355:74867;20355:72816",
+    "type": "TEXT",
+    "name": "Te recomendamos revisar la información importante para asegurar un resultado óptimo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72818",
+    "parent": "20355:74867",
+    "type": "FRAME",
+    "name": "textfield",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72819",
+    "parent": "I20355:74867;20355:72818",
+    "type": "SLOT",
+    "name": "text",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72819;20355:74866",
+    "parent": "I20355:74867;20355:72819",
+    "type": "TEXT",
+    "name": "placeholder",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72821",
+    "parent": "I20355:74867;20355:72818",
+    "type": "FRAME",
+    "name": "actions",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72822",
+    "parent": "I20355:74867;20355:72821",
+    "type": "FRAME",
+    "name": "model selector",
+    "visible": false
+  },
+  {
+    "id": "I20355:74867;20355:72823",
+    "parent": "I20355:74867;20355:72822",
+    "type": "INSTANCE",
+    "name": "Atom | Isologo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72823;20355:72916",
+    "parent": "I20355:74867;20355:72823",
+    "type": "FRAME",
+    "name": "personaje 1",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72823;20355:72917",
+    "parent": "I20355:74867;20355:72823;20355:72916",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72823;20355:72918",
+    "parent": "I20355:74867;20355:72823;20355:72916",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72823;20355:72919",
+    "parent": "I20355:74867;20355:72823;20355:72916",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72824",
+    "parent": "I20355:74867;20355:72822",
+    "type": "TEXT",
+    "name": "label-text",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72825",
+    "parent": "I20355:74867;20355:72822",
+    "type": "INSTANCE",
+    "name": "CaretDown",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72825;8899:79551",
+    "parent": "I20355:74867;20355:72825",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72826",
+    "parent": "I20355:74867;20355:72821",
+    "type": "FRAME",
+    "name": "main actions",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72827",
+    "parent": "I20355:74867;20355:72826",
+    "type": "INSTANCE",
+    "name": "icon-button",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72827;1430:18858",
+    "parent": "I20355:74867;20355:72827",
+    "type": "INSTANCE",
+    "name": "Paperclip",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72827;1430:18858;8899:60072",
+    "parent": "I20355:74867;20355:72827;1430:18858",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72827;1430:18859",
+    "parent": "I20355:74867;20355:72827",
+    "type": "INSTANCE",
+    "name": "Badge",
+    "visible": false
+  },
+  {
+    "id": "I20355:74867;20355:72828",
+    "parent": "I20355:74867;20355:72826",
+    "type": "INSTANCE",
+    "name": "icon-button",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72828;1430:18858",
+    "parent": "I20355:74867;20355:72828",
+    "type": "INSTANCE",
+    "name": "Microphone",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72828;1430:18858;8899:16696",
+    "parent": "I20355:74867;20355:72828;1430:18858",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72828;1430:18859",
+    "parent": "I20355:74867;20355:72828",
+    "type": "INSTANCE",
+    "name": "Badge",
+    "visible": false
+  },
+  {
+    "id": "I20355:74867;20355:72829",
+    "parent": "I20355:74867;20355:72826",
+    "type": "INSTANCE",
+    "name": "icon-button",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72829;1430:18903",
+    "parent": "I20355:74867;20355:72829",
+    "type": "INSTANCE",
+    "name": "PaperPlaneTilt",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72829;1430:18903;8899:6269",
+    "parent": "I20355:74867;20355:72829;1430:18903",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74867;20355:72829;1430:18904",
+    "parent": "I20355:74867;20355:72829",
+    "type": "INSTANCE",
+    "name": "Badge",
+    "visible": false
+  },
+  {
+    "id": "20355:74868",
+    "parent": "20355:74859",
+    "type": "COMPONENT",
+    "name": "state=standBy",
+    "visible": true
+  },
+  {
+    "id": "20355:74869",
+    "parent": "20355:74868",
+    "type": "INSTANCE",
+    "name": "beniStandBy",
+    "visible": true
+  },
+  {
+    "id": "I20355:74869;20355:74824",
+    "parent": "20355:74869",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74869;20355:74825",
+    "parent": "20355:74869",
+    "type": "GROUP",
+    "name": "ojos",
+    "visible": true
+  },
+  {
+    "id": "I20355:74869;20355:74826",
+    "parent": "I20355:74869;20355:74825",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74869;20355:74827",
+    "parent": "I20355:74869;20355:74825",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74869;20355:74828",
+    "parent": "20355:74869",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "20355:74870",
+    "parent": "20355:74868",
+    "type": "FRAME",
+    "name": "title and description",
+    "visible": true
+  },
+  {
+    "id": "20355:74871",
+    "parent": "20355:74870",
+    "type": "TEXT",
+    "name": "saludo",
+    "visible": true
+  },
+  {
+    "id": "20355:74872",
+    "parent": "20355:74870",
+    "type": "TEXT",
+    "name": "pregunta",
+    "visible": true
+  },
+  {
+    "id": "20355:74873",
+    "parent": "20355:74868",
+    "type": "FRAME",
+    "name": "messages",
+    "visible": true
+  },
+  {
+    "id": "20355:74874",
+    "parent": "20355:74873",
+    "type": "INSTANCE",
+    "name": "Molecules | Anticipa | Conversation",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:3014",
+    "parent": "20355:74874",
+    "type": "FRAME",
+    "name": "disclaimer",
+    "visible": false
+  },
+  {
+    "id": "I20355:74874;207:4487",
+    "parent": "I20355:74874;32:3014",
+    "type": "TEXT",
+    "name": "Te recomendamos revisar la información importante para asegurar un resultado óptimo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2788",
+    "parent": "20355:74874",
+    "type": "FRAME",
+    "name": "textfield",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;217:5521",
+    "parent": "I20355:74874;32:2788",
+    "type": "SLOT",
+    "name": "text",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2789",
+    "parent": "I20355:74874;217:5521",
+    "type": "TEXT",
+    "name": "placeholder",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2792",
+    "parent": "I20355:74874;32:2788",
+    "type": "FRAME",
+    "name": "actions",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2793",
+    "parent": "I20355:74874;32:2792",
+    "type": "FRAME",
+    "name": "model selector",
+    "visible": false
+  },
+  {
+    "id": "I20355:74874;32:2794",
+    "parent": "I20355:74874;32:2793",
+    "type": "INSTANCE",
+    "name": "Atom | Isologo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2794;217:4799",
+    "parent": "I20355:74874;32:2794",
+    "type": "FRAME",
+    "name": "personaje 1",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2794;217:4800",
+    "parent": "I20355:74874;32:2794;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2794;217:4801",
+    "parent": "I20355:74874;32:2794;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2794;217:4802",
+    "parent": "I20355:74874;32:2794;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2795",
+    "parent": "I20355:74874;32:2793",
+    "type": "TEXT",
+    "name": "label-text",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2796",
+    "parent": "I20355:74874;32:2793",
+    "type": "INSTANCE",
+    "name": "CaretDown",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2796;8899:79551",
+    "parent": "I20355:74874;32:2796",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2797",
+    "parent": "I20355:74874;32:2792",
+    "type": "FRAME",
+    "name": "main actions",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2798",
+    "parent": "I20355:74874;32:2797",
+    "type": "INSTANCE",
+    "name": "Button Icon",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2798;1430:18858",
+    "parent": "I20355:74874;32:2798",
+    "type": "INSTANCE",
+    "name": "Paperclip",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2798;1430:18858;8899:60072",
+    "parent": "I20355:74874;32:2798;1430:18858",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2798;1430:18859",
+    "parent": "I20355:74874;32:2798",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74874;32:2798;1430:18859;1133:31553",
+    "parent": "I20355:74874;32:2798;1430:18859",
+    "type": "TEXT",
+    "name": "number-small",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2799",
+    "parent": "I20355:74874;32:2797",
+    "type": "INSTANCE",
+    "name": "Button Icon",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2799;1430:18858",
+    "parent": "I20355:74874;32:2799",
+    "type": "INSTANCE",
+    "name": "Microphone",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2799;1430:18858;8899:16696",
+    "parent": "I20355:74874;32:2799;1430:18858",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2799;1430:18859",
+    "parent": "I20355:74874;32:2799",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74874;32:2799;1430:18859;1133:31553",
+    "parent": "I20355:74874;32:2799;1430:18859",
+    "type": "TEXT",
+    "name": "number-small",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2800",
+    "parent": "I20355:74874;32:2797",
+    "type": "INSTANCE",
+    "name": "Button Icon",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2800;1430:18903",
+    "parent": "I20355:74874;32:2800",
+    "type": "INSTANCE",
+    "name": "PaperPlaneTilt",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2800;1430:18903;8899:6269",
+    "parent": "I20355:74874;32:2800;1430:18903",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74874;32:2800;1430:18904",
+    "parent": "I20355:74874;32:2800",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74874;32:2800;1430:18904;1133:31553",
+    "parent": "I20355:74874;32:2800;1430:18904",
+    "type": "TEXT",
+    "name": "number-small",
+    "visible": true
+  },
+  {
+    "id": "20355:74875",
+    "parent": "20355:74873",
+    "type": "FRAME",
+    "name": "suggestions",
+    "visible": true
+  },
+  {
+    "id": "20355:74876",
+    "parent": "20355:74875",
+    "type": "INSTANCE",
+    "name": "Chips",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:158",
+    "parent": "20355:74876",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74876;7339:159",
+    "parent": "20355:74876",
+    "type": "INSTANCE",
+    "name": "Atom | Isologo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4753",
+    "parent": "I20355:74876;7339:159",
+    "type": "FRAME",
+    "name": "beniStandBy",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4754",
+    "parent": "I20355:74876;7339:159;217:4753",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4755",
+    "parent": "I20355:74876;7339:159;217:4753",
+    "type": "GROUP",
+    "name": "ojos",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4756",
+    "parent": "I20355:74876;7339:159;217:4755",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4757",
+    "parent": "I20355:74876;7339:159;217:4755",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:159;217:4758",
+    "parent": "I20355:74876;7339:159;217:4753",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:160",
+    "parent": "20355:74876",
+    "type": "TEXT",
+    "name": "Default",
+    "visible": true
+  },
+  {
+    "id": "I20355:74876;7339:161",
+    "parent": "20355:74876",
+    "type": "INSTANCE",
+    "name": "PlusCircle",
+    "visible": false
+  },
+  {
+    "id": "I20355:74876;7339:161;8899:53829",
+    "parent": "I20355:74876;7339:161",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "20355:74877",
+    "parent": "20355:74875",
+    "type": "INSTANCE",
+    "name": "Chips",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:158",
+    "parent": "20355:74877",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74877;7339:159",
+    "parent": "20355:74877",
+    "type": "INSTANCE",
+    "name": "Atom | Isologo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4753",
+    "parent": "I20355:74877;7339:159",
+    "type": "FRAME",
+    "name": "beniStandBy",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4754",
+    "parent": "I20355:74877;7339:159;217:4753",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4755",
+    "parent": "I20355:74877;7339:159;217:4753",
+    "type": "GROUP",
+    "name": "ojos",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4756",
+    "parent": "I20355:74877;7339:159;217:4755",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4757",
+    "parent": "I20355:74877;7339:159;217:4755",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:159;217:4758",
+    "parent": "I20355:74877;7339:159;217:4753",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:160",
+    "parent": "20355:74877",
+    "type": "TEXT",
+    "name": "Default",
+    "visible": true
+  },
+  {
+    "id": "I20355:74877;7339:161",
+    "parent": "20355:74877",
+    "type": "INSTANCE",
+    "name": "PlusCircle",
+    "visible": false
+  },
+  {
+    "id": "I20355:74877;7339:161;8899:53829",
+    "parent": "I20355:74877;7339:161",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "20355:74878",
+    "parent": "20355:74875",
+    "type": "INSTANCE",
+    "name": "Chips",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:158",
+    "parent": "20355:74878",
+    "type": "INSTANCE",
+    "name": "dot",
+    "visible": false
+  },
+  {
+    "id": "I20355:74878;7339:159",
+    "parent": "20355:74878",
+    "type": "INSTANCE",
+    "name": "Atom | Isologo",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:159;217:4799",
+    "parent": "I20355:74878;7339:159",
+    "type": "FRAME",
+    "name": "personaje 1",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:159;217:4800",
+    "parent": "I20355:74878;7339:159;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:159;217:4801",
+    "parent": "I20355:74878;7339:159;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:159;217:4802",
+    "parent": "I20355:74878;7339:159;217:4799",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:160",
+    "parent": "20355:74878",
+    "type": "TEXT",
+    "name": "Default",
+    "visible": true
+  },
+  {
+    "id": "I20355:74878;7339:161",
+    "parent": "20355:74878",
+    "type": "INSTANCE",
+    "name": "PlusCircle",
+    "visible": false
+  },
+  {
+    "id": "I20355:74878;7339:161;8899:53829",
+    "parent": "I20355:74878;7339:161",
+    "type": "VECTOR",
+    "name": "Vector",
+    "visible": true
+  }
+]

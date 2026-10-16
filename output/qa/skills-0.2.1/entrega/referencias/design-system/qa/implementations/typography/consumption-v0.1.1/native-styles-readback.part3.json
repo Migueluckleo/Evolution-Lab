@@ -1,0 +1,870 @@
+{
+  "capturedAt": "2026-10-15T22:38:08.722Z",
+  "part": 3,
+  "styles": [
+    {
+      "id": "S:4af9d14479d9fc86c34be626510c5e0ae9a1a55e,",
+      "key": "4af9d14479d9fc86c34be626510c5e0ae9a1a55e",
+      "name": "UI/Conversation/Preview Title",
+      "description": "Título Preview Conversation 16 Bold/24; mantiene el bloque multilínea de la tarjeta sin modificar su ancho. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:10"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:8b81787ac3bffd1aa7be527a254057ae95425c48,",
+      "key": "8b81787ac3bffd1aa7be527a254057ae95425c48",
+      "name": "UI/Chart/Header Title",
+      "description": "Título Chart Header 20 Regular/20 dentro del encabezado 48 px. No aplicar Subheading 20 Bold/SemiBold ni línea 30 px a esta composición. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:7ee25c27adbe7ffc6638ff7c7dd8a31604dd916e,",
+      "key": "7ee25c27adbe7ffc6638ff7c7dd8a31604dd916e",
+      "name": "UI/Metric/Value Small",
+      "description": "Valor Horizontal Small y título One Metric V 1 Small 20 Regular/24. Preserva 20 px en lugar de forzar 24 px o pesoSemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:4f627d060dffc9ff20afafa2c8a3adc468a669f6,",
+      "key": "4f627d060dffc9ff20afafa2c8a3adc468a669f6",
+      "name": "UI/Chat/Subtitle",
+      "description": "Subtítulo Chat 20 Regular/28 de Standby/Active. La base 20 solo define pesosBold/SemiBold; esta receta conserva el rol Regular contractual. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:10"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:36d346b8b1c5766a8dfd3498701a7bb92f8e8539,",
+      "key": "36d346b8b1c5766a8dfd3498701a7bb92f8e8539",
+      "name": "UI/Empty/Main Title",
+      "description": "Título Empty states Main 20 Medium/24, homologación explícita desde la fuente. No reemplazar Medium por SemiBold del catálogo base. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:4"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:a0f7221565c8cc96bccb8a2b372d77b8ea0496e9,",
+      "key": "a0f7221565c8cc96bccb8a2b372d77b8ea0496e9",
+      "name": "UI/Avatar/Initials Extra Large",
+      "description": "Iniciales Avatar Extra Large 20 SemiBold/AUTO y sus instancias de Header/App Shell. Preservar centrado de cara 48 px y altura natural 27 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:11"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:4fcb7ef573ac207fefc21187e997b183f2ef5254,",
+      "key": "4fcb7ef573ac207fefc21187e997b183f2ef5254",
+      "name": "UI/Metric/Value Medium",
+      "description": "Títulos y valores Metric 24 Regular/24. Mantener los roles de cifra y título existentes; el catálogo base 24 solo ofrece Bold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:2"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:e131a51074bfff0c80f1c3f2f164e74a77b77ca0,",
+      "key": "e131a51074bfff0c80f1c3f2f164e74a77b77ca0",
+      "name": "UI/Empty/Title",
+      "description": "Título Empty states Default/Compact/Inline 24 Bold/24. Mantener la composición; Heading 5 tiene distinta altura y tracking. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:2"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:cb4052453d42d5ce9ce98f08640582004d80f602,",
+      "key": "cb4052453d42d5ce9ce98f08640582004d80f602",
+      "name": "UI/Modal/Title",
+      "description": "Título Modal 24 Bold/32 y trackingnormal. Conserva la normalización contractual desde 30 px de fuente; Heading 5 difiere en tracking y línea 31.92 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:2"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:11"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:6b6f46b06614549192796235a2c8ac9ad2edc697,",
+      "key": "6b6f46b06614549192796235a2c8ac9ad2edc697",
+      "name": "UI/Metric/Value Large",
+      "description": "Valor grande Metric 32 Regular/32. No convertir al pesoMedium/Bold del catálogo base; preservar caja fija del importe. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:3"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:11"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:d9b5d1dba7f2299ca9f25120b49032699343f365,",
+      "key": "d9b5d1dba7f2299ca9f25120b49032699343f365",
+      "name": "UI/Chart/Gauge Value",
+      "description": "Porcentaje central de Gauge 32 SemiBold/24 en caja fija 105×66. Receta acotada a Gauge; no usarla como heading ni como escala general de 32 px. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:3"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:9"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:711fbb388c69ce8d554ef531ebd946cae14a0080,",
+      "key": "711fbb388c69ce8d554ef531ebd946cae14a0080",
+      "name": "UI/Chat/Title",
+      "description": "Saludo y nombre de usuario Chat 32 Bold/40 y trackingnormal. Preserva la composición contractual; Heading 4 usa 42.56 px y −2%. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:3"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:12"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:b26c73d6d7eed2bde7c20d7a413f9673856b0750,",
+      "key": "b26c73d6d7eed2bde7c20d7a413f9673856b0750",
+      "name": "UI/Select/Checkbox label Small (2-3)",
+      "description": "Etiquetas ocultas de Checkbox dentro de Select Small y sus muestras existentes, escaladas a dos tercios. Conserva el tamaño y la línea efectivos de esta composición; no es un nuevo tamaño de Checkbox ni un escalón general. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 9.333333969116211,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13.333333969116211
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:2974d901ccb47912070340154abb5290d567f8ac,",
+      "key": "2974d901ccb47912070340154abb5290d567f8ac",
+      "name": "UI/Select/Checkbox label Medium (5-6)",
+      "description": "Etiquetas ocultas de Checkbox dentro de Select Medium y sus muestras existentes, escaladas a cinco sextos. Conserva las métricas efectivas sin cambiar la composición ni el principal Checkbox. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 11.666666030883789,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16.66666603088379
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:e75aa6696d432604030921b38e788b6ac794f660,",
+      "key": "e75aa6696d432604030921b38e788b6ac794f660",
+      "name": "Micro/Count/Small in Header (4-3)",
+      "description": "Count Small oculto de Icon Button en Header, App Shell y sus muestras existentes, escalado a cuatro tercios. Excepción diminuta conservada; no comunicar un conteo indispensable sin alternativa accesible ni generalizarla a otros textos. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 5.333333492279053,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "boundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "textDecoration": "NONE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:2624a7e4d78200617e44ac4360c72ed90514f244,",
+      "key": "2624a7e4d78200617e44ac4360c72ed90514f244",
+      "name": "UI/Action/Label Medium/Underline",
+      "description": "Etiqueta subrayada de Button Link Middle/Large: conserva los diez rangos censados y sus instancias, con las métricas y bindings de ui-action-label-medium. El subrayado pertenece al TextStyle para preservar su vínculo y la API editable del componente; no aplicar otra decoración después de vincularlo ni generalizar este complemento a otros textos.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0.10000000149011612
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:10"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "textDecoration": "UNDERLINE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:c581c0973863bad4da806638b252d447e0a58ef5,",
+      "key": "c581c0973863bad4da806638b252d447e0a58ef5",
+      "name": "UI/Action/Label Small/Underline",
+      "description": "Etiqueta subrayada de Button Link Small: conserva los cinco rangos censados y sus instancias, con las métricas y bindings de ui-action-label-small. El subrayado pertenece al TextStyle para preservar su vínculo y la API editable del componente; no aplicar otra decoración después de vincularlo ni generalizar este complemento a otros textos.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0.10000000149011612
+      },
+      "boundVariables": {
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "textDecoration": "UNDERLINE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:872b2d6d8242f9b571eb16c75b9535809600ac73,",
+      "key": "872b2d6d8242f9b571eb16c75b9535809600ac73",
+      "name": "UI/Action/Label Normal/Underline",
+      "description": "Acción Link subrayada dentro de Empty states: conserva sus ocho rangos censados, incluidas muestras anidadas, con tracking normal y las métricas y bindings de ui-action-label-normal. Excepción de esa composición; no propagar la receta al principal Button ni a los nombres de plan Chat. El subrayado se consume desde el TextStyle.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:10"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "textDecoration": "UNDERLINE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    },
+    {
+      "id": "S:84b3287900a860c9096c09ccc9c405e2bfbc7207,",
+      "key": "84b3287900a860c9096c09ccc9c405e2bfbc7207",
+      "name": "UI/Upload/Action and feedback/Underline",
+      "description": "Acción subrayada de File Upload: conserva sus cuatro rangos censados y sus instancias con las métricas y bindings de ui-upload-action-feedback. Los mensajes success/error continúan sin subrayado. El subrayado se consume desde el TextStyle para mantener la receta vinculada sin setters de formato posteriores.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:5"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "textDecoration": "UNDERLINE",
+      "textCase": "ORIGINAL",
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0
+    }
+  ],
+  "issues": []
+}

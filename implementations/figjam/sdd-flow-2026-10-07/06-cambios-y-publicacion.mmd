@@ -1,0 +1,28 @@
+flowchart TB
+event(["Hallazgo o cambio autorizado"]) --> impact["Identificar requisitos y consumidores"]
+impact --> stale["Marcar QA afectado STALE"]
+stale --> published{"Contrato ya en specs"}
+published -->|"Sí"| amendment["Versionar en specs"]
+published -->|"No"| draft["Revisar candidato en drafts"]
+amendment --> replaces["Declarar sustitución exacta"]
+draft --> replaces
+replaces --> qa["Revalidar documentación afectada"]
+qa --> affects{"Cambio afecta implementación"}
+affects -->|"Sí"| update["Sincronizar datos y Figma"]
+update --> read["Readback y QA afectados"]
+affects -->|"No"| consistent["Verificar coherencia documental"]
+read --> pass{"QA vigente PASS"}
+consistent --> pass
+pass -->|"No"| unresolved["Conservar pendiente acotado"]
+pass -->|"Sí"| promote["Promover alcance cerrado a specs"]
+promote --> human["Delegado: auditoría humana PENDING"]
+human --> exceptions["Consolidar solo excepciones"]
+exceptions --> ledger["Actualizar registros y continuidad"]
+ledger --> graphState["Declarar vigencia de Graphify"]
+graphState --> library(["Publicación Figma: paso separado"])
+style stale fill:#FFE0C2,stroke:#FF9E42
+style pass fill:#FFECBD,stroke:#FFC943
+style unresolved fill:#FFCDC2,stroke:#FF7556
+style promote fill:#CDF4D3,stroke:#66D575
+style human fill:#DCCCFF,stroke:#874FFF
+

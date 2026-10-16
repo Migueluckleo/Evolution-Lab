@@ -1,0 +1,1086 @@
+{
+  "nodes": [
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "label": "AppShell · consumo tipográfico · enmienda 0.1.0",
+      "file_type": "document",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "contract_id": "APP-SHELL-TYPOGRAPHY-001",
+      "amends": "APP-SHELL-001",
+      "amends_version": "0.1.0",
+      "status": "DELEGATED_FOR_BUILD",
+      "user_audit": "PENDING",
+      "implementation_validation": "REQUIRES_FINAL_READBACK",
+      "applicability": "REQUIRED",
+      "slot_applicability": "NOT_APPLICABLE",
+      "coverage": {
+        "ui_nodes": 12,
+        "ranges": 12,
+        "logical_styles": 7
+      },
+      "scope": "Only typography identity per exact consumer and variant; preserve other contract rules.",
+      "rationale": "Explicit task delegation documents applicability and shared style identities without conferring human approval or consumer implementation validation."
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_header_release",
+      "label": "AppShell consumes ui-header-release",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-header-release",
+      "observed_text_style_id": "S:3ac23c3c2c0fdc91c7989bbe8caedd1333297e34,",
+      "required_ranges": 2,
+      "exact_selectors": [
+        {
+          "consumer": "`Alpha Text` · Instancia/Slot en App Shell; referencia Header",
+          "variants": "V001",
+          "real_style_id": "S:3ac23c3c2c0fdc91c7989bbe8caedd1333297e34,",
+          "ranges": 1,
+          "locator": "`N3147`; `I737:305;522:402@[0,8)`",
+          "line": 48
+        },
+        {
+          "consumer": "`Version Number` · Instancia/Slot en App Shell; referencia Header",
+          "variants": "V001",
+          "real_style_id": "S:3ac23c3c2c0fdc91c7989bbe8caedd1333297e34,",
+          "ranges": 1,
+          "locator": "`N3146`; `I737:305;522:400@[0,5)`",
+          "line": 54
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "label": "AppShell consumes ui-caption-compact",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-caption-compact",
+      "observed_text_style_id": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`CAC840428RH1` · Instancia/Slot en App Shell; referencia Header",
+          "variants": "V001",
+          "real_style_id": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+          "ranges": 1,
+          "locator": "`N3155`; `I737:305;522:418@[0,12)`",
+          "line": 49
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "label": "AppShell consumes micro-count-medium",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "micro-count-medium",
+      "observed_text_style_id": "S:f0c0dc4cd43b6d27d1c05ad262a09b29dd415bf1,",
+      "required_ranges": 5,
+      "exact_selectors": [
+        {
+          "consumer": "`Count label` · Instancia/Slot en App Shell; referencia Dot",
+          "variants": "V001",
+          "real_style_id": "S:f0c0dc4cd43b6d27d1c05ad262a09b29dd415bf1,",
+          "ranges": 5,
+          "locator": "`N3148–N3152`; `I737:305;522:431;183:169;155:135@[0,1)`",
+          "line": 50
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small",
+      "label": "AppShell consumes micro-count-small",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L51",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "micro-count-small",
+      "observed_text_style_id": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Count label` · Instancia/Slot en App Shell; referencia Dot",
+          "variants": "V001",
+          "real_style_id": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+          "ranges": 1,
+          "locator": "`N3157`; `I737:412;3425:3674;183:164;155:137@[0,1)`",
+          "line": 51
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small_scaled_four_thirds",
+      "label": "AppShell consumes micro-count-small-scaled-four-thirds",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L52",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "micro-count-small-scaled-four-thirds",
+      "observed_text_style_id": "S:e75aa6696d432604030921b38e788b6ac794f660,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Count label` · Instancia/Slot en App Shell; referencia Dot",
+          "variants": "V001",
+          "real_style_id": "S:e75aa6696d432604030921b38e788b6ac794f660,",
+          "ranges": 1,
+          "locator": "`N3153`; `I737:305;522:408;183:164;155:137@[0,1)`",
+          "line": 52
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "label": "AppShell consumes ui-avatar-initials-extra-large",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-avatar-initials-extra-large",
+      "observed_text_style_id": "S:a0f7221565c8cc96bccb8a2b372d77b8ea0496e9,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Initials` · Instancia/Slot en App Shell; referencia Avatar",
+          "variants": "V001",
+          "real_style_id": "S:a0f7221565c8cc96bccb8a2b372d77b8ea0496e9,",
+          "ranges": 1,
+          "locator": "`N3156`; `I737:305;522:424;165:233@[0,2)`",
+          "line": 53
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_action_text_small",
+      "label": "AppShell consumes ui-action-text-small",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-action-text-small",
+      "observed_text_style_id": "S:209d8601d6cf28513f7df8d0f3a53665dde66d3d,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`text-empresa-sa` · Instancia/Slot en App Shell; referencia Header",
+          "variants": "V001",
+          "real_style_id": "S:209d8601d6cf28513f7df8d0f3a53665dde66d3d,",
+          "ranges": 1,
+          "locator": "`N3154`; `I737:305;522:417@[0,16)`",
+          "line": 55
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "label": "TYP-FAM-01–05: AppShell final range coverage and isolation",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L73",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "An immediate setter result or a catalogue/web PASS cannot prove every nested or hidden consumer after propagation.",
+      "criteria": [
+        "complete hidden/nested/sample coverage",
+        "final actual TextStyle ID and canonical recipe",
+        "preserve geometry, property API, bindings, variants and Slots",
+        "reread shared-property/dependency consumers",
+        "separate documentary, Figma, web, preservation and skill-release results"
+      ],
+      "approval": "NOT_CONFERRED",
+      "implementation_validation": "REQUIRES_FINAL_READBACK"
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "label": "Avatar · consumo tipográfico · enmienda 0.1.0",
+      "file_type": "document",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "contract_id": "AVATAR-TYPOGRAPHY-001",
+      "amends": "AVATAR-001",
+      "amends_version": "0.1.0",
+      "status": "DELEGATED_FOR_BUILD",
+      "user_audit": "PENDING",
+      "implementation_validation": "REQUIRES_FINAL_READBACK",
+      "applicability": "REQUIRED",
+      "slot_applicability": "NOT_APPLICABLE",
+      "coverage": {
+        "ui_nodes": 4,
+        "ranges": 4,
+        "logical_styles": 4
+      },
+      "scope": "Only typography identity per exact consumer and variant; preserve other contract rules.",
+      "rationale": "Explicit task delegation documents applicability and shared style identities without conferring human approval or consumer implementation validation."
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "label": "Avatar consumes ui-avatar-initials-extra-large",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-avatar-initials-extra-large",
+      "observed_text_style_id": "S:a0f7221565c8cc96bccb8a2b372d77b8ea0496e9,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Initials` · Propio en Avatar",
+          "variants": "V001",
+          "real_style_id": "S:a0f7221565c8cc96bccb8a2b372d77b8ea0496e9,",
+          "ranges": 1,
+          "locator": "`N140`; `165:233@[0,2)`",
+          "line": 47
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_medium",
+      "label": "Avatar consumes ui-avatar-initials-medium",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-avatar-initials-medium",
+      "observed_text_style_id": "S:72741e0e8d689813d6b1f38dc6dd6ca9a929e042,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Initials` · Propio en Avatar",
+          "variants": "V003",
+          "real_style_id": "S:72741e0e8d689813d6b1f38dc6dd6ca9a929e042,",
+          "ranges": 1,
+          "locator": "`N142`; `165:241@[0,2)`",
+          "line": 48
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_small",
+      "label": "Avatar consumes ui-avatar-initials-small",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-avatar-initials-small",
+      "observed_text_style_id": "S:923b2071640d3ab6796cecc38e9eb53741c8e131,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Initials` · Propio en Avatar",
+          "variants": "V004",
+          "real_style_id": "S:923b2071640d3ab6796cecc38e9eb53741c8e131,",
+          "ranges": 1,
+          "locator": "`N143`; `165:245@[0,2)`",
+          "line": 49
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_navigation_emphasis_auto",
+      "label": "Avatar consumes ui-navigation-emphasis-auto",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-navigation-emphasis-auto",
+      "observed_text_style_id": "S:cb57ef141d48f08f57ac520929ff687dfce22cef,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Initials` · Propio en Avatar",
+          "variants": "V002",
+          "real_style_id": "S:cb57ef141d48f08f57ac520929ff687dfce22cef,",
+          "ranges": 1,
+          "locator": "`N141`; `165:237@[0,2)`",
+          "line": 50
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "label": "TYP-FAM-01–05: Avatar final range coverage and isolation",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L69",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "An immediate setter result or a catalogue/web PASS cannot prove every nested or hidden consumer after propagation.",
+      "criteria": [
+        "complete hidden/nested/sample coverage",
+        "final actual TextStyle ID and canonical recipe",
+        "preserve geometry, property API, bindings, variants and Slots",
+        "reread shared-property/dependency consumers",
+        "separate documentary, Figma, web, preservation and skill-release results"
+      ],
+      "approval": "NOT_CONFERRED",
+      "implementation_validation": "REQUIRES_FINAL_READBACK"
+    },
+    {
+      "id": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "label": "Badge · consumo tipográfico · enmienda 0.1.0",
+      "file_type": "document",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "contract_id": "BADGE-TYPOGRAPHY-001",
+      "amends": "BADGE-001",
+      "amends_version": "0.1.0",
+      "status": "DELEGATED_FOR_BUILD",
+      "user_audit": "PENDING",
+      "implementation_validation": "REQUIRES_FINAL_READBACK",
+      "applicability": "REQUIRED",
+      "slot_applicability": "NOT_APPLICABLE",
+      "coverage": {
+        "ui_nodes": 6,
+        "ranges": 6,
+        "logical_styles": 1
+      },
+      "scope": "Only typography identity per exact consumer and variant; preserve other contract rules.",
+      "rationale": "Explicit task delegation documents applicability and shared style identities without conferring human approval or consumer implementation validation."
+    },
+    {
+      "id": "specs_components_badge_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "label": "Badge consumes ui-caption-compact",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L45",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-caption-compact",
+      "observed_text_style_id": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+      "required_ranges": 6,
+      "exact_selectors": [
+        {
+          "consumer": "`Label text` · Propio en Badge",
+          "variants": "V001, V002, V003, V004, V005, V006",
+          "real_style_id": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+          "ranges": 6,
+          "locator": "`N3493–N3498`; `97:173@[0,5)`",
+          "line": 45
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_badge_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "label": "TYP-FAM-01–05: Badge final range coverage and isolation",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L66",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "An immediate setter result or a catalogue/web PASS cannot prove every nested or hidden consumer after propagation.",
+      "criteria": [
+        "complete hidden/nested/sample coverage",
+        "final actual TextStyle ID and canonical recipe",
+        "preserve geometry, property API, bindings, variants and Slots",
+        "reread shared-property/dependency consumers",
+        "separate documentary, Figma, web, preservation and skill-release results"
+      ],
+      "approval": "NOT_CONFERRED",
+      "implementation_validation": "REQUIRES_FINAL_READBACK"
+    },
+    {
+      "id": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "label": "Breadcrumbs · consumo tipográfico · enmienda 0.1.0",
+      "file_type": "document",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "contract_id": "BREADCRUMBS-TYPOGRAPHY-001",
+      "amends": "BREADCRUMBS-001",
+      "amends_version": "0.1.0",
+      "status": "DELEGATED_FOR_BUILD",
+      "user_audit": "PENDING",
+      "implementation_validation": "REQUIRES_FINAL_READBACK",
+      "applicability": "REQUIRED",
+      "slot_applicability": "NOT_APPLICABLE",
+      "coverage": {
+        "ui_nodes": 36,
+        "ranges": 36,
+        "logical_styles": 2
+      },
+      "scope": "Only typography identity per exact consumer and variant; preserve other contract rules.",
+      "rationale": "Explicit task delegation documents applicability and shared style identities without conferring human approval or consumer implementation validation."
+    },
+    {
+      "id": "specs_components_breadcrumbs_typography_amendment_v0_1_0_consumer_ui_breadcrumb_label",
+      "label": "Breadcrumbs consumes ui-breadcrumb-label",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L45",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-breadcrumb-label",
+      "observed_text_style_id": "S:9928067b905677b74dce13ead46768c96bf25759,",
+      "required_ranges": 35,
+      "exact_selectors": [
+        {
+          "consumer": "`Label` · Propio en Breadcrumb item",
+          "variants": "V001, V003, V004, V005",
+          "real_style_id": "S:9928067b905677b74dce13ead46768c96bf25759,",
+          "ranges": 4,
+          "locator": "`N190, N192–N194`; `190:190@[0,10)`",
+          "line": 45
+        },
+        {
+          "consumer": "`Label` · Instancia/Slot en Breadcrumbs; referencia Breadcrumb item",
+          "variants": "V006, V007, V008, V009",
+          "real_style_id": "S:9928067b905677b74dce13ead46768c96bf25759,",
+          "ranges": 14,
+          "locator": "`N196–N209`; `I191:169;190:190@[0,10)`",
+          "line": 47
+        },
+        {
+          "consumer": "`Label` · Instancia/Slot en muestras de revisión; referencia Breadcrumb item",
+          "variants": "E001, E002, E003, E004",
+          "real_style_id": "S:9928067b905677b74dce13ead46768c96bf25759,",
+          "ranges": 17,
+          "locator": "`N211–N227`; `I470:165;191:210;470:188;190:207@[0,10)`",
+          "line": 48
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_breadcrumbs_typography_amendment_v0_1_0_consumer_ui_breadcrumb_shortened",
+      "label": "Breadcrumbs consumes ui-breadcrumb-shortened",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "style_logical_id": "ui-breadcrumb-shortened",
+      "observed_text_style_id": "S:24fbb8810c94016707424e70299122b4f44155f7,",
+      "required_ranges": 1,
+      "exact_selectors": [
+        {
+          "consumer": "`Shortened label` · Propio en Breadcrumb item",
+          "variants": "V002",
+          "real_style_id": "S:24fbb8810c94016707424e70299122b4f44155f7,",
+          "ranges": 1,
+          "locator": "`N191`; `190:199@[0,3)`",
+          "line": 46
+        }
+      ],
+      "provenance": "EXPLICIT_CONTRACT_IDENTITY",
+      "consumer_validation": "REQUIRES_FINAL_READBACK",
+      "catalogue_ref": "specs/tokens/ai-design-system.typography.v0.1.1.json",
+      "mapping_ref": "implementations/figma/typography.v0.1.1.mapping.json"
+    },
+    {
+      "id": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "label": "TYP-FAM-01–05: Breadcrumbs final range coverage and isolation",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L76",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "An immediate setter result or a catalogue/web PASS cannot prove every nested or hidden consumer after propagation.",
+      "criteria": [
+        "complete hidden/nested/sample coverage",
+        "final actual TextStyle ID and canonical recipe",
+        "preserve geometry, property API, bindings, variants and Slots",
+        "reread shared-property/dependency consumers",
+        "separate documentary, Figma, web, preservation and skill-release results"
+      ],
+      "approval": "NOT_CONFERRED",
+      "implementation_validation": "REQUIRES_FINAL_READBACK"
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_textless_wrapper_nested_consumers",
+      "label": "AppShell: textless wrapper still requires Header and Sidebar typography",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Nested Header/Sidebar text makes consumption REQUIRED; empty Content does not impose the shell recipe on future inserted components."
+    },
+    {
+      "id": "specs_components_avatar_typography_amendment_v0_1_0_text_variant_only",
+      "label": "Avatar: initials only in Type=Text",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Image/Icon variants and artwork do not gain typography by analogy; shared style names do not change the initials role."
+    },
+    {
+      "id": "specs_components_app_shell_typography_amendment_v0_1_0_historical_scaled_link_block",
+      "label": "Historical0.1.1 scaled link readiness: app-shell",
+      "file_type": "rationale",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L40",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Logical recipe identity and matching metrics alone do not satisfy the historical explicit-link requirement; do not change scale/geometry to hide the block.",
+      "scope_version": "0.1.1",
+      "unresolved_ranges": 1,
+      "other_ranges": 11,
+      "action": "NO_WRITE_PENDING_SCALE_BINDING_RESOLUTION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_app_shell_contract_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "qa_implementations_typography_figma_blocker_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_header_release",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small_scaled_four_thirds",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_action_text_small",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "drafts_contracts_avatar_contract_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_source_color_amendment_v0_1_1_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "qa_implementations_typography_figma_blocker_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_medium",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_small",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_navigation_emphasis_auto",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_badge_contract_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_badge_source_color_amendment_v0_1_2_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "qa_implementations_typography_figma_blocker_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_badge_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_badge_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_badge_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/badge.typography.amendment.v0.1.0.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_breadcrumbs_contract_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_six_family_color_amendment_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_composition_slots_amendment_v0_1_0_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "qa_implementations_typography_figma_blocker_artifact_md",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_breadcrumbs_typography_amendment_v0_1_0_consumer_ui_breadcrumb_label",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_breadcrumbs_typography_amendment_v0_1_0_consumer_ui_breadcrumb_shortened",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_breadcrumbs_typography_amendment_v0_1_0_typ_fam_acceptance",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/breadcrumbs.typography.amendment.v0.1.0.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_textless_wrapper_nested_consumers",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_avatar_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_text_variant_only",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/avatar.typography.amendment.v0.1.0.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_typography_consumption_amendment",
+      "target": "specs_components_app_shell_typography_amendment_v0_1_0_historical_scaled_link_block",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "target": "specs_components_header_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small_scaled_four_thirds",
+      "target": "specs_components_header_typography_amendment_v0_1_0_consumer_micro_count_small_scaled_four_thirds",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_action_text_small",
+      "target": "specs_components_header_typography_amendment_v0_1_0_consumer_ui_action_text_small",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "target": "specs_components_header_typography_amendment_v0_1_0_consumer_ui_caption_compact",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_header_release",
+      "target": "specs_components_header_typography_amendment_v0_1_0_consumer_ui_header_release",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "target": "specs_components_avatar_typography_amendment_v0_1_0_consumer_ui_avatar_initials_extra_large",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "target": "specs_components_dot_typography_amendment_v0_1_0_consumer_micro_count_medium",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_consumer_micro_count_small",
+      "target": "specs_components_dot_typography_amendment_v0_1_0_consumer_micro_count_small",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_historical_scaled_link_block",
+      "target": "specs_components_dropdown_item_typography_amendment_v0_1_0_nested_checkbox_scale_scope",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": null,
+      "weight": 1.0,
+      "rationale": "Different nested families share the historical problem of separating materialized recipe identity from native composition scale."
+    },
+    {
+      "source": "specs_components_app_shell_typography_amendment_v0_1_0_textless_wrapper_nested_consumers",
+      "target": "specs_components_icon_button_typography_amendment_v0_1_0_hidden_count_applicability",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "source_location": null,
+      "weight": 1.0,
+      "rationale": "Both reject a false typography exclusion based on missing own visible action text, because nested consumers still require complete coverage."
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

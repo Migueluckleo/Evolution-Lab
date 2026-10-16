@@ -1,0 +1,88 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:06:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 17, inspected_nodes: 17, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote spacing library and version not exposed"]
+component:
+  id: "3086:992"
+  key: "b5deacd96d67b6a46805de3d5abc20cc2717a4ea"
+  name: labelCell
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "3091:2969", name: "Group 8", type: GROUP}
+  page: {id: "268:20756", name: "❖ Chart ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3086-992", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "3086:992"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 1507, y: 105}
+  dimensions: {width: 193, height: 92}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "3015:2309", name: "Font weight=Regular, Font Size=sm", type: COMPONENT, dimensions: [76, 16]}
+  - {id: "3086:993", name: "Font weight=Semi-bold, Font Size=sm", type: COMPONENT, dimensions: [76, 16]}
+  - {id: "3086:1001", name: "Font weight=Semi-bold, Font Size=lg", type: COMPONENT, dimensions: [76, 16]}
+  - {id: "3086:1013", name: "Font weight=Regular, Font Size=lg", type: COMPONENT, dimensions: [76, 16]}
+anatomy: {functional_tree: ["labelCell → Dot frame → gray Shape", "labelCell → Text"], graphical_details_omitted: []}
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 5, local: 4, remote: 1, unknown_locality: 0, resolved: 5, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:562:10", name: "spacing/xs", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 12, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", locality: REMOTE, scopes: ["WIDTH_HEIGHT", "GAP"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:3", name: "radius/sm", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 32, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196116", name: "color/text/primary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160892", name: "font/size/xs", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties:
+  definitions: [{name: Text, type: TEXT, default: "000"}, {name: spotVisible, type: BOOLEAN, default: true}, {name: "Font weight", type: VARIANT, default: Regular, options: [Regular, Semi-bold]}, {name: "Font Size", type: VARIANT, default: sm, options: [sm, lg]}]
+  observed: ["Regular/sm", "Semi-bold/sm", "Semi-bold/lg", "Regular/lg"]
+  available: ["Text", "spotVisible", "Font weight", "Font Size"]
+  unknown: ["meaning of swatch color"]
+variants:
+  observed_combinations: ["Regular/sm", "Semi-bold/sm", "Semi-bold/lg", "Regular/lg"]
+  available_values: ["Font weight: Regular/Semi-bold", "Font Size: sm/lg"]
+  unknown: []
+states: {observed: [], available: [], unknown: ["interactive states not defined"]}
+layout:
+  node: {node: {id: "3086:992", name: labelCell, type: COMPONENT_SET}, dimensions: {width: 193, height: 92}, layout_mode: NONE, evidence_refs: [E001]}
+  children:
+    - {node: {id: "3015:2309", name: "Font weight=Regular, Font Size=sm", type: COMPONENT}, dimensions: {width: 76, height: 16}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "3086:993", name: "Font weight=Semi-bold, Font Size=sm", type: COMPONENT}, dimensions: {width: 76, height: 16}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "3086:1001", name: "Font weight=Semi-bold, Font Size=lg", type: COMPONENT}, dimensions: {width: 76, height: 16}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 4}, evidence_refs: [E002]}
+    - {node: {id: "3086:1013", name: "Font weight=Regular, Font Size=lg", type: COMPONENT}, dimensions: {width: 76, height: 16}, layout_mode: HORIZONTAL, spacing: {gap: 4}, padding: {top: 0, right: 4, bottom: 0, left: 4}, evidence_refs: [E002]}
+  relationships: []
+visual:
+  node: {node: {id: "3086:992", name: labelCell, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["four #D9D9D9 unbound swatch fills", "four color/text/primary text fills"]
+  icons: []
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "3015:2308", name: Text}, variant_id: "3015:2309", characters: "000", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", letter_spacing: "0%", font_size_binding: font/size/xs, evidence_refs: [E003]}
+    - {node: {id: "3086:996", name: Text}, variant_id: "3086:993", characters: "000", font_family: Manrope, font_style: SemiBold, font_size: 12, line_height: "16px", letter_spacing: "0%", font_size_binding: font/size/xs, evidence_refs: [E003]}
+    - {node: {id: "3086:1004", name: Text}, variant_id: "3086:1001", characters: "000", font_family: Manrope, font_style: SemiBold, font_size: 16, line_height: "16px", letter_spacing: "0%", font_size_binding: null, evidence_refs: [E003]}
+    - {node: {id: "3086:1016", name: Text}, variant_id: "3086:1013", characters: "000", font_family: Manrope, font_style: Regular, font_size: 16, line_height: "16px", letter_spacing: "0%", font_size_binding: null, evidence_refs: [E003]}
+tokens:
+  summary: {total: 5, local: 4, remote: 1}
+  categories: {color: ["color/text/primary"], typography: ["font/size/xs"], spacing: ["spacing/xs", "Spacing/Small/spacing-sm-0"], radius: ["radius/sm"]}
+  source: variable_dependencies
+content: {example_content: {observed_strings: ["000"]}, component_rules: ["Text editable", "spotVisible controls Dot visibility"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible swatch and label"], undefined: ["legend semantics", "color meaning", "contrast"]}
+external_dependencies: [{kind: VARIABLE, id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}]
+unresolved: ["unbound gray swatch fill", "lg font-size 16 without binding", "meaning of series color"]
+implementation_notes: ["Build before dependent Header and Progress chart item", "Do not copy unbound literal or remote variable ID into destination"]
+evidence:
+  figma_direct: [{id: E001, source: "node:3086:992", value: "COMPONENT_SET 193x92"}, {id: E002, source: "variant traversal", value: "four 76x16 components, 17 nodes"}, {id: E003, source: "TEXT descendants", value: "four Manrope text nodes"}]
+  derived: [{id: D001, source: "component anatomy", value: "swatch plus editable label"}]
+  requires_definition: ["series color meaning and accessibility"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; remote variable library unavailable"}

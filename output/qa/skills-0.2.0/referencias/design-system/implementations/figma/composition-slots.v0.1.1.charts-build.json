@@ -1,0 +1,176 @@
+{
+  "createdNodeIds": [
+    "486:149",
+    "486:150",
+    "I486:150;210:130",
+    "I486:150;210:131",
+    "I486:150;210:132",
+    "486:151",
+    "I486:151;210:130",
+    "I486:151;210:131",
+    "I486:151;210:132",
+    "486:152",
+    "I486:152;210:130",
+    "I486:152;210:131",
+    "I486:152;210:132",
+    "486:162",
+    "486:163",
+    "I486:163;210:130",
+    "I486:163;210:131",
+    "I486:163;210:132",
+    "486:164",
+    "I486:164;210:130",
+    "I486:164;210:131",
+    "I486:164;210:132",
+    "486:165",
+    "I486:165;210:130",
+    "I486:165;210:131",
+    "I486:165;210:132"
+  ],
+  "mutatedNodeIds": [
+    "213:162",
+    "213:161",
+    "213:166",
+    "213:135",
+    "213:148",
+    "213:128",
+    "213:132",
+    "213:167",
+    "213:171",
+    "213:175",
+    "I213:136;210:132",
+    "213:136",
+    "I213:140;210:132",
+    "213:140",
+    "I213:144;210:132",
+    "213:144",
+    "I213:149;210:132",
+    "213:149",
+    "I213:153;210:132",
+    "213:153",
+    "I213:157;210:132",
+    "213:157"
+  ],
+  "headerSlot": {
+    "id": "213:166",
+    "key": "Legend#486:0"
+  },
+  "rows": [
+    {
+      "id": "213:135",
+      "key": "Legend row 1#486:1",
+      "hiddenId": "486:149"
+    },
+    {
+      "id": "213:148",
+      "key": "Legend row 2#486:4",
+      "hiddenId": "486:162"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "213:162",
+      "w": 638,
+      "h": 48
+    },
+    {
+      "id": "213:128",
+      "w": 639,
+      "h": 104
+    },
+    {
+      "id": "213:122",
+      "w": 639,
+      "h": 30
+    }
+  ],
+  "properties": {
+    "header": {
+      "Title#213:6": {
+        "type": "TEXT",
+        "defaultValue": "Title chart"
+      },
+      "Description#213:7": {
+        "type": "TEXT",
+        "defaultValue": "Description"
+      },
+      "Show legend#213:8": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Show description#213:9": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Legend#486:0": {
+        "type": "SLOT",
+        "description": "Series variables. Insertar, eliminar, reordenar o sustituir Chart Legend Label. Sin cálculo de datos.",
+        "slotSettings": {
+          "stretchChildOnInsert": false,
+          "displayEmptyByDefault": false,
+          "minChildren": null,
+          "maxChildren": null,
+          "allowPreferredValuesOnly": false
+        },
+        "preferredValues": [
+          {
+            "type": "COMPONENT_SET",
+            "key": "679a334f68bf5d792df0f0d83fb67f377d2d75d1"
+          }
+        ]
+      }
+    },
+    "progress": {
+      "Label#213:4": {
+        "type": "TEXT",
+        "defaultValue": "Text example"
+      },
+      "Value#213:5": {
+        "type": "TEXT",
+        "defaultValue": "$100k"
+      },
+      "Legend row 1#486:1": {
+        "type": "SLOT",
+        "description": "Serie de leyendas, cantidad de muestra 3; edición manual.",
+        "slotSettings": {
+          "stretchChildOnInsert": true,
+          "displayEmptyByDefault": false,
+          "minChildren": null,
+          "maxChildren": null,
+          "allowPreferredValuesOnly": false
+        },
+        "preferredValues": [
+          {
+            "type": "COMPONENT_SET",
+            "key": "679a334f68bf5d792df0f0d83fb67f377d2d75d1"
+          }
+        ]
+      },
+      "Legend row 2#486:4": {
+        "type": "SLOT",
+        "description": "Serie de leyendas, cantidad de muestra 3; edición manual.",
+        "slotSettings": {
+          "stretchChildOnInsert": true,
+          "displayEmptyByDefault": false,
+          "minChildren": null,
+          "maxChildren": null,
+          "allowPreferredValuesOnly": false
+        },
+        "preferredValues": [
+          {
+            "type": "COMPONENT_SET",
+            "key": "679a334f68bf5d792df0f0d83fb67f377d2d75d1"
+          }
+        ]
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Top",
+        "variantOptions": [
+          "Top",
+          "Detail"
+        ]
+      }
+    }
+  }
+}

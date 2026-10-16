@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "label": "Navigation Pagination: dos apariencias de navegación",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_grupo_rotulado_false",
+      "label": "Grupo rotulado false",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Controles oscuros y número 2 destacado en azul."
+    },
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_grupo_rotulado_true",
+      "label": "Grupo rotulado true",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Controles y números atenuados en gris; la captura no prueba interactividad."
+    },
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_secuencia_de_p_ginas",
+      "label": "Secuencia de páginas",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Se muestran 1, 2, 3, elipsis y 5."
+    },
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_flechas_de_navegaci_n",
+      "label": "Flechas de navegación",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Dobles y simples cheurones flanquean la secuencia."
+    },
+    {
+      "id": "qa_implementations_typography_web_navigation_pagination_selector_20_por_p_g",
+      "label": "Selector 20 por pág",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Lista compacta al extremo derecho con texto 20 por pág y cheurón inferior."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "target": "qa_implementations_typography_web_navigation_pagination_grupo_rotulado_false",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "target": "qa_implementations_typography_web_navigation_pagination_grupo_rotulado_true",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "target": "qa_implementations_typography_web_navigation_pagination_secuencia_de_p_ginas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "target": "qa_implementations_typography_web_navigation_pagination_flechas_de_navegaci_n",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_navigation_pagination_navigation_pagination__dos_apariencias_de_navegaci_n",
+      "target": "qa_implementations_typography_web_navigation_pagination_selector_20_por_p_g",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/navigation-pagination.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

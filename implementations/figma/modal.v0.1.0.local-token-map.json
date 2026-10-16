@@ -1,0 +1,2422 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:12:2",
+      "name": "font/size/xl",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Nivel destacado de la escala semántica de tamaño tipográfico. Úsalo cuando la jerarquía textual requiera una presencia claramente superior a los niveles de lectura habituales.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:7",
+          "primitive": {
+            "id": "VariableID:8:7",
+            "name": "font/size/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:7",
+          "primitive": {
+            "id": "VariableID:8:7",
+            "name": "font/size/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:7",
+          "primitive": {
+            "id": "VariableID:8:7",
+            "name": "font/size/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:7",
+          "primitive": {
+            "id": "VariableID:8:7",
+            "name": "font/size/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:16",
+      "name": "font/letter-spacing/normal",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "description": "Tracking semántico neutro. Úsalo cuando el texto deba conservar el espaciado entre caracteres de referencia sin expansión ni contracción adicional.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:21",
+          "primitive": {
+            "id": "VariableID:8:21",
+            "name": "font/letter-spacing/normal",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:21",
+          "primitive": {
+            "id": "VariableID:8:21",
+            "name": "font/letter-spacing/normal",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:21",
+          "primitive": {
+            "id": "VariableID:8:21",
+            "name": "font/letter-spacing/normal",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:21",
+          "primitive": {
+            "id": "VariableID:8:21",
+            "name": "font/letter-spacing/normal",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:33",
+          "primitive": {
+            "id": "VariableID:8:33",
+            "name": "spacing/0",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:33",
+          "primitive": {
+            "id": "VariableID:8:33",
+            "name": "spacing/0",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:33",
+          "primitive": {
+            "id": "VariableID:8:33",
+            "name": "spacing/0",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:33",
+          "primitive": {
+            "id": "VariableID:8:33",
+            "name": "spacing/0",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:29",
+      "name": "spacing/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel mínimo de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:34",
+          "primitive": {
+            "id": "VariableID:8:34",
+            "name": "spacing/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:34",
+          "primitive": {
+            "id": "VariableID:8:34",
+            "name": "spacing/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:34",
+          "primitive": {
+            "id": "VariableID:8:34",
+            "name": "spacing/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:34",
+          "primitive": {
+            "id": "VariableID:8:34",
+            "name": "spacing/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:33",
+      "name": "spacing/xl",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel ampliado de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:47",
+          "primitive": {
+            "id": "VariableID:8:47",
+            "name": "spacing/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:47",
+          "primitive": {
+            "id": "VariableID:8:47",
+            "name": "spacing/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:47",
+          "primitive": {
+            "id": "VariableID:8:47",
+            "name": "spacing/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:47",
+          "primitive": {
+            "id": "VariableID:8:47",
+            "name": "spacing/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:34",
+      "name": "spacing/2xl",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel grande de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:48",
+          "primitive": {
+            "id": "VariableID:8:48",
+            "name": "spacing/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:48",
+          "primitive": {
+            "id": "VariableID:8:48",
+            "name": "spacing/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:48",
+          "primitive": {
+            "id": "VariableID:8:48",
+            "name": "spacing/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:48",
+          "primitive": {
+            "id": "VariableID:8:48",
+            "name": "spacing/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Color neutral de mayor jerarquía para iconografía informativa o funcional. Úsalo cuando el ícono deba tener presencia principal sin comunicar una identidad de marca o un estado específico.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:101",
+          "primitive": {
+            "id": "VariableID:8:101",
+            "name": "color/neutral/900",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "type": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:7:2",
+          "primitive": {
+            "id": "VariableID:7:2",
+            "name": "font/family/manrope",
+            "type": "STRING",
+            "values": {
+              "6:4": "manrope"
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:7:2",
+          "primitive": {
+            "id": "VariableID:7:2",
+            "name": "font/family/manrope",
+            "type": "STRING",
+            "values": {
+              "6:4": "manrope"
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:7:2",
+          "primitive": {
+            "id": "VariableID:7:2",
+            "name": "font/family/manrope",
+            "type": "STRING",
+            "values": {
+              "6:4": "manrope"
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:7:2",
+          "primitive": {
+            "id": "VariableID:7:2",
+            "name": "font/family/manrope",
+            "type": "STRING",
+            "values": {
+              "6:4": "manrope"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:7:3",
+          "primitive": {
+            "id": "VariableID:7:3",
+            "name": "font/weight/regular",
+            "type": "STRING",
+            "values": {
+              "6:4": "regular"
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:7:3",
+          "primitive": {
+            "id": "VariableID:7:3",
+            "name": "font/weight/regular",
+            "type": "STRING",
+            "values": {
+              "6:4": "regular"
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:7:3",
+          "primitive": {
+            "id": "VariableID:7:3",
+            "name": "font/weight/regular",
+            "type": "STRING",
+            "values": {
+              "6:4": "regular"
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:7:3",
+          "primitive": {
+            "id": "VariableID:7:3",
+            "name": "font/weight/regular",
+            "type": "STRING",
+            "values": {
+              "6:4": "regular"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "font/weight/bold",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Peso tipográfico semántico de máximo énfasis dentro del conjunto actual. Úsalo cuando el contenido requiera la mayor presencia tipográfica definida por el sistema.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:7:6",
+          "primitive": {
+            "id": "VariableID:7:6",
+            "name": "font/weight/bold",
+            "type": "STRING",
+            "values": {
+              "6:4": "bold"
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:7:6",
+          "primitive": {
+            "id": "VariableID:7:6",
+            "name": "font/weight/bold",
+            "type": "STRING",
+            "values": {
+              "6:4": "bold"
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:7:6",
+          "primitive": {
+            "id": "VariableID:7:6",
+            "name": "font/weight/bold",
+            "type": "STRING",
+            "values": {
+              "6:4": "bold"
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:7:6",
+          "primitive": {
+            "id": "VariableID:7:6",
+            "name": "font/weight/bold",
+            "type": "STRING",
+            "values": {
+              "6:4": "bold"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:10",
+      "name": "font/size/md",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Nivel base de la escala semántica de tamaño tipográfico. Úsalo cuando no exista una necesidad explícita de reducir o aumentar la presencia del texto.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:5",
+          "primitive": {
+            "id": "VariableID:8:5",
+            "name": "font/size/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:5",
+          "primitive": {
+            "id": "VariableID:8:5",
+            "name": "font/size/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:5",
+          "primitive": {
+            "id": "VariableID:8:5",
+            "name": "font/size/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:5",
+          "primitive": {
+            "id": "VariableID:8:5",
+            "name": "font/size/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:9",
+      "name": "font/line-height/md",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Nivel base de interlineado semántico. Úsalo como referencia de separación vertical cuando no haya una necesidad específica de compactar o expandir el texto.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:14",
+          "primitive": {
+            "id": "VariableID:8:14",
+            "name": "font/line-height/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:14",
+          "primitive": {
+            "id": "VariableID:8:14",
+            "name": "font/line-height/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:14",
+          "primitive": {
+            "id": "VariableID:8:14",
+            "name": "font/line-height/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:14",
+          "primitive": {
+            "id": "VariableID:8:14",
+            "name": "font/line-height/24",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:11",
+      "name": "font/line-height/xl",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Nivel destacado de interlineado semántico. Úsalo cuando una jerarquía tipográfica mayor necesite una separación vertical más generosa.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:16",
+          "primitive": {
+            "id": "VariableID:8:16",
+            "name": "font/line-height/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:16",
+          "primitive": {
+            "id": "VariableID:8:16",
+            "name": "font/line-height/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:16",
+          "primitive": {
+            "id": "VariableID:8:16",
+            "name": "font/line-height/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:16",
+          "primitive": {
+            "id": "VariableID:8:16",
+            "name": "font/line-height/32",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:32",
+      "name": "color/text/brand",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto que adopta la identidad principal del modo activo. Úsalo cuando el contenido textual deba comunicar marca, selección o énfasis temático.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:87",
+          "primitive": {
+            "id": "VariableID:8:87",
+            "name": "color/blue/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:62",
+          "primitive": {
+            "id": "VariableID:8:62",
+            "name": "color/green/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.0117647061124444,
+                "g": 0.4470588266849518,
+                "b": 0.3333333432674408,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:71",
+          "primitive": {
+            "id": "VariableID:8:71",
+            "name": "color/orange/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 0.32549020648002625,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:80",
+          "primitive": {
+            "id": "VariableID:8:80",
+            "name": "color/purple/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5137255191802979,
+                "g": 0,
+                "b": 0.9725490212440491,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:8",
+      "name": "font/line-height/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Nivel compacto de interlineado semántico. Úsalo cuando el texto necesite una separación vertical contenida sin recurrir al mínimo de la escala.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:13",
+          "primitive": {
+            "id": "VariableID:8:13",
+            "name": "font/line-height/20",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 20
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:13",
+          "primitive": {
+            "id": "VariableID:8:13",
+            "name": "font/line-height/20",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 20
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:13",
+          "primitive": {
+            "id": "VariableID:8:13",
+            "name": "font/line-height/20",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 20
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:13",
+          "primitive": {
+            "id": "VariableID:8:13",
+            "name": "font/line-height/20",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:44",
+          "primitive": {
+            "id": "VariableID:8:44",
+            "name": "spacing/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:44",
+          "primitive": {
+            "id": "VariableID:8:44",
+            "name": "spacing/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:44",
+          "primitive": {
+            "id": "VariableID:8:44",
+            "name": "spacing/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:44",
+          "primitive": {
+            "id": "VariableID:8:44",
+            "name": "spacing/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:41",
+      "name": "stroke/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:54",
+          "primitive": {
+            "id": "VariableID:8:54",
+            "name": "stroke/1",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 1
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:54",
+          "primitive": {
+            "id": "VariableID:8:54",
+            "name": "stroke/1",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 1
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:54",
+          "primitive": {
+            "id": "VariableID:8:54",
+            "name": "stroke/1",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 1
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:54",
+          "primitive": {
+            "id": "VariableID:8:54",
+            "name": "stroke/1",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:14",
+      "name": "color/border/subtle",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde de baja prominencia destinado a separaciones suaves. Úsalo cuando la delimitación deba existir sin competir visualmente con el contenido o con bordes de mayor jerarquía.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:85",
+          "primitive": {
+            "id": "VariableID:8:85",
+            "name": "color/blue/200",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.7490196228027344,
+                "g": 0.8078431487083435,
+                "b": 0.9960784316062927,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:59",
+          "primitive": {
+            "id": "VariableID:8:59",
+            "name": "color/green/200",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5764706134796143,
+                "g": 0.8274509906768799,
+                "b": 0.7490196228027344,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:68",
+          "primitive": {
+            "id": "VariableID:8:68",
+            "name": "color/orange/200",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 0.8470588326454163,
+                "b": 0.7843137383460999,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:77",
+          "primitive": {
+            "id": "VariableID:8:77",
+            "name": "color/purple/200",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.8784313797950745,
+                "g": 0.7921568751335144,
+                "b": 0.9882352948188782,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:23",
+      "name": "color/icon/on-brand",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Color de iconografía destinado a aparecer sobre superficies de marca. Úsalo cuando el ícono necesite conservar contraste y legibilidad dentro de un fondo cromático de identidad.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Color de iconografía que adopta la identidad principal del modo activo. Úsalo cuando un ícono deba comunicar marca, selección o énfasis temático.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:87",
+          "primitive": {
+            "id": "VariableID:8:87",
+            "name": "color/blue/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:62",
+          "primitive": {
+            "id": "VariableID:8:62",
+            "name": "color/green/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.0117647061124444,
+                "g": 0.4470588266849518,
+                "b": 0.3333333432674408,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:71",
+          "primitive": {
+            "id": "VariableID:8:71",
+            "name": "color/orange/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 0.32549020648002625,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:80",
+          "primitive": {
+            "id": "VariableID:8:80",
+            "name": "color/purple/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5137255191802979,
+                "g": 0,
+                "b": 0.9725490212440491,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:57",
+      "name": "color/interactive/primary/default",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Superficie de interacción de máxima prominencia en su estado base. Úsala cuando una acción deba adoptar la identidad cromática principal definida por el modo activo.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:87",
+          "primitive": {
+            "id": "VariableID:8:87",
+            "name": "color/blue/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:62",
+          "primitive": {
+            "id": "VariableID:8:62",
+            "name": "color/green/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.0117647061124444,
+                "g": 0.4470588266849518,
+                "b": 0.3333333432674408,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:71",
+          "primitive": {
+            "id": "VariableID:8:71",
+            "name": "color/orange/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 0.32549020648002625,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:80",
+          "primitive": {
+            "id": "VariableID:8:80",
+            "name": "color/purple/500",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5137255191802979,
+                "g": 0,
+                "b": 0.9725490212440491,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:4",
+          "primitive": {
+            "id": "VariableID:8:4",
+            "name": "font/size/14",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 14
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:4",
+          "primitive": {
+            "id": "VariableID:8:4",
+            "name": "font/size/14",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 14
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:4",
+          "primitive": {
+            "id": "VariableID:8:4",
+            "name": "font/size/14",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 14
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:4",
+          "primitive": {
+            "id": "VariableID:8:4",
+            "name": "font/size/14",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 14
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:3",
+      "name": "stroke/md",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Nivel más fuerte de grosor de trazo disponible en la escala semántica actual. Úsalo cuando una delimitación necesite la mayor presencia estructural definida por el sistema.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:56",
+          "primitive": {
+            "id": "VariableID:8:56",
+            "name": "stroke/2",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 2
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:56",
+          "primitive": {
+            "id": "VariableID:8:56",
+            "name": "stroke/2",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 2
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:56",
+          "primitive": {
+            "id": "VariableID:8:56",
+            "name": "stroke/2",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 2
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:56",
+          "primitive": {
+            "id": "VariableID:8:56",
+            "name": "stroke/2",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:5",
+      "name": "radius/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel bajo de redondeo semántico. Úsalo cuando una superficie necesite una curvatura discreta y consistente con la escala.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:37",
+          "primitive": {
+            "id": "VariableID:8:37",
+            "name": "radius/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:37",
+          "primitive": {
+            "id": "VariableID:8:37",
+            "name": "radius/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:37",
+          "primitive": {
+            "id": "VariableID:8:37",
+            "name": "radius/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:37",
+          "primitive": {
+            "id": "VariableID:8:37",
+            "name": "radius/4",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:8",
+      "name": "radius/xl",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel muy alto de redondeo semántico. Úsalo cuando la geometría requiera una curvatura dominante sin llegar al radio completo.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:40",
+          "primitive": {
+            "id": "VariableID:8:40",
+            "name": "radius/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:40",
+          "primitive": {
+            "id": "VariableID:8:40",
+            "name": "radius/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:40",
+          "primitive": {
+            "id": "VariableID:8:40",
+            "name": "radius/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:40",
+          "primitive": {
+            "id": "VariableID:8:40",
+            "name": "radius/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:11",
+      "name": "radius/full",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Radio semántico para redondeo total. Úsalo cuando la intención sea obtener extremos completamente redondeados independientemente de la dimensión concreta del elemento.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:43",
+          "primitive": {
+            "id": "VariableID:8:43",
+            "name": "radius/9999",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 9999
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:43",
+          "primitive": {
+            "id": "VariableID:8:43",
+            "name": "radius/9999",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 9999
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:43",
+          "primitive": {
+            "id": "VariableID:8:43",
+            "name": "radius/9999",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 9999
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:43",
+          "primitive": {
+            "id": "VariableID:8:43",
+            "name": "radius/9999",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 9999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:31",
+      "name": "color/text/inverse",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto destinado a fondos oscuros o de contraste inverso. Úsalo cuando el texto necesite conservar legibilidad sobre una superficie significativamente más oscura que el fondo por defecto.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:93",
+          "primitive": {
+            "id": "VariableID:8:93",
+            "name": "color/neutral/100",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:123:122",
+      "name": "color/border/control",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde neutral contrastante para delimitar controles interactivos disponibles sin comunicar selección, hover ni un estado de feedback.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:96",
+          "primitive": {
+            "id": "VariableID:8:96",
+            "name": "color/neutral/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:96",
+          "primitive": {
+            "id": "VariableID:8:96",
+            "name": "color/neutral/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:96",
+          "primitive": {
+            "id": "VariableID:8:96",
+            "name": "color/neutral/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:96",
+          "primitive": {
+            "id": "VariableID:8:96",
+            "name": "color/neutral/400",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:327:123",
+      "name": "color/background/scrollbar/thumb",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Relleno del thumb visible de Scrollbar en ambas orientaciones y todas sus posiciones; aproxima el gris original mediante la primitiva neutral/300 existente, sin usar roles de texto, icono o borde.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:95",
+          "primitive": {
+            "id": "VariableID:8:95",
+            "name": "color/neutral/300",
+            "type": "COLOR",
+            "values": {
+              "6:4": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909,
+                "a": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:46",
+          "primitive": {
+            "id": "VariableID:8:46",
+            "name": "spacing/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:46",
+          "primitive": {
+            "id": "VariableID:8:46",
+            "name": "spacing/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:46",
+          "primitive": {
+            "id": "VariableID:8:46",
+            "name": "spacing/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:46",
+          "primitive": {
+            "id": "VariableID:8:46",
+            "name": "spacing/16",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:6",
+      "name": "radius/md",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada.",
+      "codeSyntax": {},
+      "modes": [
+        {
+          "id": "6:0",
+          "name": "Contable",
+          "aliasId": "VariableID:8:38",
+          "primitive": {
+            "id": "VariableID:8:38",
+            "name": "radius/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:1",
+          "name": "Administrativo",
+          "aliasId": "VariableID:8:38",
+          "primitive": {
+            "id": "VariableID:8:38",
+            "name": "radius/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:2",
+          "name": "Servicios",
+          "aliasId": "VariableID:8:38",
+          "primitive": {
+            "id": "VariableID:8:38",
+            "name": "radius/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        },
+        {
+          "id": "6:3",
+          "name": "Personas",
+          "aliasId": "VariableID:8:38",
+          "primitive": {
+            "id": "VariableID:8:38",
+            "name": "radius/8",
+            "type": "FLOAT",
+            "values": {
+              "6:4": 8
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

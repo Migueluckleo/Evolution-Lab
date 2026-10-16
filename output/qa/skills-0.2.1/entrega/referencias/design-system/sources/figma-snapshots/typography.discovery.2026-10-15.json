@@ -1,0 +1,684 @@
+{
+  "captured_at": "2026-10-15",
+  "source": "Figma Plugin API read-only",
+  "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "pages": [
+    {
+      "id": "737:303",
+      "name": "App Shell"
+    },
+    {
+      "id": "165:198",
+      "name": "Avatars"
+    },
+    {
+      "id": "94:122",
+      "name": "Badges"
+    },
+    {
+      "id": "190:188",
+      "name": "Breadcrumbs"
+    },
+    {
+      "id": "0:1",
+      "name": "Buttons"
+    },
+    {
+      "id": "210:122",
+      "name": "Charts"
+    },
+    {
+      "id": "149:122",
+      "name": "Checkboxes"
+    },
+    {
+      "id": "67:122",
+      "name": "Chips"
+    },
+    {
+      "id": "155:122",
+      "name": "Dots"
+    },
+    {
+      "id": "639:128",
+      "name": "Empty states"
+    },
+    {
+      "id": "518:122",
+      "name": "Headers"
+    },
+    {
+      "id": "183:160",
+      "name": "Icon Buttons"
+    },
+    {
+      "id": "175:391",
+      "name": "Inline Notifications"
+    },
+    {
+      "id": "394:122",
+      "name": "Input Fields"
+    },
+    {
+      "id": "220:122",
+      "name": "Linear Progress Bars"
+    },
+    {
+      "id": "377:122",
+      "name": "Loaders"
+    },
+    {
+      "id": "427:122",
+      "name": "Logos"
+    },
+    {
+      "id": "202:208",
+      "name": "Metric Cards"
+    },
+    {
+      "id": "565:122",
+      "name": "Modal"
+    },
+    {
+      "id": "275:122",
+      "name": "Navigation"
+    },
+    {
+      "id": "142:122",
+      "name": "Radio Buttons"
+    },
+    {
+      "id": "328:122",
+      "name": "Scrollbars"
+    },
+    {
+      "id": "444:122",
+      "name": "Select"
+    },
+    {
+      "id": "614:125",
+      "name": "Sidebar"
+    },
+    {
+      "id": "341:122",
+      "name": "Steps"
+    },
+    {
+      "id": "347:122",
+      "name": "Steppers"
+    },
+    {
+      "id": "546:122",
+      "name": "Table"
+    },
+    {
+      "id": "111:122",
+      "name": "Toggles"
+    },
+    {
+      "id": "85:122",
+      "name": "Tooltips"
+    },
+    {
+      "id": "967:4542",
+      "name": "----"
+    },
+    {
+      "id": "820:7",
+      "name": "Characters"
+    },
+    {
+      "id": "783:6",
+      "name": "Chat"
+    },
+    {
+      "id": "765:6",
+      "name": "Conversation"
+    },
+    {
+      "id": "847:7",
+      "name": "Fuentes"
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:8d38f6a5868e5d5e0366907a63e27299dbac2c50,",
+      "key": "8d38f6a5868e5d5e0366907a63e27299dbac2c50",
+      "name": "Modal/Body",
+      "description": "Rol de Modal; valores del JSON canónico y bindings semánticos aplicados a consumidores.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:cb4052453d42d5ce9ce98f08640582004d80f602,",
+      "key": "cb4052453d42d5ce9ce98f08640582004d80f602",
+      "name": "Modal/Title",
+      "description": "Rol de Modal; valores del JSON canónico y bindings semánticos aplicados a consumidores.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "key": "1e79e86d57bf4121e3824ddf6dc9cf0a2466d947",
+      "name": "Modal/Caption",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:2e68e082c5bcf7f7f03fb21fe9f55b140c2bc134,",
+      "key": "2e68e082c5bcf7f7f03fb21fe9f55b140c2bc134",
+      "name": "Sidebar/Label",
+      "description": "Etiqueta compartida de Menu Item; consumidor vinculado a variables semánticas locales.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:c49296dee25b58bf5cb46e2ab7730a351093551b,",
+      "key": "c49296dee25b58bf5cb46e2ab7730a351093551b",
+      "name": "Sidebar/Label Active",
+      "description": "Etiqueta compartida de Menu Item; consumidor vinculado a variables semánticas locales.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:7b2bedcbf319948f84bd56c8a6e537e969be3f86,",
+      "key": "7b2bedcbf319948f84bd56c8a6e537e969be3f86",
+      "name": "Sidebar/Submenu",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:cb57ef141d48f08f57ac520929ff687dfce22cef,",
+      "key": "cb57ef141d48f08f57ac520929ff687dfce22cef",
+      "name": "Sidebar/Submenu Active",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:2aaadfa872db2d91b827f3dca6ce5c3588e9e86e,",
+      "key": "2aaadfa872db2d91b827f3dca6ce5c3588e9e86e",
+      "name": "Sidebar/Release",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:e131a51074bfff0c80f1c3f2f164e74a77b77ca0,",
+      "key": "e131a51074bfff0c80f1c3f2f164e74a77b77ca0",
+      "name": "Empty states/Title",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:36d346b8b1c5766a8dfd3498701a7bb92f8e8539,",
+      "key": "36d346b8b1c5766a8dfd3498701a7bb92f8e8539",
+      "name": "Empty states/Title Main",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:eca12e69f95379722b93939f944cf65d228d6146,",
+      "key": "eca12e69f95379722b93939f944cf65d228d6146",
+      "name": "Conversation/Body",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:9c72f9fd7020cef8974458d27505fe7a151fc595,",
+      "key": "9c72f9fd7020cef8974458d27505fe7a151fc595",
+      "name": "Conversation/Emphasis",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+      "key": "00ebc27da069f50e5d170d9e45cc9f392042a351",
+      "name": "Conversation/Caption",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:4af9d14479d9fc86c34be626510c5e0ae9a1a55e,",
+      "key": "4af9d14479d9fc86c34be626510c5e0ae9a1a55e",
+      "name": "Conversation/Preview title",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:711fbb388c69ce8d554ef531ebd946cae14a0080,",
+      "key": "711fbb388c69ce8d554ef531ebd946cae14a0080",
+      "name": "Chat/Title",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:4f627d060dffc9ff20afafa2c8a3adc468a669f6,",
+      "key": "4f627d060dffc9ff20afafa2c8a3adc468a669f6",
+      "name": "Chat/Subtitle",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:5a3f44d14ee74e638de3493a255ca0c55e337289,",
+      "key": "5a3f44d14ee74e638de3493a255ca0c55e337289",
+      "name": "Chat/Metadata",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:cd0499b3ec8aac327af4d4f8cb4d500018288525,",
+      "key": "cd0499b3ec8aac327af4d4f8cb4d500018288525",
+      "name": "Chat/Plan",
+      "description": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {}
+    },
+    {
+      "id": "S:72120f027b39543782c2c7f48edfea7157405e4d,",
+      "key": "72120f027b39543782c2c7f48edfea7157405e4d",
+      "name": "Fuentes/Source",
+      "description": "Título compacto de tarjeta Fuentes. Consume tipografía semántica del AI DS.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:8"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:7"
+        }
+      }
+    },
+    {
+      "id": "S:249112e571c2a957d3d7b3fd4bf48c12b5796052,",
+      "key": "249112e571c2a957d3d7b3fd4bf48c12b5796052",
+      "name": "Fuentes/Path",
+      "description": "Metadato de Fuentes. Tamaño8px observado sin token equivalente; limitación de legibilidad documentada en FUENTES-001.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:7"
+        }
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "ExtraBold"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "ExtraLight"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "Light"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular"
+      }
+    },
+    {
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold"
+      }
+    }
+  ]
+}

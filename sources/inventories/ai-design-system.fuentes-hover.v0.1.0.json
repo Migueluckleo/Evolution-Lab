@@ -1,0 +1,40 @@
+{
+  "id": "FOUNDATIONS-FUENTES-HOVER-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "user_audit": "PENDING",
+  "canonical_base": "sources/inventories/tokens.inventory.json",
+  "canonical_base_sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+  "collection": "semantic",
+  "variables": [
+    {
+      "id": "fuentes-hover-background",
+      "name": "color/background/source-card/hover",
+      "resolvedType": "COLOR",
+      "description": "Superficie de realce suave para una tarjeta de fuente durante hover. Sigue la marca del modo activo y no representa selección, estado presionado ni indisponibilidad.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "aliasesByMode": {
+        "Contable": {
+          "primitiveId": "VariableID:82:162",
+          "primitiveName": "color/blue/100"
+        },
+        "Administrativo": {
+          "primitiveId": "VariableID:2496:173",
+          "primitiveName": "color/green/100"
+        },
+        "Servicios": {
+          "primitiveId": "VariableID:2496:178",
+          "primitiveName": "color/orange/100"
+        },
+        "Personas": {
+          "primitiveId": "VariableID:2496:183",
+          "primitiveName": "color/purple/100"
+        }
+      }
+    }
+  ]
+}

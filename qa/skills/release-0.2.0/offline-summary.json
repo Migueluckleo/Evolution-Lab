@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "package_version": "0.2.0",
+  "ds_digest": "f3d8dc4b76c8261d02d60cc708b374c0700d7500400057a219f5fdd7c78d4e56",
+  "html_sha256": "c58231acbe67cc05897aab049ebd1b34b92688087f8dedbe50ffcc32b7da0adc",
+  "html_bytes": 3657587,
+  "brief_sha256": "95800448d7da9aa4ef0e52aab24dc44934fa0fa804ef227ceab0ec4452458d45",
+  "browser": "149.0.7827.201",
+  "states": 14,
+  "components": 10,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 1000,
+      "height": 760
+    }
+  ],
+  "network_requests": 0,
+  "errors": [],
+  "unmapped_text": 0,
+  "broken_images": 0,
+  "manrope_loaded_all_states": true,
+  "typography_status": "IDENTIFIED",
+  "typography_text_runs": 124,
+  "typography_ids": [
+    "body-regular",
+    "heading-5-bold",
+    "ui-action-label-medium",
+    "ui-body-compact",
+    "ui-caption-compact",
+    "ui-content-large",
+    "ui-label-compact-bold",
+    "ui-modal-title"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "scope": [
+      "demo--open--1440x900.png",
+      "demo--side--1000x760.png"
+    ],
+    "same_png_hashes_after_brief_update": true,
+    "remaining_12_captures_manual_review": "NOT_RUN"
+  },
+  "figma_screen_execution": "NOT_RUN",
+  "legacy_figma_typography_consumption": "BLOCKED; see qa/implementations/typography/Figma-blocker.md",
+  "artifact_archive": {
+    "path": "qa/skills/release-0.2.0/offline-artifacts.zip",
+    "sha256": "22278f1696e56730e70b60be7ac7086da8d3cf0a62e5fd0e58dc04c3af759c5f",
+    "bytes": 3782319,
+    "omission": "Duplicate referencias/design-system corpus omitted; resolve from output/skills/0.2.0 snapshot by identical ds_digest."
+  }
+}

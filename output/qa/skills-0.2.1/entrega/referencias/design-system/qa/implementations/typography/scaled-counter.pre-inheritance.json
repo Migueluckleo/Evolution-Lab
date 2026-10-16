@@ -1,0 +1,209 @@
+{
+  "instanceId": "I737:305;522:408;183:164",
+  "scale": 1.3333333730697632,
+  "properties": {
+    "Overflow label#155:7": {
+      "type": "TEXT",
+      "value": "99+"
+    },
+    "Count#155:6": {
+      "type": "TEXT",
+      "value": "1"
+    },
+    "Type": {
+      "value": "Count",
+      "type": "VARIANT",
+      "boundVariables": {}
+    },
+    "Size": {
+      "value": "Small",
+      "type": "VARIANT",
+      "boundVariables": {}
+    }
+  },
+  "overrides": [
+    {
+      "id": "I737:305;522:408;183:164;155:137",
+      "overriddenFields": [
+        "boundVariables",
+        "fontName",
+        "fontSize",
+        "letterSpacing",
+        "lineHeight",
+        "openTypeFeatures",
+        "styledTextSegments",
+        "textDecorationSkipInk",
+        "textStyleId"
+      ]
+    }
+  ],
+  "mainComponentId": "155:136",
+  "snapshot": [
+    {
+      "id": "I737:305;522:408;183:164",
+      "type": "INSTANCE",
+      "name": "Count indicator",
+      "x": 16,
+      "y": 16,
+      "width": 10.666666984558105,
+      "height": 10.666666984558105,
+      "rotation": 0,
+      "visible": false,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8313725590705872,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:154:125"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:18"
+            }
+          }
+        }
+      ],
+      "strokeWeight": 1.3333333730697632,
+      "effects": [],
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "componentPropertyReferences": {
+        "visible": "Show count#183:61"
+      }
+    },
+    {
+      "id": "I737:305;522:408;183:164;155:137",
+      "type": "TEXT",
+      "name": "Count label",
+      "x": 4,
+      "y": 1.3333333730697632,
+      "width": 3,
+      "height": 9,
+      "rotation": 0,
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:33"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1.3333333730697632,
+      "effects": [],
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "componentPropertyReferences": {
+        "characters": "Count#155:6"
+      },
+      "characters": "1",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "segments": [
+        {
+          "characters": "1",
+          "start": 0,
+          "end": 1,
+          "fontSize": 5.333333492279053,
+          "fontName": {
+            "family": "Manrope",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL",
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": -2
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:13:33"
+                }
+              }
+            }
+          ],
+          "textStyleId": "",
+          "hyperlink": null,
+          "boundVariables": {
+            "fontStyle": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:10:6"
+            },
+            "fontFamily": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:10:2"
+            }
+          },
+          "paragraphSpacing": 0,
+          "paragraphIndent": 0
+        }
+      ]
+    }
+  ]
+}

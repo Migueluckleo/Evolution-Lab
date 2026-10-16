@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "label": "Muestrario web de ocho composiciones Modal",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false,
+      "behavior_not_proven_by_screenshot": true
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_tamanos_booleanos",
+      "label": "Seis muestras etiquetadas small/false, small/true, medium/false, medium/true, large/false y large/true",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_encabezado_modal",
+      "label": "Título Modal title, Subtitle e icono X en cada composición",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_muestras_true",
+      "label": "Las muestras etiquetadas true incluyen divisor bajo el encabezado y un panel inferior blanco con sombra",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_muestras_false",
+      "label": "Las muestras etiquetadas false muestran un cuerpo blanco amplio sin el panel inferior sombreado",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_media",
+      "label": "Muestra media con espacio blanco amplio por encima del encabezado",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_modal_web_side_by_side",
+      "label": "Muestra side-by-side ancha con el encabezado y la X dentro de la zona izquierda",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_tamanos_booleanos",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_encabezado_modal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_muestras_true",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_muestras_false",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_media",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_modal_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_modal_web_side_by_side",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/modal.web.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

@@ -1,0 +1,161 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T19:32:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 86, inspected_nodes: 86, pending_nodes: 0, invisible_nodes_inspected: 24, truncated: false, limit: null}
+  mcp_limitations: []
+component:
+  id: "1221:28710"
+  key: 7cd9c016ecf140eef806b29fb23de1d00a718471
+  name: checkbox
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2433:230", name: Group 13, type: GROUP}
+  page: {id: "1144:34368", name: "❖ Checkbox  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1221-28710", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1221:28710"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 255.25, y: 57}
+  dimensions: {width: 680, height: 290}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "1225:28848", name: "type=selected, state=enabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1221:28721", name: "type=selected, state=hover", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28921", name: "type=selected, state=focus", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28937", name: "type=selected, state=disabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28856", name: "type=indeterminate, state=enabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28881", name: "type=indeterminate, state=hover", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28897", name: "type=indeterminate, state=focus", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28913", name: "type=indeterminate, state=disabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1221:28820", name: "type=unselected, state=enabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1225:28950", name: "type=unselected, state=hover", type: COMPONENT, width: 24, height: 24}
+  - {id: "1221:28809", name: "type=unselected, state=focus", type: COMPONENT, width: 24, height: 24}
+  - {id: "1221:28825", name: "type=unselected, state=disabled", type: COMPONENT, width: 24, height: 24}
+anatomy:
+  functional_tree:
+    - {role: variant, count: 12, children: [left_label_hidden, indicator, right_label_hidden], evidence_refs: [E002]}
+    - {role: indicator, size: [24, 24], rectangle_size: [18, 18], offset: [3, 3], evidence_refs: [E003]}
+  graphical_details_omitted: ["Intermediate Content frames and icon paths; their counts and visual facts are retained."]
+dependency_inventory:
+  components: {total_instances: 9, total: 3, local: 3, remote: 0, unknown_locality: 0, resolved: 3, partially_resolved: 0, unresolved: 0}
+  variables: {total: 19, local: 14, remote: 5, unknown_locality: 0, resolved: 19, partially_resolved: 0, unresolved: 0}
+  styles: {total: 1, local: 1, remote: 0, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d
+    kind: COMPONENT
+    instance_count: 4
+    main_component: {id: "2828:33596", key: b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d, name: "Format=Outline, Weight=Light"}
+    component_set: {id: "2828:33593", key: 6cd877b447689e6ae65068849a59fa44e8be8c00, name: Check}
+    locality: LOCAL
+    resolution: {status: RESOLVED, evidence: [E004], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/phosphor-check.source.component-contract.yaml"}
+  - dependency_id: 10ad6c579ecb00c883f839281ca2ad812962a324
+    kind: COMPONENT
+    instance_count: 4
+    main_component: {id: "2828:33631", key: 10ad6c579ecb00c883f839281ca2ad812962a324, name: "Format=Outline, Weight=Regular"}
+    component_set: {id: "2828:33630", key: e3383cb06f293f7cf620b0d07c95f445458424b4, name: Minus}
+    locality: LOCAL
+    resolution: {status: RESOLVED, evidence: [E004], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/phosphor-minus.source.component-contract.yaml"}
+  - dependency_id: 0d420b76c03affe6d10c7c83ce37a57f615bb29d
+    kind: COMPONENT
+    instance_count: 1
+    main_component: {id: "1144:34470", key: 0d420b76c03affe6d10c7c83ce37a57f615bb29d, name: "State=focus"}
+    component_set: {id: "1144:34464", key: 7912a150ae6d8b80a4f9d82305a7d614cd9e66a4, name: checkbox}
+    locality: LOCAL
+    resolution: {status: RESOLVED, evidence: [E004], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/checkbox-helper.source.component-contract.yaml"}
+variable_dependencies:
+  - {id: "VariableID:2810:21161", name: spacing/6xl, type: FLOAT, locality: LOCAL, used_by: ["set:paddingLeft", "set:paddingRight"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:562:14", name: spacing/2xl, type: FLOAT, locality: LOCAL, used_by: ["set:paddingTop", "set:paddingBottom"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196116", name: color/text/primary, type: COLOR, locality: LOCAL, used_by: ["labels:enabled-hover-focus:fills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: ["labels:fontFamily"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2845:160893", name: font/size/sm, type: FLOAT, locality: LOCAL, used_by: ["labels:fontSize"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:60ddc1af6f284d6ebc5ef222764a2ff061a7cf3f/45:522", name: radius/md, type: FLOAT, locality: REMOTE, used_by: ["rectangles:cornerRadii"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", name: stroke/stroke-focus, type: FLOAT, locality: REMOTE, used_by: ["rectangles:strokeSideWeights"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:3a46f7969ab40e7805c4ede995a05a0e121592cc/4752:2", name: icons/xxxsm-icon-size, type: FLOAT, locality: REMOTE, used_by: ["iconInstances:width", "iconInstances:height"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:197279", name: color/interactive/primary/default, type: COLOR, locality: LOCAL, used_by: ["selectedAndIndeterminate:enabled-focus:fills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196104", name: color/background/default, type: COLOR, locality: LOCAL, used_by: ["iconInstanceWrappers:invisibleFills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196142", name: color/icon/on-brand, type: COLOR, locality: LOCAL, used_by: ["iconVectors:visibleFills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2988:9", name: color/interactive/primary/hover, type: COLOR, locality: LOCAL, used_by: ["selectedAndIndeterminate:hover:fills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196119", name: color/text/disabled, type: COLOR, locality: LOCAL, used_by: ["labels:disabled:fills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196113", name: color/background/disabled, type: COLOR, locality: LOCAL, used_by: ["selectedAndIndeterminate:disabled:fills"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196128", name: color/border/default, type: COLOR, locality: LOCAL, used_by: ["unselected:enabled-focus:strokes"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2992:2261", name: color/border/hover, type: COLOR, locality: LOCAL, used_by: ["unselected:hover:strokes"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:1bf5657bd986df44a50eeb5c6c5cca421afa92cd/62072:22", name: spacing/md, type: FLOAT, locality: REMOTE, used_by: ["variants:itemSpacing"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497", name: radius/sm, type: FLOAT, locality: REMOTE, used_by: ["helper:cornerRadii"], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196137", name: color/border/disabled, type: COLOR, locality: LOCAL, used_by: ["unselected:disabled:strokes"], resolution: {status: RESOLVED, evidence: [E005]}}
+style_dependencies:
+  - {id: "S:db4f7e95726995e57ca781fbe41ec23bcab72a1e,", key: db4f7e95726995e57ca781fbe41ec23bcab72a1e, name: focus/outset, type: EFFECT, locality: LOCAL, used_by: ["selected:focus", "indeterminate:focus", "unselected:focus"], resolution: {status: RESOLVED, evidence: [E005]}}
+properties:
+  definitions:
+    - {name: type, type: VARIANT, default: selected, available: [selected, indeterminate, unselected]}
+    - {name: state, type: VARIANT, default: enabled, available: [enabled, hover, focus, disabled]}
+    - {name: "show left field label#20125:0", type: BOOLEAN, default: false}
+    - {name: "show right field label#102635:0", type: BOOLEAN, default: false}
+  observed: ["Both visibility booleans wired in all 12 variants."]
+  available: []
+  unknown: ["No TEXT component property observed."]
+variants:
+  observed_combinations:
+    - {type: selected, state: enabled, id: "1225:28848"}
+    - {type: selected, state: hover, id: "1221:28721"}
+    - {type: selected, state: focus, id: "1225:28921"}
+    - {type: selected, state: disabled, id: "1225:28937"}
+    - {type: indeterminate, state: enabled, id: "1225:28856"}
+    - {type: indeterminate, state: hover, id: "1225:28881"}
+    - {type: indeterminate, state: focus, id: "1225:28897"}
+    - {type: indeterminate, state: disabled, id: "1225:28913"}
+    - {type: unselected, state: enabled, id: "1221:28820"}
+    - {type: unselected, state: hover, id: "1225:28950"}
+    - {type: unselected, state: focus, id: "1221:28809"}
+    - {type: unselected, state: disabled, id: "1221:28825"}
+  available_values: [{type: [selected, indeterminate, unselected]}, {state: [enabled, hover, focus, disabled]}]
+  unknown: []
+states: {observed: [enabled, hover, focus, disabled], available: [], unknown: ["No behavioral transitions defined."]}
+layout:
+  node: {node: {id: "1221:28710", name: checkbox, type: COMPONENT_SET}, position: {x: 255.25, y: 57, absolute_x: null, absolute_y: null, unit: px}, layout_mode: GRID, dimensions: {width: 680, height: 290}, clips_content: true, evidence_refs: [E001]}
+  children: [{node_type: COMPONENT, count: 12, dimensions: {width: 24, height: 24}, layout_mode: HORIZONTAL, item_spacing: 8, padding: 0, labels_visible: false, evidence_refs: [E002]}]
+  relationships: ["Three rows by Type, four columns by State; left label, indicator, right label."]
+visual:
+  node: {size: [680, 290], rendered_screenshot: "680x290 inspected inline", evidence_refs: [E006]}
+  descendants:
+    - {types: [selected, indeterminate], indicator: RECTANGLE, size: [18, 18], offset: [3, 3], corner_radius: 4, fill: "default/hover/disabled semantic roles", icon: "Check or Minus 12x12", evidence_refs: [E003]}
+    - {types: [unselected], indicator: RECTANGLE, size: [18, 18], offset: [3, 3], corner_radius: 4, stroke_weight: 2, fill: none, evidence_refs: [E003]}
+    - {state: focus, effect_style: focus/outset, shadow_spreads: [4, 2], shadow_colors: ["#1d21b0", "#f8fafc"], evidence_refs: [E003]}
+  icons:
+    - {name: Check, instance_count: 4, size: [12, 12], vector_size: [9.17, 6.56], visible_fill_token: color/icon/on-brand, evidence_refs: [E003, E004]}
+    - {name: Minus, instance_count: 4, size: [12, 12], vector_size: [9, 0.75], visible_fill_token: color/icon/on-brand, evidence_refs: [E003, E004]}
+typography:
+  styles: [{family: Manrope, weight: Regular, size: 14, line_height: 18, letter_spacing: 0, evidence_refs: [E002]}]
+  text_runs: [{text: Field Label, count: 24, visible: false, text_property: null, evidence_refs: [E002]}]
+tokens:
+  summary: {total: 19, local: 14, remote: 5}
+  categories: {color: 10, font: 2, spacing: 3, radius: 2, stroke: 1, icons: 1}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: [Field Label]}
+  component_rules: []
+  truncation_and_wrapping: []
+interactions: {status: UNDEFINED, reason: "Zero reactions in set and 12 variants; grouping and dynamic behavior not exposed.", rules: []}
+semantic_contract:
+  explicit_descriptions: ["Los checkbox te permiten seleccionar una o más opciones dentro de un grupo.", "Pueden mostrar selected, unselected e indeterminate y deben usarse con etiquetas claras."]
+  purpose: {status: DEFINED, text: "Select one or more options within a group", evidence_refs: [E006]}
+  usage_rules: {status: DEFINED, text: "Use clear labels", evidence_refs: [E006]}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: ["Two visual label layers exist but are hidden by default.", "Focus has a visible outline style."]
+  undefined: ["Accessible name", "web role", "keyboard interaction", "group semantics", "hit target", "WCAG compliance"]
+external_dependencies: []
+unresolved: []
+implementation_notes: ["This contract documents the source; target normalization belongs to a separate contract."]
+evidence:
+  figma_direct: [{id: E001, path: "node:1221:28710", finding: "set identity, properties and dimensions"}, {id: E002, path: "component:12 variants", finding: "12 variants, 24 hidden labels, layout and reactions"}, {id: E003, path: "descendants", finding: "indicator shapes, icon vectors, paints and effects"}, {id: E004, path: "main components", finding: "Check, Minus and checkbox helper definitions"}, {id: E005, path: "variables/styles", finding: "19 used variables and one named style"}, {id: E006, path: "page:2433:227", finding: "usage text and screenshot"}]
+  derived: [{finding: "3x4 complete matrix and dependency counts", evidence_refs: [E001, E002, E004, E005]}]
+  requires_definition: ["Product selection behavior, group/keyboard semantics and accessibility"]
+  confidence: {level: HIGH, reason: "Complete read-only traversal with direct node, dependency and visual evidence."}

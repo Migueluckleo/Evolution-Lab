@@ -1,0 +1,172 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:2849:197279",
+      "key": "0be1d4f729e0115993584e7075baede84506f24f",
+      "name": "color/interactive/primary/default",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false,
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:82:159"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2496:177"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2496:182"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2496:187"
+        }
+      }
+    },
+    {
+      "id": "VariableID:2849:196142",
+      "key": "a073f8e354fa6ce36ab0d8ac7a78109f53bb54e5",
+      "name": "color/icon/on-brand",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false,
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        }
+      }
+    },
+    {
+      "id": "VariableID:82:159",
+      "key": "d34a62c3adc2c5d143178a0aa79b5345e7bb674f",
+      "name": "color/blue/400",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false,
+      "values": {
+        "52:0": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:2496:177",
+      "key": "ea90dcd4e62e8109711ad9531f9698feccf10da0",
+      "name": "color/green/500",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false,
+      "values": {
+        "52:0": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:2496:182",
+      "key": "3c7a59dccdfb76a3353b92bad63d82128b0e6c69",
+      "name": "color/orange/500",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false,
+      "values": {
+        "52:0": {
+          "r": 1,
+          "g": 0.32549020648002625,
+          "b": 0,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:2496:187",
+      "key": "f99f566c8d6f89b5bd08462a28e01861944b59b8",
+      "name": "color/purple/500",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false,
+      "values": {
+        "52:0": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:57:82",
+      "key": "62efbf1e2833249572d3aabff667944eb18958c5",
+      "name": "color/neutral/100",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false,
+      "values": {
+        "52:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ],
+      "defaultModeId": "52:2"
+    },
+    {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ],
+      "defaultModeId": "52:0"
+    }
+  ]
+}

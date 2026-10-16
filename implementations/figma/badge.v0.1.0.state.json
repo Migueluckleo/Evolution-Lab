@@ -1,0 +1,83 @@
+{
+  "implementationId": "IMP-BADGE-FIGMA-001",
+  "runId": "legacy-badge-2026-09-23",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "phase": "phase4",
+  "step": "complete",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Badges",
+    "pageId": "94:122",
+    "componentSetId": "98:128"
+  },
+  "contract": {
+    "id": "BADGE-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "abc4e0e768be75831c343fe8e32322322e650ad437b7eae4860e498cbdc6f216",
+    "dataDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "amendment": {
+    "id": "AMD-BADGE-CONTRAST-001",
+    "version": "0.1.1",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "8d63aec283dcd5e32d7bd3669e1460d2e493b819b7ca0ef71fe5d27b65cc5e89",
+    "qaId": "QA-BADGE-AMD-001",
+    "mutatedNodeIds": ["97:185", "97:191", "I97:189;8899:60223", "I97:192;8899:60223"]
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1234:53606",
+    "componentSetId": "1234:65377",
+    "presentationDefaultVariantKey": "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230",
+    "presentationComponentSetKey": "c2f4b3486a9480fe117be9260523dbb9500066e4"
+  },
+  "dependency": {
+    "presentationImportPreflightId": "95:127",
+    "presentationImportPreflightSetId": "95:122",
+    "presentationImportPersistsWithoutInstance": false,
+    "preferredSwapCountExpected": 1512,
+    "presentationImportedWithInstancesId": "97:127"
+  },
+  "before": {
+    "pages": [
+      { "name": "Buttons", "id": "0:1", "childCount": 1 },
+      { "name": "Chips", "id": "67:122", "childCount": 1 },
+      { "name": "Tooltips", "id": "85:122", "childCount": 3 }
+    ]
+  },
+  "variantIds": {"base": "97:170", "light": "97:176", "informational": "97:182", "warning": "97:188", "error": "97:194", "success": "97:200"},
+  "propertyKeys": {"text": "Badge text#99:0", "leftBoolean": "Show left icon#99:7", "rightBoolean": "Show right icon#99:14", "leftSwap": "Left icon#99:21", "rightSwap": "Right icon#99:28"},
+  "documentationNodeIds": ["100:128", "100:129"],
+  "labelIds": {"base": "97:173", "light": "97:179", "informational": "97:185", "warning": "97:191", "error": "97:197", "success": "97:203"},
+  "leftIconIds": {"base": "97:171", "light": "97:177", "informational": "97:183", "warning": "97:189", "error": "97:195", "success": "97:201"},
+  "rightIconIds": {"base": "97:174", "light": "97:180", "informational": "97:186", "warning": "97:192", "error": "97:198", "success": "97:204"},
+  "createdNodeIds": ["94:122", "97:170", "97:171", "97:173", "97:174", "I97:171;8899:60223", "I97:174;8899:60223", "97:176", "97:177", "97:179", "97:180", "I97:177;8899:60223", "I97:180;8899:60223", "97:182", "97:183", "97:185", "97:186", "I97:183;8899:60223", "I97:186;8899:60223", "97:188", "97:189", "97:191", "97:192", "I97:189;8899:60223", "I97:192;8899:60223", "97:194", "97:195", "97:197", "97:198", "I97:195;8899:60223", "I97:198;8899:60223", "97:200", "97:201", "97:203", "97:204", "I97:201;8899:60223", "I97:204;8899:60223", "98:128", "100:128", "100:129"],
+  "completedSteps": ["P0.a", "P0.b", "P0.c", "P0.d", "P1.a", "P1.b", "P2.a", "P2.b", "P3.a", "P3.b", "P3.c", "P3.d", "P3.e", "P3.f", "P3.g", "P4.a", "P4.b", "P4.c", "P4.d"],
+  "pendingSteps": [],
+  "lastReadback": {
+    "variantCount": 6,
+    "nodeCount": 37,
+    "typographyBindingsChecked": 30,
+    "iconFillBindingsChecked": 12,
+    "strokeSideBindingsChecked": 4,
+    "tokenAliasPairsChecked": 104,
+    "bindingIssues": 0,
+    "visibleSolidPaintsFinal": 25,
+    "contrastModesChecked": 4,
+    "contrastTextMinimum": 4.59,
+    "contrastIconMinimum": 3.61,
+    "contrastIssues": 0,
+    "visualReview": "PASS: six appearances and Presentation icons visible, single-line labels without apparent clipping",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Light border role changes from disabled in source to strong neutral in destination; same primitive aliases in all four modes.",
+    "Hidden right-icon fills use icon roles in destination rather than text roles in source.",
+    "Set-container padding bound to font/size/lg in source is excluded as non-consumer metadata.",
+    "Informational and Warning text plus Warning icon roles differ visibly from the source to meet static contrast thresholds; see AMD-BADGE-CONTRAST-001.",
+    "Light width is 64 px instead of 62 px due to 1 px inside stroke on both sides under HUG layout."
+  ]
+}

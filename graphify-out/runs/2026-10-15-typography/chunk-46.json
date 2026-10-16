@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_scrollbar_scrollbar__orientaci_n_y_longitud_de_thumb",
+      "label": "Scrollbar: orientación y longitud de thumb",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_scrollbar_muestras_verticales",
+      "label": "Muestras verticales",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Cuatro contenedores altos con barra clara vertical junto al borde izquierdo."
+    },
+    {
+      "id": "qa_implementations_typography_web_scrollbar_muestras_horizontales",
+      "label": "Muestras horizontales",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Cuatro contenedores anchos con barra clara horizontal."
+    },
+    {
+      "id": "qa_implementations_typography_web_scrollbar_r_tulos_25_33_50_75_por_ciento",
+      "label": "Rótulos 25 33 50 75 por ciento",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Las longitudes visibles aumentan entre los porcentajes rotulados en ambas orientaciones."
+    },
+    {
+      "id": "qa_implementations_typography_web_scrollbar_thumb_redondeado",
+      "label": "Thumb redondeado",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Barras gris claro con extremos redondeados; la captura no demuestra arrastre o desplazamiento."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_scrollbar_scrollbar__orientaci_n_y_longitud_de_thumb",
+      "target": "qa_implementations_typography_web_scrollbar_muestras_verticales",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_scrollbar_scrollbar__orientaci_n_y_longitud_de_thumb",
+      "target": "qa_implementations_typography_web_scrollbar_muestras_horizontales",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_scrollbar_scrollbar__orientaci_n_y_longitud_de_thumb",
+      "target": "qa_implementations_typography_web_scrollbar_r_tulos_25_33_50_75_por_ciento",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_scrollbar_scrollbar__orientaci_n_y_longitud_de_thumb",
+      "target": "qa_implementations_typography_web_scrollbar_thumb_redondeado",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/scrollbar.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

@@ -1,0 +1,83 @@
+{
+  "implementationId": "IMP-TOGGLE-FIGMA-001",
+  "runId": "legacy-toggle-2026-09-23",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "phase": "phase4",
+  "step": "focus-effect-scope-complete",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Toggles",
+    "pageId": "111:122",
+    "componentSetId": "111:163"
+  },
+  "contract": {
+    "id": "TOGGLE-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "c3b6d1100241e3bdb5c89cc98e89854cda999c87f775a8552211280979326c38",
+    "evidenceDigestSha256": "4010c12aaae2784df134268f776a25f7cad1c26d4a6a09f35a1a9cb28fb320f0",
+    "dataDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "amendment": {
+    "id": "AMD-TOGGLE-VISUAL-CONTRAST-002",
+    "version": "0.1.2",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "13674dd7d6f61efd015ae760b6a89bc71c80c323ff45e665fc4d48f8e89b9187",
+    "qaId": "QA-TOGGLE-AMD-002",
+    "extensionDataDigestSha256": "4ef75143af30b0e934cb94aa62d3acb56c32874dc7e229a500a31c8928a7f839",
+    "mutatedNodeIds": ["111:145", "111:150", "111:155", "111:161"]
+  },
+  "focusEffectAmendment": {
+    "id": "AMD-TOGGLE-FOCUS-EFFECT-003",
+    "version": "0.1.3",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "07ae4f7700bd4670156e5be211f9476d97eb97e15275addd69198f5152cd6266",
+    "qaId": "QA-TOGGLE-FIGMA-006",
+    "extensionDataDigestSha256": "0baef3e14a121d3284c04d28bd8bf2cc66a940270f3486994a23e3456d7fc3d4",
+    "mutatedNodeIds": ["111:135", "111:155"],
+    "effectVariableIds": ["VariableID:136:122", "VariableID:136:123"]
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1084:7229",
+    "componentSetId": "1230:23858",
+    "componentSetKey": "5dd1c16f84eb1e6803326c404c137e40ae28ca6b"
+  },
+  "before": {
+    "pages": [
+      {"name": "Buttons", "id": "0:1"},
+      {"name": "Chips", "id": "67:122"},
+      {"name": "Tooltips", "id": "85:122"},
+      {"name": "Badges", "id": "94:122"}
+    ]
+  },
+  "variantIds": {"On/Default": "111:123", "On/Hover": "111:128", "On/Focus": "111:133", "On/Disabled": "111:138", "Off/Default": "111:143", "Off/Hover": "111:148", "Off/Focus": "111:153", "Off/Disabled": "111:158"},
+  "propertyKeys": {"leftText": "Left label#111:32", "rightText": "Right label#111:33", "leftBoolean": "Show left label#111:34", "rightBoolean": "Show right label#111:35"},
+  "documentationNodeIds": ["111:164", "111:165"],
+  "createdNodeIds": ["111:122", "111:123", "111:124", "111:125", "111:126", "111:127", "111:128", "111:129", "111:130", "111:131", "111:132", "111:133", "111:134", "111:135", "111:136", "111:137", "111:138", "111:139", "111:140", "111:141", "111:142", "111:143", "111:144", "111:145", "111:146", "111:147", "111:148", "111:149", "111:150", "111:151", "111:152", "111:153", "111:154", "111:155", "111:156", "111:157", "111:158", "111:159", "111:160", "111:161", "111:162", "111:163", "111:164", "111:165"],
+  "completedSteps": ["P0.a", "P0.b", "P0.c", "P0.d", "P0.e", "P0.f", "P1.a", "P1.b", "P1.c", "P2.a", "P2.b", "P3.a", "P3.b", "P3.c", "P3.d", "P3.e", "P3.f", "P3.g", "P4.a", "P4.b", "P4.c", "P4.d", "P4.e"],
+  "pendingSteps": [],
+  "lastReadback": {
+    "variantCount": 8,
+    "propertyCount": 6,
+    "solidPaintBindingsChecked": 40,
+    "typographyBindingsChecked": 80,
+    "cornerBindingsChecked": 32,
+    "strokeSideBindingsChecked": 32,
+    "gapBindingsChecked": 8,
+    "focusEffectColorBindingsChecked": 4,
+    "focusEffectScopeIssues": 0,
+    "effectCount": 25,
+    "semanticRolesUsed": 23,
+    "tokenModeAliasesChecked": 92,
+    "activeTrackContrastMinimum": 3.24,
+    "contrastIssues": 0,
+    "semanticScopeIssues": 0,
+    "visualReview": "PASS: eight states, pale Off Default/Focus and focus rings preserved after effect-only rebinding; screenshot 704x280, no apparent clipping",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": ["State defualt normalized to Default.", "Off/Focus radius font/size/lg normalized to radius/full.", "Off/Default and Off/Focus retain pale background/muted with new neutral control stroke for contrast by AMD-TOGGLE-VISUAL-CONTRAST-002.", "Off/Hover fill uses background/control-hover instead of source text/tertiary with identical primitive color.", "Off/Disabled thumb uses background/default instead of source icon/on-brand with identical primitive color.", "Label line height 15 px normalized to 16 px token.", "Focus light halo normalized from source literal to white color/focus/effect-inner token, with the same RGB as the previously bound background/default."],
+  "previousAmendment": {"id": "AMD-TOGGLE-CONTRAST-001", "version": "0.1.1", "digestSha256": "35c1b1b55ed7fecc1d165896aa6c0b5be42953b2144e14cccf754197aac046ad", "technicalQaId": "QA-TOGGLE-FIGMA-002", "visualFidelityQaId": "QA-TOGGLE-FIGMA-003"}
+}

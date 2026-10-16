@@ -1,0 +1,49 @@
+schema: figma-component-contract/0.1
+status: OBSERVED
+source:
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  page_id: '2166:596'
+  inspected_on: '2026-09-24'
+sets:
+  - name: container
+    id: '2166:1499'
+    key: 13119fb2380627682c0f22d3a3d59563cc4a832c
+    variants: 18
+    axes:
+      type: [vertical, horizontal]
+      state: [checked, default, inactive]
+      position: [start, middle, end]
+    properties:
+      text: [step, title, caption]
+      boolean: [show_step, show_caption]
+      instance_swap: [icon]
+  - name: Progress line
+    id: '2473:1781'
+    key: d90476f09539927ad4878ffb38ee7bef12fcbcbb
+    variants: 8
+    axes:
+      type: [horizontal, vertical]
+      state: [checked, default]
+      position: [start, end]
+sizes_px:
+  horizontal:
+    start: [116, 97]
+    middle: [200, 97]
+    end: [161, 97]
+  vertical:
+    start: [117, 57]
+    middle: [117, 104]
+    end: [117, 68]
+colors:
+  indicator_checked: '#098300'
+  indicator_default: '#3255F7'
+  indicator_inactive: '#E2E8F0'
+  icon_checked_default: '#FFFFFF'
+  icon_inactive: '#64748B'
+  connector_checked: '#098300'
+  connector_default: '#E2E8F0'
+  step_and_title: '#64748B'
+  caption: '#94A3B8'
+behavior:
+  reactions: 0
+  navigation_rule: UNRESOLVED

@@ -1,0 +1,82 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:18:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 13, inspected_nodes: 13, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: []
+component:
+  id: "3086:1090"
+  key: "c23b7c56a0b6d559794bff1d8892069320f13328"
+  name: Donut
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "3094:3285", name: "Group 10", type: GROUP}
+  page: {id: "268:20756", name: "❖ Chart ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3086-1090", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "3086:1090"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 1895, y: 53}
+  dimensions: {width: 323, height: 510}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "3086:1089", name: "Progress=75%", type: COMPONENT, dimensions: [283, 142]}
+  - {id: "3086:1091", name: "Progress=50%", type: COMPONENT, dimensions: [283, 142]}
+  - {id: "3086:1095", name: "Progress=25%", type: COMPONENT, dimensions: [283, 142]}
+anatomy: {functional_tree: ["Donut → Total vector + Completed vector + Percent text"], graphical_details_omitted: []}
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 6, local: 6, remote: 0, unknown_locality: 0, resolved: 6, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:2988:10", name: "color/interactive/primary/active", locality: LOCAL, scopes: ["SHAPE_FILL"], observed_binding_count: 6, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:197279", name: "color/interactive/primary/default", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196116", name: "color/text/primary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 6, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160903", name: "font/line-height/md", locality: LOCAL, scopes: ["LINE_HEIGHT"], observed_binding_count: 3, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160897", name: "font/size/2xl", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 3, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196141", name: "color/icon/brand", locality: LOCAL, scopes: ["SHAPE_FILL"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties: {definitions: [{name: Progress, type: VARIANT, default: "75%", options: ["75%", "50%", "25%"]}], observed: ["75%", "50%", "25%"], available: ["Progress"], unknown: ["arbitrary percentage not defined"]}
+variants: {observed_combinations: ["75%", "50%", "25%"], available_values: ["Progress=75%/50%/25%"], unknown: ["other percentage values not materialized"]}
+states: {observed: [], available: [], unknown: ["interactive states not defined"]}
+layout:
+  node: {node: {id: "3086:1090", name: Donut, type: COMPONENT_SET}, dimensions: {width: 323, height: 510}, layout_mode: NONE, evidence_refs: [E001]}
+  children:
+    - {node: {id: "3086:1089", name: "Progress=75%", type: COMPONENT}, dimensions: {width: 283, height: 142}, position: {x: 20, y: 20}, layout_mode: NONE, evidence_refs: [E002]}
+    - {node: {id: "3086:1091", name: "Progress=50%", type: COMPONENT}, dimensions: {width: 283, height: 142}, position: {x: 20, y: 182}, layout_mode: NONE, evidence_refs: [E002]}
+    - {node: {id: "3086:1095", name: "Progress=25%", type: COMPONENT}, dimensions: {width: 283, height: 142}, position: {x: 20, y: 343}, layout_mode: NONE, evidence_refs: [E002]}
+  relationships: ["Total and Completed overlap at top-left; Percent centers in inner white region"]
+visual:
+  node: {node: {id: "3086:1090", name: Donut, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["three Total semicircle paths #5F85FB", "three Completed arc paths #3255F7", "three Percent texts #0F172A"]
+  icons: []
+  vector_asset: {path: "sources/figma-snapshots/chart-donut.vector-paths.json", sha256: "60e22a15421f6be666e175bc64905074562f00453abb2032c3203c587c5ad764", vectors: 6}
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "3086:1136", name: Percent}, variant_id: "3086:1089", characters: "75%", font_family: Manrope, font_style: SemiBold, font_size: 32, line_height: "24px", letter_spacing: "0.1%", evidence_refs: [E003]}
+    - {node: {id: "3086:1139", name: Percent}, variant_id: "3086:1091", characters: "50%", font_family: Manrope, font_style: SemiBold, font_size: 32, line_height: "24px", letter_spacing: "0.1%", evidence_refs: [E003]}
+    - {node: {id: "3086:1141", name: Percent}, variant_id: "3086:1095", characters: "25%", font_family: Manrope, font_style: SemiBold, font_size: 32, line_height: "24px", letter_spacing: "0.1%", evidence_refs: [E003]}
+tokens:
+  summary: {total: 6, local: 6, remote: 0}
+  categories:
+    color: ["color/interactive/primary/active", "color/interactive/primary/default", "color/text/primary", "color/icon/brand"]
+    font: ["font/line-height/md", "font/size/2xl"]
+  source: variable_dependencies
+content: {example_content: {observed_strings: ["75%", "50%", "25%"]}, component_rules: ["Percent text matches each static arc"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible percentage text"], undefined: ["metric name", "progress semantics", "screen-reader value", "dynamic updates"]}
+external_dependencies: []
+unresolved: ["meaning of semicircle metric", "three source fill roles not semantically aligned", "arbitrary percentage handling not defined"]
+implementation_notes: ["Preserve six vector paths from read-only JSON asset", "Map Total/Completed to chart SHAPE_FILL roles", "Keep percentage text synchronized with variant"]
+evidence:
+  figma_direct: [{id: E001, source: "node:3086:1090", value: "COMPONENT_SET 323x510"}, {id: E002, source: "vectorPaths", value: "six NONZERO paths preserved"}, {id: E003, source: "TEXT descendants", value: "three Manrope SemiBold 32px labels"}]
+  derived: [{id: D001, source: "visual shape", value: "semicircular progress gauge"}]
+  requires_definition: ["data meaning and accessibility"]
+  confidence: {level: HIGH, reason: "complete traversal, screenshot and exact vector path readback"}

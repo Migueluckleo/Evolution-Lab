@@ -1,0 +1,118 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T21:10:10Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 22, inspected_nodes: 22, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote component library and version not exposed"]
+component:
+  id: "2425:35897"
+  key: e96a86bbd1d613d821281d737f2cdc262791cbe6
+  name: Breadcrumb item
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "2425:35869", name: Content, type: FRAME}
+  page: {id: "1098:28190", name: "❖ Breadcrumb  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2425-35897", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2425:35897"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 60, y: 31}
+  dimensions: {width: 162, height: 438}
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "2425:35898", name: "State=default, active=off", type: COMPONENT, dimensions: [116, 24]}
+  - {id: "2425:35901", name: "State=icon, active=off", type: COMPONENT, dimensions: [44, 20]}
+  - {id: "2425:35904", name: "State=shorten, active=off", type: COMPONENT, dimensions: [42, 24]}
+  - {id: "2425:35907", name: "State=disabled, active=off", type: COMPONENT, dimensions: [112, 24]}
+  - {id: "2425:35910", name: "State=default, active=on", type: COMPONENT, dimensions: [88, 24]}
+  - {id: "2425:35912", name: "State=hover, active=off", type: COMPONENT, dimensions: [88, 24]}
+anatomy:
+  functional_tree: ["item → text/House → optional CaretRight"]
+  graphical_details_omitted: ["five nested vectors represented by active icon instances"]
+dependency_inventory:
+  components: {total_instances: 5, total: 2, local: 0, remote: 2, unknown_locality: 0, resolved: 2, partially_resolved: 0, unresolved: 0}
+  variables: {total: 16, local: 14, remote: 2, unknown_locality: 0, resolved: 16, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: e2fc671298e81c590f5a4a5272d9c97709515666
+    kind: COMPONENT
+    instance_ids: ["2833:585", "2425:35903", "2833:809", "2425:35909"]
+    instance_count: 4
+    main_component: {id: "3374:24967", key: e2fc671298e81c590f5a4a5272d9c97709515666, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretRight}
+    locality: REMOTE
+    active_properties: [{Format: Outline, Weight: Light}]
+    resolution: {status: RESOLVED, evidence: ["instance:2833:585.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: aac149e12fc8ed2da22bd95d2cef764a2b407ad7
+    kind: COMPONENT
+    instance_ids: ["2425:35902"]
+    instance_count: 1
+    main_component: {id: "3248:937", key: aac149e12fc8ed2da22bd95d2cef764a2b407ad7, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: House}
+    locality: REMOTE
+    active_properties: [{Format: Outline, Weight: Light}]
+    resolution: {status: RESOLVED, evidence: ["instance:2425:35902.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+variable_dependencies:
+  - {id: "VariableID:e2073ff7d646032d4b9c0822bf3105ca0806c49c/368:62", name: "Small/sm-spacing-4", locality: REMOTE, used_by: ["2425:35898.itemSpacing", "2425:35901.itemSpacing", "2425:35904.itemSpacing", "2425:35907.itemSpacing", "2425:35910.itemSpacing", "2425:35912.itemSpacing"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:6a000c8cb52185540723b8e7712ca6632e88765c/5164:4", name: "Spacing/Small/spacing-sm-20", locality: REMOTE, used_by: ["2425:35909.width"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196104", name: "color/background/default", locality: LOCAL, used_by: ["2833:585.hiddenFill", "2425:35903.hiddenFill", "2833:809.hiddenFill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196141", name: "color/icon/brand", locality: LOCAL, used_by: ["I2425:35902;8899:10822.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196139", name: "color/icon/secondary", locality: LOCAL, used_by: ["I2833:585;8899:79841.fill", "I2425:35903;8899:79841.fill", "I2833:809;8899:79841.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196140", name: "color/icon/tertiary", locality: LOCAL, used_by: ["I2425:35909;8899:79841.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196121", name: "color/text/brand", locality: LOCAL, used_by: ["2425:35911.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196122", name: "color/text/brand/strong", locality: LOCAL, used_by: ["2425:35913.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196119", name: "color/text/disabled", locality: LOCAL, used_by: ["2425:35908.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196118", name: "color/text/tertiary", locality: LOCAL, used_by: ["2425:35899.fill", "2425:35905.fill"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", locality: LOCAL, used_by: ["2425:35899.fontFamily", "2425:35905.fontFamily", "2425:35908.fontFamily", "2425:35911.fontFamily", "2425:35913.fontFamily"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:52:708", name: "font/size/16", locality: LOCAL, used_by: ["2425:35908.fontSize", "2425:35911.fontSize", "2425:35913.fontSize"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160888", name: "font/weight/regular", locality: LOCAL, used_by: ["2425:35899.fontStyle", "2425:35908.fontStyle", "2425:35911.fontStyle", "2425:35913.fontStyle"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160890", name: "font/weight/semibold", locality: LOCAL, used_by: ["2425:35905.fontStyle"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:19", name: "size/lg", locality: LOCAL, used_by: ["2425:35899.fontSize", "2425:35905.fontSize"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:20", name: "size/xl", locality: LOCAL, used_by: ["2833:585.width", "2833:809.width"], resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties:
+  definitions: [{name: text, type: TEXT, default: Breadcrumb}, {name: State, type: VARIANT, default: default, options: [default, shorten, disabled, hover, icon]}, {name: active, type: VARIANT, default: "off", options: ["off", "on"]}]
+  observed: ["default/off", "icon/off", "shorten/off", "disabled/off", "default/on", "hover/off"]
+  available: ["State: default/shorten/disabled/hover/icon", "active: off/on"]
+  unknown: ["four cartesian combinations not materialized"]
+variants:
+  observed_combinations: ["default/off", "icon/off", "shorten/off", "disabled/off", "default/on", "hover/off"]
+  available_values: ["State=default,shorten,disabled,hover,icon", "active=off,on"]
+  unknown: ["four missing combinations"]
+states:
+  observed: [default, shorten, disabled, hover, icon, active]
+  available: [default, shorten, disabled, hover, icon, active]
+  unknown: []
+layout:
+  node: {node: {id: "2425:35897", name: Breadcrumb item, type: COMPONENT_SET}, dimensions: {width: 162, height: 438}, layout_mode: NONE, evidence_refs: [E001]}
+  children: [{node: {id: "2425:35898", name: "State=default, active=off", type: COMPONENT}, layout_mode: HORIZONTAL, spacing: {gap: 4}, evidence_refs: [E002]}]
+  relationships: []
+visual:
+  node: {node: {id: "2425:35897", name: Breadcrumb item, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: []
+  icons: [{node: {id: "2425:35902", name: House, type: INSTANCE}, dimensions: {width: 20, height: 20, unit: px}, format: Outline, weight: Light, vector_descendant_count: 1, evidence_refs: [E003]}, {node: {id: "2833:585", name: CaretRight, type: INSTANCE}, dimensions: {width: 24, height: 24, unit: px}, format: Outline, weight: Light, vector_descendant_count: 1, evidence_refs: [E003]}]
+typography:
+  styles: []
+  text_runs: [{node: {id: "2425:35899", name: Breadcrumb}, characters: Breadcrumb, font_family: Manrope, font_style: Regular, font_size: 16, line_height: "150%", letter_spacing: "-2%", evidence_refs: [E004]}, {node: {id: "2425:35905", name: "..."}, characters: "...", font_family: Manrope, font_style: SemiBold, font_size: 16, line_height: "150%", letter_spacing: "-2%", evidence_refs: [E004]}]
+tokens:
+  summary: {total: 16, local: 14, remote: 2}
+  categories: {color: ["color/background/default", "color/icon/brand", "color/icon/secondary", "color/icon/tertiary", "color/text/brand", "color/text/brand/strong", "color/text/disabled", "color/text/tertiary"], typography: ["font/family/base", "font/size/16", "font/weight/regular", "font/weight/semibold"], sizing: ["size/lg", "size/xl"], remote: ["Small/sm-spacing-4", "Spacing/Small/spacing-sm-20"]}
+  source: variable_dependencies
+content: {example_content: {observed_strings: [Breadcrumb, "..."]}, component_rules: ["text property default Breadcrumb"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible text and icon dimensions"], undefined: ["navigation semantics", "keyboard focus", "touch target", "actual shortening rule"]}
+external_dependencies: [{kind: COMPONENT, key: e2fc671298e81c590f5a4a5272d9c97709515666, name: CaretRight, remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}, {kind: COMPONENT, key: aac149e12fc8ed2da22bd95d2cef764a2b407ad7, name: House, remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}]
+unresolved: []
+implementation_notes: ["Do not infer unobserved State/active combinations", "Composition Breadcrumbs documented separately", "Source IDs do not identify destination variables"]
+evidence:
+  figma_direct: [{id: E001, source: "node:2425:35897.identity", value: "COMPONENT_SET 162x438"}, {id: E002, source: "node:2425:35898.layoutMode", value: HORIZONTAL}, {id: E003, source: "instance:2425:35902.mainComponent", value: House}, {id: E004, source: "node:2425:35899.fontName", value: "Manrope Regular"}]
+  derived: [{id: D001, source: "traversal:2425:35897", value: "22 nodes, 5 instances, 16 variables"}]
+  requires_definition: ["navigation and accessibility behavior"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; remote library identity unavailable"}

@@ -1,0 +1,1097 @@
+{
+  "fileKey": "zuUq3gcF9T3CLid44bjY6W",
+  "root": "20355:74859",
+  "date": "2026-10-08",
+  "sourceModified": false,
+  "nodes": [
+    {
+      "id": "20355:74859",
+      "parentId": "20355:72762",
+      "name": "Organism | AI Ecosistem | sectionChat",
+      "type": "COMPONENT_SET",
+      "x": 6583,
+      "y": 271,
+      "width": 1848,
+      "height": 807,
+      "visible": true,
+      "layoutMode": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "cornerRadius": 5,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": null
+    },
+    {
+      "id": "20355:74860",
+      "parentId": "20355:74859",
+      "name": "state=active",
+      "type": "COMPONENT",
+      "x": 870,
+      "y": 16,
+      "width": 782,
+      "height": 775,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 80,
+      "paddingBottom": 0,
+      "paddingLeft": 120,
+      "paddingRight": 120,
+      "itemSpacing": 32,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "VERTICAL",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:83462"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:83462"
+          }
+        ]
+      },
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74861",
+      "parentId": "20355:74860",
+      "name": "chat",
+      "type": "SLOT",
+      "x": 120,
+      "y": 80,
+      "width": 542,
+      "height": 533,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FILL",
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 8,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "chat#588:0"
+      }
+    },
+    {
+      "id": "20355:74862",
+      "parentId": "20355:74861",
+      "name": "Molecules | Anticipa | Conversation",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 433,
+      "width": 542,
+      "height": 72,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 100,
+      "paddingRight": 16,
+      "itemSpacing": 10,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74863",
+      "parentId": "20355:74861",
+      "name": "Leyendo la informaci...",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 513,
+      "width": 542,
+      "height": 20,
+      "visible": true,
+      "layoutMode": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "19871:20905",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "19871:20905",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 0.061619289219379425
+          }
+        }
+      ],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74864",
+      "parentId": "20355:74860",
+      "name": "messages",
+      "type": "FRAME",
+      "x": 120,
+      "y": 645,
+      "width": 542,
+      "height": 130,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 30,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74867",
+      "parentId": "20355:74864",
+      "name": "Molecules | Anticipa | Conversation",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 542,
+      "height": 130,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": -1,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74868",
+      "parentId": "20355:74859",
+      "name": "state=standBy",
+      "type": "COMPONENT",
+      "x": 16,
+      "y": 16,
+      "width": 782,
+      "height": 775,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 80,
+      "paddingBottom": 0,
+      "paddingLeft": 120,
+      "paddingRight": 120,
+      "itemSpacing": 32,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:83462"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:83462"
+          }
+        ]
+      },
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74869",
+      "parentId": "20355:74868",
+      "name": "beniStandBy",
+      "type": "INSTANCE",
+      "x": 306.6300048828125,
+      "y": 80,
+      "width": 168.739990234375,
+      "height": 163.739990234375,
+      "visible": true,
+      "layoutMode": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:74829",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.10000000149011612
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:74829",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.10000000149011612
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 2
+          }
+        },
+        {
+          "action": null,
+          "actions": [],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74870",
+      "parentId": "20355:74868",
+      "name": "title and description",
+      "type": "FRAME",
+      "x": 120,
+      "y": 275.739990234375,
+      "width": 542,
+      "height": 79,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 8,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74871",
+      "parentId": "20355:74870",
+      "name": "saludo",
+      "type": "TEXT",
+      "x": -124,
+      "y": 0,
+      "width": 790,
+      "height": 44,
+      "visible": true,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75535"
+          }
+        ]
+      },
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "textStyleId": "S:46202d91d377a63d2a63e41e03c82b09dd58c0e7,",
+      "characters": "Hola, Bruce Wayne ",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0.10000000149011612
+      },
+      "textAlignHorizontal": "CENTER",
+      "textAutoResize": "NONE",
+      "segments": [
+        {
+          "characters": "Hola, ",
+          "start": 0,
+          "end": 6,
+          "fontSize": 32,
+          "fontName": {
+            "family": "Manrope",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0.10000000149011612
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:15005:75097"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fontFamily": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75178"
+            },
+            "fontSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75535"
+            }
+          }
+        },
+        {
+          "characters": "Bruce Wayne ",
+          "start": 6,
+          "end": 18,
+          "fontSize": 32,
+          "fontName": {
+            "family": "Manrope",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0.10000000149011612
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.2549019753932953,
+                "g": 0.3450980484485626,
+                "b": 0.6078431606292725
+              },
+              "boundVariables": {}
+            }
+          ],
+          "boundVariables": {
+            "fontFamily": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75178"
+            },
+            "fontSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75535"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "20355:74872",
+      "parentId": "20355:74870",
+      "name": "pregunta",
+      "type": "TEXT",
+      "x": 0,
+      "y": 52,
+      "width": 542,
+      "height": 27,
+      "visible": true,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17569:27771"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17569:27771"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75539"
+          }
+        ]
+      },
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "textStyleId": "",
+      "characters": "¿En qué necesitas que te ayude?",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0.10000000149011612
+      },
+      "textAlignHorizontal": "CENTER",
+      "textAutoResize": "HEIGHT",
+      "segments": [
+        {
+          "characters": "¿En qué necesitas que te ayude?",
+          "start": 0,
+          "end": 31,
+          "fontSize": 20,
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0.10000000149011612
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:17569:27771"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fontFamily": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75178"
+            },
+            "fontSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75539"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "20355:74873",
+      "parentId": "20355:74868",
+      "name": "messages",
+      "type": "FRAME",
+      "x": 120,
+      "y": 386.739990234375,
+      "width": 542,
+      "height": 219,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 30,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74874",
+      "parentId": "20355:74873",
+      "name": "Molecules | Anticipa | Conversation",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 542,
+      "height": 101,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "MAX",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": -1,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74875",
+      "parentId": "20355:74873",
+      "name": "suggestions",
+      "type": "FRAME",
+      "x": 0,
+      "y": 131,
+      "width": 542,
+      "height": 88,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "WRAP",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 16,
+      "counterAxisSpacing": 16,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74876",
+      "parentId": "20355:74875",
+      "name": "Chips",
+      "type": "INSTANCE",
+      "x": 6,
+      "y": 0,
+      "width": 267,
+      "height": 36,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 10,
+      "paddingBottom": 10,
+      "paddingLeft": 12,
+      "paddingRight": 12,
+      "itemSpacing": 8,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 99,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+          }
+        ]
+      },
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "19786:72353",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "19786:72353",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74877",
+      "parentId": "20355:74875",
+      "name": "Chips",
+      "type": "INSTANCE",
+      "x": 289,
+      "y": 0,
+      "width": 247,
+      "height": 36,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 10,
+      "paddingBottom": 10,
+      "paddingLeft": 12,
+      "paddingRight": 12,
+      "itemSpacing": 8,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 99,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+          }
+        ]
+      },
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "19786:72353",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "19786:72353",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "20355:74878",
+      "parentId": "20355:74875",
+      "name": "Chips",
+      "type": "INSTANCE",
+      "x": 94,
+      "y": 52,
+      "width": 354,
+      "height": 36,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "paddingTop": 10,
+      "paddingBottom": 10,
+      "paddingLeft": 12,
+      "paddingRight": 12,
+      "itemSpacing": 8,
+      "counterAxisSpacing": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 99,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:c23fd3f424be6b83adb3734f6ca0a0cca5e9a287/5669:4"
+          }
+        ]
+      },
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "19786:72353",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "19786:72353",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "componentPropertyReferences": {}
+    }
+  ]
+}

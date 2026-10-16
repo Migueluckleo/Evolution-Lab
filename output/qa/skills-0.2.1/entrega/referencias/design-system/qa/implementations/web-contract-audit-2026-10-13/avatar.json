@@ -1,0 +1,2270 @@
+{
+  "family": "avatar",
+  "sources": {
+    "base": "drafts/contracts/avatar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/avatar.source-color-amendment.v0.1.1.md"
+    ]
+  },
+  "checks": 512,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/image/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "contable/image/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/image/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "contable/image/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "contable/image/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/image/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/image/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/image/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/image/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "contable/image/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "contable/image/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/image/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "contable/icon/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "contable/icon/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/icon/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "contable/icon/small/icon",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "contable/icon/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "contable/icon/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/icon/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/icon/medium/icon",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "contable/icon/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/icon/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/icon/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "contable/icon/large/icon",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "contable/icon/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "contable/icon/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/icon/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "contable/icon/extra-large/icon",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/text/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "contable/text/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/text/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "contable/text/small/text",
+      "actual": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "contable/text/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "contable/text/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/text/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/text/medium/text",
+      "actual": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "contable/text/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/text/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/text/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "contable/text/large/text",
+      "actual": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "contable/text/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "contable/text/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "contable/text/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "contable/text/extra-large/text",
+      "actual": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "administrativo/image/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "administrativo/image/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/image/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "administrativo/image/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "administrativo/image/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/image/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/image/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/image/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/image/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "administrativo/image/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "administrativo/image/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/image/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "administrativo/icon/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "administrativo/icon/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/icon/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "administrativo/icon/small/icon",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "administrativo/icon/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "administrativo/icon/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/icon/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/icon/medium/icon",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "administrativo/icon/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/icon/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/icon/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "administrativo/icon/large/icon",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "administrativo/icon/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "administrativo/icon/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/icon/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "administrativo/icon/extra-large/icon",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/text/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "administrativo/text/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/text/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "administrativo/text/small/text",
+      "actual": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "administrativo/text/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "administrativo/text/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/text/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/text/medium/text",
+      "actual": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "administrativo/text/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/text/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/text/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "administrativo/text/large/text",
+      "actual": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "administrativo/text/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "administrativo/text/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "administrativo/text/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "administrativo/text/extra-large/text",
+      "actual": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "servicios/image/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "servicios/image/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/image/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "servicios/image/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "servicios/image/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/image/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/image/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/image/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/image/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "servicios/image/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "servicios/image/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/image/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "servicios/icon/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "servicios/icon/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/icon/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "servicios/icon/small/icon",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "servicios/icon/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "servicios/icon/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/icon/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/icon/medium/icon",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "servicios/icon/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/icon/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/icon/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "servicios/icon/large/icon",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "servicios/icon/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "servicios/icon/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/icon/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "servicios/icon/extra-large/icon",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/text/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "servicios/text/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/text/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "servicios/text/small/text",
+      "actual": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "servicios/text/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "servicios/text/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/text/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/text/medium/text",
+      "actual": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "servicios/text/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/text/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/text/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "servicios/text/large/text",
+      "actual": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "servicios/text/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "servicios/text/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "servicios/text/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "servicios/text/extra-large/text",
+      "actual": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "personas/image/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "personas/image/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/image/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "personas/image/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "personas/image/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/image/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/image/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/image/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/image/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "personas/image/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "personas/image/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/image/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "personas/icon/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "personas/icon/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/icon/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "personas/icon/small/icon",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "personas/icon/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "personas/icon/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/icon/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/icon/medium/icon",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "personas/icon/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/icon/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/icon/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "personas/icon/large/icon",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "personas/icon/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "personas/icon/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/icon/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "personas/icon/extra-large/icon",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/text/small",
+      "actual": {
+        "width": 20,
+        "height": 20
+      },
+      "expected": {
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "case": "personas/text/small/face",
+      "actual": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 20,
+        "height": 20,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/text/small/status",
+      "actual": {
+        "width": 5,
+        "height": 5
+      },
+      "expected": {
+        "width": 5,
+        "height": 5
+      }
+    },
+    {
+      "case": "personas/text/small/text",
+      "actual": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "10px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "personas/text/medium",
+      "actual": {
+        "width": 24,
+        "height": 24
+      },
+      "expected": {
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "case": "personas/text/medium/face",
+      "actual": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 24,
+        "height": 24,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/text/medium/status",
+      "actual": {
+        "width": 8,
+        "height": 8
+      },
+      "expected": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/text/medium/text",
+      "actual": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "personas/text/large",
+      "actual": {
+        "width": 32,
+        "height": 32
+      },
+      "expected": {
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/text/large/face",
+      "actual": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 32,
+        "height": 32,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/text/large/status",
+      "actual": {
+        "width": 12,
+        "height": 12
+      },
+      "expected": {
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "case": "personas/text/large/text",
+      "actual": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "case": "personas/text/extra-large",
+      "actual": {
+        "width": 48,
+        "height": 48
+      },
+      "expected": {
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "case": "personas/text/extra-large/face",
+      "actual": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      },
+      "expected": {
+        "width": 48,
+        "height": 48,
+        "border-radius": "50%",
+        "outline-width": "1px",
+        "outline-offset": "-1px"
+      }
+    },
+    {
+      "case": "personas/text/extra-large/status",
+      "actual": {
+        "width": 16,
+        "height": 16
+      },
+      "expected": {
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "case": "personas/text/extra-large/text",
+      "actual": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      },
+      "expected": {
+        "font-size": "20px",
+        "font-weight": "600",
+        "color": "rgb(255, 255, 255)"
+      }
+    }
+  ]
+}

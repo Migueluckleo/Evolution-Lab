@@ -1,0 +1,95 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:20:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 17, inspected_nodes: 17, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote spacing library and version not exposed"]
+component:
+  id: "3075:764"
+  key: "e322384d309997e64a5446a93ad07fd3560f7cf4"
+  name: Header
+  type: COMPONENT
+  description: null
+  parent: {id: "3094:3353", name: "Group 11", type: GROUP}
+  page: {id: "268:20756", name: "❖ Chart ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3075-764", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "3075:764"}
+classification: {kind: component, reusable: true, composition: true, evidence_refs: [E001]}
+identity:
+  position: {x: 717, y: 117}
+  dimensions: {width: 638, height: 47}
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children: [{id: "3075:748", name: Legend, type: FRAME, dimensions: [412, 47]}, {id: "3075:751", name: Indicators, type: FRAME, dimensions: [202, 16]}]
+anatomy: {functional_tree: ["Header → Legend(Title,Description) + Indicators(three labelCell instances)"], graphical_details_omitted: []}
+dependency_inventory:
+  components: {total_instances: 3, total: 1, local: 1, remote: 0, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+  variables: {total: 12, local: 11, remote: 1, unknown_locality: 0, resolved: 12, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: "28c769fbd86a940b2b097d9267f926e9b2736116"
+    kind: COMPONENT
+    instance_ids: ["3075:752", "3075:753", "3075:754"]
+    instance_count: 3
+    main_component: {id: "3015:2309", key: "28c769fbd86a940b2b097d9267f926e9b2736116", name: "Font weight=Regular, Font Size=sm"}
+    component_set: {id: "3086:992", key: "b5deacd96d67b6a46805de3d5abc20cc2717a4ea", name: labelCell}
+    locality: LOCAL
+    active_properties: [{Font weight: Regular, Font Size: sm}]
+    resolution: {status: RESOLVED, evidence: ["instance.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: "drafts/contracts/chart-label-cell.source.component-contract.yaml"}
+variable_dependencies:
+  - {id: "VariableID:562:13", name: "spacing/xl", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: "spacing/sm", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196116", name: "color/text/primary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 10, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", locality: LOCAL, scopes: ["FONT_FAMILY"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160895", name: "font/size/lg", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160892", name: "font/size/xs", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:10", name: "spacing/xs", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 9, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", locality: REMOTE, scopes: ["WIDTH_HEIGHT", "GAP"], observed_binding_count: 6, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:3", name: "radius/sm", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 24, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:387", name: "color/brand/strong", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:389", name: "color/brand/accent", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:197279", name: "color/interactive/primary/default", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties: {definitions: [{name: Ttile, type: TEXT, default: "Title chart"}, {name: Description, type: TEXT, default: Description}, {name: valuesVisible, type: BOOLEAN, default: true}, {name: descriptionVisible, type: BOOLEAN, default: true}], observed: ["Title chart", "Description", "three visible indicators"], available: ["Ttile", "Description", "valuesVisible", "descriptionVisible"], unknown: ["parent-level Value 1/2/3 text properties absent"]}
+variants: {observed_combinations: ["single Header component"], available_values: [], unknown: []}
+states: {observed: [], available: [], unknown: ["interaction states not defined"]}
+layout:
+  node: {node: {id: "3075:764", name: Header, type: COMPONENT}, dimensions: {width: 638, height: 47}, layout_mode: HORIZONTAL, spacing: {gap: 24}, evidence_refs: [E001]}
+  children: [{node: {id: "3075:748", name: Legend, type: FRAME}, dimensions: {width: 412, height: 47}, layout_mode: VERTICAL, spacing: {gap: 8}, evidence_refs: [E002]}, {node: {id: "3075:751", name: Indicators, type: FRAME}, dimensions: {width: 202, height: 16}, layout_mode: HORIZONTAL, spacing: {gap: 0}, evidence_refs: [E002]}]
+  relationships: ["Indicators has three local labelCell instances"]
+visual:
+  node: {node: {id: "3075:764", name: Header, type: COMPONENT}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["five color/text/primary text fills", "three overridden series swatches use brand/strong, brand/accent, interactive/primary/default"]
+  icons: []
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "3075:749", name: "Title"}, characters: "Title chart", font_family: Manrope, font_style: Regular, font_size: 20, line_height: "20px", letter_spacing: "0.1%", evidence_refs: [E003]}
+    - {node: {id: "3075:750", name: "Description"}, characters: "Description", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "20px", letter_spacing: "0.1%", evidence_refs: [E003]}
+    - {node: {id: "I3075:752;3015:2308", name: "Text"}, characters: "Value 1", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", letter_spacing: "0%", evidence_refs: [E003]}
+    - {node: {id: "I3075:753;3015:2308", name: "Text"}, characters: "Value 2", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", letter_spacing: "0%", evidence_refs: [E003]}
+    - {node: {id: "I3075:754;3015:2308", name: "Text"}, characters: "Value 3", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", letter_spacing: "0%", evidence_refs: [E003]}
+tokens:
+  summary: {total: 12, local: 11, remote: 1}
+  categories:
+    color: ["color/text/primary", "color/brand/strong", "color/brand/accent", "color/interactive/primary/default"]
+    font: ["font/family/base", "font/size/lg", "font/size/xs"]
+    radius: ["radius/sm"]
+    spacing: ["spacing/xl", "spacing/sm", "spacing/xs", "Spacing/Small/spacing-sm-0"]
+  source: variable_dependencies
+content: {example_content: {observed_strings: ["Title chart", "Description", "Value 1", "Value 2", "Value 3"]}, component_rules: ["Ttile and Description editable at parent", "three legend labels overridden within instances"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible heading, description and three labeled swatches"], undefined: ["heading level", "series semantics", "color alternative", "chart reading"]}
+external_dependencies: [{kind: VARIABLE, name: "Spacing/Small/spacing-sm-0", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}]
+unresolved: ["Ttile typo", "series meaning", "three swatch roles not chart-semantic", "no parent legend-text properties"]
+implementation_notes: ["Build labelCell first and use three local instances", "Rename destination component Chart Header and Ttile property Title", "Map swatches to chart SHAPE_FILL roles"]
+evidence:
+  figma_direct: [{id: E001, source: "node:3075:764", value: "COMPONENT 638x47"}, {id: E002, source: "traversal:3075:764", value: "17 nodes, 3 local instances"}, {id: E003, source: "TEXT descendants", value: "five Manrope text nodes"}]
+  derived: [{id: D001, source: "composition", value: "chart title and three-series legend"}]
+  requires_definition: ["series data and accessibility"]
+  confidence: {level: HIGH, reason: "complete read-only traversal with local dependency resolved"}

@@ -1,0 +1,141 @@
+{
+  "implementationId": "IMP-BREADCRUMBS-FIGMA-001",
+  "slotsReview": {
+    "protocol": "P-SLOTS/0.1.0",
+    "applicability": "REQUIRED",
+    "status": "VALIDATED",
+    "amendment": "specs/composition-slots.amendment.v0.1.0.md",
+    "state": "implementations/figma/composition-slots.v0.1.0.state.json",
+    "scope": "Trail plus long-label sizing; does not revalidate historical color decisions"
+  },
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Breadcrumbs",
+    "pageId": "190:188",
+    "itemSetId": "190:210",
+    "compositionSetId": "191:229",
+    "documentationNodeIds": [
+      "190:211",
+      "191:230"
+    ]
+  },
+  "contract": {
+    "id": "BREADCRUMBS-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "bc3e6527189481cb5ec909fc7c3ea7c3ae35fb629c3366bb79a748e4b5599806",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "currentTextDataDigestSha256": "b4ea10cbc0165d737a0dff9c75e8ce8de920b2084df31e722e5f9823e85c5603"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1098:28190",
+    "itemSetId": "2425:35897",
+    "compositionSetId": "2425:35937"
+  },
+  "itemVariantIds": {
+    "Default/false": "190:189",
+    "Icon/false": "190:193",
+    "Shortened/false": "190:198",
+    "Disabled/false": "190:202",
+    "Default/true": "190:206",
+    "Hover/false": "190:208"
+  },
+  "compositionVariantIds": {
+    "Level 2": "191:165",
+    "Level 3": "191:175",
+    "Level 4": "191:189",
+    "Level 5": "191:207"
+  },
+  "importedIconMainIds": {
+    "House": "190:125",
+    "CaretRight": "190:158",
+    "ArrowLeft": "191:125"
+  },
+  "newSemanticVariableId": "VariableID:196:122",
+  "constructionScripts": [
+    {
+      "path": "drafts/figma/breadcrumb-item-build.v0.1.0.js",
+      "digestSha256": "f7cae05cbabe8514095b2805001bb5cb75caf55c116e9f3cc8719bb00d99607c"
+    },
+    {
+      "path": "drafts/figma/breadcrumbs-composition-build.v0.1.0.js",
+      "digestSha256": "b8d94ff778377e68b713c1d5e58df9a81d6b99b6ac65b7e248fcb24b07c5c2a3"
+    },
+    {
+      "path": "drafts/figma/breadcrumbs-text-fit.v0.1.0.js",
+      "digestSha256": "bbb982d14927d043d07947297b47e51066e64953d56298365d713b967bc7092c"
+    },
+    {
+      "path": "drafts/figma/breadcrumb-current-text-bind.v0.1.0.js",
+      "digestSha256": "bfd9de6eb9bf7ae92ef38baed732d8d65a2b27c2311e83f0b3b39ac10a59cbc2"
+    }
+  ],
+  "actionsCompleted": [
+    "P3.a page created",
+    "P3.b six Breadcrumb item variants created",
+    "P3.c four composition levels created",
+    "P3.d structural, binding, contrast and visual QA passed"
+  ],
+  "pendingValidations": [],
+  "lastReadback": {
+    "itemVariantCount": 6,
+    "compositionVariantCount": 4,
+    "itemSetSize": [
+      162,
+      438
+    ],
+    "compositionSetSize": [
+      650,
+      296
+    ],
+    "compositionWidths": [
+      248,
+      372,
+      496,
+      620
+    ],
+    "localItemInstances": 14,
+    "phosphorInstances": {
+      "House": 1,
+      "CaretRight": 14,
+      "ArrowLeft": 4
+    },
+    "visibleSolidPaints": 38,
+    "visibleSolidPaintBindingsChecked": 38,
+    "hiddenIconWrapperFills": 19,
+    "semanticScopeIssues": 0,
+    "unboundVisibleSolidPaints": 0,
+    "textNodesCheckedForFullTypographyBindings": 19,
+    "iconSizeBindings": 19,
+    "gapBindings": 14,
+    "currentTextBindingsChecked": 5,
+    "currentTextContrastByMode": {
+      "Contable": 5.56,
+      "Administrativo": 5.93,
+      "Servicios": 7.2,
+      "Personas": 6.32
+    },
+    "reactions": 0,
+    "visualReview": "PASS: source page 1242x1106 and destination item 162x438/composition 650x296 screenshots inspected; post-fix labels remain one line with no clipping or apparent unintended overlap",
+    "itemPublishStatus": "UNPUBLISHED",
+    "compositionPublishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "House and compact CaretRight 20→24 px; no 20 px dimension primitive/token exists in approved target JSON.",
+    "Active example-label Inter override normalized to local Manrope; tracking source -2% maps to local tight token with unresolved cross-platform unit.",
+    "Text boxes 88→92 px and composition widths 242/362/482/602→248/372/496/620 after post-build screenshot revealed clipping under local typography.",
+    "Current text in Servicios changes orange/500→orange/700 through a new semantic TEXT_FILL role to meet 4.5:1 contrast; other three mode aliases unchanged."
+  ],
+  "colorRefinement": {
+    "date": "2026-10-05",
+    "status": "PASS_TECHNICAL_COLOR_SCOPE",
+    "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+    "state": "implementations/figma/six-family-color.v0.1.0.state.json",
+    "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+    "note": "Supersedes historical color/contrast claims only. Existing geometry/typography deviations and human-audit status remain."
+  }
+}

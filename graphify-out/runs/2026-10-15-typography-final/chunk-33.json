@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "label": "Input Field: galería de estados y tamaños",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_input_field_tama_os_large_middle_small",
+      "label": "Tamaños large middle small",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Tres grupos de tamaños explícitamente rotulados."
+    },
+    {
+      "id": "qa_implementations_typography_web_input_field_estados_default_success_error_disabled",
+      "label": "Estados default success error disabled",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Bordes neutros, verdes, rojos y superficies grisáceas distinguen los estados rotulados."
+    },
+    {
+      "id": "qa_implementations_typography_web_input_field_contenido_empty_filled",
+      "label": "Contenido empty filled",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Placeholder y Text aparecen como ejemplos de campo vacío y rellenado."
+    },
+    {
+      "id": "qa_implementations_typography_web_input_field_anatom_a_label_requerido",
+      "label": "Anatomía Label requerido",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Etiqueta Label con asterisco rojo encima del campo."
+    },
+    {
+      "id": "qa_implementations_typography_web_input_field_icono_ojo_y_helper_text",
+      "label": "Icono ojo y Helper text",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Ojo alineado a la derecha del campo y texto de ayuda debajo; el color cambia entre los ejemplos."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "target": "qa_implementations_typography_web_input_field_tama_os_large_middle_small",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "target": "qa_implementations_typography_web_input_field_estados_default_success_error_disabled",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "target": "qa_implementations_typography_web_input_field_contenido_empty_filled",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "target": "qa_implementations_typography_web_input_field_anatom_a_label_requerido",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_input_field_input_field__galer_a_de_estados_y_tama_os",
+      "target": "qa_implementations_typography_web_input_field_icono_ojo_y_helper_text",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/input-field.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_characters_web_evidencia_visual",
+      "label": "Montaje web de trece dibujos de personajes BENI y NAVI",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false,
+      "behavior_not_proven_by_screenshot": true
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_characters_web_fila_beni",
+      "label": "Fila superior con seis figuras azules BENI, ojos y boca claros",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_characters_web_fila_navi",
+      "label": "Fila inferior con siete figuras naranjas NAVI y ojos claros",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_characters_web_gestos_beni",
+      "label": "BENI muestra ojos verticales o trazos horizontales y diferentes posiciones del rostro",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_characters_web_gestos_navi",
+      "label": "NAVI muestra ojos verticales, trazos horizontales, alturas distintas y sombras laterales en dos figuras",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_characters_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_characters_web_fila_beni",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_characters_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_characters_web_fila_navi",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_characters_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_characters_web_gestos_beni",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_characters_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_characters_web_gestos_navi",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/characters.web.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "Authorized pre-freeze correction of two description prefixes only; does not assert a fresh Figma readback. Prior evidence is retained unchanged.",
+  "canonical_source": "specs/tokens/ai-design-system.typography.v0.1.2.json",
+  "before_sha256": "496a8b38fbcc94cdd47015b5d6b4255132827995559917f28c7d6a95a193c361",
+  "after_sha256": "074a31a83f09b30a02fa8b8f0a7730bdb33fc0a8a9c59e3c8d2469b5799e934c",
+  "before_bytes_evidence": "qa/implementations/typography/continuation-2026-10-15/catalog-v0.1.2.interrupted-source.json",
+  "style_count": 79,
+  "changed_fields": [
+    {
+      "style_id": "ui-checkbox-label-scaled-two-thirds",
+      "field": "description",
+      "before": "Etiquetas ocultas de Checkbox dentro de Select Small y sus muestras existentes, escaladas a dos tercios. Conserva el tamaño y la línea efectivos de esta composición; no es un nuevo tamaño de Checkbox ni un escalón general. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas.",
+      "after": "Etiquetas ocultas de Checkbox dentro de Dropdown Item Small y sus muestras existentes, escaladas a dos tercios. Conserva el tamaño y la línea efectivos de esta composición; no es un nuevo tamaño de Checkbox ni un escalón general. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas."
+    },
+    {
+      "style_id": "ui-checkbox-label-scaled-five-sixths",
+      "field": "description",
+      "before": "Etiquetas ocultas de Checkbox dentro de Select Medium y sus muestras existentes, escaladas a cinco sextos. Conserva las métricas efectivas sin cambiar la composición ni el principal Checkbox. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas.",
+      "after": "Etiquetas ocultas de Checkbox dentro de Dropdown Item Medium, Select y sus muestras existentes, escaladas a cinco sextos. Conserva las métricas efectivas sin cambiar la composición ni el principal Checkbox. Receta materializada de compatibilidad para comparar el resultado efectivo y reproducirlo en web. En las instancias Figma censadas, el vínculo se verifica mediante el estilo del principal, la cadena real y su escala nativa según la enmienda 0.1.2; no aplicar esta receta materializada a esas instancias ni volver a escalar sus métricas."
+    }
+  ],
+  "unchanged": "All recipes, names, IDs, tokenRefs, numeric encodings, bindings, third derived description and other fields are byte-equivalent within the parsed canonical data.",
+  "source_evidence": "implementations/figma/typography.v0.1.1.mapping.json",
+  "figma_readback": "PENDING_PHASE2"
+}

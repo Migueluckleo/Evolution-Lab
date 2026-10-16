@@ -1,0 +1,907 @@
+[
+  {
+    "id": "VariableID:12:33",
+    "name": "spacing/xl",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "description": "Nivel ampliado de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "aliases": [
+      "spacing/24",
+      "spacing/24",
+      "spacing/24",
+      "spacing/24"
+    ],
+    "values": [
+      24,
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "id": "VariableID:12:39",
+    "name": "radius/none",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "description": "Ausencia intencional de redondeo dentro de la escala semántica de radios. Úsalo cuando una superficie deba conservar esquinas rectas de forma explícita.",
+    "aliases": [
+      "radius/0",
+      "radius/0",
+      "radius/0",
+      "radius/0"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "VariableID:12:18",
+    "name": "spacing/none",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+    "aliases": [
+      "spacing/0",
+      "spacing/0",
+      "spacing/0",
+      "spacing/0"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "VariableID:12:30",
+    "name": "spacing/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "aliases": [
+      "spacing/8",
+      "spacing/8",
+      "spacing/8",
+      "spacing/8"
+    ],
+    "values": [
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "id": "VariableID:13:27",
+    "name": "color/text/primary",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+    "aliases": [
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900"
+    ],
+    "values": [
+      "#0F172A",
+      "#0F172A",
+      "#0F172A",
+      "#0F172A"
+    ]
+  },
+  {
+    "id": "VariableID:12:16",
+    "name": "font/letter-spacing/normal",
+    "type": "FLOAT",
+    "scopes": [
+      "LETTER_SPACING"
+    ],
+    "description": "Tracking semántico neutro. Úsalo cuando el texto deba conservar el espaciado entre caracteres de referencia sin expansión ni contracción adicional.",
+    "aliases": [
+      "font/letter-spacing/normal",
+      "font/letter-spacing/normal",
+      "font/letter-spacing/normal",
+      "font/letter-spacing/normal"
+    ],
+    "values": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "VariableID:10:10",
+    "name": "font/size/md",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "description": "Nivel base de la escala semántica de tamaño tipográfico. Úsalo cuando no exista una necesidad explícita de reducir o aumentar la presencia del texto.",
+    "aliases": [
+      "font/size/16",
+      "font/size/16",
+      "font/size/16",
+      "font/size/16"
+    ],
+    "values": [
+      16,
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "VariableID:10:3",
+    "name": "font/weight/regular",
+    "type": "STRING",
+    "scopes": [
+      "FONT_STYLE"
+    ],
+    "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable.",
+    "aliases": [
+      "font/weight/regular",
+      "font/weight/regular",
+      "font/weight/regular",
+      "font/weight/regular"
+    ],
+    "values": [
+      "regular",
+      "regular",
+      "regular",
+      "regular"
+    ]
+  },
+  {
+    "id": "VariableID:10:2",
+    "name": "font/family/base",
+    "type": "STRING",
+    "scopes": [
+      "FONT_FAMILY"
+    ],
+    "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+    "aliases": [
+      "font/family/manrope",
+      "font/family/manrope",
+      "font/family/manrope",
+      "font/family/manrope"
+    ],
+    "values": [
+      "manrope",
+      "manrope",
+      "manrope",
+      "manrope"
+    ]
+  },
+  {
+    "id": "VariableID:12:29",
+    "name": "spacing/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "description": "Nivel mínimo de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "aliases": [
+      "spacing/4",
+      "spacing/4",
+      "spacing/4",
+      "spacing/4"
+    ],
+    "values": [
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "VariableID:13:5",
+    "name": "radius/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "description": "Nivel bajo de redondeo semántico. Úsalo cuando una superficie necesite una curvatura discreta y consistente con la escala.",
+    "aliases": [
+      "radius/4",
+      "radius/4",
+      "radius/4",
+      "radius/4"
+    ],
+    "values": [
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "VariableID:516:122",
+    "name": "color/background/header-release-start",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL"
+    ],
+    "description": "Extremo inicial del fondo degradado de la etiqueta de versión preliminar en Header. Acento de estado de versión, independiente de categoría; alias a primitiva existente, no color de texto ni de icono.",
+    "aliases": [
+      "color/purple/400",
+      "color/purple/400",
+      "color/purple/400",
+      "color/purple/400"
+    ],
+    "values": [
+      "#A146FB",
+      "#A146FB",
+      "#A146FB",
+      "#A146FB"
+    ]
+  },
+  {
+    "id": "VariableID:516:123",
+    "name": "color/background/header-release-end",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL"
+    ],
+    "description": "Extremo final del fondo degradado de la etiqueta de versión preliminar en Header. Acento de estado de versión, independiente de categoría; alias a primitiva existente, no color de texto ni de icono.",
+    "aliases": [
+      "color/blue/400",
+      "color/blue/400",
+      "color/blue/400",
+      "color/blue/400"
+    ],
+    "values": [
+      "#3255F7",
+      "#3255F7",
+      "#3255F7",
+      "#3255F7"
+    ]
+  },
+  {
+    "id": "VariableID:13:33",
+    "name": "color/text/on-brand",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "description": "Color de texto destinado a superficies de marca. Úsalo cuando el texto necesite mantener contraste y legibilidad dentro de un fondo cromático de identidad.",
+    "aliases": [
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100"
+    ],
+    "values": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "id": "VariableID:12:41",
+    "name": "stroke/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "STROKE_FLOAT"
+    ],
+    "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema.",
+    "aliases": [
+      "stroke/1",
+      "stroke/1",
+      "stroke/1",
+      "stroke/1"
+    ],
+    "values": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "VariableID:13:14",
+    "name": "color/border/subtle",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "description": "Borde de baja prominencia destinado a separaciones suaves. Úsalo cuando la delimitación deba existir sin competir visualmente con el contenido o con bordes de mayor jerarquía.",
+    "aliases": [
+      "color/blue/200",
+      "color/green/200",
+      "color/orange/200",
+      "color/purple/200"
+    ],
+    "values": [
+      "#BFCEFE",
+      "#93D3BF",
+      "#FFD8C8",
+      "#E0CAFC"
+    ]
+  },
+  {
+    "id": "VariableID:12:26",
+    "name": "size/4xl",
+    "type": "FLOAT",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "description": "Nivel superior de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "aliases": [
+      "size/48",
+      "size/48",
+      "size/48",
+      "size/48"
+    ],
+    "values": [
+      48,
+      48,
+      48,
+      48
+    ]
+  },
+  {
+    "id": "VariableID:13:6",
+    "name": "radius/md",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada.",
+    "aliases": [
+      "radius/8",
+      "radius/8",
+      "radius/8",
+      "radius/8"
+    ],
+    "values": [
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "id": "VariableID:12:23",
+    "name": "size/xl",
+    "type": "FLOAT",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "description": "Nivel ampliado de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "aliases": [
+      "size/24",
+      "size/24",
+      "size/24",
+      "size/24"
+    ],
+    "values": [
+      24,
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "id": "VariableID:13:20",
+    "name": "color/icon/primary",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "description": "Color neutral de mayor jerarquía para iconografía informativa o funcional. Úsalo cuando el ícono deba tener presencia principal sin comunicar una identidad de marca o un estado específico.",
+    "aliases": [
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900"
+    ],
+    "values": [
+      "#0F172A",
+      "#0F172A",
+      "#0F172A",
+      "#0F172A"
+    ]
+  },
+  {
+    "id": "VariableID:12:21",
+    "name": "size/md",
+    "type": "FLOAT",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "description": "Nivel pequeño de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "aliases": [
+      "size/12",
+      "size/12",
+      "size/12",
+      "size/12"
+    ],
+    "values": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "id": "VariableID:13:11",
+    "name": "radius/full",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "description": "Radio semántico para redondeo total. Úsalo cuando la intención sea obtener extremos completamente redondeados independientemente de la dimensión concreta del elemento.",
+    "aliases": [
+      "radius/9999",
+      "radius/9999",
+      "radius/9999",
+      "radius/9999"
+    ],
+    "values": [
+      9999,
+      9999,
+      9999,
+      9999
+    ]
+  },
+  {
+    "id": "VariableID:154:125",
+    "name": "color/background/notification-count",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL"
+    ],
+    "description": "Fondo del indicador compacto que presenta un conteo de notificaciones; comparte valor primitivo con status-busy sin compartir su significado.",
+    "aliases": [
+      "color/red/600",
+      "color/red/600",
+      "color/red/600",
+      "color/red/600"
+    ],
+    "values": [
+      "#D40000",
+      "#D40000",
+      "#D40000",
+      "#D40000"
+    ]
+  },
+  {
+    "id": "VariableID:13:18",
+    "name": "color/border/on-brand",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "description": "Borde destinado a leerse sobre una superficie de marca. Úsalo cuando la delimitación necesite mantener contraste frente a un fondo cromático de alta identidad.",
+    "aliases": [
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100"
+    ],
+    "values": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "id": "VariableID:10:6",
+    "name": "font/weight/bold",
+    "type": "STRING",
+    "scopes": [
+      "FONT_STYLE"
+    ],
+    "description": "Peso tipográfico semántico de máximo énfasis dentro del conjunto actual. Úsalo cuando el contenido requiera la mayor presencia tipográfica definida por el sistema.",
+    "aliases": [
+      "font/weight/bold",
+      "font/weight/bold",
+      "font/weight/bold",
+      "font/weight/bold"
+    ],
+    "values": [
+      "bold",
+      "bold",
+      "bold",
+      "bold"
+    ]
+  },
+  {
+    "id": "VariableID:12:32",
+    "name": "spacing/lg",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "aliases": [
+      "spacing/16",
+      "spacing/16",
+      "spacing/16",
+      "spacing/16"
+    ],
+    "values": [
+      16,
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "VariableID:13:16",
+    "name": "color/border/brand",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "description": "Borde que adopta la identidad cromática principal definida por el modo activo. Úsalo cuando la delimitación deba comunicar marca o pertenencia temática con mayor claridad.",
+    "aliases": [
+      "color/blue/400",
+      "color/green/500",
+      "color/orange/500",
+      "color/purple/500"
+    ],
+    "values": [
+      "#3255F7",
+      "#037255",
+      "#FF5300",
+      "#8300F8"
+    ]
+  },
+  {
+    "id": "VariableID:13:57",
+    "name": "color/interactive/primary/default",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "description": "Superficie de interacción de máxima prominencia en su estado base. Úsala cuando una acción deba adoptar la identidad cromática principal definida por el modo activo.",
+    "aliases": [
+      "color/blue/400",
+      "color/green/500",
+      "color/orange/500",
+      "color/purple/500"
+    ],
+    "values": [
+      "#3255F7",
+      "#037255",
+      "#FF5300",
+      "#8300F8"
+    ]
+  },
+  {
+    "id": "VariableID:12:22",
+    "name": "size/lg",
+    "type": "FLOAT",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "description": "Nivel base de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "aliases": [
+      "size/16",
+      "size/16",
+      "size/16",
+      "size/16"
+    ],
+    "values": [
+      16,
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "VariableID:13:23",
+    "name": "color/icon/on-brand",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "description": "Color de iconografía destinado a aparecer sobre superficies de marca. Úsalo cuando el ícono necesite conservar contraste y legibilidad dentro de un fondo cromático de identidad.",
+    "aliases": [
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100",
+      "color/neutral/100"
+    ],
+    "values": [
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "id": "VariableID:13:32",
+    "name": "color/text/brand",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "description": "Color de texto que adopta la identidad principal del modo activo. Úsalo cuando el contenido textual deba comunicar marca, selección o énfasis temático.",
+    "aliases": [
+      "color/blue/400",
+      "color/green/500",
+      "color/orange/500",
+      "color/purple/500"
+    ],
+    "values": [
+      "#3255F7",
+      "#037255",
+      "#FF5300",
+      "#8300F8"
+    ]
+  },
+  {
+    "id": "VariableID:10:9",
+    "name": "font/size/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo.",
+    "aliases": [
+      "font/size/14",
+      "font/size/14",
+      "font/size/14",
+      "font/size/14"
+    ],
+    "values": [
+      14,
+      14,
+      14,
+      14
+    ]
+  },
+  {
+    "id": "VariableID:12:8",
+    "name": "font/line-height/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "LINE_HEIGHT"
+    ],
+    "description": "Nivel compacto de interlineado semántico. Úsalo cuando el texto necesite una separación vertical contenida sin recurrir al mínimo de la escala.",
+    "aliases": [
+      "font/line-height/20",
+      "font/line-height/20",
+      "font/line-height/20",
+      "font/line-height/20"
+    ],
+    "values": [
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
+    "id": "VariableID:13:28",
+    "name": "color/text/secondary",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "description": "Color de texto de jerarquía secundaria. Úsalo para contenido de apoyo que deba conservar legibilidad sin competir con el texto principal.",
+    "aliases": [
+      "color/neutral/600",
+      "color/neutral/600",
+      "color/neutral/600",
+      "color/neutral/600"
+    ],
+    "values": [
+      "#475569",
+      "#475569",
+      "#475569",
+      "#475569"
+    ]
+  },
+  {
+    "id": "VariableID:10:8",
+    "name": "font/size/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema.",
+    "aliases": [
+      "font/size/12",
+      "font/size/12",
+      "font/size/12",
+      "font/size/12"
+    ],
+    "values": [
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "id": "VariableID:12:7",
+    "name": "font/line-height/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "LINE_HEIGHT"
+    ],
+    "description": "Nivel más compacto de interlineado semántico. Úsalo cuando la composición tipográfica requiera la menor separación vertical disponible dentro de esta escala.",
+    "aliases": [
+      "font/line-height/16",
+      "font/line-height/16",
+      "font/line-height/16",
+      "font/line-height/16"
+    ],
+    "values": [
+      16,
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "id": "VariableID:13:25",
+    "name": "color/icon/brand",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "description": "Color de iconografía que adopta la identidad principal del modo activo. Úsalo cuando un ícono deba comunicar marca, selección o énfasis temático.",
+    "aliases": [
+      "color/blue/400",
+      "color/green/500",
+      "color/orange/500",
+      "color/purple/500"
+    ],
+    "values": [
+      "#3255F7",
+      "#037255",
+      "#FF5300",
+      "#8300F8"
+    ]
+  },
+  {
+    "id": "VariableID:13:9",
+    "name": "radius/2xl",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "description": "Nivel superior de redondeo semántico. Úsalo cuando se necesite una curvatura amplia y consistente con la escala del sistema.",
+    "aliases": [
+      "radius/24",
+      "radius/24",
+      "radius/24",
+      "radius/24"
+    ],
+    "values": [
+      24,
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "id": "VariableID:13:69",
+    "name": "color/surface/brand",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "description": "Superficie de baja intensidad alineada con la familia de marca de cada modo. Úsala para aportar identidad cromática a una región sin emplear el color principal de marca a plena intensidad.",
+    "aliases": [
+      "color/blue/100",
+      "color/green/100",
+      "color/orange/100",
+      "color/purple/100"
+    ],
+    "values": [
+      "#EFF3FF",
+      "#ECFDF5",
+      "#FFF7EC",
+      "#F5F0FF"
+    ]
+  },
+  {
+    "id": "VariableID:164:122",
+    "name": "color/background/avatar-fallback",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL"
+    ],
+    "description": "Fondo cromático de Avatar cuando representa iniciales o un icono en lugar de una imagen; no implica acción interactiva ni se aplica al texto o al icono.",
+    "aliases": [
+      "color/blue/400",
+      "color/green/500",
+      "color/orange/500",
+      "color/purple/500"
+    ],
+    "values": [
+      "#3255F7",
+      "#037255",
+      "#FF5300",
+      "#8300F8"
+    ]
+  },
+  {
+    "id": "VariableID:10:11",
+    "name": "font/size/lg",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "description": "Nivel ampliado de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite más presencia que el nivel base sin entrar en los tamaños de mayor jerarquía.",
+    "aliases": [
+      "font/size/20",
+      "font/size/20",
+      "font/size/20",
+      "font/size/20"
+    ],
+    "values": [
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
+    "id": "VariableID:10:5",
+    "name": "font/weight/semibold",
+    "type": "STRING",
+    "scopes": [
+      "FONT_STYLE"
+    ],
+    "description": "Peso tipográfico semántico para énfasis alto. Úsalo cuando una jerarquía necesite destacarse claramente sin recurrir al peso más fuerte disponible.",
+    "aliases": [
+      "font/weight/semibold",
+      "font/weight/semibold",
+      "font/weight/semibold",
+      "font/weight/semibold"
+    ],
+    "values": [
+      "semibold",
+      "semibold",
+      "semibold",
+      "semibold"
+    ]
+  },
+  {
+    "id": "VariableID:516:124",
+    "name": "color/icon/header-caret-stroke",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "description": "Trazo del indicador de apertura del perfil en Header. Conserva neutral/900 de la fuente sin aplicar roles de texto ni ampliar scopes de tokens existentes.",
+    "aliases": [
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900",
+      "color/neutral/900"
+    ],
+    "values": [
+      "#0F172A",
+      "#0F172A",
+      "#0F172A",
+      "#0F172A"
+    ]
+  }
+]

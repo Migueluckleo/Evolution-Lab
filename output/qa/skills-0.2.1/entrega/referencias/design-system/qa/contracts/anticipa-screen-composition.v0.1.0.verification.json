@@ -1,0 +1,140 @@
+{
+  "verification_id": "QA-ANTICIPA-SCREEN-COMPOSITION-001",
+  "generated_at": "2026-10-06T20:16:18.373Z",
+  "result": "PASS_DOCUMENTARY_CONSISTENCY_WITH_LIMITATIONS",
+  "contract_status": "DRAFT",
+  "implementation_status": "NOT_STARTED",
+  "artifacts": [
+    {
+      "path": "drafts/contracts/anticipa-screen-composition.contract.v0.1.0.md",
+      "bytes": 51624,
+      "sha256": "cf08121c07588c7c69d8505e967d2894b4a079670f4c2211571c0fc3703d3995"
+    },
+    {
+      "path": "drafts/contracts/anticipa-screen-composition.dependencies.v0.1.0.json",
+      "bytes": 13111,
+      "sha256": "9d6ee351f0f4c874d94ac407b2704d715bea327218f9e91753a96364ab3b2d44"
+    },
+    {
+      "path": "drafts/reports/anticipa-screen-composition.synthesis.v0.1.0.md",
+      "bytes": 8674,
+      "sha256": "dc708d6f9a4fd509f27f2fe746bf32ee65e87c38b6f8a3a8fe187787002034e2"
+    },
+    {
+      "path": "qa/contracts/anticipa-screen-composition.v0.1.0.review.md",
+      "bytes": 3896,
+      "sha256": "c614ac21c831e381c7036dce7270bbfb82be46aa84b521638b5237ce5a5a715d"
+    }
+  ],
+  "checks": [
+    {
+      "name": "source_and_dependency_digests",
+      "pass": true,
+      "detail": {
+        "files": 32
+      }
+    },
+    {
+      "name": "token_selectors",
+      "pass": true,
+      "detail": {
+        "count": 37,
+        "errors": []
+      }
+    },
+    {
+      "name": "21_ordered_sections",
+      "pass": true,
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "name": "requirements_and_acceptance",
+      "pass": true,
+      "detail": {
+        "requirements": 12,
+        "acceptance": 12
+      }
+    },
+    {
+      "name": "source_nodes_in_snapshot",
+      "pass": true,
+      "detail": {
+        "count": 23,
+        "missing": []
+      }
+    },
+    {
+      "name": "local_links",
+      "pass": true,
+      "detail": {
+        "checked": 47,
+        "missing": [],
+        "self_verification_file": "qa/contracts/anticipa-screen-composition.v0.1.0.verification.json"
+      }
+    },
+    {
+      "name": "protected_files_unchanged",
+      "pass": true,
+      "detail": {
+        "count": 914,
+        "before": "cb3403950da7264c042b617c06d55af4347b1eb6ab8ab5016e00d8514c4adabe",
+        "after": "cb3403950da7264c042b617c06d55af4347b1eb6ab8ab5016e00d8514c4adabe",
+        "method": "SHA256(JSON.stringify(sorted [relative path, SHA256(bytes)] pairs))",
+        "roots": [
+          "specs",
+          "sources/inventories",
+          "graphify-out",
+          "sources/figma-snapshots/anticipa-layouts.observation.2026-10-06.json"
+        ]
+      }
+    },
+    {
+      "name": "draft_not_implementation",
+      "pass": true,
+      "detail": {
+        "figma_readback": "NOT_RUN",
+        "figma_write": "NOT_RUN",
+        "runtime": "NOT_RUN"
+      }
+    },
+    {
+      "name": "canonical_inventory_validation",
+      "pass": true,
+      "detail": {
+        "variable_count": 270,
+        "alias_count": 512,
+        "errors": []
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Direct dependency lock, not transitive implementation bundle",
+    "No new Figma inspection, binding readback, render or runtime QA",
+    "D01–D07 remain unresolved by context; proposals not approved",
+    "Existing contracts, canonical inventory, source snapshot and graph unchanged",
+    "No normative YAML projection; requested MD governs proposed rules"
+  ]
+}

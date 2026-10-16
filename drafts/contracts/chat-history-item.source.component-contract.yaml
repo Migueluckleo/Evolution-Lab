@@ -1,0 +1,2075 @@
+schema_version: "0.1.0"
+generated_at: "2026-10-08T19:47:41Z"
+generator:
+  skill: "figma-component-contract"
+  skill_version: "0.1.0"
+inspection:
+  status: "PARTIAL"
+  read_only: true
+  traversal:
+    discovered_nodes: 24
+    inspected_nodes: 24
+    pending_nodes: 0
+    invisible_nodes_inspected: 0
+    truncated: false
+    limit: "Identity and paint traversal complete; aliases and remote main internals partial"
+  mcp_limitations:
+    - "Oversized read results replaced by bounded queries; no source writes"
+    - "Remote aliases/collections and unused remote main variants not exhaustively resolved"
+component:
+  id: "20355:72852"
+  key: "41dfe28b733a90a4592d1697add603443bdbc9be"
+  name: "Atom / Anticipa / Chat / ChatHistory"
+  type: "COMPONENT_SET"
+  description: ""
+  parent:
+    id: "20355:72762"
+    name: "Chat Components"
+    type: "SECTION"
+  page:
+    id: "17001:89455"
+    name: "Components"
+  source:
+    file_key: "zuUq3gcF9T3CLid44bjY6W"
+    node_id: "20355:72852"
+    url: "https://www.figma.com/design/zuUq3gcF9T3CLid44bjY6W/Anticipa-Junio2026?node-id=20355-72852"
+classification:
+  kind: "component"
+  reusable: true
+  composition: true
+  evidence_refs:
+    - "E001"
+identity:
+  position:
+    x: 1132
+    y: 263
+  dimensions:
+    width: 290
+    height: 240
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: null
+direct_children:
+  - 
+    id: "20355:72853"
+    name: "hover=false, Selected=false"
+    type: "COMPONENT"
+  - 
+    id: "20355:72857"
+    name: "hover=true, Selected=false"
+    type: "COMPONENT"
+  - 
+    id: "20355:72863"
+    name: "hover=false, Selected=true"
+    type: "COMPONENT"
+  - 
+    id: "20355:72867"
+    name: "hover=true, Selected=true"
+    type: "COMPONENT"
+anatomy:
+  functional_tree:
+    - 
+      id: "20355:72852"
+      parent: "20355:72762"
+      name: "Atom / Anticipa / Chat / ChatHistory"
+      type: "COMPONENT_SET"
+      visible: true
+    - 
+      id: "20355:72853"
+      parent: "20355:72852"
+      name: "hover=false, Selected=false"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72854"
+      parent: "20355:72853"
+      name: "text"
+      type: "SLOT"
+      visible: true
+    - 
+      id: "20355:72855"
+      parent: "20355:72854"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72856"
+      parent: "20355:72853"
+      name: "Update time"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72857"
+      parent: "20355:72852"
+      name: "hover=true, Selected=false"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72858"
+      parent: "20355:72857"
+      name: "text"
+      type: "SLOT"
+      visible: true
+    - 
+      id: "20355:72859"
+      parent: "20355:72858"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72860"
+      parent: "20355:72857"
+      name: "rightContainer"
+      type: "FRAME"
+      visible: true
+    - 
+      id: "20355:72861"
+      parent: "20355:72860"
+      name: "PushPin"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72861;8899:60567"
+      parent: "20355:72861"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72862"
+      parent: "20355:72860"
+      name: "DotsThree"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72862;8899:45308"
+      parent: "20355:72862"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72863"
+      parent: "20355:72852"
+      name: "hover=false, Selected=true"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72864"
+      parent: "20355:72863"
+      name: "text"
+      type: "SLOT"
+      visible: true
+    - 
+      id: "20355:72865"
+      parent: "20355:72864"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72866"
+      parent: "20355:72863"
+      name: "Update time"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72867"
+      parent: "20355:72852"
+      name: "hover=true, Selected=true"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72868"
+      parent: "20355:72867"
+      name: "text"
+      type: "SLOT"
+      visible: true
+    - 
+      id: "20355:72869"
+      parent: "20355:72868"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72870"
+      parent: "20355:72867"
+      name: "PushPin"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72870;8899:60567"
+      parent: "20355:72870"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72871"
+      parent: "20355:72867"
+      name: "DotsThree"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72871;8899:45308"
+      parent: "20355:72871"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+  graphical_details_omitted:
+    - "Vector path geometry not extracted; imported icon keys retained"
+dependency_inventory:
+  components:
+    total_instances: 4
+    total: 2
+    local: 0
+    remote: 2
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 2
+    unresolved: 0
+  variables:
+    total: 8
+    local: 5
+    remote: 3
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 8
+    unresolved: 0
+  styles:
+    total: 2
+    local: 2
+    remote: 0
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 2
+    unresolved: 0
+dependencies:
+  - 
+    id: "19784:32793"
+    key: "b0d66c2c04014490bfbefe7579e0c98cd16db0a2"
+    name: "Format=Outline, Weight=Light"
+    remote: true
+    owner:
+      id: "19784:32792"
+      key: "51dfd54e3723eb6f987bde9165cdd71f93f1b922"
+      name: "PushPin"
+    instances:
+      - "20355:72861"
+      - "20355:72870"
+    properties:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+        preferredCount: 0
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Light"
+          - "Regular"
+          - "Thin"
+          - "Bold"
+          - "Fill"
+          - "Duotone"
+        preferredCount: 0
+    resolution: "PARTIALLY_RESOLVED"
+    locality: "REMOTE"
+  - 
+    id: "19278:15704"
+    key: "33bbf11fec95bfc540e85769b270534f2db07776"
+    name: "Format=Outline, Weight=Light"
+    remote: true
+    owner:
+      id: "19278:15701"
+      key: "09f6e5554e1d822472f38f728e766039d392e2c4"
+      name: "DotsThree"
+    instances:
+      - "20355:72862"
+      - "20355:72871"
+    properties:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+        preferredCount: 0
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+        preferredCount: 0
+    resolution: "PARTIALLY_RESOLVED"
+    locality: "REMOTE"
+variable_dependencies:
+  - 
+    id: "VariableID:15005:75097"
+    key: "e026ff23a201fab5cbd75a51a22b260737aa285f"
+    name: "Color / Text / Base"
+    type: "COLOR"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:15001:198237"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72855"
+      - "20355:72859"
+  - 
+    id: "VariableID:15006:75178"
+    key: "4204aefcedc5de6a2c8113e8e3b0b387495f7701"
+    name: "Font/Primary"
+    type: "STRING"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: "Manrope"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72855"
+      - "20355:72856"
+      - "20355:72859"
+      - "20355:72865"
+      - "20355:72866"
+      - "20355:72869"
+  - 
+    id: "VariableID:15006:75542"
+    key: "f648c71c358aa10f00ccc7220c2d27b800f4e667"
+    name: "Size/Font/Body/Base"
+    type: "FLOAT"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: 14
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72855"
+      - "20355:72859"
+      - "20355:72865"
+      - "20355:72869"
+  - 
+    id: "VariableID:17023:46898"
+    key: "d8521bc1859b3ffd991c0bd6dae3a05d86314086"
+    name: "Color / Text / Auxiliar"
+    type: "COLOR"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:17004:761"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72856"
+      - "20355:72866"
+  - 
+    id: "VariableID:15006:75544"
+    key: "ce44ab4de406df2e0157f94c633c8762cad79fd3"
+    name: "Size/Font/Caption/sm"
+    type: "FLOAT"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: 12
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72856"
+      - "20355:72866"
+  - 
+    id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+    key: "3440032d1b72fda0082327f8fb8d1dab1bf7de20"
+    name: "color/background/brand"
+    type: "COLOR"
+    remote: true
+    collection: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72857"
+  - 
+    id: "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+    key: "07227408205917b2a4a726aba85ecbab0eddf548"
+    name: "color/background/accent"
+    type: "COLOR"
+    remote: true
+    collection: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72863"
+      - "20355:72867"
+  - 
+    id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+    key: "ca2ca2cc17d99357b05a0401d6eb230dfad804b5"
+    name: "color/text/primary"
+    type: "COLOR"
+    remote: true
+    collection: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72865"
+      - "20355:72869"
+style_dependencies:
+  - 
+    id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    key: "96b3d3941169b2892202094e973f2a4778868f2c"
+    name: "body/regular"
+    type: "TEXT"
+    remote: false
+  - 
+    id: "S:904cfae46709f28127a303f1c81569802fdb6087,"
+    key: "904cfae46709f28127a303f1c81569802fdb6087"
+    name: "caption/regular"
+    type: "TEXT"
+    remote: false
+properties:
+  definitions:
+    - 
+      name: "text#255:3"
+      type: "SLOT"
+      description: ""
+      slotSettings:
+        stretchChildOnInsert: false
+        displayEmptyByDefault: false
+        minChildren: null
+        maxChildren: null
+        allowPreferredValuesOnly: false
+      preferredValues:
+        []
+    - 
+      name: "it's collapsible#17096:0"
+      type: "BOOLEAN"
+      defaultValue: true
+    - 
+      name: "hover"
+      type: "VARIANT"
+      defaultValue: "false"
+      variantOptions:
+        - "true"
+        - "false"
+    - 
+      name: "Selected"
+      type: "VARIANT"
+      defaultValue: "false"
+      variantOptions:
+        - "false"
+        - "true"
+  observed:
+    []
+  available:
+    []
+  unknown:
+    []
+variants:
+  observed_combinations:
+    - 
+      id: "20355:72853"
+      name: "hover=false, Selected=false"
+    - 
+      id: "20355:72857"
+      name: "hover=true, Selected=false"
+    - 
+      id: "20355:72863"
+      name: "hover=false, Selected=true"
+    - 
+      id: "20355:72867"
+      name: "hover=true, Selected=true"
+  available_values:
+    - 
+      name: "hover"
+      values:
+        - "true"
+        - "false"
+    - 
+      name: "Selected"
+      values:
+        - "false"
+        - "true"
+  unknown:
+    []
+states:
+  observed:
+    - "hover=false, Selected=false"
+    - "hover=true, Selected=false"
+    - "hover=false, Selected=true"
+    - "hover=true, Selected=true"
+  available:
+    []
+  unknown:
+    []
+layout:
+  node:
+    id: "20355:72852"
+    name: "Atom / Anticipa / Chat / ChatHistory"
+    type: "COMPONENT_SET"
+    depth: 0
+    x: 1132
+    y: 263
+    width: 290
+    height: 240
+    visible: true
+    opacity: 1
+    layoutMode: "VERTICAL"
+    layoutSizingHorizontal: "FIXED"
+    layoutSizingVertical: "HUG"
+    itemSpacing: 16
+    paddingTop: 16
+    paddingRight: 16
+    paddingBottom: 16
+    paddingLeft: 16
+    primaryAxisAlignItems: "MIN"
+    counterAxisAlignItems: "MIN"
+    primaryAxisSizingMode: "AUTO"
+    counterAxisSizingMode: "FIXED"
+    minWidth: null
+    maxWidth: null
+    minHeight: null
+    maxHeight: null
+    layoutGrow: 0
+    clipsContent: true
+    overflowDirection: "NONE"
+    fills:
+      []
+    strokes:
+      - 
+        type: "SOLID"
+        visible: true
+        opacity: 1
+        blendMode: "NORMAL"
+        color:
+          r: 0.5921568870544434
+          g: 0.27843138575553894
+          b: 1
+        boundVariables:
+
+    strokeWeight: 1
+    strokeAlign: "INSIDE"
+    cornerRadius: 5
+    effects:
+      []
+    boundVariables:
+
+    componentPropertyReferences: null
+    children:
+      - "20355:72853"
+      - "20355:72857"
+      - "20355:72863"
+      - "20355:72867"
+  children:
+    - 
+      node:
+        id: "20355:72853"
+        name: "hover=false, Selected=false"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 258
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72854"
+        name: "text"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 187
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72855"
+        name: "chat name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 187
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72856"
+        name: "Update time"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 31
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72857"
+        name: "hover=true, Selected=false"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 258
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72858"
+        name: "text"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 146
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72859"
+        name: "chat name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 146
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72860"
+        name: "rightContainer"
+        type: "FRAME"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 64
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72861"
+        name: "PushPin"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72862"
+        name: "DotsThree"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72863"
+        name: "hover=false, Selected=true"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 258
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72864"
+        name: "text"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 179
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72865"
+        name: "chat name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 179
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72866"
+        name: "Update time"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 31
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72867"
+        name: "hover=true, Selected=true"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 258
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72868"
+        name: "text"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 146
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72869"
+        name: "chat name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 146
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72870"
+        name: "PushPin"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72871"
+        name: "DotsThree"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+  relationships:
+    - 
+      parent_id: "20355:72852"
+      child_id: "20355:72853"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72853"
+      child_id: "20355:72854"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72854"
+      child_id: "20355:72855"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72853"
+      child_id: "20355:72856"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72852"
+      child_id: "20355:72857"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72857"
+      child_id: "20355:72858"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72858"
+      child_id: "20355:72859"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72857"
+      child_id: "20355:72860"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72860"
+      child_id: "20355:72861"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72861"
+      child_id: "I20355:72861;8899:60567"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72860"
+      child_id: "20355:72862"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72862"
+      child_id: "I20355:72862;8899:45308"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72852"
+      child_id: "20355:72863"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72863"
+      child_id: "20355:72864"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72864"
+      child_id: "20355:72865"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72863"
+      child_id: "20355:72866"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72852"
+      child_id: "20355:72867"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72867"
+      child_id: "20355:72868"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72868"
+      child_id: "20355:72869"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72867"
+      child_id: "20355:72870"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72870"
+      child_id: "I20355:72870;8899:60567"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72867"
+      child_id: "20355:72871"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72871"
+      child_id: "I20355:72871;8899:45308"
+      relationship: "CONTAINS"
+visual:
+  node: null
+  descendants:
+    - 
+      id: "20355:72852"
+      fills:
+        []
+      strokes:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.5921568870544434
+            g: 0.27843138575553894
+            b: 1
+          boundVariables:
+
+      bindings:
+
+    - 
+      id: "20355:72853"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72854"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72855"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72856"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.45073992013931274
+            g: 0.45073992013931274
+            b: 0.45073992013931274
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:17023:46898"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:17023:46898"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75544"
+    - 
+      id: "20355:72857"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9372549057006836
+            g: 0.9529411792755127
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+    - 
+      id: "20355:72858"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72859"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72860"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72861"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72861;8899:60567"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72862"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72862;8899:45308"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72863"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9607843160629272
+            g: 0.9411764740943909
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+    - 
+      id: "20355:72864"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72865"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72866"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.45073992013931274
+            g: 0.45073992013931274
+            b: 0.45073992013931274
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:17023:46898"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:17023:46898"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75544"
+    - 
+      id: "20355:72867"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9607843160629272
+            g: 0.9411764740943909
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+    - 
+      id: "20355:72868"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72869"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72870"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72870;8899:60567"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72871"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72871;8899:45308"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+  icons:
+    - 
+      id: "19784:32793"
+      key: "b0d66c2c04014490bfbefe7579e0c98cd16db0a2"
+      name: "PushPin"
+    - 
+      id: "19278:15704"
+      key: "33bbf11fec95bfc540e85769b270534f2db07776"
+      name: "DotsThree"
+typography:
+  styles:
+    - 
+      id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+      key: "96b3d3941169b2892202094e973f2a4778868f2c"
+      name: "body/regular"
+      type: "TEXT"
+      remote: false
+    - 
+      id: "S:904cfae46709f28127a303f1c81569802fdb6087,"
+      key: "904cfae46709f28127a303f1c81569802fdb6087"
+      name: "caption/regular"
+      type: "TEXT"
+      remote: false
+  text_runs:
+    - 
+      id: "20355:72855"
+      parent: "20355:72854"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+      w: 187
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    - 
+      id: "20355:72856"
+      parent: "20355:72853"
+      name: "Update time"
+      type: "TEXT"
+      visible: true
+      w: 31
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:17023:46898"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75544"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.45073992013931274
+            g: 0.45073992013931274
+            b: 0.45073992013931274
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:17023:46898"
+      strokes:
+        []
+      text: "1 sem"
+      font:
+        family: "Manrope"
+        style: "Medium"
+        variationSettings:
+          wght: 500
+      size: 12
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:904cfae46709f28127a303f1c81569802fdb6087,"
+    - 
+      id: "20355:72859"
+      parent: "20355:72858"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+      w: 146
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    - 
+      id: "20355:72865"
+      parent: "20355:72864"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+      w: 179
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    - 
+      id: "20355:72866"
+      parent: "20355:72863"
+      name: "Update time"
+      type: "TEXT"
+      visible: true
+      w: 31
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:17023:46898"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75544"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.45073992013931274
+            g: 0.45073992013931274
+            b: 0.45073992013931274
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:17023:46898"
+      strokes:
+        []
+      text: "1 sem"
+      font:
+        family: "Manrope"
+        style: "Medium"
+        variationSettings:
+          wght: 500
+      size: 12
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:904cfae46709f28127a303f1c81569802fdb6087,"
+    - 
+      id: "20355:72869"
+      parent: "20355:72868"
+      name: "chat name"
+      type: "TEXT"
+      visible: true
+      w: 146
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+tokens:
+  summary:
+    total: 8
+    local: 5
+    remote: 3
+  categories:
+
+  source: "variable_dependencies"
+content:
+  example_content:
+    observed_strings:
+      - "Nuevo chat"
+      - "1 sem"
+      - "Nuevo chat"
+      - "Nuevo chat"
+      - "1 sem"
+      - "Nuevo chat"
+  component_rules:
+    []
+  truncation_and_wrapping:
+    - "See E002 own properties; no product max-length inferred"
+interactions:
+  status: "FIGMA_DEFINED"
+  reason: "Local hover and expansion prototype reactions observed; no backend actions defined"
+  rules:
+    - 
+      node_id: "20355:72853"
+      reactions:
+        - 
+          action:
+            type: "NODE"
+            destinationId: "20355:72857"
+            navigation: "CHANGE_TO"
+            transition:
+              type: "SMART_ANIMATE"
+              easing:
+                type: "EASE_OUT"
+              duration: 0.30000001192092896
+            resetVideoPosition: false
+          actions:
+            - 
+              type: "NODE"
+              destinationId: "20355:72857"
+              navigation: "CHANGE_TO"
+              transition:
+                type: "SMART_ANIMATE"
+                easing:
+                  type: "EASE_OUT"
+                duration: 0.30000001192092896
+              resetVideoPosition: false
+          trigger:
+            type: "ON_HOVER"
+    - 
+      node_id: "20355:72863"
+      reactions:
+        - 
+          action:
+            type: "NODE"
+            destinationId: "20355:72867"
+            navigation: "CHANGE_TO"
+            transition:
+              type: "SMART_ANIMATE"
+              easing:
+                type: "EASE_OUT"
+              duration: 0.30000001192092896
+            resetVideoPosition: false
+          actions:
+            - 
+              type: "NODE"
+              destinationId: "20355:72867"
+              navigation: "CHANGE_TO"
+              transition:
+                type: "SMART_ANIMATE"
+                easing:
+                  type: "EASE_OUT"
+                duration: 0.30000001192092896
+              resetVideoPosition: false
+          trigger:
+            type: "ON_HOVER"
+semantic_contract:
+  explicit_descriptions:
+    []
+  purpose:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+  usage_rules:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+accessibility:
+  status: "REQUIRES_DEFINITION"
+  observed:
+    []
+  undefined:
+    - "Keyboard/focus policy"
+    - "Accessible action names and announcements"
+external_dependencies:
+  - 
+    key: "b0d66c2c04014490bfbefe7579e0c98cd16db0a2"
+    library: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    key: "33bbf11fec95bfc540e85769b270534f2db07776"
+    library: "NOT_EXPOSED_BY_FIGMA_MCP"
+unresolved:
+  - "Historical aliases not deeply resolved"
+  - "Prototype is not application logic"
+implementation_notes:
+  - "Read-only source evidence, not target approval"
+  - "Target normalization governed by separate versioned MD; preserve source IDs"
+evidence:
+  figma_direct:
+    - 
+      id: "E001"
+      path: "../../sources/figma-snapshots/chat-toolbar.deep.2026-10-08.json"
+    - 
+      id: "E002"
+      path: "../../sources/figma-snapshots/chat-toolbar.own.2026-10-08.json"
+    - 
+      id: "E003"
+      path: "../../sources/figma-snapshots/chat-toolbar.variables.2026-10-08.json"
+  derived:
+    []
+  requires_definition:
+    - "Product actions"
+  confidence:
+    level: "MEDIUM"
+    reason: "Full identity traversal, bounded local property reads, remote evidence partial"

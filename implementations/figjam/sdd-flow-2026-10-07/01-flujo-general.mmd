@@ -1,0 +1,21 @@
+flowchart LR
+start(["Solicitud y alcance"]) --> state["Consultar registros vigentes"]
+state --> ingest[["P02: preservar fuentes"]]
+ingest --> synthesis[["P03: contrato, tokens y Slots"]]
+synthesis --> qa[["P06: QA documental"]]
+qa --> authority["APPROVED o DELEGATED_FOR_BUILD"]
+authority --> preflight[["P04: verificar destino READY"]]
+preflight --> build["Construir alcance autorizado"]
+build --> read["Leer resultado real"]
+read --> implqa[["P06: QA de implementación"]]
+implqa --> pass{"QA técnico PASS"}
+pass -->|"No"| fix[["06: corregir y revalidar"]]
+pass -->|"Sí"| publication["Publicación documental aplicable"]
+publication --> audit["Auditoría por excepciones"]
+audit --> close(["P05: cierre y continuidad"])
+style start fill:#C2E5FF,stroke:#3DADFF
+style authority fill:#DCCCFF,stroke:#874FFF
+style pass fill:#FFECBD,stroke:#FFC943
+style fix fill:#FFE0C2,stroke:#FF9E42
+style close fill:#CDF4D3,stroke:#66D575
+

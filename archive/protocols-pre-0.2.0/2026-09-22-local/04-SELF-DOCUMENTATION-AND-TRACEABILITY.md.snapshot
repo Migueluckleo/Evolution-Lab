@@ -1,0 +1,64 @@
+# Protocol 04: Self-Documentation and Traceability
+
+## Purpose
+
+Make project state understandable without chat history.
+
+Every implementation must answer: what was built, where, from which
+contracts/sources, with which dependencies/tokens/tool, what was
+observed, what changed, current state, deviations and unresolved issues.
+
+### Required registries
+
+-   `registry/contracts.md`: contract identity, path, authority,
+    version, dependencies, lifecycle.
+-   `registry/sources.md`: inventories, audits, amendments, references
+    and provenance.
+-   `registry/implementations.md`: contract → Figma/web mappings.
+-   `registry/qa.md`: QA runs, outcomes, mismatches, approvals.
+-   `registry/decisions.md`: human resolutions/authorizations.
+-   `registry/environment.md`: tool state, never secrets.
+
+Recommended implementation record:
+
+``` yaml
+implementation_id:
+artifact_name:
+artifact_type:
+target:
+status:
+contract_refs:
+source_refs:
+dependency_refs:
+target_locator:
+created_or_updated:
+tooling:
+token_bindings:
+observations:
+known_deviations:
+qa_record:
+timestamp:
+```
+
+### Lineage
+
+Superseded contracts remain in history, link forward, and trigger
+identification of implementations needing revalidation.
+
+Human decisions resolving ambiguity should record question, decision,
+authority=user, affected contracts/implementations and date.
+
+Update documentation in the same work cycle as implementation.
+Distinguish contract requirement, derived fact, observation, inference
+and unresolved issue.
+
+Graph self-documentation, refresh triggers and graph validation follow
+`protocols/06-GRAPH-SELF-DOCUMENTATION.md`. Graph output never replaces
+explicit registries.
+
+For substantial work add a concise note under `implementations/figma/`
+or `implementations/web/` linking sources, target IDs, bindings,
+deviations and QA.
+
+Complete when another agent can enter without chat history and determine
+authority, status, lineage, target and QA state.

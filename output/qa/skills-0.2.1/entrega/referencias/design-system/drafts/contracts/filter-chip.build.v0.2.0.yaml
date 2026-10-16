@@ -1,0 +1,136 @@
+schema_version: sdd-figma-build/0.2
+contract_id: FILTER-CHIP-001
+contract_version: 0.2.0
+status: DRAFT
+target:
+  file_key: tj3WIBEZDGLVs7MJWKCwgf
+  file_name: AI-Design-System
+  page_name: Chips
+  page_id: null
+  component_set_name: Filter Chip
+  component_set_id: null
+source:
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  component_set_id: "8203:10"
+  observation_ref: filter-chip.contract.yaml
+  selection_decision: DEC-FILTER-CHIP-DIRECTION-001
+  icon_decision: DEC-ICONS-001
+existing_foundations:
+  contract_id: FOUNDATIONS-TOKENS-001
+  semantic_collection_id: "VariableCollectionId:6:2"
+  primitive_collection_id: "VariableCollectionId:6:3"
+  modes:
+    Contable: "6:0"
+    Administrativo: "6:1"
+    Servicios: "6:2"
+    Personas: "6:3"
+  creates_new_variables: false
+  creates_new_collections: false
+variant_axes:
+  size: [small, middle, large]
+  selected: ["false", "true"]
+  state: [default, hover, press, focus, disabled]
+  expected_count: 30
+  naming_pattern: "size={size}, selected={selected}, state={state}"
+  source_x_small: OUT_OF_SCOPE
+defaults:
+  size: large
+  selected: "false"
+  state: default
+  text: Chip
+  show_left_icon: false
+  show_right_icon: false
+  left_icon_key: 46d251bb4099700c5852180f2370d265e5166432
+  right_icon_key: 46d251bb4099700c5852180f2370d265e5166432
+size_recipes:
+  small:
+    height: 32
+    icon_size: 16
+    font_size: font/size/xs
+    line_height: font/line-height/xs
+    gap: spacing/xs
+    padding: {top: spacing/sm, right: spacing/md, bottom: spacing/sm, left: spacing/md}
+  middle:
+    height: 40
+    icon_size: 20
+    font_size: font/size/sm
+    line_height: font/line-height/sm
+    gap: spacing/xs
+    padding: {top: spacing/sm, right: spacing/md, bottom: spacing/sm, left: spacing/md}
+  large:
+    height: 48
+    icon_size: 24
+    font_size: font/size/md
+    line_height: font/line-height/md
+    gap: spacing/sm
+    padding: {top: spacing/md, right: spacing/lg, bottom: spacing/md, left: spacing/lg}
+state_recipes:
+  "false/default": {background: color/interactive/secondary/active, background_opacity: 1, text: color/text/secondary, icon: color/icon/secondary, focus_ring: false}
+  "false/hover": {background: color/interactive/secondary/hover, background_opacity: 1, text: color/text/secondary, icon: color/icon/secondary, focus_ring: false}
+  "false/press": {background: color/interactive/secondary/default, background_opacity: 1, text: color/text/secondary, icon: color/icon/secondary, focus_ring: false}
+  "false/focus": {background: color/interactive/secondary/active, background_opacity: 1, text: color/text/primary, icon: color/icon/primary, focus_ring: true}
+  "false/disabled": {background: color/interactive/disabled/bg, background_opacity: 1, text: color/interactive/disabled/text, icon: color/icon/disabled, focus_ring: false}
+  "true/default": {background: color/background/inverse, background_opacity: 1, text: color/text/on-brand, icon: color/icon/on-brand, focus_ring: false}
+  "true/hover": {background: color/background/inverse, background_opacity: 0.92, text: color/text/on-brand, icon: color/icon/on-brand, focus_ring: false}
+  "true/press": {background: color/background/inverse, background_opacity: 0.85, text: color/text/on-brand, icon: color/icon/on-brand, focus_ring: false}
+  "true/focus": {background: color/background/inverse, background_opacity: 1, text: color/text/on-brand, icon: color/icon/on-brand, focus_ring: true}
+  "true/disabled": {background: color/interactive/disabled/bg, background_opacity: 1, text: color/interactive/disabled/text, icon: color/icon/disabled, focus_ring: false}
+focus_ring:
+  color: color/focus/ring
+  weight: stroke/md
+  alignment: OUTSIDE
+radius: radius/full
+font:
+  family: font/family/base
+  weight: font/weight/medium
+  resolved_family: Manrope
+  resolved_style: Medium
+icon_dependency:
+  source_component_key: 46d251bb4099700c5852180f2370d265e5166432
+  target_existing_component_id: "26:3"
+  target_component_key: 46d251bb4099700c5852180f2370d265e5166432
+  owner: Phosphor Icons
+  format: Outline
+  weight: Light
+  expected_instances: 60
+token_map:
+  color/background/inverse: {source_id: "VariableID:2849:196114", target_id: "VariableID:13:39"}
+  color/focus/ring: {source_id: "VariableID:2849:196132", target_id: "VariableID:13:71"}
+  color/icon/disabled: {source_id: "VariableID:2849:196147", target_id: "VariableID:13:24"}
+  color/icon/on-brand: {source_id: "VariableID:2849:196142", target_id: "VariableID:13:23"}
+  color/icon/primary: {source_id: "VariableID:2849:196138", target_id: "VariableID:13:20"}
+  color/icon/secondary: {source_id: "VariableID:2849:196139", target_id: "VariableID:13:21"}
+  color/interactive/disabled/bg: {source_id: "VariableID:2988:16", target_id: "VariableID:13:65"}
+  color/interactive/disabled/text: {source_id: "VariableID:2988:15", target_id: "VariableID:13:64"}
+  color/interactive/secondary/active: {source_id: "VariableID:2988:13", target_id: "VariableID:13:62"}
+  color/interactive/secondary/default: {source_id: "VariableID:2988:11", target_id: "VariableID:13:60"}
+  color/interactive/secondary/hover: {source_id: "VariableID:2988:12", target_id: "VariableID:13:61"}
+  color/text/on-brand: {source_id: "VariableID:2849:196123", target_id: "VariableID:13:33"}
+  color/text/primary: {source_id: "VariableID:2849:196116", target_id: "VariableID:13:27"}
+  color/text/secondary: {source_id: "VariableID:2849:196117", target_id: "VariableID:13:28"}
+  font/line-height/md: {source_id: "VariableID:2845:160903", target_id: "VariableID:12:9"}
+  font/line-height/sm: {source_id: "VariableID:2845:160902", target_id: "VariableID:12:8"}
+  font/line-height/xs: {source_id: "VariableID:2845:160901", target_id: "VariableID:12:7"}
+  font/size/md: {source_id: "VariableID:2845:160894", target_id: "VariableID:10:10"}
+  font/size/sm: {source_id: "VariableID:2845:160893", target_id: "VariableID:10:9"}
+  font/size/xs: {source_id: "VariableID:2845:160892", target_id: "VariableID:10:8"}
+  radius/full: {source_id: "VariableID:562:9", target_id: "VariableID:13:11"}
+  spacing/lg: {source_id: "VariableID:562:12", target_id: "VariableID:12:32"}
+  spacing/md: {source_id: "VariableID:5401:76", target_id: "VariableID:12:31"}
+  spacing/sm: {source_id: "VariableID:562:11", target_id: "VariableID:12:30"}
+  spacing/xs: {source_id: "VariableID:562:10", target_id: "VariableID:12:29"}
+  stroke/md: {source_id: "VariableID:559:9", target_id: "VariableID:13:3"}
+  font/family/base: {source_id: null, target_id: "VariableID:10:2"}
+  font/weight/medium: {source_id: null, target_id: "VariableID:10:4"}
+expected_binding_properties:
+  chip: [fills, topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius, itemSpacing, paddingTop, paddingRight, paddingBottom, paddingLeft]
+  focus_only: [strokes, strokeWeight]
+  label: [fills, fontFamily, fontStyle, fontSize, lineHeight]
+  icon_vector: [fills]
+qa:
+  verify_all_30_variants: true
+  verify_all_60_icon_keys: true
+  verify_every_required_binding: true
+  verify_mode_mapping: true
+  verify_property_links: true
+  verify_visual_screenshot: true

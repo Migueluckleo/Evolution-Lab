@@ -1,0 +1,214 @@
+{
+  "pageId": "546:122",
+  "table": "548:895",
+  "header": "548:408",
+  "rowSet": "548:893",
+  "row": "548:726",
+  "hover": "548:853",
+  "actions": "548:372",
+  "product": "548:343",
+  "slots": {
+    "header": "548:480",
+    "row": "548:766",
+    "hover": "548:856",
+    "actions": "548:373",
+    "rows": "548:928"
+  },
+  "createdNodeIds": [
+    "548:343",
+    "548:344",
+    "548:370",
+    "548:372",
+    "548:373",
+    "548:374",
+    "548:380",
+    "548:408",
+    "548:409",
+    "548:414",
+    "548:480",
+    "548:481",
+    "548:516",
+    "548:551",
+    "548:586",
+    "548:621",
+    "548:656",
+    "548:691",
+    "548:726",
+    "548:727",
+    "548:732",
+    "548:766",
+    "548:767",
+    "548:787",
+    "548:798",
+    "548:809",
+    "548:820",
+    "548:831",
+    "548:842",
+    "548:853",
+    "548:885",
+    "548:893",
+    "548:895",
+    "548:896",
+    "548:928",
+    "548:929",
+    "548:1010",
+    "548:1099",
+    "548:1188",
+    "548:1277",
+    "548:1366",
+    "548:1455",
+    "548:1544",
+    "548:1633",
+    "548:1722"
+  ],
+  "dimensions": [
+    {
+      "id": "548:895",
+      "name": "Table",
+      "width": 1281.999755859375,
+      "height": 424
+    },
+    {
+      "id": "548:408",
+      "name": "Table Header",
+      "width": 1281.999755859375,
+      "height": 54
+    },
+    {
+      "id": "548:726",
+      "name": "State=Default",
+      "width": 1279.999755859375,
+      "height": 37
+    },
+    {
+      "id": "548:853",
+      "name": "State=Hover",
+      "width": 1287.999755859375,
+      "height": 37
+    },
+    {
+      "id": "548:372",
+      "name": "Table Actions Cell",
+      "width": 112,
+      "height": 56
+    }
+  ],
+  "properties": [
+    {
+      "id": "548:895",
+      "properties": {
+        "Rows#548:13": {
+          "type": "SLOT",
+          "description": "Contenido variable0..n. La cantidad inicial es una muestra. Insertar/quitar/reordenar sin detach.",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "adb9a748ab6be5cfe06b4446c08c06be74304b71"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "548:408",
+      "properties": {
+        "Show selection#548:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show actions#548:5": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Cells#548:6": {
+          "type": "SLOT",
+          "description": "Contenido variable0..n. La cantidad inicial es una muestra. Insertar/quitar/reordenar sin detach.",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8a8cf62e2df8a1b56710b5e2aa96fde0c06ac42d"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "548:893",
+      "properties": {
+        "Show selection#548:10": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show actions#548:11": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Cells#548:12": {
+          "type": "SLOT",
+          "description": "Contenido variable0..n. La cantidad inicial es una muestra. Insertar/quitar/reordenar sin detach.",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "15c865a325c1b436401d5cb07b5cae5b6a4adb76"
+            }
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "548:372",
+      "properties": {
+        "Actions#548:3": {
+          "type": "SLOT",
+          "description": "Contenido variable0..n. La cantidad inicial es una muestra. Insertar/quitar/reordenar sin detach.",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "e63720f2254f60cd870fc3fc772d811ec18483f7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0b7dafe6c28a2d1a384213bee96f935ae9772564"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "FAIL_BEFORE_PUBLICATION",
+  "command": "scripts/ds graph close --run 2026-10-15-typography-consumers-final",
+  "stage": "assemble",
+  "missing_endpoints": [
+    {
+      "source": "registry_dec_typography_styles_001_document",
+      "target": "registry_skills_document",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "registry/DEC-TYPOGRAPHY-STYLES-001.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "registry_implementations_document",
+      "target": "registry_skills_document",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "registry/implementations.md",
+      "source_location": "L26",
+      "weight": 1.0
+    }
+  ],
+  "live_baseline": "PRESERVED",
+  "action": "Restore the stable registry skills document identity, retaining evidence and relationships."
+}

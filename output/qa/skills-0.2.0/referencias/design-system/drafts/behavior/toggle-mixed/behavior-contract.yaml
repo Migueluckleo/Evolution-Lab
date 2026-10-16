@@ -1,0 +1,94 @@
+schema_version: "0.1.0"
+generator:
+  skill: ux-behavior-contract
+  skill_version: "0.1.0"
+context:
+  id: BHC-TOGGLE-MIXED-001
+  name: Toggle de selección agregada
+  type: component_behavior
+  component_contract_refs:
+    - &toggle_contract
+      file: drafts/contracts/toggle.contract.v0.1.0.yaml
+      markdown_file: drafts/contracts/toggle.contract.v0.1.0.md
+      file_key: 9zs5RMR8LB5wHjW9Bd59BA
+      node_id: "1230:23858"
+      component_key: 5dd1c16f84eb1e6803326c404c137e40ae28ca6b
+      component_name: toggled
+      page_name: "❖ Toggle"
+context_resolution:
+  status: EXACT
+  screen: null
+  candidates:
+    - {name: toggled, file: drafts/contracts/toggle.contract.v0.1.0.yaml, status: EXACT}
+  resolved_contracts:
+    - *toggle_contract
+  referenced_elements:
+    - user_reference: toggle
+      status: EXACT
+      resolved_to: {role: COMPONENT_SET, component_name: toggled, instance_id: null, node_id: "1230:23858", component_key: 5dd1c16f84eb1e6803326c404c137e40ae28ca6b, observed_text: null, anatomy_path: "component"}
+      contract_ref: *toggle_contract
+      evidence_paths: ["component.id", "properties.definitions"]
+product_intent:
+  summary: Indicar visualmente una selección agregada con elementos encendidos y apagados a la vez.
+  source: USER_DEFINED
+element_bindings:
+  - behavior_ref: BR-001
+    component_contract: {file: drafts/contracts/toggle.contract.v0.1.0.yaml, node_id: "1230:23858", component_key: 5dd1c16f84eb1e6803326c404c137e40ae28ca6b, instance_id: null, component_name: toggled, observed_text: null, anatomy_path: "component"}
+    evidence_paths: ["component.id", "properties.definitions"]
+behavior_rules:
+  - id: BR-001
+    name: Mostrar Mixed para selección parcial
+    product_behavior: {status: DEFINED, source: USER_DEFINED}
+    source:
+      user_reference: toggle de selección múltiple
+      contract_ref: *toggle_contract
+      resolved_elements: ["1230:23858"]
+    trigger: {type: AGGREGATE_SELECTION_STATE, element_ref: "1230:23858"}
+    condition: {group_contains_on: true, group_contains_off: true}
+    action: {type: SHOW_VARIANT, parameters: {Toggle: Mixed}}
+    target: {entity: aggregate_toggle, element_ref: "1230:23858"}
+    data_effect: {operation: NONE}
+    ui_effect: {variant: Mixed, indicator: centered_horizontal_dash}
+    resulting_state: {Toggle: Mixed}
+    feedback: {status: REQUIRES_DEFINITION, effects: []}
+    dependencies: []
+    evidence_refs: [EV-001, EV-002]
+    unresolved: [UPD-001, UPD-002]
+data_rules: []
+state_model:
+  states:
+    - {id: ST-001, name: Mixed, meaning: aggregate_contains_on_and_off, source: USER_DEFINED}
+  transitions: []
+dynamic_content: []
+feedback_rules: []
+edge_cases: []
+unresolved_product_decisions:
+  - id: UPD-001
+    topic: mixed_click_action
+    question: ¿Qué debe ocurrir al activar el Toggle agregado desde Mixed?
+    status: REQUIRES_DEFINITION
+    affects: {implementation: true, important_tests: true, flow_understanding: false}
+    related_refs: [BR-001]
+  - id: UPD-002
+    topic: empty_group_state
+    question: ¿Qué valor muestra el Toggle agregado cuando el grupo no contiene elementos?
+    status: REQUIRES_DEFINITION
+    affects: {implementation: true, important_tests: true, flow_understanding: false}
+    related_refs: [BR-001]
+qa_derivable_rules:
+  - id: QA-001
+    behavior_ref: BR-001
+    given: {group_contains_on: true, group_contains_off: true}
+    when: {aggregate_state_evaluated: true}
+    then: {Toggle: Mixed, indicator: centered_horizontal_dash}
+    source: DERIVED
+evidence:
+  user_defined:
+    - {id: EV-001, statement: El control agregado se muestra neutral cuando el grupo contiene toggles activos e inactivos., reference: user_voice_2026-09-24}
+    - {id: EV-002, statement: La imagen adjunta representa ese valor mediante una barra horizontal blanca centrada en un track azul., reference: user_png_2026-09-24}
+  figma_defined:
+    - {id: EV-003, file: drafts/contracts/toggle.contract.v0.1.0.yaml, paths: ["properties.definitions", "interactions.status"], statement: La fuente tiene Toggle On/Off y State Default/Hover/Focus/Disabled; no define interacciones.}
+  derived: []
+  requires_definition:
+    - {id: EV-004, topic: mixed_click_action, related_ref: UPD-001}
+    - {id: EV-005, topic: empty_group_state, related_ref: UPD-002}

@@ -1,0 +1,487 @@
+{
+  "title": "Verificación offline",
+  "objective": "Verificar HTML autónomo, assets condicionales, fuente, teclado y traspaso",
+  "theme": "Contable",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 1000,
+      "height": 760
+    }
+  ],
+  "screens": [
+    {
+      "id": "demo",
+      "name": "Demo",
+      "entry": "Abrir el archivo",
+      "layout": "Columna con padding 32 px y gap 24 px; modal nativo según contrato.",
+      "content": "Datos ficticios de validación.",
+      "states": [
+        {
+          "id": "initial",
+          "name": "Inicial",
+          "actions": [],
+          "expect": [
+            {
+              "selector": "dialog",
+              "visible": false
+            },
+            {
+              "selector": "#value",
+              "text": "vacía"
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback"
+          ]
+        },
+        {
+          "id": "open",
+          "name": "Modal Media con contenido textual",
+          "actions": [
+            {
+              "type": "click",
+              "selector": "#open-modal"
+            }
+          ],
+          "expect": [
+            {
+              "selector": "dialog",
+              "visible": true
+            },
+            {
+              "selector": ".ds-modal-body",
+              "text": "Presiona M"
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback",
+            "media-modal"
+          ]
+        },
+        {
+          "id": "side",
+          "name": "Medio dinámico y contenido variable SideBySide",
+          "actions": [
+            {
+              "type": "click",
+              "selector": "#open-modal"
+            },
+            {
+              "type": "press",
+              "selector": "dialog",
+              "key": "m"
+            }
+          ],
+          "expect": [
+            {
+              "selector": ".ds-modal-side-by-side",
+              "visible": true
+            },
+            {
+              "selector": "img[alt=\"CONTPAQi\"]",
+              "visible": true
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback",
+            "side-modal",
+            "avatar",
+            "logo",
+            "switch"
+          ]
+        },
+        {
+          "id": "close",
+          "name": "Cerrar y volver",
+          "actions": [
+            {
+              "type": "click",
+              "selector": "#open-modal"
+            },
+            {
+              "type": "click",
+              "selector": "button[aria-label=\"Cerrar diálogo\"]"
+            }
+          ],
+          "expect": [
+            {
+              "selector": "dialog",
+              "visible": false
+            },
+            {
+              "selector": "#open-modal",
+              "visible": true
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "name": "Activar con Enter",
+          "actions": [
+            {
+              "type": "press",
+              "selector": "#open-modal",
+              "key": "Enter"
+            }
+          ],
+          "expect": [
+            {
+              "selector": "dialog",
+              "visible": true
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback",
+            "media-modal"
+          ]
+        },
+        {
+          "id": "escape",
+          "name": "Cancelar con Escape",
+          "actions": [
+            {
+              "type": "click",
+              "selector": "#open-modal"
+            },
+            {
+              "type": "press",
+              "selector": "dialog",
+              "key": "Escape"
+            }
+          ],
+          "expect": [
+            {
+              "selector": "dialog",
+              "visible": false
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback"
+          ]
+        },
+        {
+          "id": "filled",
+          "name": "Entrada controlada",
+          "actions": [
+            {
+              "type": "fill",
+              "selector": "#search-input",
+              "value": "PO"
+            }
+          ],
+          "expect": [
+            {
+              "selector": "#value",
+              "text": "Consulta: PO"
+            }
+          ],
+          "nodes": [
+            "composition",
+            "heading",
+            "search",
+            "open",
+            "feedback"
+          ]
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": "demo",
+      "action": "Abrir/Cerrar detalle y Escape",
+      "to": "demo",
+      "feedback": "Modal visible u oculto sin recargar"
+    }
+  ],
+  "components": [
+    {
+      "instanceId": "heading",
+      "componentId": "LOCAL-heading",
+      "exportName": "h1",
+      "kind": "local-content",
+      "placement": "Columna principal",
+      "props": {},
+      "tokens": [
+        "color/text/primary",
+        "font/family/base"
+      ],
+      "slots": [
+        {
+          "name": "text",
+          "status": "NOT_APPLICABLE",
+          "content": "Texto simple con tipografía y color del DS"
+        }
+      ],
+      "omissions": [],
+      "reason": "Contenido local del prototipo, no nueva familia DS"
+    },
+    {
+      "instanceId": "feedback",
+      "componentId": "LOCAL-feedback",
+      "exportName": "p",
+      "kind": "local-content",
+      "placement": "Columna principal",
+      "props": {},
+      "tokens": [
+        "color/text/primary",
+        "font/family/base"
+      ],
+      "slots": [
+        {
+          "name": "text",
+          "status": "NOT_APPLICABLE",
+          "content": "Texto simple con tipografía y color del DS"
+        }
+      ],
+      "omissions": [],
+      "reason": "Contenido local del prototipo, no nueva familia DS"
+    },
+    {
+      "instanceId": "composition",
+      "componentId": "LOCAL-demo",
+      "exportName": "DemoComposition",
+      "kind": "local-composition",
+      "placement": "Raíz",
+      "props": {},
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "body",
+          "status": "REQUIRED",
+          "content": "InputField, Button y Modal condicional"
+        }
+      ],
+      "omissions": [],
+      "reason": "Composición local para verificar el release; no componente nuevo de biblioteca",
+      "compositionOf": [
+        "BUTTON-001",
+        "MODAL-001",
+        "AVATAR-001",
+        "LOGOS-001",
+        "INPUT-FIELD-001"
+      ]
+    },
+    {
+      "instanceId": "search",
+      "componentId": "INPUT-FIELD-001",
+      "exportName": "InputField",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "label": "Buscar",
+        "value": "",
+        "showTrailingIcon": false
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "NOT_APPLICABLE",
+          "content": "Anatomía y props de la familia; sin región abierta adicional"
+        }
+      ],
+      "omissions": [],
+      "stateProps": {
+        "demo/filled": {
+          "label": "Buscar",
+          "value": "PO",
+          "showTrailingIcon": false
+        }
+      }
+    },
+    {
+      "instanceId": "open",
+      "componentId": "BUTTON-001",
+      "exportName": "Button",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "showLeftIcon": false,
+        "showRightIcon": false
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "NOT_APPLICABLE",
+          "content": "Anatomía y props de la familia; sin región abierta adicional"
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "instanceId": "media-modal",
+      "componentId": "MODAL-001",
+      "exportName": "Modal",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "open": true,
+        "variant": "media",
+        "title": "Detalle portable"
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "Title/Content",
+          "status": "NOT_APPLICABLE",
+          "content": "Media conserva título y contenido TEXT; sin BodySlot variable"
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "instanceId": "side-modal",
+      "componentId": "MODAL-001",
+      "exportName": "Modal",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "open": true,
+        "variant": "side-by-side",
+        "title": "Detalle portable"
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "REQUIRED",
+          "content": "Contenido variable Avatar, Logos y acción"
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "instanceId": "avatar",
+      "componentId": "AVATAR-001",
+      "exportName": "Avatar",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "label": "Persona ficticia"
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "NOT_APPLICABLE",
+          "content": "Anatomía y props de la familia; sin región abierta adicional"
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "instanceId": "logo",
+      "componentId": "LOGOS-001",
+      "exportName": "Logos",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "alt": "CONTPAQi"
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "NOT_APPLICABLE",
+          "content": "Anatomía y props de la familia; sin región abierta adicional"
+        }
+      ],
+      "omissions": []
+    },
+    {
+      "instanceId": "switch",
+      "componentId": "BUTTON-001",
+      "exportName": "Button",
+      "kind": "ds",
+      "placement": "Composición de verificación",
+      "props": {
+        "showLeftIcon": false,
+        "showRightIcon": false
+      },
+      "tokens": [
+        "color/background/default"
+      ],
+      "slots": [
+        {
+          "name": "contenido",
+          "status": "NOT_APPLICABLE",
+          "content": "Anatomía y props de la familia; sin región abierta adicional"
+        }
+      ],
+      "omissions": []
+    }
+  ],
+  "decisions": [
+    "Composición local de verificación y datos ficticios",
+    "Atajo M local para cambiar de Media a SideBySide durante la prueba; no comportamiento normativo del DS"
+  ],
+  "limitations": [
+    "No backend; no fidelidad Figma afirmada",
+    "Aplicación estable de TextStyles a componentes Figma existentes: BLOCKED según qa/implementations/typography/Figma-blocker.md y FOUNDATIONS-TYPOGRAPHY-001 en registry/contracts.md. El catálogo de 75 estilos existe; no acredita consumo global validado. Este prototipo no ejecuta Figma."
+  ],
+  "checks": [
+    {
+      "name": "Revisión visual acotada",
+      "status": "PASS",
+      "evidence": "Inspección real de demo--open--1440x900.png y demo--side--1000x760.png: títulos, textos, artwork, Avatar y logo visibles; sin recortes o assets ausentes observados en estas dos capturas. No certifica las otras doce ni paridad con Figma."
+    },
+    {
+      "name": "Consumo estable de TextStyles en componentes Figma existentes",
+      "status": "BLOCKED",
+      "evidence": "qa/implementations/typography/Figma-blocker.md y registry/contracts.md#foundations-typography-001; catálogo75 creado, consumo legacy pendiente."
+    },
+    {
+      "name": "Construcción de esta pantalla en Figma",
+      "status": "NOT_RUN",
+      "evidence": "Este cierre ejecutó exclusivamente HTML local; no se utilizó escritura Figma."
+    }
+  ],
+  "figmaTarget": null
+}

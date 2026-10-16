@@ -1,0 +1,177 @@
+[
+  {
+    "id": "434:1398",
+    "props": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "comercial_premium",
+        "variantOptions": [
+          "cfdi_facturacion",
+          "comercial_premium",
+          "comercial_pro",
+          "comercial_start",
+          "factura_electronica",
+          "mi_factura",
+          "timbra",
+          "vende"
+        ]
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "isotipo",
+          "vertical",
+          "horizontal"
+        ]
+      }
+    },
+    "remote": false,
+    "links": []
+  },
+  {
+    "id": "434:3372",
+    "props": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "conecta_tu_banco",
+        "variantOptions": [
+          "anticipa",
+          "bancos",
+          "conecta_tu_banco",
+          "contabilidad",
+          "optimiza",
+          "tesoreria",
+          "xml_en_linea"
+        ]
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "isotipo",
+          "horizontal",
+          "vertical"
+        ]
+      }
+    },
+    "remote": false,
+    "links": []
+  },
+  {
+    "id": "434:4376",
+    "props": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "nominas",
+        "variantOptions": [
+          "colabora",
+          "evalua",
+          "kursa",
+          "nominas"
+        ]
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "isotipo",
+          "vertical",
+          "horizontal"
+        ]
+      }
+    },
+    "remote": false,
+    "links": []
+  },
+  {
+    "id": "434:4924",
+    "props": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "respaldos",
+        "variantOptions": [
+          "respaldos",
+          "VDI"
+        ]
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "isotipo",
+          "horizontal",
+          "vertical"
+        ]
+      }
+    },
+    "remote": false,
+    "links": []
+  },
+  {
+    "id": "429:356",
+    "props": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "Mi CONTPAQi",
+        "variantOptions": [
+          "Mi CONTPAQi",
+          "CONTPAQi"
+        ]
+      },
+      "Mode": {
+        "type": "VARIANT",
+        "defaultValue": "light",
+        "variantOptions": [
+          "dark",
+          "light",
+          "light2"
+        ]
+      }
+    },
+    "remote": false,
+    "links": []
+  },
+  {
+    "id": "435:2653",
+    "props": {
+      "categoria": {
+        "type": "VARIANT",
+        "defaultValue": "contable",
+        "variantOptions": [
+          "contable",
+          "comercial",
+          "servicios",
+          "personas"
+        ]
+      }
+    },
+    "remote": false,
+    "links": [
+      {
+        "id": "435:2655",
+        "main": "434:3606",
+        "remote": false,
+        "parent": "434:3372"
+      },
+      {
+        "id": "435:2657",
+        "main": "434:1472",
+        "remote": false,
+        "parent": "434:1398"
+      },
+      {
+        "id": "435:2659",
+        "main": "434:4970",
+        "remote": false,
+        "parent": "434:4924"
+      },
+      {
+        "id": "435:2661",
+        "main": "434:4484",
+        "remote": false,
+        "parent": "434:4376"
+      }
+    ]
+  }
+]

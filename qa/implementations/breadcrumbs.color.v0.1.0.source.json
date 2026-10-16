@@ -1,0 +1,545 @@
+{
+  "pageId": "1098:28190",
+  "roots": [
+    {
+      "id": "2425:35897",
+      "name": "Breadcrumb item",
+      "nodeCount": 22,
+      "geometry": "e5d646a0:2504",
+      "api": "2e75c71:1818",
+      "definitions": [
+        [
+          "2425:35898",
+          "State=default, active=off",
+          116,
+          24
+        ],
+        [
+          "2425:35901",
+          "State=icon, active=off",
+          44,
+          20
+        ],
+        [
+          "2425:35904",
+          "State=shorten, active=off",
+          42,
+          24
+        ],
+        [
+          "2425:35907",
+          "State=disabled, active=off",
+          112,
+          24
+        ],
+        [
+          "2425:35910",
+          "State=default, active=on",
+          88,
+          24
+        ],
+        [
+          "2425:35912",
+          "State=hover, active=off",
+          88,
+          24
+        ]
+      ],
+      "properties": "c1a59229:255"
+    },
+    {
+      "id": "2425:35937",
+      "name": "Breadcrumbs",
+      "nodeCount": 65,
+      "geometry": "743e4e3d:7494",
+      "api": "a50e0802:8044",
+      "definitions": [
+        [
+          "2425:35938",
+          "type=Level 2",
+          242,
+          24
+        ],
+        [
+          "2425:35941",
+          "type=Level 3",
+          362,
+          24
+        ],
+        [
+          "2425:35945",
+          "type=Level 4",
+          482,
+          24
+        ],
+        [
+          "2425:35950",
+          "type=Level 5",
+          602,
+          24
+        ]
+      ],
+      "properties": "4945b40d:111"
+    }
+  ],
+  "groups": [
+    {
+      "kind": "TEXT",
+      "name": "Breadcrumb",
+      "field": "fills",
+      "variableId": "VariableID:2849:196118",
+      "variable": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "2425:35899",
+          0
+        ],
+        [
+          "I2425:35939;2425:35899",
+          0
+        ],
+        [
+          "I2425:35942;2425:35899",
+          0
+        ],
+        [
+          "I2425:35943;2425:35899",
+          0
+        ],
+        [
+          "I2425:35946;2425:35899",
+          0
+        ],
+        [
+          "I2425:35947;2425:35899",
+          0
+        ],
+        [
+          "I2425:35948;2425:35899",
+          0
+        ],
+        [
+          "I2425:35951;2425:35899",
+          0
+        ],
+        [
+          "I2425:35952;2425:35899",
+          0
+        ],
+        [
+          "I2425:35953;2425:35899",
+          0
+        ],
+        [
+          "I2425:35954;2425:35899",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "icon-arrow",
+      "field": "fills",
+      "variableId": "VariableID:2849:196139",
+      "variable": "color/icon/secondary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35903;8899:79841",
+          0
+        ],
+        [
+          "I2833:809;8899:79841",
+          0
+        ],
+        [
+          "I2425:35939;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35942;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35943;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35946;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35947;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35948;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35951;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35952;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35953;2833:585;8899:79841",
+          0
+        ],
+        [
+          "I2425:35954;2833:585;8899:79841",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "icon",
+      "field": "fills",
+      "variableId": "VariableID:2849:196141",
+      "variable": "color/icon/brand",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "3255F7",
+        "037255",
+        "FF5300",
+        "8300F8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I2425:35902;8899:10822",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "...",
+      "field": "fills",
+      "variableId": "VariableID:2849:196118",
+      "variable": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "2425:35905",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Breadcrumb",
+      "field": "fills",
+      "variableId": "VariableID:2849:196119",
+      "variable": "color/text/disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "94A3B8",
+        "94A3B8",
+        "94A3B8",
+        "94A3B8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "2425:35908",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "icon-arrow",
+      "field": "fills",
+      "variableId": "VariableID:2849:196140",
+      "variable": "color/icon/tertiary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "94A3B8",
+        "94A3B8",
+        "94A3B8",
+        "94A3B8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I2425:35909;8899:79841",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Breadcrumb",
+      "field": "fills",
+      "variableId": "VariableID:2849:196121",
+      "variable": "color/text/brand",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "3255F7",
+        "037255",
+        "FF5300",
+        "8300F8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "2425:35911",
+          0
+        ],
+        [
+          "I2425:35940;2425:35911",
+          0
+        ],
+        [
+          "I2425:35944;2425:35911",
+          0
+        ],
+        [
+          "I2425:35949;2425:35911",
+          0
+        ],
+        [
+          "I2425:35955;2425:35911",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Breadcrumb",
+      "field": "fills",
+      "variableId": "VariableID:2849:196122",
+      "variable": "color/text/brand/strong",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "1D21B0",
+        "005038",
+        "AF1300",
+        "5800B7"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "2425:35913",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "icon-arrow",
+      "field": "fills",
+      "variableId": "VariableID:2849:196138",
+      "variable": "color/icon/primary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "0F172A",
+        "0F172A",
+        "0F172A",
+        "0F172A"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I3460:156;8899:76071",
+          0
+        ],
+        [
+          "I3460:198;8899:76071",
+          0
+        ],
+        [
+          "I3460:199;8899:76071",
+          0
+        ],
+        [
+          "I3460:200;8899:76071",
+          0
+        ]
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:2849:196118",
+      "name": "color/text/tertiary",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:90:720",
+      "name": "color/neutral/500",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196139",
+      "name": "color/icon/secondary",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196141",
+      "name": "color/icon/brand",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:82:159",
+      "name": "color/blue/400",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2496:177",
+      "name": "color/green/500",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2496:182",
+      "name": "color/orange/500",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2496:187",
+      "name": "color/purple/500",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196119",
+      "name": "color/text/disabled",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:90:719",
+      "name": "color/neutral/400",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196140",
+      "name": "color/icon/tertiary",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196121",
+      "name": "color/text/brand",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196122",
+      "name": "color/text/brand/strong",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:55:77",
+      "name": "color/blue/500",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:5976:15670",
+      "name": "color/green/600",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:5976:12001",
+      "name": "color/orange/700",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:5976:9495",
+      "name": "color/purple/600",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    },
+    {
+      "id": "VariableID:2849:196138",
+      "name": "color/icon/primary",
+      "collection": "VariableCollectionId:52:726",
+      "remote": false
+    },
+    {
+      "id": "VariableID:268:21767",
+      "name": "color/neutral/900",
+      "collection": "VariableCollectionId:52:690",
+      "remote": false
+    }
+  ],
+  "errors": []
+}

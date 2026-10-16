@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "GRAPH-TYPOGRAPHY-RETRY-REUSE-REVIEW-001",
+  "date": "2026-10-15",
+  "reviewer": "/root/build_figma_skill",
+  "result": "PASS",
+  "scope": "Revisión independiente del reintento limitado de seis JSON grandes, conservación del fallo histórico, reutilización por bytes exactos y preflight de cobertura estructural. No certifica el cierre ni CURRENT del grafo.",
+  "findings": [],
+  "checks": [
+    {
+      "id": "HISTORICAL_FAILURE_PRESERVED",
+      "result": "PASS",
+      "evidence": [
+        "../2026-10-15-typography/ast.initial-failed.json",
+        "../2026-10-15-typography/ast-preparation.initial-failed.json"
+      ],
+      "observed": "Se conservan las seis fuentes fallidas y el estado BLOCKED original. Los 2532 nodos y 3843 edges originales son idénticos en el AST reintentado y en el AST final. El reintento cambia únicamente failed_sources y añade su referencia de auditoría; no borra entidades ni evidencia del fracaso."
+    },
+    {
+      "id": "BOUNDED_RETRY_REPRODUCED",
+      "result": "PASS",
+      "evidence": [
+        "../2026-10-15-typography/retry-large-data-json.py",
+        "large-data-json-retry.json"
+      ],
+      "observed": "Se ejecutó el extractor instalado en modo de lectura: las seis fuentes vuelven a producir error json file too large to index con1048576 bytes. Una copia en memoria de la misma función, sustituyendo exclusivamente ese límite por8388608, devuelve en las seis nodes=[], edges=[] y skipped=data json (not a config/manifest), igual que el registro.",
+      "source_bytes_range": [1116740, 6230378],
+      "installed_extractor_sha256": "3099dff7f78e044380699138a4087729cca423f423c96fea7ea791fa4c25b599",
+      "installed_extractor_matches_record": true,
+      "installed_extractor_unchanged_during_review": true,
+      "six_source_hashes_unchanged_during_review": true
+    },
+    {
+      "id": "SOURCE_AND_EXTRACTION_REUSE",
+      "result": "PASS",
+      "evidence": [
+        "reuse-verified-extraction.py",
+        "extraction-reuse.json",
+        "source-plan.json",
+        "semantic-plan.json",
+        "ast-preparation.json"
+      ],
+      "code_sources_reused_verified": 938,
+      "fresh_data_json_verified": 1,
+      "final_unique_code_sources": 939,
+      "image_chunks_verified": 57,
+      "semantic_prompt_hash_unchanged": true,
+      "observed": "Los hashes actuales de las938 fuentes reutilizadas coinciden con ambos planes. La única fuente añadida es handoff-archive-layout.json, de menos de1MiB, cuyo skip data json se reprodujo. Las57 listas de imágenes, hashes de sus fuentes y bytes de cada chunk coinciden con el lote original; el hash del prompt también coincide. Los hashes de ambos ast.json coinciden con extraction-reuse.json y las copias de los registros de retry/preservación son idénticas."
+    },
+    {
+      "id": "LARGE_DATA_STRUCTURAL_PREFLIGHT",
+      "result": "PASS",
+      "evidence": [
+        "large-data-coverage.json",
+        "../../../scripts/ds_graph_engine.py"
+      ],
+      "files_verified": 6,
+      "corpus_artifacts": 1867,
+      "reference_counts_by_report_order": [3698, 1, 1, 0, 0, 110],
+      "observed": "Se volvió a parsear cada JSON completo y se verificaron su SHA256, data_keys, artifact_id determinista y número exacto de referencias textuales a rutas existentes del corpus, siguiendo la regla del suplemento. Las dos capturas sin referencias siguen cubiertas por identidad y claves reales; no se inventaron enlaces.",
+      "publication_gate": "El cierre debe recalcular e incorporar el suplemento a partir de las fuentes finales, además de pasar los controles semánticos y de integridad. El skip del extractor de configuración no constituye cobertura estructural ni semántica por sí solo."
+    }
+  ],
+  "limits": [
+    "AST_READY significa clasificación AST/configuración lista para la siguiente fase; los seis skips no producen nodos ni edges del extractor instalado.",
+    "El preflight estructural acredita identidad, claves y referencias explícitas de los seis JSON; no aprueba consumo tipográfico ni sustituye la extracción semántica de documentos e imágenes.",
+    "La nueva fuente data JSON también requiere incorporarse al suplemento completo; sus entidades no proceden del extractor de configuración.",
+    "No se ejecutaron los scripts de retry/reuse que escriben artefactos durante esta revisión. Se reprodujeron solo las operaciones de lectura del extractor y las comparaciones de hashes/datos.",
+    "No se evaluó ni publicó el grafo final y no se declara CURRENT. El único archivo escrito por esta revisión es este review.json."
+  ],
+  "source_files_modified": false,
+  "scripts_modified": false,
+  "graph_modified": false,
+  "graph_close_executed": false
+}

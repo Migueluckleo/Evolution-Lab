@@ -1,0 +1,133 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:53:39Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 336, inspected_nodes: 336, pending_nodes: 0, truncated: false}
+  limitations: ["Functional data behavior and remote product semantics not exposed by Figma"]
+component:
+  id: "7596:48397"
+  key: "c65677f139942b3cc11a8a8e8b3754029d044d57"
+  name: Linear Progress Bar
+  type: COMPONENT_SET
+  description: null
+  page: {id: "7568:47417", name: "❖ Linear Progress Bar"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=7596-48397", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "7596:48397"}
+classification: {kind: component, reusable: true, composition: false}
+identity: {dimensions: [1034, 1402], variant_count: 48}
+anatomy: ["variant → label/percentage row", "track frame → progress frame", "helper text"]
+dependency_inventory:
+  components: {total_instances: 0, local: 0, remote: 0}
+  variables: {total: 12, local: 12, remote: 0}
+  styles: {total: 0}
+variable_dependencies:
+  - {id: "VariableID:562:10", name: "spacing/xs", scopes: ["GAP"], locality: LOCAL}
+  - {id: "VariableID:562:11", name: "spacing/sm", scopes: ["GAP"], locality: LOCAL}
+  - {id: "VariableID:2849:196116", name: "color/text/primary", scopes: ["TEXT_FILL"], locality: LOCAL}
+  - {id: "VariableID:2845:160892", name: "font/size/xs", scopes: ["FONT_SIZE"], locality: LOCAL}
+  - {id: "VariableID:2845:160888", name: "font/weight/regular", scopes: ["ALL_SCOPES"], locality: LOCAL}
+  - {id: "VariableID:2845:160887", name: "font/family/base", scopes: ["FONT_FAMILY"], locality: LOCAL}
+  - {id: "VariableID:2992:386", name: "color/brand/default", scopes: ["FRAME_FILL","SHAPE_FILL","TEXT_FILL","STROKE_COLOR"], locality: LOCAL}
+  - {id: "VariableID:2849:196117", name: "color/text/secondary", scopes: ["TEXT_FILL"], locality: LOCAL}
+  - {id: "VariableID:2849:196144", name: "color/feedback/warning/icon", scopes: ["FRAME_FILL","SHAPE_FILL"], locality: LOCAL}
+  - {id: "VariableID:2849:196143", name: "color/feedback/positive/icon", scopes: ["FRAME_FILL","SHAPE_FILL"], locality: LOCAL}
+  - {id: "VariableID:2849:196145", name: "color/feedback/danger/icon", scopes: ["FRAME_FILL","SHAPE_FILL"], locality: LOCAL}
+  - {id: "VariableID:2845:160893", name: "font/size/sm", scopes: ["FONT_SIZE"], locality: LOCAL}
+properties:
+  definitions:
+    - {name: "Show Percentage", type: BOOLEAN, default: true}
+    - {name: "✏️ Percentage", type: TEXT, default: "25%"}
+    - {name: "Show label", type: BOOLEAN, default: true}
+    - {name: "✏️ Label", type: TEXT, default: Label}
+    - {name: "✏️ helper text", type: TEXT, default: "Optional helper text"}
+    - {name: "Show helper text", type: BOOLEAN, default: true}
+    - {name: Type, type: VARIANT, default: primary, options: [primary, warning, danger, positive]}
+    - {name: Size, type: VARIANT, default: small, options: [small, middle, large]}
+    - {name: Percentage, type: VARIANT, default: "25%", options: ["25%", "50%", "75%", "100%"]}
+variants:
+  observed_count: 48
+  complete_cartesian: true
+  rows:
+  - {id: "7596:48396", type: primary, size: small, percentage: "25%", width: 246, height: 44, fill_width: 61.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14688", type: warning, size: small, percentage: "25%", width: 246, height: 44, fill_width: 61.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14856", type: positive, size: small, percentage: "25%", width: 246, height: 44, fill_width: 61.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:15024", type: danger, size: small, percentage: "25%", width: 246, height: 44, fill_width: 61.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "7596:48393", type: primary, size: middle, percentage: "25%", width: 246, height: 51, fill_width: 61.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14695", type: warning, size: middle, percentage: "25%", width: 246, height: 51, fill_width: 61.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14863", type: positive, size: middle, percentage: "25%", width: 246, height: 51, fill_width: 61.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:15031", type: danger, size: middle, percentage: "25%", width: 246, height: 51, fill_width: 61.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "7596:48391", type: primary, size: large, percentage: "25%", width: 246, height: 55, fill_width: 61.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14702", type: warning, size: large, percentage: "25%", width: 246, height: 55, fill_width: 61.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14870", type: positive, size: large, percentage: "25%", width: 246, height: 55, fill_width: 61.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:15038", type: danger, size: large, percentage: "25%", width: 246, height: 55, fill_width: 61.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "7596:48387", type: primary, size: small, percentage: "50%", width: 246, height: 44, fill_width: 123, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14709", type: warning, size: small, percentage: "50%", width: 246, height: 44, fill_width: 123, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14877", type: positive, size: small, percentage: "50%", width: 246, height: 44, fill_width: 123, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:15045", type: danger, size: small, percentage: "50%", width: 246, height: 44, fill_width: 123, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "7596:48392", type: primary, size: middle, percentage: "50%", width: 246, height: 51, fill_width: 123, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14716", type: warning, size: middle, percentage: "50%", width: 246, height: 51, fill_width: 123, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14884", type: positive, size: middle, percentage: "50%", width: 246, height: 51, fill_width: 123, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:15052", type: danger, size: middle, percentage: "50%", width: 246, height: 51, fill_width: 123, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "7596:48394", type: primary, size: large, percentage: "50%", width: 246, height: 55, fill_width: 123, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14723", type: warning, size: large, percentage: "50%", width: 246, height: 55, fill_width: 123, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14891", type: positive, size: large, percentage: "50%", width: 246, height: 55, fill_width: 123, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:15059", type: danger, size: large, percentage: "50%", width: 246, height: 55, fill_width: 123, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "7596:48390", type: primary, size: small, percentage: "75%", width: 246, height: 44, fill_width: 184.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14730", type: warning, size: small, percentage: "75%", width: 246, height: 44, fill_width: 184.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14898", type: positive, size: small, percentage: "75%", width: 246, height: 44, fill_width: 184.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:15066", type: danger, size: small, percentage: "75%", width: 246, height: 44, fill_width: 184.5, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "7596:48395", type: primary, size: middle, percentage: "75%", width: 246, height: 51, fill_width: 184.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14737", type: warning, size: middle, percentage: "75%", width: 246, height: 51, fill_width: 184.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14905", type: positive, size: middle, percentage: "75%", width: 246, height: 51, fill_width: 184.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:15073", type: danger, size: middle, percentage: "75%", width: 246, height: 51, fill_width: 184.5, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "7596:48389", type: primary, size: large, percentage: "75%", width: 246, height: 55, fill_width: 184.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14744", type: warning, size: large, percentage: "75%", width: 246, height: 55, fill_width: 184.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14912", type: positive, size: large, percentage: "75%", width: 246, height: 55, fill_width: 184.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:15080", type: danger, size: large, percentage: "75%", width: 246, height: 55, fill_width: 184.5, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "7596:48388", type: primary, size: small, percentage: "100%", width: 246, height: 44, fill_width: 246, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14751", type: warning, size: small, percentage: "100%", width: 246, height: 44, fill_width: 246, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:14919", type: positive, size: small, percentage: "100%", width: 246, height: 44, fill_width: 246, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "8301:15087", type: danger, size: small, percentage: "100%", width: 246, height: 44, fill_width: 246, track_height: 4, visible_percentage_text: "25%"}
+  - {id: "7596:48386", type: primary, size: middle, percentage: "100%", width: 246, height: 51, fill_width: 246, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14758", type: warning, size: middle, percentage: "100%", width: 246, height: 51, fill_width: 246, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:14926", type: positive, size: middle, percentage: "100%", width: 246, height: 51, fill_width: 246, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "8301:15094", type: danger, size: middle, percentage: "100%", width: 246, height: 51, fill_width: 246, track_height: 8, visible_percentage_text: "25%"}
+  - {id: "7596:48385", type: primary, size: large, percentage: "100%", width: 246, height: 55, fill_width: 246, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14765", type: warning, size: large, percentage: "100%", width: 246, height: 55, fill_width: 246, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:14933", type: positive, size: large, percentage: "100%", width: 246, height: 55, fill_width: 246, track_height: 12, visible_percentage_text: "25%"}
+  - {id: "8301:15101", type: danger, size: large, percentage: "100%", width: 246, height: 55, fill_width: 246, track_height: 12, visible_percentage_text: "25%"}
+states: {interactive: [], reactions: 0}
+layout:
+  width: 246
+  size_boxes: {small: [246, 44], middle: [246, 51], large: [246, 55]}
+  track_heights: {small: 4, middle: 8, large: 12}
+  fill_widths: {"25%": 61.5, "50%": 123, "75%": 184.5, "100%": 246}
+  radius: 999
+visual:
+  track: {resolved: "#F1F5F9", variable: null}
+  progress:
+    primary: {resolved: "#3255F7", variable: "VariableID:2992:386", name: "color/brand/default"}
+    warning: {resolved: "#C97B00", variable: "VariableID:2849:196144", name: "color/feedback/warning/icon"}
+    positive: {resolved: "#098300", variable: "VariableID:2849:196143", name: "color/feedback/positive/icon"}
+    danger: {resolved: "#D40000", variable: "VariableID:2849:196145", name: "color/feedback/danger/icon"}
+typography:
+  family: Manrope
+  style: Regular
+  label_percentage_sizes: {small: 12, middle: 14, large: 14}
+  helper_size: 12
+  line_height: AUTO
+  letter_spacing: "0%"
+content:
+  label_default: Label
+  helper_default: "Optional helper text"
+  visible_percentage_in_all_variants: "25%"
+  discrepancy: "36 variants have 50/75/100% axis and matching fill width but show 25%"
+interactions: {status: UNDEFINED, reactions: 0}
+accessibility: {status: REQUIRES_DEFINITION, undefined: ["name", "value/range", "screen-reader behavior", "non-color encoding"]}
+external_dependencies: []
+unresolved: ["meaning of contextual type", "dynamic data behavior"]
+evidence:
+  figma_direct: ["COMPONENT_SET 7596:48397", "336/336 node traversal", "48 variants", "144 texts", "12 local variables", "screenshot"]
+  derived: ["fill widths are exact fractions of 246 px"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; product behavior undefined"}

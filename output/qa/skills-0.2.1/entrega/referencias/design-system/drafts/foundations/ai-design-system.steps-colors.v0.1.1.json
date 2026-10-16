@@ -1,0 +1,41 @@
+{
+  "amendmentId": "FOUNDATIONS-STEPS-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "version": "0.1.1",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {"path": "sources/inventories/tokens.inventory.json", "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"},
+  "supersedes": "drafts/foundations/ai-design-system.steps-colors.v0.1.0.json",
+  "rule": "Siete roles semánticos de scope específico ligados a primitivas existentes. Tres acentos siguen la familia cromática del tema; cuatro roles de blanco, neutros y texto conservan su alias. Ninguna variable ni primitiva nueva.",
+  "modeIds": {"Contable": "6:0", "Administrativo": "6:1", "Servicios": "6:2", "Personas": "6:3"},
+  "variables": [
+    {
+      "name": "color/shape/steps/dot/on-white/selected", "targetId": "VariableID:341:123", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado de Steps sobre fondo blanco; sigue el color base de marca del tema activo.", "scopes": ["SHAPE_FILL"], "sourceHex": "#3255F7", "themeRole": "color/brand/default",
+      "aliasesByMode": {"6:0": {"name": "color/blue/400", "targetId": "VariableID:8:87"}, "6:1": {"name": "color/green/500", "targetId": "VariableID:8:62"}, "6:2": {"name": "color/orange/500", "targetId": "VariableID:8:71"}, "6:3": {"name": "color/purple/500", "targetId": "VariableID:8:80"}}
+    },
+    {
+      "name": "color/shape/steps/dot/on-white/unselected", "targetId": "VariableID:341:124", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado de Steps sobre fondo blanco; conserva el gris observado.", "scopes": ["SHAPE_FILL"], "sourceHex": "#E2E8F0",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:1": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:2": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:3": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}}
+    },
+    {
+      "name": "color/shape/steps/dot/on-primary/selected", "targetId": "VariableID:341:125", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado del subcomponente de Steps para contexto primario; blanco contextual de la fuente.", "scopes": ["SHAPE_FILL"], "sourceHex": "#FFFFFF",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/100", "targetId": "VariableID:8:93"}, "6:1": {"name": "color/neutral/100", "targetId": "VariableID:8:93"}, "6:2": {"name": "color/neutral/100", "targetId": "VariableID:8:93"}, "6:3": {"name": "color/neutral/100", "targetId": "VariableID:8:93"}}
+    },
+    {
+      "name": "color/shape/steps/dot/on-primary/unselected", "targetId": "VariableID:341:126", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado de Steps sobre superficie primaria; usa el tono 300 de la familia cromática de cada tema.", "scopes": ["SHAPE_FILL"], "sourceHex": "#7D9AFF", "themeScale": "300",
+      "aliasesByMode": {"6:0": {"name": "color/blue/300", "targetId": "VariableID:8:86"}, "6:1": {"name": "color/green/300", "targetId": "VariableID:8:60"}, "6:2": {"name": "color/orange/300", "targetId": "VariableID:8:69"}, "6:3": {"name": "color/purple/300", "targetId": "VariableID:8:78"}}
+    },
+    {
+      "name": "color/shape/steps/dot/legacy-gallery/selected", "targetId": "VariableID:341:127", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado exclusivo de la variante histórica On Primary / Gallery; conserva su escala de tono 300 distinta del subcomponente contextual y sigue el tema.", "scopes": ["SHAPE_FILL"], "sourceHex": "#0073EA", "themeScale": "300",
+      "aliasesByMode": {"6:0": {"name": "color/blue/300", "targetId": "VariableID:8:86"}, "6:1": {"name": "color/green/300", "targetId": "VariableID:8:60"}, "6:2": {"name": "color/orange/300", "targetId": "VariableID:8:69"}, "6:3": {"name": "color/purple/300", "targetId": "VariableID:8:78"}}
+    },
+    {
+      "name": "color/shape/steps/dot/legacy-gallery/unselected", "targetId": "VariableID:341:128", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado exclusivo de la variante histórica On Primary / Gallery de Steps; aproxima el gris azulado observado.", "scopes": ["SHAPE_FILL"], "sourceHex": "#DCDFEC", "approximationDE76": 4.02,
+      "aliasesByMode": {"6:0": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:1": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:2": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:3": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}}
+    },
+    {
+      "name": "color/text/steps/count/on-white", "targetId": "VariableID:341:129", "collection": "semantic", "resolvedType": "COLOR", "description": "Texto del contador de Steps sobre blanco; aproxima el gris oscuro observado con una primitiva neutra existente.", "scopes": ["TEXT_FILL"], "sourceHex": "#323338", "approximationDE76": 10.9,
+      "aliasesByMode": {"6:0": {"name": "color/neutral/800", "targetId": "VariableID:8:100"}, "6:1": {"name": "color/neutral/800", "targetId": "VariableID:8:100"}, "6:2": {"name": "color/neutral/800", "targetId": "VariableID:8:100"}, "6:3": {"name": "color/neutral/800", "targetId": "VariableID:8:100"}}
+    }
+  ]
+}

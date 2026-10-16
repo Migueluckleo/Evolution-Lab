@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "label": "Search: tamaños y apariencias de búsqueda",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_search_tama_os_large_middle_small",
+      "label": "Tamaños large middle small",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Doce muestras combinan tres tamaños con rótulos booleanos y default/selected."
+    },
+    {
+      "id": "qa_implementations_typography_web_search_campo_default_buscar",
+      "label": "Campo default Buscar",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Etiqueta superior Buscar y texto Buscar dentro del campo."
+    },
+    {
+      "id": "qa_implementations_typography_web_search_campo_selected_search",
+      "label": "Campo selected Search",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Muestras con Search dentro del campo y X de limpieza antes de la lupa."
+    },
+    {
+      "id": "qa_implementations_typography_web_search_lupa_final",
+      "label": "Lupa final",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Icono de búsqueda a la derecha, azul en muestras activas visuales y gris en atenuadas."
+    },
+    {
+      "id": "qa_implementations_typography_web_search_apariencia_gris_de_grupos_true",
+      "label": "Apariencia gris de grupos true",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Campos con fondo gris claro, textos e iconos atenuados en los rótulos true."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "target": "qa_implementations_typography_web_search_tama_os_large_middle_small",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "target": "qa_implementations_typography_web_search_campo_default_buscar",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "target": "qa_implementations_typography_web_search_campo_selected_search",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "target": "qa_implementations_typography_web_search_lupa_final",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_search_search__tama_os_y_apariencias_de_b_squeda",
+      "target": "qa_implementations_typography_web_search_apariencia_gris_de_grupos_true",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/search.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

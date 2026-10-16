@@ -1,0 +1,846 @@
+{
+  "family": "scrollbar",
+  "sources": {
+    "base": "specs/scrollbar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/scrollbar.color-approximation.amendment.v0.1.1.md"
+    ]
+  },
+  "checks": 192,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/vertical/25%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/vertical/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "contable/vertical/33%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/vertical/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "contable/vertical/50%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/vertical/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "contable/vertical/75%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/vertical/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "contable/horizontal/25%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/horizontal/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "contable/horizontal/33%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/horizontal/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "contable/horizontal/50%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/horizontal/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "contable/horizontal/75%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "contable/horizontal/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "administrativo/vertical/25%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/vertical/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "administrativo/vertical/33%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/vertical/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "administrativo/vertical/50%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/vertical/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "administrativo/vertical/75%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/vertical/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "administrativo/horizontal/25%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/horizontal/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "administrativo/horizontal/33%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/horizontal/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "administrativo/horizontal/50%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/horizontal/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "administrativo/horizontal/75%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "administrativo/horizontal/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "servicios/vertical/25%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/vertical/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "servicios/vertical/33%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/vertical/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "servicios/vertical/50%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/vertical/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "servicios/vertical/75%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/vertical/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "servicios/horizontal/25%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/horizontal/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "servicios/horizontal/33%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/horizontal/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "servicios/horizontal/50%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/horizontal/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "servicios/horizontal/75%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "servicios/horizontal/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "personas/vertical/25%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/vertical/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "personas/vertical/33%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/vertical/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "personas/vertical/50%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/vertical/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "personas/vertical/75%",
+      "actual": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 14,
+        "height": 280,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/vertical/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "width": 6
+      }
+    },
+    {
+      "case": "personas/horizontal/25%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/horizontal/25%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "personas/horizontal/33%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/horizontal/33%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "personas/horizontal/50%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/horizontal/50%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    },
+    {
+      "case": "personas/horizontal/75%",
+      "actual": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "expected": {
+        "width": 280,
+        "height": 16,
+        "background-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "case": "personas/horizontal/75%/thumb",
+      "actual": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      },
+      "expected": {
+        "border-radius": "3px",
+        "background-color": "rgb(226, 232, 240)",
+        "height": 6
+      }
+    }
+  ]
+}

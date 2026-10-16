@@ -1,0 +1,52 @@
+{
+  "implementationId": "IMP-SCROLLBAR-FIGMA-001",
+  "runId": "legacy-scrollbar-color-approximation-2026-09-24",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "contract": {
+    "id": "SCROLLBAR-001",
+    "baseVersion": "0.1.0",
+    "activeAmendmentVersion": "0.1.1",
+    "status": "DELEGATED_FOR_BUILD",
+    "basePath": "specs/scrollbar.contract.v0.1.0.md",
+    "amendmentPath": "specs/scrollbar.color-approximation.amendment.v0.1.1.md"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "3910:928",
+    "mainSetId": "7664:49488",
+    "originalThumbColor": "#C3C6D4"
+  },
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Scrollbars",
+    "pageId": "328:122",
+    "mainSetId": "330:194",
+    "internalSetIds": ["329:138", "330:151", "330:160", "330:169"]
+  },
+  "tokenBindings": {
+    "semanticThumbFill": "VariableID:327:123",
+    "primitiveAlias": "VariableID:8:95",
+    "primitiveName": "color/neutral/300",
+    "resolvedThumbColor": "#E2E8F0",
+    "retiredPrimitiveId": "VariableID:327:122"
+  },
+  "lastReadback": {
+    "publicVariantCount": 8,
+    "internalVariantCount": 22,
+    "thumbPaintCount": 30,
+    "boundThumbPaintCount": 30,
+    "semanticOrScopeIssues": 0,
+    "aliasCount": 4,
+    "retiredPrimitiveInLocalInventory": false,
+    "visualReview": "PASS against authorized approximation; source and target colors differ",
+    "qaRecord": "QA-SCROLLBAR-FIGMA-001/0.1.1"
+  },
+  "knownLimits": [
+    "Thumb on white resolves at 1.23:1, marked for internal accessibility review.",
+    "The source label 75% corresponds to a 240/272 (about 88.24%) public thumb; low-priority user audit item.",
+    "No functional scrolling, dragging, keyboard behavior or ARIA is implemented."
+  ]
+}

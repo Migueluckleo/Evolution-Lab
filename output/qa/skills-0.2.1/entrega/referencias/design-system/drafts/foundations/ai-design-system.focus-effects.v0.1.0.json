@@ -1,0 +1,48 @@
+{
+  "extensionId": "FOUNDATIONS-FOCUS-EFFECTS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "variables": [
+    {
+      "name": "color/focus/effect-outer",
+      "resolvedType": "COLOR",
+      "description": "Color del anillo exterior de foco cuando se representa mediante un efecto; no se usa como borde, fondo ni decoración.",
+      "scopes": ["EFFECT_COLOR"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": { "type": "VARIABLE_ALIAS", "name": "color/blue/500", "targetId": "VariableID:8:88" },
+        "6:1": { "type": "VARIABLE_ALIAS", "name": "color/blue/500", "targetId": "VariableID:8:88" },
+        "6:2": { "type": "VARIABLE_ALIAS", "name": "color/blue/500", "targetId": "VariableID:8:88" },
+        "6:3": { "type": "VARIABLE_ALIAS", "name": "color/blue/500", "targetId": "VariableID:8:88" }
+      }
+    },
+    {
+      "name": "color/focus/effect-inner",
+      "resolvedType": "COLOR",
+      "description": "Color del halo interior claro que separa visualmente el anillo de foco de un control cuando se representa mediante un efecto; no se usa como fondo.",
+      "scopes": ["EFFECT_COLOR"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": { "type": "VARIABLE_ALIAS", "name": "color/neutral/100", "targetId": "VariableID:8:93" },
+        "6:1": { "type": "VARIABLE_ALIAS", "name": "color/neutral/100", "targetId": "VariableID:8:93" },
+        "6:2": { "type": "VARIABLE_ALIAS", "name": "color/neutral/100", "targetId": "VariableID:8:93" },
+        "6:3": { "type": "VARIABLE_ALIAS", "name": "color/neutral/100", "targetId": "VariableID:8:93" }
+      }
+    }
+  ]
+}

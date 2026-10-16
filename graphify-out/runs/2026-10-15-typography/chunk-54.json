@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "label": "Table: ejemplos default y hover",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_table_cabeceras_uuid",
+      "label": "Cabeceras UUID",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Siete columnas con UUID sobre una banda clara."
+    },
+    {
+      "id": "qa_implementations_typography_web_table_fila_content",
+      "label": "Fila Content",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Una fila visible con Content repetido bajo cada cabecera."
+    },
+    {
+      "id": "qa_implementations_typography_web_table_ejemplo_default",
+      "label": "Ejemplo default",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Fila de contenido blanca sin fondo de énfasis general."
+    },
+    {
+      "id": "qa_implementations_typography_web_table_ejemplo_hover",
+      "label": "Ejemplo hover",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Celdas de contenido gris claro y elipsis azul al inicio de la fila."
+    },
+    {
+      "id": "qa_implementations_typography_web_table_contenedor_de_esquinas_redondeadas",
+      "label": "Contenedor de esquinas redondeadas",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Cabecera superior redondeada y borde exterior fino."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "target": "qa_implementations_typography_web_table_cabeceras_uuid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "target": "qa_implementations_typography_web_table_fila_content",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "target": "qa_implementations_typography_web_table_ejemplo_default",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "target": "qa_implementations_typography_web_table_ejemplo_hover",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_table_table__ejemplos_default_y_hover",
+      "target": "qa_implementations_typography_web_table_contenedor_de_esquinas_redondeadas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/table.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

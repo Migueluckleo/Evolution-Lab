@@ -1,0 +1,162 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T17:12:11Z"
+generator:
+  skill: figma-component-contract
+  skill_version: "0.1.0"
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal:
+    discovered_nodes: 21
+    inspected_nodes: 21
+    pending_nodes: 0
+    invisible_nodes_inspected: 0
+    truncated: false
+    limit: null
+  mcp_limitations:
+    - La captura visual se inspeccionó inline; la URL efímera no se conservó como archivo local.
+component:
+  id: "2599:10469"
+  key: 7095bee3ebc9f0d38df913f061955cdddc3c6175
+  name: Tooltip
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2599:10321", name: "❖ Tooltip", type: PAGE}
+  page: {id: "2599:10321", name: "❖ Tooltip"}
+  source:
+    url: https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2599-10469
+    file_key: 9zs5RMR8LB5wHjW9Bd59BA
+    node_id: "2599:10469"
+classification:
+  kind: component
+  reusable: true
+  composition: false
+  evidence_refs: [E001, E002]
+identity:
+  position: {x: 470.64654541015625, y: 32}
+  dimensions: {width: 172.70689392089844, height: 500}
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "2599:10470", name: "Align=Right", type: COMPONENT, width: 116, height: 38}
+  - {id: "2599:10475", name: "Align=Down", type: COMPONENT, width: 107, height: 48}
+  - {id: "2599:10480", name: "Align=Up", type: COMPONENT, width: 107, height: 48}
+  - {id: "2599:10485", name: "Align=Left", type: COMPONENT, width: 116, height: 38}
+anatomy:
+  functional_tree:
+    - Tooltip component set
+    - "Each variant: Body frame → editable label text; arrow frame → vector arrow"
+  graphical_details_omitted: []
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 12, local: 7, remote: 5, unknown_locality: 0, resolved: 12, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:2849:196114", name: color/background/inverse, type: COLOR, locality: LOCAL, used_by: [body.fill, arrow.fill], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196123", name: color/text/on-brand, type: COLOR, locality: LOCAL, used_by: [label.fill], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: [label.fontFamily], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160888", name: font/weight/regular, type: STRING, locality: LOCAL, used_by: [label.fontStyle], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160893", name: font/size/sm, type: FLOAT, locality: LOCAL, used_by: [label.fontSize], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:10", name: spacing/xs, type: FLOAT, locality: LOCAL, used_by: [arrow_frame.padding], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: spacing/sm, type: FLOAT, locality: LOCAL, used_by: [body.padding_vertical], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: Spacing/Small/spacing-sm-0, type: FLOAT, locality: REMOTE, used_by: [variant.padding], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:4adf4d3d6fd09d43b72091c1e9befa8fe86dcba2/5164:5", name: Spacing/Small/spacing-sm-24, type: FLOAT, locality: REMOTE, used_by: [body.itemSpacing], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", name: Spacing/Small/spacing-sm-12, type: FLOAT, locality: REMOTE, used_by: [body.padding_horizontal], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:e1eb85bdf938a9516c1008066d8cbffe02af16bb/4317:269", name: radius/radius-md, type: FLOAT, locality: REMOTE, used_by: [body.radius], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {id: "VariableID:d3009f7e337d073dd08258ce292187b527e55da1/3325:184", name: Desktop/Desktop - none, type: FLOAT, locality: REMOTE, used_by: [arrow_frame.padding], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: "✏️ Content#2998:29", type: TEXT, default: Tooltips label}
+    - {name: Align, type: VARIANT, default: Right, values: [Up, Right, Left, Down]}
+  observed: [Right, Down, Up, Left]
+  available: [Up, Right, Left, Down]
+  unknown: []
+variants:
+  observed_combinations: ["Align=Right", "Align=Down", "Align=Up", "Align=Left"]
+  available_values: [Up, Right, Left, Down]
+  unknown: []
+states:
+  observed: []
+  available: []
+  unknown: [hover, focus, disabled]
+layout:
+  node: {node: {id: "2599:10469", name: Tooltip, type: COMPONENT_SET}, layout_mode: NONE}
+  children:
+    - {node: {id: "2599:10470", name: "Align=Right", type: COMPONENT}, layout_mode: HORIZONTAL, sizing: {horizontal: FIXED, vertical: HUG}}
+    - {node: {id: "2599:10475", name: "Align=Down", type: COMPONENT}, layout_mode: VERTICAL, sizing: {horizontal: FIXED, vertical: HUG}}
+    - {node: {id: "2599:10480", name: "Align=Up", type: COMPONENT}, layout_mode: VERTICAL, sizing: {horizontal: FIXED, vertical: HUG}}
+    - {node: {id: "2599:10485", name: "Align=Left", type: COMPONENT}, layout_mode: HORIZONTAL, sizing: {horizontal: FIXED, vertical: HUG}}
+  relationships:
+    - {parent_id: "2599:10470", child_id: "2599:10471", relationship: horizontal body before right arrow}
+    - {parent_id: "2599:10475", child_id: "2599:10476", relationship: vertical body before down arrow}
+    - {parent_id: "2599:10480", child_id: "2599:10483", relationship: vertical arrow before body}
+    - {parent_id: "2599:10485", child_id: "2599:10488", relationship: horizontal left arrow before body}
+visual:
+  node: {node: {id: "2599:10469", name: Tooltip, type: COMPONENT_SET}, fills: [], strokes: []}
+  descendants:
+    - {node: {id: "2599:10471", name: Content, type: FRAME}, fill_token: color/background/inverse, corner_radius: 8, padding: [8, 12, 8, 12]}
+    - {node: {id: "2599:10472", name: Tooltips label, type: TEXT}, fill_token: color/text/on-brand}
+  icons:
+    - node: {id: "2599:10474", name: arrow, type: VECTOR}
+      dimensions: {width: 16, height: 10, unit: px}
+      vector_descendant_count: 0
+      fills: [color/background/inverse]
+      winding_rule: NONZERO
+      path: "M 6.43293465508355 9.08841678074428 C 7.275168048010931 10.300405876977104 8.714182005988228 10.303850769996643 9.559808519151476 9.098752566746303 C 9.564620937738153 9.09189441241324 9.566857011367876 9.088655925089759 9.571688334147135 9.081830297197614 C 9.72328754266103 8.867652990988322 13.53801049126519 3.478264468056815 16 0 C 9.75161107381185 0.0000010323956140772291 0 0.000002643614607222844 0 0.000002643614607222844 L 6.43293465508355 9.08841678074428 Z"
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "2599:10472", name: Tooltips label}, characters: Tooltips label, font_family: Manrope, font_style: Regular, font_size: 14, line_height: "160%", letter_spacing: "-2%", text_style: {id: "", key: null, name: null, locality: UNKNOWN}, bound_variables: [font/family/base, font/weight/regular, font/size/sm]}
+tokens:
+  summary: {total: 12, local: 7, remote: 5}
+  categories:
+    color: [color/background/inverse, color/text/on-brand]
+    typography: [font/family/base, font/weight/regular, font/size/sm]
+    spacing: [spacing/xs, spacing/sm, Spacing/Small/spacing-sm-0, Spacing/Small/spacing-sm-24, Spacing/Small/spacing-sm-12, Desktop/Desktop - none]
+    radius: [radius/radius-md]
+  source: variable_dependencies
+content:
+  example_content:
+    observed_strings: [Tooltips label]
+  component_rules: [editable TEXT property]
+  truncation_and_wrapping: []
+interactions:
+  status: UNDEFINED
+  reason: No reactions are exposed on the four Tooltip variants.
+  rules: []
+semantic_contract:
+  explicit_descriptions:
+    - "Page documentation describes short contextual information on hover or focus; the set description is empty."
+  purpose: {status: DEFINED}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: [visible label]
+  undefined: [keyboard activation, trigger relation, aria description, timing, contrast]
+external_dependencies: []
+unresolved:
+  - {id: U001, category: SOURCE_CONFLICT, subject: documentation template, reason: A shared documentation instance mentions Modal sizes on the Tooltip page; this is not Tooltip evidence., missing_fields: [], evidence_refs: [E006], impact: Ignore that sentence as unrelated template content.}
+  - {id: U002, category: TOKEN_MAPPING, subject: line-height and letter-spacing, reason: Source uses 160% and -2%; JSON semantic tokens have distinct numeric values or unclear unit conversion., missing_fields: [exact_equivalence], evidence_refs: [E004, E005], impact: Destination mapping requires a documented normalization decision.}
+implementation_notes:
+  - Source vector path and orientation are directly readable; do not replace the arrow with an unrelated icon.
+  - The source shadow uses two literal drop shadows; the approved JSON has no shadow token category.
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:2599:10469.type", value: COMPONENT_SET}
+    - {id: E002, source: "node:2599:10469.componentPropertyDefinitions", value: "TEXT Content plus VARIANT Align"}
+    - {id: E003, source: "node:2599:10469.children", value: four variants}
+    - {id: E004, source: "node:2599:10472.lineHeight", value: "160%"}
+    - {id: E005, source: "node:2599:10472.letterSpacing", value: "-2%"}
+    - {id: E006, source: "page:2599:10321 documentation instance", value: unrelated Modal sentence}
+    - {id: E007, source: "node:2599:10469 subtree boundVariables + figma.variables.getVariableByIdAsync", value: 12 used variables resolved by ID and collection}
+  derived:
+    - {id: D001, source: E003, value: four arrow directions only}
+  requires_definition:
+    - {id: R001, source: "node:2599:10469.reactions", value: product trigger and keyboard behavior}
+  confidence:
+    level: HIGH
+    reason: All 21 set descendants inspected; product behavior remains outside Figma evidence.

@@ -1,0 +1,61 @@
+{
+  "implementationId": "IMP-NAVIGATION-TAB-FIGMA-001",
+  "runId": "legacy-navigation-tab-2026-09-24",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "contract": {
+    "id": "NAVIGATION-TAB-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "path": "specs/navigation-tab.contract.v0.1.0.md"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "268:20245",
+    "setId": "1183:1146",
+    "variantCount": 17,
+    "sourceContract": "drafts/contracts/navigation-tab.source.component-contract.yaml"
+  },
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Navigation",
+    "pageId": "275:122",
+    "setId": "316:200",
+    "variantIds": ["311:247", "312:169", "312:176", "312:183", "312:190", "312:197", "312:204", "312:211", "312:408", "314:185", "314:192", "314:199", "314:207", "314:215", "314:223", "314:231", "315:199"]
+  },
+  "tokenBindings": {
+    "subtleBorder": "VariableID:309:122",
+    "disabledBorder": "VariableID:309:123",
+    "focusEffect": "VariableID:136:122"
+  },
+  "dependencies": {
+    "imageSquareLightKey": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+    "imageSquareRegularSelectedKey": "7e704a5154aa535ff118cc9d6970e0bfce641037",
+    "dotKey": "309ba73acbf0853df307a033c09a1a40856357d5"
+  },
+  "completedSteps": ["P1", "P2", "P3", "P4"],
+  "lastReadback": {
+    "variantCount": 17,
+    "publicPropertyCount": 10,
+    "iconInstanceCount": 33,
+    "dotInstanceCount": 16,
+    "divisorCount": 8,
+    "paintCount": 107,
+    "boundPaintCount": 107,
+    "semanticOrScopeIssues": 0,
+    "labelTypographyBindings": 51,
+    "dotTypographyBindings": 32,
+    "hoverReactionCount": 4,
+    "propertyInstanceTest": "PASS",
+    "visualReview": "PASS; Dynamic/Off/Hovered content alignment corrected and verified against source",
+    "hoverBorderOverlayId": "321:122",
+    "qaRecord": "QA-NAVIGATION-TAB-FIGMA-001"
+  },
+  "knownLimits": [
+    "Dot numeric text uses literal 8px because the approved inventory has no 8px font-size primitive.",
+    "Selected exists only for Dynamic/On and does not receive invented sibling variants.",
+    "Hover prototype reactions do not define click, reverse transition, selection logic, keyboard behavior or web accessibility."
+  ]
+}

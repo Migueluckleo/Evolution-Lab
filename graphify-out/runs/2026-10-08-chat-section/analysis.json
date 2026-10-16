@@ -1,0 +1,151 @@
+{
+  "nodes": 5643,
+  "edges": 12905,
+  "communities": 408,
+  "gods": [
+    {
+      "id": "registry_qa_registro_de_qa",
+      "label": "Registro de QA",
+      "degree": 134
+    },
+    {
+      "id": "registry_decisions_registro_de_decisiones",
+      "label": "Registro de decisiones",
+      "degree": 104
+    },
+    {
+      "id": "registry_implementations_registro_de_implementaciones",
+      "label": "Registro de implementaciones",
+      "degree": 96
+    },
+    {
+      "id": "registry_contracts_registro_de_contratos",
+      "label": "Registro de contratos",
+      "degree": 95
+    },
+    {
+      "id": "registry_sources_registro_de_fuentes",
+      "label": "Registro de fuentes",
+      "degree": 74
+    },
+    {
+      "id": "specs_migration_audit_auditor_a_por_excepciones___migraci_n_de_la_librer_a_anterior",
+      "label": "Auditoría por excepciones · migración de la Librería anterior",
+      "degree": 47
+    },
+    {
+      "id": "registry_environment_environment_registry",
+      "label": "Environment Registry",
+      "degree": 38
+    },
+    {
+      "id": "specs_migration_traceability_status_cobertura_de_trazabilidad___librer_a_anterior___ai_design_system",
+      "label": "Cobertura de trazabilidad · Librería anterior → AI Design System",
+      "degree": 38
+    },
+    {
+      "id": "specs_chat_section_contract_v0_1_0_chat_section___contrato_de_construcci_n",
+      "label": "Chat Section · contrato de construcción",
+      "degree": 32
+    },
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variable_valuesbymode",
+      "label": "valuesByMode",
+      "degree": 30
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Figma BLOCKED pending adoption/preflight; Web BLOCKED with functional definitions incomplete; publication unauthorized",
+      "target": "Figma read/write operations verified separately: local MD/JSON, descendants, properties/bindings, pages, variables/aliases/components, readback",
+      "source_files": [
+        "drafts/reports/anticipa-screen-composition.synthesis.v0.1.0.md",
+        "protocols/01-ENVIRONMENT-AND-TOOLS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Chat Section settled growth and residual empty height",
+      "target": "Composition Slot queue closed for recorded families",
+      "source_files": [
+        "qa/implementations/chat-section.v0.1.0.review.md",
+        "registry/SLOTS-REVIEW-STATUS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Fixed anatomy uses TEXT BOOLEAN INSTANCE_SWAP",
+      "target": "Chat Suggestion action composition",
+      "source_files": [
+        "registry/SLOTS-REVIEW-STATUS.md",
+        "specs/chat-section.contract.v0.1.0.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Estados documentales, preparación, implementación y auditoría independientes",
+      "target": "MISSING→GENERATING→GENERATED→CHECKING→CURRENT",
+      "source_files": [
+        "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+        "references/GRAPH-OPERATIONS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Header y Slot construidos: gates de descubrimiento históricos, no tareas activas",
+      "target": "Header: gates previos satisfechos y contrato promovido a specs",
+      "source_files": [
+        "drafts/reports/header.discovery.v0.1.0.md",
+        "qa/contracts/header.v0.1.0.review.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `val()` connect `Chat Section Verify` to `Table Slots Qa`?",
+      "why": "High betweenness centrality (0.009) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Search0.1.1 · correspondencia documental PASS, solo lectura`, `Protocol migration history 0.2.0 to Slots0.2.3`, `Manifiesto histórico SHA256SUMS v0.2.0` to the rest of the system?",
+      "why": "154 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.016063987095039655 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `QA y evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.032920110192837464 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Modal · Evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07915893630179345 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Decisiones de migración` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.059018367961457395 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Implementations · Evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.04965920155793573 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

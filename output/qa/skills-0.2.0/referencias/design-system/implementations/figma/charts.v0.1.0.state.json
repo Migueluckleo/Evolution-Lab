@@ -1,0 +1,161 @@
+{
+  "implementationId": "IMP-CHARTS-FIGMA-001",
+  "slotsReview": {
+    "contract": "specs/composition-slots.amendment.v0.1.1.md",
+    "state": "implementations/figma/composition-slots.v0.1.1.state.json",
+    "status": "VALIDATED",
+    "date": "2026-09-30",
+    "scope": "Leyendas de Header/Progress Detail; no revalida paleta histórica"
+  },
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publication": "UNPUBLISHED",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Charts",
+    "pageId": "210:122",
+    "pageNameOccurrences": 1,
+    "definitions": [
+      {
+        "sourceName": "labelCell",
+        "sourceId": "3086:992",
+        "targetName": "Chart Legend Label",
+        "targetId": "210:145",
+        "variantCount": 4,
+        "variantIds": [
+          "210:129",
+          "210:133",
+          "210:137",
+          "210:141"
+        ]
+      },
+      {
+        "sourceName": "cell",
+        "sourceId": "2977:2066",
+        "targetName": "Chart Cell",
+        "targetId": "210:171",
+        "variantCount": 13,
+        "variantIds": [
+          "210:146",
+          "210:147",
+          "210:149",
+          "210:151",
+          "210:153",
+          "210:155",
+          "210:157",
+          "210:159",
+          "210:161",
+          "210:163",
+          "210:165",
+          "210:167",
+          "210:169"
+        ]
+      },
+      {
+        "sourceName": "Progress chart item",
+        "sourceId": "3075:871",
+        "targetName": "Progress Chart Item",
+        "targetId": "213:161",
+        "variantCount": 2,
+        "variantIds": [
+          "213:122",
+          "213:128"
+        ]
+      },
+      {
+        "sourceName": "Donut",
+        "sourceId": "3086:1090",
+        "targetName": "Semi-donut Gauge",
+        "targetId": "211:134",
+        "variantCount": 3,
+        "variantIds": [
+          "211:122",
+          "211:126",
+          "211:130"
+        ]
+      },
+      {
+        "sourceName": "Header",
+        "sourceId": "3075:764",
+        "targetName": "Chart Header",
+        "targetId": "213:162",
+        "variantCount": 1,
+        "variantIds": [
+          "213:162"
+        ]
+      }
+    ]
+  },
+  "contract": {
+    "id": "CHARTS-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "9e62e9a75b41d93e565a54061b98c03271c22ef863300c13b7b3bd76576ced0c",
+    "baseInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "chartColorDataDigestSha256": "12768f8d7d3f786ece264678263a3acc94417255e4de34d23554ec762113b9e0",
+    "sourceVectorSnapshotDigestSha256": "60e22a15421f6be666e175bc64905074562f00453abb2032c3203c587c5ad764"
+  },
+  "constructionScripts": [
+    {
+      "path": "drafts/figma/charts-foundation-build.v0.1.0.js",
+      "digestSha256": "85d816ab7cdded87ea11257192a338ee5ad4224c18c8a28889b02090ecc6a6fa"
+    },
+    {
+      "path": "drafts/figma/chart-gauge-build.v0.1.0.js",
+      "digestSha256": "54d0e2260daffca2b0717d1f07fbb8a6cbf5fa64a3e3804cfd905ba6c04e5691",
+      "input": "sources/figma-snapshots/chart-donut.vector-paths.json"
+    },
+    {
+      "path": "drafts/figma/chart-progress-header-build.v0.1.0.js",
+      "digestSha256": "d6956b4b210ffdd92a235f4eb7a658a7e5b32d0b912b49b439f6d824a001c1ef"
+    }
+  ],
+  "auditScript": {
+    "path": "drafts/figma/charts-final-qa.v0.1.0.js",
+    "digestSha256": "819cbbd352f8a3f3efad1435e67f282da8fe2f55a0bf07e53d6e4b819edae51b",
+    "input": "sources/figma-snapshots/chart-donut.vector-paths.json"
+  },
+  "lastReadback": {
+    "definitionCount": 23,
+    "setCount": 4,
+    "looseMainComponentCount": 1,
+    "localLegendInstanceCount": 9,
+    "legendInstanceMainId": "210:129",
+    "vectorCount": 6,
+    "vectorCommandSequencesMatchSource": true,
+    "vectorCoordinateMaxDelta": 2.384185791015625e-7,
+    "vectorPathsByteIdenticalCount": 1,
+    "textCount": 28,
+    "textWithCompleteLocalTypographyBindings": 28,
+    "solidPaintCount": 76,
+    "defaultVisibleSolidPaintCount": 72,
+    "semanticOrScopeErrors": 0,
+    "prototypeReactionCount": 0,
+    "visualScreenshotsInspected": [
+      "source chart page",
+      "source Donut",
+      "source Header",
+      "target Charts page",
+      "target Semi-donut Gauge"
+    ],
+    "contrastProgressTrackMinimumAcrossModes": 3.1,
+    "contrastSeries2WhiteMinimumAcrossModes": 3.37
+  },
+  "deliberateDifferences": [
+    "Chart Header height 47 to 48 px for bound 20 px line-height without clipping",
+    "Chart Cell middle padding stays literal 6 px because the current spacing scale has no 6 px token",
+    "Gauge progress aliases to stronger primitive shades per mode; source geometry unchanged",
+    "Default neutral swatch and series-2 swatch use legible semantic chart roles instead of source literals or generic brand roles",
+    "Figma normalized numeric path serialization; maximum source-target coordinate difference is below 0.000001 px",
+    "Source sample text 80% remains unchanged despite its mismatch with fixed bar widths"
+  ],
+  "colorRefinement": {
+    "date": "2026-10-05",
+    "status": "PASS_TECHNICAL_COLOR_SCOPE",
+    "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+    "state": "implementations/figma/six-family-color.v0.1.0.state.json",
+    "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+    "note": "Supersedes historical color/contrast claims only. Existing geometry/typography deviations and human-audit status remain."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "snapshot_schema": "sdd-project/0.2",
+  "captured_at": "2026-09-23T15:11:23Z",
+  "read_only": true,
+  "source": {
+    "url": "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=8203-10&t=sZOrF8YSnEjHSpdU-11",
+    "file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+    "node_id": "8203:10"
+  },
+  "identity": {
+    "id": "8203:10",
+    "key": "3dd9fbbf8292626139175771f3701b5bc442a952",
+    "name": "Filter Chip",
+    "type": "COMPONENT_SET",
+    "page": {"id": "7339:129", "name": "WIP Chips"},
+    "parent": {"id": "8194:4998", "name": "Frame 2", "type": "FRAME"},
+    "position": {"x": 52, "y": 108},
+    "dimensions": {"width": 595, "height": 445},
+    "visible": true,
+    "clips_content": true,
+    "opacity": 1,
+    "blend_mode": "PASS_THROUGH"
+  },
+  "traversal": {
+    "status": "COMPLETE",
+    "discovered_nodes": 145,
+    "inspected_nodes": 145,
+    "pending_nodes": 0,
+    "invisible_nodes_inspected": 0,
+    "truncated": false,
+    "variant_components": 24,
+    "nested_instances": 48,
+    "text_nodes": 24,
+    "vector_descendants": 48
+  },
+  "component_property_definitions": {
+    "Text#8203:0": {"type": "TEXT", "default_value": "Chip"},
+    "Show left icon#8203:31": {"type": "BOOLEAN", "default_value": true},
+    "Show right icon#8203:62": {"type": "BOOLEAN", "default_value": true},
+    "Left icon#8203:93": {"type": "INSTANCE_SWAP", "default_value": "3717:1976", "preferred_candidate_count": 1512},
+    "Right icon#8203:124": {"type": "INSTANCE_SWAP", "default_value": "3717:1976", "preferred_candidate_count": 1512},
+    "Size": {"type": "VARIANT", "default_value": "large", "variant_options": ["x-small", "small", "middle", "large"]},
+    "Selected": {"type": "VARIANT", "default_value": "false", "variant_options": ["false", "true"]},
+    "State": {"type": "VARIANT", "default_value": "Default", "variant_options": ["Default", "Hover", "Press", "Focus", "Disabled"]}
+  },
+  "observed_combinations": {
+    "count": 24,
+    "selected_false": "4 sizes x 5 states",
+    "selected_true": "4 sizes x Default only",
+    "missing_from_cartesian_product": [
+      "Selected=true, State=Hover",
+      "Selected=true, State=Press",
+      "Selected=true, State=Focus",
+      "Selected=true, State=Disabled"
+    ]
+  },
+  "size_summary": [
+    {"size": "x-small", "height": 24, "observed_width": 75, "icon_size": 12, "font_size": 12, "line_height": "AUTO", "gap": 4, "padding": [4, 8, 4, 8]},
+    {"size": "small", "height": 32, "observed_width": 91, "icon_size": 16, "font_size": 12, "line_height": 16, "gap": 4, "padding": [8, 12, 8, 12]},
+    {"size": "middle", "height": 40, "observed_width": 103, "icon_size": 20, "font_size": 14, "line_height": 20, "gap": 4, "padding_default_unselected": [4, 12, 4, 12], "padding_other_observed": [8, 12, 8, 12]},
+    {"size": "large", "height": 48, "observed_width": 131, "icon_size": 24, "font_size": 16, "line_height": 24, "gap": 8, "padding": [12, 16, 12, 16]}
+  ],
+  "anatomy": {
+    "direct_children_per_variant": 3,
+    "order": ["Left icon", "Label", "Right icon"],
+    "label_example": "Chip",
+    "icons_visible_in_all_observed_variants": true
+  },
+  "component_dependency": {
+    "instance_count": 48,
+    "main_component": {"id": "3717:1976", "key": "46d251bb4099700c5852180f2370d265e5166432", "name": "Format=Outline, Weight=Light", "remote": true},
+    "component_set": {"id": "3717:1973", "key": "322a346f2ce54ea1534d8b0a682a8139d9f20e87", "name": "PlusCircle", "remote": true},
+    "active_properties": {"Format": "Outline", "Weight": "Light"}
+  },
+  "variables": {
+    "count": 26,
+    "resolved": 26,
+    "local": 26,
+    "remote": 0,
+    "collection": {"id": "VariableCollectionId:52:726", "key": "2b4ff33eb0a4c93737f24987de0779fbb064fb45", "name": "semantic", "modes": ["Contable", "Administrativo", "Servicios", "Personas"], "observed_mode": "Contable"},
+    "names": [
+      "color/background/inverse", "color/focus/ring", "color/icon/disabled", "color/icon/on-brand", "color/icon/primary", "color/icon/secondary", "color/interactive/disabled/bg", "color/interactive/disabled/text", "color/interactive/secondary/active", "color/interactive/secondary/default", "color/interactive/secondary/hover", "color/text/on-brand", "color/text/primary", "color/text/secondary", "font/line-height/md", "font/line-height/sm", "font/line-height/xs", "font/size/md", "font/size/sm", "font/size/xs", "radius/full", "spacing/lg", "spacing/md", "spacing/sm", "spacing/xs", "stroke/md"
+    ]
+  },
+  "named_styles": {"count": 0},
+  "interactions": {"reactions_count": 0, "status": "UNDEFINED"},
+  "conflicts": [
+    {"id": "CONFLICT-FC-001", "description_field": "Show left icon / Show right icon ... default off", "api_field": "componentPropertyDefinitions defaults are true"},
+    {"id": "CONFLICT-FC-002", "description_field": "Size (Sm/Md/Xl)", "api_field": "Size options are x-small, small, middle, large"},
+    {"id": "CONFLICT-FC-003", "description_field": "State independent of Selected", "api_field": "16 Selected=true non-Default combinations are absent"}
+  ],
+  "limitations": [
+    "The Figma MCP does not expose external library project, organization, source URL, or version metadata.",
+    "No product, web, keyboard, or accessibility behavior is established by the node.",
+    "Preferred instance-swap candidates were counted and sampled shallowly; 1512 alternatives were not deeply resolved."
+  ]
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "15006:75163",
+    "key": "56fa094afd2ba9e0fc614602ff2096386c254431",
+    "name": "Molecule / Anticipa / TableHeader",
+    "remote": false,
+    "count": 1,
+    "sample": "15006:83464",
+    "owner": {
+      "id": "15006:75163",
+      "name": "Molecule / Anticipa / TableHeader",
+      "props": {
+        "cells#15006:2": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": {
+            "count": 1
+          }
+        },
+        "is selectable#15006:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "contain actions#15006:9": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      },
+      "variants": []
+    }
+  },
+  {
+    "id": "20204:9008",
+    "key": "70b8f0441f67fc2234a47478753cac146164d4d3",
+    "name": "type=unselected, state=enabled",
+    "remote": true,
+    "count": 11,
+    "sample": "I15006:83464;15006:86218",
+    "owner": {
+      "id": "20204:8999",
+      "name": "checkbox",
+      "props": {
+        "show left field label#20125:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show right field label#102635:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "selected",
+          "variantOptions": [
+            "selected",
+            "indeterminate",
+            "unselected"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "enabled",
+          "variantOptions": [
+            "hover",
+            "focus",
+            "disabled",
+            "enabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "20204:9000",
+          "name": "type=selected, state=enabled"
+        },
+        {
+          "id": "20204:9001",
+          "name": "type=selected, state=hover"
+        },
+        {
+          "id": "20204:9002",
+          "name": "type=selected, state=focus"
+        },
+        {
+          "id": "20204:9003",
+          "name": "type=selected, state=disabled"
+        },
+        {
+          "id": "20204:9004",
+          "name": "type=indeterminate, state=enabled"
+        },
+        {
+          "id": "20204:9005",
+          "name": "type=indeterminate, state=hover"
+        },
+        {
+          "id": "20204:9006",
+          "name": "type=indeterminate, state=focus"
+        },
+        {
+          "id": "20204:9007",
+          "name": "type=indeterminate, state=disabled"
+        },
+        {
+          "id": "20204:9008",
+          "name": "type=unselected, state=enabled"
+        },
+        {
+          "id": "20204:9009",
+          "name": "type=unselected, state=hover"
+        },
+        {
+          "id": "20204:9010",
+          "name": "type=unselected, state=focus"
+        },
+        {
+          "id": "20204:9011",
+          "name": "type=unselected, state=disabled"
+        }
+      ]
+    }
+  },
+  {
+    "id": "15004:75056",
+    "key": "b4dc2065de621a9e0e27934497fc0f222ab6a7d2",
+    "name": "Atom / Table / Header / Cell",
+    "remote": false,
+    "count": 8,
+    "sample": "I15006:83464;15006:86229",
+    "owner": {
+      "id": "15004:75056",
+      "name": "Atom / Table / Header / Cell",
+      "props": {
+        "it's sortable#15005:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "is Branded#17141:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      },
+      "variants": []
+    }
+  },
+  {
+    "id": "17563:4272",
+    "key": "36ccde1b4574576c9382e70371f819f71ac240d5",
+    "name": "product=contabilidad, type=isotipo",
+    "remote": true,
+    "count": 18,
+    "sample": "I15006:83464;15006:86229;17141:20071",
+    "owner": {
+      "id": "17563:4263",
+      "name": "contables",
+      "props": {
+        "product": {
+          "type": "VARIANT",
+          "defaultValue": "conecta_tu_banco",
+          "variantOptions": [
+            "anticipa",
+            "bancos",
+            "conecta_tu_banco",
+            "contabilidad",
+            "optimiza",
+            "tesoreria",
+            "xml_en_linea"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "vertical",
+          "variantOptions": [
+            "isotipo",
+            "horizontal",
+            "vertical"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "17563:4264",
+          "name": "product=conecta_tu_banco, type=vertical"
+        },
+        {
+          "id": "17563:4265",
+          "name": "product=conecta_tu_banco, type=horizontal"
+        },
+        {
+          "id": "17563:4266",
+          "name": "product=conecta_tu_banco, type=isotipo"
+        },
+        {
+          "id": "17563:4267",
+          "name": "product=xml_en_linea, type=vertical"
+        },
+        {
+          "id": "17563:4268",
+          "name": "product=xml_en_linea, type=horizontal"
+        },
+        {
+          "id": "17563:4269",
+          "name": "product=xml_en_linea, type=isotipo"
+        },
+        {
+          "id": "17563:4270",
+          "name": "product=contabilidad, type=vertical"
+        },
+        {
+          "id": "17563:4271",
+          "name": "product=contabilidad, type=horizontal"
+        },
+        {
+          "id": "17563:4272",
+          "name": "product=contabilidad, type=isotipo"
+        },
+        {
+          "id": "17563:4273",
+          "name": "product=tesoreria, type=vertical"
+        },
+        {
+          "id": "17563:4274",
+          "name": "product=tesoreria, type=horizontal"
+        },
+        {
+          "id": "17563:4275",
+          "name": "product=tesoreria, type=isotipo"
+        },
+        {
+          "id": "17563:4276",
+          "name": "product=optimiza, type=vertical"
+        },
+        {
+          "id": "17563:4277",
+          "name": "product=optimiza, type=horizontal"
+        },
+        {
+          "id": "17563:4278",
+          "name": "product=optimiza, type=isotipo"
+        },
+        {
+          "id": "17563:4279",
+          "name": "product=bancos, type=vertical"
+        },
+        {
+          "id": "17563:4280",
+          "name": "product=bancos, type=horizontal"
+        },
+        {
+          "id": "17563:4281",
+          "name": "product=bancos, type=isotipo"
+        },
+        {
+          "id": "17563:4282",
+          "name": "product=anticipa, type=vertical"
+        },
+        {
+          "id": "17563:4283",
+          "name": "product=anticipa, type=horizontal"
+        },
+        {
+          "id": "17563:4284",
+          "name": "product=anticipa, type=isotipo"
+        }
+      ]
+    }
+  },
+  {
+    "id": "42:2523",
+    "key": "f6a9dc8dc9a0cd278cdf840d16509218eba83d22",
+    "name": "sort-down",
+    "remote": true,
+    "count": 8,
+    "sample": "I15006:83464;15006:86229;15001:198355",
+    "owner": {
+      "id": "42:2523",
+      "name": "sort-down",
+      "props": {},
+      "variants": []
+    }
+  },
+  {
+    "id": "15006:83463",
+    "key": "efc79c22caa601189fa3f4d8d170f54f8d199b29",
+    "name": "hover=false",
+    "remote": false,
+    "count": 10,
+    "sample": "15006:84201",
+    "owner": {
+      "id": "19227:37530",
+      "name": "Molecule | Anticipa | tableArrow",
+      "props": {
+        "cells#19227:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": true
+          },
+          "preferredValues": {
+            "count": 1
+          }
+        },
+        "is selectable#19227:1": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Contain Actions#19227:2": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "15006:83463",
+          "name": "hover=false"
+        },
+        {
+          "id": "19227:37531",
+          "name": "hover=true"
+        }
+      ]
+    }
+  },
+  {
+    "id": "15006:85698",
+    "key": "ac5623208273ee4846d77ed3e69df27ecf4a6107",
+    "name": "Atom / Table / Content / Cell / Actions",
+    "remote": false,
+    "count": 10,
+    "sample": "I15006:84201;17279:10633",
+    "owner": {
+      "id": "15006:85698",
+      "name": "Atom / Table / Content / Cell / Actions",
+      "props": {
+        "actions#15006:5": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": {
+            "count": 0
+          }
+        }
+      },
+      "variants": []
+    }
+  },
+  {
+    "id": "20168:14283",
+    "key": "0954da38c91f3b5766de68697db73a309b25cf21",
+    "name": "state=default, size=middle, type=outline",
+    "remote": true,
+    "count": 10,
+    "sample": "I15006:84201;17279:10633;17274:6107",
+    "owner": {
+      "id": "20168:14267",
+      "name": "Button Icon",
+      "props": {
+        "icon#2828:223": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "17095:6624",
+          "preferredValues": {
+            "count": 1512
+          }
+        },
+        "show badge indicator#4508:14": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "hover",
+            "focus",
+            "active"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "small",
+          "variantOptions": [
+            "large",
+            "middle",
+            "small"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "outline"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "20168:14268",
+          "name": "state=default, size=middle, type=default"
+        },
+        {
+          "id": "20168:14269",
+          "name": "state=default, size=large, type=default"
+        },
+        {
+          "id": "20168:14270",
+          "name": "state=default, size=small, type=default"
+        },
+        {
+          "id": "20168:14271",
+          "name": "state=disabled, size=middle, type=default"
+        },
+        {
+          "id": "20168:14272",
+          "name": "state=disabled, size=large, type=default"
+        },
+        {
+          "id": "20168:14273",
+          "name": "state=disabled, size=small, type=default"
+        },
+        {
+          "id": "20168:14274",
+          "name": "state=active, size=middle, type=default"
+        },
+        {
+          "id": "20168:14275",
+          "name": "state=active, size=large, type=default"
+        },
+        {
+          "id": "20168:14276",
+          "name": "state=active, size=small, type=default"
+        },
+        {
+          "id": "20168:14277",
+          "name": "state=hover, size=middle, type=default"
+        },
+        {
+          "id": "20168:14278",
+          "name": "state=hover, size=large, type=default"
+        },
+        {
+          "id": "20168:14279",
+          "name": "state=hover, size=small, type=default"
+        },
+        {
+          "id": "20168:14280",
+          "name": "state=focus, size=middle, type=default"
+        },
+        {
+          "id": "20168:14281",
+          "name": "state=focus, size=large, type=default"
+        },
+        {
+          "id": "20168:14282",
+          "name": "state=focus, size=small, type=default"
+        },
+        {
+          "id": "20168:14283",
+          "name": "state=default, size=middle, type=outline"
+        },
+        {
+          "id": "20168:14284",
+          "name": "state=default, size=large, type=outline"
+        },
+        {
+          "id": "20168:14285",
+          "name": "state=default, size=small, type=outline"
+        },
+        {
+          "id": "20168:14286",
+          "name": "state=disabled, size=middle, type=outline"
+        },
+        {
+          "id": "20168:14287",
+          "name": "state=disabled, size=large, type=outline"
+        },
+        {
+          "id": "20168:14288",
+          "name": "state=disabled, size=small, type=outline"
+        },
+        {
+          "id": "20168:14289",
+          "name": "state=active, size=middle, type=outline"
+        },
+        {
+          "id": "20168:14290",
+          "name": "state=active, size=large, type=outline"
+        },
+        {
+          "id": "20168:14291",
+          "name": "state=active, size=small, type=outline"
+        },
+        {
+          "id": "20168:14292",
+          "name": "state=hover, size=middle, type=outline"
+        },
+        {
+          "id": "20168:14293",
+          "name": "state=hover, size=large, type=outline"
+        },
+        {
+          "id": "20168:14294",
+          "name": "state=hover, size=small, type=outline"
+        },
+        {
+          "id": "20168:14295",
+          "name": "state=focus, size=middle, type=outline"
+        },
+        {
+          "id": "20168:14296",
+          "name": "state=focus, size=large, type=outline"
+        },
+        {
+          "id": "20168:14297",
+          "name": "state=focus, size=small, type=outline"
+        }
+      ]
+    }
+  },
+  {
+    "id": "17096:18581",
+    "key": "93c1dc4338b4b467d084ec42fd9890a5079bd518",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "count": 10,
+    "sample": "I15006:84201;17279:10633;17274:6107;1430:18897",
+    "owner": {
+      "id": "17096:18578",
+      "name": "FileText",
+      "props": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ]
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "17096:18579",
+          "name": "Format=Outline, Weight=Regular"
+        },
+        {
+          "id": "17096:18580",
+          "name": "Format=Outline, Weight=Thin"
+        },
+        {
+          "id": "17096:18581",
+          "name": "Format=Outline, Weight=Light"
+        },
+        {
+          "id": "17096:18582",
+          "name": "Format=Outline, Weight=Bold"
+        },
+        {
+          "id": "17096:18583",
+          "name": "Format=Outline, Weight=Fill"
+        },
+        {
+          "id": "17096:18584",
+          "name": "Format=Outline, Weight=Duotone"
+        },
+        {
+          "id": "17096:18585",
+          "name": "Format=Stroke, Weight=Regular"
+        },
+        {
+          "id": "17096:18586",
+          "name": "Format=Stroke, Weight=Thin"
+        },
+        {
+          "id": "17096:18587",
+          "name": "Format=Stroke, Weight=Light"
+        },
+        {
+          "id": "17096:18588",
+          "name": "Format=Stroke, Weight=Bold"
+        },
+        {
+          "id": "17096:18589",
+          "name": "Format=Stroke, Weight=Fill"
+        },
+        {
+          "id": "17096:18590",
+          "name": "Format=Stroke, Weight=Duotone"
+        }
+      ]
+    }
+  },
+  {
+    "id": "20168:14252",
+    "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+    "name": "type=number, size=middle",
+    "remote": true,
+    "count": 10,
+    "sample": "I15006:84201;17279:10633;17274:6107;1430:18898",
+    "owner": {
+      "id": "20168:14245",
+      "name": "dot",
+      "props": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "active",
+          "variantOptions": [
+            "number expand",
+            "active",
+            "inactive",
+            "busy",
+            "number"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "middle",
+            "small"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "20168:14246",
+          "name": "type=active, size=small"
+        },
+        {
+          "id": "20168:14247",
+          "name": "type=active, size=middle"
+        },
+        {
+          "id": "20168:14248",
+          "name": "type=active, size=large"
+        },
+        {
+          "id": "20168:14249",
+          "name": "type=busy, size=large"
+        },
+        {
+          "id": "20168:14250",
+          "name": "type=inactive, size=large"
+        },
+        {
+          "id": "20168:14251",
+          "name": "type=number, size=small"
+        },
+        {
+          "id": "20168:14252",
+          "name": "type=number, size=middle"
+        },
+        {
+          "id": "20168:14253",
+          "name": "type=number, size=large"
+        },
+        {
+          "id": "20168:14254",
+          "name": "type=number expand, size=small"
+        },
+        {
+          "id": "20168:14255",
+          "name": "type=number expand, size=middle"
+        },
+        {
+          "id": "20168:14256",
+          "name": "type=number expand, size=large"
+        },
+        {
+          "id": "20168:14257",
+          "name": "type=inactive, size=small"
+        },
+        {
+          "id": "20168:14258",
+          "name": "type=inactive, size=middle"
+        },
+        {
+          "id": "20168:14259",
+          "name": "type=busy, size=small"
+        },
+        {
+          "id": "20168:14260",
+          "name": "type=busy, size=middle"
+        }
+      ]
+    }
+  },
+  {
+    "id": "19220:3483",
+    "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+    "name": "type=number, size=middle",
+    "remote": true,
+    "count": 10,
+    "sample": "I15006:84201;17279:10633;17279:5887",
+    "owner": {
+      "id": "19220:3476",
+      "name": "dot",
+      "props": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "active",
+          "variantOptions": [
+            "number expand",
+            "active",
+            "inactive",
+            "busy",
+            "number"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "middle",
+            "small"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "19220:3477",
+          "name": "type=active, size=small"
+        },
+        {
+          "id": "19220:3478",
+          "name": "type=active, size=middle"
+        },
+        {
+          "id": "19220:3479",
+          "name": "type=active, size=large"
+        },
+        {
+          "id": "19220:3480",
+          "name": "type=busy, size=large"
+        },
+        {
+          "id": "19220:3481",
+          "name": "type=inactive, size=large"
+        },
+        {
+          "id": "19220:3482",
+          "name": "type=number, size=small"
+        },
+        {
+          "id": "19220:3483",
+          "name": "type=number, size=middle"
+        },
+        {
+          "id": "19220:3484",
+          "name": "type=number, size=large"
+        },
+        {
+          "id": "19220:3485",
+          "name": "type=number expand, size=small"
+        },
+        {
+          "id": "19220:3486",
+          "name": "type=number expand, size=middle"
+        },
+        {
+          "id": "19220:3487",
+          "name": "type=number expand, size=large"
+        },
+        {
+          "id": "19220:3488",
+          "name": "type=inactive, size=small"
+        },
+        {
+          "id": "19220:3489",
+          "name": "type=inactive, size=middle"
+        },
+        {
+          "id": "19220:3490",
+          "name": "type=busy, size=small"
+        },
+        {
+          "id": "19220:3491",
+          "name": "type=busy, size=middle"
+        }
+      ]
+    }
+  },
+  {
+    "id": "15006:75177",
+    "key": "707a874a7e13733ca02c6503f2dc910fe31c54a5",
+    "name": "Atom / Table / Content / Cell",
+    "remote": false,
+    "count": 70,
+    "sample": "I15006:84201;15006:83003;15006:84568",
+    "owner": {
+      "id": "15006:75177",
+      "name": "Atom / Table / Content / Cell",
+      "props": {
+        "contains action#15006:1": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "it's status#17141:1": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      },
+      "variants": []
+    }
+  },
+  {
+    "id": "19220:11024",
+    "key": "59430ef2a0f48aeb6f70e4740ff97b6bc8391ce4",
+    "name": "type=success",
+    "remote": true,
+    "count": 70,
+    "sample": "I15006:84201;15006:83003;15006:84568;17141:22308",
+    "owner": {
+      "id": "19220:11018",
+      "name": "badge",
+      "props": {
+        "show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "badge text#1241:27": {
+          "type": "TEXT",
+          "defaultValue": "Light"
+        },
+        "left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "17084:9568",
+          "preferredValues": {
+            "count": 1512
+          }
+        },
+        "right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "17084:9568",
+          "preferredValues": {
+            "count": 1512
+          }
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "base",
+          "variantOptions": [
+            "error",
+            "informational",
+            "light",
+            "success",
+            "warning",
+            "base"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "19220:11019",
+          "name": "type=base"
+        },
+        {
+          "id": "19220:11020",
+          "name": "type=light"
+        },
+        {
+          "id": "19220:11021",
+          "name": "type=informational"
+        },
+        {
+          "id": "19220:11022",
+          "name": "type=warning"
+        },
+        {
+          "id": "19220:11023",
+          "name": "type=error"
+        },
+        {
+          "id": "19220:11024",
+          "name": "type=success"
+        }
+      ]
+    }
+  },
+  {
+    "id": "17084:9674",
+    "key": "2a6fa63a7acf982fd583c591681a3d9fe1f1abe1",
+    "name": "Format=Outline, Weight=Fill",
+    "remote": true,
+    "count": 70,
+    "sample": "I15006:84201;15006:83003;15006:84568;17141:22308;1234:66895",
+    "owner": {
+      "id": "17084:9669",
+      "name": "Circle",
+      "props": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ]
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "17084:9670",
+          "name": "Format=Outline, Weight=Regular"
+        },
+        {
+          "id": "17084:9671",
+          "name": "Format=Outline, Weight=Thin"
+        },
+        {
+          "id": "17084:9672",
+          "name": "Format=Outline, Weight=Light"
+        },
+        {
+          "id": "17084:9673",
+          "name": "Format=Outline, Weight=Bold"
+        },
+        {
+          "id": "17084:9674",
+          "name": "Format=Outline, Weight=Fill"
+        },
+        {
+          "id": "17084:9675",
+          "name": "Format=Outline, Weight=Duotone"
+        },
+        {
+          "id": "17084:9676",
+          "name": "Format=Stroke, Weight=Regular"
+        },
+        {
+          "id": "17084:9677",
+          "name": "Format=Stroke, Weight=Thin"
+        },
+        {
+          "id": "17084:9678",
+          "name": "Format=Stroke, Weight=Light"
+        },
+        {
+          "id": "17084:9679",
+          "name": "Format=Stroke, Weight=Bold"
+        },
+        {
+          "id": "17084:9680",
+          "name": "Format=Stroke, Weight=Fill"
+        },
+        {
+          "id": "17084:9681",
+          "name": "Format=Stroke, Weight=Duotone"
+        }
+      ]
+    }
+  },
+  {
+    "id": "17084:9568",
+    "key": "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230",
+    "name": "Format=Outline, Weight=Fill",
+    "remote": true,
+    "count": 70,
+    "sample": "I15006:84201;15006:83003;15006:84568;17141:22308;1234:66940",
+    "owner": {
+      "id": "17084:9563",
+      "name": "Presentation",
+      "props": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ]
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "17084:9564",
+          "name": "Format=Outline, Weight=Regular"
+        },
+        {
+          "id": "17084:9565",
+          "name": "Format=Outline, Weight=Thin"
+        },
+        {
+          "id": "17084:9566",
+          "name": "Format=Outline, Weight=Light"
+        },
+        {
+          "id": "17084:9567",
+          "name": "Format=Outline, Weight=Bold"
+        },
+        {
+          "id": "17084:9568",
+          "name": "Format=Outline, Weight=Fill"
+        },
+        {
+          "id": "17084:9569",
+          "name": "Format=Outline, Weight=Duotone"
+        },
+        {
+          "id": "17084:9570",
+          "name": "Format=Stroke, Weight=Regular"
+        },
+        {
+          "id": "17084:9571",
+          "name": "Format=Stroke, Weight=Thin"
+        },
+        {
+          "id": "17084:9572",
+          "name": "Format=Stroke, Weight=Light"
+        },
+        {
+          "id": "17084:9573",
+          "name": "Format=Stroke, Weight=Bold"
+        },
+        {
+          "id": "17084:9574",
+          "name": "Format=Stroke, Weight=Fill"
+        },
+        {
+          "id": "17084:9575",
+          "name": "Format=Stroke, Weight=Duotone"
+        }
+      ]
+    }
+  },
+  {
+    "id": "15006:75172",
+    "key": "7b0069586b87eae9c4fd07924da8d6d06cdad66e",
+    "name": "copy",
+    "remote": true,
+    "count": 70,
+    "sample": "I15006:84201;15006:83003;15006:84568;15006:75170",
+    "owner": {
+      "id": "15006:75172",
+      "name": "copy",
+      "props": {},
+      "variants": []
+    }
+  }
+]

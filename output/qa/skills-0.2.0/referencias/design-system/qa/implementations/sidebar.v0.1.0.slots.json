@@ -1,0 +1,149 @@
+{
+  "createdNodeIds": [
+    "622:264",
+    "622:616",
+    "622:861"
+  ],
+  "removedNodeIds": [
+    "622:264",
+    "622:616",
+    "622:861"
+  ],
+  "mutatedNodeIds": [
+    "619:480",
+    "619:484",
+    "619:492",
+    "619:499",
+    "619:510"
+  ],
+  "props": {
+    "Menu items#8283:0": {
+      "type": "SLOT",
+      "description": "Contenido variable 0..n. Editar desde instancias sin detach; adecuar la presentación de los elementos al contenedor.",
+      "slotSettings": {
+        "stretchChildOnInsert": true,
+        "displayEmptyByDefault": false,
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "073d64dbade684c86a7f243d9ab895749f41de65"
+        }
+      ]
+    },
+    "Lower options#8283:3": {
+      "type": "SLOT",
+      "description": "Contenido variable 0..n. Editar desde instancias sin detach; adecuar la presentación de los elementos al contenedor.",
+      "slotSettings": {
+        "stretchChildOnInsert": true,
+        "displayEmptyByDefault": false,
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "073d64dbade684c86a7f243d9ab895749f41de65"
+        }
+      ]
+    },
+    "Presentation": {
+      "type": "VARIANT",
+      "defaultValue": "Collapsed",
+      "variantOptions": [
+        "Collapsed",
+        "Expanded"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "test": "619:496/Menu items/empty",
+      "pass": true
+    },
+    {
+      "test": "619:496/Menu items/add",
+      "pass": true
+    },
+    {
+      "test": "619:496/Menu items/reorder",
+      "pass": true
+    },
+    {
+      "test": "619:496/Menu items/replace",
+      "pass": true
+    },
+    {
+      "test": "Menu items/retain-collapsed",
+      "pass": true
+    },
+    {
+      "test": "Menu items/retain-expanded",
+      "pass": true,
+      "labels": [
+        "QA 11",
+        "QA 0",
+        "QA 1",
+        "QA 2",
+        "QA 3",
+        "QA 4",
+        "QA 5",
+        "QA 6",
+        "QA 7",
+        "QA 8",
+        "QA 9",
+        "QA 10"
+      ]
+    },
+    {
+      "test": "619:496/Lower options/empty",
+      "pass": true
+    },
+    {
+      "test": "619:496/Lower options/add",
+      "pass": true
+    },
+    {
+      "test": "619:496/Lower options/reorder",
+      "pass": true
+    },
+    {
+      "test": "619:496/Lower options/replace",
+      "pass": true
+    },
+    {
+      "test": "Lower options/retain-collapsed",
+      "pass": true
+    },
+    {
+      "test": "Lower options/retain-expanded",
+      "pass": true,
+      "labels": [
+        "QA 2",
+        "QA 0",
+        "QA 1"
+      ]
+    },
+    {
+      "test": "619:607/Menu items/empty",
+      "pass": true
+    },
+    {
+      "test": "619:607/Menu items/add",
+      "pass": true
+    },
+    {
+      "test": "619:607/Menu items/reorder",
+      "pass": true
+    },
+    {
+      "test": "619:607/Menu items/replace",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

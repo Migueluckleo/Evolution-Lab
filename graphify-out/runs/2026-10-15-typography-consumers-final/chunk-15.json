@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_revision_79_file_upload_underline_file_upload_default_state",
+      "label": "File Upload default state",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Rendered upload-control specimen on white background; visible default caption, outlined container, dashed drop area, upload icon, instruction and helper text.",
+      "image_size": [
+        534,
+        218
+      ],
+      "evidence_scope": "Static appearance only; upload behavior not executed."
+    },
+    {
+      "id": "qa_implementations_typography_web_revision_79_file_upload_underline_upload_drop_area",
+      "label": "Upload drop area",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Dashed rounded rectangle inside a larger thin-bordered container; centered cloud-and-up-arrow icon above the instruction."
+    },
+    {
+      "id": "qa_implementations_typography_web_revision_79_file_upload_underline_underlined_upload_action",
+      "label": "Underlined upload action",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "text": "subir tu archivo",
+      "description": "Purple underlined phrase embedded between “Haz clic para” and “o arrástralo aquí”; distinguishes the upload action visually from surrounding copy."
+    },
+    {
+      "id": "qa_implementations_typography_web_revision_79_file_upload_underline_sample_format_helper",
+      "label": "Sample format helper",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "text": "Formatos de muestra",
+      "description": "Muted supporting text centered below upload instruction."
+    },
+    {
+      "id": "qa_implementations_typography_web_revision_79_file_upload_underline_external_helper_text",
+      "label": "External helper text",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "text": "Helper text",
+      "description": "Muted text below the dashed area, inside outer control."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_revision_79_file_upload_underline_file_upload_default_state",
+      "target": "qa_implementations_typography_web_revision_79_file_upload_underline_upload_drop_area",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_typography_web_revision_79_file_upload_underline_upload_drop_area",
+      "target": "qa_implementations_typography_web_revision_79_file_upload_underline_underlined_upload_action",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_typography_web_revision_79_file_upload_underline_upload_drop_area",
+      "target": "qa_implementations_typography_web_revision_79_file_upload_underline_sample_format_helper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_typography_web_revision_79_file_upload_underline_file_upload_default_state",
+      "target": "qa_implementations_typography_web_revision_79_file_upload_underline_external_helper_text",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_typography_web_revision_79_file_upload_underline_underlined_upload_action",
+      "target": "qa_implementations_typography_web_revision_79_file_upload_underline_upload_drop_area",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE",
+  "usage_note": "Provider token counts unavailable; legacy schema numeric fields are placeholders, not measured usage.",
+  "extraction_method": "Direct vision via view_image of each exact source; no OCR-only extraction and no behavior/Figma validation inferred.",
+  "source_sha256": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/file-upload.underline.png": "b0d4504d73811e822799762120fea07cf28ef8e9357c3fd072d576e4aa44a4c5"
+  }
+}

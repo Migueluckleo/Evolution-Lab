@@ -1,0 +1,117 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T17:38:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 37, inspected_nodes: 37, pending_nodes: 0, invisible_nodes_inspected: 6, truncated: false, limit: null}
+  mcp_limitations: [La captura visual se inspeccionó inline y su URL efímera no se conservó como archivo.]
+component:
+  id: "1234:65377"
+  key: 513e473ba6e072964f0d00a86e02a0e206070c8b
+  name: badge
+  type: COMPONENT_SET
+  description: ""
+  page: {id: "1234:53606", name: "❖ Badge  ✅"}
+  source: {file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1234:65377", url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1234-65377"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001, E002]}
+identity: {dimensions: {width: 104, height: 429}, visible: true, clips_content: false}
+direct_children:
+  - {id: "1234:65376", name: "type=base", width: 62, height: 25}
+  - {id: "1234:65374", name: "type=light", width: 62, height: 25}
+  - {id: "1234:65373", name: "type=informational", width: 62, height: 25}
+  - {id: "1234:65372", name: "type=warning", width: 62, height: 25}
+  - {id: "1234:65375", name: "type=error", width: 62, height: 25}
+  - {id: "1234:65371", name: "type=success", width: 62, height: 25}
+anatomy:
+  functional_tree: ["Badge set", "Each variant: left Presentation instance → Label text → right Presentation instance"]
+  graphical_details_omitted: []
+dependency_inventory:
+  components: {total_instances: 12, total: 1, local: 0, remote: 1, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+  variables: {total: 27, local: 27, remote: 0, unknown_locality: 0, resolved: 27, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - {name: Presentation, library: Phosphor Icons, component_set_key: c2f4b3486a9480fe117be9260523dbb9500066e4, default_variant_key: 3f0d7ae9a02577d4fb4e615737d09fa1b49ec230, format: Outline, weight: Fill, preferred_swap_count: 1512, evidence_refs: [E003, E004]}
+variable_dependencies:
+  source_background:
+    base: ["VariableID:2849:196104", color/background/default]
+    light: ["VariableID:2849:196105", color/background/subtle]
+    informational: ["VariableID:2849:196112", color/feedback/information/bg]
+    warning: ["VariableID:2849:196110", color/feedback/warning/bg]
+    error: ["VariableID:2849:196111", color/feedback/danger/bg]
+    success: ["VariableID:2849:196109", color/feedback/positive/bg]
+  source_text:
+    base: ["VariableID:2849:196116", color/text/primary]
+    light: ["VariableID:2849:196116", color/text/primary]
+    informational: ["VariableID:2849:196127", color/feedback/information/text]
+    warning: ["VariableID:2849:196125", color/feedback/warning/text]
+    error: ["VariableID:2849:196126", color/feedback/danger/text]
+    success: ["VariableID:2849:196124", color/feedback/positive/text]
+  source_left_icon:
+    base: ["VariableID:2849:196138", color/icon/primary]
+    light: ["VariableID:2849:196138", color/icon/primary]
+    informational: ["VariableID:2849:196146", color/feedback/information/icon]
+    warning: ["VariableID:2849:196144", color/feedback/warning/icon]
+    error: ["VariableID:2849:196145", color/feedback/danger/icon]
+    success: ["VariableID:2849:196143", color/feedback/positive/icon]
+  source_right_icon:
+    base: ["VariableID:2849:196116", color/text/primary]
+    light: ["VariableID:2849:196116", color/text/primary]
+    informational: ["VariableID:2849:196127", color/feedback/information/text]
+    warning: ["VariableID:2849:196125", color/feedback/warning/text]
+    error: ["VariableID:2849:196145", color/feedback/danger/icon]
+    success: ["VariableID:2849:196124", color/feedback/positive/text]
+  shared: ["spacing/xs", "spacing/sm", "radius/sm", "stroke/xs", "font/family/base", "font/weight/regular", "font/size/xs", "font/line-height/xs", "font/letter-spacing/normal"]
+  source_only_nonvisual: ["font/size/lg bound to component-set padding; does not affect variant rendering"]
+style_dependencies: []
+properties:
+  definitions:
+    - {name: "show right icon#1234:0", type: BOOLEAN, default: false}
+    - {name: "show left icon#1234:7", type: BOOLEAN, default: true}
+    - {name: "badge text#1241:27", type: TEXT, default: Light}
+    - {name: "left icon#2817:26", type: INSTANCE_SWAP, default_component_key: 3f0d7ae9a02577d4fb4e615737d09fa1b49ec230}
+    - {name: "right icon#2817:33", type: INSTANCE_SWAP, default_component_key: 3f0d7ae9a02577d4fb4e615737d09fa1b49ec230}
+    - {name: type, type: VARIANT, default: base, values: [error, informational, light, success, warning, base]}
+  observed: [base, light, informational, warning, error, success]
+  available: [error, informational, light, success, warning, base]
+  unknown: []
+variants: {observed_combinations: ["type=base", "type=light", "type=informational", "type=warning", "type=error", "type=success"], available_values: [error, informational, light, success, warning, base], unknown: []}
+states: {observed: [], available: [], unknown: [hover, focus, disabled]}
+layout:
+  variants: {mode: HORIZONTAL, width: HUG, height: FIXED, observed_size: [62, 25], padding: [4, 8, 4, 8], gap: 4, radius: 4}
+  icon_size: [14, 14]
+  label: {observed_size: [28, 16], characters: Light}
+visual:
+  body_fills: {base: color/background/default, light: color/background/subtle, informational: color/feedback/information/bg, warning: color/feedback/warning/bg, error: color/feedback/danger/bg, success: color/feedback/positive/bg}
+  light_stroke: {color: color/border/disabled, weight: stroke/xs}
+  icon: {component: Presentation, left_visible: true, right_visible: false}
+typography:
+  text_runs: [{characters: Light, family: Manrope, style: Regular, size: 12, line_height_px: 16, letter_spacing_px: 0, bound_tokens: [font/family/base, font/weight/regular, font/size/xs, font/line-height/xs, font/letter-spacing/normal]}]
+tokens: {source: variable_dependencies, count: 27, visually_applicable_count: 26}
+content: {example_content: [Light], component_rules: [editable TEXT property], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reactions_count: 0, rules: []}
+semantic_contract:
+  purpose: {status: DEFINED, evidence: "Page description: short information or state, highlighted without interrupting."}
+  usage_rules: {status: PARTIAL}
+accessibility: {status: REQUIRES_DEFINITION, observed: [visible label], undefined: [semantics, keyboard, screen_reader, contrast_across_modes]}
+external_dependencies: [Phosphor Icons Presentation]
+unresolved:
+  - {id: U001, category: SEMANTIC_MAPPING, subject: light border, reason: Source uses disabled border on an enabled light badge; destination should use existing strong neutral border with the same primitive alias, pending user audit., evidence_refs: [E005]}
+  - {id: U002, category: SEMANTIC_MAPPING, subject: right icon fill, reason: Several hidden right icons use text role although they are iconography; map to corresponding icon role, pending user audit., evidence_refs: [E006]}
+  - {id: U003, category: SOURCE_ANOMALY, subject: set padding, reason: Component set binds font/size/lg to padding; this is nonvisual documentation-container metadata and is excluded from consumer variant rules., evidence_refs: [E007]}
+implementation_notes:
+  - Use semantic local variables in AI-Design-System, not source IDs.
+  - Preserve Phosphor Presentation instance and both swap slots; do not detach.
+  - Do not introduce hover/focus/disabled variants absent from the source.
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:1234:65377", value: "component set with six type variants"}
+    - {id: E002, source: "node:1234:65377.componentPropertyDefinitions", value: "six properties: one variant, one text, two booleans, two swaps"}
+    - {id: E003, source: "node:1234:66861.getMainComponentAsync", value: "Presentation remote component key 3f0d7ae9a02577d4fb4e615737d09fa1b49ec230"}
+    - {id: E004, source: "search_design_system Presentation", value: "component set key c2f4b3486a9480fe117be9260523dbb9500066e4 in Phosphor Icons"}
+    - {id: E005, source: "node:1234:65374.boundVariables.strokes", value: "color/border/disabled"}
+    - {id: E006, source: "hidden right icon vector bindings", value: "text roles in five variants, icon role in error"}
+    - {id: E007, source: "node:1234:65377.boundVariables", value: "font/size/lg bound to set padding"}
+  derived: [{id: D001, source: E001, value: "exactly six observed appearance variants"}]
+  requires_definition: [{id: R001, source: "no reactions", value: "product interaction and accessibility behavior"}]
+  confidence: {level: HIGH, reason: "All 37 set nodes including six hidden icon vectors inspected; target semantic corrections are explicit."}

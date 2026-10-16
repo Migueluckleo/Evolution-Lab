@@ -1,0 +1,99 @@
+# Protocol 05: QA and Validation
+
+## Purpose
+
+Prove implementation against approved contracts. QA tests specification
+compliance, not merely visual plausibility.
+
+**Creation is not validation.**
+
+### Inputs
+
+Authoritative contracts, canonical structured data, approved
+amendments/decisions, dependency contracts, implementation readback and
+implementation record.
+
+### Sequence
+
+1.  Identify authoritative requirements.
+2.  Convert them into a checklist.
+3.  Read implementation back from Figma/web.
+4.  Compare requirement by requirement.
+5.  Classify each result `PASS`, `FAIL`, `BLOCKED`, or `NOT_APPLICABLE`.
+6.  Record evidence for failures and important passes.
+7.  Correct implementation only when the contract clearly determines the
+    correction.
+8.  Re-run affected checks.
+9.  Mark `VALIDATED` only when no unresolved required failure remains.
+
+### Figma checks
+
+As applicable verify: - correct file/page/location; - correct
+artifact/component identity and naming; - hierarchy/anatomy; - variants
+and properties; - states; - auto-layout and dimensions; - token
+bindings, not just resolved colors/numbers; - mode behavior; -
+typography bindings; - radius/stroke/spacing bindings; - content
+behavior; - documented interactions; - documented accessibility
+metadata; - absence of unauthorized hardcoded values; - absence of
+unintended duplicates; - dependency references.
+
+For token reconstruction additionally compare collection, mode, variable
+name/type, alias graph, scopes, values, descriptions and any explicitly
+approved corrections.
+
+### Visual vs structural
+
+Visual similarity is insufficient. A visually identical hardcoded color
+fails when the contract requires a semantic token binding. Structural
+compliance and visual outcome are separate checks.
+
+### Tolerance
+
+Do not invent numerical tolerances. Exact requirements are exact unless
+the contract or QA policy defines tolerance.
+
+### Mismatch classes
+
+-   `IMPLEMENTATION_DEFECT`: contract is clear, implementation differs.
+-   `CONTRACT_GAP`: implementation decision is required but contract is
+    silent.
+-   `SOURCE_CONFLICT`: authoritative sources disagree.
+-   `TOOL_LIMITATION`: required property cannot be
+    written/read/verified.
+-   `ACCEPTED_DEVIATION`: user explicitly accepts a known mismatch.
+
+Only implementation defects may be autonomously corrected when the
+correction is deterministic.
+
+### QA record
+
+``` yaml
+qa_id:
+artifact:
+implementation_ref:
+contract_refs:
+status:
+checks:
+  - requirement:
+    result:
+    evidence:
+    notes:
+defects:
+blocked_items:
+accepted_deviations:
+validated_by:
+timestamp:
+```
+
+### Cross-target phase
+
+When React begins, validate Figma and React independently against the
+same contract, then optionally test visual parity. Parity never replaces
+contract compliance.
+
+### Gate
+
+`VALIDATED` requires all mandatory checks pass or have explicit accepted
+deviations, no unresolved source conflict affects output, traceability
+is complete, and the final target has been inspected after the last
+correction.

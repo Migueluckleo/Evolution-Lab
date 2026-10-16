@@ -1,0 +1,1258 @@
+{
+  "result": "FAIL",
+  "source": "implementations/figma/typography.v0.1.0.restoration.qa.json",
+  "sourceSha256": "160cd9ee9f961141862e0f503d707c12a18810c70a36eb77ea7b2521b0d03cfb",
+  "differenceCount": 244,
+  "uniqueNodes": 242,
+  "principalNodes": 63,
+  "kinds": {
+    "additions_only": 244
+  },
+  "byPage": {
+    "Chat": 61,
+    "Conversation": 13,
+    "Empty states": 16,
+    "Fuentes": 26,
+    "Modal": 58,
+    "Sidebar": 70
+  },
+  "styles": [
+    {
+      "styleId": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+      "originalName": "Conversation/Caption",
+      "rangeCount": 32,
+      "nodeIds": [
+        "765:398",
+        "848:16",
+        "848:18",
+        "848:30",
+        "848:32",
+        "I766:246;765:398",
+        "I783:129;765:398",
+        "I783:47;765:398",
+        "I784:103;783:47;765:398",
+        "I784:163;783:129;765:398",
+        "I848:45;848:16",
+        "I848:45;848:18",
+        "I848:60;848:30",
+        "I848:60;848:32",
+        "I849:108;848:16",
+        "I849:108;848:18",
+        "I849:141;848:30",
+        "I849:141;848:32",
+        "I849:198;848:30",
+        "I849:198;848:32",
+        "I849:213;848:30",
+        "I849:213;848:32",
+        "I849:228;848:30",
+        "I849:228;848:32",
+        "I849:243;848:30",
+        "I849:243;848:32",
+        "I849:45;848:16",
+        "I849:45;848:18",
+        "I849:62;848:16",
+        "I849:62;848:18",
+        "I849:83;848:16",
+        "I849:83;848:18"
+      ],
+      "principalNodeIds": [
+        "765:398",
+        "848:16",
+        "848:18",
+        "848:30",
+        "848:32"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat",
+        "Conversation",
+        "Fuentes"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:7"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:8"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "originalName": "Modal/Caption",
+      "rangeCount": 11,
+      "nodeIds": [
+        "569:360",
+        "645:148",
+        "645:168",
+        "645:197",
+        "645:226",
+        "I569:343;566:276;569:366;569:360",
+        "I578:498;569:343;569:366;569:360",
+        "I649:292;645:148",
+        "I649:335;645:168",
+        "I649:376;645:197",
+        "I649:437;645:226"
+      ],
+      "principalNodeIds": [
+        "569:360",
+        "645:148",
+        "645:168",
+        "645:197",
+        "645:226"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Empty states",
+        "Modal"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:2aaadfa872db2d91b827f3dca6ce5c3588e9e86e,",
+      "originalName": "Sidebar/Release",
+      "rangeCount": 4,
+      "nodeIds": [
+        "615:360",
+        "I619:500;7268:1070",
+        "I625:273;7268:1070",
+        "I625:523;3425:3123;7268:1070"
+      ],
+      "principalNodeIds": [
+        "615:360"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing"
+      ],
+      "pages": [
+        "Sidebar"
+      ],
+      "exampleDifference": {
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:7"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:2e68e082c5bcf7f7f03fb21fe9f55b140c2bc134,",
+      "originalName": "Sidebar/Label",
+      "rangeCount": 36,
+      "nodeIds": [
+        "615:382",
+        "615:425",
+        "615:429",
+        "615:438",
+        "615:447",
+        "615:456",
+        "I615:376;87:139",
+        "I615:379;87:139",
+        "I619:504;3290:2511",
+        "I619:505;3290:2511",
+        "I619:506;3290:2511",
+        "I619:507;3290:2511",
+        "I619:508;3290:2511",
+        "I619:509;3290:2511",
+        "I619:513;3290:2511",
+        "I619:610;3365:23898",
+        "I619:611;3365:23898",
+        "I619:612;3365:23898",
+        "I625:316;5113:740;87:139",
+        "I625:342;3425:3453;87:139",
+        "I625:360;3290:2511",
+        "I625:369;3290:2522",
+        "I625:378;3342:23656",
+        "I625:461;3365:23898",
+        "I625:470;3365:23903",
+        "I625:479;3365:23908",
+        "I625:523;3425:3121;3290:2511",
+        "I625:523;3425:3122;3290:2511",
+        "I625:523;3425:3129;3290:2511",
+        "I625:523;3425:3130;3290:2511",
+        "I625:523;3425:3131;3290:2511",
+        "I625:523;3425:3132;3290:2511",
+        "I625:523;3425:3138;3290:2511",
+        "I625:603;3574:94135;3365:23898",
+        "I625:603;3574:94158;3365:23898",
+        "I625:603;3574:94165;3365:23898"
+      ],
+      "principalNodeIds": [
+        "615:382",
+        "615:425",
+        "615:429",
+        "615:438",
+        "615:447",
+        "615:456"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Sidebar"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:36d346b8b1c5766a8dfd3498701a7bb92f8e8539,",
+      "originalName": "Empty states/Title Main",
+      "rangeCount": 2,
+      "nodeIds": [
+        "645:225",
+        "I649:437;645:225"
+      ],
+      "principalNodeIds": [
+        "645:225"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Empty states"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:4"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:11"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:4af9d14479d9fc86c34be626510c5e0ae9a1a55e,",
+      "originalName": "Conversation/Preview title",
+      "rangeCount": 5,
+      "nodeIds": [
+        "765:262",
+        "I765:292;765:262",
+        "I765:351;765:262",
+        "I766:125;765:292;765:262",
+        "I766:186;765:351;765:262"
+      ],
+      "principalNodeIds": [
+        "765:262"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Conversation"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:10"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:4f627d060dffc9ff20afafa2c8a3adc468a669f6,",
+      "originalName": "Chat/Subtitle",
+      "rangeCount": 4,
+      "nodeIds": [
+        "783:124",
+        "783:40",
+        "I784:103;783:40",
+        "I784:163;783:124"
+      ],
+      "principalNodeIds": [
+        "783:124",
+        "783:40"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:10"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:11"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:5a3f44d14ee74e638de3493a255ca0c55e337289,",
+      "originalName": "Chat/Metadata",
+      "rangeCount": 36,
+      "nodeIds": [
+        "796:461",
+        "796:470",
+        "796:477",
+        "796:484",
+        "797:453",
+        "797:454",
+        "797:457",
+        "797:485",
+        "797:486",
+        "797:489",
+        "I797:419;796:477",
+        "I797:424;796:461",
+        "I797:432;796:477",
+        "I797:439;796:461",
+        "I797:472;796:477",
+        "I797:473;796:461",
+        "I797:477;796:477",
+        "I797:478;796:461",
+        "I798:291;797:472;796:477",
+        "I798:291;797:473;796:461",
+        "I798:291;797:477;796:477",
+        "I798:291;797:478;796:461",
+        "I798:291;797:485",
+        "I798:291;797:486",
+        "I798:291;797:489",
+        "I798:316;797:419;796:477",
+        "I798:316;797:424;796:461",
+        "I798:316;797:432;796:477",
+        "I798:316;797:439;796:461",
+        "I798:316;797:453",
+        "I798:316;797:454",
+        "I798:316;797:457",
+        "I798:450;796:461",
+        "I798:455;796:470",
+        "I798:464;796:477",
+        "I798:469;796:484"
+      ],
+      "principalNodeIds": [
+        "796:461",
+        "796:470",
+        "796:477",
+        "796:484",
+        "797:453",
+        "797:454",
+        "797:457",
+        "797:485",
+        "797:486",
+        "797:489"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:4"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:8"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:711fbb388c69ce8d554ef531ebd946cae14a0080,",
+      "originalName": "Chat/Title",
+      "rangeCount": 9,
+      "nodeIds": [
+        "783:122",
+        "783:123",
+        "783:34",
+        "783:35",
+        "784:100",
+        "I784:103;783:34",
+        "I784:103;783:35",
+        "I784:163;783:122",
+        "I784:163;783:123"
+      ],
+      "principalNodeIds": [
+        "783:122",
+        "783:123",
+        "783:34",
+        "783:35",
+        "784:100"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:12"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:3"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:7b2bedcbf319948f84bd56c8a6e537e969be3f86,",
+      "originalName": "Sidebar/Submenu",
+      "rangeCount": 8,
+      "nodeIds": [
+        "615:389",
+        "615:409",
+        "I619:501;3374:24367",
+        "I619:502;3374:24367",
+        "I625:388;3374:24367",
+        "I625:397;3374:24380",
+        "I625:523;3425:3124;3374:24367",
+        "I625:523;3425:3125;3374:24367"
+      ],
+      "principalNodeIds": [
+        "615:389",
+        "615:409"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing"
+      ],
+      "pages": [
+        "Sidebar"
+      ],
+      "exampleDifference": {
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:8d38f6a5868e5d5e0366907a63e27299dbac2c50,",
+      "originalName": "Modal/Body",
+      "rangeCount": 37,
+      "nodeIds": [
+        "566:244",
+        "566:245",
+        "566:254",
+        "566:255",
+        "566:282",
+        "569:305",
+        "I567:140;566:244",
+        "I567:140;566:245",
+        "I567:164;566:254",
+        "I567:164;566:255",
+        "I567:221;566:244",
+        "I567:221;566:245",
+        "I567:245;566:254",
+        "I567:245;566:255",
+        "I567:291;566:244",
+        "I567:291;566:245",
+        "I567:315;566:254",
+        "I567:315;566:255",
+        "I569:330;566:244",
+        "I569:330;566:245",
+        "I578:305;567:140;566:244",
+        "I578:305;567:140;566:245",
+        "I578:331;567:221;566:244",
+        "I578:331;567:221;566:245",
+        "I578:357;567:291;566:244",
+        "I578:357;567:291;566:245",
+        "I578:384;567:164;566:254",
+        "I578:384;567:164;566:255",
+        "I578:413;567:245;566:254",
+        "I578:413;567:245;566:255",
+        "I578:442;567:315;566:254",
+        "I578:442;567:315;566:255",
+        "I578:472;569:305",
+        "I578:498;569:330;566:244",
+        "I578:498;569:330;566:245"
+      ],
+      "principalNodeIds": [
+        "566:244",
+        "566:245",
+        "566:254",
+        "566:255",
+        "566:282",
+        "569:305"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Modal"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:10"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:9c72f9fd7020cef8974458d27505fe7a151fc595,",
+      "originalName": "Conversation/Emphasis",
+      "rangeCount": 10,
+      "nodeIds": [
+        "765:282",
+        "765:346",
+        "765:409",
+        "I766:125;765:282",
+        "I766:186;765:346",
+        "I766:246;765:409",
+        "I783:129;765:409",
+        "I783:47;765:409",
+        "I784:103;783:47;765:409",
+        "I784:163;783:129;765:409"
+      ],
+      "principalNodeIds": [
+        "765:282",
+        "765:346",
+        "765:409"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat",
+        "Conversation"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:c49296dee25b58bf5cb46e2ab7730a351093551b,",
+      "originalName": "Sidebar/Label Active",
+      "rangeCount": 16,
+      "nodeIds": [
+        "615:358",
+        "615:412",
+        "615:417",
+        "615:433",
+        "615:442",
+        "615:451",
+        "I619:500;3284:2422",
+        "I619:609;3365:23866",
+        "I625:273;3284:2422",
+        "I625:285;3290:2461",
+        "I625:295;3342:23663",
+        "I625:430;3365:23866",
+        "I625:440;3365:23882",
+        "I625:450;3365:23890",
+        "I625:523;3425:3123;3284:2422",
+        "I625:603;3572:1950;3365:23866"
+      ],
+      "principalNodeIds": [
+        "615:358",
+        "615:412",
+        "615:417",
+        "615:433",
+        "615:442",
+        "615:451"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Sidebar"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:5"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:cb4052453d42d5ce9ce98f08640582004d80f602,",
+      "originalName": "Modal/Title",
+      "rangeCount": 18,
+      "nodeIds": [
+        "566:240",
+        "566:251",
+        "569:304",
+        "I567:140;566:240",
+        "I567:164;566:251",
+        "I567:221;566:240",
+        "I567:245;566:251",
+        "I567:291;566:240",
+        "I567:315;566:251",
+        "I569:330;566:240",
+        "I578:305;567:140;566:240",
+        "I578:331;567:221;566:240",
+        "I578:357;567:291;566:240",
+        "I578:384;567:164;566:251",
+        "I578:413;567:245;566:251",
+        "I578:442;567:315;566:251",
+        "I578:472;569:304",
+        "I578:498;569:330;566:240"
+      ],
+      "principalNodeIds": [
+        "566:240",
+        "566:251",
+        "569:304"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Modal"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:11"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:2"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:cb57ef141d48f08f57ac520929ff687dfce22cef,",
+      "originalName": "Sidebar/Submenu Active",
+      "rangeCount": 6,
+      "nodeIds": [
+        "615:396",
+        "615:403",
+        "I619:503;3374:24402",
+        "I625:408;3374:24402",
+        "I625:418;3374:24417",
+        "I625:523;3425:3126;3374:24402"
+      ],
+      "principalNodeIds": [
+        "615:396",
+        "615:403"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing"
+      ],
+      "pages": [
+        "Sidebar"
+      ],
+      "exampleDifference": {
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:5"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:cd0499b3ec8aac327af4d4f8cb4d500018288525,",
+      "originalName": "Chat/Plan",
+      "rangeCount": 4,
+      "nodeIds": [
+        "797:450",
+        "797:482",
+        "I798:291;797:482",
+        "I798:316;797:450"
+      ],
+      "principalNodeIds": [
+        "797:450",
+        "797:482"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Chat"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:10"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    },
+    {
+      "styleId": "S:e131a51074bfff0c80f1c3f2f164e74a77b77ca0,",
+      "originalName": "Empty states/Title",
+      "rangeCount": 6,
+      "nodeIds": [
+        "645:147",
+        "645:167",
+        "645:196",
+        "I649:292;645:147",
+        "I649:335;645:167",
+        "I649:376;645:196"
+      ],
+      "principalNodeIds": [
+        "645:147",
+        "645:167",
+        "645:196"
+      ],
+      "fields": [
+        "fontFamily",
+        "fontSize",
+        "fontStyle",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "pages": [
+        "Empty states"
+      ],
+      "exampleDifference": {
+        "lineHeight": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:9"
+          }
+        },
+        "letterSpacing": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        },
+        "fontStyle": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        },
+        "fontSize": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:2"
+          }
+        },
+        "fontFamily": {
+          "before": null,
+          "after": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        }
+      }
+    }
+  ]
+}

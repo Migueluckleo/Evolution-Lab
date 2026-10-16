@@ -1,0 +1,29 @@
+flowchart TB
+family(["Revisar cada familia"]) --> variable{"Cantidad o composición variable"}
+variable -->|"No"| fixed["NOT_APPLICABLE justificado"]
+fixed --> controls["TEXT, BOOLEAN o INSTANCE_SWAP"]
+controls --> fixedqa["Validar anatomía fija"]
+variable -->|"No hay evidencia"| unresolved["UNRESOLVED: acotar bloqueo"]
+variable -->|"Sí"| required["REQUIRED"]
+required --> contract["Definir región y contenido"]
+contract --> cardinality["Separar cardinalidad de muestra"]
+cardinality --> ops["Definir operaciones y layout"]
+ops --> native{"Capacidad nativa verificable"}
+native -->|"No"| fallback{"Alternativa autorizada"}
+fallback -->|"No"| unresolved
+fallback -->|"Sí"| alternative["Documentar mecanismo y límites"]
+native -->|"Sí"| create["Crear Slot y propiedad pública"]
+alternative --> consumer["Probar desde instancia consumidora"]
+create --> consumer
+consumer --> test["Insertar, borrar, reordenar, sustituir"]
+test --> retain["Cambiar variantes y conservar overrides"]
+retain --> counts["Vacío, uno y más que muestra"]
+counts --> qa{"Operaciones y bindings PASS"}
+qa -->|"No"| fix["Corregir mecanismo y revalidar"]
+qa -->|"Sí"| done(["IMPLEMENTED con evidencia"])
+style required fill:#C2E5FF,stroke:#3DADFF
+style unresolved fill:#FFCDC2,stroke:#FF7556
+style native fill:#FFECBD,stroke:#FFC943
+style qa fill:#FFECBD,stroke:#FFC943
+style done fill:#CDF4D3,stroke:#66D575
+

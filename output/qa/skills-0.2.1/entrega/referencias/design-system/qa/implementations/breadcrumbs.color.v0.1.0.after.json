@@ -1,0 +1,545 @@
+{
+  "pageId": "190:188",
+  "roots": [
+    {
+      "id": "190:210",
+      "name": "Breadcrumb item",
+      "nodeCount": 22,
+      "geometry": "718db223:2379",
+      "api": "1a5a4672:1780",
+      "definitions": [
+        [
+          "190:189",
+          "State=Default, Current=false",
+          120,
+          24
+        ],
+        [
+          "190:193",
+          "State=Icon, Current=false",
+          52,
+          24
+        ],
+        [
+          "190:198",
+          "State=Shortened, Current=false",
+          42,
+          24
+        ],
+        [
+          "190:202",
+          "State=Disabled, Current=false",
+          120,
+          24
+        ],
+        [
+          "190:206",
+          "State=Default, Current=true",
+          92,
+          24
+        ],
+        [
+          "190:208",
+          "State=Hover, Current=false",
+          92,
+          24
+        ]
+      ],
+      "properties": "d8a40a75:264"
+    },
+    {
+      "id": "191:229",
+      "name": "Breadcrumbs",
+      "nodeCount": 65,
+      "geometry": "e671196b:6919",
+      "api": "90e94549:7999",
+      "definitions": [
+        [
+          "191:165",
+          "Level=2",
+          248,
+          24
+        ],
+        [
+          "191:175",
+          "Level=3",
+          372,
+          24
+        ],
+        [
+          "191:189",
+          "Level=4",
+          496,
+          24
+        ],
+        [
+          "191:207",
+          "Level=5",
+          620,
+          24
+        ]
+      ],
+      "properties": "fde1b6dc:512"
+    }
+  ],
+  "groups": [
+    {
+      "kind": "TEXT",
+      "name": "Label",
+      "field": "fills",
+      "variableId": "VariableID:13:29",
+      "variable": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "190:190",
+          0
+        ],
+        [
+          "I191:169;190:190",
+          0
+        ],
+        [
+          "I191:179;190:190",
+          0
+        ],
+        [
+          "I191:183;190:190",
+          0
+        ],
+        [
+          "I191:193;190:190",
+          0
+        ],
+        [
+          "I191:197;190:190",
+          0
+        ],
+        [
+          "I191:201;190:190",
+          0
+        ],
+        [
+          "I191:211;190:190",
+          0
+        ],
+        [
+          "I191:215;190:190",
+          0
+        ],
+        [
+          "I191:219;190:190",
+          0
+        ],
+        [
+          "I191:223;190:190",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "Vector",
+      "field": "fills",
+      "variableId": "VariableID:13:21",
+      "variable": "color/icon/secondary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I190:191;8899:79841",
+          0
+        ],
+        [
+          "I190:196;8899:79841",
+          0
+        ],
+        [
+          "I190:200;8899:79841",
+          0
+        ],
+        [
+          "I191:169;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:179;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:183;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:193;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:197;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:201;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:211;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:215;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:219;190:191;8899:79841",
+          0
+        ],
+        [
+          "I191:223;190:191;8899:79841",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "Vector",
+      "field": "fills",
+      "variableId": "VariableID:13:25",
+      "variable": "color/icon/brand",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "3255F7",
+        "037255",
+        "FF5300",
+        "8300F8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I190:194;8899:10822",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Shortened label",
+      "field": "fills",
+      "variableId": "VariableID:13:29",
+      "variable": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "64748B",
+        "64748B",
+        "64748B",
+        "64748B"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "190:199",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Label",
+      "field": "fills",
+      "variableId": "VariableID:13:30",
+      "variable": "color/text/disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "94A3B8",
+        "94A3B8",
+        "94A3B8",
+        "94A3B8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "190:203",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "Vector",
+      "field": "fills",
+      "variableId": "VariableID:13:22",
+      "variable": "color/icon/tertiary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "94A3B8",
+        "94A3B8",
+        "94A3B8",
+        "94A3B8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I190:204;8899:79841",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Label",
+      "field": "fills",
+      "variableId": "VariableID:196:122",
+      "variable": "color/text/breadcrumb/current",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "3255F7",
+        "037255",
+        "FF5300",
+        "8300F8"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "190:207",
+          0
+        ],
+        [
+          "I191:173;190:207",
+          0
+        ],
+        [
+          "I191:187;190:207",
+          0
+        ],
+        [
+          "I191:205;190:207",
+          0
+        ],
+        [
+          "I191:227;190:207",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "TEXT",
+      "name": "Label",
+      "field": "fills",
+      "variableId": "VariableID:13:34",
+      "variable": "color/text/brand/strong",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "1D21B0",
+        "005038",
+        "AF1300",
+        "5800B7"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "190:209",
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "VECTOR",
+      "name": "Vector",
+      "field": "fills",
+      "variableId": "VariableID:13:20",
+      "variable": "color/icon/primary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "remote": false,
+      "colors": [
+        "0F172A",
+        "0F172A",
+        "0F172A",
+        "0F172A"
+      ],
+      "visible": true,
+      "opacity": 1,
+      "consumers": [
+        [
+          "I191:166;8899:76071",
+          0
+        ],
+        [
+          "I191:176;8899:76071",
+          0
+        ],
+        [
+          "I191:190;8899:76071",
+          0
+        ],
+        [
+          "I191:208;8899:76071",
+          0
+        ]
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:13:29",
+      "name": "color/text/tertiary",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:97",
+      "name": "color/neutral/500",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:21",
+      "name": "color/icon/secondary",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:87",
+      "name": "color/blue/400",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:62",
+      "name": "color/green/500",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:71",
+      "name": "color/orange/500",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:80",
+      "name": "color/purple/500",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:30",
+      "name": "color/text/disabled",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:96",
+      "name": "color/neutral/400",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:22",
+      "name": "color/icon/tertiary",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:196:122",
+      "name": "color/text/breadcrumb/current",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:34",
+      "name": "color/text/brand/strong",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:88",
+      "name": "color/blue/500",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:63",
+      "name": "color/green/600",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:73",
+      "name": "color/orange/700",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:81",
+      "name": "color/purple/600",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "collection": "VariableCollectionId:6:2",
+      "remote": false
+    },
+    {
+      "id": "VariableID:8:101",
+      "name": "color/neutral/900",
+      "collection": "VariableCollectionId:6:3",
+      "remote": false
+    }
+  ],
+  "errors": []
+}

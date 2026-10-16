@@ -1,0 +1,50 @@
+{
+  "artifact_id": "FIGJAM-SDD-FLOW-2026-10-07",
+  "review_type": "DERIVED_DOCUMENTATION_REVIEW",
+  "date": "2026-10-07",
+  "result": "PASS",
+  "scope": "Contenido y estructura del tablero FigJam; no QA de la biblioteca de componentes",
+  "structural": {
+    "rootId": "11:798",
+    "mainSections": 10,
+    "counts": {
+      "TEXT": 68,
+      "SECTION": 22,
+      "SHAPE_WITH_TEXT": 151,
+      "CONNECTOR": 149
+    },
+    "connectorParity": {
+      "checked": 149,
+      "mismatches": []
+    },
+    "outOfBounds": [],
+    "siblingContentOverlaps": [],
+    "hiddenOriginalConnectors": 149,
+    "result": "PASS"
+  },
+  "visual": {
+    "reviewed": true,
+    "views": [
+      "Vista general completa tras corrección de rutas",
+      "Flujo 01",
+      "Flujo 03 tras corrección final",
+      "Panel 09 de estado vigente"
+    ],
+    "screenshot_pixels_persisted": false,
+    "note": "Capturas inspeccionadas mediante Figma MCP. El snapshot estructural persistido y los IDs permiten repetir la lectura."
+  },
+  "semantic": {
+    "source_files": 17,
+    "flow_sources": 8,
+    "normative_changes": false,
+    "contract_approvals_created": false,
+    "library_publication_performed": false
+  },
+  "issues_resolved": [
+    "Rutas antiguas fuera de secciones: reemplazadas visualmente por conectores nativos, originales conservados ocultos",
+    "Dos rutas largas en Tokens separadas para evitar atravesar pasos",
+    "Primer boceto retenido en sección histórica tras rechazo automático de su retirada"
+  ],
+  "blocking_issues": []
+}
+

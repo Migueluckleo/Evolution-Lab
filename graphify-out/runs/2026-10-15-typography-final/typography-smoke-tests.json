@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "exact_source_queries": [
+    {
+      "from": "specs/foundations/typography.contract.v0.1.0.md",
+      "to": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+      "nodes": [
+        {
+          "id": "specs_foundations_typography_contract_v0_1_0_artifact_md",
+          "label": "typography.contract.v0.1.0.md",
+          "source_file": "specs/foundations/typography.contract.v0.1.0.md",
+          "source_location": "L1"
+        },
+        {
+          "id": "specs_tokens_ai_design_system_typography_v0_1_0_artifact_json",
+          "label": "ai-design-system.typography.v0.1.0.json",
+          "source_file": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+          "source_location": "L1"
+        }
+      ]
+    },
+    {
+      "from": "registry/DEC-TYPOGRAPHY-STYLES-001.md",
+      "to": "specs/foundations/typography.contract.v0.1.0.md",
+      "nodes": [
+        {
+          "id": "registry_dec_typography_styles_001_artifact_md",
+          "label": "DEC-TYPOGRAPHY-STYLES-001.md",
+          "source_file": "registry/DEC-TYPOGRAPHY-STYLES-001.md",
+          "source_location": "L1"
+        },
+        {
+          "id": "specs_foundations_typography_contract_v0_1_0_artifact_md",
+          "label": "typography.contract.v0.1.0.md",
+          "source_file": "specs/foundations/typography.contract.v0.1.0.md",
+          "source_location": "L1"
+        }
+      ]
+    },
+    {
+      "from": "specs/foundations/typography.contract.v0.1.0.md",
+      "to": "qa/implementations/typography/Figma-blocker.md",
+      "nodes": [
+        {
+          "id": "specs_foundations_typography_contract_v0_1_0_artifact_md",
+          "label": "typography.contract.v0.1.0.md",
+          "source_file": "specs/foundations/typography.contract.v0.1.0.md",
+          "source_location": "L1"
+        },
+        {
+          "id": "qa_implementations_typography_figma_blocker_artifact_md",
+          "label": "Figma-blocker.md",
+          "source_file": "qa/implementations/typography/Figma-blocker.md",
+          "source_location": "L1"
+        }
+      ]
+    },
+    {
+      "from": "implementations/web/docs/TYPOGRAPHY.md",
+      "to": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+      "nodes": [
+        {
+          "id": "implementations_web_docs_typography_artifact_md",
+          "label": "TYPOGRAPHY.md",
+          "source_file": "implementations/web/docs/TYPOGRAPHY.md",
+          "source_location": "L1"
+        },
+        {
+          "id": "specs_tokens_ai_design_system_typography_v0_1_0_artifact_json",
+          "label": "ai-design-system.typography.v0.1.0.json",
+          "source_file": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+          "source_location": "L1"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": 11592,
+  "graph_edges": 27352,
+  "scope": "Exact-path traversal supplement to fuzzy CLI queries; not a design validation."
+}

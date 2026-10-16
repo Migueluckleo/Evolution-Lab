@@ -1,0 +1,82 @@
+{
+  "implementationId": "IMP-TOOLTIP-FIGMA-001",
+  "runId": "legacy-tooltip-2026-09-23",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "phase": "phase3",
+  "step": "complete",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Tooltips",
+    "pageId": "85:122",
+    "componentSetId": "88:122"
+  },
+  "contentPropertyKey": "Content#88:0",
+  "documentationNodeIds": ["88:123", "88:124"],
+  "contract": {
+    "id": "TOOLTIP-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "522b74426f781231dbf0a3ce7daed35909ab8f1358e347efe97e34f454416402",
+    "dataDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "before": {
+    "pages": [
+      { "name": "Buttons", "id": "0:1", "childCount": 1 },
+      { "name": "Chips", "id": "67:122", "childCount": 1 }
+    ],
+    "semanticCollectionId": "VariableCollectionId:6:2",
+    "semanticVariableCount": 129,
+    "primitiveVariableCount": 141
+  },
+  "tokenIds": {
+    "color/background/inverse": "VariableID:13:39",
+    "color/text/inverse": "VariableID:13:31",
+    "font/family/base": "VariableID:10:2",
+    "font/weight/regular": "VariableID:10:3",
+    "font/size/sm": "VariableID:10:9",
+    "font/line-height/md": "VariableID:12:9",
+    "font/letter-spacing/tight": "VariableID:12:15",
+    "spacing/none": "VariableID:12:18",
+    "spacing/xs": "VariableID:12:29",
+    "spacing/sm": "VariableID:12:30",
+    "spacing/md": "VariableID:12:31",
+    "spacing/xl": "VariableID:12:33",
+    "radius/md": "VariableID:13:6"
+  },
+  "variantIds": {
+    "Right": "87:122",
+    "Down": "87:127",
+    "Up": "87:132",
+    "Left": "87:137"
+  },
+  "labelIds": {
+    "Right": "87:124",
+    "Down": "87:129",
+    "Up": "87:134",
+    "Left": "87:139"
+  },
+  "createdNodeIds": ["85:122", "87:122", "87:123", "87:124", "87:125", "87:126", "87:127", "87:128", "87:129", "87:130", "87:131", "87:132", "87:133", "87:134", "87:135", "87:136", "87:137", "87:138", "87:139", "87:140", "87:141", "88:122", "88:123", "88:124"],
+  "completedSteps": ["P0.a", "P0.b", "P0.c", "P0.d", "P1.a", "P1.b", "P1.c", "P2.a", "P2.b", "P2.c", "P3.a", "P3.b", "P3.c", "P3.d", "P3.e", "P3.f", "P3.g", "P4.a", "P4.b", "P4.c", "P4.d"],
+  "pendingSteps": [],
+  "lastReadback": {
+    "pageTopLevelIds": ["88:122", "88:123", "88:124"],
+    "variantCount": 4,
+    "contentPropertyKey": "Content#88:0",
+    "tokenAliasPairsChecked": 52,
+    "bindingIssues": 0,
+    "visualReview": "PASS: arrows Right, Down, Up and Left visible; labels single-line, no apparent clipping",
+    "publishStatus": "UNPUBLISHED",
+    "contrastRatioByMode": { "Contable": 14.63, "Administrativo": 14.63, "Servicios": 14.63, "Personas": 14.63 },
+    "unboundSolidPaintCount": 0,
+    "unnamedNodeCount": 0,
+    "duplicateTopLevelNameCount": 0,
+    "qaRecord": "QA-TOOLTIP-FIGMA-001"
+  },
+  "knownDeviations": [
+    "Line height 160% at 14px in the source is normalized to the existing 24px semantic token.",
+    "Source letter spacing -2% is mapped to the existing tight semantic token; unit equivalence remains unproven.",
+    "Two observed shadows remain literals because approved JSON has no shadow/elevation token category."
+  ]
+}

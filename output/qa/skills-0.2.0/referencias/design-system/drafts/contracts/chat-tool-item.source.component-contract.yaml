@@ -1,0 +1,2083 @@
+schema_version: "0.1.0"
+generated_at: "2026-10-08T19:47:41Z"
+generator:
+  skill: "figma-component-contract"
+  skill_version: "0.1.0"
+inspection:
+  status: "PARTIAL"
+  read_only: true
+  traversal:
+    discovered_nodes: 31
+    inspected_nodes: 31
+    pending_nodes: 0
+    invisible_nodes_inspected: 6
+    truncated: false
+    limit: "Identity and paint traversal complete; aliases and remote main internals partial"
+  mcp_limitations:
+    - "Oversized read results replaced by bounded queries; no source writes"
+    - "Remote aliases/collections and unused remote main variants not exhaustively resolved"
+component:
+  id: "20355:72830"
+  key: "4b27a9074ce13f93496d13e56ff727c70487ea9a"
+  name: "Atom / Anticipa /  Chat / Options and Tools"
+  type: "COMPONENT_SET"
+  description: ""
+  parent:
+    id: "20355:72762"
+    name: "Chat Components"
+    type: "SECTION"
+  page:
+    id: "17001:89455"
+    name: "Components"
+  source:
+    file_key: "zuUq3gcF9T3CLid44bjY6W"
+    node_id: "20355:72830"
+    url: "https://www.figma.com/design/zuUq3gcF9T3CLid44bjY6W/Anticipa-Junio2026?node-id=20355-72830"
+classification:
+  kind: "component"
+  reusable: true
+  composition: true
+  evidence_refs:
+    - "E001"
+identity:
+  position:
+    x: 873
+    y: 263
+  dimensions:
+    width: 218
+    height: 184
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: null
+direct_children:
+  - 
+    id: "20355:72831"
+    name: "available=true, hover=false"
+    type: "COMPONENT"
+  - 
+    id: "20355:72838"
+    name: "available=true, hover=true"
+    type: "COMPONENT"
+  - 
+    id: "20355:72845"
+    name: "available=false, hover=false"
+    type: "COMPONENT"
+anatomy:
+  functional_tree:
+    - 
+      id: "20355:72830"
+      parent: "20355:72762"
+      name: "Atom / Anticipa /  Chat / Options and Tools"
+      type: "COMPONENT_SET"
+      visible: true
+    - 
+      id: "20355:72831"
+      parent: "20355:72830"
+      name: "available=true, hover=false"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72832"
+      parent: "20355:72831"
+      name: "left container"
+      type: "FRAME"
+      visible: true
+    - 
+      id: "20355:72833"
+      parent: "20355:72832"
+      name: "NotePencil"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72833;8899:59887"
+      parent: "20355:72833"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72834"
+      parent: "20355:72832"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72835"
+      parent: "20355:72831"
+      name: "CaretDown"
+      type: "INSTANCE"
+      visible: false
+    - 
+      id: "I20355:72835;8899:79551"
+      parent: "20355:72835"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72836"
+      parent: "20355:72831"
+      name: "extra actions"
+      type: "SLOT"
+      visible: false
+    - 
+      id: "20355:72837"
+      parent: "20355:72836"
+      name: "Chats"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72837;8899:5104"
+      parent: "20355:72837"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72838"
+      parent: "20355:72830"
+      name: "available=true, hover=true"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72839"
+      parent: "20355:72838"
+      name: "left container"
+      type: "FRAME"
+      visible: true
+    - 
+      id: "20355:72840"
+      parent: "20355:72839"
+      name: "NotePencil"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72840;8899:59887"
+      parent: "20355:72840"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72841"
+      parent: "20355:72839"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72842"
+      parent: "20355:72838"
+      name: "CaretDown"
+      type: "INSTANCE"
+      visible: false
+    - 
+      id: "I20355:72842;8899:79551"
+      parent: "20355:72842"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72843"
+      parent: "20355:72838"
+      name: "extra actions"
+      type: "SLOT"
+      visible: false
+    - 
+      id: "20355:72844"
+      parent: "20355:72843"
+      name: "Chats"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72844;8899:5104"
+      parent: "20355:72844"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72845"
+      parent: "20355:72830"
+      name: "available=false, hover=false"
+      type: "COMPONENT"
+      visible: true
+    - 
+      id: "20355:72846"
+      parent: "20355:72845"
+      name: "left container"
+      type: "FRAME"
+      visible: true
+    - 
+      id: "20355:72847"
+      parent: "20355:72846"
+      name: "NotePencil"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72847;8899:59887"
+      parent: "20355:72847"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72848"
+      parent: "20355:72846"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+    - 
+      id: "20355:72849"
+      parent: "20355:72845"
+      name: "CaretDown"
+      type: "INSTANCE"
+      visible: false
+    - 
+      id: "I20355:72849;8899:79551"
+      parent: "20355:72849"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+    - 
+      id: "20355:72850"
+      parent: "20355:72845"
+      name: "extra actions"
+      type: "SLOT"
+      visible: false
+    - 
+      id: "20355:72851"
+      parent: "20355:72850"
+      name: "Chats"
+      type: "INSTANCE"
+      visible: true
+    - 
+      id: "I20355:72851;8899:5104"
+      parent: "20355:72851"
+      name: "Vector"
+      type: "VECTOR"
+      visible: true
+  graphical_details_omitted:
+    - "Vector path geometry not extracted; imported icon keys retained"
+dependency_inventory:
+  components:
+    total_instances: 9
+    total: 3
+    local: 0
+    remote: 3
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 3
+    unresolved: 0
+  variables:
+    total: 5
+    local: 4
+    remote: 1
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 5
+    unresolved: 0
+  styles:
+    total: 1
+    local: 1
+    remote: 0
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 1
+    unresolved: 0
+dependencies:
+  - 
+    id: "17037:55542"
+    key: "1f315f9a08488d0b413cf8cd97518fe8187d147d"
+    name: "Format=Outline, Weight=Light"
+    remote: true
+    owner:
+      id: "17037:55539"
+      key: "3092c1a44191a153fe4ea22fe2b907bbdf9d2120"
+      name: "NotePencil"
+    instances:
+      - "20355:72833"
+      - "20355:72840"
+      - "20355:72847"
+    properties:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+        preferredCount: 0
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+        preferredCount: 0
+    resolution: "PARTIALLY_RESOLVED"
+    locality: "REMOTE"
+  - 
+    id: "12744:90302"
+    key: "bc84188a38d95b6865a7c6a57820ee2330e43f34"
+    name: "Format=Outline, Weight=Light"
+    remote: true
+    owner:
+      id: "12744:90299"
+      key: "3501e37259778aa960dc8409cebc8ade3a70ff9b"
+      name: "CaretDown"
+    instances:
+      - "20355:72835"
+      - "20355:72842"
+      - "20355:72849"
+    properties:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+        preferredCount: 0
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+        preferredCount: 0
+    resolution: "PARTIALLY_RESOLVED"
+    locality: "REMOTE"
+  - 
+    id: "17116:23875"
+    key: "81c10c25593d451160897a03ccc39cd1fc7fad27"
+    name: "Format=Outline, Weight=Light"
+    remote: true
+    owner:
+      id: "17116:23872"
+      key: "9131b41d546ff92516b9ef7872f768215b98a707"
+      name: "Chats"
+    instances:
+      - "20355:72837"
+      - "20355:72844"
+      - "20355:72851"
+    properties:
+      Format:
+        type: "VARIANT"
+        defaultValue: "Stroke"
+        variantOptions:
+          - "Outline"
+          - "Stroke"
+        preferredCount: 0
+      Weight:
+        type: "VARIANT"
+        defaultValue: "Regular"
+        variantOptions:
+          - "Bold"
+          - "Duotone"
+          - "Fill"
+          - "Light"
+          - "Regular"
+          - "Thin"
+        preferredCount: 0
+    resolution: "PARTIALLY_RESOLVED"
+    locality: "REMOTE"
+variable_dependencies:
+  - 
+    id: "VariableID:15005:75097"
+    key: "e026ff23a201fab5cbd75a51a22b260737aa285f"
+    name: "Color / Text / Base"
+    type: "COLOR"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:15001:198237"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "I20355:72833;8899:59887"
+      - "20355:72834"
+      - "I20355:72835;8899:79551"
+      - "I20355:72837;8899:5104"
+      - "I20355:72840;8899:59887"
+      - "20355:72841"
+      - "I20355:72842;8899:79551"
+      - "I20355:72844;8899:5104"
+      - "I20355:72849;8899:79551"
+  - 
+    id: "VariableID:15006:75178"
+    key: "4204aefcedc5de6a2c8113e8e3b0b387495f7701"
+    name: "Font/Primary"
+    type: "STRING"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: "Manrope"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72834"
+      - "20355:72841"
+      - "20355:72848"
+  - 
+    id: "VariableID:15006:75542"
+    key: "f648c71c358aa10f00ccc7220c2d27b800f4e667"
+    name: "Size/Font/Body/Base"
+    type: "FLOAT"
+    remote: false
+    collection: "VariableCollectionId:15001:198365"
+    valuesByMode:
+      15001:1: 14
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72834"
+      - "20355:72841"
+      - "20355:72848"
+  - 
+    id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+    key: "3440032d1b72fda0082327f8fb8d1dab1bf7de20"
+    name: "color/background/brand"
+    type: "COLOR"
+    remote: true
+    collection: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:a2c4aafb717bd6ae76df5fc12ff6fd068ea07464/2507:667"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:4aa5f640e1b273a5364be10518bf63fb17dd6ac2/2507:779"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "20355:72838"
+  - 
+    id: "VariableID:15001:198235"
+    key: "d19ac3d900fdcfc147def49a22d459b7c04c2f3d"
+    name: "Gray/500"
+    type: "COLOR"
+    remote: false
+    collection: "VariableCollectionId:15001:198194"
+    valuesByMode:
+      15001:0:
+        r: 0.6117647290229797
+        g: 0.6392157077789307
+        b: 0.686274528503418
+        a: 1
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "I20355:72847;8899:59887"
+      - "20355:72848"
+      - "I20355:72851;8899:5104"
+style_dependencies:
+  - 
+    id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    key: "96b3d3941169b2892202094e973f2a4778868f2c"
+    name: "body/regular"
+    type: "TEXT"
+    remote: false
+properties:
+  definitions:
+    - 
+      name: "it's collapsible#17096:0"
+      type: "BOOLEAN"
+      defaultValue: false
+    - 
+      name: "extra Action#17116:15"
+      type: "BOOLEAN"
+      defaultValue: false
+    - 
+      name: "extra actions#17116:19"
+      type: "SLOT"
+      description: ""
+      slotSettings:
+        stretchChildOnInsert: false
+        displayEmptyByDefault: false
+        minChildren: null
+        maxChildren: null
+        allowPreferredValuesOnly: false
+      preferredValues:
+        []
+    - 
+      name: "available"
+      type: "VARIANT"
+      defaultValue: "true"
+      variantOptions:
+        - "true"
+        - "false"
+    - 
+      name: "hover"
+      type: "VARIANT"
+      defaultValue: "false"
+      variantOptions:
+        - "false"
+        - "true"
+  observed:
+    []
+  available:
+    []
+  unknown:
+    []
+variants:
+  observed_combinations:
+    - 
+      id: "20355:72831"
+      name: "available=true, hover=false"
+    - 
+      id: "20355:72838"
+      name: "available=true, hover=true"
+    - 
+      id: "20355:72845"
+      name: "available=false, hover=false"
+  available_values:
+    - 
+      name: "available"
+      values:
+        - "true"
+        - "false"
+    - 
+      name: "hover"
+      values:
+        - "false"
+        - "true"
+  unknown:
+    []
+states:
+  observed:
+    - "available=true, hover=false"
+    - "available=true, hover=true"
+    - "available=false, hover=false"
+  available:
+    []
+  unknown:
+    []
+layout:
+  node:
+    id: "20355:72830"
+    name: "Atom / Anticipa /  Chat / Options and Tools"
+    type: "COMPONENT_SET"
+    depth: 0
+    x: 873
+    y: 263
+    width: 218
+    height: 184
+    visible: true
+    opacity: 1
+    layoutMode: "VERTICAL"
+    layoutSizingHorizontal: "FIXED"
+    layoutSizingVertical: "HUG"
+    itemSpacing: 16
+    paddingTop: 16
+    paddingRight: 16
+    paddingBottom: 16
+    paddingLeft: 16
+    primaryAxisAlignItems: "MIN"
+    counterAxisAlignItems: "MIN"
+    primaryAxisSizingMode: "AUTO"
+    counterAxisSizingMode: "FIXED"
+    minWidth: null
+    maxWidth: null
+    minHeight: null
+    maxHeight: null
+    layoutGrow: 0
+    clipsContent: true
+    overflowDirection: "NONE"
+    fills:
+      []
+    strokes:
+      - 
+        type: "SOLID"
+        visible: true
+        opacity: 1
+        blendMode: "NORMAL"
+        color:
+          r: 0.5921568870544434
+          g: 0.27843138575553894
+          b: 1
+        boundVariables:
+
+    strokeWeight: 1
+    strokeAlign: "INSIDE"
+    cornerRadius: 5
+    effects:
+      []
+    boundVariables:
+
+    componentPropertyReferences: null
+    children:
+      - "20355:72831"
+      - "20355:72838"
+      - "20355:72845"
+  children:
+    - 
+      node:
+        id: "20355:72831"
+        name: "available=true, hover=false"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 186
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72832"
+        name: "left container"
+        type: "FRAME"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 154
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72833"
+        name: "NotePencil"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72834"
+        name: "tool name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 126
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72835"
+        name: "CaretDown"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72836"
+        name: "extra actions"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72837"
+        name: "Chats"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72838"
+        name: "available=true, hover=true"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 186
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72839"
+        name: "left container"
+        type: "FRAME"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 154
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72840"
+        name: "NotePencil"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72841"
+        name: "tool name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 126
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72842"
+        name: "CaretDown"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72843"
+        name: "extra actions"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72844"
+        name: "Chats"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72845"
+        name: "available=false, hover=false"
+        type: "COMPONENT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 186
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 40
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72846"
+        name: "left container"
+        type: "FRAME"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 154
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72847"
+        name: "NotePencil"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72848"
+        name: "tool name"
+        type: "TEXT"
+      layout_mode: null
+      sizing:
+        horizontal: "FILL"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 126
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 20
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72849"
+        name: "CaretDown"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72850"
+        name: "extra actions"
+        type: "SLOT"
+      layout_mode: "HORIZONTAL"
+      sizing:
+        horizontal: "HUG"
+        vertical: "HUG"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+    - 
+      node:
+        id: "20355:72851"
+        name: "Chats"
+        type: "INSTANCE"
+      layout_mode: "NONE"
+      sizing:
+        horizontal: "FIXED"
+        vertical: "FIXED"
+      dimensions:
+        width:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+        height:
+          resolved_value: 24
+          unit: "px"
+          availability: "OBSERVED"
+          evidence_refs:
+            - "E002"
+      evidence_refs:
+        - "E002"
+  relationships:
+    - 
+      parent_id: "20355:72830"
+      child_id: "20355:72831"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72831"
+      child_id: "20355:72832"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72832"
+      child_id: "20355:72833"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72833"
+      child_id: "I20355:72833;8899:59887"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72832"
+      child_id: "20355:72834"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72831"
+      child_id: "20355:72835"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72835"
+      child_id: "I20355:72835;8899:79551"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72831"
+      child_id: "20355:72836"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72836"
+      child_id: "20355:72837"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72837"
+      child_id: "I20355:72837;8899:5104"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72830"
+      child_id: "20355:72838"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72838"
+      child_id: "20355:72839"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72839"
+      child_id: "20355:72840"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72840"
+      child_id: "I20355:72840;8899:59887"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72839"
+      child_id: "20355:72841"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72838"
+      child_id: "20355:72842"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72842"
+      child_id: "I20355:72842;8899:79551"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72838"
+      child_id: "20355:72843"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72843"
+      child_id: "20355:72844"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72844"
+      child_id: "I20355:72844;8899:5104"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72830"
+      child_id: "20355:72845"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72845"
+      child_id: "20355:72846"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72846"
+      child_id: "20355:72847"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72847"
+      child_id: "I20355:72847;8899:59887"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72846"
+      child_id: "20355:72848"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72845"
+      child_id: "20355:72849"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72849"
+      child_id: "I20355:72849;8899:79551"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72845"
+      child_id: "20355:72850"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72850"
+      child_id: "20355:72851"
+      relationship: "CONTAINS"
+    - 
+      parent_id: "20355:72851"
+      child_id: "I20355:72851;8899:5104"
+      relationship: "CONTAINS"
+visual:
+  node: null
+  descendants:
+    - 
+      id: "20355:72830"
+      fills:
+        []
+      strokes:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.5921568870544434
+            g: 0.27843138575553894
+            b: 1
+          boundVariables:
+
+      bindings:
+
+    - 
+      id: "20355:72831"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72832"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72833"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72833;8899:59887"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72834"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72835"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72835;8899:79551"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72836"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72837"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72837;8899:5104"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72838"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9372549057006836
+            g: 0.9529411792755127
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+    - 
+      id: "20355:72839"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72840"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72840;8899:59887"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72841"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72842"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72842;8899:79551"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72843"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72844"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72844;8899:5104"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72845"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72846"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72847"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72847;8899:59887"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.6117647290229797
+            g: 0.6392157077789307
+            b: 0.686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15001:198235"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15001:198235"
+    - 
+      id: "20355:72848"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.6117647290229797
+            g: 0.6392157077789307
+            b: 0.686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15001:198235"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15001:198235"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+    - 
+      id: "20355:72849"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72849;8899:79551"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+    - 
+      id: "20355:72850"
+      fills:
+        []
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "20355:72851"
+      fills:
+        - 
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+
+      strokes:
+        []
+      bindings:
+
+    - 
+      id: "I20355:72851;8899:5104"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.6117647290229797
+            g: 0.6392157077789307
+            b: 0.686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15001:198235"
+      strokes:
+        []
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15001:198235"
+  icons:
+    - 
+      id: "17037:55542"
+      key: "1f315f9a08488d0b413cf8cd97518fe8187d147d"
+      name: "NotePencil"
+    - 
+      id: "12744:90302"
+      key: "bc84188a38d95b6865a7c6a57820ee2330e43f34"
+      name: "CaretDown"
+    - 
+      id: "17116:23875"
+      key: "81c10c25593d451160897a03ccc39cd1fc7fad27"
+      name: "Chats"
+typography:
+  styles:
+    - 
+      id: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+      key: "96b3d3941169b2892202094e973f2a4778868f2c"
+      name: "body/regular"
+      type: "TEXT"
+      remote: false
+  text_runs:
+    - 
+      id: "20355:72834"
+      parent: "20355:72832"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+      w: 126
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    - 
+      id: "20355:72841"
+      parent: "20355:72839"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+      w: 126
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15005:75097"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15005:75097"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+    - 
+      id: "20355:72848"
+      parent: "20355:72846"
+      name: "tool name"
+      type: "TEXT"
+      visible: true
+      w: 126
+      h: 20
+      bindings:
+        fills:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15001:198235"
+        fontFamily:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75178"
+        fontSize:
+          - 
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:15006:75542"
+      fills:
+        - 
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.6117647290229797
+            g: 0.6392157077789307
+            b: 0.686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:15001:198235"
+      strokes:
+        []
+      text: "Nuevo chat"
+      font:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      size: 14
+      line:
+        unit: "PIXELS"
+        value: 20
+      tracking:
+        unit: "PERCENT"
+        value: 0
+      style: "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+tokens:
+  summary:
+    total: 5
+    local: 4
+    remote: 1
+  categories:
+
+  source: "variable_dependencies"
+content:
+  example_content:
+    observed_strings:
+      - "Nuevo chat"
+      - "Nuevo chat"
+      - "Nuevo chat"
+  component_rules:
+    []
+  truncation_and_wrapping:
+    - "See E002 own properties; no product max-length inferred"
+interactions:
+  status: "FIGMA_DEFINED"
+  reason: "Local hover and expansion prototype reactions observed; no backend actions defined"
+  rules:
+    - 
+      node_id: "20355:72831"
+      reactions:
+        - 
+          action:
+            type: "NODE"
+            destinationId: "20355:72838"
+            navigation: "CHANGE_TO"
+            transition:
+              type: "SMART_ANIMATE"
+              easing:
+                type: "EASE_OUT"
+              duration: 0.30000001192092896
+            resetVideoPosition: false
+          actions:
+            - 
+              type: "NODE"
+              destinationId: "20355:72838"
+              navigation: "CHANGE_TO"
+              transition:
+                type: "SMART_ANIMATE"
+                easing:
+                  type: "EASE_OUT"
+                duration: 0.30000001192092896
+              resetVideoPosition: false
+          trigger:
+            type: "ON_HOVER"
+semantic_contract:
+  explicit_descriptions:
+    []
+  purpose:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+  usage_rules:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+accessibility:
+  status: "REQUIRES_DEFINITION"
+  observed:
+    []
+  undefined:
+    - "Keyboard/focus policy"
+    - "Accessible action names and announcements"
+external_dependencies:
+  - 
+    key: "1f315f9a08488d0b413cf8cd97518fe8187d147d"
+    library: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    key: "bc84188a38d95b6865a7c6a57820ee2330e43f34"
+    library: "NOT_EXPOSED_BY_FIGMA_MCP"
+  - 
+    key: "81c10c25593d451160897a03ccc39cd1fc7fad27"
+    library: "NOT_EXPOSED_BY_FIGMA_MCP"
+unresolved:
+  - "Historical aliases not deeply resolved"
+  - "Prototype is not application logic"
+implementation_notes:
+  - "Read-only source evidence, not target approval"
+  - "Target normalization governed by separate versioned MD; preserve source IDs"
+evidence:
+  figma_direct:
+    - 
+      id: "E001"
+      path: "../../sources/figma-snapshots/chat-toolbar.deep.2026-10-08.json"
+    - 
+      id: "E002"
+      path: "../../sources/figma-snapshots/chat-toolbar.own.2026-10-08.json"
+    - 
+      id: "E003"
+      path: "../../sources/figma-snapshots/chat-toolbar.variables.2026-10-08.json"
+  derived:
+    []
+  requires_definition:
+    - "Product actions"
+  confidence:
+    level: "MEDIUM"
+    reason: "Full identity traversal, bounded local property reads, remote evidence partial"

@@ -1,0 +1,182 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-24T21:12:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 146, inspected_nodes: 146, pending_nodes: 0, invisible_nodes_inspected: 10, truncated: false, limit: null}
+  mcp_limitations: ["Remote icon library version is not exposed; three source-local icon keys cannot be imported by key into destination."]
+component:
+  id: "2461:714"
+  key: 0d6540ee619c7896a844d6607854415727b43345
+  name: Group Pagination
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2461:690", name: Group 3, type: GROUP}
+  page: {id: "268:20245", name: "❖ Navigation   ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2461-714", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2461:714"}
+classification: {kind: component, reusable: true, composition: true, evidence_refs: [E001]}
+identity: {position: {x: 353.75, y: 32}, dimensions: {width: 421, height: 405}, visible: true, clips_content: false, opacity: 1, blend_mode: PASS_THROUGH}
+direct_children:
+  - {id: "2461:715", name: "State=Default", type: COMPONENT, width: 354, height: 66}
+  - {id: "2461:741", name: "State=Active", type: COMPONENT, width: 354, height: 66}
+  - {id: "2461:767", name: "State=Hover", type: COMPONENT, width: 354, height: 66}
+  - {id: "2461:793", name: "State=Focus", type: COMPONENT, width: 354, height: 66}
+  - {id: "2461:819", name: "State=Disabled", type: COMPONENT, width: 354, height: 66}
+anatomy:
+  functional_tree: ["Pagination set → State variant → Content → previous control; Pages [1, ellipsis, 2, 3]; next control; per-page selector"]
+  graphical_details_omitted: ["Twenty-five nested Caret vectors are grouped under their component instances; ten hidden first/last control frames are retained as observed."]
+dependency_inventory:
+  components: {total_instances: 25, total: 5, local: 3, remote: 2, unknown_locality: 0, resolved: 3, partially_resolved: 2, unresolved: 0}
+  variables: {total: 31, local: 21, remote: 10, unknown_locality: 0, resolved: 31, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: d55e95f54444cd03d8619165dc8ea273a872dba3
+    kind: COMPONENT
+    instance_ids: ["2461:720", "2461:746", "2461:772", "2461:798", "2461:824"]
+    instance_count: 5
+    main_component: {id: "355:77812", key: d55e95f54444cd03d8619165dc8ea273a872dba3, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretDoubleLeft}
+    locality: LOCAL
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: "Source vector path and active main inspected."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: 4472d4a157a44ccd6e7e4911b4c9dcad1dc04b34
+    kind: COMPONENT
+    instance_ids: ["2461:722", "2461:748", "2461:774", "2461:800", "2461:826"]
+    instance_count: 5
+    main_component: {id: "3374:25096", key: 4472d4a157a44ccd6e7e4911b4c9dcad1dc04b34, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretLeft}
+    locality: REMOTE
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: PARTIALLY_RESOLVED, evidence: [E006], missing_fields: ["Remote library version"], reason: "Active main key is known."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: e2fc671298e81c590f5a4a5272d9c97709515666
+    kind: COMPONENT
+    instance_ids: ["2461:738", "2461:764", "2461:790", "2461:816", "2461:842"]
+    instance_count: 5
+    main_component: {id: "3374:24967", key: e2fc671298e81c590f5a4a5272d9c97709515666, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretRight}
+    locality: REMOTE
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: PARTIALLY_RESOLVED, evidence: [E006], missing_fields: ["Remote library version"], reason: "Active main key is known."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: e010fb6ed02a8e3f2dbd0968544328f529bd928e
+    kind: COMPONENT
+    instance_ids: ["2461:740", "2461:766", "2461:792", "2461:818", "2461:844"]
+    instance_count: 5
+    main_component: {id: "355:77850", key: e010fb6ed02a8e3f2dbd0968544328f529bd928e, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretDoubleRight}
+    locality: LOCAL
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: "Source vector path and active main inspected."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: 549afaf2d878375777717bab8bef14b82ce143ec
+    kind: COMPONENT
+    instance_ids: ["2461:1764", "2468:371", "2468:376", "2468:381", "2468:386"]
+    instance_count: 5
+    main_component: {id: "355:77926", key: 549afaf2d878375777717bab8bef14b82ce143ec, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: CaretDown}
+    locality: LOCAL
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: "Source vector path and active main inspected."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+variable_dependencies:
+  - {id: "VariableID:1098:28491", name: spacing/none, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:562:13", name: spacing/xl, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:562:12", name: spacing/lg, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:559:40", name: radius/none, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", name: "Spacing/Small/spacing-sm-12", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:878b62efa9fa049af5276bb3173a0bc40d615432/5164:1", name: "Spacing/Small/spacing-sm-4", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:447aac85a0e58af6ebb2d6261a66d74247cdf9b3/831:42", name: "0", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", name: "Spacing/Small/spacing-sm-8", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:99b138377c82e0b8c1daaab29882c6687d089be0/4317:268", name: "radius/radius-sm", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:559:7", name: stroke/xs, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196105", name: color/background/subtle, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196128", name: color/border/default, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12", name: "icons/xsm-icon-size", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196104", name: color/background/default, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196147", name: color/icon/disabled, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:562:10", name: spacing/xs, type: FLOAT, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196129", name: color/border/subtle, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196116", name: color/text/primary, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", name: "Size/sm-3", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2845:160888", name: font/weight/regular, type: STRING, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196138", name: color/icon/primary, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196141", name: color/icon/brand, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", name: "stroke/stroke-default", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196107", name: color/surface/brand, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196131", name: color/border/brand, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196121", name: color/text/brand, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", name: "stroke/stroke-focus", type: FLOAT, locality: REMOTE, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196132", name: color/focus/ring, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+  - {id: "VariableID:2849:196119", name: color/text/disabled, type: COLOR, locality: LOCAL, used_by: [Pagination], resolution: {status: RESOLVED, evidence: [E005]}}
+style_dependencies: []
+properties:
+  definitions: [{name: State, type: VARIANT, default: Default, options: [Default, Active, Hover, Focus, Disabled]}]
+  observed: ["State=Default", "State=Active", "State=Hover", "State=Focus", "State=Disabled"]
+  available: []
+  unknown: ["No TEXT properties for page numbers or per-page count"]
+variants:
+  observed_combinations: ["State=Default", "State=Active", "State=Hover", "State=Focus", "State=Disabled"]
+  available_values: []
+  unknown: ["No size or page-count variant axis"]
+states: {observed: [Default, Active, Hover, Focus, Disabled], available: [], unknown: ["Functional behavior not specified"]}
+layout:
+  node: {node: {id: "2461:714", name: Group Pagination, type: COMPONENT_SET}, position: {x: 353.75, y: 32, absolute_x: null, absolute_y: null, unit: px}, layout_mode: null, layout_wrap: null, layout_positioning: null, sizing: {horizontal: null, vertical: null, primary_axis_mode: null, counter_axis_mode: null}, dimensions: {width: {resolved_value: 421, unit: px, availability: OBSERVED, evidence_refs: [E001]}, height: {resolved_value: 405, unit: px, availability: OBSERVED, evidence_refs: [E001]}}, spacing: {gap: null, row_gap: null, column_gap: null}, padding: {top: null, right: null, bottom: null, left: null}, alignment: {primary_axis: null, counter_axis: null, self: null}, constraints: {horizontal: null, vertical: null}, overflow: null, clips_content: false, strokes_included_in_layout: null, grow: null, grids: [], evidence_refs: [E001]}
+  children: []
+  relationships: []
+visual:
+  node: {node: {id: "2461:714", name: Group Pagination, type: COMPONENT_SET}, fills: [], backgrounds: [], strokes: [], stroke_width: {resolved_value: null, unit: px, availability: UNKNOWN, evidence_refs: []}, stroke_widths: {top: null, right: null, bottom: null, left: null}, stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: []}, corner_radius: null, corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E001]}, blend_mode: {resolved_value: PASS_THROUGH, unit: null, availability: OBSERVED, evidence_refs: [E001]}, effects: [], shadows: [], blur: [], clips_content: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, is_mask: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, evidence_refs: [E001]}
+  descendants: []
+  icons: []
+typography: {styles: [], text_runs: [{node: {id: "2461:725", name: text-1}, characters: "1", range: {start: 0, end: 1}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: "160%", letter_spacing: "-2%", paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: null, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160888"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E003]}]}
+tokens: {summary: {total: 31, local: 21, remote: 10}, categories: {Color: ["VariableID:2849:196105", "VariableID:2849:196128", "VariableID:2849:196104", "VariableID:2849:196147", "VariableID:2849:196129", "VariableID:2849:196116", "VariableID:2849:196138", "VariableID:2849:196141", "VariableID:2849:196107", "VariableID:2849:196131", "VariableID:2849:196121", "VariableID:2849:196132", "VariableID:2849:196119"], Other: ["VariableID:1098:28491", "VariableID:562:13", "VariableID:562:12", "VariableID:559:40", "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", "VariableID:878b62efa9fa049af5276bb3173a0bc40d615432/5164:1", "VariableID:447aac85a0e58af6ebb2d6261a66d74247cdf9b3/831:42", "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", "VariableID:99b138377c82e0b8c1daaab29882c6687d089be0/4317:268", "VariableID:559:7", "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12", "VariableID:562:10", "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", "VariableID:2845:160888", "VariableID:2845:160887", "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213"]}, source: variable_dependencies}
+content: {example_content: {observed_strings: ["1", "...", "2", "3", "20 por pag"]}, component_rules: [], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "No reactions on source variants", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["Visible pagination labels and carets"], undefined: ["Current page semantics, arrow names, focus and keyboard behavior"]}
+external_dependencies:
+  - {kind: COMPONENT, id: "3374:25096", key: 4472d4a157a44ccd6e7e4911b4c9dcad1dc04b34, name: CaretLeft, remote: true, collection: null, component_set: {id: null, key: null, name: CaretLeft}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: PARTIALLY_RESOLVED, evidence: [E006], missing_fields: ["Remote library version"], reason: "Active key known"}}
+  - {kind: COMPONENT, id: "3374:24967", key: e2fc671298e81c590f5a4a5272d9c97709515666, name: CaretRight, remote: true, collection: null, component_set: {id: null, key: null, name: CaretRight}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: PARTIALLY_RESOLVED, evidence: [E006], missing_fields: ["Remote library version"], reason: "Active key known"}}
+unresolved: []
+implementation_notes: ["Use destination semantic tokens and published Phosphor equivalents for source-local Caret variants; preserve hidden first/last controls."]
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:2461:714", value: "Five State variants, 354x66 each", note: null}
+    - {id: E003, source: "component:2461:715", value: "Nested geometry, typography and controls in Default", note: null}
+    - {id: E004, source: "components:2461:741|2461:767|2461:793|2461:819", value: "State-specific fill, border, text and icon differences", note: null}
+    - {id: E005, source: "variables:2461:714", value: "31 used variables resolved by ID", note: null}
+    - {id: E006, source: "instances:2461:714", value: "Five Caret mains and three equivalent published Phosphor variants", note: null}
+    - {id: E007, source: "screenshot:2461:714", value: "Five visual states inspected", note: null}
+  derived:
+    - {id: E002, source: "traversal:2461:714", value: "146 nodes, ten invisible, 25 instances, 25 texts and 25 vectors", note: null}
+  requires_definition: ["Dynamic page range, total count, navigation behavior, focus semantics and per-page options"]
+  confidence: {level: HIGH, reason: "Complete source traversal, state diff, icon identities and screenshot; product behavior remains undefined."}

@@ -1,0 +1,143 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T00:00:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 49, inspected_nodes: 49, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["1512 preferred icon swap sets counted but intentionally not enumerated"]
+component:
+  id: "1132:21344"
+  key: 2df4b15820fade1cc23c83fde049c755286bfdc4
+  name: avatar
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "1132:21310", name: Content, type: FRAME}
+  page: {id: "1132:8891", name: "❖ Avatar"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1132-21344", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1132:21344"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 283, y: 57}
+  dimensions: {width: 324, height: 312}
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "1132:21345", name: "type=Image, size=large", type: COMPONENT, width: 32, height: 32}
+  - {id: "1132:21348", name: "type=Image, size=extra-large", type: COMPONENT, width: 48, height: 48}
+  - {id: "1132:21351", name: "type=Image, size=middle", type: COMPONENT, width: 24, height: 24}
+  - {id: "1132:21354", name: "type=Image, size=small", type: COMPONENT, width: 20, height: 20}
+  - {id: "1132:21357", name: "type=Icon, size=large", type: COMPONENT, width: 32, height: 32}
+  - {id: "1132:21361", name: "type=Icon, size=extra-large", type: COMPONENT, width: 48, height: 48}
+  - {id: "1132:21365", name: "type=Icon, size=middle", type: COMPONENT, width: 24, height: 24}
+  - {id: "1132:21369", name: "type=Icon, size=small", type: COMPONENT, width: 20, height: 20}
+  - {id: "1132:21373", name: "type=Text, size=large", type: COMPONENT, width: 32, height: 32}
+  - {id: "1132:21377", name: "type=Text, size=extra-large", type: COMPONENT, width: 48, height: 48}
+  - {id: "1132:21381", name: "type=Text, size=middle", type: COMPONENT, width: 24, height: 24}
+  - {id: "1132:21385", name: "type=Text, size=small", type: COMPONENT, width: 20, height: 20}
+anatomy:
+  functional_tree: [{role: avatar_variant, count: 12, children: [circular_face, optional_image_or_user_icon_or_initials, nested_status_dot], evidence_refs: [E002]}]
+  graphical_details_omitted: ["Four expanded User vector paths retained as aggregate graphic fact"]
+dependency_inventory:
+  components: {total_instances: 16, total: 2, local: 1, remote: 1, unknown_locality: 0, resolved: 2, partially_resolved: 0, unresolved: 0}
+  variables: {total: 18, local: 12, remote: 6, unknown_locality: 0, resolved: 18, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - id: "1133:31549"
+    key: bc7fd5437899a1868aeba789925329c30d5b6996
+    name: dot
+    locality: LOCAL
+    instances: ["1132:21347", "1132:21350", "1132:21353", "1132:21356", "1132:21360", "1132:21364", "1132:21368", "1132:21372", "1132:21376", "1132:21380", "1132:21384", "1132:21388"]
+    resolution: {status: RESOLVED, evidence: [E003]}
+    contract_ref: {status: EXISTS, path: drafts/contracts/dot.source.component-contract.yaml}
+  - id: "2828:33431"
+    key: 77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f
+    name: User
+    locality: REMOTE
+    instances: ["1132:21469", "1132:21442", "1132:21475", "1132:21478"]
+    resolution: {status: RESOLVED, evidence: [E003]}
+    contract_ref: {status: NOT_REQUESTED, path: null}
+variable_dependencies:
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", type: FLOAT, locality: REMOTE, used_by: ["variant:padding"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:e2073ff7d646032d4b9c0822bf3105ca0806c49c/368:62", name: "Small/sm-spacing-4", type: FLOAT, locality: REMOTE, used_by: ["image:padding"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:9", name: "radius/full", type: FLOAT, locality: LOCAL, used_by: ["face:corners", "small-dot:corners"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", name: "stroke/stroke-default", type: FLOAT, locality: REMOTE, used_by: ["face:stroke", "dot:stroke"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", name: "radius/radius-full", type: FLOAT, locality: REMOTE, used_by: ["dot:corners"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196143", name: "color/feedback/positive/icon", type: COLOR, locality: LOCAL, used_by: ["dot:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2888:26808", name: "color/border/on-brand", type: COLOR, locality: LOCAL, used_by: ["face:strokes", "dot:strokes"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:48c0f2c2368f1ca5c9f65dd2d122d1c264b7c93b/4331:1212", name: "stroke/stroke-active", type: FLOAT, locality: REMOTE, used_by: ["extra-large-image:stroke"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:559:7", name: "stroke/xs", type: FLOAT, locality: LOCAL, used_by: ["small-dot:stroke"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:10", name: "spacing/xs", type: FLOAT, locality: LOCAL, used_by: ["icon-text-face:padding"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:197279", name: "color/interactive/primary/default", type: COLOR, locality: LOCAL, used_by: ["icon-text-face:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196142", name: "color/icon/on-brand", type: COLOR, locality: LOCAL, used_by: ["user-vector:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:1098:28491", name: "spacing/none", type: FLOAT, locality: LOCAL, used_by: ["text-face:padding"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196123", name: "color/text/on-brand", type: COLOR, locality: LOCAL, used_by: ["initials:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", type: STRING, locality: LOCAL, used_by: ["initials:fontFamily"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", name: "Size/sm-3", type: FLOAT, locality: REMOTE, used_by: ["middle-initials:fontSize"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160895", name: "font/size/lg", type: FLOAT, locality: LOCAL, used_by: ["extra-large-initials:fontSize"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160890", name: "font/weight/semibold", type: STRING, locality: LOCAL, used_by: ["initials:fontStyle"], resolution: {status: RESOLVED, evidence: [E004]}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: type, type: VARIANT, default: Image, available: [Image, Icon, Text]}
+    - {name: size, type: VARIANT, default: extra-large, available: [small, middle, large, extra-large]}
+    - {name: Content, type: TEXT, default: JA, connected_nodes: 4}
+    - {name: icon, type: INSTANCE_SWAP, default_component_id: "2828:33431", preferred_set_count: 1512, connected_nodes: 4}
+    - {name: show_badge_Indicator, type: BOOLEAN, default: true, connected_nodes: 12}
+  observed: ["Twelve nested Dot instances visible by default", "All Image variants use one image hash"]
+  available: ["1512 preferred icon sets are picker alternatives, not active dependencies"]
+  unknown: ["No image swap property exposed"]
+variants:
+  observed_combinations:
+    - {type: Image, size: large, id: "1132:21345"}
+    - {type: Image, size: extra-large, id: "1132:21348"}
+    - {type: Image, size: middle, id: "1132:21351"}
+    - {type: Image, size: small, id: "1132:21354"}
+    - {type: Icon, size: large, id: "1132:21357"}
+    - {type: Icon, size: extra-large, id: "1132:21361"}
+    - {type: Icon, size: middle, id: "1132:21365"}
+    - {type: Icon, size: small, id: "1132:21369"}
+    - {type: Text, size: large, id: "1132:21373"}
+    - {type: Text, size: extra-large, id: "1132:21377"}
+    - {type: Text, size: middle, id: "1132:21381"}
+    - {type: Text, size: small, id: "1132:21385"}
+  available_values: [{type: [Image, Icon, Text]}, {size: [small, middle, large, extra-large]}]
+  unknown: []
+states: {observed: ["Dot visible by default"], available: ["Dot hidden via Boolean"], unknown: ["No live presence state defined"]}
+layout:
+  node: {node: {id: "1132:21344", name: avatar, type: COMPONENT_SET}, position: {x: 283, y: 57, absolute_x: null, absolute_y: null, unit: px}, layout_mode: NONE, dimensions: {width: 324, height: 312}, clips_content: false, evidence_refs: [E001]}
+  children: [{node_type: COMPONENT, count: 12, sizes: [[20, 20], [24, 24], [32, 32], [48, 48]], evidence_refs: [E002]}]
+  relationships: ["Circular face and Dot at bottom-right", "Icon and Text render inside solid face", "Image renders as image fill"]
+visual:
+  node: {size: [324, 312], screenshot: "324x312 inspected inline", evidence_refs: [E005]}
+  descendants: [{role: avatar_solid_face, fill: "#3255f7 in observed mode"}, {role: dot, fill: "#098300"}, {role: borders, stroke: "#ffffff"}, {role: image, hash: 33f6b019db4382817513e4485e94d3a7dd5a6ca2}]
+  icons: [{name: User, count: 4, key: 77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f}]
+typography:
+  styles: [{family: Manrope, weight: SemiBold, sizes: [6, 9, 14, 20], text_color: "#ffffff", evidence_refs: [E006]}]
+  text_runs: [{text: JA, count: 4, text_property: Content}]
+tokens:
+  summary: {total: 18, local: 12, remote: 6}
+  categories: {color: 5, font: 4, spacing: 4, radius: 2, stroke: 3}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: [JA], image_hashes: [33f6b019db4382817513e4485e94d3a7dd5a6ca2]}
+  component_rules: []
+  truncation_and_wrapping: []
+interactions: {status: UNDEFINED, reason: "Zero reactions; no upload, fallback or live presence observed.", rules: []}
+semantic_contract:
+  explicit_descriptions: []
+  purpose: {status: REQUIRES_PRODUCT_DEFINITION, text: null, evidence_refs: []}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: ["Initials at 6/9/14/20 px", "Image sample", "Dot visible by default"]
+  undefined: ["Accessible name", "image alternative", "live presence text", "hit target", "WCAG compliance"]
+external_dependencies: []
+unresolved: []
+implementation_notes: ["Image fill is not an exposed component property", "Small and middle initials are tiny", "Avatar fill uses interaction role in source"]
+evidence:
+  figma_direct: [{id: E001, path: "node:1132:21344", finding: "identity and properties"}, {id: E002, path: "variants:12", finding: "dimensions and anatomy"}, {id: E003, path: "instances:16", finding: "main component IDs and keys"}, {id: E004, path: "variables:18", finding: "used variable IDs and locality"}, {id: E005, path: "node:1132:21344", finding: "screenshot and image hash"}, {id: E006, path: "text:4", finding: "initials and typography"}]
+  derived: [{finding: "Complete 3x4 matrix and 49-node traversal", evidence_refs: [E001, E002]}]
+  requires_definition: ["Image source and fallback behavior", "Accessible identity and presence", "Small text legibility"]
+  confidence: {level: HIGH, reason: "Complete subtree read, active dependencies resolved and screenshot inspected."}

@@ -1,0 +1,764 @@
+{
+  "root": {
+    "id": "1349:4907",
+    "key": "5a29f5f658d3b85560303a84f025a92bee503f30",
+    "name": "header",
+    "description": "",
+    "properties": {
+      "show version#1349:1": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "show company#1349:5": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "show icons#1452:16": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "show avatar#1929:0": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      }
+    }
+  },
+  "dependencies": [
+    {
+      "instanceId": "2873:23060",
+      "mainId": "8321:294",
+      "definition": {
+        "id": "8321:294",
+        "key": "27dab35fee16fc573a7c67b645d9cd4c609429ba",
+        "name": "categoria=contable",
+        "remote": false,
+        "width": 175.79220581054688,
+        "height": 48,
+        "owner": {
+          "id": "8321:504",
+          "key": "f1a7cf5b92134fa211a64c2ea547a35fb4b7111c",
+          "name": "Logo Categoria",
+          "type": "COMPONENT_SET",
+          "description": "Logo del header que cambia según la categoría/vertical activa (contable, comercial, servicios, personas). Usar la variante correspondiente o enlazar la propiedad &quot;categoria&quot; a una variable de modo.",
+          "properties": {
+            "categoria": {
+              "type": "VARIANT",
+              "defaultValue": "contable",
+              "variantOptions": [
+                "contable",
+                "comercial",
+                "servicios",
+                "personas"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2873:23060;8321:295",
+      "mainId": "2849:211513",
+      "definition": {
+        "id": "2849:211513",
+        "key": "e1770fa0d28362f0b2f2045caab556a5d18b7158",
+        "name": "product=contabilidad, type=horizontal",
+        "remote": false,
+        "width": 282,
+        "height": 77,
+        "owner": {
+          "id": "2849:211519",
+          "key": "18985e0f1f2116479a98017392bff9780ce30b91",
+          "name": "contables",
+          "type": "COMPONENT_SET",
+          "description": "",
+          "properties": {
+            "product": {
+              "type": "VARIANT",
+              "defaultValue": "conecta_tu_banco",
+              "variantOptions": [
+                "anticipa",
+                "bancos",
+                "conecta_tu_banco",
+                "contabilidad",
+                "optimiza",
+                "tesoreria",
+                "xml_en_linea"
+              ]
+            },
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "vertical",
+              "variantOptions": [
+                "isotipo",
+                "horizontal",
+                "vertical"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "2780:11932",
+      "mainId": "1452:41412",
+      "definition": {
+        "id": "1452:41412",
+        "key": "53127e88676b2fc30d96c4d03b8226ca7b4dacec",
+        "name": "Amount=5",
+        "remote": false,
+        "width": 272,
+        "height": 48,
+        "owner": {
+          "id": "1452:41413",
+          "key": "baa91d6c40f9bb0dc3621c549d3acd18b7472856",
+          "name": "icon header",
+          "type": "COMPONENT_SET",
+          "description": "",
+          "properties": {
+            "Amount": {
+              "type": "VARIANT",
+              "defaultValue": "5",
+              "variantOptions": [
+                "5",
+                "4",
+                "3",
+                "2",
+                "1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35164",
+      "mainId": "1430:18851",
+      "definition": {
+        "id": "1430:18851",
+        "key": "2e7c33b4f056636119cfeee7a565467c77e99754",
+        "name": "state=default, size=middle, type=default",
+        "remote": false,
+        "width": 48,
+        "height": 48,
+        "owner": {
+          "id": "1430:18850",
+          "key": "fbc267a15caab7547a5d782a8887da547ee7cf03",
+          "name": "Button Icon",
+          "type": "COMPONENT_SET",
+          "description": "",
+          "properties": {
+            "icon#2828:223": {
+              "type": "INSTANCE_SWAP",
+              "defaultValue": "3591:94201",
+              "preferredValues": {
+                "count": 1512
+              }
+            },
+            "show badge indicator#4508:14": {
+              "type": "BOOLEAN",
+              "defaultValue": true
+            },
+            "state": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "default",
+                "disabled",
+                "hover",
+                "focus",
+                "active"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "small",
+              "variantOptions": [
+                "large",
+                "middle",
+                "small"
+              ]
+            },
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "default",
+                "outline"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35164;1430:18852",
+      "mainId": "3399:200",
+      "definition": {
+        "id": "3399:200",
+        "key": "e8a605a7dc033aeb0586aabb0797d37ef30eac38",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3399:197",
+          "key": "065008a5439e5c32042f6c6a3721fb42a31772e6",
+          "name": "ArrowsCounterClockwise",
+          "type": "COMPONENT_SET",
+          "description": "*updated*, directional, pointer, pointing, arrowhead, undo, refreshing, rotate, spin, flip, arrows",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35164;1430:18853",
+      "mainId": "1133:31554",
+      "definition": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=number, size=middle",
+        "remote": false,
+        "width": 12,
+        "height": 12,
+        "owner": {
+          "id": "1133:31549",
+          "key": "bc7fd5437899a1868aeba789925329c30d5b6996",
+          "name": "dot",
+          "type": "COMPONENT_SET",
+          "description": "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation.",
+          "properties": {
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "active",
+              "variantOptions": [
+                "number expand",
+                "active",
+                "inactive",
+                "busy",
+                "number"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "large",
+              "variantOptions": [
+                "large",
+                "middle",
+                "small"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35184",
+      "mainId": "1430:18851",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35184;1430:18852",
+      "mainId": "3399:157",
+      "definition": {
+        "id": "3399:157",
+        "key": "f7835a27019ae83c184f9e910f0956c0fc3b992f",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3399:154",
+          "key": "dd665d273098802d66b64feb805a3a6f44ca1195",
+          "name": "GraduationCap",
+          "type": "COMPONENT_SET",
+          "description": "classroom, teacher, education, school, college, university, degree, graduate, hat, education",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35184;1430:18853",
+      "mainId": "1133:31554",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35165",
+      "mainId": "1430:18851",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35165;1430:18852",
+      "mainId": "3399:118",
+      "definition": {
+        "id": "3399:118",
+        "key": "312ec28591dbe217188e9d6f8c63e64cff65ba90",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3399:115",
+          "key": "c7b1cfed44d45827a3beaa77894f151b8c8a115b",
+          "name": "Headset",
+          "type": "COMPONENT_SET",
+          "description": "music, audio, listening, gaming, voice chat, microphone, headphones, support, customer-service, call-center, media",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35165;1430:18853",
+      "mainId": "1133:31554",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35166",
+      "mainId": "1430:18851",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35166;1430:18852",
+      "mainId": "3399:248",
+      "definition": {
+        "id": "3399:248",
+        "key": "5cb5aa74925cb753dc21b23ebd171bea87136e02",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3399:245",
+          "key": "51056409c43ff9fca51bda115460c4ef7d74f4cc",
+          "name": "AppWindow",
+          "type": "COMPONENT_SET",
+          "description": "windows, software, programs, applications, system &amp; devices",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35166;1430:18853",
+      "mainId": "1133:31554",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35167",
+      "mainId": "1430:18851",
+      "definition": null
+    },
+    {
+      "instanceId": "I2780:11932;1452:35167;1430:18852",
+      "mainId": "3591:94201",
+      "definition": {
+        "id": "3591:94201",
+        "key": "ef703d88cfc6792cdd17351c4cc923a019b91855",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3591:94198",
+          "key": "4f3281ebbf8b7eb010c5b83adc5939171cda029a",
+          "name": "Bell",
+          "type": "COMPONENT_SET",
+          "description": "alarm, notifications, times, timer, clock, schedule, events, ringer, calls, system &amp; devices",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2780:11932;1452:35167;1430:18853",
+      "mainId": "1133:31554",
+      "definition": null
+    },
+    {
+      "instanceId": "2412:276",
+      "mainId": "1430:18857",
+      "definition": {
+        "id": "1430:18857",
+        "key": "b85e7f67612b0784b39e8d14e1e22d2bab42ed01",
+        "name": "state=default, size=small, type=default",
+        "remote": false,
+        "width": 24,
+        "height": 24,
+        "owner": {
+          "id": "1430:18850",
+          "key": "fbc267a15caab7547a5d782a8887da547ee7cf03",
+          "name": "Button Icon",
+          "type": "COMPONENT_SET",
+          "description": "",
+          "properties": {
+            "icon#2828:223": {
+              "type": "INSTANCE_SWAP",
+              "defaultValue": "3591:94201",
+              "preferredValues": {
+                "count": 1512
+              }
+            },
+            "show badge indicator#4508:14": {
+              "type": "BOOLEAN",
+              "defaultValue": true
+            },
+            "state": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "default",
+                "disabled",
+                "hover",
+                "focus",
+                "active"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "small",
+              "variantOptions": [
+                "large",
+                "middle",
+                "small"
+              ]
+            },
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "default",
+                "outline"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I2412:276;1430:18858",
+      "mainId": "3399:248",
+      "definition": null
+    },
+    {
+      "instanceId": "I2412:276;1430:18859",
+      "mainId": "1133:31552",
+      "definition": {
+        "id": "1133:31552",
+        "key": "a100dec6c0f77e6ff8c357f51878be1cee8bd61a",
+        "name": "type=number, size=small",
+        "remote": false,
+        "width": 8,
+        "height": 8,
+        "owner": {
+          "id": "1133:31549",
+          "key": "bc7fd5437899a1868aeba789925329c30d5b6996",
+          "name": "dot",
+          "type": "COMPONENT_SET",
+          "description": "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation.",
+          "properties": {
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "active",
+              "variantOptions": [
+                "number expand",
+                "active",
+                "inactive",
+                "busy",
+                "number"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "large",
+              "variantOptions": [
+                "large",
+                "middle",
+                "small"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "2412:278",
+      "mainId": "355:77922",
+      "definition": {
+        "id": "355:77922",
+        "key": "2edbd6cd6068c97d2aa8c754e315b89413a1dcd9",
+        "name": "Format=Outline, Weight=Regular",
+        "remote": false,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "355:77921",
+          "key": "93c8be7d0aa3c811717402d117f533f0ccde092a",
+          "name": "CaretDown",
+          "type": "COMPONENT_SET",
+          "description": "chevron, directional, pointer, pointing, arrowhead, triangle, arrows",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "3001:3246",
+      "mainId": "1132:21377",
+      "definition": {
+        "id": "1132:21377",
+        "key": "5da676dc2d1422e605531493474fead9a4ff44d4",
+        "name": "type=Text, size=extra-large",
+        "remote": false,
+        "width": 48,
+        "height": 48,
+        "owner": {
+          "id": "1132:21344",
+          "key": "2df4b15820fade1cc23c83fde049c755286bfdc4",
+          "name": "avatar",
+          "type": "COMPONENT_SET",
+          "description": "",
+          "properties": {
+            "Content#1132:2": {
+              "type": "TEXT",
+              "defaultValue": "JA"
+            },
+            "icon#2817:13": {
+              "type": "INSTANCE_SWAP",
+              "defaultValue": "2828:33431",
+              "preferredValues": {
+                "count": 1512
+              }
+            },
+            "show badge Indicator#4508:1": {
+              "type": "BOOLEAN",
+              "defaultValue": true
+            },
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "Image",
+              "variantOptions": [
+                "Text",
+                "Icon",
+                "Image"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "extra-large",
+              "variantOptions": [
+                "extra-large",
+                "large",
+                "middle",
+                "small"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "I3001:3246;1132:21380",
+      "mainId": "1241:39842",
+      "definition": {
+        "id": "1241:39842",
+        "key": "a2ef7876aa1f84fc9b13914a89a4b30c664d180d",
+        "name": "type=active, size=large",
+        "remote": false,
+        "width": 16,
+        "height": 16,
+        "owner": {
+          "id": "1133:31549",
+          "key": "bc7fd5437899a1868aeba789925329c30d5b6996",
+          "name": "dot",
+          "type": "COMPONENT_SET",
+          "description": "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation.",
+          "properties": {
+            "type": {
+              "type": "VARIANT",
+              "defaultValue": "active",
+              "variantOptions": [
+                "number expand",
+                "active",
+                "inactive",
+                "busy",
+                "number"
+              ]
+            },
+            "size": {
+              "type": "VARIANT",
+              "defaultValue": "large",
+              "variantOptions": [
+                "large",
+                "middle",
+                "small"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "3001:3242",
+      "mainId": "3374:25206",
+      "definition": {
+        "id": "3374:25206",
+        "key": "d9a28f4df9efa536c84babfaa67dbbf0eeb26d96",
+        "name": "Format=Stroke, Weight=Thin",
+        "remote": true,
+        "width": 32,
+        "height": 32,
+        "owner": {
+          "id": "3374:25198",
+          "key": "3501e37259778aa960dc8409cebc8ade3a70ff9b",
+          "name": "CaretDown",
+          "type": "COMPONENT_SET",
+          "description": "chevron, directional, pointer, pointing, arrowhead, triangle, arrows",
+          "properties": {
+            "Format": {
+              "type": "VARIANT",
+              "defaultValue": "Stroke",
+              "variantOptions": [
+                "Outline",
+                "Stroke"
+              ]
+            },
+            "Weight": {
+              "type": "VARIANT",
+              "defaultValue": "Regular",
+              "variantOptions": [
+                "Bold",
+                "Duotone",
+                "Fill",
+                "Light",
+                "Regular",
+                "Thin"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

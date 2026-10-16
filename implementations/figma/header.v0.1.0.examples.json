@@ -1,0 +1,197 @@
+{
+  "documentationId": "526:252",
+  "themesFrameId": "526:255",
+  "qaFrameId": "526:680",
+  "themes": [
+    {
+      "id": "526:257",
+      "mode": "6:0",
+      "name": "Contable"
+    },
+    {
+      "id": "526:363",
+      "mode": "6:1",
+      "name": "Administrativo"
+    },
+    {
+      "id": "526:469",
+      "mode": "6:2",
+      "name": "Servicios"
+    },
+    {
+      "id": "526:575",
+      "mode": "6:3",
+      "name": "Personas"
+    }
+  ],
+  "cases": [
+    {
+      "id": "526:682",
+      "count": 0,
+      "slotId": "I526:682;518:124",
+      "actual": 0,
+      "type": "SLOT",
+      "violations": [],
+      "before": [],
+      "afterOrder": [],
+      "retained": true
+    },
+    {
+      "id": "526:798",
+      "count": 1,
+      "slotId": "I526:798;518:124",
+      "actual": 1,
+      "type": "SLOT",
+      "violations": [],
+      "before": [
+        "I526:798;522:431"
+      ],
+      "afterOrder": [
+        "I526:798;522:431"
+      ],
+      "retained": false
+    },
+    {
+      "id": "526:918",
+      "count": 3,
+      "slotId": "I526:918;518:124",
+      "actual": 3,
+      "type": "SLOT",
+      "violations": [],
+      "before": [
+        "I526:918;522:431",
+        "I526:918;522:439",
+        "I526:918;522:445"
+      ],
+      "afterOrder": [
+        "I526:918;522:445",
+        "I526:918;522:431",
+        "I526:918;522:439"
+      ],
+      "retained": false
+    },
+    {
+      "id": "526:1046",
+      "count": 5,
+      "slotId": "I526:1046;518:124",
+      "actual": 5,
+      "type": "SLOT",
+      "violations": [],
+      "before": [
+        "I526:1046;522:431",
+        "I526:1046;522:439",
+        "I526:1046;522:445",
+        "I526:1046;522:451",
+        "I526:1046;522:457"
+      ],
+      "afterOrder": [
+        "I526:1046;522:457",
+        "I526:1046;522:431",
+        "I526:1046;522:439",
+        "I526:1046;522:445",
+        "I526:1046;522:451"
+      ],
+      "retained": false
+    },
+    {
+      "id": "526:1185",
+      "count": 7,
+      "slotId": "I526:1185;518:124",
+      "actual": 7,
+      "type": "SLOT",
+      "violations": [],
+      "before": [
+        "I526:1185;522:431",
+        "I526:1185;522:439",
+        "I526:1185;522:445",
+        "I526:1185;522:451",
+        "I526:1185;522:457",
+        "526:1290",
+        "526:1309"
+      ],
+      "afterOrder": [
+        "526:1309",
+        "I526:1185;522:431",
+        "I526:1185;522:439",
+        "I526:1185;522:445",
+        "I526:1185;522:451",
+        "I526:1185;522:457",
+        "526:1290"
+      ],
+      "retained": false
+    }
+  ],
+  "longTextId": "526:1347",
+  "narrowId": "526:1462",
+  "publicComponentId": "518:123",
+  "publicProps": {
+    "Actions#518:0": {
+      "type": "SLOT",
+      "description": "Acciones variables. Cinco es la muestra, no un límite. Insertar, quitar y ordenar instancias sin detach.",
+      "slotSettings": {
+        "stretchChildOnInsert": false,
+        "displayEmptyByDefault": false,
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "e63720f2254f60cd870fc3fc772d811ec18483f7"
+        }
+      ]
+    },
+    "Show version#522:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show actions#522:1": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show company#522:2": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show user#522:3": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Version#522:4": {
+      "type": "TEXT",
+      "defaultValue": "2.0.0"
+    },
+    "Release label#522:5": {
+      "type": "TEXT",
+      "defaultValue": "ALPHA .1"
+    },
+    "Company#522:6": {
+      "type": "TEXT",
+      "defaultValue": "Empresa SA de CV"
+    },
+    "Tax ID#522:7": {
+      "type": "TEXT",
+      "defaultValue": "CAC840428RH1"
+    }
+  },
+  "mainActionCount": 5,
+  "mutatedNodeIds": [
+    "522:408",
+    "521:124",
+    "526:252",
+    "526:255",
+    "526:680",
+    "526:257",
+    "526:363",
+    "526:469",
+    "526:575",
+    "526:682",
+    "526:798",
+    "526:918",
+    "526:1046",
+    "526:1185",
+    "526:1347",
+    "526:1462"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "implementationId": "IMP-NAVIGATION-SWITCH-TAB-ITEM-FIGMA-001",
+  "runId": "legacy-navigation-switch-tab-item-2026-09-24",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Navigation",
+    "pageId": "275:122",
+    "componentSetName": "Switch Tab Item",
+    "componentSetId": "276:395",
+    "documentationFrameId": "277:128"
+  },
+  "contract": {
+    "id": "NAVIGATION-SWITCH-TAB-ITEM-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "path": "specs/navigation-switch-tab-item.contract.v0.1.0.md"
+  },
+  "foundationExtension": {
+    "id": "FOUNDATIONS-NAVIGATION-TAB-COLORS-001",
+    "path": "drafts/foundations/ai-design-system.navigation-tab-colors.v0.1.0.json",
+    "variableName": "color/background/navigation-tab-active",
+    "variableId": "VariableID:274:122",
+    "collectionId": "VariableCollectionId:6:2",
+    "scopes": ["FRAME_FILL"],
+    "aliasTargetsByMode": {
+      "Contable": "VariableID:8:79",
+      "Administrativo": "VariableID:8:87",
+      "Servicios": "VariableID:8:79",
+      "Personas": "VariableID:8:87"
+    }
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "268:20245",
+    "componentSetId": "2461:651",
+    "variantIds": {
+      "Active": "2461:660",
+      "Default": "2461:656",
+      "Disabled": "2461:652"
+    }
+  },
+  "variantIds": {
+    "Active": "276:180",
+    "Default": "276:189",
+    "Disabled": "276:197"
+  },
+  "propertyKeys": {
+    "Label": "Label#276:0",
+    "Show left icon": "Show left icon#276:4",
+    "Show badge": "Show badge#276:8",
+    "Show right icon": "Show right icon#276:12",
+    "Left icon": "Left icon#276:16",
+    "Right icon": "Right icon#276:20"
+  },
+  "nestedComponentKeys": {
+    "Dot Count Medium": "210ae593aa5c0007983efdf243cf30644fd86825",
+    "AddressBook Outline Light": "ba5343589d88e1f18b0ed731cebcb3ec41138ebb"
+  },
+  "completedSteps": ["P1.a", "P1.b", "P1.c", "P2.a", "P2.b", "P3.a", "P3.b", "P3.c", "P3.d", "P3.e", "P3.f", "P4.a", "P4.b"],
+  "lastReadback": {
+    "variantCount": 3,
+    "variantDimensions": {
+      "Active": [120, 38],
+      "Default": [116, 38],
+      "Disabled": [116, 38]
+    },
+    "componentPropertyCountExcludingState": 6,
+    "bindingIssues": 0,
+    "instancePropertyTest": "PASS; temporary test instance removed",
+    "visualReview": "PASS; source palette, anatomy, sizing and state distinction visible in page screenshot",
+    "qaRecord": "QA-NAVIGATION-SWITCH-TAB-ITEM-FIGMA-001"
+  },
+  "knownLimits": [
+    "Only Switch Tab Item of the Navigation source page has been contracted and built.",
+    "The remote AddressBook library name and full swap catalog are not exposed; the active component key is verified.",
+    "Figma visual state does not define keyboard behavior, selection logic, or programmatic accessibility."
+  ]
+}

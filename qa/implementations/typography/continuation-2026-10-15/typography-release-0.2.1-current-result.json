@@ -1,0 +1,56 @@
+{
+  "status": "PASS_PROVISIONAL_CUT",
+  "version_label": "0.2.1 candidate; not published",
+  "ds_digest": "20460f38d63226d54224a121828a7556dde772ea85436be3c2e9776d4f7e543b",
+  "candidate_input_digest": "f6b3378f90a2398c004b7d7af9b9c28d1bc4f6740a87b20a7d4450657fd50de0",
+  "repo_input_digest_at_finish": "5e8053fca7e83b50d9b6c97b916e043da41d24bc647220771402d9b720274ab9",
+  "candidate_matches_repo_at_finish": false,
+  "published_current_unchanged": true,
+  "sources_checked": 23,
+  "used_families": 5,
+  "family_amendments_in_handoff": [
+    "specs/components/avatar.typography.amendment.v0.1.0.md",
+    "specs/components/button.typography.amendment.v0.1.0.md",
+    "specs/components/input-field.typography.amendment.v0.1.0.md",
+    "specs/components/logos.typography.amendment.v0.1.0.md",
+    "specs/components/modal.typography.amendment.v0.1.0.md"
+  ],
+  "family_amendments_in_each_skill": 43,
+  "states": 14,
+  "instances": 10,
+  "text_runs": 124,
+  "typography_identity": "IDENTIFIED",
+  "metric_validation": "NOT_PERFORMED; compare measured metrics and inherited overrides with the canonical recipe before Figma application",
+  "visual_review": {
+    "status": "PASS_SCOPED",
+    "scope": "Tres capturas vistas directamente; no comparación ni mutaciones Figma",
+    "screenshots": [
+      {
+        "path": "capture/demo--initial--1440x900.png",
+        "sha256": "54ee72b3b813c530093446806ded8eeb86b80169439cb3e8c34460f6d275352f"
+      },
+      {
+        "path": "capture/demo--open--1440x900.png",
+        "sha256": "9440ca97a40d23766bb428c0b386fb2aebe07af32aebb5fc0b4fecf04608f75c"
+      },
+      {
+        "path": "capture/demo--side--1000x760.png",
+        "sha256": "5c38e1980fb9896d3d20206f25de61cb17c68831ae67f94fccf74921aa1a9b48"
+      }
+    ]
+  },
+  "figma": "NOT_RUN",
+  "blocking_scaled_ranges_in_candidate_mapping": 103,
+  "html_sha256": "54659f84039f84a7692b7f141e1211cde342d14fa4929abf96362573b3de69e9",
+  "handoff_md_sha256": "a26a25faf2a570d85d3c5dca4e734b08af2ef376504438c61b35688b732a0a50",
+  "capture_report_sha256": "ee7de6aae95aacebfa892e6ac94acc0c17fb5ca723969d2e2ef6ca83e3a4b65c",
+  "limitations": [
+    "No backend; datos ficticios de regresión.",
+    "Candidato temporal 0.2.1, no publicado: no ejecutar instalación ni asumir vigencia futura.",
+    "Las dos skills incluyen 43 enmiendas; este prototipo ejercita solo Button, Modal, Avatar, Logos e InputField.",
+    "El corte incluye mapping tipográfico 0.1.1 con103 rangos escalados pendientes; esta prueba web no acredita su aplicación Figma.",
+    "La revisión visual se limita a tres capturas de este HTML, sin comparación Figma."
+  ],
+  "issues": [],
+  "evidence_root": "/tmp/contpaqi-skills-0.2.1-frozen-mhxgpd5m"
+}

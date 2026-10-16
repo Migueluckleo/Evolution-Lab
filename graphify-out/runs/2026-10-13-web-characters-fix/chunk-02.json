@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_chat_captura_visual",
+      "label": "Captura del chat con BENI y ojos centrados",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_chat_beni_centrado",
+      "label": "BENI azul con dos ojos claros verticales centrados sobre la boca clara",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_chat_saludo",
+      "label": "Saludo visible Hola Miguel y texto Explora una conversación local",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_chat_compositor",
+      "label": "Área Escribe un mensaje con icono de envío y texto Solo datos locales de ejemplo",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_chat_acceso_documentos",
+      "label": "Control Ver documentos con pequeño icono azul de BENI",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_chat_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_chat_beni_centrado",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_chat_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_chat_saludo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_chat_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_chat_compositor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_chat_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_chat_acceso_documentos",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.chat.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

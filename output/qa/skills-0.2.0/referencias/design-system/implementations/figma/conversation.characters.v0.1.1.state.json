@@ -1,0 +1,64 @@
+{
+  "status": "VALIDATED",
+  "scope": "Fixed character colors only",
+  "date": "2026-10-08",
+  "decision": "DEC-CHARACTER-IDENTITY-001",
+  "contract": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+  "contractSha256": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f",
+  "data": "specs/tokens/ai-design-system.character-identity.v0.1.0.json",
+  "dataSha256": "08d7ce889cae493027d97af1cf991ed77a5a11941eb02926a4c8d46eb0711fe4",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "pageId": "765:6",
+  "collection": {
+    "id": "VariableCollectionId:773:274",
+    "name": "character-identity",
+    "modes": [
+      {
+        "name": "Value",
+        "modeId": "773:0"
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "VariableID:773:275",
+      "name": "color/characters/beni/body"
+    },
+    {
+      "id": "VariableID:773:276",
+      "name": "color/characters/navi/body"
+    },
+    {
+      "id": "VariableID:773:277",
+      "name": "color/characters/shared/features"
+    }
+  ],
+  "mutatedNodeIds": [
+    "765:250",
+    "765:251",
+    "765:252",
+    "765:253",
+    "765:255",
+    "765:256",
+    "765:257",
+    "765:249",
+    "765:254"
+  ],
+  "qa": "qa/implementations/conversation.characters.v0.1.1.review.md",
+  "geometryUnchanged": true,
+  "slotsUnchanged": true,
+  "contrast": [
+    {
+      "character": "BENI",
+      "ratio": 5.381
+    },
+    {
+      "character": "NAVI",
+      "ratio": 2.028
+    }
+  ],
+  "userAudit": "PENDING",
+  "libraryPublication": "UNPUBLISHED",
+  "graph": "STALE_FOR_CONVERSATION",
+  "baseInventoryModified": false
+}

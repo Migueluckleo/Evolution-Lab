@@ -1,0 +1,628 @@
+{
+  "nodeCount": 211,
+  "dependencies": [
+    {
+      "id": "20601:24296",
+      "key": "b85e7f67612b0784b39e8d14e1e22d2bab42ed01",
+      "name": "type=ghost, size=small, selected=false, state=default",
+      "remote": true,
+      "owner": {
+        "id": "20601:24248",
+        "key": "fbc267a15caab7547a5d782a8887da547ee7cf03",
+        "name": "icon-button"
+      },
+      "instances": [
+        "20355:72875",
+        "20355:72885"
+      ],
+      "properties": {
+        "Icon#2828:223": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "17095:6624",
+          "preferredCount": 1512
+        },
+        "Show badge#4508:14": {
+          "type": "BOOLEAN",
+          "defaultValue": false,
+          "preferredCount": 0
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "primary",
+          "variantOptions": [
+            "ghost",
+            "secondary",
+            "primary",
+            "danger"
+          ],
+          "preferredCount": 0
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "small",
+            "medium"
+          ],
+          "preferredCount": 0
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ],
+          "preferredCount": 0
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "hover",
+            "focus",
+            "pressed"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17096:8863",
+      "key": "c59befd15f17eec89e0943aee375f86e60e00fde",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "17096:8860",
+        "key": "1bd592247202edd5bb3b8b3d26bab8ed7a0f76f9",
+        "name": "Sidebar"
+      },
+      "instances": [
+        "I20355:72875;1430:18858",
+        "I20355:72885;1430:18858"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "20601:24239",
+      "key": "a100dec6c0f77e6ff8c357f51878be1cee8bd61a",
+      "name": "type=notification, size=small",
+      "remote": true,
+      "owner": {
+        "id": "20601:24227",
+        "key": "bc7fd5437899a1868aeba789925329c30d5b6996",
+        "name": "dot"
+      },
+      "instances": [
+        "I20355:72875;1430:18859",
+        "I20355:72885;1430:18859"
+      ],
+      "properties": {
+        "Count#8917:0": {
+          "type": "TEXT",
+          "defaultValue": "1",
+          "preferredCount": 0
+        },
+        "Max count#8918:0": {
+          "type": "TEXT",
+          "defaultValue": "99+",
+          "preferredCount": 0
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "active",
+          "variantOptions": [
+            "active",
+            "inactive",
+            "busy",
+            "notification",
+            "count",
+            "count-expand"
+          ],
+          "preferredCount": 0
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17563:4283",
+      "key": "1e8000c53ea6fd93622a95ffac5d64ab53c6cddc",
+      "name": "product=anticipa, type=horizontal",
+      "remote": true,
+      "owner": {
+        "id": "17563:4263",
+        "key": "18985e0f1f2116479a98017392bff9780ce30b91",
+        "name": "contables"
+      },
+      "instances": [
+        "20355:72884"
+      ],
+      "properties": {
+        "product": {
+          "type": "VARIANT",
+          "defaultValue": "conecta_tu_banco",
+          "variantOptions": [
+            "anticipa",
+            "bancos",
+            "conecta_tu_banco",
+            "contabilidad",
+            "optimiza",
+            "tesoreria",
+            "xml_en_linea"
+          ],
+          "preferredCount": 0
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "vertical",
+          "variantOptions": [
+            "isotipo",
+            "horizontal",
+            "vertical"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "20355:72831",
+      "key": "36ab7f0a17c003ab7440763ae5b9099759f5eff0",
+      "name": "available=true, hover=false",
+      "remote": false,
+      "owner": {
+        "id": "20355:72830",
+        "key": "4b27a9074ce13f93496d13e56ff727c70487ea9a",
+        "name": "Atom / Anticipa /  Chat / Options and Tools"
+      },
+      "instances": [
+        "20355:72888",
+        "20355:72889",
+        "20355:72890",
+        "20355:72896"
+      ],
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false,
+          "preferredCount": 0
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "defaultValue": false,
+          "preferredCount": 0
+        },
+        "extra actions#17116:19": {
+          "type": "SLOT",
+          "preferredCount": 0
+        },
+        "available": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ],
+          "preferredCount": 0
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17037:55542",
+      "key": "1f315f9a08488d0b413cf8cd97518fe8187d147d",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "17037:55539",
+        "key": "3092c1a44191a153fe4ea22fe2b907bbdf9d2120",
+        "name": "NotePencil"
+      },
+      "instances": [
+        "I20355:72888;20355:72833",
+        "I20355:72889;20355:72833",
+        "I20355:72890;20355:72833",
+        "I20355:72896;20355:72833",
+        "20355:72833",
+        "20355:72840",
+        "20355:72847"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "12744:90302",
+      "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "12744:90299",
+        "key": "3501e37259778aa960dc8409cebc8ade3a70ff9b",
+        "name": "CaretDown"
+      },
+      "instances": [
+        "I20355:72888;20355:72835",
+        "I20355:72889;20355:72835",
+        "I20355:72890;20355:72835",
+        "I20355:72896;20355:72835",
+        "20355:72835",
+        "20355:72842",
+        "20355:72849"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17116:23875",
+      "key": "81c10c25593d451160897a03ccc39cd1fc7fad27",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "17116:23872",
+        "key": "9131b41d546ff92516b9ef7872f768215b98a707",
+        "name": "Chats"
+      },
+      "instances": [
+        "I20355:72888;20355:72837",
+        "I20355:72889;20355:72837",
+        "I20355:72890;20355:72837",
+        "I20355:72896;20355:72836;20355:72894",
+        "20355:72837",
+        "20355:72844",
+        "20355:72851"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17116:24022",
+      "key": "3c5468dfee3e23cd51744d379cf3da40b60c1600",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "17116:24019",
+        "key": "3e33bff6d1d9245f541e3b8903eb0b6af8c1ca37",
+        "name": "DotsThreeVertical"
+      },
+      "instances": [
+        "I20355:72896;20355:72836;20355:72895"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "20355:72863",
+      "key": "a17c97050dea2fac91ff129be98f4a0560add2f3",
+      "name": "hover=false, Selected=true",
+      "remote": false,
+      "owner": {
+        "id": "20355:72852",
+        "key": "41dfe28b733a90a4592d1697add603443bdbc9be",
+        "name": "Atom / Anticipa / Chat / ChatHistory"
+      },
+      "instances": [
+        "20355:72897",
+        "20355:72901"
+      ],
+      "properties": {
+        "text#255:3": {
+          "type": "SLOT",
+          "preferredCount": 0
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true,
+          "preferredCount": 0
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ],
+          "preferredCount": 0
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "20355:72853",
+      "key": "d8210130a22a529d54e7e2905da135ada6cb13a5",
+      "name": "hover=false, Selected=false",
+      "remote": false,
+      "owner": {
+        "id": "20355:72852",
+        "key": "41dfe28b733a90a4592d1697add603443bdbc9be",
+        "name": "Atom / Anticipa / Chat / ChatHistory"
+      },
+      "instances": [
+        "20355:72898",
+        "20355:72902"
+      ],
+      "properties": {
+        "text#255:3": {
+          "type": "SLOT",
+          "preferredCount": 0
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true,
+          "preferredCount": 0
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ],
+          "preferredCount": 0
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "17001:89787",
+      "key": "d3d99ff15e97160c37e09df6b77aa9849e2acdc3",
+      "name": "Format=Stroke, Weight=Regular",
+      "remote": true,
+      "owner": {
+        "id": "17001:89773",
+        "key": "8eee1ec5d80707fa209264209db871ff56174b94",
+        "name": "MagicWand"
+      },
+      "instances": [
+        "20355:72905"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "19784:32793",
+      "key": "b0d66c2c04014490bfbefe7579e0c98cd16db0a2",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "19784:32792",
+        "key": "51dfd54e3723eb6f987bde9165cdd71f93f1b922",
+        "name": "PushPin"
+      },
+      "instances": [
+        "20355:72861",
+        "20355:72870"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Light",
+            "Regular",
+            "Thin",
+            "Bold",
+            "Fill",
+            "Duotone"
+          ],
+          "preferredCount": 0
+        }
+      }
+    },
+    {
+      "id": "19278:15704",
+      "key": "33bbf11fec95bfc540e85769b270534f2db07776",
+      "name": "Format=Outline, Weight=Light",
+      "remote": true,
+      "owner": {
+        "id": "19278:15701",
+        "key": "09f6e5554e1d822472f38f728e766039d392e2c4",
+        "name": "DotsThree"
+      },
+      "instances": [
+        "20355:72862",
+        "20355:72871"
+      ],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "preferredCount": 0
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "preferredCount": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "nodes": 8101,
+  "edges": 18130,
+  "communities": 592,
+  "gods": [
+    {
+      "id": "registry_qa_registro_de_qa",
+      "label": "Registro de QA",
+      "degree": 129
+    },
+    {
+      "id": "registry_implementations_registro_de_implementaciones",
+      "label": "Registro de implementaciones",
+      "degree": 90
+    },
+    {
+      "id": "registry_decisions_registro_de_decisiones",
+      "label": "Registro de decisiones",
+      "degree": 88
+    },
+    {
+      "id": "registry_contracts_registro_de_contratos",
+      "label": "Registro de contratos",
+      "degree": 87
+    },
+    {
+      "id": "drafts_contracts_chat_toolbar_source_component_contract_organism___anticipa___chat___toolbar",
+      "label": "Organism / Anticipa / Chat / Toolbar",
+      "degree": 79
+    },
+    {
+      "id": "registry_sources_registro_de_fuentes",
+      "label": "Registro de fuentes",
+      "degree": 69
+    },
+    {
+      "id": "specs_migration_traceability_status_actualizaci_n_2026_09_29___select",
+      "label": "Actualización 2026-09-29 · Select",
+      "degree": 69
+    },
+    {
+      "id": "registry_slots_review_status_sidebar___2026_10_05",
+      "label": "Sidebar · 2026-10-05",
+      "degree": 44
+    },
+    {
+      "id": "drafts_contracts_chat_history_item_source_component_contract_atom___anticipa___chat___chathistory",
+      "label": "Atom / Anticipa / Chat / ChatHistory",
+      "degree": 39
+    },
+    {
+      "id": "specs_migration_audit_limitaciones_para_revisi_n_interna",
+      "label": "Limitaciones para revisión interna",
+      "degree": 37
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Figma BLOCKED pending adoption/preflight; Web BLOCKED with functional definitions incomplete; publication unauthorized",
+      "target": "Figma read/write operations verified separately: local MD/JSON, descendants, properties/bindings, pages, variables/aliases/components, readback",
+      "source_files": [
+        "drafts/reports/anticipa-screen-composition.synthesis.v0.1.0.md",
+        "protocols/01-ENVIRONMENT-AND-TOOLS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Aceptación propuesta para cierre Graphify reproducible",
+      "target": "Chat layout Graphify CURRENT conditional gate",
+      "source_files": [
+        "drafts/reports/project-optimization.audit.2026-10-13.md",
+        "registry/environment.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Estados documentales, preparación, implementación y auditoría independientes",
+      "target": "MISSING→GENERATING→GENERATED→CHECKING→CURRENT",
+      "source_files": [
+        "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+        "references/GRAPH-OPERATIONS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Header y Slot construidos: gates de descubrimiento históricos, no tareas activas",
+      "target": "Header: gates previos satisfechos y contrato promovido a specs",
+      "source_files": [
+        "drafts/reports/header.discovery.v0.1.0.md",
+        "qa/contracts/header.v0.1.0.review.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "SLOT-QA-01–09 y doce escenarios desktop",
+      "target": "P-SLOTS: trazabilidad de mecanismo y pruebas de consumidor",
+      "source_files": [
+        "qa/implementations/app-shell.v0.1.0.figma.review.md",
+        "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `val()` connect `Chat Section Verify` to `Table Slots Qa`?",
+      "why": "High betweenness centrality (0.015) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Scrollbar modelo SOURCE_INSPECTED`, `Modal · PASS visual delegado`, `Handoff Modal · terminado desde raíz` to the rest of the system?",
+      "why": "155 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.015324305060584463 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Implementations · Evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.0281214848143982 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Contratos e implementación` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.03271175726927939 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `QA y evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.032475247524752476 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Modal · Evidencias` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07915893630179345 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

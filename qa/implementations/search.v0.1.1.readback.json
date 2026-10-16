@@ -1,0 +1,1586 @@
+{
+  "id": "418:263",
+  "page": {
+    "id": "394:122",
+    "name": "Input Fields"
+  },
+  "nodeCount": 112,
+  "paints": 82,
+  "effects": 3,
+  "reactions": 0,
+  "properties": {
+    "Label#418:0": {
+      "type": "TEXT",
+      "defaultValue": "Buscar"
+    },
+    "Text#418:13": {
+      "type": "TEXT",
+      "defaultValue": "Buscar"
+    },
+    "Show label#418:26": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Search icon#418:39": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "417:155",
+      "preferredValues": []
+    },
+    "Clear icon#418:52": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "175:356",
+      "preferredValues": []
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "Large",
+      "variantOptions": [
+        "Large",
+        "Medium",
+        "Small"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Selected",
+        "Focus",
+        "Disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "418:152",
+      "name": "Size=Large, State=Default",
+      "w": 464,
+      "h": 76
+    },
+    {
+      "id": "418:160",
+      "name": "Size=Medium, State=Default",
+      "w": 464,
+      "h": 68
+    },
+    {
+      "id": "418:168",
+      "name": "Size=Small, State=Default",
+      "w": 464,
+      "h": 60
+    },
+    {
+      "id": "418:176",
+      "name": "Size=Large, State=Selected",
+      "w": 464,
+      "h": 76
+    },
+    {
+      "id": "418:186",
+      "name": "Size=Medium, State=Selected",
+      "w": 464,
+      "h": 68
+    },
+    {
+      "id": "418:196",
+      "name": "Size=Small, State=Selected",
+      "w": 464,
+      "h": 60
+    },
+    {
+      "id": "418:206",
+      "name": "Size=Large, State=Focus",
+      "w": 464,
+      "h": 76
+    },
+    {
+      "id": "418:217",
+      "name": "Size=Medium, State=Focus",
+      "w": 464,
+      "h": 68
+    },
+    {
+      "id": "418:228",
+      "name": "Size=Small, State=Focus",
+      "w": 464,
+      "h": 60
+    },
+    {
+      "id": "418:239",
+      "name": "Size=Large, State=Disabled",
+      "w": 464,
+      "h": 76
+    },
+    {
+      "id": "418:247",
+      "name": "Size=Medium, State=Disabled",
+      "w": 464,
+      "h": 68
+    },
+    {
+      "id": "418:255",
+      "name": "Size=Small, State=Disabled",
+      "w": 464,
+      "h": 60
+    }
+  ],
+  "parts": [
+    "Search",
+    "Size=Large, State=Default",
+    "Label",
+    "Control group",
+    "Surface",
+    "Buscar",
+    "Divider",
+    "Search icon",
+    "Vector",
+    "Size=Medium, State=Default",
+    "Size=Small, State=Default",
+    "Size=Large, State=Selected",
+    "Clear icon",
+    "Size=Medium, State=Selected",
+    "Size=Small, State=Selected",
+    "Size=Large, State=Focus",
+    "Focus support",
+    "Size=Medium, State=Focus",
+    "Size=Small, State=Focus",
+    "Size=Large, State=Disabled",
+    "Size=Medium, State=Disabled",
+    "Size=Small, State=Disabled"
+  ],
+  "variables": [
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:12:16",
+      "name": "font/letter-spacing/normal",
+      "scopes": [
+        "LETTER_SPACING"
+      ]
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "font/weight/bold",
+      "scopes": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "scopes": [
+        "FONT_FAMILY"
+      ]
+    },
+    {
+      "id": "VariableID:12:8",
+      "name": "font/line-height/sm",
+      "scopes": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:13:6",
+      "name": "radius/md",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "VariableID:12:41",
+      "name": "stroke/xs",
+      "scopes": [
+        "STROKE_FLOAT"
+      ]
+    },
+    {
+      "id": "VariableID:13:13",
+      "name": "color/border/default",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:13:29",
+      "name": "color/text/tertiary",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "scopes": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:136:122",
+      "name": "color/focus/effect-outer",
+      "scopes": [
+        "EFFECT_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:13:30",
+      "name": "color/text/disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:13:36",
+      "name": "color/background/subtle",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "VariableID:13:24",
+      "name": "color/icon/disabled",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    }
+  ],
+  "unknown": [],
+  "typography": [
+    {
+      "id": "418:153",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:156",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:29"
+    },
+    {
+      "id": "418:161",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:164",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:29"
+    },
+    {
+      "id": "418:169",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:172",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:29"
+    },
+    {
+      "id": "418:177",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:180",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:187",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:190",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:197",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:200",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:207",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:211",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:218",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:222",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:229",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:233",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:27"
+    },
+    {
+      "id": "418:240",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    },
+    {
+      "id": "418:243",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    },
+    {
+      "id": "418:248",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    },
+    {
+      "id": "418:251",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    },
+    {
+      "id": "418:256",
+      "name": "Label",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:6"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    },
+    {
+      "id": "418:259",
+      "name": "Buscar",
+      "size": 14,
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bindings": {
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ]
+      },
+      "fill": "VariableID:13:30"
+    }
+  ],
+  "reviewScope": "documentation alignment; read-only; no new global alias/visual certification"
+}

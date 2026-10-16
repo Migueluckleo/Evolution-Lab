@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-13",
+  "timezone": "America/Merida",
+  "scope": "Baseline before audit report and environment entry; local verification only",
+  "tool": {
+    "status": "READY",
+    "version": "0.9.65",
+    "python": "3.12.13",
+    "interpreter": "/Users/miguel.leo/.local/share/uv/tools/graphifyy/bin/python",
+    "skill": ".codex/skills/graphify/SKILL.md",
+    "root_marker": ".",
+    "ast_smoke": {
+      "nodes": 3,
+      "edges": 3,
+      "relations": [
+        "contains",
+        "contains",
+        "calls"
+      ]
+    },
+    "query_smoke": "PASS",
+    "git_hooks": "NOT_INSTALLED",
+    "codex_hook_file": "PRESENT; execution by host not verified"
+  },
+  "graph": {
+    "status": "CURRENT_FOR_RECORDED_CORPUS_WITH_DOCUMENTED_LINK_LIMITATIONS",
+    "manifest_files": 1172,
+    "nodes": 8058,
+    "edges": 18019,
+    "changed_hashes": [],
+    "new_scoped_files": [],
+    "supplemental_paths": [
+      "implementations/figjam/sdd-flow-2026-10-07/01-flujo-general.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/02-fuentes-y-autorizacion.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/03-tokens.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/04-slots.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/05-construccion-y-qa.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/06-cambios-y-publicacion.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/07-casos-reales.mmd",
+      "implementations/figjam/sdd-flow-2026-10-07/08-publicacion-github.mmd",
+      "qa/implementations/radio-checkbox.refinement.v0.1.0.tokens.json",
+      "qa/implementations/select.v0.1.0.tokens.json",
+      "sources/figma-snapshots/input-fields.followups.target-tokens.json",
+      "sources/inventories/tokens.inventory.json"
+    ],
+    "duplicate_ids": 0,
+    "broken_endpoints": 0,
+    "output_hash_match": {
+      "graph.json": true,
+      "graph.html": true,
+      "GRAPH_REPORT.md": true
+    },
+    "historical_broken_links": [
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+        "line": 16,
+        "target": "../foundations/ai-design-system.avatar-roles.v0.1.1.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md",
+        "line": 15,
+        "target": "../foundations/ai-design-system.avatar-roles.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+        "line": 23,
+        "target": "../foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.chart-colors.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md",
+        "line": 16,
+        "target": "../foundations/ai-design-system.control-colors.v0.1.1.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.control-colors.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md",
+        "line": 15,
+        "target": "../foundations/ai-design-system.dot-background-colors.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.feedback-icon-scopes.amendment.v0.1.7.md",
+        "line": 15,
+        "target": "../foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+        "line": 15,
+        "target": "../foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.linear-progress-colors.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.metric-card-roles.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+        "line": 19,
+        "target": "../foundations/ai-design-system.radio-indicator-colors.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+        "line": 19,
+        "target": "toggle.contract.v0.1.0.md"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+        "line": 26,
+        "target": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+        "line": 19,
+        "target": "toggle.contract.v0.1.0.md"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+        "line": 19,
+        "target": "../behavior/toggle-mixed/behavior-contract.md"
+      },
+      {
+        "source": "archive/specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md",
+        "line": 21,
+        "target": "toggle.contrast-amendment.v0.1.1.md"
+      },
+      {
+        "source": "qa/contracts/chat-section.v0.1.0.prebuild-candidate.md",
+        "line": 105,
+        "target": "chat-section.source.component-contract.md"
+      },
+      {
+        "source": "qa/contracts/conversation.v0.1.0.pre-promotion.md",
+        "line": 107,
+        "target": "conversation.source.component-contract.md"
+      },
+      {
+        "source": "qa/contracts/conversation.v0.1.0.prebuild-candidate.md",
+        "line": 107,
+        "target": "conversation.source.component-contract.md"
+      }
+    ]
+  },
+  "json_syntax": {
+    "checked": 459,
+    "errors": []
+  },
+  "yaml_validation": "NOT_RUN: PyYAML absent from Graphify runtime; not a Graphify installation failure",
+  "git_baseline": {
+    "tracked_modified": 26,
+    "untracked": 571
+  },
+  "tracked_worktree_sizes": {
+    ".codex-build": {
+      "files": 20,
+      "bytes": 1417112
+    },
+    ".codex-finalizer": {
+      "files": 6,
+      "bytes": 110185
+    },
+    ".codex": {
+      "files": 11,
+      "bytes": 82319
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 213
+    },
+    "AGENTS.md": {
+      "files": 1,
+      "bytes": 12492
+    },
+    "CHANGELOG.md": {
+      "files": 1,
+      "bytes": 6438
+    },
+    "MIGRATION-v0.2.0.md": {
+      "files": 1,
+      "bytes": 6531
+    },
+    "PACKAGE-VERIFICATION.md": {
+      "files": 1,
+      "bytes": 2271
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 5953
+    },
+    "archive": {
+      "files": 29,
+      "bytes": 137347
+    },
+    "drafts": {
+      "files": 261,
+      "bytes": 2934513
+    },
+    "graphify-out": {
+      "files": 812,
+      "bytes": 180521504
+    },
+    "implementations": {
+      "files": 177,
+      "bytes": 904636
+    },
+    "output": {
+      "files": 10,
+      "bytes": 819657
+    },
+    "prompts": {
+      "files": 2,
+      "bytes": 4819
+    },
+    "protocols": {
+      "files": 7,
+      "bytes": 77349
+    },
+    "qa": {
+      "files": 327,
+      "bytes": 2652535
+    },
+    "references": {
+      "files": 3,
+      "bytes": 13402
+    },
+    "registry": {
+      "files": 29,
+      "bytes": 456482
+    },
+    "sources": {
+      "files": 68,
+      "bytes": 3615618
+    },
+    "specs": {
+      "files": 95,
+      "bytes": 598420
+    },
+    "templates": {
+      "files": 3,
+      "bytes": 18523
+    },
+    "tmp": {
+      "files": 27,
+      "bytes": 2766637
+    }
+  },
+  "source_link_validation_scope": "Existing structural-supplement; targets reread as missing. Markdown anchors not globally validated",
+  "unperformed": [
+    "live Figma validation",
+    "software installation or upgrade",
+    "global/hook configuration",
+    "design or protocol changes",
+    "remote publication"
+  ]
+}

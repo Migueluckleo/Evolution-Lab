@@ -1,0 +1,218 @@
+{
+  "result": "PASS",
+  "fieldComparisons": [
+    "name",
+    "resolvedType",
+    "scopes",
+    "description",
+    "valuesByMode"
+  ],
+  "verifiedAliases": 18,
+  "verifiedVariables": 9,
+  "readback": {
+    "createdCollectionIds": [
+      "VariableCollectionId:495:122"
+    ],
+    "createdVariableIds": [
+      "VariableID:495:123",
+      "VariableID:495:124",
+      "VariableID:495:125",
+      "VariableID:495:126",
+      "VariableID:495:127",
+      "VariableID:495:128",
+      "VariableID:495:129",
+      "VariableID:495:130",
+      "VariableID:495:131"
+    ],
+    "createdNodeIds": [],
+    "mutatedNodeIds": [],
+    "collection": {
+      "id": "VariableCollectionId:495:122",
+      "name": "component-state/pagination",
+      "modes": [
+        {
+          "name": "Enabled",
+          "modeId": "495:0"
+        },
+        {
+          "name": "Disabled",
+          "modeId": "495:1"
+        }
+      ]
+    },
+    "variables": [
+      {
+        "id": "VariableID:495:123",
+        "name": "color/background/pagination/page/default",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "description": "Fondo de página normal de Pagination; adopta el fondo deshabilitado del anfitrión sin perder el tema.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:36"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:124",
+        "name": "color/background/pagination/page/active",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "description": "Fondo de página activa de Pagination; se neutraliza cuando el anfitrión está deshabilitado.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:69"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:36"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:125",
+        "name": "color/background/pagination/page/hover",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "description": "Fondo hover de página de Pagination; conserva el fondo neutro en Disabled.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:36"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:36"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:126",
+        "name": "color/border/pagination/page/default",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de página normal de Pagination por tema; adopta el borde deshabilitado del anfitrión.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:290:122"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:13"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:127",
+        "name": "color/border/pagination/page/active",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de página activa de Pagination por tema; se neutraliza en Disabled.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:16"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:13"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:128",
+        "name": "color/border/pagination/page/focus",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de foco de página de Pagination; pierde el foco visual cuando el anfitrión está deshabilitado.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:71"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:13"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:129",
+        "name": "color/text/pagination/page/default",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "description": "Texto de páginas y elipsis de Pagination; hereda Disabled sin reemplazar contenido personalizado.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:130",
+        "name": "color/text/pagination/page/active",
+        "resolvedType": "COLOR",
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "description": "Texto de página activa de Pagination por tema; adopta texto disabled en el anfitrión deshabilitado.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:32"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        }
+      },
+      {
+        "id": "VariableID:495:131",
+        "name": "stroke/pagination/page/focus",
+        "resolvedType": "FLOAT",
+        "scopes": [
+          "STROKE_FLOAT"
+        ],
+        "description": "Grosor de foco de página de Pagination: se neutraliza al grosor normal cuando el anfitrión está deshabilitado.",
+        "valuesByMode": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:3"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:41"
+          }
+        }
+      }
+    ]
+  },
+  "baseInventorySha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+}

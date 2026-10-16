@@ -1,0 +1,60 @@
+{
+  "kind": "DERIVED_QA_NOT_AUTHORITY",
+  "status": "PASS",
+  "source": {
+    "path": "specs/tokens/ai-design-system.typography.v0.1.0.json",
+    "sha256": "0c5f6cf139ff9d32fd0f9cfaf250846e23e101ed23083733470c308e5f7669b3"
+  },
+  "web_files": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/scripts/typography.py": "ad8108fc7ce075d7ac82bb08cb465f922d5bb1ff7bfccc81d8f00d1c4a736645",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/scripts/test_typography.py": "b87d03d14ca04eb1a838988493f7e70d9319191645a8390e64615a24c6cb98ac",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/scripts/generate.py": "49b91683393bccba8945a8fabbb6c89e38763ea1382099a807179030175664de",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/styles.css": "34ffcf73a3bfa74e2de7b0b7d8dcac7c3023cb13307f35c55226b079409bbac6",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/index.ts": "5e4c30431fedc504b3724811600c64abee14d651f9bdf9755e0cce38df762513",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/components/charts.tsx": "19a9af19009071128f9351f282fa589a3aa1b95422410b5b6cd36d75811de56e",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/components/sidebar.tsx": "ac9e8fe430bf391655f91f6d8893a45b06ee76aeb69287c2c05ceeda9a9c2da3",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/examples.tsx": "ba93accf8c0ff55e2bf91d1eeb7d0416ef9959d81ef36b07ca4a15fb0e3e955f",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.css": "25f91a781ec1e538d4efa853d5a0caa986873a36a04ba3e6574ba6849783d8b2",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.ts": "f02e11b3bad42880e2c6c3891ab3947aef497e09dd8b823fd6da99463a6dacdc",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/src/generated/typography.manifest.json": "68a192e7eec489791cfdbf0d3c4fff0d39a1ec07c21a071703e3425293cf2300",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/docs/TYPOGRAPHY.md": "c0322a8b0d3197056a0782d3ae61b32dc232aaa865c45027b3842db349c6adca",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/docs/WEB-ADAPTATION.md": "7840cb85726f937d5387328dcf54bba38e460a8a71af0708f34660cd85f47596",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/components.test.tsx": "7fed22c930dd551c038cd35e1b459bcf5b41a00843c74c2826c66b056ae0f2cd",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/typography.spec.ts": "04fa5fac3780cdb9f42b86ba7d1507502cd220b521a55d458e5b854f486d1139",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/contract-audit.spec.ts": "aae92a3e6ae0b166e5a953837b013dcc3a8ef0019535641c67f3c431515f83bf",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/fidelity.spec.ts": "b21a96945e643d98a796c359223daa9b04975b489e1748f292f8d7aa5dcf39b5",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/catalog.spec.ts": "34be21a8209575950f8e80fe6c0f1af8c39de56e4301478ada6eeda63cc1eee8",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/characters.spec.tsx": "173817b9efb430b11ed857cdda77edb7bcd1f24111a8051074eb2ce00a1abc07",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/web/tests/browser/properties-slots.spec.ts": "beca90c5e55ee2419dd3f17bc0ce93d724134d52103d565590c4f0408a69a005"
+  },
+  "generated_docs": "43 docs/components/*.md and 43 public/docs/*.md; generated/catalog.json and AppShell example updated by generate.py",
+  "results": {
+    "python_tests": 8,
+    "component_tests": 9,
+    "browser_suite": 61,
+    "contract_families": 43,
+    "contract_checks": 20860,
+    "typography_styles": 72,
+    "themes": 4,
+    "rendered_style_recipes": 288,
+    "consumer_text_measurements": 2956,
+    "non_typographic_css_rules_preserved": 717
+  },
+  "visual_inspection": [
+    "header.png",
+    "conversation.png"
+  ],
+  "limitations": [
+    "Chrome only; does not certify other rendering engines",
+    "Catalogue chrome and user-supplied Slot content are outside canonical DS defaults",
+    "No Figma validation or graph update by this subagent"
+  ],
+  "evidence_dir": "/tmp/typography-web-qa",
+  "commands": [
+    "python3 -m unittest discover -s implementations/web/scripts -p test_typography.py -v",
+    "pnpm ds:generate",
+    "pnpm verify",
+    "DS_AUDIT_OUTPUT=/tmp/typography-web-qa DS_TYPOGRAPHY_OUTPUT=/tmp/typography-web-qa/typography pnpm test:browser",
+    "python3 implementations/web/scripts/typography.py --check"
+  ]
+}

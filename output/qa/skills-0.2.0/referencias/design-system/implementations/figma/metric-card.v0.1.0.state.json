@@ -1,0 +1,164 @@
+{
+  "implementationId": "IMP-METRIC-CARD-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "published": false,
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Metric Cards",
+    "pageId": "202:208",
+    "setName": "Metric Card",
+    "setId": "202:327",
+    "setSize": [
+      806,
+      935
+    ]
+  },
+  "contract": {
+    "id": "METRIC-CARD-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "f59add2d0f424d671d71a76890c980a9a8c15443c0d29903f71c4db046b7a3d9",
+    "sourceMarkdownDigestSha256": "431b99b91122c781b39f0bdedc1c63e24ef3cb3c15f62684607203f5dcbc1cbb",
+    "sourceYamlDigestSha256": "b57528bf6bc80298d484e931c82f2675fb8d0fb0c255eeeb980749d5a288eb88",
+    "rolesDataDigestSha256": "61e3eb83c09cd8eef57da4dc7b30a3f425f7f22983a4231bc72e0540ac7f8df0"
+  },
+  "variants": [
+    {
+      "id": "202:209",
+      "sourceId": "587:2747",
+      "type": "Vertical Metric",
+      "size": "Large",
+      "box": [
+        289,
+        256
+      ]
+    },
+    {
+      "id": "202:227",
+      "sourceId": "2838:2255",
+      "type": "Vertical Metric",
+      "size": "Small",
+      "box": [
+        200,
+        216
+      ]
+    },
+    {
+      "id": "202:245",
+      "sourceId": "587:2748",
+      "type": "Horizontal Metric",
+      "size": "Large",
+      "box": [
+        311,
+        192
+      ]
+    },
+    {
+      "id": "202:263",
+      "sourceId": "2847:243",
+      "type": "Horizontal Metric",
+      "size": "Small",
+      "box": [
+        232,
+        160
+      ]
+    },
+    {
+      "id": "202:281",
+      "sourceId": "587:2749",
+      "type": "One Metric V1",
+      "size": "Large",
+      "box": [
+        337,
+        156
+      ]
+    },
+    {
+      "id": "202:292",
+      "sourceId": "2847:258",
+      "type": "One Metric V1",
+      "size": "Small",
+      "box": [
+        257,
+        116
+      ]
+    },
+    {
+      "id": "202:303",
+      "sourceId": "587:2750",
+      "type": "One Metric V2",
+      "size": "Large",
+      "box": [
+        397,
+        144
+      ]
+    },
+    {
+      "id": "202:315",
+      "sourceId": "2847:266",
+      "type": "One Metric V2",
+      "size": "Small",
+      "box": [
+        313,
+        112
+      ]
+    }
+  ],
+  "dependencies": {
+    "currencyCircleDollar": {
+      "targetMainId": "202:133",
+      "sourceKey": "441865351ce8a0390c7544fee2348dd8ae895f51",
+      "instanceCount": 8
+    },
+    "arrowUpRight": {
+      "targetMainId": "202:171",
+      "sourceKey": "8f20fac8635901c6627e086c16fdf197d5134b7f",
+      "instanceCount": 8
+    }
+  },
+  "newRoleBindings": {
+    "color/text/metric/trend": {
+      "id": "VariableID:200:122",
+      "consumerCount": 4
+    },
+    "color/icon/metric/brand": {
+      "id": "VariableID:200:123",
+      "consumerCount": 16
+    }
+  },
+  "constructionScripts": [
+    {
+      "path": "drafts/figma/metric-card-build.v0.1.0.js",
+      "digestSha256": "714ecfce8cfa456d3af710634959d0e094b662833f75243161384a8684a7e5b7"
+    },
+    {
+      "path": "drafts/figma/metric-card-visual-correction.v0.1.0.js",
+      "digestSha256": "85686a687fa8fabced76114b01f62c7849d5781d62365904c93e99b0b8011ddb"
+    }
+  ],
+  "lastReadback": {
+    "pageChildCount": 2,
+    "variantCount": 8,
+    "visibleSolidPaints": 70,
+    "visibleSolidPaintsBound": 70,
+    "semanticCategoryOrScopeIssues": 0,
+    "visibleTextCount": 36,
+    "textNodesWithCompleteLocalTypography": 36,
+    "iconInstanceCount": 16,
+    "reactions": 0,
+    "propertyReferenceIssues": 0,
+    "contrastMinOnSubtle": 5.07,
+    "contrastMinOnDefault": 5.56,
+    "visualComparison": "PASS after one correction; source and target 806x935 captures inspected"
+  },
+  "colorRefinement": {
+    "date": "2026-10-05",
+    "status": "PASS_TECHNICAL_COLOR_SCOPE",
+    "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+    "state": "implementations/figma/six-family-color.v0.1.0.state.json",
+    "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+    "note": "Supersedes historical color/contrast claims only. Existing geometry/typography deviations and human-audit status remain."
+  }
+}

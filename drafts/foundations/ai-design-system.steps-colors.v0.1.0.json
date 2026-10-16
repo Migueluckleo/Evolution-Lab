@@ -1,0 +1,19 @@
+{
+  "amendmentId": "FOUNDATIONS-STEPS-COLORS-001",
+  "status": "SUPERSEDED",
+  "version": "0.1.0",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {"path": "sources/inventories/tokens.inventory.json", "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"},
+  "rule": "Solo aliases semánticos de scope específico a primitivas existentes; ninguna primitiva nueva. El alias declarado en cada variable se aplica idénticamente a los cuatro modeIds.",
+  "modeIds": ["6:0", "6:1", "6:2", "6:3"],
+  "variables": [
+    {"name": "color/shape/steps/dot/on-white/selected", "targetId": "VariableID:341:123", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado de Steps sobre fondo blanco; conserva el azul observado.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/blue/400", "targetId": "VariableID:8:87"}, "sourceHex": "#3255F7"},
+    {"name": "color/shape/steps/dot/on-white/unselected", "targetId": "VariableID:341:124", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado de Steps sobre fondo blanco; conserva el gris observado.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "sourceHex": "#E2E8F0"},
+    {"name": "color/shape/steps/dot/on-primary/selected", "targetId": "VariableID:341:125", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado del subcomponente de Steps para contexto primario; blanco contextual de la fuente.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/neutral/100", "targetId": "VariableID:8:93"}, "sourceHex": "#FFFFFF"},
+    {"name": "color/shape/steps/dot/on-primary/unselected", "targetId": "VariableID:341:126", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado del subcomponente de Steps para contexto primario; aproxima el azul claro original con la primitiva azul existente más cercana.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/blue/300", "targetId": "VariableID:8:86"}, "sourceHex": "#7D9AFF", "approximationDE76": 13.16},
+    {"name": "color/shape/steps/dot/legacy-gallery/selected", "targetId": "VariableID:341:127", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto seleccionado exclusivo de la variante histórica On Primary / Gallery de Steps; aproxima el azul observado y conserva su diferencia frente al subcomponente contextual.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/blue/300", "targetId": "VariableID:8:86"}, "sourceHex": "#0073EA", "approximationDE76": 10.21},
+    {"name": "color/shape/steps/dot/legacy-gallery/unselected", "targetId": "VariableID:341:128", "collection": "semantic", "resolvedType": "COLOR", "description": "Punto no seleccionado exclusivo de la variante histórica On Primary / Gallery de Steps; aproxima el gris azulado observado.", "scopes": ["SHAPE_FILL"], "alias": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "sourceHex": "#DCDFEC", "approximationDE76": 4.02},
+    {"name": "color/text/steps/count/on-white", "targetId": "VariableID:341:129", "collection": "semantic", "resolvedType": "COLOR", "description": "Texto del contador de Steps sobre blanco; aproxima el gris oscuro observado con una primitiva neutra existente.", "scopes": ["TEXT_FILL"], "alias": {"name": "color/neutral/800", "targetId": "VariableID:8:100"}, "sourceHex": "#323338", "approximationDE76": 10.9}
+  ]
+}

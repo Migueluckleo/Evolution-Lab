@@ -1,0 +1,113 @@
+{
+  "amendmentId": "FOUNDATIONS-SIDEBAR-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {
+      "name": "color/background/sidebar/brand",
+      "targetId": "VariableID:614:122",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Fondo de marca del contenedor Sidebar colapsado. Sigue la categoría del modo sin usar un token de texto, icono o una primitiva directa.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/500",
+          "targetId": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/500",
+          "targetId": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/500",
+          "targetId": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "name": "color/background/sidebar-release-start",
+      "targetId": "VariableID:614:123",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Extremo inicial del degradado de la etiqueta de versión BETA de Sidebar; acento contextual por modo, sin semántica de interacción hover.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/300",
+          "targetId": "VariableID:8:78"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/300",
+          "targetId": "VariableID:8:86"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/300",
+          "targetId": "VariableID:8:78"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/300",
+          "targetId": "VariableID:8:86"
+        }
+      }
+    },
+    {
+      "name": "color/background/sidebar-release-end",
+      "targetId": "VariableID:614:124",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Extremo final del degradado de la etiqueta de versión BETA de Sidebar; acento contextual por modo, sin semántica de acción interactiva.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        }
+      }
+    }
+  ]
+}

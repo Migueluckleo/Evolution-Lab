@@ -1,0 +1,6185 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "evidenceOnly": true,
+  "approval": "NOT_CONFERRED",
+  "counts": {
+    "targetNodes": 103,
+    "ranges": 103,
+    "pages": 3,
+    "actualMainRoutes": 242,
+    "nativeLocalEmptyRanges": 103,
+    "directLocalStyleIds": 0,
+    "terminalPrincipals": 9,
+    "principalComponents": 5,
+    "rawSlotMissingPathIssuesPreserved": 6,
+    "slotBoundaryRoutes": 44,
+    "causalPilots": 3,
+    "causalChecks": 36,
+    "typographicInstanceOverrides": 0,
+    "byNativeScale": {
+      "0.8333333134651184": 76,
+      "0.6666666865348816": 14,
+      "1.3333333730697632": 13
+    }
+  },
+  "sources": {
+    "implementations/figma/typography.v0.1.1.mapping.json": "4a44eeab4e9839eed71ec90e50a4a106a312545edfad912b43c284a7612ae73d",
+    "specs/tokens/ai-design-system.typography.v0.1.1.json": "26b05557aeeb40f78398a673f768a82035474dc84796aa6f5350f1ce911664cd",
+    "implementations/figma/typography.v0.1.1.catalog.state.json": "de4aca0f6b0a7e74cf038c53e4c538cd90a167c900639208fc3eddb5865e85d0",
+    "qa/implementations/typography/consumption-v0.1.1/styles.initial-description-readback.json": "d8117e0a125774174979575a3766819d5577e1d3271b8d9bb4d571b9ee7d63ca",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/444-122-part-000.result.json": "3285487095952be11ac9aeb3f924f471c5892bbc37166df776c483175d64cf3a",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/444-122-part-001.result.json": "287657a61793d001286ea323403c806584ba215c93df176bd73e413d429c4026",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/444-122-part-002.result.json": "2dc4662d1c14238dc557ba127360d929e91a5177407ecf1a2b34db6aa809c60c",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/444-122-part-003.result.json": "4b0bd73c2d3215664763229659e0a50eb0794f1f227952307b0dc21f463d6a56",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/444-122.assembled.json": "58564eb09ea74904b5c73c1d76bc7ec60d1e52bf18db75521964ef33d1a95624",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/518-122-part-000.result.json": "67a93f3b03f8f1624aba610492691941f141e5d548f059df79f39eca31441d41",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/518-122.assembled.json": "880c8e8e875cd22b49be521d07dd3bd3ffae5b1d889678babeb8d8029ad65adb",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/737-303-part-000.result.json": "8f4275a4d72c5df36dfbd06c84b925928fa82a1af76dd71c38743ca56c71a252",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/737-303.assembled.json": "2548e1b315af50be04f0cef468e729904ff660d68bea3380bbcf534c239b2db6",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-a.result.json": "50dfb5e5f7ae50a1f16171c0f9328afe92ff8243071c9b7daddde40929869e0d",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-a.js": "ecb120a0ae0e04f79925760236cbf986b65c959489e1a42a9db36eb76fee98ce",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/set-b.result.json": "b910c97134292bacc39498dfc9fe8b0bd13eb576163643bc318c132a036fb7f7",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/set-b.js": "1ac60f2774a2f793f5bcc86d0f68b6435dd0bd4c7caff9e6d545cb51d45d3625",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-b.result.json": "58df0962324c93e82761e7817cbae1fa51c8682d230ef0bdaedb4dd59087148e",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-b.js": "74510150b03646d77e4d200018aa72ff09e2786d354ddb82e60a98702624c118",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/restore-a.result.json": "abe58761a4bd3c85516ef5f1a326d558563515d4166c6cbf0f7e1a3656f8169f",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/restore-a.js": "3416b25f2c141dbc96dd1d87815691da4366e417a1f3f8a5abd23cdfd29fdd5d",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-restored.result.json": "263c9f201dcb15b6eaacaebb5c9ab8636b62b48523d2f886086f5b2a21bde35c",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/read-restored.js": "493e82c2c856457dab389ca0b0a1e4bd5a6dc6613b459dcb3742371d22eb8a4e",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/cleanup.result.json": "2576190923e3f59c1420919d3c10932e2fa77fbee5868eee3ea06aa6c09be7a9",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths/cleanup.js": "2d89d2a33789ae46785c04483a66d048f4e6ab1261d0fb089d4817263f8eaf90",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-a.result.json": "aaa8ec7514fcc7f78ebcb1bfab5214f64961e1b54c9aa298af07b6dad8574dea",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-a.js": "f2f55d576ccd39230d6f208827548b74a0cca8664ebbeb3a4588ae3950d3c8c4",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/set-b.result.json": "751e45729ca7ed2394f53fc883b352209d7687288fb6ab54fa6cc81509ea9b0b",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/set-b.js": "0c0d5275a0a01052ac9cb14e4fdb0c0252e80426e7f3847b35505d59ca5ee4fa",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-b.result.json": "547af504efd357dc87d28ccffb5cf1588a5f1a9303aa9ea062ed9ec4209e8369",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-b.js": "f6e6e911ad8df8289dbd48547d1d0ea87047689922f5a901132536f8428b4a13",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/restore-a.result.json": "c50973a6052a07e2b41518f06bdc189e0ca7dc24b7956537a88041adb28a3355",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/restore-a.js": "0e2d18fb9c71ade5d5667001c8d295c84f06b0bfda78e217fe43947eca96c4b0",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-restored.result.json": "77ea0bc958141da603a83e1c6bcbc07d2fdbb8f80dda9d9433c92a229a98eb12",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/read-restored.js": "a8ac1b53622cda838ddfb49d18c03dfcd56f107433eebbc84ed237fc6836f8c6",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/cleanup.result.json": "7b10bf0a0c423be0b965da354d1c6c6e67a042ea52fc8f1fb1e4d8079df02134",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds/cleanup.js": "7b99bc3fff014eefbc7c99c3a16256dae08c4f3f0e2e00221c122b2efc4b651b",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-a.result.json": "e4a382777c80f59546235c573565fc3bc725dea7e5d27d2fb950375166385f81",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-a.js": "54266e03271a566ba88900049b85f40329f3ff5b4413932a817a71a05b02b98e",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/set-b.result.json": "f1051e90d7e2f521bf045a03f09db60d37d805654c98d22ff972fcad76d61f37",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/set-b.js": "1ed4c88b6c14abf51bf67807f6493a909b4b0203d1f601a3c00ce7b47267d90f",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-b.result.json": "04c3b0c0cceba7eb4a606a4cf60b730eeb0e5d6b04483f73b1336bf297c212be",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-b.js": "0bb465d795ad625916de5d82f8b131347faa72ff25669f3e88e94100a1703867",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/restore-a.result.json": "61106ae88bf5eafa274aecf3e6ae5472d044162f0db3004e73e9769ed1e3d945",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/restore-a.js": "9c1d1c6e466496b8938a67f2dfa1fd1ce723939696a5bf5e92fa77894c5a4123",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-restored.result.json": "198c54474363957d638096e5e263582c48da92038131f377355ec989171c05d5",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-restored.js": "89d90fd82ee36dc2b53edb37059f28716373cfc48689a1fc7a9b55723ac2d15d",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/cleanup.result.json": "6d2291c2893b15934e64b4f8ba23c4d05667aa9488e7df8e3d24bca49de05c8a",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/cleanup.js": "9d201a49ceaf0709819ee036b7889954d79d80c27d327a79c0d4bb08228a4865",
+    "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/audit.js": "4dbeee26782aafb75ef90bebc99da8d144e1b08d7d62e871ec99c5f9364e6644",
+    "qa/implementations/typography/continuation-2026-10-15/typography-inheritance-supplement-v3/test.cjs": "ba07bfaf0543432b8c2efa73330be3768c5c81eeb80c3e8ef733be037defeee0",
+    "implementations/figma/typography_inheritance_qa.py": "f5bbd3a9b6a560adec584a182685abf9bc43aa43a4d270eae2b3c2953f60e9a0",
+    "implementations/figma/typography_qa.py": "3698d9a8d803bf226b5619c1ab319bf83539aeaab039702173c870c085de18c2"
+  },
+  "findings": [],
+  "ranges": [
+    {
+      "nodeId": "I446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:167"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:167"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:187;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:187",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:187"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:187;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:187",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:187"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:207;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:207",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:207"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:207;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:207",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:207"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:227;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:227",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:227"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:227;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:227",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:227"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:271;149:185",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:271",
+      "principalComponentId": "149:184",
+      "principalTextNodeId": "149:185",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:271"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:271;149:188",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:271",
+      "principalComponentId": "149:184",
+      "principalTextNodeId": "149:188",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:271"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:295;149:185",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:295",
+      "principalComponentId": "149:184",
+      "principalTextNodeId": "149:185",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:295"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:295;149:188",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:295",
+      "principalComponentId": "149:184",
+      "principalTextNodeId": "149:188",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:295"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:343;149:195",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:343",
+      "principalComponentId": "149:194",
+      "principalTextNodeId": "149:195",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:343"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:343;149:198",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:343",
+      "principalComponentId": "149:194",
+      "principalTextNodeId": "149:198",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:343"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:367;149:195",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:367",
+      "principalComponentId": "149:194",
+      "principalTextNodeId": "149:195",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:367"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:367;149:198",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:367",
+      "principalComponentId": "149:194",
+      "principalTextNodeId": "149:198",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:367"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:418;149:124",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:418",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:124",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:418"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:418;149:129",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:418",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:129",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:418"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:444;149:124",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:444",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:124",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:444"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:444;149:129",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:444",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:129",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:444"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:490;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:490",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:490"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:490;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:490",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:490"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:510;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:510",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "446:510"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I446:510;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "446:510",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "446:510"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I448:569;446:207;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I448:569;446:207",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I448:569;446:207",
+        "448:569"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I448:569;446:207;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I448:569;446:207",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-two-thirds",
+      "nativeScale": 0.6666666865348816,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I448:569;446:207",
+        "448:569"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:602;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:602;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I466:602;446:167",
+        "466:602"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:602;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:602;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I466:602;446:167",
+        "466:602"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:603;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:603;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I466:603;446:167",
+        "466:603"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:603;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:603;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I466:603;446:167",
+        "466:603"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:604;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:604;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I466:604;446:167",
+        "466:604"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:604;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:604;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I466:604;446:167",
+        "466:604"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:605;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:605;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I466:605;446:167",
+        "466:605"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:605;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:605;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I466:605;446:167",
+        "466:605"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:606;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:606;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I466:606;446:167",
+        "466:606"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I466:606;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I466:606;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I466:606;446:167",
+        "466:606"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:441;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I456:441;446:167",
+        "456:441"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:441;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I456:441;446:167",
+        "456:441"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:450;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I456:450;446:167",
+        "456:450"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:450;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I456:450;446:167",
+        "456:450"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:459;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I456:459;446:167",
+        "456:459"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:459;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I456:459;446:167",
+        "456:459"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:468;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I456:468;446:167",
+        "456:468"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:468;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I456:468;446:167",
+        "456:468"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:477;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I456:477;446:167",
+        "456:477"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I456:477;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I456:477;446:167",
+        "456:477"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:441;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:441;446:167",
+        "I458:470;456:441",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:441;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:441;446:167",
+        "I458:470;456:441",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:450;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:450;446:167",
+        "I458:470;456:450",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:450;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:450;446:167",
+        "I458:470;456:450",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:459;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:459;446:167",
+        "I458:470;456:459",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:459;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:459;446:167",
+        "I458:470;456:459",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:468;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:468;446:167",
+        "I458:470;456:468",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:468;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:468;446:167",
+        "I458:470;456:468",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:477;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:477;446:167",
+        "I458:470;456:477",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I458:470;456:477;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I458:470;456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I458:470;456:477;446:167",
+        "I458:470;456:477",
+        "458:470"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:688;456:440;467:807;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:688;456:440;467:807;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:688;456:440;467:807;446:167",
+        "I467:688;456:440;467:807",
+        "467:688"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:688;456:440;467:807;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:688;456:440;467:807;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:688;456:440;467:807;446:167",
+        "I467:688;456:440;467:807",
+        "467:688"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:930;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:930;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:930;446:167",
+        "I467:811;456:440;467:930",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:930;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:930;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:930;446:167",
+        "I467:811;456:440;467:930",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:931;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:931;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:931;446:167",
+        "I467:811;456:440;467:931",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:931;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:931;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:931;446:167",
+        "I467:811;456:440;467:931",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:932;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:932;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:932;446:167",
+        "I467:811;456:440;467:932",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:811;456:440;467:932;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:811;456:440;467:932;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:811;456:440;467:932;446:167",
+        "I467:811;456:440;467:932",
+        "467:811"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:441;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:441;446:167",
+        "I467:934;456:441",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:441;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:441;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:441;446:167",
+        "I467:934;456:441",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:450;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:450;446:167",
+        "I467:934;456:450",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:450;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:450;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:450;446:167",
+        "I467:934;456:450",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:459;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:459;446:167",
+        "I467:934;456:459",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:459;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:459;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:459;446:167",
+        "I467:934;456:459",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:468;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:468;446:167",
+        "I467:934;456:468",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:468;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:468;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:468;446:167",
+        "I467:934;456:468",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:477;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:477;446:167",
+        "I467:934;456:477",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:934;456:477;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:934;456:477;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:934;456:477;446:167",
+        "I467:934;456:477",
+        "467:934"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1238;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1238;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1238;446:167",
+        "I467:1052;456:440;467:1238",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1238;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1238;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1238;446:167",
+        "I467:1052;456:440;467:1238",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1191;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1191;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1191;446:167",
+        "I467:1052;456:440;467:1191",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1191;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1191;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1191;446:167",
+        "I467:1052;456:440;467:1191",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1192;446:418;149:124",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1192;446:418",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:124",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1192;446:418",
+        "I467:1052;456:440;467:1192",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1192;446:418;149:129",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1192;446:418",
+      "principalComponentId": "149:123",
+      "principalTextNodeId": "149:129",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1192;446:418",
+        "I467:1052;456:440;467:1192",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1193;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1193;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1193;446:167",
+        "I467:1052;456:440;467:1193",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1193;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1193;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1193;446:167",
+        "I467:1052;456:440;467:1193",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1194;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1194;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1194;446:167",
+        "I467:1052;456:440;467:1194",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1194;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1194;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1194;446:167",
+        "I467:1052;456:440;467:1194",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1195;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1195;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1195;446:167",
+        "I467:1052;456:440;467:1195",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1195;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1195;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1195;446:167",
+        "I467:1052;456:440;467:1195",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1196;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1196;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1196;446:167",
+        "I467:1052;456:440;467:1196",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1196;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1196;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1196;446:167",
+        "I467:1052;456:440;467:1196",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1217;446:167;149:180",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1217;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:180",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1217;446:167",
+        "I467:1052;456:440;467:1217",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I467:1052;456:440;467:1217;446:167;149:183",
+      "start": 0,
+      "end": 11,
+      "pageId": "444:122",
+      "sourceInstanceId": "I467:1052;456:440;467:1217;446:167",
+      "principalComponentId": "149:179",
+      "principalTextNodeId": "149:183",
+      "baseStyleLogicalId": "ui-body-compact",
+      "principalTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "materializedStyleLogicalId": "ui-checkbox-label-scaled-five-sixths",
+      "nativeScale": 0.8333333134651184,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        2
+      ],
+      "ancestorInstanceIds": [
+        "I467:1052;456:440;467:1217;446:167",
+        "I467:1052;456:440;467:1217",
+        "467:1052"
+      ],
+      "principalBoundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:16"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:9"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:8"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:3"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I522:408;183:164",
+        "522:408"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:257;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:257;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:257;522:408;183:164",
+        "I526:257;522:408",
+        "526:257"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:363;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:363;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:363;522:408;183:164",
+        "I526:363;522:408",
+        "526:363"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:469;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:469;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:469;522:408;183:164",
+        "I526:469;522:408",
+        "526:469"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:575;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:575;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:575;522:408;183:164",
+        "I526:575;522:408",
+        "526:575"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:682;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:682;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:682;522:408;183:164",
+        "I526:682;522:408",
+        "526:682"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:798;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:798;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:798;522:408;183:164",
+        "I526:798;522:408",
+        "526:798"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:918;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:918;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:918;522:408;183:164",
+        "I526:918;522:408",
+        "526:918"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:1046;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:1046;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:1046;522:408;183:164",
+        "I526:1046;522:408",
+        "526:1046"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:1185;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:1185;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:1185;522:408;183:164",
+        "I526:1185;522:408",
+        "526:1185"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:1347;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:1347;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:1347;522:408;183:164",
+        "I526:1347;522:408",
+        "526:1347"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I526:1462;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "518:122",
+      "sourceInstanceId": "I526:1462;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I526:1462;522:408;183:164",
+        "I526:1462;522:408",
+        "526:1462"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    },
+    {
+      "nodeId": "I737:305;522:408;183:164;155:137",
+      "start": 0,
+      "end": 1,
+      "pageId": "737:303",
+      "sourceInstanceId": "I737:305;522:408;183:164",
+      "principalComponentId": "155:136",
+      "principalTextNodeId": "155:137",
+      "baseStyleLogicalId": "micro-count-small",
+      "principalTextStyleId": "S:2987fb55403e26b9fd23807ce894f58cc084820d,",
+      "materializedStyleLogicalId": "micro-count-small-scaled-four-thirds",
+      "nativeScale": 1.3333333730697632,
+      "recipeScale": 1,
+      "localTextStyleId": "",
+      "actualChildPath": [
+        0
+      ],
+      "ancestorInstanceIds": [
+        "I737:305;522:408;183:164",
+        "I737:305;522:408",
+        "737:305"
+      ],
+      "principalBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "instanceBoundVariables": {
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:10:2"
+        }
+      },
+      "status": "API_CHAIN_AND_RECIPE_PASS"
+    }
+  ],
+  "slotBoundaries": [
+    {
+      "textId": "I458:470;456:441;446:167;149:180",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:441;446:167;149:183",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:450;446:167;149:180",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:450;446:167;149:183",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:459;446:167;149:180",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:459;446:167;149:183",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:468;446:167;149:180",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:468;446:167;149:183",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:477;446:167;149:180",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I458:470;456:477;446:167;149:183",
+      "ancestorInstanceId": "458:470",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I458:470;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:688;456:440;467:807;446:167;149:180",
+      "ancestorInstanceId": "467:688",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:688;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:688;456:440;467:807;446:167;149:183",
+      "ancestorInstanceId": "467:688",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:688;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:930;446:167;149:180",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:930;446:167;149:183",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:931;446:167;149:180",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:931;446:167;149:183",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:932;446:167;149:180",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:811;456:440;467:932;446:167;149:183",
+      "ancestorInstanceId": "467:811",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:811;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:441;446:167;149:180",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:441;446:167;149:183",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:450;446:167;149:180",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:450;446:167;149:183",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:459;446:167;149:180",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:459;446:167;149:183",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:468;446:167;149:180",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:468;446:167;149:183",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:477;446:167;149:180",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:934;456:477;446:167;149:183",
+      "ancestorInstanceId": "467:934",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:934;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1238;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1238;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1191;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1191;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1192;446:418;149:124",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1192;446:418;149:129",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1193;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1193;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1194;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1194;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "OBSERVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1195;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1195;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1196;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1196;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1217;446:167;149:180",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    },
+    {
+      "textId": "I467:1052;456:440;467:1217;446:167;149:183",
+      "ancestorInstanceId": "467:1052",
+      "rawStatus": "UNRESOLVED",
+      "classification": "NATIVE_SLOT_COMPOSITION_BOUNDARY",
+      "instanceSlotId": "I467:1052;456:440",
+      "mainSlotId": "456:440",
+      "slotContentId": "Options#466:0",
+      "policy": "Local Slot children are not identified with same-index main children; nearest interior main is authoritative."
+    }
+  ],
+  "rawIssues": [
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1195;446:167;149:180",
+      "instanceId": "467:1052",
+      "index": 5,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    },
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1195;446:167;149:183",
+      "instanceId": "467:1052",
+      "index": 5,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    },
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1196;446:167;149:180",
+      "instanceId": "467:1052",
+      "index": 6,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    },
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1196;446:167;149:183",
+      "instanceId": "467:1052",
+      "index": 6,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    },
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1217;446:167;149:180",
+      "instanceId": "467:1052",
+      "index": 7,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    },
+    {
+      "code": "COUNTERPART_PATH_MISSING",
+      "textId": "I467:1052;456:440;467:1217;446:167;149:183",
+      "instanceId": "467:1052",
+      "index": 7,
+      "instanceParentId": "I467:1052;456:440",
+      "mainParentId": "456:440"
+    }
+  ],
+  "pilots": [
+    {
+      "ratio": "5/6",
+      "status": "CAUSAL_INHERITANCE_SUPPORTED_FOR_THIS_PILOT",
+      "sourceInstanceId": "446:167",
+      "checks": {
+        "three_independent_readbacks": true,
+        "original_guards_preserved": true,
+        "all_observation_fields_restored": true,
+        "scale_and_main_links_stable": true,
+        "controls_unchanged": true,
+        "principal_ids_exact": true,
+        "instance_ids_blank_throughout": true,
+        "A_instance_recipe_matches_causal_style": true,
+        "B_instance_recipe_matches_causal_style": true,
+        "RESTORED_A_instance_recipe_matches_causal_style": true,
+        "write_scripts_only_actor_range_setter": true,
+        "cleanup_complete": true
+      },
+      "directory": "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-five-sixths"
+    },
+    {
+      "ratio": "2/3",
+      "status": "CAUSAL_INHERITANCE_SUPPORTED_FOR_THIS_PILOT",
+      "sourceInstanceId": "446:207",
+      "checks": {
+        "three_independent_readbacks": true,
+        "original_guards_preserved": true,
+        "all_observation_fields_restored": true,
+        "scale_and_main_links_stable": true,
+        "controls_unchanged": true,
+        "principal_ids_exact": true,
+        "instance_ids_blank_throughout": true,
+        "A_instance_recipe_matches_causal_style": true,
+        "B_instance_recipe_matches_causal_style": true,
+        "RESTORED_A_instance_recipe_matches_causal_style": true,
+        "write_scripts_only_actor_range_setter": true,
+        "cleanup_complete": true
+      },
+      "directory": "qa/implementations/typography/consumption-v0.1.1/inheritance-checkbox-two-thirds"
+    },
+    {
+      "ratio": "4/3",
+      "status": "CAUSAL_INHERITANCE_SUPPORTED_FOR_THIS_PILOT",
+      "sourceInstanceId": "I522:408;183:164",
+      "checks": {
+        "three_independent_readbacks": true,
+        "original_guards_preserved": true,
+        "all_observation_fields_restored": true,
+        "scale_and_main_links_stable": true,
+        "controls_unchanged": true,
+        "principal_ids_exact": true,
+        "instance_ids_blank_throughout": true,
+        "A_instance_recipe_matches_causal_style": true,
+        "B_instance_recipe_matches_causal_style": true,
+        "RESTORED_A_instance_recipe_matches_causal_style": true,
+        "write_scripts_only_actor_range_setter": true,
+        "cleanup_complete": true
+      },
+      "directory": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds"
+    }
+  ],
+  "limits": [
+    "A PASS is scoped to103 observed ranges and3 causal experiments; local IDs remain empty.",
+    "Final consumer overlay must additionally verify current34-page selection, direct3250/editorial150 preservation, canonical79 catalogue and the explicitly active amendment.",
+    "The6 raw missing outer-main paths remain recorded; only native Slot Options content boundaries are classified, never fabricated same-index counterparts."
+  ]
+}

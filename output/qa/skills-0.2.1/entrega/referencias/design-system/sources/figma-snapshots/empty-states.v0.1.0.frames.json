@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "7772:2273",
+    "parent": "7772:2272",
+    "name": "🎨 Use Cases=Default",
+    "type": "COMPONENT",
+    "box": [
+      16,
+      16,
+      696,
+      532
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "MIN",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {}
+  },
+  {
+    "id": "7772:2274",
+    "parent": "7772:2273",
+    "name": ".Base Empty State",
+    "type": "INSTANCE",
+    "box": [
+      0,
+      0,
+      696,
+      532
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      0,
+      24,
+      24,
+      24,
+      24
+    ],
+    "refs": {},
+    "bound": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      }
+    },
+    "props": {
+      "Has Title#317:4": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Visual#317:6": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Supporting Action#317:7": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Main Action#317:8": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Layout": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2274;7772:2253",
+    "parent": "7772:2274",
+    "name": "Content Container",
+    "type": "FRAME",
+    "box": [
+      24,
+      24,
+      648,
+      380
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:14"
+      }
+    }
+  },
+  {
+    "id": "I7772:2274;7772:2254",
+    "parent": "I7772:2274;7772:2253",
+    "name": "↪️ Visual",
+    "type": "INSTANCE",
+    "box": [
+      184,
+      0,
+      280,
+      280
+    ],
+    "visible": true,
+    "layout": [
+      "HORIZONTAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Visual#317:6"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    },
+    "props": {
+      "Medium Illustration#376:4": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2381",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Small Illustration#376:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2281",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Large Illustration#317:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2298",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Size": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2274;7772:2255",
+    "parent": "I7772:2274;7772:2253",
+    "name": "Text Container",
+    "type": "FRAME",
+    "box": [
+      74,
+      312,
+      500,
+      68
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:10"
+      }
+    }
+  },
+  {
+    "id": "I7772:2274;7772:2258",
+    "parent": "7772:2274",
+    "name": "Main Action Container",
+    "type": "FRAME",
+    "box": [
+      286.5,
+      404,
+      123,
+      56
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      16,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Main Action#317:8"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      }
+    }
+  },
+  {
+    "id": "I7772:2274;7772:2260",
+    "parent": "7772:2274",
+    "name": "Supporting Action Container",
+    "type": "FRAME",
+    "box": [
+      287,
+      460,
+      122,
+      48
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FIXED",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Supporting Action#317:7"
+    },
+    "bound": {
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  },
+  {
+    "id": "7772:2275",
+    "parent": "7772:2272",
+    "name": "🎨 Use Cases=Compact",
+    "type": "COMPONENT",
+    "box": [
+      16,
+      564,
+      696,
+      366
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "MIN",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {}
+  },
+  {
+    "id": "7772:2276",
+    "parent": "7772:2275",
+    "name": ".Base Empty State",
+    "type": "INSTANCE",
+    "box": [
+      0,
+      0,
+      696,
+      366
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      0,
+      16,
+      16,
+      16,
+      16
+    ],
+    "refs": {},
+    "bound": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      }
+    },
+    "props": {
+      "Has Title#317:4": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Visual#317:6": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Supporting Action#317:7": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Main Action#317:8": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Layout": {
+        "value": "Compact",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2276;7772:2263",
+    "parent": "7772:2276",
+    "name": "Content Container",
+    "type": "FRAME",
+    "box": [
+      16,
+      16,
+      664,
+      234
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:12"
+      }
+    }
+  },
+  {
+    "id": "I7772:2276;7772:2264",
+    "parent": "I7772:2276;7772:2263",
+    "name": "↪️ Visual",
+    "type": "INSTANCE",
+    "box": [
+      257,
+      0,
+      150,
+      150
+    ],
+    "visible": true,
+    "layout": [
+      "HORIZONTAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Visual#317:6"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    },
+    "props": {
+      "Medium Illustration#376:4": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2381",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Small Illustration#376:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2281",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Large Illustration#317:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2298",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Size": {
+        "value": "Compact",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2276;7772:2265",
+    "parent": "I7772:2276;7772:2263",
+    "name": "Text Container",
+    "type": "FRAME",
+    "box": [
+      82,
+      166,
+      500,
+      68
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:10"
+      }
+    }
+  },
+  {
+    "id": "I7772:2276;7772:2268",
+    "parent": "7772:2276",
+    "name": "Main Action Container",
+    "type": "FRAME",
+    "box": [
+      286.5,
+      250,
+      123,
+      52
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      12,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Main Action#317:8"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  },
+  {
+    "id": "I7772:2276;7772:2270",
+    "parent": "7772:2276",
+    "name": "Supporting Action Container",
+    "type": "FRAME",
+    "box": [
+      287,
+      302,
+      122,
+      48
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FIXED",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Supporting Action#317:7"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  },
+  {
+    "id": "7772:2277",
+    "parent": "7772:2272",
+    "name": "🎨 Use Cases=Inline",
+    "type": "COMPONENT",
+    "box": [
+      16,
+      946,
+      696,
+      120
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "MIN",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {}
+  },
+  {
+    "id": "7772:2278",
+    "parent": "7772:2277",
+    "name": ".Base Empty State",
+    "type": "INSTANCE",
+    "box": [
+      0,
+      0,
+      696,
+      120
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      0,
+      16,
+      16,
+      16,
+      16
+    ],
+    "refs": {},
+    "bound": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      }
+    },
+    "props": {
+      "Has Title#317:4": {
+        "type": "BOOLEAN",
+        "value": false
+      },
+      "Has Visual#317:6": {
+        "type": "BOOLEAN",
+        "value": false
+      },
+      "Has Supporting Action#317:7": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Main Action#317:8": {
+        "type": "BOOLEAN",
+        "value": false
+      },
+      "Layout": {
+        "value": "Compact",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2278;7772:2263",
+    "parent": "7772:2278",
+    "name": "Content Container",
+    "type": "FRAME",
+    "box": [
+      16,
+      16,
+      664,
+      40
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:12"
+      }
+    }
+  },
+  {
+    "id": "I7772:2278;7772:2264",
+    "parent": "I7772:2278;7772:2263",
+    "name": "↪️ Visual",
+    "type": "INSTANCE",
+    "box": [
+      143.5,
+      0,
+      150,
+      150
+    ],
+    "visible": false,
+    "layout": [
+      "HORIZONTAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Visual#317:6"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    },
+    "props": {
+      "Medium Illustration#376:4": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2381",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Small Illustration#376:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2281",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Large Illustration#317:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2298",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Size": {
+        "value": "Compact",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2278;7772:2265",
+    "parent": "I7772:2278;7772:2263",
+    "name": "Text Container",
+    "type": "FRAME",
+    "box": [
+      82,
+      0,
+      500,
+      40
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:10"
+      }
+    }
+  },
+  {
+    "id": "I7772:2278;7772:2268",
+    "parent": "7772:2278",
+    "name": "Main Action Container",
+    "type": "FRAME",
+    "box": [
+      173,
+      274,
+      123,
+      52
+    ],
+    "visible": false,
+    "layout": [
+      "VERTICAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      12,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Main Action#317:8"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  },
+  {
+    "id": "I7772:2278;7772:2270",
+    "parent": "7772:2278",
+    "name": "Supporting Action Container",
+    "type": "FRAME",
+    "box": [
+      287,
+      56,
+      122,
+      48
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FIXED",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Supporting Action#317:7"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  },
+  {
+    "id": "7772:2279",
+    "parent": "7772:2272",
+    "name": "🎨 Use Cases=Main",
+    "type": "COMPONENT",
+    "box": [
+      16,
+      1082,
+      696,
+      572
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "MIN",
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {}
+  },
+  {
+    "id": "7772:2280",
+    "parent": "7772:2279",
+    "name": "Properties",
+    "type": "INSTANCE",
+    "box": [
+      0,
+      0,
+      696,
+      572
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      0,
+      24,
+      24,
+      24,
+      24
+    ],
+    "refs": {},
+    "bound": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      }
+    },
+    "props": {
+      "Has Title#317:4": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Visual#317:6": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Supporting Action#317:7": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Has Main Action#317:8": {
+        "type": "BOOLEAN",
+        "value": true
+      },
+      "Layout": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2280;7772:2253",
+    "parent": "7772:2280",
+    "name": "Content Container",
+    "type": "FRAME",
+    "box": [
+      24,
+      24,
+      648,
+      420
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:14"
+      }
+    }
+  },
+  {
+    "id": "I7772:2280;7772:2254",
+    "parent": "I7772:2280;7772:2253",
+    "name": "↪️ Visual",
+    "type": "INSTANCE",
+    "box": [
+      74,
+      0,
+      500,
+      320
+    ],
+    "visible": true,
+    "layout": [
+      "HORIZONTAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "CENTER",
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Visual#317:6"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    },
+    "props": {
+      "Medium Illustration#376:4": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2381",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Small Illustration#376:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2281",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Large Illustration#317:0": {
+        "type": "INSTANCE_SWAP",
+        "value": "7772:2298",
+        "preferredValues": {
+          "count": 0
+        }
+      },
+      "Size": {
+        "value": "Display",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    }
+  },
+  {
+    "id": "I7772:2280;7772:2255",
+    "parent": "I7772:2280;7772:2253",
+    "name": "Text Container",
+    "type": "FRAME",
+    "box": [
+      74,
+      352,
+      500,
+      68
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FILL",
+      "HUG",
+      "MIN",
+      "CENTER",
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "refs": {},
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:562:10"
+      }
+    }
+  },
+  {
+    "id": "I7772:2280;7772:2258",
+    "parent": "7772:2280",
+    "name": "Main Action Container",
+    "type": "FRAME",
+    "box": [
+      286.5,
+      444,
+      123,
+      56
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "HUG",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      16,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Main Action#317:8"
+    },
+    "bound": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      }
+    }
+  },
+  {
+    "id": "I7772:2280;7772:2260",
+    "parent": "7772:2280",
+    "name": "Supporting Action Container",
+    "type": "FRAME",
+    "box": [
+      287,
+      500,
+      122,
+      48
+    ],
+    "visible": true,
+    "layout": [
+      "VERTICAL",
+      "FIXED",
+      "HUG",
+      "MIN",
+      "MIN",
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "refs": {
+      "visible": "Has Supporting Action#317:7"
+    },
+    "bound": {
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      }
+    }
+  }
+]

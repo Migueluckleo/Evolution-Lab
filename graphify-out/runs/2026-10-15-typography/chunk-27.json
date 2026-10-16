@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "label": "Carga de archivos en cuatro estados visibles",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Composición inspeccionada directamente en la imagen. Evidencia de apariencia visible; no acredita aprobación, contrato, bindings ni funcionamiento interactivo."
+    },
+    {
+      "id": "qa_implementations_typography_web_file_upload_zona_default_para_subir_o_arrastrar",
+      "label": "Zona default para subir o arrastrar",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Default muestra borde discontinuo, icono de nube con flecha ascendente, «Haz clic para subir tu archivo o arrástralo aquí», Formatos de muestra y Helper text."
+    },
+    {
+      "id": "qa_implementations_typography_web_file_upload_archivo_de_muestra_con__xito_verde",
+      "label": "Archivo de muestra con éxito verde",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Success muestra un check circular verde, Archivo de muestra en verde y una barra verde llena cerca de la base de la zona discontinua."
+    },
+    {
+      "id": "qa_implementations_typography_web_file_upload_archivo_de_muestra_con_error_rojo",
+      "label": "Archivo de muestra con error rojo",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Error presenta cruz circular roja, Archivo de muestra rojo y borde discontinuo rojo."
+    },
+    {
+      "id": "qa_implementations_typography_web_file_upload_zona_disabled_atenuada",
+      "label": "Zona disabled atenuada",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Disabled mantiene la instrucción de carga y el icono de nube, pero usa texto y contorno en tonos claros."
+    },
+    {
+      "id": "qa_implementations_typography_web_file_upload_texto_de_formatos_y_ayuda",
+      "label": "Texto de formatos y ayuda",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Las cuatro muestras incluyen Formatos de muestra y Helper text; la imagen no demuestra carga real ni formatos aceptados."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "target": "qa_implementations_typography_web_file_upload_zona_default_para_subir_o_arrastrar",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "target": "qa_implementations_typography_web_file_upload_archivo_de_muestra_con__xito_verde",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "target": "qa_implementations_typography_web_file_upload_archivo_de_muestra_con_error_rojo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "target": "qa_implementations_typography_web_file_upload_zona_disabled_atenuada",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_file_upload_carga_de_archivos_en_cuatro_estados_visibles",
+      "target": "qa_implementations_typography_web_file_upload_texto_de_formatos_y_ayuda",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/file-upload.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

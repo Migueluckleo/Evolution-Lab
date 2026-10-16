@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "beforeSource": "qa/implementations/typography/web/revision-75/typography/consumers.json",
+  "beforeSha256": "6b69689c6e1640bc297a36354dcb4a057bab8d2d1611d7c41504d1851b15c748",
+  "afterSource": "qa/implementations/typography/web/revision-79/consumers.json",
+  "afterSha256": "539875e48f83f32c288dd08145ec96a3de0f1231ae872974e3e62172546d359e",
+  "measurements": 2956,
+  "comparedFields": [
+    "family",
+    "size",
+    "weight",
+    "lineHeight",
+    "tracking",
+    "case",
+    "tag",
+    "classes",
+    "text"
+  ],
+  "newDecorationValidatedAgainstCanonical": true,
+  "identityChanges": {
+    "ui-action-label-medium-underline": 16,
+    "ui-action-label-small-underline": 8,
+    "ui-upload-action-feedback-underline": 8,
+    "ui-action-label-normal-underline": 16
+  },
+  "differences": [],
+  "limit": "Comparison preserves observed font metrics/content/classification. It does not measure every frame position or prove universal visual parity."
+}

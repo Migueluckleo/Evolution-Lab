@@ -1,0 +1,177 @@
+{
+  "extensionId": "FOUNDATIONS-LINEAR-PROGRESS-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "variables": [
+    {
+      "name": "color/background/progress/track",
+      "resolvedType": "COLOR",
+      "description": "Pista de barra de progreso lineal; superficie restante neutra que permite distinguir el tramo avanzado sin expresar deshabilitación.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/200",
+          "targetId": "VariableID:8:94"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/200",
+          "targetId": "VariableID:8:94"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/200",
+          "targetId": "VariableID:8:94"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/200",
+          "targetId": "VariableID:8:94"
+        }
+      }
+    },
+    {
+      "name": "color/background/progress/primary",
+      "resolvedType": "COLOR",
+      "description": "Tramo avanzado de barra de progreso lineal con tono de marca del modo; no expresa por sí solo éxito o error.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/500",
+          "targetId": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/600",
+          "targetId": "VariableID:8:72"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/500",
+          "targetId": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "name": "color/background/progress/warning",
+      "resolvedType": "COLOR",
+      "description": "Tramo avanzado de barra de progreso lineal en contexto de advertencia; no se usa como texto, icono ni estado disabled.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/amber/600",
+          "targetId": "VariableID:8:108"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/amber/600",
+          "targetId": "VariableID:8:108"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/amber/600",
+          "targetId": "VariableID:8:108"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/amber/600",
+          "targetId": "VariableID:8:108"
+        }
+      }
+    },
+    {
+      "name": "color/background/progress/positive",
+      "resolvedType": "COLOR",
+      "description": "Tramo avanzado de barra de progreso lineal en contexto positivo; color de fondo, no rol de icono.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/emerald/600",
+          "targetId": "VariableID:8:116"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/emerald/600",
+          "targetId": "VariableID:8:116"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/emerald/600",
+          "targetId": "VariableID:8:116"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/emerald/600",
+          "targetId": "VariableID:8:116"
+        }
+      }
+    },
+    {
+      "name": "color/background/progress/danger",
+      "resolvedType": "COLOR",
+      "description": "Tramo avanzado de barra de progreso lineal en contexto de peligro; color de fondo, no rol de icono.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        }
+      }
+    }
+  ]
+}

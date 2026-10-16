@@ -1,0 +1,61 @@
+{
+  "removed_self_references": [
+    [
+      "agents_artifact_md",
+      "agents_artifact_md",
+      {
+        "relation": "references",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "weight": 1.0,
+        "source_file": "AGENTS.md",
+        "source_location": "L1",
+        "evidence_records": [
+          {
+            "source": "agents_artifact_md",
+            "target": "agents_document",
+            "relation": "references",
+            "confidence": "EXTRACTED",
+            "confidence_score": 1.0,
+            "source_file": "AGENTS.md",
+            "source_location": "L1"
+          }
+        ],
+        "relations": [
+          "references"
+        ],
+        "_src": "agents_artifact_md",
+        "_tgt": "agents_artifact_md"
+      }
+    ],
+    [
+      "implementations_web_src_styles_artifact_css",
+      "implementations_web_src_styles_artifact_css",
+      {
+        "relation": "references",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "weight": 1.0,
+        "source_file": "implementations/web/src/styles.css",
+        "source_location": null,
+        "evidence_records": [
+          {
+            "source": "implementations_web_src_styles_artifact_css",
+            "target": "implementations_web_src_styles_document",
+            "relation": "references",
+            "confidence": "EXTRACTED",
+            "confidence_score": 1.0,
+            "source_file": "implementations/web/src/styles.css",
+            "source_location": null
+          }
+        ],
+        "relations": [
+          "references"
+        ],
+        "_src": "implementations_web_src_styles_artifact_css",
+        "_tgt": "implementations_web_src_styles_artifact_css"
+      }
+    ]
+  ],
+  "reason": "File identity normalization; raw extraction preserved; no source document changed"
+}

@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "label": "Botones de icono de campana con contador",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Composición inspeccionada directamente en la imagen. Evidencia de apariencia visible; no acredita aprobación, contrato, bindings ni funcionamiento interactivo."
+    },
+    {
+      "id": "qa_implementations_typography_web_icon_button_botones_ghost_sin_contorno_propio",
+      "label": "Botones ghost sin contorno propio",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Las muestras ghost muestran una campana de contorno con pequeño contador rojo superpuesto, sin la superficie contorneada interior de outline."
+    },
+    {
+      "id": "qa_implementations_typography_web_icon_button_botones_outline_con_marco_redondeado",
+      "label": "Botones outline con marco redondeado",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Las muestras outline añaden un marco de esquinas redondeadas alrededor de la campana; el estado disabled usa una superficie gris clara."
+    },
+    {
+      "id": "qa_implementations_typography_web_icon_button_campanas_disabled_atenuadas",
+      "label": "Campanas disabled atenuadas",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "En las muestras disabled, la campana tiene trazo gris azulado; el contador rojo permanece visible."
+    },
+    {
+      "id": "qa_implementations_typography_web_icon_button_contador_rojo_superpuesto1",
+      "label": "Contador rojo superpuesto1",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Un círculo rojo con cifra blanca1 se superpone junto a la esquina inferior derecha de la campana; la cifra se distingue mejor en medium y large."
+    },
+    {
+      "id": "qa_implementations_typography_web_icon_button_small_medium_y_large",
+      "label": "Small medium y large",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "La lámina combina ghost y outline, default y disabled, en los tamaños rotulados small, medium y large."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "target": "qa_implementations_typography_web_icon_button_botones_ghost_sin_contorno_propio",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "target": "qa_implementations_typography_web_icon_button_botones_outline_con_marco_redondeado",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "target": "qa_implementations_typography_web_icon_button_campanas_disabled_atenuadas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "target": "qa_implementations_typography_web_icon_button_contador_rojo_superpuesto1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_icon_button_botones_de_icono_de_campana_con_contador",
+      "target": "qa_implementations_typography_web_icon_button_small_medium_y_large",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/icon-button.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

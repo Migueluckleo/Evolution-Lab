@@ -1,0 +1,453 @@
+[
+  {
+    "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115",
+    "name": "spacing/sm",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "scopes": [
+      "GAP"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:d3961b31b3fa9c8ef5c70b64add88b5cc97dfd4a/8:168"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:d3961b31b3fa9c8ef5c70b64add88b5cc97dfd4a/8:168"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:d3961b31b3fa9c8ef5c70b64add88b5cc97dfd4a/8:168"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:d3961b31b3fa9c8ef5c70b64add88b5cc97dfd4a/8:168"
+      }
+    }
+  },
+  {
+    "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19",
+    "name": "radius/md",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada.",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:01476dfd8b3ad522d927699819c149f65e9ae9cd/8:144"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:01476dfd8b3ad522d927699819c149f65e9ae9cd/8:144"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:01476dfd8b3ad522d927699819c149f65e9ae9cd/8:144"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:01476dfd8b3ad522d927699819c149f65e9ae9cd/8:144"
+      }
+    }
+  },
+  {
+    "id": "VariableID:76ab4b739c34455e7f9b953978a1ae2560b5f115/16:135",
+    "name": "color/background/default",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55a5ab5ff71326cdc07d3357fcda16fb21a9643e/8:362"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55a5ab5ff71326cdc07d3357fcda16fb21a9643e/8:362"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55a5ab5ff71326cdc07d3357fcda16fb21a9643e/8:362"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55a5ab5ff71326cdc07d3357fcda16fb21a9643e/8:362"
+      }
+    }
+  },
+  {
+    "id": "VariableID:128c068517d7fc7193a90887fef4f2cadf2b8a6c/16:43",
+    "name": "color/border/accent",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Borde de acento secundario, vinculado a la familia cromática definida por cada modo. Úsalo cuando una delimitación necesite énfasis visual sin asumir el rol de borde de marca principal.",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c7c82800ca9a742e7e4fda81215a88f2327c43cf/8:331"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:f68f6526bf83b66df10f4caf7356e4027e36a68b/8:227"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8abcf7e816e05049aa86c23118baf64635811eb1/8:263"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4dfbee1bc8b9a7dd189758bd1dda3e99e4df2743/8:299"
+      }
+    }
+  },
+  {
+    "id": "VariableID:330608aa159490b8691851806261f6e5bf67f146/15:79",
+    "name": "size/md",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Nivel pequeño de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:73f869b0a3f5e63fe63cc2c6f1ded3a10c56285d/8:94"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:73f869b0a3f5e63fe63cc2c6f1ded3a10c56285d/8:94"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:73f869b0a3f5e63fe63cc2c6f1ded3a10c56285d/8:94"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:73f869b0a3f5e63fe63cc2c6f1ded3a10c56285d/8:94"
+      }
+    }
+  },
+  {
+    "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39",
+    "name": "radius/full",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Radio semántico para redondeo total. Úsalo cuando la intención sea obtener extremos completamente redondeados independientemente de la dimensión concreta del elemento.",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0bbed03ffbe3c29ebf8a323102ae083f0a8c956e/8:164"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0bbed03ffbe3c29ebf8a323102ae083f0a8c956e/8:164"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0bbed03ffbe3c29ebf8a323102ae083f0a8c956e/8:164"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0bbed03ffbe3c29ebf8a323102ae083f0a8c956e/8:164"
+      }
+    }
+  },
+  {
+    "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159",
+    "name": "stroke/xs",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema.",
+    "scopes": [
+      "STROKE_FLOAT"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:24bd6638e6f9f39cdec092808998a7e8eaca6273/8:207"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:24bd6638e6f9f39cdec092808998a7e8eaca6273/8:207"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:24bd6638e6f9f39cdec092808998a7e8eaca6273/8:207"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:24bd6638e6f9f39cdec092808998a7e8eaca6273/8:207"
+      }
+    }
+  },
+  {
+    "id": "VariableID:40a1836a16ec366e4a4e814f476c7ea906501ed3/16:139",
+    "name": "color/background/subtle",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Fondo neutral de baja prominencia para crear una separación suave respecto al fondo base. Úsalo cuando una región necesite diferenciación ligera sin asumir un rol interactivo o de estado.",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1df5b6d52fd2e50f0e0cf10eb9867fa2849fe308/8:366"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1df5b6d52fd2e50f0e0cf10eb9867fa2849fe308/8:366"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1df5b6d52fd2e50f0e0cf10eb9867fa2849fe308/8:366"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1df5b6d52fd2e50f0e0cf10eb9867fa2849fe308/8:366"
+      }
+    }
+  },
+  {
+    "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107",
+    "name": "color/text/secondary",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Color de texto de jerarquía secundaria. Úsalo para contenido de apoyo que deba conservar legibilidad sin competir con el texto principal.",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b41f27acd5ae90f661eecdfc320318e1312ecc97/8:382"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b41f27acd5ae90f661eecdfc320318e1312ecc97/8:382"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b41f27acd5ae90f661eecdfc320318e1312ecc97/8:382"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b41f27acd5ae90f661eecdfc320318e1312ecc97/8:382"
+      }
+    }
+  },
+  {
+    "id": "VariableID:68071bf73ebd5934ca05ffb1dd26fb91deb782da/14:19",
+    "name": "font/weight/bold",
+    "type": "STRING",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Peso tipográfico semántico de máximo énfasis dentro del conjunto actual. Úsalo cuando el contenido requiera la mayor presencia tipográfica definida por el sistema.",
+    "scopes": [
+      "FONT_STYLE"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8dc762af32e60d1fc01c1731df65c5d13445af76/7:19"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8dc762af32e60d1fc01c1731df65c5d13445af76/7:19"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8dc762af32e60d1fc01c1731df65c5d13445af76/7:19"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8dc762af32e60d1fc01c1731df65c5d13445af76/7:19"
+      }
+    }
+  },
+  {
+    "id": "VariableID:e414ecda73fcc59277f2ff185fc7d4384b53f5f3/14:3",
+    "name": "font/family/base",
+    "type": "STRING",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+    "scopes": [
+      "FONT_FAMILY"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6fa3cf43cccccfc8ed08e56c9b3247aed6df5e15/7:3"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6fa3cf43cccccfc8ed08e56c9b3247aed6df5e15/7:3"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6fa3cf43cccccfc8ed08e56c9b3247aed6df5e15/7:3"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6fa3cf43cccccfc8ed08e56c9b3247aed6df5e15/7:3"
+      }
+    }
+  },
+  {
+    "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27",
+    "name": "font/size/xs",
+    "type": "FLOAT",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema.",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c26effbaf54fa1948c9de49e4e85ebe882da9bdb/8:7"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c26effbaf54fa1948c9de49e4e85ebe882da9bdb/8:7"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c26effbaf54fa1948c9de49e4e85ebe882da9bdb/8:7"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c26effbaf54fa1948c9de49e4e85ebe882da9bdb/8:7"
+      }
+    }
+  },
+  {
+    "id": "VariableID:bc42b776e7baffd38a38005f7d6758c9260c7052/16:103",
+    "name": "color/text/primary",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3b1ab128c11225484ae2c5035484ad8b9b576e01/8:394"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3b1ab128c11225484ae2c5035484ad8b9b576e01/8:394"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3b1ab128c11225484ae2c5035484ad8b9b576e01/8:394"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:3b1ab128c11225484ae2c5035484ad8b9b576e01/8:394"
+      }
+    }
+  },
+  {
+    "id": "VariableID:4c664b84b945c467c10429e3834408bc1cf69cd7/16:123",
+    "name": "color/text/brand",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Color de texto que adopta la identidad principal del modo activo. Úsalo cuando el contenido textual deba comunicar marca, selección o énfasis temático.",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:dd9098f98d79d319fe9586520d177cbb9ca52313/8:339"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b79cdb2602a8238679e21e586da0a41bad3875fe/8:239"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:adbd8fa145cc0c426e11c871dafc8fe93ee5e7bb/8:275"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:70aedeb14c417090a00cf9c8052282d105bedf7e/8:311"
+      }
+    }
+  },
+  {
+    "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111",
+    "name": "color/text/tertiary",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Color de texto de baja jerarquía. Úsalo para información auxiliar cuya presencia deba ser más discreta que el contenido secundario.",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:67d29353362d83825eed51faf0e52e71591e259d/8:378"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:67d29353362d83825eed51faf0e52e71591e259d/8:378"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:67d29353362d83825eed51faf0e52e71591e259d/8:378"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:67d29353362d83825eed51faf0e52e71591e259d/8:378"
+      }
+    }
+  },
+  {
+    "id": "VariableID:a7ba7ef8e52cf1f5940ecbb755563cb3d2d7c8d7/16:247",
+    "name": "color/interactive/ghost/active",
+    "type": "COLOR",
+    "collection": "VariableCollectionId:c04a0ffd54a55af31ee830f9e9f3b519f84a4e57/6:4",
+    "description": "Superficie para el estado activo o presionado de una interacción de tratamiento ghost. Úsala cuando una acción sin fondo persistente necesite revelar temporalmente una superficie de baja intensidad.",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6b091b8ae167a1de5a554daa0b8cb7cb9b9f960b/8:219"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:53d0a04c2d8a113ce2ee5077907965389579fc4a/8:223"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c407673a2b84d56129a06453c4f73c89f0bc01e2/8:259"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:b7ab14e476877ff7f65b2a4a6a21f74cf9565f9b/8:295"
+      }
+    }
+  }
+]

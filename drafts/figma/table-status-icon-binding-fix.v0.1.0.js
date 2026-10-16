@@ -1,0 +1,1 @@
+const n=await figma.getNodeByIdAsync("I546:293;97:201;8899:27923");const v=await figma.variables.getVariableByIdAsync("VariableID:13:44");if(!n||!v||v.name!=="color/feedback/positive/icon")throw new Error("Binding target missing");n.fills=n.fills.map(p=>p.type==="SOLID"?figma.variables.setBoundVariableForPaint(p,"color",v):p);return {mutatedNodeIds:[n.id],variableId:v.id};

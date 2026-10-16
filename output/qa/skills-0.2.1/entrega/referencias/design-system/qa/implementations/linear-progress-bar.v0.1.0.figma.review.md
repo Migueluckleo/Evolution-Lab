@@ -1,0 +1,11 @@
+# QA-LINEAR-PROGRESS-BAR-FIGMA-001
+
+- **Resultado:** `PASS` técnico para [LINEAR-PROGRESS-BAR-001](../../drafts/contracts/linear-progress-bar.contract.v0.1.0.md); destino `VALIDATED`, auditoría humana `PENDING`, set `UNPUBLISHED`.
+- **AC-LPB-001/002:** página `Linear Progress Bars` única en AI Design System, un set con 48/48 combinaciones Type×Size×Progress sin duplicados. En las 48 variantes se leyó ancho de pista 246 px, barra exacta 61.5/123/184.5/246 px y texto 25/50/75/100% concordante. Corrige 36 discordancias visibles del origen.
+- **AC-LPB-003/004:** anchos y pistas 4/8/12 px, componentes Small/Medium/Large de 44/52/56 px sin clipping en la captura destino. Label y Helper text editables, tres booleanas de visibilidad y 240 referencias a propiedades leídas de vuelta; Percentage no es una propiedad TEXT libre. Diferencias +1 px para Medium/Large y nombre Middle→Medium documentadas.
+- **AC-LPB-005/006:** 96/96 paints de frame usan `color/background/progress/*` con `FRAME_FILL` y 144/144 paints de texto usan `color/text/*` con `TEXT_FILL`; 144 textos con cinco bindings tipográficos completos (720 propiedades), 384 bindings de radio y 48 de gap. Cero incompatibilidades de scope/categoría. Cinco variables de progreso coinciden con el JSON en metadatos y 20 aliases a primitivas. El contraste de tramos sobre pista supera 3:1 en los cuatro modos, con mínimo Warning 3.03:1.
+- **AC-LPB-007:** cero reacciones, cero instancias. Capturas fuente y destino del set inspeccionadas a 1034×1402; se conserva la matriz y geometría con las correcciones declaradas. No se certifica valor continuo, animación, teclado, semántica programática ni frontend.
+
+## Evidencia y reproducción
+
+El [estado](../../implementations/figma/linear-progress-bar.v0.1.0.state.json) conserva IDs fuente/destino por orden de snapshot, hashes, conteos y diferencias. [Script de construcción](../../drafts/figma/linear-progress-bar-build.v0.1.0.js) y [lectura QA](../../drafts/figma/linear-progress-bar-final-qa.v0.1.0.js) usan el [snapshot fuente ordenado](../../sources/figma-snapshots/linear-progress-bar.variants.json) sustituyendo el marcador de entrada. La lectura final devolvió `PASS`, cero errores, con cobertura de las 48 variantes.

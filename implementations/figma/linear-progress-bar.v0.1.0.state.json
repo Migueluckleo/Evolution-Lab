@@ -1,0 +1,122 @@
+{
+  "implementationId": "IMP-LINEAR-PROGRESS-BAR-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publication": "UNPUBLISHED",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Linear Progress Bars",
+    "pageId": "220:122",
+    "pageNameOccurrences": 1,
+    "setName": "Linear Progress Bar",
+    "setId": "220:460",
+    "setKey": "c0159fdfa5454c15d0a349a781f14210b547f54d",
+    "variantMapping": {
+      "sourceSnapshot": "sources/figma-snapshots/linear-progress-bar.variants.json",
+      "mappingRule": "variantIds[i] corresponds to sourceSnapshot.variants[i] in immutable snapshot order",
+      "variantIds": [
+        "220:124",
+        "220:131",
+        "220:138",
+        "220:145",
+        "220:152",
+        "220:159",
+        "220:166",
+        "220:173",
+        "220:180",
+        "220:187",
+        "220:194",
+        "220:201",
+        "220:208",
+        "220:215",
+        "220:222",
+        "220:229",
+        "220:236",
+        "220:243",
+        "220:250",
+        "220:257",
+        "220:264",
+        "220:271",
+        "220:278",
+        "220:285",
+        "220:292",
+        "220:299",
+        "220:306",
+        "220:313",
+        "220:320",
+        "220:327",
+        "220:334",
+        "220:341",
+        "220:348",
+        "220:355",
+        "220:362",
+        "220:369",
+        "220:376",
+        "220:383",
+        "220:390",
+        "220:397",
+        "220:404",
+        "220:411",
+        "220:418",
+        "220:425",
+        "220:432",
+        "220:439",
+        "220:446",
+        "220:453"
+      ]
+    }
+  },
+  "contract": {
+    "id": "LINEAR-PROGRESS-BAR-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "aa7b726dab3095110884c4e7eb2c57e9cbcba04d76a61e2a66ed555c2d7f2ece",
+    "baseInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "progressColorDataDigestSha256": "8dfbd5c2952bc47feabbf202687a69da14e60277f250b6493fe4222d5a66472b",
+    "sourceVariantSnapshotDigestSha256": "f191d85d9db708985ae5abe44c4b77a38404fb241018a6dab00593becbe285a1"
+  },
+  "constructionScript": {
+    "path": "drafts/figma/linear-progress-bar-build.v0.1.0.js",
+    "digestSha256": "71b09e2f9ab655653b92cc2706748b8704b1307f66d4ba3b4ac880be6e9f1a6b",
+    "input": "sources/figma-snapshots/linear-progress-bar.variants.json"
+  },
+  "auditScript": {
+    "path": "drafts/figma/linear-progress-bar-final-qa.v0.1.0.js",
+    "digestSha256": "89784a460566194c4bcbc631fae749d41df209e63d029e4390083869a0edc66e",
+    "input": "sources/figma-snapshots/linear-progress-bar.variants.json"
+  },
+  "lastReadback": {
+    "variantCount": 48,
+    "uniqueVariantCombinations": 48,
+    "framePaintsBound": 96,
+    "textPaintsBound": 144,
+    "textsWithCompleteTypographyBindings": 144,
+    "typographyBindings": 720,
+    "componentPropertyReferences": 240,
+    "radiusBindings": 384,
+    "gapBindings": 48,
+    "semanticOrScopeErrors": 0,
+    "prototypeReactionCount": 0,
+    "instanceCount": 0,
+    "visualScreenshotsInspected": [
+      "source Linear Progress Bar set",
+      "target Linear Progress Bar set"
+    ]
+  },
+  "deliberateDifferences": [
+    "36 mismatched percentage labels in source corrected to match each target variant's Progress and fill width",
+    "Source track literal and icon-category fills replaced with background-category semantic roles",
+    "Source middle/large heights 51/55 px become 52/56 px to fit bound 20 px line-height",
+    "Primary in Servicios uses orange/600 rather than orange/500 for segment contrast",
+    "Source size name middle normalized to Medium"
+  ],
+  "colorRefinement": {
+    "date": "2026-10-05",
+    "status": "PASS_TECHNICAL_COLOR_SCOPE",
+    "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+    "state": "implementations/figma/six-family-color.v0.1.0.state.json",
+    "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+    "note": "Supersedes historical color/contrast claims only. Existing geometry/typography deviations and human-audit status remain."
+  }
+}

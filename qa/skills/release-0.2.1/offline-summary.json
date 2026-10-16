@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "Real Next build plus isolated renamed file:// under blocked HTTP(S); no Figma screen construction",
+  "package_version": "0.2.1",
+  "ds_digest": "4205fc48bf65ef7f42f3c51f15402d61c7f5e25ae88850f1a50ccd41fb90bc67",
+  "browser": "149.0.7827.201",
+  "network": "HTTP(S) blocked; isolated renamed file with no neighboring assets",
+  "states": 14,
+  "instances": 10,
+  "family_ids": [
+    "AVATAR-001",
+    "BUTTON-001",
+    "INPUT-FIELD-001",
+    "LOGOS-001",
+    "MODAL-001"
+  ],
+  "sources_verified_against_figma_snapshot": 24,
+  "family_amendments_in_snapshot": 43,
+  "text_runs": 124,
+  "typography_status": "IDENTIFIED",
+  "typography_metric_validation": "NOT_PERFORMED; compare measured metrics and inherited overrides with the canonical recipe before Figma application",
+  "errors": 0,
+  "http_requests": 0,
+  "unmapped_text": 0,
+  "broken_images": 0,
+  "html": {
+    "path": "output/qa/skills-0.2.1/entrega/render.html",
+    "sha256": "09d2e59e405f6b925cbe9c47159f498762a2046d49c1208be684a26a22783d9e",
+    "bytes": 3741671
+  },
+  "markdown": {
+    "path": "output/qa/skills-0.2.1/entrega/replicar-en-figma.md",
+    "sha256": "67a733be2561e5d704df4d5d5bdd92e0535c6c5637b8371a01da6d3f25726ce0",
+    "self_contained_payload_matches": true,
+    "intentional_omission": "Only capture.states[].nodes[].tokens, the repetitive map of all CSS variables; structured identities, typography, source hashes, hierarchy, props, states and measurements are equal."
+  },
+  "archive": {
+    "path": "output/qa/skills-0.2.1/offline-artifacts.zip",
+    "sha256": "ca8217504e042c212c0cfc5c2382343de544ee79bb57eb673dca62a8e327cc6e",
+    "bytes": 14052665,
+    "contains_full_entrega_and_snapshot": true
+  },
+  "visual_review": {
+    "status": "PASS",
+    "scope": "Only Modal Media1440x900 and SideBySide1000x760 inspected; visible content fits modal without observed clipping or overlap. Other12captures not manually reviewed.",
+    "screenshots": {
+      "demo--open--1440x900.png": "9440ca97a40d23766bb428c0b386fb2aebe07af32aebb5fc0b4fecf04608f75c",
+      "demo--side--1000x760.png": "5c38e1980fb9896d3d20206f25de61cb17c68831ae67f94fccf74921aa1a9b48"
+    }
+  },
+  "figma_screen_execution": "NOT_RUN",
+  "native_inheritance_fixture_scope": "Five selected families do not consume native exception; native evidence propagation and rejection separately covered by9handoff unit tests."
+}

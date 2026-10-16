@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_specimen_body_regular_tarjeta_tipogr_fica_body_regular",
+      "label": "Tarjeta tipográfica Body Regular",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Composición inspeccionada directamente en la imagen. Evidencia de apariencia visible; no acredita aprobación, contrato, bindings ni funcionamiento interactivo."
+    },
+    {
+      "id": "qa_implementations_typography_specimen_body_regular_muestra_de_lectura_body_regular",
+      "label": "Muestra de lectura Body Regular",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "La tarjeta muestra la frase «La información clara facilita cada decisión.» en una sola línea."
+    },
+    {
+      "id": "qa_implementations_typography_specimen_body_regular_leyenda_manrope_regular_14",
+      "label": "Leyenda Manrope Regular 14",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "La leyenda visible declara Manrope Regular, peso400, tamaño14px, interlínea160% y tracking−2%; la imagen no acredita bindings ni permite comprobar los valores internos."
+    },
+    {
+      "id": "qa_implementations_typography_specimen_body_regular_gu_a_visible_de_texto_continuo",
+      "label": "Guía visible de texto continuo",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "La descripción indica lectura, descripción y contenido continuo de interfaz; desaconseja títulos de sección y ajustar la interlínea por instancia para restricciones que requieren otro estilo."
+    },
+    {
+      "id": "qa_implementations_typography_specimen_body_regular_composici_n_vertical_de_la_tarjeta",
+      "label": "Composición vertical de la tarjeta",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "provenance": "OBSERVED",
+      "observation": "Nombre, muestra, métricas, ID body-regular y descripción aparecen apilados sobre un fondo gris claro con esquinas redondeadas, sin recorte visible."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_specimen_body_regular_tarjeta_tipogr_fica_body_regular",
+      "target": "qa_implementations_typography_specimen_body_regular_muestra_de_lectura_body_regular",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_specimen_body_regular_tarjeta_tipogr_fica_body_regular",
+      "target": "qa_implementations_typography_specimen_body_regular_leyenda_manrope_regular_14",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_specimen_body_regular_tarjeta_tipogr_fica_body_regular",
+      "target": "qa_implementations_typography_specimen_body_regular_gu_a_visible_de_texto_continuo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_specimen_body_regular_tarjeta_tipogr_fica_body_regular",
+      "target": "qa_implementations_typography_specimen_body_regular_composici_n_vertical_de_la_tarjeta",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/specimen.body-regular.png",
+      "source_location": null,
+      "weight": 1,
+      "provenance": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

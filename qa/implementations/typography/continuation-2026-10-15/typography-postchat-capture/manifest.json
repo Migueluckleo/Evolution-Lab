@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_READ_ONLY_NOT_EXECUTED",
+  "page": {
+    "id": "783:6",
+    "name": "Chat"
+  },
+  "auditSource": "implementations/figma/typography.v0.1.1.audit.js",
+  "auditSha256": "e7a7c2ce196aca31951af2761de4fd43bfede5da8a445600af56b7ddec4959ae",
+  "priorCensus": {
+    "path": "sources/figma-snapshots/typography/census.after.v0.1.1.783-6.json",
+    "sha256": "139f282c27b279497584496cf99ed6ccc274b605f8f55d5b89dce4dc98110f96"
+  },
+  "correction": {
+    "path": "qa/implementations/typography/consumption-v0.1.1/chat72.apply.json",
+    "sha256": "ddd72aa68470a5b3a076347406b0f56adf63b63de864ac8bae819d40e6bec978"
+  },
+  "expectedParts": 3,
+  "policy": "Capture part0 first; verify actual parts metadata before using parts1/2. No writes until every part is saved. Preserve original34census unchanged.",
+  "requests": [
+    {
+      "part": 0,
+      "script": "/tmp/typography-postchat-capture/783-6-part-000.js",
+      "sha256": "0d57c0defbaa9960b2bbf0bfcd6127b659384bc8480b1812aeba33f0c1a54c77",
+      "bytes": 4806
+    },
+    {
+      "part": 1,
+      "script": "/tmp/typography-postchat-capture/783-6-part-001.js",
+      "sha256": "8a45d38d504b860f32bfda07abcc0de1ab8bde3321a08da92b9e39e811b20ef5",
+      "bytes": 4806
+    },
+    {
+      "part": 2,
+      "script": "/tmp/typography-postchat-capture/783-6-part-002.js",
+      "sha256": "0b59aba2a2420a7e5051f7f894a57d853e4ef03cd659bf266530a7f52bf4591a",
+      "bytes": 4806
+    }
+  ],
+  "output": "sources/figma-snapshots/typography/postchat/census.after.v0.1.1.783-6.json"
+}

@@ -1,0 +1,22 @@
+{
+  "operation": "TABLE_FULL_PAGE_DRY_RUN",
+  "result": "TOOL_TIMEOUT",
+  "writesExecuted": false,
+  "writeExclusion": "Submitted script returned before its mutation loop; intended call contained no reachable canvas writes.",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "tool call error: tool call failed for `codex_apps/figma.use_figma`\n\nCaused by:\n    Mcp error: -32603: MCP request timed out"
+      }
+    ],
+    "isError": true
+  },
+  "sourceScript": "/tmp/typography-page-guard-calls/546-122.0.js",
+  "scope": {
+    "pageId": "546:122",
+    "allNodes": 13371,
+    "texts": 1481
+  },
+  "next": "Optimize read cost while retaining whole-page coverage."
+}

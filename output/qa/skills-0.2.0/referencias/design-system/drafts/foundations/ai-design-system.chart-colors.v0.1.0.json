@@ -1,0 +1,239 @@
+{
+  "extensionId": "FOUNDATIONS-CHART-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "variables": [
+    {
+      "name": "color/background/chart/bar",
+      "resolvedType": "COLOR",
+      "description": "Fondo de barra de datos de Chart Cell; no se usa como texto, icono o pista.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/500",
+          "targetId": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/500",
+          "targetId": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/500",
+          "targetId": "VariableID:8:80"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/progress",
+      "resolvedType": "COLOR",
+      "description": "Forma de avance completado en gráficos de progreso lineales y semicirculares; no codifica por sí sola éxito o fracaso.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/500",
+          "targetId": "VariableID:8:88"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/600",
+          "targetId": "VariableID:8:63"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/700",
+          "targetId": "VariableID:8:73"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/600",
+          "targetId": "VariableID:8:81"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/track",
+      "resolvedType": "COLOR",
+      "description": "Forma del tramo restante en gráficos de progreso y su swatch de leyenda; acento suave de cada modo, separado visualmente del avance.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/300",
+          "targetId": "VariableID:8:86"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/300",
+          "targetId": "VariableID:8:60"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/400",
+          "targetId": "VariableID:8:70"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/300",
+          "targetId": "VariableID:8:78"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/legend-neutral",
+      "resolvedType": "COLOR",
+      "description": "Swatch neutral de ejemplo en Chart Legend Label antes de asignar una serie; solo shape de leyenda.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/500",
+          "targetId": "VariableID:8:97"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/500",
+          "targetId": "VariableID:8:97"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/500",
+          "targetId": "VariableID:8:97"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/500",
+          "targetId": "VariableID:8:97"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/series-1",
+      "resolvedType": "COLOR",
+      "description": "Swatch de la primera serie de Chart Header, de énfasis fuerte por modo.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/500",
+          "targetId": "VariableID:8:88"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/600",
+          "targetId": "VariableID:8:63"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/700",
+          "targetId": "VariableID:8:73"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/600",
+          "targetId": "VariableID:8:81"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/series-2",
+      "resolvedType": "COLOR",
+      "description": "Swatch de la segunda serie de Chart Header; acento medio calibrado para conservar diferenciación sobre blanco.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/300",
+          "targetId": "VariableID:8:86"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/400",
+          "targetId": "VariableID:8:61"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/600",
+          "targetId": "VariableID:8:72"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        }
+      }
+    },
+    {
+      "name": "color/shape/chart/series-3",
+      "resolvedType": "COLOR",
+      "description": "Swatch de la tercera serie de Chart Header; acento base de cada modo.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/green/500",
+          "targetId": "VariableID:8:62"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/orange/500",
+          "targetId": "VariableID:8:71"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/500",
+          "targetId": "VariableID:8:80"
+        }
+      }
+    }
+  ]
+}

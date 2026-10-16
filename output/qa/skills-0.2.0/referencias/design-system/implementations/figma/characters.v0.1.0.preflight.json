@@ -1,0 +1,468 @@
+{
+  "pages": [
+    {
+      "id": "165:198",
+      "name": "Avatars"
+    },
+    {
+      "id": "94:122",
+      "name": "Badges"
+    },
+    {
+      "id": "190:188",
+      "name": "Breadcrumbs"
+    },
+    {
+      "id": "0:1",
+      "name": "Buttons"
+    },
+    {
+      "id": "210:122",
+      "name": "Charts"
+    },
+    {
+      "id": "149:122",
+      "name": "Checkboxes"
+    },
+    {
+      "id": "67:122",
+      "name": "Chips"
+    },
+    {
+      "id": "155:122",
+      "name": "Dots"
+    },
+    {
+      "id": "639:128",
+      "name": "Empty states"
+    },
+    {
+      "id": "518:122",
+      "name": "Headers"
+    },
+    {
+      "id": "183:160",
+      "name": "Icon Buttons"
+    },
+    {
+      "id": "175:391",
+      "name": "Inline Notifications"
+    },
+    {
+      "id": "394:122",
+      "name": "Input Fields"
+    },
+    {
+      "id": "220:122",
+      "name": "Linear Progress Bars"
+    },
+    {
+      "id": "377:122",
+      "name": "Loaders"
+    },
+    {
+      "id": "427:122",
+      "name": "Logos"
+    },
+    {
+      "id": "202:208",
+      "name": "Metric Cards"
+    },
+    {
+      "id": "565:122",
+      "name": "Modal"
+    },
+    {
+      "id": "275:122",
+      "name": "Navigation"
+    },
+    {
+      "id": "142:122",
+      "name": "Radio Buttons"
+    },
+    {
+      "id": "328:122",
+      "name": "Scrollbars"
+    },
+    {
+      "id": "444:122",
+      "name": "Select"
+    },
+    {
+      "id": "614:125",
+      "name": "Sidebar"
+    },
+    {
+      "id": "341:122",
+      "name": "Steps"
+    },
+    {
+      "id": "347:122",
+      "name": "Steppers"
+    },
+    {
+      "id": "546:122",
+      "name": "Table"
+    },
+    {
+      "id": "111:122",
+      "name": "Toggles"
+    },
+    {
+      "id": "85:122",
+      "name": "Tooltips"
+    },
+    {
+      "id": "737:303",
+      "name": "App Shell"
+    },
+    {
+      "id": "765:6",
+      "name": "Conversation"
+    },
+    {
+      "id": "783:6",
+      "name": "Chat"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:7:3",
+      "name": "font/weight/regular",
+      "resolvedType": "STRING",
+      "description": "Peso tipográfico primitivo de menor énfasis dentro del conjunto disponible. Sirve como valor fuente para aliases semánticos que necesiten una presencia tipográfica neutral.",
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:4": "regular"
+      },
+      "collection": "VariableCollectionId:6:3"
+    },
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "resolvedType": "STRING",
+      "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:2"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "resolvedType": "STRING",
+      "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable.",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:7:3"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "resolvedType": "FLOAT",
+      "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo.",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:4"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "resolvedType": "FLOAT",
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "resolvedType": "COLOR",
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "resolvedType": "COLOR",
+      "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      },
+      "collection": "VariableCollectionId:6:2"
+    },
+    {
+      "id": "VariableID:773:275",
+      "name": "color/characters/beni/body",
+      "resolvedType": "COLOR",
+      "description": "Color original e invariable del cuerpo de BENI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-characters-beni-body)"
+      },
+      "valuesByMode": {
+        "773:0": {
+          "r": 0.2549019753932953,
+          "g": 0.3450980484485626,
+          "b": 0.6078431606292725,
+          "a": 1
+        }
+      },
+      "collection": "VariableCollectionId:773:274"
+    },
+    {
+      "id": "VariableID:773:276",
+      "name": "color/characters/navi/body",
+      "resolvedType": "COLOR",
+      "description": "Color original e invariable del cuerpo de NAVI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-characters-navi-body)"
+      },
+      "valuesByMode": {
+        "773:0": {
+          "r": 0.9607843160629272,
+          "g": 0.5137255191802979,
+          "b": 0.25882354378700256,
+          "a": 1
+        }
+      },
+      "collection": "VariableCollectionId:773:274"
+    },
+    {
+      "id": "VariableID:773:277",
+      "name": "color/characters/shared/features",
+      "resolvedType": "COLOR",
+      "description": "Color original compartido de ojos y rasgos de BENI y NAVI. Uso exclusivo en ambos personajes; no es texto, fondo ni iconografía funcional temática.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-characters-shared-features)"
+      },
+      "valuesByMode": {
+        "773:0": {
+          "r": 0.8941176533699036,
+          "g": 0.8980392217636108,
+          "b": 0.9019607901573181,
+          "a": 1
+        }
+      },
+      "collection": "VariableCollectionId:773:274"
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:3",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:4"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:495:122",
+      "name": "component-state/pagination",
+      "modes": [
+        {
+          "name": "Enabled",
+          "modeId": "495:0"
+        },
+        {
+          "name": "Disabled",
+          "modeId": "495:1"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:773:274",
+      "name": "character-identity",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "773:0"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Manrope",
+      "style": "Bold"
+    },
+    {
+      "family": "Manrope",
+      "style": "ExtraBold"
+    },
+    {
+      "family": "Manrope",
+      "style": "ExtraLight"
+    },
+    {
+      "family": "Manrope",
+      "style": "Light"
+    },
+    {
+      "family": "Manrope",
+      "style": "Medium"
+    },
+    {
+      "family": "Manrope",
+      "style": "Regular"
+    },
+    {
+      "family": "Manrope",
+      "style": "SemiBold"
+    }
+  ]
+}

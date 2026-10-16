@@ -1,0 +1,1757 @@
+{
+  "page": {
+    "id": "149:122",
+    "name": "Checkboxes"
+  },
+  "sets": [
+    {
+      "id": "149:199",
+      "name": "Checkbox",
+      "description": "Control visual Selected, Indeterminate o Unselected con estados Default, Hover, Focus y Disabled. Etiquetas opcionales editables y ocultas por defecto. La selección funcional, el grupo y el nombre accesible deben definirse en producto.",
+      "properties": {
+        "Left label#149:48": {
+          "type": "TEXT",
+          "defaultValue": "Field Label"
+        },
+        "Right label#149:49": {
+          "type": "TEXT",
+          "defaultValue": "Field Label"
+        },
+        "Show left label#149:50": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right label#149:51": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Selection": {
+          "type": "VARIANT",
+          "defaultValue": "Selected",
+          "variantOptions": [
+            "Selected",
+            "Indeterminate",
+            "Unselected"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled"
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "t": "COMPONENT_SET",
+      "w": 432,
+      "h": 296,
+      "v": true,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "componentPropertyReferences": null,
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "COMPONENT",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        }
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 0,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show left label#149:50",
+        "characters": "Left label#149:48"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:27"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "FRAME",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "x": 0,
+      "y": 0,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:122"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:122"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "INSTANCE",
+      "w": 12,
+      "h": 12,
+      "v": true,
+      "x": 6,
+      "y": 6,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "width": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:21"
+        },
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:21"
+        }
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "VECTOR",
+      "w": 9.173468589782715,
+      "h": 6.555237293243408,
+      "v": true,
+      "x": 1.600765585899353,
+      "y": 3.1007652282714844,
+      "strokeWeight": 0.125,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:23"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:23"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 32,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show right label#149:51",
+        "characters": "Right label#149:49"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:27"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:123"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:123"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:122"
+          }
+        ],
+        "effects": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:122"
+          },
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:123"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:122"
+            }
+          },
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:123"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:122"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 0,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show left label#149:50",
+        "characters": "Left label#149:48"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:30"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:38"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:38"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 32,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show right label#149:51",
+        "characters": "Right label#149:49"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:30"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "VECTOR",
+      "w": 9,
+      "h": 0.75,
+      "v": true,
+      "x": 1.5,
+      "y": 5.625,
+      "strokeWeight": 0.125,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:23"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:23"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:123:122"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:123:122"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:19"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:19"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "OUTSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:123:122"
+          }
+        ],
+        "effects": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:122"
+          },
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:123"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:122"
+            }
+          },
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:123"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:123:122"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "RECTANGLE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 4,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:5"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:17"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:17"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    [
+      "149:199",
+      "Checkbox",
+      null,
+      0
+    ],
+    [
+      "149:123",
+      "Selection=Selected, State=Default",
+      "149:199",
+      1
+    ],
+    [
+      "149:124",
+      "Left label",
+      "149:123",
+      2
+    ],
+    [
+      "149:125",
+      "Checkbox indicator",
+      "149:123",
+      3
+    ],
+    [
+      "149:126",
+      "Selected box",
+      "149:125",
+      4
+    ],
+    [
+      "149:127",
+      "Check",
+      "149:125",
+      5
+    ],
+    [
+      "I149:127;8899:43390",
+      "Vector",
+      "149:127",
+      6
+    ],
+    [
+      "149:129",
+      "Right label",
+      "149:123",
+      7
+    ],
+    [
+      "149:130",
+      "Selection=Selected, State=Hover",
+      "149:199",
+      1
+    ],
+    [
+      "149:131",
+      "Left label",
+      "149:130",
+      2
+    ],
+    [
+      "149:132",
+      "Checkbox indicator",
+      "149:130",
+      3
+    ],
+    [
+      "149:133",
+      "Selected box",
+      "149:132",
+      8
+    ],
+    [
+      "149:134",
+      "Check",
+      "149:132",
+      5
+    ],
+    [
+      "I149:134;8899:43390",
+      "Vector",
+      "149:134",
+      6
+    ],
+    [
+      "149:136",
+      "Right label",
+      "149:130",
+      7
+    ],
+    [
+      "149:137",
+      "Selection=Selected, State=Focus",
+      "149:199",
+      1
+    ],
+    [
+      "149:138",
+      "Left label",
+      "149:137",
+      2
+    ],
+    [
+      "149:139",
+      "Checkbox indicator",
+      "149:137",
+      3
+    ],
+    [
+      "149:140",
+      "Selected box",
+      "149:139",
+      9
+    ],
+    [
+      "149:141",
+      "Check",
+      "149:139",
+      5
+    ],
+    [
+      "I149:141;8899:43390",
+      "Vector",
+      "149:141",
+      6
+    ],
+    [
+      "149:143",
+      "Right label",
+      "149:137",
+      7
+    ],
+    [
+      "149:144",
+      "Selection=Selected, State=Disabled",
+      "149:199",
+      1
+    ],
+    [
+      "149:145",
+      "Left label",
+      "149:144",
+      10
+    ],
+    [
+      "149:146",
+      "Checkbox indicator",
+      "149:144",
+      3
+    ],
+    [
+      "149:147",
+      "Selected box",
+      "149:146",
+      11
+    ],
+    [
+      "149:148",
+      "Check",
+      "149:146",
+      5
+    ],
+    [
+      "I149:148;8899:43390",
+      "Vector",
+      "149:148",
+      6
+    ],
+    [
+      "149:150",
+      "Right label",
+      "149:144",
+      12
+    ],
+    [
+      "149:151",
+      "Selection=Indeterminate, State=Default",
+      "149:199",
+      1
+    ],
+    [
+      "149:152",
+      "Left label",
+      "149:151",
+      2
+    ],
+    [
+      "149:153",
+      "Checkbox indicator",
+      "149:151",
+      3
+    ],
+    [
+      "149:154",
+      "Selected box",
+      "149:153",
+      4
+    ],
+    [
+      "149:155",
+      "Minus",
+      "149:153",
+      5
+    ],
+    [
+      "I149:155;8899:51807",
+      "Vector",
+      "149:155",
+      13
+    ],
+    [
+      "149:157",
+      "Right label",
+      "149:151",
+      7
+    ],
+    [
+      "149:158",
+      "Selection=Indeterminate, State=Hover",
+      "149:199",
+      1
+    ],
+    [
+      "149:159",
+      "Left label",
+      "149:158",
+      2
+    ],
+    [
+      "149:160",
+      "Checkbox indicator",
+      "149:158",
+      3
+    ],
+    [
+      "149:161",
+      "Selected box",
+      "149:160",
+      8
+    ],
+    [
+      "149:162",
+      "Minus",
+      "149:160",
+      5
+    ],
+    [
+      "I149:162;8899:51807",
+      "Vector",
+      "149:162",
+      13
+    ],
+    [
+      "149:164",
+      "Right label",
+      "149:158",
+      7
+    ],
+    [
+      "149:165",
+      "Selection=Indeterminate, State=Focus",
+      "149:199",
+      1
+    ],
+    [
+      "149:166",
+      "Left label",
+      "149:165",
+      2
+    ],
+    [
+      "149:167",
+      "Checkbox indicator",
+      "149:165",
+      3
+    ],
+    [
+      "149:168",
+      "Selected box",
+      "149:167",
+      9
+    ],
+    [
+      "149:169",
+      "Minus",
+      "149:167",
+      5
+    ],
+    [
+      "I149:169;8899:51807",
+      "Vector",
+      "149:169",
+      13
+    ],
+    [
+      "149:171",
+      "Right label",
+      "149:165",
+      7
+    ],
+    [
+      "149:172",
+      "Selection=Indeterminate, State=Disabled",
+      "149:199",
+      1
+    ],
+    [
+      "149:173",
+      "Left label",
+      "149:172",
+      10
+    ],
+    [
+      "149:174",
+      "Checkbox indicator",
+      "149:172",
+      3
+    ],
+    [
+      "149:175",
+      "Selected box",
+      "149:174",
+      11
+    ],
+    [
+      "149:176",
+      "Minus",
+      "149:174",
+      5
+    ],
+    [
+      "I149:176;8899:51807",
+      "Vector",
+      "149:176",
+      13
+    ],
+    [
+      "149:178",
+      "Right label",
+      "149:172",
+      12
+    ],
+    [
+      "149:179",
+      "Selection=Unselected, State=Default",
+      "149:199",
+      1
+    ],
+    [
+      "149:180",
+      "Left label",
+      "149:179",
+      2
+    ],
+    [
+      "149:181",
+      "Checkbox indicator",
+      "149:179",
+      3
+    ],
+    [
+      "149:182",
+      "Unselected outline",
+      "149:181",
+      14
+    ],
+    [
+      "149:183",
+      "Right label",
+      "149:179",
+      7
+    ],
+    [
+      "149:184",
+      "Selection=Unselected, State=Hover",
+      "149:199",
+      1
+    ],
+    [
+      "149:185",
+      "Left label",
+      "149:184",
+      2
+    ],
+    [
+      "149:186",
+      "Checkbox indicator",
+      "149:184",
+      3
+    ],
+    [
+      "149:187",
+      "Unselected outline",
+      "149:186",
+      15
+    ],
+    [
+      "149:188",
+      "Right label",
+      "149:184",
+      7
+    ],
+    [
+      "149:189",
+      "Selection=Unselected, State=Focus",
+      "149:199",
+      1
+    ],
+    [
+      "149:190",
+      "Left label",
+      "149:189",
+      2
+    ],
+    [
+      "149:191",
+      "Checkbox indicator",
+      "149:189",
+      3
+    ],
+    [
+      "149:192",
+      "Unselected outline",
+      "149:191",
+      16
+    ],
+    [
+      "149:193",
+      "Right label",
+      "149:189",
+      7
+    ],
+    [
+      "149:194",
+      "Selection=Unselected, State=Disabled",
+      "149:199",
+      1
+    ],
+    [
+      "149:195",
+      "Left label",
+      "149:194",
+      10
+    ],
+    [
+      "149:196",
+      "Checkbox indicator",
+      "149:194",
+      3
+    ],
+    [
+      "149:197",
+      "Unselected outline",
+      "149:196",
+      17
+    ],
+    [
+      "149:198",
+      "Right label",
+      "149:194",
+      12
+    ]
+  ],
+  "instances": [
+    {
+      "id": "149:127",
+      "main": "148:125",
+      "key": "b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d"
+    },
+    {
+      "id": "149:134",
+      "main": "148:125",
+      "key": "b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d"
+    },
+    {
+      "id": "149:141",
+      "main": "148:125",
+      "key": "b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d"
+    },
+    {
+      "id": "149:148",
+      "main": "148:125",
+      "key": "b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d"
+    },
+    {
+      "id": "149:155",
+      "main": "148:156",
+      "key": "10ad6c579ecb00c883f839281ca2ad812962a324"
+    },
+    {
+      "id": "149:162",
+      "main": "148:156",
+      "key": "10ad6c579ecb00c883f839281ca2ad812962a324"
+    },
+    {
+      "id": "149:169",
+      "main": "148:156",
+      "key": "10ad6c579ecb00c883f839281ca2ad812962a324"
+    },
+    {
+      "id": "149:176",
+      "main": "148:156",
+      "key": "10ad6c579ecb00c883f839281ca2ad812962a324"
+    }
+  ]
+}

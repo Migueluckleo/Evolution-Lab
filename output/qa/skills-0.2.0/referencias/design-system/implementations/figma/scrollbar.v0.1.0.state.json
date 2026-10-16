@@ -1,0 +1,60 @@
+{
+  "implementationId": "IMP-SCROLLBAR-FIGMA-001",
+  "runId": "legacy-scrollbar-2026-09-24",
+  "status": "STALE",
+  "supersededBy": "implementations/figma/scrollbar.v0.1.1.state.json",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "contract": {
+    "id": "SCROLLBAR-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "path": "specs/scrollbar.contract.v0.1.0.md"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "3910:928",
+    "mainSetId": "7664:49488",
+    "internalSetIds": ["7706:49949", "7706:50034", "7706:50119", "7706:50204"],
+    "sourceContract": "drafts/contracts/scrollbar.source.component-contract.yaml"
+  },
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Scrollbars",
+    "pageId": "328:122",
+    "mainSetId": "330:194",
+    "mainVariantIds": ["330:170", "330:173", "330:176", "330:179", "330:182", "330:185", "330:188", "330:191"],
+    "internalSets": [
+      {"name": "Scrollbar Thumb / 25%", "id": "329:138", "variantIds": ["329:122", "329:124", "329:126", "329:128", "329:130", "329:132", "329:134", "329:136"]},
+      {"name": "Scrollbar Thumb / 33%", "id": "330:151", "variantIds": ["330:139", "330:141", "330:143", "330:145", "330:147", "330:149"]},
+      {"name": "Scrollbar Thumb / 50%", "id": "330:160", "variantIds": ["330:152", "330:154", "330:156", "330:158"]},
+      {"name": "Scrollbar Thumb / 75%", "id": "330:169", "variantIds": ["330:161", "330:163", "330:165", "330:167"]}
+    ]
+  },
+  "tokenBindings": {
+    "primitiveColor": "VariableID:327:122",
+    "semanticThumbFill": "VariableID:327:123",
+    "thumbRadius": "VariableID:13:11",
+    "padding": "VariableID:12:29"
+  },
+  "completedSteps": ["P1", "P2", "P3", "P4"],
+  "lastReadback": {
+    "setCount": 5,
+    "publicVariantCount": 8,
+    "internalVariantCount": 22,
+    "thumbPaintCount": 30,
+    "boundThumbPaintCount": 30,
+    "nestedInstanceCount": 8,
+    "semanticOrScopeIssues": 0,
+    "reactionCount": 0,
+    "publicPropertyTest": "PASS",
+    "internalPropertyTests": 3,
+    "visualReview": "PASS; original color and public geometry retained"
+  },
+  "knownLimits": [
+    "The source label 75% corresponds to a 240/272 (about 88.24%) public thumb, not a calculated percentage.",
+    "Internal positional components were normalized from 280px source tracks to the 272px public track; horizontal geometry no longer uses rotation.",
+    "No functional scrolling, dragging, keyboard behavior, ARIA or web accessibility is implemented."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "amendmentId": "FOUNDATIONS-HEADER-RELEASE-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {"name":"color/icon/header-caret-stroke","targetId":"VariableID:516:124","collection":"semantic","resolvedType":"COLOR","description":"Trazo del indicador de apertura del perfil en Header. Conserva neutral/900 de la fuente sin aplicar roles de texto ni ampliar scopes de tokens existentes.","scopes":["STROKE_COLOR"],"codeSyntax":{},"valuesByMode":{"6:0":{"type":"VARIABLE_ALIAS","name":"color/neutral/900","targetId":"VariableID:8:101"},"6:1":{"type":"VARIABLE_ALIAS","name":"color/neutral/900","targetId":"VariableID:8:101"},"6:2":{"type":"VARIABLE_ALIAS","name":"color/neutral/900","targetId":"VariableID:8:101"},"6:3":{"type":"VARIABLE_ALIAS","name":"color/neutral/900","targetId":"VariableID:8:101"}}},
+    {
+      "name": "color/background/header-release-start",
+      "targetId": "VariableID:516:122",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Extremo inicial del fondo degradado de la etiqueta de versión preliminar en Header. Acento de estado de versión, independiente de categoría; alias a primitiva existente, no color de texto ni de icono.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/purple/400",
+          "targetId": "VariableID:8:79"
+        }
+      },
+      "approximation": {
+        "sourceHex": "#844AEC",
+        "targetHex": "#A146FB",
+        "selection": "Menor distancia euclidiana RGB entre primitivas de color aprobadas; no equivalencia exacta."
+      }
+    },
+    {
+      "name": "color/background/header-release-end",
+      "targetId": "VariableID:516:123",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Extremo final del fondo degradado de la etiqueta de versión preliminar en Header. Acento de estado de versión, independiente de categoría; alias a primitiva existente, no color de texto ni de icono.",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/blue/400",
+          "targetId": "VariableID:8:87"
+        }
+      },
+      "approximation": {
+        "sourceHex": "#2868FD",
+        "targetHex": "#3255F7",
+        "selection": "Menor distancia euclidiana RGB entre primitivas de color aprobadas; no equivalencia exacta."
+      }
+    }
+  ]
+}

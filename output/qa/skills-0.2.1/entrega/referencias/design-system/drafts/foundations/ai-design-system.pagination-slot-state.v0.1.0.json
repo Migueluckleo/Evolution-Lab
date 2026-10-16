@@ -1,0 +1,216 @@
+{
+  "amendmentId": "FOUNDATIONS-PAGINATION-SLOT-STATE-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "component-state/pagination",
+    "targetId": "VariableCollectionId:495:122",
+    "modes": [
+      {
+        "name": "Enabled",
+        "targetId": "495:0"
+      },
+      {
+        "name": "Disabled",
+        "targetId": "495:1"
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "color/background/pagination/page/default",
+      "targetId": "VariableID:495:123",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Fondo de página normal de Pagination; adopta el fondo deshabilitado del anfitrión sin perder el tema.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/background/default",
+          "targetId": "VariableID:13:35"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/background/subtle",
+          "targetId": "VariableID:13:36"
+        }
+      }
+    },
+    {
+      "name": "color/background/pagination/page/active",
+      "targetId": "VariableID:495:124",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Fondo de página activa de Pagination; se neutraliza cuando el anfitrión está deshabilitado.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/surface/brand",
+          "targetId": "VariableID:13:69"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/background/subtle",
+          "targetId": "VariableID:13:36"
+        }
+      }
+    },
+    {
+      "name": "color/background/pagination/page/hover",
+      "targetId": "VariableID:495:125",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Fondo hover de página de Pagination; conserva el fondo neutro en Disabled.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/background/subtle",
+          "targetId": "VariableID:13:36"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/background/subtle",
+          "targetId": "VariableID:13:36"
+        }
+      }
+    },
+    {
+      "name": "color/border/pagination/page/default",
+      "targetId": "VariableID:495:126",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde de página normal de Pagination por tema; adopta el borde deshabilitado del anfitrión.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/border/pagination/subtle",
+          "targetId": "VariableID:290:122"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/border/default",
+          "targetId": "VariableID:13:13"
+        }
+      }
+    },
+    {
+      "name": "color/border/pagination/page/active",
+      "targetId": "VariableID:495:127",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde de página activa de Pagination por tema; se neutraliza en Disabled.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/border/brand",
+          "targetId": "VariableID:13:16"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/border/default",
+          "targetId": "VariableID:13:13"
+        }
+      }
+    },
+    {
+      "name": "color/border/pagination/page/focus",
+      "targetId": "VariableID:495:128",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde de foco de página de Pagination; pierde el foco visual cuando el anfitrión está deshabilitado.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/focus/ring",
+          "targetId": "VariableID:13:71"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/border/default",
+          "targetId": "VariableID:13:13"
+        }
+      }
+    },
+    {
+      "name": "color/text/pagination/page/default",
+      "targetId": "VariableID:495:129",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Texto de páginas y elipsis de Pagination; hereda Disabled sin reemplazar contenido personalizado.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/text/primary",
+          "targetId": "VariableID:13:27"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/text/disabled",
+          "targetId": "VariableID:13:30"
+        }
+      }
+    },
+    {
+      "name": "color/text/pagination/page/active",
+      "targetId": "VariableID:495:130",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Texto de página activa de Pagination por tema; adopta texto disabled en el anfitrión deshabilitado.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/text/brand",
+          "targetId": "VariableID:13:32"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/text/disabled",
+          "targetId": "VariableID:13:30"
+        }
+      }
+    },
+    {
+      "name": "stroke/pagination/page/focus",
+      "targetId": "VariableID:495:131",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Grosor de foco de página de Pagination: se neutraliza al grosor normal cuando el anfitrión está deshabilitado.",
+      "valuesByMode": {
+        "Enabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "stroke/md",
+          "targetId": "VariableID:13:3"
+        },
+        "Disabled": {
+          "type": "VARIABLE_ALIAS",
+          "name": "stroke/xs",
+          "targetId": "VariableID:12:41"
+        }
+      }
+    }
+  ]
+}

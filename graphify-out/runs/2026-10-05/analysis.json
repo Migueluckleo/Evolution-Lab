@@ -1,0 +1,151 @@
+{
+  "nodes": 3958,
+  "edges": 8588,
+  "communities": 326,
+  "gods": [
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variable_valuesbymode",
+      "label": "valuesByMode",
+      "degree": 30
+    },
+    {
+      "id": "drafts_contracts_button_contract_contrato_candidato_button",
+      "label": "Contrato candidato: Button",
+      "degree": 25
+    },
+    {
+      "id": "specs_components_button_contract_contrato_aprobado_button",
+      "label": "Contrato aprobado: Button",
+      "degree": 25
+    },
+    {
+      "id": "drafts_contracts_filter_chip_contract_filter_chip",
+      "label": "Filter Chip",
+      "degree": 25
+    },
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variables",
+      "label": "variables",
+      "degree": 24
+    },
+    {
+      "id": "drafts_contracts_checkbox_contract_v0_1_0_checkbox_contrato_de_reconstrucción_0_1_0",
+      "label": "Checkbox · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_icon_button_contract_v0_1_0_icon_button_contrato_de_reconstrucción_0_1_0",
+      "label": "Icon Button · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_avatar_contract_v0_1_0_avatar_contrato_de_reconstrucción_0_1_0",
+      "label": "Avatar · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_breadcrumbs_contract_v0_1_0_breadcrumbs_contrato_de_reconstrucción_0_1_0",
+      "label": "Breadcrumbs · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_button_contract_v0_2_0_button_revisión_candidata_0_2_0",
+      "label": "Button · revisión candidata 0.2.0",
+      "degree": 23
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Header y Slot construidos: gates de descubrimiento históricos, no tareas activas",
+      "target": "Header: gates previos satisfechos y contrato promovido a specs",
+      "source_files": [
+        "drafts/reports/header.discovery.v0.1.0.md",
+        "qa/contracts/header.v0.1.0.review.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Handoff Table · construido, no pendiente de reconstrucción",
+      "target": "Table Anticipa · PASS técnico acotado",
+      "source_files": [
+        "registry/SESSION-HANDOFF-2026-10-01-TABLE.md",
+        "qa/implementations/table.v0.1.0.figma.review.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `Handoff Table · construido, no pendiente de reconstrucción` unexpectedly reaches hub `Table Anticipa · PASS técnico acotado`"
+    },
+    {
+      "source": "Slots handoff 29 September historical",
+      "target": "Slots de composición · enmienda 0.1.0",
+      "source_files": [
+        "registry/SESSION-HANDOFF-2026-09-29-SLOTS.md",
+        "specs/composition-slots.amendment.v0.1.0.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Composition Slots documentary QA 0.1.1",
+      "target": "P-SLOTS 0.1.0 native Slots review and implementation",
+      "source_files": [
+        "qa/contracts/composition-slots.v0.1.1.review.md",
+        "protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Badge · restauración de colores fuente 0.1.2",
+      "target": "Badge source color documentary QA 0.1.2",
+      "source_files": [
+        "specs/components/badge.source-color-amendment.v0.1.2.md",
+        "qa/contracts/badge.source-color-amendment.v0.1.2.review.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Badge source color documentary QA 0.1.2` unexpectedly reaches hub `Badge · restauración de colores fuente 0.1.2`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Environment and Tools Protocol` connect `Documentation Sources` to `Graph Operations`, `Query`?",
+      "why": "High betweenness centrality (0.015) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Graphify` connect `Query` to `Documentation Sources`?",
+      "why": "High betweenness centrality (0.015) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Check Minus y helper locales`, `Checkbox fuente: doce variantes y 24 etiquetas ocultas`, `Checkbox fuente sin TEXT property ni comportamiento` to the rest of the system?",
+      "why": "115 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.021900826446280993 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Modal` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07915893630179345 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Auditoría por excepciones` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Radio Button` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05403348554033485 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

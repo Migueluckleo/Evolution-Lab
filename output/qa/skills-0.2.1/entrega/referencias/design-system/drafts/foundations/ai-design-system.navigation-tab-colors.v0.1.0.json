@@ -1,0 +1,27 @@
+{
+  "amendmentId": "FOUNDATIONS-NAVIGATION-TAB-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {
+      "name": "color/background/navigation-tab-active",
+      "targetId": "VariableID:274:122",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Fondo de la pestaña activa en Navigation. Conserva el acento cromático de la Librería anterior por modo sin reutilizar un rol de texto o icono como superficie.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/purple/400", "targetId": "VariableID:8:79"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/blue/400", "targetId": "VariableID:8:87"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/purple/400", "targetId": "VariableID:8:79"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/blue/400", "targetId": "VariableID:8:87"}
+      }
+    }
+  ]
+}

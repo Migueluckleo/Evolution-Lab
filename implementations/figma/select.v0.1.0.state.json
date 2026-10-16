@@ -1,0 +1,48 @@
+{
+  "contract": "SELECT-001",
+  "version": "0.1.0",
+  "contractPath": "specs/select.contract.v0.1.0.md",
+  "contractDigest": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
+  "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "page": {
+    "id": "444:122",
+    "name": "Select"
+  },
+  "setId": "457:470",
+  "variantIds": [
+    "456:402",
+    "456:421"
+  ],
+  "guideId": "456:486",
+  "phase": 4,
+  "implementationStatus": "VALIDATED",
+  "documentStatus": "DELEGATED_FOR_BUILD",
+  "documentQA": "PASS",
+  "implementationQA": "PASS",
+  "qaScope": "Two visual presentations; documented shadow exception and inherited hidden scaled-label limitations, not integral tokenization or web accessibility",
+  "qaReport": "qa/implementations/select.v0.1.0.figma.review.md",
+  "readback": "qa/implementations/select.v0.1.0.readback.json",
+  "tokenMap": "qa/implementations/select.v0.1.0.tokens.json",
+  "specsPromotion": "COMPLETE",
+  "handoff": "registry/SESSION-HANDOFF-2026-09-29-SELECT.md",
+  "exampleId": "458:470",
+  "nextFamily": "Header",
+  "nextAction": "Select Slots implemented; continue candidate queue in registry/SLOTS-REVIEW-STATUS.md before resuming Header",
+  "slotsReview": {
+    "protocol": "P-SLOTS/0.1.0",
+    "decision": "DEC-SLOTS-IMPLEMENTATION-001",
+    "applicability": "REQUIRED",
+    "implementationStatus": "VALIDATED",
+    "currentRequirementConformance": "PASS",
+    "scope": "Native Options Slot; historical QA above remains specific to static Select0.1.0; current amendment and QA are separate",
+    "nativeCapability": "VERIFIED",
+    "amendment": "specs/composition-slots.amendment.v0.1.0.md",
+    "state": "implementations/figma/composition-slots.v0.1.0.state.json",
+    "tracking": "registry/SLOTS-REVIEW-STATUS.md"
+  },
+  "userAudit": "PENDING",
+  "libraryPublication": "UNPUBLISHED",
+  "graphify": "STALE",
+  "readiness": "READY",
+  "effectsException": "P03 §11/P04 §6; two observed literal shadows; human audit pending"
+}

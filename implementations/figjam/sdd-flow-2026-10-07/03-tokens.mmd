@@ -1,0 +1,31 @@
+flowchart TB
+origin(["Propiedad fuente por modo"]) --> observed["Registrar valor y consumidor"]
+observed --> category{"Categoría tokenizada compatible"}
+category -->|"No"| exception["Literal observado: excepción acotada"]
+exception --> audit["Documentar y auditar propiedad"]
+category -->|"Sí"| exact{"Primitiva RGB exacta"}
+exact -->|"Sí"| primitive["Reutilizar primitiva existente"]
+exact -->|"No"| nearest["Comparar primitivas existentes"]
+nearest --> delta["Documentar aproximación y contraste"]
+delta --> primitive
+primitive --> role{"Rol y scope correctos"}
+role -->|"Existe"| reuse["Reutilizar rol semántico"]
+role -->|"Falta"| ext["JSON de extensión versionado"]
+ext --> extqa["Contrato y QA documental"]
+extqa --> announce["Anunciar extensión autorizada"]
+announce --> local["Crear variable local y aliases"]
+reuse --> localcheck["Mapear IDs locales reales"]
+local --> localcheck
+localcheck --> modes["Verificar todos los modos"]
+modes --> bind["Vincular consumidor al rol"]
+bind --> read["Leer binding y valor real"]
+read --> equal{"JSON y Figma coinciden"}
+equal -->|"No"| correct["Corregir alcance y repetir lectura"]
+equal -->|"Sí"| measure["Medir contraste y diferencia"]
+measure --> done(["Guardar cadena de evidencia"])
+style exact fill:#FFECBD,stroke:#FFC943
+style role fill:#FFECBD,stroke:#FFC943
+style equal fill:#FFECBD,stroke:#FFC943
+style exception fill:#FFE0C2,stroke:#FF9E42
+style done fill:#CDF4D3,stroke:#66D575
+

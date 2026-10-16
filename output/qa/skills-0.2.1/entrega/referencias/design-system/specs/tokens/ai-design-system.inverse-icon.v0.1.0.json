@@ -1,0 +1,60 @@
+{
+  "extensionId": "FOUNDATIONS-INVERSE-ICON-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "variables": [
+    {
+      "name": "color/icon/inverse",
+      "resolvedType": "COLOR",
+      "description": "Color de iconografía sobre superficies neutrales oscuras o de contraste inverso. No expresa identidad de marca y no se utiliza como color de texto, fondo o borde.",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-icon-inverse)"
+      },
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/100",
+          "sourceId": "VariableID:57:82",
+          "targetId": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/100",
+          "sourceId": "VariableID:57:82",
+          "targetId": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/100",
+          "sourceId": "VariableID:57:82",
+          "targetId": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/neutral/100",
+          "sourceId": "VariableID:57:82",
+          "targetId": "VariableID:8:93"
+        }
+      }
+    }
+  ]
+}

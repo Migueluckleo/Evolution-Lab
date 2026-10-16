@@ -1,0 +1,117 @@
+{
+  "implementationId": "IMP-CHECKBOX-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Checkboxes",
+    "pageId": "149:122",
+    "componentSetId": "149:199",
+    "sharedFocusStyleId": "S:dea3da42f15a5819697eb5bd5c53429d8ebf7180,",
+    "sharedFocusStyleName": "Focus/Selection Outset"
+  },
+  "contract": {
+    "id": "CHECKBOX-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "bc189560b843aad787b5f17f38f51a60e4a2635955d111a176b9a5d81d2966bd",
+    "sourceMdDigestSha256": "2bf391580a51709f1cb564c866ce1cec763870b962bdfd537a9261deb8c4207c",
+    "sourceYamlDigestSha256": "c71f16b4fcd3830966e3feb877f83cd50809483f102e6a2e3ccc3b24933b369b",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "radioColorDataDigestSha256": "46f53dc329a93374f486ad26452cdd991c6cb0651a6c068865e34352d8e6161a"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1144:34368",
+    "componentSetId": "1221:28710",
+    "componentSetKey": "7cd9c016ecf140eef806b29fb23de1d00a718471"
+  },
+  "importedIconMains": {
+    "Check": {
+      "id": "148:125",
+      "key": "b0e1ef9e3dcc90870bbf7ef05b8ee937890eb31d"
+    },
+    "Minus": {
+      "id": "148:156",
+      "key": "10ad6c579ecb00c883f839281ca2ad812962a324"
+    }
+  },
+  "variantIds": {
+    "Selected/Default": "149:123",
+    "Selected/Hover": "149:130",
+    "Selected/Focus": "149:137",
+    "Selected/Disabled": "149:144",
+    "Indeterminate/Default": "149:151",
+    "Indeterminate/Hover": "149:158",
+    "Indeterminate/Focus": "149:165",
+    "Indeterminate/Disabled": "149:172",
+    "Unselected/Default": "149:179",
+    "Unselected/Hover": "149:184",
+    "Unselected/Focus": "149:189",
+    "Unselected/Disabled": "149:194"
+  },
+  "propertyKeys": {
+    "leftText": "Left label#149:48",
+    "rightText": "Right label#149:49",
+    "leftBoolean": "Show left label#149:50",
+    "rightBoolean": "Show right label#149:51"
+  },
+  "documentationNodeIds": [
+    "149:200",
+    "149:201"
+  ],
+  "constructionScript": "drafts/figma/checkbox-build.v0.1.0.js",
+  "constructionScriptDigestSha256": "9f1afdd919ee39c77bb687fa4815742af101e9ff0680a57d1d5e3b2b7ec544c6",
+  "lastReadback": {
+    "variantCount": 12,
+    "propertyCount": 6,
+    "hiddenLabels": 24,
+    "iconInstances": 8,
+    "visibleIconVectors": 8,
+    "solidPaintBindingsChecked": 46,
+    "focusEffectColorBindingsChecked": 6,
+    "typographyBindingsChecked": 120,
+    "cornerBindingsChecked": 48,
+    "gapBindingsChecked": 12,
+    "iconSizeBindingsChecked": 16,
+    "strokeSideBindingsChecked": 16,
+    "semanticScopeIssues": 0,
+    "reactions": 0,
+    "activeContrastMinimum": 3.24,
+    "visualReview": "PASS: source 680x290 and target page 691x474 inspected; three rows and four states close to source, with documented neutral border correction and page documentation",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Source type/state axes title-cased as Selection/State and enabled normalized to Default.",
+    "Source remote radius/md resolves to 4 px; target local radius/sm is 4 px and bound on all corners.",
+    "Unselected Default and Focus neutral ring uses color/border/control for contrast rather than source color/border/default.",
+    "Selected/Indeterminate fill uses selection-specific background roles, not action-primary roles.",
+    "Twenty-four hidden labels gain editable TEXT properties and 20 px semantic line height instead of source 18 px.",
+    "The one-off source helper in Unselected/Focus is normalized to the same direct indicator anatomy as other states.",
+    "Shared focus style renamed from Radio-specific to Focus/Selection Outset without effect or binding change."
+  ],
+  "refinement": {
+    "version": "0.1.2",
+    "date": "2026-10-06",
+    "status": "VALIDATED",
+    "userAudit": "PENDING",
+    "contractPath": "specs/checkbox.contract.v0.1.0.md",
+    "amendmentPath": "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
+    "qaPath": "qa/implementations/radio-checkbox.refinement.v0.1.2.review.md",
+    "changedPermanentNodes": [
+      "149:127",
+      "149:134",
+      "149:141",
+      "149:148",
+      "149:155",
+      "149:162",
+      "149:169",
+      "149:176"
+    ],
+    "newVariables": 0,
+    "sourceColorAmendment": "specs/checkbox.source-color-amendment.v0.1.1.md",
+    "historicalFields": "contract.digestSha256, lastReadback y knownDeviations describen 0.1.0; el contorno más oscuro quedó sustituido por la enmienda cromática 0.1.1. El QA actual incluye la normalización anatómica/tipográfica.",
+    "libraryPublished": false
+  }
+}

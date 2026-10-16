@@ -1,0 +1,564 @@
+<section id="11:798" name="CONTPAQi · Método SDD · corte 2026-10-07" x="200" y="200" width="8760" height="11902">
+  <text id="11:799" name="CONTPAQi · De la evidencia al sistema" x="120" y="100" width="8200" height="116" />
+  <text id="11:800" name="Lógica de trabajo, decisiones y controles que usamos para reconstruir la biblioteca" x="120" y="250" width="8200" height="48" />
+  <text id="11:801" name="SÍNTESIS DOCUMENTAL · 7 OCT 2026 | Registros hasta el 7 oct · último QA de familias: 6 oct | Método SDD · protocolos 0.2.3" x="120" y="330" width="8200" height="29" />
+  <text id="11:802" name="Leer 01 de izquierda a derecha; después 02–06 de arriba abajo. Rombo = decisión · Violeta = habilitación delegada · Verde = cierre técnico · Ámbar = pendiente · Rojo = bloqueo acotado" x="120" y="420" width="8200" height="29" />
+  <text id="11:803" name="Este tablero explica el proceso y el estado registrado. No modifica contratos ni acredita una nueva auditoría de la biblioteca." x="120" y="485" width="8200" height="29" />
+  <section id="11:804" x="120" y="640" width="5180" height="876">
+    <text id="11:805" name="01 Vista general del método" x="64" y="56" width="5052" height="58" />
+    <text id="11:806" name="La solicitud define el alcance. P05 conserva la trazabilidad durante todas las fases." x="64" y="140" width="5052" height="29" />
+    <shape-with-text id="8:612" x="198" y="416" width="224" height="128" name="ROUNDED_RECTANGLE">Solicitud y alcance</shape-with-text>
+    <shape-with-text id="8:615" x="550" y="416" width="224" height="128" name="SQUARE">Consultar registros vigentes</shape-with-text>
+    <connector id="19:860" x="427.5" y="480" connectorStart="8:612" connectorStartCap="NONE" connectorEnd="8:615" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:618" x="902" y="380" width="200" height="200" name="PREDEFINED_PROCESS">P02: preservar fuentes</shape-with-text>
+    <connector id="19:864" x="779.5" y="480" connectorStart="8:615" connectorStartCap="NONE" connectorEnd="8:618" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:623" x="1230" y="380" width="200" height="200" name="PREDEFINED_PROCESS">P03: contrato, tokens y Slots</shape-with-text>
+    <connector id="19:868" x="1107.5" y="480" connectorStart="8:618" connectorStartCap="NONE" connectorEnd="8:623" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:628" x="1558" y="380" width="200" height="200" name="PREDEFINED_PROCESS">P06: QA documental</shape-with-text>
+    <connector id="19:872" x="1435.5" y="480" connectorStart="8:623" connectorStartCap="NONE" connectorEnd="8:628" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:633" x="1886" y="416" width="224" height="128" name="SQUARE">APPROVED o DELEGATED_FOR_BUILD</shape-with-text>
+    <connector id="19:876" x="1763.5" y="480" connectorStart="8:628" connectorStartCap="NONE" connectorEnd="8:633" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:636" x="2238" y="380" width="200" height="200" name="PREDEFINED_PROCESS">P04: verificar destino READY</shape-with-text>
+    <connector id="19:880" x="2115.5" y="480" connectorStart="8:633" connectorStartCap="NONE" connectorEnd="8:636" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:641" x="2566" y="416" width="224" height="128" name="SQUARE">Construir alcance autorizado</shape-with-text>
+    <connector id="19:884" x="2443.5" y="480" connectorStart="8:636" connectorStartCap="NONE" connectorEnd="8:641" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:644" x="2918" y="416" width="224" height="128" name="SQUARE">Leer resultado real</shape-with-text>
+    <connector id="19:888" x="2795.5" y="480" connectorStart="8:641" connectorStartCap="NONE" connectorEnd="8:644" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:647" x="3270" y="380" width="200" height="200" name="PREDEFINED_PROCESS">P06: QA de implementación</shape-with-text>
+    <connector id="19:892" x="3147.5" y="480" connectorStart="8:644" connectorStartCap="NONE" connectorEnd="8:647" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:652" x="3598" y="380" width="200" height="200" name="DIAMOND">QA técnico PASS</shape-with-text>
+    <connector id="19:896" x="3475.5" y="480" connectorStart="8:647" connectorStartCap="NONE" connectorEnd="8:652" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:655" x="4054" y="250" width="200" height="200" name="PREDEFINED_PROCESS">06: corregir y revalidar</shape-with-text>
+    <connector id="19:900" x="3803.5" y="350" connectorStart="8:652" connectorStartCap="NONE" connectorEnd="8:655" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="8:660" x="4054" y="546" width="224" height="128" name="SQUARE">Publicación documental aplicable</shape-with-text>
+    <connector id="19:904" x="3803.5" y="480" connectorStart="8:652" connectorStartCap="NONE" connectorEnd="8:660" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="8:663" x="4406" y="546" width="224" height="128" name="SQUARE">Auditoría por excepciones</shape-with-text>
+    <connector id="19:908" x="4283.5" y="610" connectorStart="8:660" connectorStartCap="NONE" connectorEnd="8:663" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="8:666" x="4758" y="546" width="224" height="128" name="ROUNDED_RECTANGLE">P05: cierre y continuidad</shape-with-text>
+    <connector id="19:912" x="4635.5" y="610" connectorStart="8:663" connectorStartCap="NONE" connectorEnd="8:666" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="8:669" x="430" y="480" hidden="true" connectorStart="8:612" connectorStartCap="NONE" connectorEnd="8:615" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:673" x="782" y="480" hidden="true" connectorStart="8:615" connectorStartCap="NONE" connectorEnd="8:618" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:677" x="1110" y="480" hidden="true" connectorStart="8:618" connectorStartCap="NONE" connectorEnd="8:623" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:681" x="1438" y="480" hidden="true" connectorStart="8:623" connectorStartCap="NONE" connectorEnd="8:628" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:685" x="1766" y="480" hidden="true" connectorStart="8:628" connectorStartCap="NONE" connectorEnd="8:633" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:689" x="2118" y="480" hidden="true" connectorStart="8:633" connectorStartCap="NONE" connectorEnd="8:636" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:693" x="2446" y="480" hidden="true" connectorStart="8:636" connectorStartCap="NONE" connectorEnd="8:641" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:697" x="2798" y="480" hidden="true" connectorStart="8:641" connectorStartCap="NONE" connectorEnd="8:644" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:701" x="3150" y="480" hidden="true" connectorStart="8:644" connectorStartCap="NONE" connectorEnd="8:647" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:705" x="3478" y="480" hidden="true" connectorStart="8:647" connectorStartCap="NONE" connectorEnd="8:652" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:709" x="3806" y="350" hidden="true" connectorStart="8:652" connectorStartCap="NONE" connectorEnd="8:655" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="8:713" x="3806" y="480" hidden="true" connectorStart="8:652" connectorStartCap="NONE" connectorEnd="8:660" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="8:717" x="4285.9990234375" y="610" hidden="true" connectorStart="8:660" connectorStartCap="NONE" connectorEnd="8:663" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="8:721" x="4637.9990234375" y="610" hidden="true" connectorStart="8:663" connectorStartCap="NONE" connectorEnd="8:666" connectorEndCap="ARROW_LINES"></connector>
+    <text id="11:807" name="Ruta normal: el contrato se publica al aprobarse. En la migración delegada, su promoción a specs requiere QA documental y técnico PASS. La auditoría humana y la publicación de biblioteca Figma mantienen estados independientes. REFERENCIAS · AGENTS.md · P02–P06 · DEC-LEGACY-MIGRATION-DELEGATION-001" x="64" y="754" width="5052" height="58" />
+  </section>
+  <section id="11:808" x="120" y="1960" width="1600" height="5683">
+    <text id="11:809" name="02 Fuentes y autorización" x="64" y="56" width="1472" height="48" />
+    <text id="11:810" name="Responsables: agente documenta y revisa; usuario decide alcance y aprobaciones." x="64" y="140" width="1472" height="29" />
+    <shape-with-text id="3:98" x="559.3333740234375" y="250" width="224" height="128" name="ROUNDED_RECTANGLE">Fuentes disponibles</shape-with-text>
+    <shape-with-text id="3:101" x="559.3333740234375" y="506" width="224" height="128" name="SQUARE">Preservar originales e IDs</shape-with-text>
+    <connector id="19:916" x="671.3333740234375" y="383.5" connectorStart="3:98" connectorStartCap="NONE" connectorEnd="3:101" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:104" x="559.3333740234375" y="762" width="224" height="128" name="SQUARE">Clasificar autoridad y cobertura</shape-with-text>
+    <connector id="19:920" x="671.3333740234375" y="639.5" connectorStart="3:101" connectorStartCap="NONE" connectorEnd="3:104" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:107" x="571.3333740234375" y="1018" width="200" height="200" name="DIAMOND">Fuentes en conflicto</shape-with-text>
+    <connector id="19:924" x="671.3333740234375" y="895.5" connectorStart="3:104" connectorStartCap="NONE" connectorEnd="3:107" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:110" x="310.4998779296875" y="1510" width="224" height="128" name="SQUARE">CONFLICT: acotar y registrar</shape-with-text>
+    <connector id="19:928" x="407.4998779296875" y="1118" connectorStart="3:107" connectorStartCap="NONE" connectorEnd="3:110" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="3:113" x="310.4998779296875" y="1802" width="224" height="128" name="SQUARE">Decisión explícita requerida</shape-with-text>
+    <connector id="19:932" x="422.4998779296875" y="1643.5" connectorStart="3:110" connectorStartCap="NONE" connectorEnd="3:113" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:116" x="725.3333740234375" y="1474" width="200" height="200" name="DIAMOND">Contrato vigente existente</shape-with-text>
+    <connector id="19:936" x="671.3333740234375" y="1223.5" connectorStart="3:107" connectorStartCap="NONE" connectorEnd="3:116" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="3:119" x="1179.3333740234375" y="2314" width="224" height="128" name="SQUARE">Verificar versión y dependencias</shape-with-text>
+    <connector id="19:940" x="930.8333740234375" y="1574" connectorStart="3:116" connectorStartCap="NONE" connectorEnd="3:119" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="3:122" x="553.3333740234375" y="2058" width="224" height="128" name="SQUARE">Inspeccionar fuente profundamente</shape-with-text>
+    <connector id="19:944" x="782.8333740234375" y="1574" connectorStart="3:116" connectorStartCap="NONE" connectorEnd="3:122" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="3:125" x="553.3333740234375" y="2314" width="224" height="128" name="SQUARE">Separar evidencia de inferencia</shape-with-text>
+    <connector id="19:948" x="665.3333740234375" y="2191.5" connectorStart="3:122" connectorStartCap="NONE" connectorEnd="3:125" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:128" x="553.3333740234375" y="2570" width="224" height="128" name="SQUARE">DRAFT con requisitos verificables</shape-with-text>
+    <connector id="19:952" x="665.3333740234375" y="2447.5" connectorStart="3:125" connectorStartCap="NONE" connectorEnd="3:128" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:131" x="565.3333740234375" y="2826" width="200" height="200" name="PREDEFINED_PROCESS">Definir tokens y Slots</shape-with-text>
+    <connector id="19:956" x="665.3333740234375" y="2703.5" connectorStart="3:128" connectorStartCap="NONE" connectorEnd="3:131" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:136" x="565.3333740234375" y="3154" width="200" height="200" name="DIAMOND">QA documental PASS</shape-with-text>
+    <connector id="19:960" x="665.3333740234375" y="3031.5" connectorStart="3:131" connectorStartCap="NONE" connectorEnd="3:136" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:139" x="196.6666259765625" y="4778" width="224" height="128" name="SQUARE">Corregir candidato y repetir QA</shape-with-text>
+    <connector id="19:964" x="290.1666259765625" y="3254" connectorStart="3:136" connectorStartCap="NONE" connectorEnd="3:139" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="3:142" x="760.6666259765625" y="3610" width="200" height="200" name="DIAMOND">Delegación aplicable</shape-with-text>
+    <connector id="19:968" x="770.8333740234375" y="3254" connectorStart="3:136" connectorStartCap="NONE" connectorEnd="3:142" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="3:145" x="980.6666259765625" y="4358" width="224" height="128" name="SQUARE">DELEGATED_FOR_BUILD</shape-with-text>
+    <connector id="19:972" x="966.1666259765625" y="3710" connectorStart="3:142" connectorStartCap="NONE" connectorEnd="3:145" connectorEndCap="ARROW_LINES">Migración autorizada</connector>
+    <shape-with-text id="3:148" x="488.4998779296875" y="4066" width="224" height="128" name="SQUARE">IN_REVIEW</shape-with-text>
+    <connector id="19:976" x="546.9998779296875" y="3710" connectorStart="3:142" connectorStartCap="NONE" connectorEnd="3:148" connectorEndCap="ARROW_LINES">Flujo normal</connector>
+    <shape-with-text id="3:151" x="500.4998779296875" y="4322" width="200" height="200" name="DIAMOND">Decisión humana</shape-with-text>
+    <connector id="19:988" x="239.6666259765625" y="4422" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:139" connectorEndCap="ARROW_LINES">Solicita cambios</connector>
+    <connector id="19:980" x="600.4998779296875" y="4199.5" connectorStart="3:148" connectorStartCap="NONE" connectorEnd="3:151" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="3:154" x="836.6666259765625" y="4778" width="224" height="128" name="SQUARE">APPROVED</shape-with-text>
+    <connector id="19:984" x="705.9998779296875" y="4422" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:154" connectorEndCap="ARROW_LINES">Aprueba versión</connector>
+    <shape-with-text id="3:157" x="516.6666259765625" y="4778" width="224" height="128" name="SQUARE">REJECTED: conservar razón</shape-with-text>
+    <connector id="19:992" x="574.583251953125" y="4527.5" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:157" connectorEndCap="ARROW_LINES">Rechaza</connector>
+    <shape-with-text id="3:160" x="1035.3333740234375" y="5034" width="224" height="128" name="ROUNDED_RECTANGLE">Preflight del destino</shape-with-text>
+    <connector id="19:1004" x="1066.1666259765625" y="4842" connectorStart="3:154" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1000" x="1210.1666259765625" y="4422" connectorStart="3:145" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:996" x="1264.8333740234375" y="2378" connectorStart="3:119" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="3:163" x="671.3333740234375" y="386" hidden="true" connectorStart="3:98" connectorStartCap="NONE" connectorEnd="3:101" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:167" x="671.3333740234375" y="642" hidden="true" connectorStart="3:101" connectorStartCap="NONE" connectorEnd="3:104" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:171" x="671.3333740234375" y="898" hidden="true" connectorStart="3:104" connectorStartCap="NONE" connectorEnd="3:107" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:175" x="406.4998779296875" y="405" hidden="true" connectorStart="3:107" connectorStartCap="NONE" connectorEnd="3:110" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="3:179" x="422.4998779296875" y="1646" hidden="true" connectorStart="3:110" connectorStartCap="NONE" connectorEnd="3:113" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:183" x="671.3333740234375" y="405" hidden="true" connectorStart="3:107" connectorStartCap="NONE" connectorEnd="3:116" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="3:187" x="825.3333740234375" y="861" hidden="true" connectorStart="3:116" connectorStartCap="NONE" connectorEnd="3:119" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="3:191" x="645.8333740234375" y="861" hidden="true" connectorStart="3:116" connectorStartCap="NONE" connectorEnd="3:122" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="3:195" x="665.3333740234375" y="2194" hidden="true" connectorStart="3:122" connectorStartCap="NONE" connectorEnd="3:125" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:199" x="665.3333740234375" y="2450" hidden="true" connectorStart="3:125" connectorStartCap="NONE" connectorEnd="3:128" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:203" x="665.3333740234375" y="2706" hidden="true" connectorStart="3:128" connectorStartCap="NONE" connectorEnd="3:131" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:207" x="665.3333740234375" y="3034" hidden="true" connectorStart="3:131" connectorStartCap="NONE" connectorEnd="3:136" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:211" x="289.1666259765625" y="2541" hidden="true" connectorStart="3:136" connectorStartCap="NONE" connectorEnd="3:139" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="3:215" x="665.3333740234375" y="2541" hidden="true" connectorStart="3:136" connectorStartCap="NONE" connectorEnd="3:142" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="3:219" x="860.6666259765625" y="2997" hidden="true" connectorStart="3:142" connectorStartCap="NONE" connectorEnd="3:145" connectorEndCap="ARROW_LINES">Migración autorizada</connector>
+    <connector id="3:223" x="600.4998779296875" y="2976.5" hidden="true" connectorStart="3:142" connectorStartCap="NONE" connectorEnd="3:148" connectorEndCap="ARROW_LINES">Flujo normal</connector>
+    <connector id="3:227" x="600.4998779296875" y="4202" hidden="true" connectorStart="3:148" connectorStartCap="NONE" connectorEnd="3:151" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:231" x="600.4998779296875" y="3688.5" hidden="true" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:154" connectorEndCap="ARROW_LINES">Aprueba versión</connector>
+    <connector id="3:235" x="308.6666259765625" y="3688.5" hidden="true" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:139" connectorEndCap="ARROW_LINES">Solicita cambios</connector>
+    <connector id="3:239" x="587.6666259765625" y="3709" hidden="true" connectorStart="3:151" connectorStartCap="NONE" connectorEnd="3:157" connectorEndCap="ARROW_LINES">Rechaza</connector>
+    <connector id="3:243" x="1147.3333740234375" y="2450" hidden="true" connectorStart="3:119" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:247" x="1092.6666259765625" y="4093" hidden="true" connectorStart="3:145" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="3:251" x="948.6666259765625" y="4125" hidden="true" connectorStart="3:154" connectorStartCap="NONE" connectorEnd="3:160" connectorEndCap="ARROW_LINES"></connector>
+    <text id="11:811" name="ENTRADA · Archivos reales, JSON, nodos Figma, decisiones y contratos existentes. P02 · Conservar originales; registrar SHA-256 de bytes, versión, cobertura e IDs fuente. INDEXED no significa aprobado. P03 · Identidad, anatomía, variantes observadas, requisitos comprobables, página semántica, dependencias, mapa de tokens y revisión de Slots. Un contrato existente se verifica antes de reutilizarlo. GATE · QA documental PASS y ausencia de conflictos materiales. La delegación solo cubre la migración autorizada y sus decisiones adicionales expresas; no adopta inferencias de producto. SALIDA · Contrato habilitado para preflight. DRAFT e IN_REVIEW no habilitan construcción. REFERENCIAS · P02 · P03 §§5–12 · P06 DOC-01–18 · registry/decisions.md" x="64" y="5242" width="1472" height="377" />
+  </section>
+  <section id="11:812" x="1840" y="1960" width="1600" height="6522">
+    <text id="11:813" name="03 Tokens y bindings" x="64" y="56" width="1472" height="48" />
+    <text id="11:814" name="Cadena verificable por consumidor, estado y modo. Igual apariencia no demuestra igual semántica." x="64" y="140" width="1472" height="29" />
+    <shape-with-text id="4:211" x="610.9166259765625" y="250" width="224" height="128" name="ROUNDED_RECTANGLE">Propiedad fuente por modo</shape-with-text>
+    <shape-with-text id="4:214" x="610.9166259765625" y="506" width="224" height="128" name="SQUARE">Registrar valor y consumidor</shape-with-text>
+    <connector id="19:1008" x="722.91650390625" y="383.5" connectorStart="4:211" connectorStartCap="NONE" connectorEnd="4:214" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:217" x="622.9166259765625" y="762" width="200" height="200" name="DIAMOND">Categoría tokenizada compatible</shape-with-text>
+    <connector id="19:1012" x="722.91650390625" y="639.5" connectorStart="4:214" connectorStartCap="NONE" connectorEnd="4:217" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:220" x="451.0833740234375" y="1254" width="224" height="128" name="SQUARE">Literal observado: excepción acotada</shape-with-text>
+    <connector id="19:1016" x="563.08349609375" y="967.5" connectorStart="4:217" connectorStartCap="NONE" connectorEnd="4:220" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="4:223" x="451.0833740234375" y="1546" width="224" height="128" name="SQUARE">Documentar y auditar propiedad</shape-with-text>
+    <connector id="19:1020" x="563.08349609375" y="1387.5" connectorStart="4:220" connectorStartCap="NONE" connectorEnd="4:223" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:226" x="776.9166259765625" y="1218" width="200" height="200" name="DIAMOND">Primitiva RGB exacta</shape-with-text>
+    <connector id="19:1024" x="722.91650390625" y="967.5" connectorStart="4:217" connectorStartCap="NONE" connectorEnd="4:226" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="4:229" x="764.9166259765625" y="2314" width="224" height="128" name="SQUARE">Reutilizar primitiva existente</shape-with-text>
+    <connector id="19:1028" x="701.91650390625" y="1318" connectorStart="4:226" connectorStartCap="NONE" connectorEnd="4:229" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="4:232" x="869.4166259765625" y="1802" width="224" height="128" name="SQUARE">Comparar primitivas existentes</shape-with-text>
+    <connector id="19:1032" x="982.41650390625" y="1318" connectorStart="4:226" connectorStartCap="NONE" connectorEnd="4:232" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="4:235" x="869.4166259765625" y="2058" width="224" height="128" name="SQUARE">Documentar aproximación y contraste</shape-with-text>
+    <connector id="19:1040" x="876.91650390625" y="2191.5" connectorStart="4:235" connectorStartCap="NONE" connectorEnd="4:229" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1036" x="981.41650390625" y="1935.5" connectorStart="4:232" connectorStartCap="NONE" connectorEnd="4:235" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:238" x="776.9166259765625" y="2570" width="200" height="200" name="DIAMOND">Rol y scope correctos</shape-with-text>
+    <connector id="19:1044" x="876.91650390625" y="2447.5" connectorStart="4:229" connectorStartCap="NONE" connectorEnd="4:238" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:241" x="604.9166259765625" y="3282" width="224" height="128" name="SQUARE">Reutilizar rol semántico</shape-with-text>
+    <connector id="19:1048" x="526.41650390625" y="2670" connectorStart="4:238" connectorStartCap="NONE" connectorEnd="4:241" connectorEndCap="ARROW_LINES">Existe</connector>
+    <shape-with-text id="4:244" x="924.9166259765625" y="3026" width="224" height="128" name="SQUARE">JSON de extensión versionado</shape-with-text>
+    <connector id="19:1052" x="876.91650390625" y="2775.5" connectorStart="4:238" connectorStartCap="NONE" connectorEnd="4:244" connectorEndCap="ARROW_LINES">Falta</connector>
+    <shape-with-text id="4:247" x="924.9166259765625" y="3282" width="224" height="128" name="SQUARE">Contrato y QA documental</shape-with-text>
+    <connector id="19:1056" x="1036.91650390625" y="3159.5" connectorStart="4:244" connectorStartCap="NONE" connectorEnd="4:247" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:250" x="924.9166259765625" y="3538" width="224" height="128" name="SQUARE">Anunciar extensión autorizada</shape-with-text>
+    <connector id="19:1060" x="1036.91650390625" y="3415.5" connectorStart="4:247" connectorStartCap="NONE" connectorEnd="4:250" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:253" x="924.9166259765625" y="3794" width="224" height="128" name="SQUARE">Crear variable local y aliases</shape-with-text>
+    <connector id="19:1064" x="1036.91650390625" y="3671.5" connectorStart="4:250" connectorStartCap="NONE" connectorEnd="4:253" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:256" x="764.9166259765625" y="4050" width="224" height="128" name="SQUARE">Mapear IDs locales reales</shape-with-text>
+    <connector id="19:1072" x="876.91650390625" y="3927.5" connectorStart="4:253" connectorStartCap="NONE" connectorEnd="4:256" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1068" x="556.91650390625" y="3346" connectorStart="4:241" connectorStartCap="NONE" connectorEnd="4:256" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:259" x="764.9166259765625" y="4306" width="224" height="128" name="SQUARE">Verificar todos los modos</shape-with-text>
+    <connector id="19:1076" x="876.91650390625" y="4183.5" connectorStart="4:256" connectorStartCap="NONE" connectorEnd="4:259" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:262" x="764.9166259765625" y="4562" width="224" height="128" name="SQUARE">Vincular consumidor al rol</shape-with-text>
+    <connector id="19:1080" x="876.91650390625" y="4439.5" connectorStart="4:259" connectorStartCap="NONE" connectorEnd="4:262" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:265" x="764.9166259765625" y="4818" width="224" height="128" name="SQUARE">Leer binding y valor real</shape-with-text>
+    <connector id="19:1084" x="876.91650390625" y="4695.5" connectorStart="4:262" connectorStartCap="NONE" connectorEnd="4:265" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:268" x="776.9166259765625" y="5074" width="200" height="200" name="DIAMOND">JSON y Figma coinciden</shape-with-text>
+    <connector id="19:1088" x="876.91650390625" y="4951.5" connectorStart="4:265" connectorStartCap="NONE" connectorEnd="4:268" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="4:271" x="604.9166259765625" y="5530" width="224" height="128" name="SQUARE">Corregir alcance y repetir lectura</shape-with-text>
+    <connector id="19:1092" x="716.91650390625" y="5279.5" connectorStart="4:268" connectorStartCap="NONE" connectorEnd="4:271" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="4:274" x="924.9166259765625" y="5530" width="224" height="128" name="SQUARE">Medir contraste y diferencia</shape-with-text>
+    <connector id="19:1096" x="876.91650390625" y="5279.5" connectorStart="4:268" connectorStartCap="NONE" connectorEnd="4:274" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="4:277" x="924.9166259765625" y="5786" width="224" height="128" name="ROUNDED_RECTANGLE">Guardar cadena de evidencia</shape-with-text>
+    <connector id="19:1100" x="1036.91650390625" y="5663.5" connectorStart="4:274" connectorStartCap="NONE" connectorEnd="4:277" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="4:280" x="722.91650390625" y="386" hidden="true" connectorStart="4:211" connectorStartCap="NONE" connectorEnd="4:214" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:284" x="722.91650390625" y="642" hidden="true" connectorStart="4:214" connectorStartCap="NONE" connectorEnd="4:217" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:288" x="543.58349609375" y="149" hidden="true" connectorStart="4:217" connectorStartCap="NONE" connectorEnd="4:220" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="4:292" x="563.08349609375" y="1390" hidden="true" connectorStart="4:220" connectorStartCap="NONE" connectorEnd="4:223" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:296" x="722.91650390625" y="149" hidden="true" connectorStart="4:217" connectorStartCap="NONE" connectorEnd="4:226" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="4:300" x="860.91650390625" y="1426" hidden="true" connectorStart="4:226" connectorStartCap="NONE" connectorEnd="4:229" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="4:304" x="876.91650390625" y="605" hidden="true" connectorStart="4:226" connectorStartCap="NONE" connectorEnd="4:232" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="4:308" x="981.41650390625" y="1938" hidden="true" connectorStart="4:232" connectorStartCap="NONE" connectorEnd="4:235" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:312" x="876.91650390625" y="1373" hidden="true" connectorStart="4:235" connectorStartCap="NONE" connectorEnd="4:229" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:316" x="876.91650390625" y="2450" hidden="true" connectorStart="4:229" connectorStartCap="NONE" connectorEnd="4:238" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:320" x="685.41650390625" y="1957" hidden="true" connectorStart="4:238" connectorStartCap="NONE" connectorEnd="4:241" connectorEndCap="ARROW_LINES">Existe</connector>
+    <connector id="4:324" x="876.91650390625" y="1957" hidden="true" connectorStart="4:238" connectorStartCap="NONE" connectorEnd="4:244" connectorEndCap="ARROW_LINES">Falta</connector>
+    <connector id="4:328" x="1036.91650390625" y="3162" hidden="true" connectorStart="4:244" connectorStartCap="NONE" connectorEnd="4:247" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:332" x="1036.91650390625" y="3418" hidden="true" connectorStart="4:247" connectorStartCap="NONE" connectorEnd="4:250" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:336" x="1036.91650390625" y="3674" hidden="true" connectorStart="4:250" connectorStartCap="NONE" connectorEnd="4:253" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:340" x="716.91650390625" y="3109" hidden="true" connectorStart="4:241" connectorStartCap="NONE" connectorEnd="4:256" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:344" x="876.91650390625" y="3109" hidden="true" connectorStart="4:253" connectorStartCap="NONE" connectorEnd="4:256" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:348" x="876.91650390625" y="4186" hidden="true" connectorStart="4:256" connectorStartCap="NONE" connectorEnd="4:259" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:352" x="876.91650390625" y="4442" hidden="true" connectorStart="4:259" connectorStartCap="NONE" connectorEnd="4:262" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:356" x="876.91650390625" y="4698" hidden="true" connectorStart="4:262" connectorStartCap="NONE" connectorEnd="4:265" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:360" x="876.91650390625" y="4954" hidden="true" connectorStart="4:265" connectorStartCap="NONE" connectorEnd="4:268" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="4:364" x="697.41650390625" y="4461" hidden="true" connectorStart="4:268" connectorStartCap="NONE" connectorEnd="4:271" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="4:368" x="876.91650390625" y="4461" hidden="true" connectorStart="4:268" connectorStartCap="NONE" connectorEnd="4:274" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="4:372" x="1036.91650390625" y="5666" hidden="true" connectorStart="4:274" connectorStartCap="NONE" connectorEnd="4:277" connectorEndCap="ARROW_LINES"></connector>
+    <text id="11:815" name="CADENA · Origen/propiedad → valor observado → primitiva exacta o aproximada → rol semántico → ID local → binding → lectura y captura. REGLA VIGENTE · Enmienda 0.1.2: si falta RGB exacto, reutilizar la primitiva existente más semejante con evidencia; documentar RGB, método, diferencia y contraste. El componente consume el rol semántico. EXTENSIONES · JSON de destino separado, contrato versionado, QA, anuncio previo y alias en cada modo. Una sola description canónica. Inventario histórico intacto. CONTRASTE · Medición y asterisco documental para revisión interna; conservar la paleta conforme a las decisiones vigentes. No certificar WCAG global por este proceso. EXCEPCIÓN · Logos conserva artwork sin tokens. Un literal de otra categoría exige la excepción acotada respaldada por el protocolo; no es permiso general. REFERENCIAS · MIGRATION-TOKEN-TRACEABILITY.contract.md + amendment.v0.1.2 · P04 §§5–6" x="64" y="5994" width="1472" height="464" />
+  </section>
+  <section id="11:816" x="3560" y="1960" width="1600" height="5370">
+    <text id="11:817" name="04 Slots y composición" x="64" y="56" width="1472" height="48" />
+    <text id="11:818" name="El contenido de muestra no fija la cardinalidad ni demuestra flexibilidad." x="64" y="140" width="1472" height="29" />
+    <shape-with-text id="5:329" x="422.999755859375" y="250" width="224" height="128" name="ROUNDED_RECTANGLE">Revisar cada familia</shape-with-text>
+    <shape-with-text id="5:332" x="434.999755859375" y="506" width="200" height="200" name="DIAMOND">Cantidad o composición variable</shape-with-text>
+    <connector id="19:1104" x="535" y="383.5" connectorStart="5:329" connectorStartCap="NONE" connectorEnd="5:332" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:335" x="298.333251953125" y="962" width="224" height="128" name="SQUARE">NOT_APPLICABLE justificado</shape-with-text>
+    <connector id="19:1108" x="410.3330078125" y="711.5" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:335" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="5:338" x="298.333251953125" y="1218" width="224" height="128" name="SQUARE">TEXT, BOOLEAN o INSTANCE_SWAP</shape-with-text>
+    <connector id="19:1112" x="410.3330078125" y="1095.5" connectorStart="5:335" connectorStartCap="NONE" connectorEnd="5:338" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:341" x="298.333251953125" y="1474" width="224" height="128" name="SQUARE">Validar anatomía fija</shape-with-text>
+    <connector id="19:1116" x="410.3330078125" y="1351.5" connectorStart="5:338" connectorStartCap="NONE" connectorEnd="5:341" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:344" x="460.333251953125" y="2898" width="224" height="128" name="SQUARE">UNRESOLVED: acotar bloqueo</shape-with-text>
+    <connector id="19:1120" x="315" y="606" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:344" connectorEndCap="ARROW_LINES">No hay evidencia</connector>
+    <shape-with-text id="5:347" x="826.833251953125" y="962" width="224" height="128" name="SQUARE">REQUIRED</shape-with-text>
+    <connector id="19:1124" x="640.5" y="606" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:347" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="5:350" x="826.833251953125" y="1218" width="224" height="128" name="SQUARE">Definir región y contenido</shape-with-text>
+    <connector id="19:1128" x="938.8330078125" y="1095.5" connectorStart="5:347" connectorStartCap="NONE" connectorEnd="5:350" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:353" x="826.833251953125" y="1474" width="224" height="128" name="SQUARE">Separar cardinalidad de muestra</shape-with-text>
+    <connector id="19:1132" x="938.8330078125" y="1351.5" connectorStart="5:350" connectorStartCap="NONE" connectorEnd="5:353" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:356" x="826.833251953125" y="1730" width="224" height="128" name="SQUARE">Definir operaciones y layout</shape-with-text>
+    <connector id="19:1136" x="938.8330078125" y="1607.5" connectorStart="5:353" connectorStartCap="NONE" connectorEnd="5:356" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:359" x="838.833251953125" y="1986" width="200" height="200" name="DIAMOND">Capacidad nativa verificable</shape-with-text>
+    <connector id="19:1140" x="938.8330078125" y="1863.5" connectorStart="5:356" connectorStartCap="NONE" connectorEnd="5:359" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:362" x="684.833251953125" y="2442" width="200" height="200" name="DIAMOND">Alternativa autorizada</shape-with-text>
+    <connector id="19:1148" x="553.8330078125" y="2542" connectorStart="5:362" connectorStartCap="NONE" connectorEnd="5:344" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="19:1144" x="784.8330078125" y="2191.5" connectorStart="5:359" connectorStartCap="NONE" connectorEnd="5:362" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="5:365" x="780.333251953125" y="2898" width="224" height="128" name="SQUARE">Documentar mecanismo y límites</shape-with-text>
+    <connector id="19:1152" x="784.8330078125" y="2647.5" connectorStart="5:362" connectorStartCap="NONE" connectorEnd="5:365" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="5:368" x="989.666748046875" y="2478" width="224" height="128" name="SQUARE">Crear Slot y propiedad pública</shape-with-text>
+    <connector id="19:1156" x="1044.3330078125" y="2086" connectorStart="5:359" connectorStartCap="NONE" connectorEnd="5:368" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="5:371" x="917.666748046875" y="3154" width="224" height="128" name="SQUARE">Probar desde instancia consumidora</shape-with-text>
+    <connector id="19:1164" x="1147.1669921875" y="2542" connectorStart="5:368" connectorStartCap="NONE" connectorEnd="5:371" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1160" x="892.3330078125" y="3031.5" connectorStart="5:365" connectorStartCap="NONE" connectorEnd="5:371" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:374" x="917.666748046875" y="3410" width="224" height="128" name="SQUARE">Insertar, borrar, reordenar, sustituir</shape-with-text>
+    <connector id="19:1168" x="1029.6669921875" y="3287.5" connectorStart="5:371" connectorStartCap="NONE" connectorEnd="5:374" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:377" x="917.666748046875" y="3666" width="224" height="128" name="SQUARE">Cambiar variantes y conservar overrides</shape-with-text>
+    <connector id="19:1172" x="1029.6669921875" y="3543.5" connectorStart="5:374" connectorStartCap="NONE" connectorEnd="5:377" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:380" x="917.666748046875" y="3922" width="224" height="128" name="SQUARE">Vacío, uno y más que muestra</shape-with-text>
+    <connector id="19:1176" x="1029.6669921875" y="3799.5" connectorStart="5:377" connectorStartCap="NONE" connectorEnd="5:380" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:383" x="929.666748046875" y="4178" width="200" height="200" name="DIAMOND">Operaciones y bindings PASS</shape-with-text>
+    <connector id="19:1180" x="1029.6669921875" y="4055.5" connectorStart="5:380" connectorStartCap="NONE" connectorEnd="5:383" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="5:386" x="757.666748046875" y="4634" width="224" height="128" name="SQUARE">Corregir mecanismo y revalidar</shape-with-text>
+    <connector id="19:1184" x="869.6669921875" y="4383.5" connectorStart="5:383" connectorStartCap="NONE" connectorEnd="5:386" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="5:389" x="1077.666748046875" y="4634" width="224" height="128" name="ROUNDED_RECTANGLE">IMPLEMENTED con evidencia</shape-with-text>
+    <connector id="19:1188" x="1029.6669921875" y="4383.5" connectorStart="5:383" connectorStartCap="NONE" connectorEnd="5:389" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="5:392" x="535" y="386" hidden="true" connectorStart="5:329" connectorStartCap="NONE" connectorEnd="5:332" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:396" x="410.33349609375" y="714" hidden="true" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:335" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="5:400" x="410.3330078125" y="1098" hidden="true" connectorStart="5:335" connectorStartCap="NONE" connectorEnd="5:338" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:404" x="410.3330078125" y="1354" hidden="true" connectorStart="5:338" connectorStartCap="NONE" connectorEnd="5:341" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:408" x="480.66650390625" y="714" hidden="true" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:344" connectorEndCap="ARROW_LINES">No hay evidencia</connector>
+    <connector id="5:412" x="535" y="714" hidden="true" connectorStart="5:332" connectorStartCap="NONE" connectorEnd="5:347" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="5:416" x="938.8330078125" y="1098" hidden="true" connectorStart="5:347" connectorStartCap="NONE" connectorEnd="5:350" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:420" x="938.8330078125" y="1354" hidden="true" connectorStart="5:350" connectorStartCap="NONE" connectorEnd="5:353" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:424" x="938.8330078125" y="1610" hidden="true" connectorStart="5:353" connectorStartCap="NONE" connectorEnd="5:356" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:428" x="938.8330078125" y="1866" hidden="true" connectorStart="5:356" connectorStartCap="NONE" connectorEnd="5:359" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:432" x="765.3330078125" y="1373" hidden="true" connectorStart="5:359" connectorStartCap="NONE" connectorEnd="5:362" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="5:436" x="572.3330078125" y="2650" hidden="true" connectorStart="5:362" connectorStartCap="NONE" connectorEnd="5:344" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="5:440" x="784.8330078125" y="1829" hidden="true" connectorStart="5:362" connectorStartCap="NONE" connectorEnd="5:365" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="5:444" x="938.8330078125" y="1372.999755859375" hidden="true" connectorStart="5:359" connectorStartCap="NONE" connectorEnd="5:368" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="5:448" x="892.3330078125" y="2213" hidden="true" connectorStart="5:365" connectorStartCap="NONE" connectorEnd="5:371" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:452" x="1029.6669921875" y="2213" hidden="true" connectorStart="5:368" connectorStartCap="NONE" connectorEnd="5:371" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:456" x="1029.6669921875" y="3290" hidden="true" connectorStart="5:371" connectorStartCap="NONE" connectorEnd="5:374" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:460" x="1029.6669921875" y="3546" hidden="true" connectorStart="5:374" connectorStartCap="NONE" connectorEnd="5:377" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:464" x="1029.6669921875" y="3802" hidden="true" connectorStart="5:377" connectorStartCap="NONE" connectorEnd="5:380" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:468" x="1029.6669921875" y="4058" hidden="true" connectorStart="5:380" connectorStartCap="NONE" connectorEnd="5:383" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="5:472" x="850.1669921875" y="3565" hidden="true" connectorStart="5:383" connectorStartCap="NONE" connectorEnd="5:386" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="5:476" x="1029.6669921875" y="3565" hidden="true" connectorStart="5:383" connectorStartCap="NONE" connectorEnd="5:389" connectorEndCap="ARROW_LINES">Sí</connector>
+    <text id="11:819" name="DECIDIR · Cambiar una cadena: TEXT. Ocultar parte fija: BOOLEAN. Sustituir un único icono: INSTANCE_SWAP. Variar hijos, cantidad u orden: revisar Slot. CONTRATO · Región, propietario, contenido permitido, cardinalidad conocida, operaciones, layout, overflow, temas y pruebas. Los límites desconocidos permanecen explícitos. QA DESDE INSTANCIA · Insertar, quitar, reordenar y sustituir; probar muestra, uno, menos y más elementos; vacío permitido, texto largo y ancho reducido. Verificar retención al cambiar variante y bindings de los hijos. EVIDENCIA REAL · Select probó 0/1/3/5/8 opciones. Empty states probó 64 operaciones y 16 transiciones. Son fixtures, no máximos de producto. CIERRE REGISTRADO · Los Slots REQUIRED de la cola están implementados, incluido Content de App Shell. Un frame llamado Slot no demuestra esta capacidad. REFERENCIAS · P-SLOTS 0.1.0 · registry/SLOTS-REVIEW-STATUS.md" x="64" y="4842" width="1472" height="464" />
+  </section>
+  <section id="11:820" x="5280" y="1960" width="1600" height="5958">
+    <text id="11:821" name="05 Construcción y QA" x="64" y="56" width="1472" height="48" />
+    <text id="11:822" name="El éxito de una escritura acredita ejecución; la lectura posterior acredita lo que quedó." x="64" y="140" width="1472" height="29" />
+    <shape-with-text id="6:437" x="439.666748046875" y="250" width="224" height="128" name="ROUNDED_RECTANGLE">Contrato habilitado</shape-with-text>
+    <shape-with-text id="6:440" x="439.666748046875" y="506" width="224" height="128" name="SQUARE">Leer destino y registros</shape-with-text>
+    <connector id="19:1192" x="551.6669921875" y="383.5" connectorStart="6:437" connectorStartCap="NONE" connectorEnd="6:440" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:443" x="441.666748046875" y="762" width="220" height="220" name="DIAMOND">Página, tokens y dependencias listos</shape-with-text>
+    <connector id="19:1196" x="551.6669921875" y="639.5" connectorStart="6:440" connectorStartCap="NONE" connectorEnd="6:443" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:446" x="296.333251953125" y="1238" width="224" height="128" name="SQUARE">BLOCKED: resolver dependencia</shape-with-text>
+    <connector id="19:1200" x="408.3330078125" y="987.5" connectorStart="6:443" connectorStartCap="NONE" connectorEnd="6:446" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="6:449" x="616.333251953125" y="1238" width="224" height="128" name="SQUARE">CREATE, UPDATE, MIGRATE o VALIDATE_ONLY</shape-with-text>
+    <connector id="19:1204" x="667.1669921875" y="872" connectorStart="6:443" connectorStartCap="NONE" connectorEnd="6:449" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="6:452" x="616.333251953125" y="1494" width="224" height="128" name="SQUARE">Capturar estado previo</shape-with-text>
+    <connector id="19:1208" x="728.3330078125" y="1371.5" connectorStart="6:449" connectorStartCap="NONE" connectorEnd="6:452" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:455" x="616.333251953125" y="1750" width="224" height="128" name="SQUARE">Reutilizar página semántica</shape-with-text>
+    <connector id="19:1212" x="728.3330078125" y="1627.5" connectorStart="6:452" connectorStartCap="NONE" connectorEnd="6:455" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:458" x="616.333251953125" y="2006" width="224" height="128" name="SQUARE">Resolver dependencias locales</shape-with-text>
+    <connector id="19:1216" x="728.3330078125" y="1883.5" connectorStart="6:455" connectorStartCap="NONE" connectorEnd="6:458" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:461" x="616.333251953125" y="2262" width="224" height="128" name="SQUARE">Construir alcance autorizado</shape-with-text>
+    <connector id="19:1220" x="728.3330078125" y="2139.5" connectorStart="6:458" connectorStartCap="NONE" connectorEnd="6:461" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:464" x="628.333251953125" y="2518" width="200" height="200" name="DIAMOND">Escritura completada</shape-with-text>
+    <connector id="19:1224" x="728.3330078125" y="2395.5" connectorStart="6:461" connectorStartCap="NONE" connectorEnd="6:464" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:467" x="574.666748046875" y="2974" width="224" height="128" name="SQUARE">Leer estado parcial y recuperar</shape-with-text>
+    <connector id="19:1228" x="686.6669921875" y="2723.5" connectorStart="6:464" connectorStartCap="NONE" connectorEnd="6:467" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="6:470" x="894.666748046875" y="2974" width="224" height="128" name="SQUARE">Leer resultado real</shape-with-text>
+    <connector id="19:1232" x="833.8330078125" y="2618" connectorStart="6:464" connectorStartCap="NONE" connectorEnd="6:470" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="6:473" x="894.666748046875" y="3230" width="224" height="128" name="SQUARE">Comparar contra contrato y fuente</shape-with-text>
+    <connector id="19:1236" x="1006.6669921875" y="3107.5" connectorStart="6:470" connectorStartCap="NONE" connectorEnd="6:473" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:476" x="894.666748046875" y="3486" width="224" height="128" name="SQUARE">QA estructura, variantes y propiedades</shape-with-text>
+    <connector id="19:1240" x="1006.6669921875" y="3363.5" connectorStart="6:473" connectorStartCap="NONE" connectorEnd="6:476" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:479" x="894.666748046875" y="3742" width="224" height="128" name="SQUARE">QA aliases, scopes y modos</shape-with-text>
+    <connector id="19:1244" x="1006.6669921875" y="3619.5" connectorStart="6:476" connectorStartCap="NONE" connectorEnd="6:479" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:482" x="894.666748046875" y="3998" width="224" height="128" name="SQUARE">QA visual, tipografía y contraste</shape-with-text>
+    <connector id="19:1248" x="1006.6669921875" y="3875.5" connectorStart="6:479" connectorStartCap="NONE" connectorEnd="6:482" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:485" x="894.666748046875" y="4254" width="224" height="128" name="SQUARE">QA Slots, instancias y regresión</shape-with-text>
+    <connector id="19:1252" x="1006.6669921875" y="4131.5" connectorStart="6:482" connectorStartCap="NONE" connectorEnd="6:485" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:488" x="906.666748046875" y="4510" width="200" height="200" name="DIAMOND">Evidencia suficiente y conforme</shape-with-text>
+    <connector id="19:1256" x="1006.6669921875" y="4387.5" connectorStart="6:485" connectorStartCap="NONE" connectorEnd="6:488" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="6:491" x="439.666748046875" y="4966" width="224" height="128" name="SQUARE">FAILED: corrección acotada</shape-with-text>
+    <connector id="19:1260" x="526.6669921875" y="4610" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:491" connectorEndCap="ARROW_LINES">Falla</connector>
+    <shape-with-text id="6:494" x="759.666748046875" y="4966" width="224" height="128" name="SQUARE">Registrar cobertura parcial</shape-with-text>
+    <connector id="19:1264" x="871.6669921875" y="4715.5" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:494" connectorEndCap="ARROW_LINES">Limitada</connector>
+    <shape-with-text id="6:497" x="1079.666748046875" y="4966" width="224" height="128" name="SQUARE">VALIDATED técnico</shape-with-text>
+    <connector id="19:1268" x="1112.1669921875" y="4610" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:497" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="6:500" x="1079.666748046875" y="5222" width="224" height="128" name="ROUNDED_RECTANGLE">Guardar IDs, QA y pendientes</shape-with-text>
+    <connector id="19:1272" x="1191.6669921875" y="5099.5" connectorStart="6:497" connectorStartCap="NONE" connectorEnd="6:500" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="6:503" x="551.6669921875" y="386" hidden="true" connectorStart="6:437" connectorStartCap="NONE" connectorEnd="6:440" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:507" x="551.6669921875" y="642" hidden="true" connectorStart="6:440" connectorStartCap="NONE" connectorEnd="6:443" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:511" x="388.8330078125" y="169" hidden="true" connectorStart="6:443" connectorStartCap="NONE" connectorEnd="6:446" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="6:515" x="551.6669921875" y="169" hidden="true" connectorStart="6:443" connectorStartCap="NONE" connectorEnd="6:449" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="6:519" x="728.3330078125" y="1374" hidden="true" connectorStart="6:449" connectorStartCap="NONE" connectorEnd="6:452" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:523" x="728.3330078125" y="1630" hidden="true" connectorStart="6:452" connectorStartCap="NONE" connectorEnd="6:455" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:527" x="728.3330078125" y="1886" hidden="true" connectorStart="6:455" connectorStartCap="NONE" connectorEnd="6:458" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:531" x="728.3330078125" y="2142" hidden="true" connectorStart="6:458" connectorStartCap="NONE" connectorEnd="6:461" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:535" x="728.3330078125" y="2398" hidden="true" connectorStart="6:461" connectorStartCap="NONE" connectorEnd="6:464" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:539" x="667.1669921875" y="1905" hidden="true" connectorStart="6:464" connectorStartCap="NONE" connectorEnd="6:467" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="6:543" x="728.3330078125" y="1884.5" hidden="true" connectorStart="6:464" connectorStartCap="NONE" connectorEnd="6:470" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="6:547" x="1006.6669921875" y="3110" hidden="true" connectorStart="6:470" connectorStartCap="NONE" connectorEnd="6:473" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:551" x="1006.6669921875" y="3366" hidden="true" connectorStart="6:473" connectorStartCap="NONE" connectorEnd="6:476" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:555" x="1006.6669921875" y="3622" hidden="true" connectorStart="6:476" connectorStartCap="NONE" connectorEnd="6:479" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:559" x="1006.6669921875" y="3878" hidden="true" connectorStart="6:479" connectorStartCap="NONE" connectorEnd="6:482" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:563" x="1006.6669921875" y="4134" hidden="true" connectorStart="6:482" connectorStartCap="NONE" connectorEnd="6:485" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:567" x="1006.6669921875" y="4390" hidden="true" connectorStart="6:485" connectorStartCap="NONE" connectorEnd="6:488" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="6:571" x="551.6669921875" y="3876.5" hidden="true" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:491" connectorEndCap="ARROW_LINES">Falla</connector>
+    <connector id="6:575" x="830.6669921875" y="3929" hidden="true" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:494" connectorEndCap="ARROW_LINES">Limitada</connector>
+    <connector id="6:579" x="1006.6669921875" y="3897" hidden="true" connectorStart="6:488" connectorStartCap="NONE" connectorEnd="6:497" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="6:583" x="1191.6669921875" y="5102" hidden="true" connectorStart="6:497" connectorStartCap="NONE" connectorEnd="6:500" connectorEndCap="ARROW_LINES"></connector>
+    <text id="11:823" name="PREFLIGHT · Contrato/versión/digest, permiso de tarea, datos vinculados, capacidad real, página exacta, variables locales y dependencias resueltas. DESTINO · AI-Design-System. Una página semántica por familia; principales de dependencias conservados en sus páginas. Leer antes de crear, actualizar o recuperar un error parcial. COMPROBAR · Jerarquía, variantes reales, propiedades, layout, tipografía, paints opcionales, scopes, aliases y resolución por modo. Captura visual complementaria; bindings completos no se prueban con una muestra visual. CONTROL · PASS / FAIL / BLOCKED / NOT_APPLICABLE con requisito, evidencia y alcance. Evidencia obligatoria ausente = BLOCKED. SALIDA · VALIDATED solo para el alcance completo comprobado. VALIDATED_WITH_EXCEPTIONS requiere aceptación explícita de las diferencias. Nunca inventar una tolerancia. REFERENCIAS · P04 · P06 · qa/contracts/ · qa/implementations/" x="64" y="5430" width="1472" height="464" />
+  </section>
+  <section id="11:824" x="7000" y="1960" width="1600" height="5682">
+    <text id="11:825" name="06 Cambio y continuidad" x="64" y="56" width="1472" height="48" />
+    <text id="11:826" name="Corregir lo afectado, preservar la historia y mantener una única especificación vigente." x="64" y="140" width="1472" height="29" />
+    <shape-with-text id="9:696" x="688" y="250" width="224" height="128" name="ROUNDED_RECTANGLE">Hallazgo o cambio autorizado</shape-with-text>
+    <shape-with-text id="9:699" x="688" y="506" width="224" height="128" name="SQUARE">Identificar requisitos y consumidores</shape-with-text>
+    <connector id="19:1276" x="800" y="383.5" connectorStart="9:696" connectorStartCap="NONE" connectorEnd="9:699" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:702" x="688" y="762" width="224" height="128" name="SQUARE">Marcar QA afectado STALE</shape-with-text>
+    <connector id="19:1280" x="800" y="639.5" connectorStart="9:699" connectorStartCap="NONE" connectorEnd="9:702" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:705" x="700" y="1018" width="200" height="200" name="DIAMOND">Contrato ya en specs</shape-with-text>
+    <connector id="19:1284" x="800" y="895.5" connectorStart="9:702" connectorStartCap="NONE" connectorEnd="9:705" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:708" x="528" y="1474" width="224" height="128" name="SQUARE">Versionar en specs</shape-with-text>
+    <connector id="19:1288" x="640" y="1223.5" connectorStart="9:705" connectorStartCap="NONE" connectorEnd="9:708" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="9:711" x="848" y="1474" width="224" height="128" name="SQUARE">Revisar candidato en drafts</shape-with-text>
+    <connector id="19:1292" x="800" y="1223.5" connectorStart="9:705" connectorStartCap="NONE" connectorEnd="9:711" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="9:714" x="688" y="1730" width="224" height="128" name="SQUARE">Declarar sustitución exacta</shape-with-text>
+    <connector id="19:1300" x="800" y="1607.5" connectorStart="9:711" connectorStartCap="NONE" connectorEnd="9:714" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1296" x="640" y="1607.5" connectorStart="9:708" connectorStartCap="NONE" connectorEnd="9:714" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:717" x="688" y="1986" width="224" height="128" name="SQUARE">Revalidar documentación afectada</shape-with-text>
+    <connector id="19:1304" x="800" y="1863.5" connectorStart="9:714" connectorStartCap="NONE" connectorEnd="9:717" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:720" x="700" y="2242" width="200" height="200" name="DIAMOND">Cambio afecta implementación</shape-with-text>
+    <connector id="19:1308" x="800" y="2119.5" connectorStart="9:717" connectorStartCap="NONE" connectorEnd="9:720" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:723" x="528" y="2698" width="224" height="128" name="SQUARE">Sincronizar datos y Figma</shape-with-text>
+    <connector id="19:1312" x="640" y="2447.5" connectorStart="9:720" connectorStartCap="NONE" connectorEnd="9:723" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="9:726" x="528" y="2954" width="224" height="128" name="SQUARE">Readback y QA afectados</shape-with-text>
+    <connector id="19:1316" x="640" y="2831.5" connectorStart="9:723" connectorStartCap="NONE" connectorEnd="9:726" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:729" x="848" y="2954" width="224" height="128" name="SQUARE">Verificar coherencia documental</shape-with-text>
+    <connector id="19:1320" x="905.5" y="2342" connectorStart="9:720" connectorStartCap="NONE" connectorEnd="9:729" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="9:732" x="700" y="3210" width="200" height="200" name="DIAMOND">QA vigente PASS</shape-with-text>
+    <connector id="19:1328" x="800" y="3087.5" connectorStart="9:729" connectorStartCap="NONE" connectorEnd="9:732" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="19:1324" x="640" y="3087.5" connectorStart="9:726" connectorStartCap="NONE" connectorEnd="9:732" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:735" x="528" y="3666" width="224" height="128" name="SQUARE">Conservar pendiente acotado</shape-with-text>
+    <connector id="19:1332" x="640" y="3415.5" connectorStart="9:732" connectorStartCap="NONE" connectorEnd="9:735" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="9:738" x="848" y="3666" width="224" height="128" name="SQUARE">Promover alcance cerrado a specs</shape-with-text>
+    <connector id="19:1336" x="800" y="3415.5" connectorStart="9:732" connectorStartCap="NONE" connectorEnd="9:738" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="9:741" x="848" y="3922" width="224" height="128" name="SQUARE">Delegado: auditoría humana PENDING</shape-with-text>
+    <connector id="19:1340" x="960" y="3799.5" connectorStart="9:738" connectorStartCap="NONE" connectorEnd="9:741" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:744" x="848" y="4178" width="224" height="128" name="SQUARE">Consolidar solo excepciones</shape-with-text>
+    <connector id="19:1344" x="960" y="4055.5" connectorStart="9:741" connectorStartCap="NONE" connectorEnd="9:744" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:747" x="848" y="4434" width="224" height="128" name="SQUARE">Actualizar registros y continuidad</shape-with-text>
+    <connector id="19:1348" x="960" y="4311.5" connectorStart="9:744" connectorStartCap="NONE" connectorEnd="9:747" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:750" x="848" y="4690" width="224" height="128" name="SQUARE">Declarar vigencia de Graphify</shape-with-text>
+    <connector id="19:1352" x="960" y="4567.5" connectorStart="9:747" connectorStartCap="NONE" connectorEnd="9:750" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="9:753" x="848" y="4946" width="224" height="128" name="ROUNDED_RECTANGLE">Publicación Figma: paso separado</shape-with-text>
+    <connector id="19:1356" x="960" y="4823.5" connectorStart="9:750" connectorStartCap="NONE" connectorEnd="9:753" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="9:756" x="800" y="386" hidden="true" connectorStart="9:696" connectorStartCap="NONE" connectorEnd="9:699" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:760" x="800" y="642" hidden="true" connectorStart="9:699" connectorStartCap="NONE" connectorEnd="9:702" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:764" x="800" y="898" hidden="true" connectorStart="9:702" connectorStartCap="NONE" connectorEnd="9:705" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:768" x="624" y="405" hidden="true" connectorStart="9:705" connectorStartCap="NONE" connectorEnd="9:708" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="9:772" x="800" y="405" hidden="true" connectorStart="9:705" connectorStartCap="NONE" connectorEnd="9:711" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="9:776" x="640" y="789" hidden="true" connectorStart="9:708" connectorStartCap="NONE" connectorEnd="9:714" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:780" x="800" y="789" hidden="true" connectorStart="9:711" connectorStartCap="NONE" connectorEnd="9:714" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:784" x="800" y="1866" hidden="true" connectorStart="9:714" connectorStartCap="NONE" connectorEnd="9:717" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:788" x="800" y="2122" hidden="true" connectorStart="9:717" connectorStartCap="NONE" connectorEnd="9:720" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:792" x="624" y="1629" hidden="true" connectorStart="9:720" connectorStartCap="NONE" connectorEnd="9:723" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="9:796" x="640" y="2834" hidden="true" connectorStart="9:723" connectorStartCap="NONE" connectorEnd="9:726" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:800" x="800" y="1629.000244140625" hidden="true" connectorStart="9:720" connectorStartCap="NONE" connectorEnd="9:729" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="9:804" x="640" y="2269" hidden="true" connectorStart="9:726" connectorStartCap="NONE" connectorEnd="9:732" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:808" x="800" y="2269" hidden="true" connectorStart="9:729" connectorStartCap="NONE" connectorEnd="9:732" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:812" x="620.5" y="2597" hidden="true" connectorStart="9:732" connectorStartCap="NONE" connectorEnd="9:735" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="9:816" x="800" y="2597" hidden="true" connectorStart="9:732" connectorStartCap="NONE" connectorEnd="9:738" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="9:820" x="960" y="3802" hidden="true" connectorStart="9:738" connectorStartCap="NONE" connectorEnd="9:741" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:824" x="960" y="4058" hidden="true" connectorStart="9:741" connectorStartCap="NONE" connectorEnd="9:744" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:828" x="960" y="4314" hidden="true" connectorStart="9:744" connectorStartCap="NONE" connectorEnd="9:747" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:832" x="960" y="4570" hidden="true" connectorStart="9:747" connectorStartCap="NONE" connectorEnd="9:750" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="9:836" x="960" y="4826" hidden="true" connectorStart="9:750" connectorStartCap="NONE" connectorEnd="9:753" connectorEndCap="ARROW_LINES"></connector>
+    <text id="11:827" name="CLASIFICAR · Defecto determinista: corregir y releer. Vacío contractual: volver a P03. Conflicto de fuentes: decisión explícita. Limitación de herramienta: documentar y acotar. Desviación aceptada: conservar autorización. VERSIONAR · Después de promoción, revisar en specs mediante versión o enmienda con sustitución precisa. No abrir un segundo contrato normativo en drafts. IMPACTO · Cambio de fuente, token, contrato o exigencia nueva marca STALE únicamente el QA afectado. Repetir controles dependientes tras corregir. PROMOCIÓN DELEGADA · Ambos QA PASS vigentes; DELEGATED_FOR_BUILD permanece. user_audit: PENDING. Consolidar dudas materiales en MIGRATION-AUDIT.md. CONTINUIDAD · Registrar qué se leyó, cambió, comprobó y quedó bloqueado; decisión necesaria y próximo paso. Graphify es índice derivado y se actualiza solo con autorización. REFERENCIAS · P05 · P06 · DEC-MIGRATION-SPECS-AUDIT-001 · DEC-MIGRATION-SPECS-CANONICAL-001" x="64" y="5154" width="1472" height="464" />
+  </section>
+  <section id="11:828" x="120" y="8642" width="1600" height="1781">
+    <text id="11:829" name="07 Casos reales" x="64" y="56" width="1472" height="48" />
+    <text id="11:830" name="Ejemplos de aplicación; sus QA acreditan los alcances citados." x="64" y="140" width="1472" height="29" />
+    <section id="7:556" name="CASO A · Buttons · 5 oct" x="208" y="250" width="1184" height="224">
+      <shape-with-text id="7:544" x="336" y="48" width="224" height="128" name="SQUARE">Enmienda 0.2.2</shape-with-text>
+      <shape-with-text id="7:547" x="48" y="48" width="224" height="128" name="SQUARE">Nueve roles externos</shape-with-text>
+      <connector id="19:1360" x="277.5" y="112" connectorStart="7:547" connectorStartCap="NONE" connectorEnd="7:544" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:596" x="280" y="112" hidden="true" connectorStart="7:547" connectorStartCap="NONE" connectorEnd="7:544" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:550" x="624" y="48" width="224" height="128" name="SQUARE">722 referencias locales</shape-with-text>
+      <connector id="19:1364" x="565.5" y="112" connectorStart="7:544" connectorStartCap="NONE" connectorEnd="7:550" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:600" x="568" y="112" hidden="true" connectorStart="7:544" connectorStartCap="NONE" connectorEnd="7:550" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:553" x="912" y="48" width="224" height="128" name="SQUARE">PASS acotado sin cambio visual</shape-with-text>
+      <connector id="19:1368" x="853.5" y="112" connectorStart="7:550" connectorStartCap="NONE" connectorEnd="7:553" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:604" x="856" y="112" hidden="true" connectorStart="7:550" connectorStartCap="NONE" connectorEnd="7:553" connectorEndCap="ARROW_LINES"></connector>
+    </section>
+    <section id="7:569" name="CASO B · Chips · 5 oct" x="208" y="570" width="1184" height="224">
+      <shape-with-text id="7:557" x="336" y="48" width="224" height="128" name="SQUARE">Enmienda 0.2.1</shape-with-text>
+      <shape-with-text id="7:560" x="48" y="48" width="224" height="128" name="SQUARE">Roles semánticos inversos</shape-with-text>
+      <connector id="19:1372" x="277.5" y="112" connectorStart="7:560" connectorStartCap="NONE" connectorEnd="7:557" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:608" x="280" y="112" hidden="true" connectorStart="7:560" connectorStartCap="NONE" connectorEnd="7:557" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:563" x="624" y="48" width="224" height="128" name="SQUARE">Corregir bindings y scopes</shape-with-text>
+      <connector id="19:1376" x="565.5" y="112" connectorStart="7:557" connectorStartCap="NONE" connectorEnd="7:563" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:612" x="568" y="112" hidden="true" connectorStart="7:557" connectorStartCap="NONE" connectorEnd="7:563" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:566" x="912" y="48" width="224" height="128" name="SQUARE">30 variantes, colores conservados</shape-with-text>
+      <connector id="19:1380" x="853.5" y="112" connectorStart="7:563" connectorStartCap="NONE" connectorEnd="7:566" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:616" x="856" y="112" hidden="true" connectorStart="7:563" connectorStartCap="NONE" connectorEnd="7:566" connectorEndCap="ARROW_LINES"></connector>
+    </section>
+    <section id="7:582" name="CASO C · Composiciones" x="208" y="890" width="1184" height="224">
+      <shape-with-text id="7:570" x="336" y="48" width="224" height="128" name="SQUARE">Slots nativos verificables</shape-with-text>
+      <shape-with-text id="7:573" x="48" y="48" width="224" height="128" name="SQUARE">Contenido variable requerido</shape-with-text>
+      <connector id="19:1384" x="277.5" y="112" connectorStart="7:573" connectorStartCap="NONE" connectorEnd="7:570" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:620" x="280" y="112" hidden="true" connectorStart="7:573" connectorStartCap="NONE" connectorEnd="7:570" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:576" x="624" y="48" width="224" height="128" name="SQUARE">Operaciones desde instancias</shape-with-text>
+      <connector id="19:1388" x="565.5" y="112" connectorStart="7:570" connectorStartCap="NONE" connectorEnd="7:576" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:624" x="568" y="112" hidden="true" connectorStart="7:570" connectorStartCap="NONE" connectorEnd="7:576" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:579" x="912" y="48" width="224" height="128" name="SQUARE">PASS del alcance de composición</shape-with-text>
+      <connector id="19:1392" x="853.5" y="112" connectorStart="7:576" connectorStartCap="NONE" connectorEnd="7:579" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:628" x="856" y="112" hidden="true" connectorStart="7:576" connectorStartCap="NONE" connectorEnd="7:579" connectorEndCap="ARROW_LINES"></connector>
+    </section>
+    <section id="7:595" name="CASO D · Logos · 6 oct" x="208" y="1210" width="1184" height="224">
+      <shape-with-text id="7:583" x="336" y="48" width="224" height="128" name="SQUARE">57 deltas geométricos</shape-with-text>
+      <shape-with-text id="7:586" x="48" y="48" width="224" height="128" name="SQUARE">Seis sets y 72 variantes</shape-with-text>
+      <connector id="19:1396" x="277.5" y="112" connectorStart="7:586" connectorStartCap="NONE" connectorEnd="7:583" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:632" x="280" y="112" hidden="true" connectorStart="7:586" connectorStartCap="NONE" connectorEnd="7:583" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:589" x="624" y="48" width="224" height="128" name="SQUARE">Pruebas en clones insuficientes</shape-with-text>
+      <connector id="19:1400" x="565.5" y="112" connectorStart="7:583" connectorStartCap="NONE" connectorEnd="7:589" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:636" x="568" y="112" hidden="true" connectorStart="7:583" connectorStartCap="NONE" connectorEnd="7:589" connectorEndCap="ARROW_LINES"></connector>
+      <shape-with-text id="7:592" x="912" y="48" width="224" height="128" name="SQUARE">Decisión explícita pendiente</shape-with-text>
+      <connector id="19:1404" x="853.5" y="112" connectorStart="7:589" connectorStartCap="NONE" connectorEnd="7:592" connectorEndCap="ARROW_LINES">Flujo</connector>
+      <connector id="7:640" x="856" y="112" hidden="true" connectorStart="7:589" connectorStartCap="NONE" connectorEnd="7:592" connectorEndCap="ARROW_LINES"></connector>
+    </section>
+    <text id="11:831" name="Buttons: 722 referencias en 123 nodos pasaron a nueve roles locales. Chips: 36 bindings inversos revisados, 30 variantes conservadas. Logos: máximo delta 0.00030517578125 px; principales preservados, clones de prueba retirados. Falta aceptar o rechazar esos 57 deltas, sin tolerancia general. FUENTES · QA button.local-bindings.v0.2.2 · filter-chip.semantic.v0.2.1 · composition-slots · logos.refinement.v0.1.1" x="64" y="1514" width="1472" height="203" />
+  </section>
+  <section id="13:860" x="5480" y="640" width="3160" height="1160">
+    <text id="13:861" name="09 Dónde estamos" x="64" y="56" width="3032" height="58" />
+    <text id="13:862" name="Corte documental al 7 de octubre de 2026. Los cierres citados provienen de sus QA registrados." x="64" y="138" width="3032" height="29" />
+    <section id="13:863" x="64" y="242" width="1488" height="352">
+      <text id="13:864" name="CERRADO TÉCNICAMENTE" x="32" y="32" width="1424" height="34" />
+      <text id="13:865" name="Seis familias: colores y bindings. Radio/Checkbox: cotejo restante. Slots de la cola, Header, Table, Modal, Sidebar y Empty states con sus alcances propios. App Shell integrado el 6 oct; 12 escenarios desktop. No implica una auditoría global nueva." x="32" y="100" width="1424" height="58" />
+    </section>
+    <section id="13:866" x="1600" y="242" width="1488" height="352">
+      <text id="13:867" name="DECISIONES QUE SIGUEN ABIERTAS" x="32" y="32" width="1424" height="34" />
+      <text id="13:868" name="Logos: aceptar o rechazar 57 deltas ≤ 0.00030517578125 px en seis sets. Bases Tooltip, Toggle y Avatar conservan asuntos AUD-004/003/006. Contraste, tipografía, TABLE-AUD-001 y diferidos AUD-007–009: revisión por excepciones." x="32" y="100" width="1424" height="58" />
+    </section>
+    <section id="13:869" x="64" y="642" width="1488" height="352">
+      <text id="13:870" name="PUBLICACIONES Y APROBACIONES" x="32" y="32" width="1424" height="34" />
+      <text id="13:871" name="19 enmiendas promovidas a specs el 6 oct. Migración: DELEGATED_FOR_BUILD y auditoría humana PENDING. Último estado registrado de biblioteca Figma: UNPUBLISHED. GitHub privado: PUBLISHED_PRIVATE el 7 oct." x="32" y="100" width="1424" height="58" />
+    </section>
+    <section id="13:872" x="1600" y="642" width="1488" height="352">
+      <text id="13:873" name="LÍMITES DEL CORTE" x="32" y="32" width="1424" height="34" />
+      <text id="13:874" name="Doce logos omitidos por el usuario. Frontend, datos vivos, teclado y reglas responsive no definidos pertenecen a una fase futura. Anticipa screen composition sigue DRAFT. Graphify STALE; los registros conservan la referencia vigente." x="32" y="100" width="1424" height="58" />
+    </section>
+  </section>
+  <section id="13:875" x="1840" y="8642" width="6800" height="1040">
+    <text id="13:876" name="08 Conservación y publicación privada del repositorio" x="64" y="56" width="6672" height="58" />
+    <text id="13:877" name="Proceso ejecutado el 7 oct según registry/github-publication.md. Publicar el repositorio conserva los estados documentales y del diseño." x="64" y="138" width="6672" height="29" />
+    <shape-with-text id="12:799" x="1300" y="392" width="224" height="128" name="ROUNDED_RECTANGLE">Publicación privada solicitada</shape-with-text>
+    <shape-with-text id="12:802" x="1652" y="392" width="224" height="128" name="SQUARE">Revisar alcance y exclusiones</shape-with-text>
+    <connector id="19:1408" x="1529.5" y="456" connectorStart="12:799" connectorStartCap="NONE" connectorEnd="12:802" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:805" x="2004" y="392" width="224" height="128" name="SQUARE">Revisión acotada de credenciales</shape-with-text>
+    <connector id="19:1412" x="1881.5" y="456" connectorStart="12:802" connectorStartCap="NONE" connectorEnd="12:805" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:808" x="2356" y="392" width="224" height="128" name="SQUARE">Repositorio creado por usuario</shape-with-text>
+    <connector id="19:1416" x="2233.5" y="456" connectorStart="12:805" connectorStartCap="NONE" connectorEnd="12:808" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:811" x="2708" y="392" width="224" height="128" name="SQUARE">Autenticación CLI autorizada</shape-with-text>
+    <connector id="19:1420" x="2585.5" y="456" connectorStart="12:808" connectorStartCap="NONE" connectorEnd="12:811" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:814" x="3060" y="392" width="224" height="128" name="SQUARE">Commit del contenido</shape-with-text>
+    <connector id="19:1424" x="2937.5" y="456" connectorStart="12:811" connectorStartCap="NONE" connectorEnd="12:814" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:817" x="3412" y="392" width="224" height="128" name="SQUARE">Push a origin/main</shape-with-text>
+    <connector id="19:1428" x="3289.5" y="456" connectorStart="12:814" connectorStartCap="NONE" connectorEnd="12:817" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:820" x="3764" y="392" width="224" height="128" name="SQUARE">Verificar privacidad y permisos</shape-with-text>
+    <connector id="19:1432" x="3641.5" y="456" connectorStart="12:817" connectorStartCap="NONE" connectorEnd="12:820" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:823" x="4116" y="392" width="224" height="128" name="SQUARE">Comparar árbol y blobs</shape-with-text>
+    <connector id="19:1436" x="3993.5" y="456" connectorStart="12:820" connectorStartCap="NONE" connectorEnd="12:823" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:826" x="4468" y="356" width="200" height="200" name="DIAMOND">Verificación PASS</shape-with-text>
+    <connector id="19:1440" x="4345.5" y="456" connectorStart="12:823" connectorStartCap="NONE" connectorEnd="12:826" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <shape-with-text id="12:829" x="4924" y="280" width="224" height="128" name="SQUARE">PUBLISHED_PRIVATE registrado</shape-with-text>
+    <connector id="19:1444" x="4673.5" y="344" connectorStart="12:826" connectorStartCap="NONE" connectorEnd="12:829" connectorEndCap="ARROW_LINES">Sí</connector>
+    <shape-with-text id="12:832" x="4924" y="504" width="224" height="128" name="SQUARE">Corregir discrepancia de publicación</shape-with-text>
+    <connector id="19:1448" x="4673.5" y="456" connectorStart="12:826" connectorStartCap="NONE" connectorEnd="12:832" connectorEndCap="ARROW_LINES">No</connector>
+    <shape-with-text id="12:835" x="5276" y="280" width="224" height="128" name="ROUNDED_RECTANGLE">Conservar estados del diseño</shape-with-text>
+    <connector id="19:1452" x="5153.5" y="344" connectorStart="12:829" connectorStartCap="NONE" connectorEnd="12:835" connectorEndCap="ARROW_LINES">Flujo</connector>
+    <connector id="12:838" x="1532" y="456" hidden="true" connectorStart="12:799" connectorStartCap="NONE" connectorEnd="12:802" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:842" x="1884" y="456" hidden="true" connectorStart="12:802" connectorStartCap="NONE" connectorEnd="12:805" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:846" x="2236" y="456" hidden="true" connectorStart="12:805" connectorStartCap="NONE" connectorEnd="12:808" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:850" x="2588" y="456" hidden="true" connectorStart="12:808" connectorStartCap="NONE" connectorEnd="12:811" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:854" x="2940" y="456" hidden="true" connectorStart="12:811" connectorStartCap="NONE" connectorEnd="12:814" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:858" x="3292" y="456" hidden="true" connectorStart="12:814" connectorStartCap="NONE" connectorEnd="12:817" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:862" x="3644" y="456" hidden="true" connectorStart="12:817" connectorStartCap="NONE" connectorEnd="12:820" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:866" x="3996" y="456" hidden="true" connectorStart="12:820" connectorStartCap="NONE" connectorEnd="12:823" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:870" x="4348" y="456" hidden="true" connectorStart="12:823" connectorStartCap="NONE" connectorEnd="12:826" connectorEndCap="ARROW_LINES"></connector>
+    <connector id="12:874" x="4676" y="344" hidden="true" connectorStart="12:826" connectorStartCap="NONE" connectorEnd="12:829" connectorEndCap="ARROW_LINES">Sí</connector>
+    <connector id="12:878" x="4676" y="456" hidden="true" connectorStart="12:826" connectorStartCap="NONE" connectorEnd="12:832" connectorEndCap="ARROW_LINES">No</connector>
+    <connector id="12:882" x="5156" y="344" hidden="true" connectorStart="12:829" connectorStartCap="NONE" connectorEnd="12:835" connectorEndCap="ARROW_LINES"></connector>
+    <text id="13:878" name="EVIDENCIA REGISTRADA · 1,893 archivos en el contenido inicial; privacidad confirmada por API; rutas, modos, tipos y SHA de blobs comparados con el árbol remoto. PASS de publicación acotado, sin certificación exhaustiva de secretos." x="64" y="734" width="6672" height="29" />
+    <text id="13:879" name="Repositorio privado · Migueluckleo/CONTPAQi-Design-System-1.0" x="64" y="880" width="6672" height="34" />
+  </section>
+  <section id="13:880" x="1840" y="9802" width="6800" height="1940">
+    <text id="13:881" name="10 Evidencia, estados y responsabilidades" x="64" y="56" width="6672" height="58" />
+    <text id="13:882" name="Cómo continuar sin depender de la conversación. Este mapa referencia las fuentes; no crea otra especificación normativa." x="64" y="138" width="6672" height="29" />
+    <section id="13:883" x="64" y="242" width="1600" height="1040">
+      <text id="13:884" name="AUTORIDAD Y PROCEDENCIA" x="32" y="32" width="1536" height="34" />
+      <text id="13:885" name="Decisión explícita del usuario → alcance y cambio autorizado. Contrato vigente → reglas; JSON aprobado y extensiones → campos delegados. Figma fuente, snapshots, auditorías y Graphify → evidencia verificable. EXPLICIT: declarado OBSERVED: leído DERIVED: cálculo reproducible INFERRED: propuesta UNRESOLVED: falta evidencia CONFLICT: fuentes discrepantes" x="32" y="105" width="1536" height="348" />
+    </section>
+    <section id="13:886" x="1744" y="242" width="1600" height="1040">
+      <text id="13:887" name="P05 · DÓNDE QUEDA CADA HECHO" x="32" y="32" width="1536" height="34" />
+      <text id="13:888" name="sources.md → procedencia y cobertura. contracts.md → versión, habilitación y preparación. decisions.md → autoridad y alcance. implementations.md → destino, IDs y operación. qa.md → controles y evidencia. environment.md → capacidad y vigencia del grafo. SESSION-HANDOFF → continuidad; no reemplaza contrato." x="32" y="105" width="1536" height="377" />
+    </section>
+    <section id="13:889" x="3424" y="242" width="1600" height="1040">
+      <text id="13:890" name="ESTADOS QUE NO SE FUSIONAN" x="32" y="32" width="1536" height="34" />
+      <text id="13:891" name="Fuente: RECEIVED / INDEXED / BLOCKED / CONFLICT / SUPERSEDED. Contrato: DRAFT / IN_REVIEW / APPROVED / DELEGATED_FOR_BUILD / REJECTED / SUPERSEDED. Destino: READY / BLOCKED / CONFLICT. Implementación: NOT_STARTED → IMPLEMENTING → IMPLEMENTED → VALIDATING → VALIDATED; también FAILED / STALE / VALIDATED_WITH_EXCEPTIONS. Auditoría humana y publicación se registran aparte." x="32" y="105" width="1536" height="290" />
+    </section>
+    <section id="13:892" x="5104" y="242" width="1600" height="1040">
+      <text id="13:893" name="QUIÉN HACE QUÉ" x="32" y="32" width="1536" height="34" />
+      <text id="13:894" name="Usuario: define intención, alcance y decisiones materiales; aprueba cuando el flujo lo requiere. Agente: preserva, inspecciona, sintetiza, ejecuta lo autorizado, lee resultados y deja trazabilidad. Figma: fuente o destino según file key; sus IDs no son intercambiables. QA: contrasta requisito y evidencia; no inventa aprobación ni tolerancia. Equipo: revisa las excepciones consolidadas y sus efectos." x="32" y="105" width="1536" height="261" />
+    </section>
+    <text id="13:895" name="FUENTES NAVEGABLES · Repositorio privado; requieren acceso a la cuenta autorizada" x="64" y="1380" width="6672" height="34" />
+    <text id="13:896" name="AGENTS.md y protocolos" x="64" y="1460" width="3264" height="34" />
+    <text id="13:897" name="Auditoría por excepciones" x="3392" y="1460" width="3264" height="34" />
+    <text id="13:898" name="Cobertura vigente" x="64" y="1560" width="3264" height="34" />
+    <text id="13:899" name="Estado de Slots" x="3392" y="1560" width="3264" height="34" />
+    <text id="13:900" name="Enmienda vigente de tokens 0.1.2" x="64" y="1660" width="3264" height="34" />
+    <text id="13:901" name="Publicación privada registrada" x="3392" y="1660" width="3264" height="34" />
+    <text id="13:902" name="Fuente Figma: 9zs5RMR8LB5wHjW9Bd59BA → Reconstrucción: tj3WIBEZDGLVs7MJWKCwgf. Este FigJam es documentación del proceso." x="64" y="1820" width="6672" height="29" />
+  </section>
+  <text id="13:903" name="01 Método" x="120" y="558" width="820" height="29" />
+  <text id="13:904" name="02 Fuentes" x="976" y="558" width="820" height="29" />
+  <text id="13:905" name="03 Tokens" x="1832" y="558" width="820" height="29" />
+  <text id="13:906" name="04 Slots" x="2688" y="558" width="820" height="29" />
+  <text id="13:907" name="05 QA" x="3544" y="558" width="820" height="29" />
+  <text id="13:908" name="06 Cambios" x="4400" y="558" width="820" height="29" />
+  <text id="13:909" name="07 Casos" x="5256" y="558" width="820" height="29" />
+  <text id="13:910" name="08 GitHub" x="6112" y="558" width="820" height="29" />
+  <text id="13:911" name="09 Estado" x="6968" y="558" width="820" height="29" />
+  <text id="13:912" name="10 Evidencia" x="7824" y="558" width="820" height="29" />
+</section>
+

@@ -1,0 +1,130 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-24T20:40:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 33, inspected_nodes: 33, pending_nodes: 0, invisible_nodes_inspected: 4, truncated: false, limit: null}
+  mcp_limitations: ["The full external AddressBook library is not exposed; nested item source contract records its active identity."]
+component:
+  id: "2461:1740"
+  key: a9b5398f81f4ca60c7f3eed597a90ffefc2029ad
+  name: Switch Tab
+  type: COMPONENT
+  description: ""
+  parent: {id: "2461:634", name: Content, type: FRAME}
+  page: {id: "268:20245", name: "❖ Navigation   ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2461-1740", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2461:1740"}
+classification: {kind: component, reusable: true, composition: true, evidence_refs: [E001]}
+identity: {position: {x: 429, y: 136.5}, dimensions: {width: 488, height: 46}, visible: true, clips_content: false, opacity: 1, blend_mode: PASS_THROUGH}
+direct_children:
+  - {id: "2461:1716", name: Tab item, type: INSTANCE, variant: Active, x: 4, y: 4, width: 120, height: 38}
+  - {id: "2461:1717", name: Tab item, type: INSTANCE, variant: Default, x: 128, y: 4, width: 116, height: 38}
+  - {id: "2461:1718", name: Tab item, type: INSTANCE, variant: Default, x: 248, y: 4, width: 116, height: 38}
+  - {id: "2461:1719", name: Tab item, type: INSTANCE, variant: Default, x: 368, y: 4, width: 116, height: 38}
+anatomy:
+  functional_tree: ["Switch Tab → Active Tab item; Default Tab item; Default Tab item; Default Tab item"]
+  graphical_details_omitted: ["Nested AddressBook vectors and Dot text are governed by the Tab item dependency contract."]
+dependency_inventory:
+  components: {total_instances: 16, total: 3, local: 2, remote: 1, unknown_locality: 0, resolved: 2, partially_resolved: 1, unresolved: 0}
+  variables: {total: 20, local: 14, remote: 6, unknown_locality: 0, resolved: 20, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: 44cd079b3bb28629bd1fdcb794dcffc89ee81a2a
+    kind: COMPONENT
+    instance_ids: ["2461:1716", "2461:1717", "2461:1718", "2461:1719"]
+    instance_count: 4
+    main_component: {id: "2461:660", key: 5cc18ac44d9479d882594987f1c5204baaca8c49, name: "State=Active"}
+    component_set: {id: "2461:651", key: 44cd079b3bb28629bd1fdcb794dcffc89ee81a2a, name: Tab item}
+    locality: LOCAL
+    active_properties: ["State=Active", "State=Default"]
+    property_definitions: []
+    variants: {observed: [Active, Default], available: [Disabled], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E003], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: drafts/contracts/navigation-switch-tab-item.source.component-contract.yaml}
+  - dependency_id: 06df8e9033e095bd1ca776691d73501daf5fdda9
+    kind: COMPONENT
+    instance_ids: ["I2461:1716;2461:662", "I2461:1717;2461:658", "I2461:1718;2461:658", "I2461:1719;2461:658"]
+    instance_count: 4
+    main_component: {id: "1133:31554", key: 06df8e9033e095bd1ca776691d73501daf5fdda9, name: "type=number, size=middle"}
+    component_set: {id: null, key: null, name: dot}
+    locality: LOCAL
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["type=number, size=middle"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E002], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: drafts/contracts/dot.source.component-contract.yaml}
+  - dependency_id: ba5343589d88e1f18b0ed731cebcb3ec41138ebb
+    kind: COMPONENT
+    instance_ids: ["I2461:1716;2829:34893", "I2461:1716;2461:663", "I2461:1717;2829:34894", "I2461:1717;2461:659", "I2461:1718;2829:34894", "I2461:1718;2461:659", "I2461:1719;2829:34894", "I2461:1719;2461:659"]
+    instance_count: 8
+    main_component: {id: "4334:1117", key: ba5343589d88e1f18b0ed731cebcb3ec41138ebb, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: AddressBook}
+    locality: REMOTE
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: 1512, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: PARTIALLY_RESOLVED, evidence: [E003], missing_fields: ["Full remote library definition"], reason: "Active main key verified; full catalog not exposed."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+variable_dependencies:
+  - {id: "VariableID:2849:196105", name: color/background/subtle, type: COLOR, locality: LOCAL, used_by: ["2461:1740"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", name: "Spacing/Small/spacing-sm-8", type: FLOAT, locality: REMOTE, used_by: ["Tab item"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", name: "Spacing/Small/spacing-sm-12", type: FLOAT, locality: REMOTE, used_by: ["Tab item"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:4", name: radius/md, type: FLOAT, locality: LOCAL, used_by: ["Tab item"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:3069:15806", name: color/interactive/accent/default, type: COLOR, locality: LOCAL, used_by: ["Tab item Active"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:d10c991533398ce48a0a84cc9e51436af4b89399/4495:2", name: "icons/xxsm-icon-size", type: FLOAT, locality: REMOTE, used_by: [AddressBook], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196142", name: color/icon/on-brand, type: COLOR, locality: LOCAL, used_by: ["Tab item Active"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196123", name: color/text/on-brand, type: COLOR, locality: LOCAL, used_by: ["Tab item Active", Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", name: "Size/sm-3", type: FLOAT, locality: REMOTE, used_by: [AddressBook], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160891", name: font/weight/bold, type: STRING, locality: LOCAL, used_by: ["Tab item Active", Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: ["Tab item"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:1098:28491", name: spacing/none, type: FLOAT, locality: LOCAL, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:10", name: spacing/xs, type: FLOAT, locality: LOCAL, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", name: "radius/radius-full", type: FLOAT, locality: REMOTE, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", name: "stroke/stroke-default", type: FLOAT, locality: REMOTE, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196145", name: color/feedback/danger/icon, type: COLOR, locality: LOCAL, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2888:26808", name: color/border/on-brand, type: COLOR, locality: LOCAL, used_by: [Dot], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196138", name: color/icon/primary, type: COLOR, locality: LOCAL, used_by: ["Tab item Default"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196116", name: color/text/primary, type: COLOR, locality: LOCAL, used_by: ["Tab item Default"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160888", name: font/weight/regular, type: STRING, locality: LOCAL, used_by: ["Tab item Default"], resolution: {status: RESOLVED, evidence: [E004]}}
+style_dependencies: []
+properties: {definitions: [], observed: [], available: [], unknown: ["No parent-level selected-index or label properties"]}
+variants: {observed_combinations: ["single component, four nested items"], available_values: [], unknown: ["Different tab counts and selected positions not observed"]}
+states: {observed: ["first Active, three Default"], available: [], unknown: ["selection behavior, disabled group"]}
+layout:
+  node: {node: {id: "2461:1740", name: Switch Tab, type: COMPONENT}, position: {x: 429, y: 136.5, absolute_x: null, absolute_y: null, unit: px}, layout_mode: HORIZONTAL, layout_wrap: NO_WRAP, layout_positioning: AUTO, sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}, dimensions: {width: {resolved_value: 488, unit: px, availability: OBSERVED, evidence_refs: [E001]}, height: {resolved_value: 46, unit: px, availability: OBSERVED, evidence_refs: [E001]}}, spacing: {gap: {resolved_value: 4, unit: px, availability: OBSERVED, evidence_refs: [E001]}, row_gap: null, column_gap: null}, padding: {top: 4, right: 4, bottom: 4, left: 4}, alignment: {primary_axis: CENTER, counter_axis: CENTER, self: null}, constraints: {horizontal: null, vertical: null}, overflow: null, clips_content: false, strokes_included_in_layout: null, grow: null, grids: [], evidence_refs: [E001]}
+  children: []
+  relationships: []
+visual:
+  node: {node: {id: "2461:1740", name: Switch Tab, type: COMPONENT}, fills: [{type: SOLID, color: "#F1F5F9", variable_id: "VariableID:2849:196105", evidence_refs: [E004]}], backgrounds: [], strokes: [], stroke_width: {resolved_value: null, unit: px, availability: UNKNOWN, evidence_refs: []}, stroke_widths: {top: null, right: null, bottom: null, left: null}, stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: []}, corner_radius: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E001]}, corner_radii: {top_left: 8, top_right: 8, bottom_right: 8, bottom_left: 8}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E001]}, blend_mode: {resolved_value: PASS_THROUGH, unit: null, availability: OBSERVED, evidence_refs: [E001]}, effects: [], shadows: [], blur: [], clips_content: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, is_mask: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, evidence_refs: [E001]}
+  descendants: []
+  icons: []
+typography: {styles: [], text_runs: []}
+tokens: {summary: {total: 20, local: 14, remote: 6}, categories: {Color: ["VariableID:2849:196105", "VariableID:3069:15806", "VariableID:2849:196142", "VariableID:2849:196123", "VariableID:2849:196145", "VariableID:2888:26808", "VariableID:2849:196138", "VariableID:2849:196116"], Other: ["VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", "VariableID:562:4", "VariableID:d10c991533398ce48a0a84cc9e51436af4b89399/4495:2", "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", "VariableID:2845:160891", "VariableID:2845:160887", "VariableID:1098:28491", "VariableID:562:10", "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", "VariableID:2845:160888"]}, source: variable_dependencies}
+content: {example_content: {observed_strings: ["Tab title", "1"]}, component_rules: [], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "No reactions on parent or item source", rules: []}
+semantic_contract: {explicit_descriptions: ["Page note describes section navigation without reload"], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["Four visual items, first highlighted"], undefined: ["Tablist roles, selected state, focus and keyboard behavior"]}
+external_dependencies:
+  - {kind: COMPONENT, id: "4334:1117", key: ba5343589d88e1f18b0ed731cebcb3ec41138ebb, name: AddressBook, remote: true, collection: null, component_set: {id: null, key: null, name: AddressBook}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: PARTIALLY_RESOLVED, evidence: [E003], missing_fields: ["Full remote component definition"], reason: "Active identity only"}}
+unresolved: []
+implementation_notes: ["Compose four instances of local destination Switch Tab Item; preserve existing subtle background token."]
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:2461:1740", value: "488x46 component, horizontal auto layout, 4px padding/gap and 8px radius", note: null}
+    - {id: E003, source: "instances:2461:1740", value: "Four local Tab item instances: Active, Default, Default, Default", note: null}
+    - {id: E004, source: "variables:2461:1740", value: "20 source variables resolved, subtle background neutral/200", note: null}
+    - {id: E005, source: "screenshot:2461:1740", value: "One purple active tab on pale gray container", note: null}
+  derived:
+    - {id: E002, source: "traversal:2461:1740", value: "33 nodes, 4 invisible, 16 instances, 8 vectors, 8 texts, 20 variables", note: null}
+  requires_definition: ["Web interaction, selected-state behavior, variable tab count and accessible semantics"]
+  confidence: {level: HIGH, reason: "Complete source traversal and screenshot; behavior remains undefined."}

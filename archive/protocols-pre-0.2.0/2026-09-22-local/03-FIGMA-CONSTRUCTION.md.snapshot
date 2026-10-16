@@ -1,0 +1,105 @@
+# Protocol 03: Figma Construction
+
+## Purpose
+
+Materialize approved contracts in the designated Figma reconstruction
+file through the approved Figma MCP.
+
+
+### Canonical Figma reconstruction target
+The Design System reconstruction target is:
+
+`https://www.figma.com/design/tj3WIBEZDGLVs7MJWKCwgf/AI-Design-System?node-id=0-1`
+
+Figma file key: `tj3WIBEZDGLVs7MJWKCwgf`
+
+The current root page is `Page 1` (`0:1`). Treat this file as the designated construction target unless the user explicitly supplies another target.
+
+### One page per component family
+Component construction MUST be organized by dedicated Figma pages.
+
+Create or reuse exactly one dedicated page for each component family. All variants, states, sizes, properties, examples, and supporting frames belonging to the same component family must live on that page.
+
+Examples:
+- all Button variants and states -> page `Button` (or the approved canonical component name);
+- all Badge variants and states -> page `Badge`;
+- all Input variants and states -> page `Input`;
+- all Modal variants and states -> page `Modal`.
+
+Do NOT create a separate page per variant or state.
+Do NOT mix unrelated component families on the same page.
+Do NOT place a new component family on `Page 1` merely because it is currently empty.
+
+Before creating a page:
+1. inspect the file page list;
+2. search for an existing page representing the same canonical component family;
+3. reuse it when it is the intended page;
+4. create a new page only when no correct page exists;
+5. record the page ID and canonical page name in the implementation registry.
+
+Page naming must follow the canonical component name defined by the contract. If naming is ambiguous, stop and request resolution rather than inventing a taxonomy.
+
+Foundations/tokens are not component families. Their page organization must be defined by their own approved contract or project decision.
+
+
+### Preconditions
+
+Contract/data is `READY`; dependencies resolved; exact file and target
+area known; MCP capabilities verified; relevant conflicts cleared.
+
+Build **contract → Figma**, never visual intuition → Figma. Do not
+invent tokens, values, variants, states, dimensions, behaviors or names.
+
+### Preflight
+
+Read authoritative contracts and token/foundation dependencies; query
+project knowledge/Graphify when useful; inspect target; check for
+existing implementation; classify create/update/migrate/validate-only;
+form a requirement-linked implementation plan.
+
+### Token binding
+
+When a token exists, bind it. Do not paste its resolved literal.
+Preserve primitive→semantic aliases and modes. Hardcoded literals are
+allowed only when the approved contract explicitly requires them or
+explicitly defines a value for which no token exists.
+
+### Foundations
+
+Preserve collection boundaries, names, modes, aliases, types, scopes,
+values and descriptions. In a new Figma file do not fake source IDs that
+cannot be preserved. Do not invent `codeSyntax`.
+
+### Components
+
+Implement only documented anatomy, hierarchy, properties, variants,
+states, dimensions, auto-layout, content behavior, token bindings,
+naming, prototype behavior and accessibility metadata. Silence in a
+contract is not permission to fill gaps with generic UX conventions.
+
+### Existing artifacts
+
+Inspect before creating. Avoid duplicates. Update only with authority.
+Preserve unrelated content.
+
+### Write discipline
+
+Prefer small inspectable batches. Dependencies precede consumers.
+Capture identifiers after meaningful writes.
+
+### Mandatory readback
+
+Retrieve created/updated nodes; inspect hierarchy, properties, bindings,
+variants and names; record Figma IDs; then run Protocol 05. A write
+response alone never proves correctness.
+
+Destructive changes such as deletion, large rename, detaching,
+flattening or relationship-breaking replacement require explicit
+authority.
+
+On partial failure stop dependent writes, inspect actual state, record
+partial results and avoid blind retries.
+
+Implementation record: artifact, contract_refs, Figma
+file/page/node_ids, operation, dependencies, bindings summary, status
+`IMPLEMENTED`, notes. `IMPLEMENTED` is not `VALIDATED`.

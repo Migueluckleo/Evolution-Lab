@@ -1,0 +1,930 @@
+[
+  {
+    "id": "BUTTON-001",
+    "slug": "button",
+    "name": "Button",
+    "category": "Acciones",
+    "module": "actions",
+    "exports": [
+      "Button"
+    ],
+    "base": "specs/components/button.contract.v0.2.0.md",
+    "amendments": [
+      "specs/components/button-page-name.amendment.md",
+      "specs/components/button.local-bindings.amendment.v0.2.2.md",
+      "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/button.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Defaults del maestro: primary/large, texto Default y dos PlusCircle Light visibles; showLeftIcon/showRightIcon independientes. Los ejemplos de producto ocultan iconos salvo que aporten significado (REQ-BTN-014). button type=button por defecto; href crea enlace. Pseudoestados CSS del navegador, sin envío de formulario implícito.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "ICON-BUTTON-001",
+    "slug": "icon-button",
+    "name": "IconButton",
+    "category": "Acciones",
+    "module": "actions",
+    "exports": [
+      "IconButton"
+    ],
+    "base": "specs/icon-button.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/icon-button.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "label obligatorio para acciones sin texto. count es una cadena proporcionada por la pantalla; no calcula notificaciones ni 99+.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "FILTER-CHIP-001",
+    "slug": "filter-chip",
+    "name": "FilterChip",
+    "category": "Acciones",
+    "module": "actions",
+    "exports": [
+      "FilterChip"
+    ],
+    "base": "specs/components/filter-chip.contract.v0.2.0.md",
+    "amendments": [
+      "specs/components/filter-chip.semantic.amendment.v0.2.1.md",
+      "specs/components/filter-chip.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Defaults Chip, Large, selected=false y dos PlusCircle Light ocultos. showLeftIcon/showRightIcon y swaps son independientes. selected es controlado; onSelectedChange propone el valor, no filtra datos internamente.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "BADGE-001",
+    "slug": "badge",
+    "name": "Badge",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "Badge"
+    ],
+    "base": "specs/components/badge.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/badge.source-color-amendment.v0.1.2.md",
+      "specs/components/badge.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Seis tonos contractuales. Color informativo/warning conserva las enmiendas de fidelidad; no implica contraste certificado.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "DOT-001",
+    "slug": "dot",
+    "name": "Dot",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "Dot"
+    ],
+    "base": "specs/components/dot.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/dot.source-color-amendment.v0.1.2.md",
+      "specs/components/dot.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Cinco apariencias y tres tamaños. count es contenido literal; label anuncia significado solo si la pantalla lo conoce.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "INLINE-NOTIFICATION-001",
+    "slug": "inline-notification",
+    "name": "InlineNotification",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "InlineNotification"
+    ],
+    "base": "specs/components/inline-notification.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md",
+      "specs/components/inline-notification.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "El aviso usa role=status y solo solicita cierre mediante onDismiss. La pantalla decide cuándo mostrarlo.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "LINEAR-PROGRESS-BAR-001",
+    "slug": "linear-progress-bar",
+    "name": "LinearProgressBar",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "LinearProgressBar"
+    ],
+    "base": "specs/linear-progress-bar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/linear-progress-bar.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Mantiene los valores contractuales 25/50/75/100; porcentaje, relleno y aria-valuenow usan la misma prop. No simula carga.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "LOADER-001",
+    "slug": "loader",
+    "name": "Loader",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "Loader"
+    ],
+    "base": "specs/loader.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/loader.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "16 combinaciones públicas; anillo/cap de la fuente, 24 pasos antihorarios de15° con pausa1ms e interpolación50ms, ciclo1.224s y prefers-reduced-motion. No acredita un proceso remoto.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "TOOLTIP-001",
+    "slug": "tooltip",
+    "name": "Tooltip",
+    "category": "Estado y ayuda",
+    "module": "feedback",
+    "exports": [
+      "Tooltip"
+    ],
+    "base": "drafts/contracts/tooltip.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/tooltip.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Align indica el lado de la flecha. Geometría de flecha16×10, dos sombras y texto14/24. asChild vincula aria-describedby al control existente; el wrapper se enfoca solo para contenido no interactivo. Hover/focus y Escape locales, sin detección automática de colisiones.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "INPUT-FIELD-001",
+    "slug": "input-field",
+    "name": "InputField",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "InputField"
+    ],
+    "base": "specs/input-field.contract.v0.1.0.md",
+    "amendments": [
+      "specs/input-field.disabled-text.amendment.v0.1.1.md",
+      "specs/components/input-field.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Etiqueta asociada, helper e invalid enlazados por ID. value/onChange o defaultValue siguen React. status es presentación; no valida RFC, moneda ni datos. La enmienda Disabled exige texto disabled también con contenido.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "TEXTAREA-001",
+    "slug": "textarea",
+    "name": "Textarea",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "Textarea"
+    ],
+    "base": "specs/textarea.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/textarea.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "counter es texto del consumidor; no existe límite implícito 300. maxLength solo limita si el consumidor lo entrega. El control no ofrece resize en esta versión.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHECKBOX-001",
+    "slug": "checkbox",
+    "name": "Checkbox",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "Checkbox"
+    ],
+    "base": "specs/checkbox.contract.v0.1.0.md",
+    "amendments": [
+      "specs/checkbox.source-color-amendment.v0.1.1.md",
+      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
+      "specs/components/checkbox.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "input nativo; indeterminate se asigna al nodo real. No define lógica agregada ni resuelve grupos vacíos.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "RADIO-BUTTON-001",
+    "slug": "radio-button",
+    "name": "RadioButton",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "RadioButton"
+    ],
+    "base": "specs/radio-button.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
+      "specs/radio-button.source-color-amendment.v0.1.1.md",
+      "specs/components/radio-button.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "input radio nativo; agrupar por name y entregar value. Selección inicial del producto explícita, independiente del default Figma.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "TOGGLE-001",
+    "slug": "toggle",
+    "name": "Toggle",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "Toggle"
+    ],
+    "base": "drafts/contracts/toggle.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/toggle.focus-effect-amendment.v0.1.3.md",
+      "specs/components/toggle.mixed-amendment.v0.1.4.md",
+      "specs/components/toggle.source-color-amendment.v0.1.5.md",
+      "specs/components/toggle.visual-contrast-amendment.v0.1.2.md",
+      "specs/components/toggle.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "On/Off usa switch nativo. Mixed usa checkbox mixto con guion 24×4; no alterna ni calcula agregados por sí solo. onMixedAction deja la decisión al consumidor, porque clic/grupo vacío siguen sin regla de producto. El halo conserva la excepción AUD-003; no certifica fidelidad completa.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "SEARCH-001",
+    "slug": "search",
+    "name": "Search",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "Search"
+    ],
+    "base": "specs/search.contract.v0.1.1.md",
+    "amendments": [
+      "specs/components/search.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "value/onValueChange controlados. Limpiar emite cadena vacía; Enter y lupa llaman onSearch. El filtrado de datos está en la pantalla.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "SELECT-001",
+    "slug": "select",
+    "name": "Select",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "Select"
+    ],
+    "base": "specs/select.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/select.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "options es una lista de composición variable; value identifica cada opción. Se pueden insertar, retirar y reordenar elementos sin fijar la cantidad de la muestra"
+    },
+    "notes": "Lista de opciones sin límite fijo de cinco. Combobox con flechas, Home/End, Enter/Espacio, Escape y cierre exterior. Estado seleccionado independiente de abierto. Menú relativo al campo Large; no hay búsqueda remota. required se comunica por ARIA; no participa en validación nativa de formulario.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "DROPDOWN-ITEM-001",
+    "slug": "dropdown-item",
+    "name": "DropdownItem",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "DropdownItem"
+    ],
+    "base": "specs/dropdown-item.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/dropdown-item.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Una opción o acción con contenido secundario y decoración opcional. role se elige según el anfitrión. El checkbox visual no crea otro control anidado.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "FILEUPLOAD-001",
+    "slug": "file-upload",
+    "name": "FileUpload",
+    "category": "Formularios",
+    "module": "forms",
+    "exports": [
+      "FileUpload"
+    ],
+    "base": "specs/file-upload.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/file-upload.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Solo entrega File[] al consumidor, sin red, persistencia ni lectura del contenido. accept orienta al selector, no valida seguridad, tamaño ni archivos arrastrados. status es externo: seleccionar archivo no muestra éxito. El ejemplo distingue selección de carga.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "BREADCRUMBS-001",
+    "slug": "breadcrumbs",
+    "name": "Breadcrumbs",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "Breadcrumbs",
+      "BreadcrumbItem"
+    ],
+    "base": "specs/breadcrumbs.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/breadcrumbs.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "items"
+    },
+    "notes": "Lista ordenada; solo enlaces con href navegan, último segmento aria-current=page. Cantidades variables sin convertir 2–5 en un máximo.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "NAVIGATION-PAGINATION-001",
+    "slug": "navigation-pagination",
+    "name": "NavigationPagination",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "NavigationPagination"
+    ],
+    "base": "specs/navigation-pagination.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/components/navigation-pagination.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "pages/pageSizes"
+    },
+    "notes": "La API web calcula un rango compacto de páginas a partir de page/pages; es una decisión técnica de esta capa. No obtiene ni pagina datos. pageSize y callbacks son opcionales. No se deducen totales desde el texto Figma.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "NAVIGATION-SWITCH-TAB-001",
+    "slug": "navigation-switch-tab",
+    "name": "NavigationSwitchTab",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "NavigationSwitchTab"
+    ],
+    "base": "specs/navigation-switch-tab.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/navigation-switch-tab.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "items/content"
+    },
+    "notes": "Lista de pestañas controlada con flechas/Home/End y paneles opcionales. IDs por instancia. items permite 0..n; no se fija la muestra en cuatro.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "NAVIGATION-SWITCH-TAB-ITEM-001",
+    "slug": "navigation-switch-tab-item",
+    "name": "NavigationSwitchTabItem",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "NavigationSwitchTabItem"
+    ],
+    "base": "specs/navigation-switch-tab-item.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/navigation-switch-tab-item.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Pieza individual; el anfitrión asigna rol tab/aria-selected o aria-pressed según el caso. No inventa estados Hover/Press visuales.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "NAVIGATION-TAB-001",
+    "slug": "navigation-tab",
+    "name": "NavigationTab",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "NavigationTab"
+    ],
+    "base": "specs/navigation-tab.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/navigation-tab.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Base/Dynamic, activo y deshabilitado. selectedPresentation solo aplica a Dynamic activo; no modifica datos ni crea un panel. El consumidor asigna rol/atributos según uso.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "STEPS-001",
+    "slug": "steps",
+    "name": "Steps",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "Steps",
+      "StepsDot",
+      "StepsCombination"
+    ],
+    "base": "specs/steps.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/steps.brand-theme.amendment.v0.1.1.md",
+      "specs/components/steps.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "indicators"
+    },
+    "notes": "La enmienda Slots permite total variable y indicators personalizado. current/total provienen de la pantalla; no se limitan a los presets 2–7. Las anomalías históricas On Primary/Gallery se conservan en sus roles. No define qué significa completar un paso.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "STEPPER-001",
+    "slug": "stepper",
+    "name": "Stepper",
+    "category": "Navegación",
+    "module": "navigation",
+    "exports": [
+      "Stepper",
+      "StepperConnector"
+    ],
+    "base": "specs/stepper.contract.v0.1.0.md",
+    "amendments": [
+      "specs/stepper.brand-theme.amendment.v0.1.1.md",
+      "specs/components/stepper.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "Un item visual con orientación, posición y estado; default no se renombra como paso actual. No avanza ni deriva Checked de acciones.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "AVATAR-001",
+    "slug": "avatar",
+    "name": "Avatar",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Avatar"
+    ],
+    "base": "drafts/contracts/avatar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/avatar.source-color-amendment.v0.1.1.md",
+      "specs/components/avatar.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "src explícito; foto incluida de muestra, sin iniciales ni fallback fabricado. Show status=true conserva el default visual del maestro; el dot es decorativo salvo que la pantalla aporte statusLabel. No se infiere presencia real.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHARACTERS-001",
+    "slug": "characters",
+    "name": "Characters",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Characters"
+    ],
+    "base": "specs/characters.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/characters.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "13 fotogramas originales BENI/NAVI desde el snapshot de Ecosistema. Las matrices locales SVG se derivan de las absolutas fuente para evitar duplicar el desplazamiento de los grupos. Identidad fija por tokens character-identity; no cambia con tema. Sin animación automática ni inferencia de backend. BENI admite 1–6; NAVI 1–7.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "LOGOS-001",
+    "slug": "logos",
+    "name": "Logos",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Logos"
+    ],
+    "base": "drafts/contracts/logos.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/logos.scope.amendment.v0.1.1.md",
+      "specs/components/logos.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
+    },
+    "notes": "72/72 exportaciones originales locales con IDs/hashes. PNG o SVG según el exportador, sin recolorear; PNG no promete escalado vectorial. assetId desconocido produce error explícito y src permite asset local propio. Completar los assets web no resuelve el QA geométrico histórico de la biblioteca Figma.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "EMPTY-STATES-001",
+    "slug": "empty-states",
+    "name": "EmptyStates",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "EmptyStates",
+      "EmptyStateIllustration"
+    ],
+    "base": "specs/empty-states.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/empty-states.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "mainActions/supportingActions"
+    },
+    "notes": "Cuatro composiciones. Seis ilustraciones locales con geometría original y colores de extensión semántica. Ilustración sustituible. Main exige 548px; no se fuerza a móvil ni se deduce un estado de error.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "METRIC-CARD-001",
+    "slug": "metric-card",
+    "name": "MetricCard",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "MetricCard"
+    ],
+    "base": "specs/metric-card.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/metric-card.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "NOT_APPLICABLE",
+      "reason": "Anatomía fija, dos métricas en Vertical/Horizontal y una en V1/V2. Los swaps icon/action no crean cardinalidad variable."
+    },
+    "notes": "Ocho estructuras exactas Type×Size. Valores y textos son muestras, sin cálculo; vertical/horizontal usan hasta dos pares, V1/V2 el primer valor. Show icon/action/detail son independientes. V1 tiene las alturas normalizadas156/116; V2 baldosa96/80 con icono64/48. action es una affordance de muestra; un botón/enlace real debe venir del consumidor.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "TABLE-001",
+    "slug": "table",
+    "name": "Table",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Table",
+      "TableHeader",
+      "TableHeaderCell",
+      "TableRow",
+      "TableCell",
+      "TableActionsCell",
+      "TableGlyph"
+    ],
+    "base": "specs/table.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/table.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "columns/rows/cell/actions"
+    },
+    "notes": "Piezas Table/Header/HeaderCell/Row/Cell/ActionsCell reutilizables y Slots 0..n. Show selection/actions/status/copy/brand/sort exponen la anatomía documentada. Hover conserva TABLE-AUD-001: añade 8px de ancho, muestra DotsThree y reduce 24px la primera celda de ancho explícito. No se inventan selección, copia ni orden automático; el consumidor aporta los callbacks.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "MODAL-001",
+    "slug": "modal",
+    "name": "Modal",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Modal"
+    ],
+    "base": "specs/modal.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/modal.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "children/actions/sideContent/media"
+    },
+    "notes": "Ocho configuraciones y medidas mínimas del contrato; dialog local controlado, Escape y devolución de foco nativos. Media/SideBySide usan las dos imágenes originales verificadas por SHA-1 Figma y SHA-256 local. media admite sustitución explícita o null para vacío. Sin backend ni recoloración por tema.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "SCROLLBAR-001",
+    "slug": "scrollbar",
+    "name": "Scrollbar",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Scrollbar",
+      "ScrollbarThumb",
+      "ScrollArea"
+    ],
+    "base": "specs/scrollbar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/scrollbar.color-approximation.amendment.v0.1.1.md",
+      "specs/components/scrollbar.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "El viewport web recibe children de cantidad/composición variable. La anatomía visual del scrollbar permanece fija; esta composición web no afirma Slots en Figma"
+    },
+    "notes": "Scrollbar representa las ocho variantes visuales fijas (orientación y Thumb Size); las etiquetas históricas no son porcentajes calculados. ScrollArea es el contenedor funcional nativo separado, que calcula su thumb por contenido. No hay drag ni posición continua en la pieza visual.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "FUENTES-001",
+    "slug": "fuentes",
+    "name": "Fuentes",
+    "category": "Contenido",
+    "module": "content",
+    "exports": [
+      "Fuentes",
+      "FuentesPathItem"
+    ],
+    "base": "specs/components/fuentes.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/fuentes.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "path"
+    },
+    "notes": "Tarjeta de metadatos, sin enlaces inventados. Path es composición React, el consumidor define orden/separadores. Ancho 150–168px y texto 8px de ruta conservados como limitación de legibilidad.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHARTS-001",
+    "slug": "charts",
+    "name": "Charts",
+    "category": "Datos",
+    "module": "charts",
+    "exports": [
+      "Charts",
+      "ChartHeader",
+      "ChartLegendLabel",
+      "ChartCell",
+      "ProgressChartItem",
+      "SemiDonutGauge"
+    ],
+    "base": "specs/charts.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/components/charts.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "children/legend/detail"
+    },
+    "notes": "23 definiciones visuales agrupadas en cinco piezas y composición Charts. Cell conserva padding first=8/4, middle=6/6, last=4/8 y dash2/2. Progress Top639×30/Detail639×104 conserva fills580/247 y dos leyendas de muestra; value no calcula porcentaje. Header638×48. Gauge conserva paths25/50/75. No motor de datos continuo.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "HEADER-001",
+    "slug": "header",
+    "name": "Header",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "Header"
+    ],
+    "base": "specs/header.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/header.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "logo/actions/user"
+    },
+    "notes": "Composición sin menús ficticios. logo es contenido explícito para no elegir un artwork ausente o recolorearlo por tema. Eventos company/user son callbacks del consumidor. Geometría desktop, puede requerir overflow del anfitrión.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "SIDEBAR-001",
+    "slug": "sidebar",
+    "name": "Sidebar",
+    "category": "Composición",
+    "module": "sidebar",
+    "exports": [
+      "Sidebar",
+      "MenuItem",
+      "TopBar"
+    ],
+    "base": "specs/sidebar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/sidebar.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "Sidebar items/children y lowerOptions; TopBar items/children, 0..n. MenuItem tiene anatomía fija: NOT_APPLICABLE."
+    },
+    "notes": "22 combinaciones documentadas de MenuItem; la unión SVG conserva paths fuente y las variantes usan roles locales verificados. Sidebar mide 72/234×885px por defecto; height es la dimensión del anfitrión (904px dentro de AppShell). Los items tipados alternan expanded/collapsed, conservan submenús ocultos y aceptan 0..n elementos. children y lowerOptions conservan contenido y requieren composición explícita del anfitrión. No se inventa un estado Disabled ni Focus de submenú.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "APP-SHELL-001",
+    "slug": "app-shell",
+    "name": "AppShell",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "AppShell"
+    ],
+    "base": "specs/app-shell.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "header/sidebar/children"
+    },
+    "notes": "Shell de escritorio, base1440×1024, Header96 y rail104/266 con padding0/16/24. width/height pertenecen al anfitrión; sin mínimo ni breakpoint1024 inventado. Sidebar llena el alto disponible (904px en la base).",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHAT-HISTORY-ITEM-001",
+    "slug": "chat-history-item",
+    "name": "ChatHistoryItem",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "ChatHistoryItem"
+    ],
+    "base": "specs/chat-history-item.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat-history-item.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "children/actions"
+    },
+    "notes": "Seleccionado y hover son independientes. Acciones hermanas del botón de título evitan botones anidados; también aparecen con foco. No borra historial sin callback explícito.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHAT-TOOL-ITEM-001",
+    "slug": "chat-tool-item",
+    "name": "ChatToolItem",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "ChatToolItem"
+    ],
+    "base": "specs/chat-tool-item.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat-tool-item.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "extraActions"
+    },
+    "notes": "Acción con etiqueta, icono y acciones adicionales independientes. Disabled bloquea el botón principal; el anfitrión decide el estado de extraActions.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHAT-TOOLBAR-001",
+    "slug": "chat-toolbar",
+    "name": "ChatToolbar",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "ChatToolbar"
+    ],
+    "base": "specs/chat-toolbar.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat.layout.amendment.v0.1.1.md",
+      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "header/tools/indicators/chats/plan"
+    },
+    "notes": "Altura791 y ancho79/264 según contrato y enmienda0.1.1. Contenido conservado al contraer. Show indicators=false y Show plan=true. Se conserva la ausencia de overflow de la fuente; listas que excedan el alto son la limitación documental conocida.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CONVERSATION-001",
+    "slug": "conversation",
+    "name": "Conversation",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "Conversation",
+      "ConversationGlyph",
+      "ConversationMessage",
+      "ConversationResponse",
+      "ConversationComposer",
+      "ConversationPreview"
+    ],
+    "base": "specs/conversation.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+      "specs/components/conversation.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector"
+    },
+    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  },
+  {
+    "id": "CHAT-SECTION-001",
+    "slug": "chat-section",
+    "name": "ChatSection",
+    "category": "Composición",
+    "module": "layout",
+    "exports": [
+      "ChatSection",
+      "ChatSuggestion",
+      "ChatWelcome"
+    ],
+    "base": "specs/chat-section.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat.layout.amendment.v0.1.1.md",
+      "specs/components/chat-section.typography.amendment.v0.1.0.md"
+    ],
+    "slots": {
+      "status": "REQUIRED",
+      "reason": "messages/suggestions/composer"
+    },
+    "notes": "Standby/Active conservan regiones y contenido. Active aplica scroll web a Messages; Status y Composer permanecen fuera. Máximo de columna 816px según enmienda0.1.1, mínimo de composición574. No autoscroll ni historial remoto.",
+    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+  }
+]

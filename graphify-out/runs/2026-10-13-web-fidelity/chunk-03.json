@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_beni_web_evidencia_visual",
+      "label": "BENI aislado con ojos centrados",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/beni.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false,
+      "behavior_not_proven_by_screenshot": true
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_beni_web_silueta_beni",
+      "label": "Silueta azul redondeada de BENI, ancha arriba y estrecha abajo",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/beni.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_fidelity_2026_10_13_beni_web_rostro_centrado",
+      "label": "Dos ojos claros verticales centrados sobre una boca clara similar a bigote",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/beni.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_beni_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_beni_web_silueta_beni",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/beni.web.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_fidelity_2026_10_13_beni_web_evidencia_visual",
+      "target": "qa_implementations_web_fidelity_2026_10_13_beni_web_rostro_centrado",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web-fidelity-2026-10-13/beni.web.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

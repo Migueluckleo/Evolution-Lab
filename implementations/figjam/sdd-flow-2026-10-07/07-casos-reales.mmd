@@ -1,0 +1,27 @@
+flowchart LR
+subgraph buttonsCase ["CASO A · Buttons · 5 oct"]
+bFind["Nueve roles externos"] --> bAmend["Enmienda 0.2.2"]
+bAmend --> bFix["722 referencias locales"]
+bFix --> bPass["PASS acotado sin cambio visual"]
+end
+subgraph chipCase ["CASO B · Chips · 5 oct"]
+cFind["Roles semánticos inversos"] --> cAmend["Enmienda 0.2.1"]
+cAmend --> cFix["Corregir bindings y scopes"]
+cFix --> cPass["30 variantes, colores conservados"]
+end
+subgraph slotsCase ["CASO C · Composiciones"]
+sFind["Contenido variable requerido"] --> sNative["Slots nativos verificables"]
+sNative --> sQA["Operaciones desde instancias"]
+sQA --> sPass["PASS del alcance de composición"]
+end
+subgraph logosCase ["CASO D · Logos · 6 oct"]
+lFind["Seis sets y 72 variantes"] --> lQA["57 deltas geométricos"]
+lQA --> lTest["Pruebas en clones insuficientes"]
+lTest --> lPending["Decisión explícita pendiente"]
+end
+style buttonsCase fill:#F5FBFF,stroke:#3DADFF
+style chipCase fill:#F8F5FF,stroke:#874FFF
+style slotsCase fill:#F1FEFD,stroke:#5AD8CC
+style logosCase fill:#FFFBF0,stroke:#FFC943
+style lPending fill:#FFECBD,stroke:#FFC943
+

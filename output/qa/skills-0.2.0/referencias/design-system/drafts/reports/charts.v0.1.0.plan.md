@@ -1,0 +1,6 @@
+# Plan de construcción Figma · Charts 0.1.0
+
+- **Destino y preflight:** `AI-Design-System`, página `Charts` ausente antes de crear; colección semántica local y siete roles chart presentes, aliases JSON/Figma concordantes. Manrope Regular y SemiBold disponibles. Los tokens de fondo, borde, tipografía, spacing y radio existen con scope correcto.
+- **Orden dependiente:** crear página y Chart Legend Label/Chart Cell → Gauge desde el snapshot vectorial fuente → Progress Chart Item y Chart Header con nueve instancias locales de Legend Label → leer propiedades, paints, tipografía, paths y capturas → registrar diferencias/QA. La fuente es solo lectura; no publicar.
+- **Geometría y riesgo:** limitar Cell a 13 cruces, reservar 6 px literal para Middle, mantener barras fijas de ejemplo y Gauge sin raster. `vectorPaths` puede normalizar decimales; comparar comandos y coordenadas además del render, sin afirmar identidad textual. La auto-resize de texto de Legend Label debe evitar cajas de 48 px innecesarias dentro de instancias de ancho variable.
+- **Cierre técnico:** comprobar una sola página, 23 definiciones, nueve instancias con main local, seis vectores, 28 textos con cinco bindings, todas las pinturas ligadas y cero cruces de scope/categoría, más cero reacciones. Auditoría humana queda pendiente.

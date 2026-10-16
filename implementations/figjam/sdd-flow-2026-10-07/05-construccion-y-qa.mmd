@@ -1,0 +1,30 @@
+flowchart TB
+start(["Contrato habilitado"]) --> preflight["Leer destino y registros"]
+preflight --> check{"Página, tokens y dependencias listos"}
+check -->|"No"| block["BLOCKED: resolver dependencia"]
+check -->|"Sí"| classify["CREATE, UPDATE, MIGRATE o VALIDATE_ONLY"]
+classify --> before["Capturar estado previo"]
+before --> pages["Reutilizar página semántica"]
+pages --> dependencies["Resolver dependencias locales"]
+dependencies --> write["Construir alcance autorizado"]
+write --> success{"Escritura completada"}
+success -->|"No"| recovery["Leer estado parcial y recuperar"]
+success -->|"Sí"| read["Leer resultado real"]
+read --> compare["Comparar contra contrato y fuente"]
+compare --> structural["QA estructura, variantes y propiedades"]
+structural --> tokenqa["QA aliases, scopes y modos"]
+tokenqa --> visual["QA visual, tipografía y contraste"]
+visual --> slots["QA Slots, instancias y regresión"]
+slots --> result{"Evidencia suficiente y conforme"}
+result -->|"Falla"| fail["FAILED: corrección acotada"]
+result -->|"Limitada"| partial["Registrar cobertura parcial"]
+result -->|"Sí"| valid["VALIDATED técnico"]
+valid --> record(["Guardar IDs, QA y pendientes"])
+style check fill:#FFECBD,stroke:#FFC943
+style success fill:#FFECBD,stroke:#FFC943
+style result fill:#FFECBD,stroke:#FFC943
+style block fill:#FFCDC2,stroke:#FF7556
+style fail fill:#FFCDC2,stroke:#FF7556
+style partial fill:#FFE0C2,stroke:#FF9E42
+style valid fill:#CDF4D3,stroke:#66D575
+

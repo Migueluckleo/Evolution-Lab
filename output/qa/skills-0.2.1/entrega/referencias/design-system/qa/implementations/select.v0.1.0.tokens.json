@@ -1,0 +1,1227 @@
+{
+  "issues": [
+    {
+      "id": "I456:441;446:173;378:1790",
+      "type": "INSTANCE",
+      "name": "Loader Sm Primary Motion",
+      "visible": true,
+      "opacity": 1,
+      "paint": {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      },
+      "parent": "Loader"
+    },
+    {
+      "id": "I456:450;446:173;378:1790",
+      "type": "INSTANCE",
+      "name": "Loader Sm Primary Motion",
+      "visible": true,
+      "opacity": 1,
+      "paint": {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      },
+      "parent": "Loader"
+    },
+    {
+      "id": "I456:459;446:173;378:1790",
+      "type": "INSTANCE",
+      "name": "Loader Sm Primary Motion",
+      "visible": true,
+      "opacity": 1,
+      "paint": {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      },
+      "parent": "Loader"
+    },
+    {
+      "id": "I456:468;446:173;378:1790",
+      "type": "INSTANCE",
+      "name": "Loader Sm Primary Motion",
+      "visible": true,
+      "opacity": 1,
+      "paint": {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      },
+      "parent": "Loader"
+    },
+    {
+      "id": "I456:477;446:173;378:1790",
+      "type": "INSTANCE",
+      "name": "Loader Sm Primary Motion",
+      "visible": true,
+      "opacity": 1,
+      "paint": {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      },
+      "parent": "Loader"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "spacing/0",
+          "value": 0
+        },
+        {
+          "mode": "6:1",
+          "alias": "spacing/0",
+          "value": 0
+        },
+        {
+          "mode": "6:2",
+          "alias": "spacing/0",
+          "value": 0
+        },
+        {
+          "mode": "6:3",
+          "alias": "spacing/0",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:39",
+      "name": "radius/none",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Ausencia intencional de redondeo dentro de la escala semántica de radios. Úsalo cuando una superficie deba conservar esquinas rectas de forma explícita.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "radius/0",
+          "value": 0
+        },
+        {
+          "mode": "6:1",
+          "alias": "radius/0",
+          "value": 0
+        },
+        {
+          "mode": "6:2",
+          "alias": "radius/0",
+          "value": 0
+        },
+        {
+          "mode": "6:3",
+          "alias": "radius/0",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "spacing/8",
+          "value": 8
+        },
+        {
+          "mode": "6:1",
+          "alias": "spacing/8",
+          "value": 8
+        },
+        {
+          "mode": "6:2",
+          "alias": "spacing/8",
+          "value": 8
+        },
+        {
+          "mode": "6:3",
+          "alias": "spacing/8",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:25",
+      "name": "color/icon/brand",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Color de iconografía que adopta la identidad principal del modo activo. Úsalo cuando un ícono deba comunicar marca, selección o énfasis temático.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/blue/400",
+          "value": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/green/500",
+          "value": {
+            "r": 0.0117647061124444,
+            "g": 0.4470588266849518,
+            "b": 0.3333333432674408,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/orange/500",
+          "value": {
+            "r": 1,
+            "g": 0.32549020648002625,
+            "b": 0,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/purple/500",
+          "value": {
+            "r": 0.5137255191802979,
+            "g": 0,
+            "b": 0.9725490212440491,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:29",
+      "name": "spacing/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel mínimo de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "spacing/4",
+          "value": 4
+        },
+        {
+          "mode": "6:1",
+          "alias": "spacing/4",
+          "value": 4
+        },
+        {
+          "mode": "6:2",
+          "alias": "spacing/4",
+          "value": 4
+        },
+        {
+          "mode": "6:3",
+          "alias": "spacing/4",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:16",
+      "name": "font/letter-spacing/normal",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "description": "Tracking semántico neutro. Úsalo cuando el texto deba conservar el espaciado entre caracteres de referencia sin expansión ni contracción adicional.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/letter-spacing/normal",
+          "value": 0
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/letter-spacing/normal",
+          "value": 0
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/letter-spacing/normal",
+          "value": 0
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/letter-spacing/normal",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:9",
+      "name": "font/size/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/size/14",
+          "value": 14
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/size/14",
+          "value": 14
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/size/14",
+          "value": 14
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/size/14",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:6",
+      "name": "font/weight/bold",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Peso tipográfico semántico de máximo énfasis dentro del conjunto actual. Úsalo cuando el contenido requiera la mayor presencia tipográfica definida por el sistema.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/weight/bold",
+          "value": "bold"
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/weight/bold",
+          "value": "bold"
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/weight/bold",
+          "value": "bold"
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/weight/bold",
+          "value": "bold"
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:2",
+      "name": "font/family/base",
+      "type": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/family/manrope",
+          "value": "manrope"
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/family/manrope",
+          "value": "manrope"
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/family/manrope",
+          "value": "manrope"
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/family/manrope",
+          "value": "manrope"
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:8",
+      "name": "font/line-height/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Nivel compacto de interlineado semántico. Úsalo cuando el texto necesite una separación vertical contenida sin recurrir al mínimo de la escala.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/line-height/20",
+          "value": 20
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/line-height/20",
+          "value": 20
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/line-height/20",
+          "value": 20
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/line-height/20",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:50",
+      "name": "color/feedback/danger/text",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto para comunicar error, riesgo o una condición crítica. Úsalo cuando el significado de peligro deba expresarse mediante contenido textual.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/red/600",
+          "value": {
+            "r": 0.8313725590705872,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/red/600",
+          "value": {
+            "r": 0.8313725590705872,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/red/600",
+          "value": {
+            "r": 0.8313725590705872,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/red/600",
+          "value": {
+            "r": 0.8313725590705872,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "spacing/16",
+          "value": 16
+        },
+        {
+          "mode": "6:1",
+          "alias": "spacing/16",
+          "value": 16
+        },
+        {
+          "mode": "6:2",
+          "alias": "spacing/16",
+          "value": 16
+        },
+        {
+          "mode": "6:3",
+          "alias": "spacing/16",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:31",
+      "name": "spacing/md",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "spacing/12",
+          "value": 12
+        },
+        {
+          "mode": "6:1",
+          "alias": "spacing/12",
+          "value": 12
+        },
+        {
+          "mode": "6:2",
+          "alias": "spacing/12",
+          "value": 12
+        },
+        {
+          "mode": "6:3",
+          "alias": "spacing/12",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:6",
+      "name": "radius/md",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "radius/8",
+          "value": 8
+        },
+        {
+          "mode": "6:1",
+          "alias": "radius/8",
+          "value": 8
+        },
+        {
+          "mode": "6:2",
+          "alias": "radius/8",
+          "value": 8
+        },
+        {
+          "mode": "6:3",
+          "alias": "radius/8",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:41",
+      "name": "stroke/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "stroke/1",
+          "value": 1
+        },
+        {
+          "mode": "6:1",
+          "alias": "stroke/1",
+          "value": 1
+        },
+        {
+          "mode": "6:2",
+          "alias": "stroke/1",
+          "value": 1
+        },
+        {
+          "mode": "6:3",
+          "alias": "stroke/1",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/100",
+          "value": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/100",
+          "value": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/100",
+          "value": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/100",
+          "value": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:13",
+      "name": "color/border/default",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde estándar para delimitar o separar contenido en estado normal. Úsalo cuando la separación deba ser perceptible sin comunicar marca, interacción o estado de feedback.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:29",
+      "name": "color/text/tertiary",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de baja jerarquía. Úsalo para información auxiliar cuya presencia deba ser más discreta que el contenido secundario.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/500",
+          "value": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/500",
+          "value": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/500",
+          "value": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/500",
+          "value": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:3",
+      "name": "font/weight/regular",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/weight/regular",
+          "value": "regular"
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/weight/regular",
+          "value": "regular"
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/weight/regular",
+          "value": "regular"
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/weight/regular",
+          "value": "regular"
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:5",
+      "name": "radius/sm",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel bajo de redondeo semántico. Úsalo cuando una superficie necesite una curvatura discreta y consistente con la escala.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "radius/4",
+          "value": 4
+        },
+        {
+          "mode": "6:1",
+          "alias": "radius/4",
+          "value": 4
+        },
+        {
+          "mode": "6:2",
+          "alias": "radius/4",
+          "value": 4
+        },
+        {
+          "mode": "6:3",
+          "alias": "radius/4",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:78",
+      "name": "color/background/brand",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Fondo temático de marca o categoría definido por el modo actual. Úsalo cuando una región de fondo deba adoptar la familia cromática configurada para ese contexto; no debe asumirse que replica `color/brand/subtle`.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/blue/100",
+          "value": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/blue/100",
+          "value": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/purple/100",
+          "value": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/purple/100",
+          "value": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:28",
+      "name": "color/text/secondary",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de jerarquía secundaria. Úsalo para contenido de apoyo que deba conservar legibilidad sin competir con el texto principal.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/600",
+          "value": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/600",
+          "value": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/600",
+          "value": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/600",
+          "value": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:12:7",
+      "name": "font/line-height/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Nivel más compacto de interlineado semántico. Úsalo cuando la composición tipográfica requiera la menor separación vertical disponible dentro de esta escala.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/line-height/16",
+          "value": 16
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/line-height/16",
+          "value": 16
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/line-height/16",
+          "value": 16
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/line-height/16",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:20",
+      "name": "color/icon/primary",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Color neutral de mayor jerarquía para iconografía informativa o funcional. Úsalo cuando el ícono deba tener presencia principal sin comunicar una identidad de marca o un estado específico.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/900",
+          "value": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:10:8",
+      "name": "font/size/xs",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "font/size/12",
+          "value": 12
+        },
+        {
+          "mode": "6:1",
+          "alias": "font/size/12",
+          "value": 12
+        },
+        {
+          "mode": "6:2",
+          "alias": "font/size/12",
+          "value": 12
+        },
+        {
+          "mode": "6:3",
+          "alias": "font/size/12",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:3",
+      "name": "stroke/md",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Nivel más fuerte de grosor de trazo disponible en la escala semántica actual. Úsalo cuando una delimitación necesite la mayor presencia estructural definida por el sistema.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "stroke/2",
+          "value": 2
+        },
+        {
+          "mode": "6:1",
+          "alias": "stroke/2",
+          "value": 2
+        },
+        {
+          "mode": "6:2",
+          "alias": "stroke/2",
+          "value": 2
+        },
+        {
+          "mode": "6:3",
+          "alias": "stroke/2",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "VariableID:123:122",
+      "name": "color/border/control",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde neutral contrastante para delimitar controles interactivos disponibles sin comunicar selección, hover ni un estado de feedback.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/400",
+          "value": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "VariableID:13:15",
+      "name": "color/border/strong",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback.",
+      "values": [
+        {
+          "mode": "6:0",
+          "alias": "color/neutral/300",
+          "value": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:1",
+          "alias": "color/neutral/300",
+          "value": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:2",
+          "alias": "color/neutral/300",
+          "value": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909,
+            "a": 1
+          }
+        },
+        {
+          "mode": "6:3",
+          "alias": "color/neutral/300",
+          "value": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909,
+            "a": 1
+          }
+        }
+      ]
+    }
+  ]
+}

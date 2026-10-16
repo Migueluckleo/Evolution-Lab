@@ -1,0 +1,1313 @@
+{
+  "schema_version": 1,
+  "html_sha256": "4ea5d2c24c4a96d17c35f04bd0ec34bab2a88cddd1c92192c806c7621aea2fcc",
+  "brief_sha256": "39676d3705c75a8ac17cbddbd7650dd2694d4d2cb12d26512fbebe2a235cdea7",
+  "status": "PASS",
+  "network": "HTTP(S) blocked; isolated renamed file with no neighboring assets",
+  "browser": "149.0.7827.201",
+  "errors": [],
+  "generated_at": "2026-10-15T00:20:06.683Z",
+  "states": [
+    {
+      "screen_id": "demo",
+      "state_id": "initial",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        },
+        {
+          "selector": "#value",
+          "text": "vacía",
+          "actual": "Consulta: vacía",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--initial--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "e2ab2781860c36c99e32fd5ed9a9ba26bf8780422b2fcdf7cf639bf66f58078d",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "open",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": true,
+          "actual": "Detalle portableand link.Presiona M para ver el detalle con contenido variable.",
+          "passed": true
+        },
+        {
+          "selector": ".ds-modal-body",
+          "text": "Presiona M",
+          "actual": "Presiona M para ver el detalle con contenido variable.",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--open--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "5b0c41d4c35137f70fafb72a8c9914721aa13ec9ef27f10dcd8940c1e37252bd",
+      "observed_nodes": 6
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "side",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "press",
+          "selector": "dialog",
+          "key": "m"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": ".ds-modal-side-by-side",
+          "visible": true,
+          "actual": "Detalle portableand link.Volver al medio",
+          "passed": true
+        },
+        {
+          "selector": "img[alt=\"CONTPAQi\"]",
+          "visible": true,
+          "actual": "",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--side--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "3a6f8a3c3be864d8e9d12e7109f26e7d345d3d01fe039941d993b1001c9a0c04",
+      "observed_nodes": 9
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "close",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "click",
+          "selector": "button[aria-label=\"Cerrar diálogo\"]"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        },
+        {
+          "selector": "#open-modal",
+          "visible": true,
+          "actual": "Abrir detalle",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--close--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "e2ab2781860c36c99e32fd5ed9a9ba26bf8780422b2fcdf7cf639bf66f58078d",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "keyboard",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "press",
+          "selector": "#open-modal",
+          "key": "Enter"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": true,
+          "actual": "Detalle portableand link.Presiona M para ver el detalle con contenido variable.",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--keyboard--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "9a5fbb87f4d9959b584a13db20ae2759412e821e87ee87b477cabc74f8b3485b",
+      "observed_nodes": 6
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "escape",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "press",
+          "selector": "dialog",
+          "key": "Escape"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--escape--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "64ee07c05cc44223c458bdae7a73df42c376d1c4f4fe165ec4fea6e4529780d1",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "filled",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "fill",
+          "selector": "#search-input",
+          "value": "PO"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "#value",
+          "text": "Consulta: PO",
+          "actual": "Consulta: PO",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--filled--1440x900.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot_sha256": "27117a15aba6674e22ab6378bc58ed73fb5b86836c6c009bc7de01333d1e0d26",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "initial",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        },
+        {
+          "selector": "#value",
+          "text": "vacía",
+          "actual": "Consulta: vacía",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--initial--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "f44579529edad4c5eec27cd7b049bca3d5f8b01faa3ce8846cb6a0bb3424c765",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "open",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": true,
+          "actual": "Detalle portableand link.Presiona M para ver el detalle con contenido variable.",
+          "passed": true
+        },
+        {
+          "selector": ".ds-modal-body",
+          "text": "Presiona M",
+          "actual": "Presiona M para ver el detalle con contenido variable.",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--open--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "afbfaf06140ed5ad32fbad20678a2d55286d1bc1c2870af930e5ea2d7c25d6c7",
+      "observed_nodes": 6
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "side",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "press",
+          "selector": "dialog",
+          "key": "m"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": ".ds-modal-side-by-side",
+          "visible": true,
+          "actual": "Detalle portableand link.Volver al medio",
+          "passed": true
+        },
+        {
+          "selector": "img[alt=\"CONTPAQi\"]",
+          "visible": true,
+          "actual": "",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--side--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "92904c0e9a13d3259bd32292c078bd0b5dbf69198ed3f2bfb9b00fb9dd3c6f7a",
+      "observed_nodes": 9
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "close",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "click",
+          "selector": "button[aria-label=\"Cerrar diálogo\"]"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        },
+        {
+          "selector": "#open-modal",
+          "visible": true,
+          "actual": "Abrir detalle",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--close--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "f44579529edad4c5eec27cd7b049bca3d5f8b01faa3ce8846cb6a0bb3424c765",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "keyboard",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "press",
+          "selector": "#open-modal",
+          "key": "Enter"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": true,
+          "actual": "Detalle portableand link.Presiona M para ver el detalle con contenido variable.",
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--keyboard--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "10d66558b9a81f8c8c1ee2b0b4ac7c677762c53dd0b3addd753355a277127516",
+      "observed_nodes": 6
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "escape",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "#open-modal"
+        },
+        {
+          "type": "press",
+          "selector": "dialog",
+          "key": "Escape"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "dialog",
+          "visible": false,
+          "actual": null,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--escape--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "c1b2adb1a76f6e0659a610ce46f68e384f3cbffb195d7f1152da3bc039b63b76",
+      "observed_nodes": 5
+    },
+    {
+      "screen_id": "demo",
+      "state_id": "filled",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "status": "PASS",
+      "actions": [
+        {
+          "type": "fill",
+          "selector": "#search-input",
+          "value": "PO"
+        }
+      ],
+      "assertions": [
+        {
+          "selector": "#value",
+          "text": "Consulta: PO",
+          "actual": "Consulta: PO",
+          "visible": true,
+          "passed": true
+        }
+      ],
+      "theme": "contable",
+      "screenshot": "demo--filled--1000x760.png",
+      "errors": [],
+      "requests": [],
+      "unmapped_text": [],
+      "broken_images": [],
+      "fonts": {
+        "status": "loaded",
+        "faces": [
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "unloaded",
+            "weight": "200 800",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope Variable",
+            "status": "loaded",
+            "weight": "200 800",
+            "style": "normal"
+          }
+        ],
+        "manrope_loaded": true
+      },
+      "page": {
+        "width": 1000,
+        "height": 760
+      },
+      "screenshot_sha256": "c1cf8df34e7291c4630b26ea5e4d9d66d65364a582f9a7ccf3881475b5d3d034",
+      "observed_nodes": 5
+    }
+  ],
+  "full_evidence": "output/skills-validation/0.1.0/entrega/capturas/report.json",
+  "full_report_sha256": "7d469377af6dd2456ced37bc2f00c4c90a96c74ca1c18dbeaacbd4e141d49890",
+  "handoff_sha256": "8bc47bcbb220c768d5aef85c8a1212c2d05148ec34b9f2f8f66186cfe5ab386b",
+  "fixture_ds_digest": "6a116f362fa0e135a019dde498261be977287b585a68401ef6b79455c1e73fb1",
+  "components": [
+    {
+      "instanceId": "heading",
+      "kind": "local-content",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/initial",
+          "demo/open",
+          "demo/side",
+          "demo/close",
+          "demo/keyboard",
+          "demo/escape",
+          "demo/filled"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "feedback",
+      "kind": "local-content",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/initial",
+          "demo/open",
+          "demo/side",
+          "demo/close",
+          "demo/keyboard",
+          "demo/escape",
+          "demo/filled"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "composition",
+      "kind": "local-composition",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/initial",
+          "demo/open",
+          "demo/side",
+          "demo/close",
+          "demo/keyboard",
+          "demo/escape",
+          "demo/filled"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "search",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/initial",
+          "demo/open",
+          "demo/side",
+          "demo/close",
+          "demo/keyboard",
+          "demo/escape",
+          "demo/filled"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "open",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/initial",
+          "demo/open",
+          "demo/side",
+          "demo/close",
+          "demo/keyboard",
+          "demo/escape",
+          "demo/filled"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "media-modal",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/open",
+          "demo/keyboard"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "side-modal",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/side"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "avatar",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/side"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "logo",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/side"
+        ],
+        "unobservedStateProps": []
+      }
+    },
+    {
+      "instanceId": "switch",
+      "kind": "ds",
+      "evidence": {
+        "status": "PASS",
+        "observedStates": [
+          "demo/side"
+        ],
+        "unobservedStateProps": []
+      }
+    }
+  ]
+}

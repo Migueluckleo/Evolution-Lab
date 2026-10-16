@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_typographic_specimen_card",
+      "label": "UI/Select/Checkbox label Small (2-3) · tarjeta visual",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visual_description": "Tarjeta horizontal de fondo claro azulado, esquinas redondeadas, texto oscuro alineado a la izquierda; título, muestra, metadatos y párrafo de uso apilados.",
+      "evidence_limit": "Imagen observada: no acredita TextStyleId, bindings, estructura editable, aprobación ni validación global."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_sample_text",
+      "label": "Muestra alfanumérica compacta",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_text": "Aa 0123456789",
+      "appearance": "Muestra breve oscura de tamaño menor al título y al párrafo."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_printed_recipe_identity",
+      "label": "Metadatos impresos: ui-checkbox-label-scaled-two-thirds",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "logical_style_id_printed": "ui-checkbox-label-scaled-two-thirds",
+      "printed_recipe": {
+        "fontFamily": "Manrope",
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "fontSizePrinted": "9.333333969116211 px",
+        "lineHeightPrinted": "13.333333969116211 px",
+        "trackingPrinted": "0 px"
+      },
+      "limitation": "Valores leídos en el texto visible; no son una medición de fuentes resueltas ni verificación de variables."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_consumer_scope",
+      "label": "Alcance de consumidores descrito en la tarjeta",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_claim": "El párrafo visible asigna etiquetas ocultas de Checkbox a Dropdown Item Small y sus muestras, escaladas a dos tercios."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_application_guidance",
+      "label": "Orientación visible para herencia nativa y compatibilidad web",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_claim": "El párrafo presenta una receta materializada para comparar y reproducir en web; en Figma remite a estilo principal, cadena real y escala nativa según enmienda 0.1.2, y pide no aplicar ni reescalar la receta materializada en esas instancias.",
+      "limitation": "La captura documenta la instrucción impresa; su cumplimiento necesita lectura API y contrato."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_sample_text",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_printed_recipe_identity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_consumer_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_application_guidance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_sample_text",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_printed_recipe_identity",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_consumer_scope",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_application_guidance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_native_scope_clarification_card_1_visible_consumer_scope",
+      "target": "qa_implementations_typography_consumption_v0_1_1_native_card_1_visible_consumer_scope",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/native-scope-clarification/card-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED",
+      "rationale": "Comparación visual entre capturas: cambió la denominación de consumidores del párrafo; título e identidad impresos se conservan."
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

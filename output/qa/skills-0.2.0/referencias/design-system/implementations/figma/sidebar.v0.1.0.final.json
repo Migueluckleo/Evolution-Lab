@@ -1,0 +1,190 @@
+{
+  "mutatedNodeIds": [
+    "615:355"
+  ],
+  "page": {
+    "id": "614:125",
+    "name": "Sidebar",
+    "children": [
+      {
+        "id": "615:355",
+        "name": "Menu Item",
+        "type": "COMPONENT_SET"
+      },
+      {
+        "id": "619:480",
+        "name": "Sidebar",
+        "type": "COMPONENT_SET"
+      },
+      {
+        "id": "619:607",
+        "name": "Top bar",
+        "type": "COMPONENT"
+      },
+      {
+        "id": "625:264",
+        "name": "Sidebar / Review",
+        "type": "FRAME"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "615:355",
+      "name": "Menu Item",
+      "type": "COMPONENT_SET",
+      "width": 940,
+      "height": 840,
+      "variantCount": 22,
+      "slots": [],
+      "props": {
+        "show right icon#3365:74": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "label#3374:99": {
+          "type": "TEXT",
+          "defaultValue": "Home"
+        },
+        "fill icon#3374:122": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "615:127"
+        },
+        "light icon#3374:145": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "615:125"
+        },
+        "orientation": {
+          "type": "VARIANT",
+          "defaultValue": "vertical"
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "collapsed"
+        },
+        "status": {
+          "type": "VARIANT",
+          "defaultValue": "default"
+        },
+        "isActive": {
+          "type": "VARIANT",
+          "defaultValue": "true"
+        }
+      }
+    },
+    {
+      "id": "619:480",
+      "name": "Sidebar",
+      "type": "COMPONENT_SET",
+      "width": 434,
+      "height": 965,
+      "variantCount": 2,
+      "slots": [
+        {
+          "id": "619:484",
+          "name": "Menu items",
+          "property": {
+            "slotContentId": "Menu items#8283:0"
+          }
+        },
+        {
+          "id": "619:492",
+          "name": "Lower options",
+          "property": {
+            "slotContentId": "Lower options#8283:3"
+          }
+        },
+        {
+          "id": "619:499",
+          "name": "Menu items",
+          "property": {
+            "slotContentId": "Menu items#8283:0"
+          }
+        },
+        {
+          "id": "619:510",
+          "name": "Lower options",
+          "property": {
+            "slotContentId": "Lower options#8283:3"
+          }
+        }
+      ],
+      "props": {
+        "Menu items#8283:0": {
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": true,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        },
+        "Lower options#8283:3": {
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": true,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        },
+        "Presentation": {
+          "type": "VARIANT",
+          "defaultValue": "Collapsed"
+        }
+      }
+    },
+    {
+      "id": "619:607",
+      "name": "Top bar",
+      "type": "COMPONENT",
+      "width": 1399,
+      "height": 48,
+      "variantCount": 1,
+      "slots": [
+        {
+          "id": "619:608",
+          "name": "Menu items",
+          "property": {
+            "slotContentId": "Menu items#8283:12"
+          }
+        }
+      ],
+      "props": {
+        "Menu items#8283:12": {
+          "type": "SLOT",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          }
+        }
+      }
+    }
+  ],
+  "defaultVariantReadback": {
+    "mutatedNodeIds": [
+      "615:356",
+      "615:363",
+      "615:368",
+      "615:373",
+      "615:410",
+      "615:415"
+    ],
+    "defaultVariant": {
+      "id": "615:363",
+      "name": "orientation=vertical, type=collapsed, status=default, isActive=true"
+    },
+    "props": {
+      "orientation": "vertical",
+      "type": "collapsed",
+      "status": "default",
+      "isActive": "true"
+    }
+  },
+  "timestamp": "2026-10-05T16:33:55Z"
+}

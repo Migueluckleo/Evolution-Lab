@@ -1,0 +1,116 @@
+{
+  "snapshot_schema": "sdd-project/0.2",
+  "source_id": "SRC-FIGMA-BUTTON-001",
+  "captured_at": "2026-09-23T00:17:45Z",
+  "read_only": true,
+  "source": {
+    "url": "https://www.figma.com/design/tj3WIBEZDGLVs7MJWKCwgf/AI-Design-System?node-id=26-81&t=IfnBuS4ZUgHBdAKP-11",
+    "file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+    "node_id": "26:81"
+  },
+  "identity": {
+    "id": "26:81",
+    "key": "ad6968e790043ee654b3590596d5e593ebcbe73d",
+    "name": "button",
+    "type": "COMPONENT_SET",
+    "page": {"id": "0:1", "name": "Page 1"},
+    "dimensions": {"width": 516, "height": 1883},
+    "layout_mode": "GRID",
+    "clips_content": true,
+    "description": null,
+    "documentation_links": []
+  },
+  "coverage": {
+    "status": "COMPLETE",
+    "discovered_nodes": 364,
+    "inspected_nodes": 364,
+    "pending_nodes": 0,
+    "invisible_nodes_inspected": 0,
+    "direct_variants": 60,
+    "nested_instances": 120,
+    "text_nodes": 60,
+    "unique_variable_dependencies": 35,
+    "named_style_dependencies": 0
+  },
+  "variant_axes": {
+    "type": ["primary", "default", "text", "link"],
+    "size": ["large", "middle", "small"],
+    "state": ["default", "hover", "press", "disabled", "focus"]
+  },
+  "properties": [
+    {"native_key": "show right icon#1017:0", "type": "BOOLEAN", "default": true},
+    {"native_key": "show left icon#1017:13", "type": "BOOLEAN", "default": true},
+    {"native_key": "text#1205:13", "type": "TEXT", "default": "Default"},
+    {"native_key": "left icon#2828:101", "type": "INSTANCE_SWAP", "default": "26:3", "preferred_candidate_count": 1512},
+    {"native_key": "right icon#2828:162", "type": "INSTANCE_SWAP", "default": "26:3", "preferred_candidate_count": 1512},
+    {"native_key": "type", "type": "VARIANT", "default": "primary"},
+    {"native_key": "size", "type": "VARIANT", "default": "large"},
+    {"native_key": "state", "type": "VARIANT", "default": "default"}
+  ],
+  "anatomy": {
+    "usual_direct_children": ["left icon instance", "label-text", "right icon instance"],
+    "focus_default_exception": "default/focus wraps the same three functional children inside a frame named btn-default",
+    "active_icon_dependency": {
+      "component": {"id": "26:3", "key": "46d251bb4099700c5852180f2370d265e5166432", "name": "Format=Outline, Weight=Light"},
+      "component_set": {"id": "26:2", "key": "322a346f2ce54ea1534d8b0a682a8139d9f20e87", "name": "PlusCircle"},
+      "locality": "REMOTE",
+      "instance_count": 120,
+      "rendered_sizes": ["24x24", "20x20"]
+    }
+  },
+  "sizes": {
+    "large": {"height": 48, "widths": [135, 154], "icon": 24, "font_size": 16, "line_height": 20},
+    "middle": {"height": 40, "widths": [127, 146], "icon": 20, "font_size": 16, "line_height": 20},
+    "small": {"height": 32, "widths": [120, 139], "icon": 20, "font_size": 14, "line_height": 20}
+  },
+  "typography": {
+    "family": "Manrope",
+    "primary_default_link_weight": 700,
+    "text_weight": 400,
+    "link_decoration": "UNDERLINE",
+    "other_decoration": "NONE"
+  },
+  "variables": {
+    "total": 35,
+    "local": 26,
+    "remote": 9,
+    "local_names": [
+      "color/background/brand", "color/background/default", "color/border/brand",
+      "color/border/disabled", "color/border/hover", "color/border/subtle",
+      "color/icon/brand", "color/icon/disabled", "color/icon/hover",
+      "color/icon/on-brand", "color/icon/primary", "color/interactive/disabled/bg",
+      "color/interactive/ghost/active", "color/interactive/primary/active",
+      "color/interactive/primary/default", "color/interactive/primary/hover",
+      "color/text/brand", "color/text/brand/strong", "color/text/disabled",
+      "color/text/inverse", "color/text/primary", "font/family/base",
+      "font/line-height/sm", "font/size/md", "font/size/sm", "size/xl"
+    ],
+    "remote_names": [
+      "font/family/base", "font/weight/bold", "font/weight/regular", "radius/md",
+      "spacing/lg", "spacing/sm", "spacing/xs", "stroke/md", "stroke/xs"
+    ]
+  },
+  "interactions": {
+    "total_reactions": 23,
+    "defined_groups": [
+      {"source_state": "default", "trigger": "ON_HOVER", "navigation": "CHANGE_TO", "destination_state": "hover", "count": 12},
+      {"source_state": "hover", "trigger": "ON_PRESS", "navigation": "CHANGE_TO", "destination_state": "press", "count": 3, "scope": "link only"},
+      {"source_state": "focus", "trigger": "ON_HOVER", "navigation": "CHANGE_TO", "destination_state": "hover", "count": 8}
+    ],
+    "observed_anomalies": [
+      "default/middle/focus changes to default/large/hover",
+      "default/small/focus changes to default/large/hover",
+      "interactive coverage is partial: no general activation, keyboard, focus-entry, release, or disabled-event behavior is defined"
+    ]
+  },
+  "screenshot": {
+    "path": "sources/figma-snapshots/button-26-81.png",
+    "sha256_bytes": "8b4a7c85f3ec9138a0588f8b922b676696d81f8ffb503d2cef3bb04ba7a4bd04",
+    "dimensions": {"width": 516, "height": 1883}
+  },
+  "limitations": [
+    "Figma exposes the node as evidence but does not define product intent, accessible semantics, keyboard behavior, web API, or WCAG compliance.",
+    "External library name, source file, source URL, project, organization, and version are not exposed by the Figma MCP.",
+    "The provided source node is already in the configured reconstruction destination file; this snapshot does not approve reusing the current implementation as normative source of truth."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "implementationId": "IMP-COMPOSITION-SLOTS-FIGMA-002",
+  "documentDigests": {"contractSha256": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041", "foundationContractSha256": "4e7eda5c9a01a967b139cdc19a33ed29131c682d76d77b21b65031ed3ebf752d", "foundationJsonSha256": "e1c3990ae542c41415d45270236e65e5dc82f73e81f3f28dc77fbcd00a822ac0", "artifactValidation": "qa/implementations/composition-slots.v0.1.1.artifacts.json"},
+  "version": "0.1.1",
+  "status": "VALIDATED",
+  "scope": "P-SLOTS: Steps Gallery, Pagination Pages y leyendas Charts; no revalidación cromática global",
+  "userAudit": "PENDING",
+  "publication": "UNPUBLISHED",
+  "date": "2026-09-30",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "contract": {
+    "id": "COMPOSITION-SLOTS-002",
+    "path": "specs/composition-slots.amendment.v0.1.1.md",
+    "version": "0.1.1",
+    "status": "DELEGATED_FOR_BUILD"
+  },
+  "families": [
+    {
+      "name": "Steps",
+      "pageId": "341:122",
+      "setId": "343:212",
+      "dependencySetId": "342:445",
+      "slotKeys": [
+        "Indicators#487:0",
+        "Legacy indicators#487:28"
+      ],
+      "reviewFrame": "491:322",
+      "variantsPreserved": 6,
+      "combinationPresetsPreserved": 27,
+      "dotVariantsPreserved": 4,
+      "qa": "qa/implementations/composition-slots.v0.1.1.steps.json"
+    },
+    {
+      "name": "Pagination",
+      "pageId": "275:122",
+      "setId": "297:454",
+      "slotKeys": [
+        "Pages#496:0"
+      ],
+      "reviewFrame": "499:313",
+      "variantsPreserved": 5,
+      "qa": "qa/implementations/composition-slots.v0.1.1.pagination.json"
+    },
+    {
+      "name": "Charts legends",
+      "pageId": "210:122",
+      "headerId": "213:162",
+      "progressSetId": "213:161",
+      "slotKeys": [
+        "Legend#486:0",
+        "Legend rows#502:0"
+      ],
+      "reviewFrame": "488:167",
+      "qa": "qa/implementations/composition-slots.v0.1.1.charts-rows.json",
+      "headerQa": "qa/implementations/composition-slots.v0.1.1.charts.json",
+      "supersededProperties": ["Legend row 1#486:1", "Legend row 2#486:4"],
+      "finalBuild": "implementations/figma/composition-slots.v0.1.1.charts-rows-build.json"
+    }
+  ],
+  "newVariables": {
+    "count": 9,
+    "collectionId": "VariableCollectionId:495:122",
+    "dataRef": "drafts/foundations/ai-design-system.pagination-slot-state.v0.1.0.json",
+    "primitiveCount": 0,
+    "rgbLiteralCount": 0
+  },
+  "unchanged": {
+    "sourceFile": true,
+    "originalMainIds": true,
+    "historicalInventory": true,
+    "priorSlotFamilies": true
+  },
+  "visualQA": {
+    "result": "PASS",
+    "reviewFrames": [
+      "491:322",
+      "499:313",
+      "488:167"
+    ],
+    "screenshotsInspected": true
+  },
+  "exceptions": [
+    "Vacío conserva placeholder del editor; política de producto no definida.",
+    "Steps On White y Gallery On Primary mantienen composiciones independientes por diferencia legacy de roles; el regreso conserva contenido anterior.",
+    "Listas extensas usan HUG/overflow sin scroll automático; no hay límite de producto inventado.",
+    "Selección, datos de gráficos y paginación funcional siguen manuales/demostración.",
+    "QA Slots no reemplaza las revisiones cromáticas históricas pendientes de Charts."
+  ],
+  "graphify": "STALE; no regenerado",
+  "next": "Header: leer contrato/inventario vigente y aplicar P-SLOTS antes de construir."
+}

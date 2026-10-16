@@ -1,0 +1,17 @@
+Scope: nine synthetic handoff/source-integrity regressions; no browser, Figma, build, release or installation execution.
+Command: PYTHONDONTWRITEBYTECODE=1 NODE_BINARY=<existing bundled node> PYTHONPATH=tests python3 -m unittest test_ds_skills.HandoffTypographyTests -v
+
+test_active_catalog_and_amendments_embedded_with_hashes (test_ds_skills.HandoffTypographyTests) ... ok
+test_altered_native_evidence_is_rejected (test_ds_skills.HandoffTypographyTests) ... ok
+test_changed_format_source_is_rejected (test_ds_skills.HandoffTypographyTests) ... ok
+test_missing_consumption_source_is_rejected (test_ds_skills.HandoffTypographyTests) ... ok
+test_native_family_requires_evidence_even_without_capture (test_ds_skills.HandoffTypographyTests) ... ok
+test_native_recipe_keeps_metric_identity_and_pending_evidence (test_ds_skills.HandoffTypographyTests) ... ok
+test_native_recipe_without_evidence_is_rejected (test_ds_skills.HandoffTypographyTests) ... ok
+test_uncaptured_handoff_keeps_sources_without_claiming_measurements (test_ds_skills.HandoffTypographyTests) ... ok
+test_unknown_captured_style_is_rejected (test_ds_skills.HandoffTypographyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.591s
+
+OK

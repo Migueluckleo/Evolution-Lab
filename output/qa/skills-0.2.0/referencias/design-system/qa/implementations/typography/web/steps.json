@@ -1,0 +1,855 @@
+{
+  "family": "steps",
+  "sources": {
+    "base": "specs/steps.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/steps.brand-theme.amendment.v0.1.1.md"
+    ]
+  },
+  "checks": 112,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/gallery/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/gallery/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "contable/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(50, 85, 247)"
+      },
+      "expected": {
+        "fill": "rgb(50, 85, 247)"
+      }
+    },
+    {
+      "case": "contable/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/gallery/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "contable/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(95, 133, 251)"
+      },
+      "expected": {
+        "fill": "rgb(95, 133, 251)"
+      }
+    },
+    {
+      "case": "contable/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/numbers/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/numbers/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "contable/gallery-only/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/gallery-only/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "contable/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(50, 85, 247)"
+      },
+      "expected": {
+        "fill": "rgb(50, 85, 247)"
+      }
+    },
+    {
+      "case": "contable/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery-only/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "contable/gallery-only/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "contable/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(50, 85, 247)"
+      },
+      "expected": {
+        "fill": "rgb(50, 85, 247)"
+      }
+    },
+    {
+      "case": "contable/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "contable/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/gallery/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "administrativo/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(3, 114, 85)"
+      },
+      "expected": {
+        "fill": "rgb(3, 114, 85)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/gallery/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "administrativo/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(93, 175, 149)"
+      },
+      "expected": {
+        "fill": "rgb(93, 175, 149)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/numbers/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/numbers/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(3, 114, 85)"
+      },
+      "expected": {
+        "fill": "rgb(3, 114, 85)"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(3, 114, 85)"
+      },
+      "expected": {
+        "fill": "rgb(3, 114, 85)"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "administrativo/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/gallery/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "servicios/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(255, 83, 0)"
+      },
+      "expected": {
+        "fill": "rgb(255, 83, 0)"
+      }
+    },
+    {
+      "case": "servicios/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/gallery/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "servicios/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(252, 186, 146)"
+      },
+      "expected": {
+        "fill": "rgb(252, 186, 146)"
+      }
+    },
+    {
+      "case": "servicios/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/numbers/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/numbers/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "servicios/gallery-only/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/gallery-only/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(255, 83, 0)"
+      },
+      "expected": {
+        "fill": "rgb(255, 83, 0)"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "servicios/gallery-only/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(255, 83, 0)"
+      },
+      "expected": {
+        "fill": "rgb(255, 83, 0)"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "servicios/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/gallery/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "personas/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(131, 0, 248)"
+      },
+      "expected": {
+        "fill": "rgb(131, 0, 248)"
+      }
+    },
+    {
+      "case": "personas/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/gallery/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "personas/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(198, 152, 251)"
+      },
+      "expected": {
+        "fill": "rgb(198, 152, 251)"
+      }
+    },
+    {
+      "case": "personas/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/numbers/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/numbers/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 32
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 32
+      }
+    },
+    {
+      "case": "personas/gallery-only/white",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/gallery-only/white/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "personas/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(131, 0, 248)"
+      },
+      "expected": {
+        "fill": "rgb(131, 0, 248)"
+      }
+    },
+    {
+      "case": "personas/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery-only/white/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery-only/primary",
+      "actual": {
+        "column-gap": "0px",
+        "height": 8
+      },
+      "expected": {
+        "column-gap": "0px",
+        "height": 8
+      }
+    },
+    {
+      "case": "personas/gallery-only/primary/dots",
+      "actual": {
+        "column-gap": "8px"
+      },
+      "expected": {
+        "column-gap": "8px"
+      }
+    },
+    {
+      "case": "personas/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(131, 0, 248)"
+      },
+      "expected": {
+        "fill": "rgb(131, 0, 248)"
+      }
+    },
+    {
+      "case": "personas/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    },
+    {
+      "case": "personas/gallery-only/primary/dot",
+      "actual": {
+        "fill": "rgb(226, 232, 240)"
+      },
+      "expected": {
+        "fill": "rgb(226, 232, 240)"
+      }
+    }
+  ]
+}

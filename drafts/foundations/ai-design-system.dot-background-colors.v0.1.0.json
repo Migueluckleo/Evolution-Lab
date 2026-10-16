@@ -1,0 +1,69 @@
+{
+  "extensionId": "FOUNDATIONS-DOT-BACKGROUND-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {"6:0": "Contable", "6:1": "Administrativo", "6:2": "Servicios", "6:3": "Personas"}
+  },
+  "variables": [
+    {
+      "name": "color/background/status-active",
+      "resolvedType": "COLOR",
+      "description": "Fondo del indicador compacto que comunica presencia activa; no se aplica a texto, iconos ni bordes.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/emerald/600", "targetId": "VariableID:8:116"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/emerald/600", "targetId": "VariableID:8:116"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/emerald/600", "targetId": "VariableID:8:116"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/emerald/600", "targetId": "VariableID:8:116"}
+      }
+    },
+    {
+      "name": "color/background/status-busy",
+      "resolvedType": "COLOR",
+      "description": "Fondo del indicador compacto que comunica presencia ocupada; no se aplica a texto, iconos ni bordes.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"}
+      }
+    },
+    {
+      "name": "color/background/status-inactive",
+      "resolvedType": "COLOR",
+      "description": "Fondo del indicador compacto que comunica presencia inactiva sin implicar que el elemento anfitrión esté deshabilitado; no se aplica a texto, iconos ni bordes.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/neutral/300", "targetId": "VariableID:8:95"}
+      }
+    },
+    {
+      "name": "color/background/notification-count",
+      "resolvedType": "COLOR",
+      "description": "Fondo del indicador compacto que presenta un conteo de notificaciones; comparte valor primitivo con status-busy sin compartir su significado.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/red/600", "targetId": "VariableID:8:125"}
+      }
+    }
+  ]
+}

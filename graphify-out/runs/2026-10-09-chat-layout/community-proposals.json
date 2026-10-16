@@ -1,0 +1,6476 @@
+{
+  "0": {
+    "label": "Primitivas y aliases",
+    "nodes": 173,
+    "cohesion": 0.016063987095039655,
+    "examples": [
+      "tokens.inventory.json",
+      "color/cyan/500",
+      "font/size/10",
+      "font/size/avatar-small",
+      "spacing/none"
+    ]
+  },
+  "1": {
+    "label": "Decisiones de migración",
+    "nodes": 138,
+    "cohesion": 0.031630170316301706,
+    "examples": [
+      "decisions.md",
+      "Registro de decisiones",
+      "DEC-SEMANTIC-EXTENSIONS-001 · extensiones vinculadas a primitivas y scopes estrictos",
+      "DEC-LEGACY-MIGRATION-DELEGATION-001 · reconstrucción con auditoría posterior",
+      "DEC-DOT-SEMANTIC-ROLES-001 · fondos propios y borde Inactive"
+    ]
+  },
+  "2": {
+    "label": "Implementations · Evidencias",
+    "nodes": 115,
+    "cohesion": 0.030816170861937452,
+    "examples": [
+      "implementations.md",
+      "IMP-ICON-BUTTON-FIGMA-001 · Icon Buttons 0.1.0",
+      "IMP-TOGGLE-FIGMA-001 · Toggles 0.1.0 + fidelidad/contraste 0.1.2 + efecto 0.1.3",
+      "IMP-CHARTS-FIGMA-001 · Charts 0.1.0",
+      "IMP-CONTROL-COLORS-FIGMA-001 · extensión semántica de colores"
+    ]
+  },
+  "3": {
+    "label": "Contratos e implementación",
+    "nodes": 108,
+    "cohesion": 0.03426791277258567,
+    "examples": [
+      "contracts.md",
+      "TOGGLE-001",
+      "FOUNDATIONS-TOKENS-001",
+      "CHECKBOX-001",
+      "INPUT-FIELD-001"
+    ]
+  },
+  "4": {
+    "label": "Auditoría por excepciones",
+    "nodes": 108,
+    "cohesion": 0.04569055036344756,
+    "examples": [
+      "MIGRATION-AUDIT.md",
+      "Limitaciones para revisión interna",
+      "Auditoría por excepciones · migración de la Librería anterior",
+      "Decisiones que sí requieren criterio del usuario",
+      "Decisiones resueltas"
+    ]
+  },
+  "5": {
+    "label": "Modal · Evidencias",
+    "nodes": 99,
+    "cohesion": 0.07915893630179345,
+    "examples": [
+      "modal.v0.1.0.source.json",
+      "valuesByMode",
+      "variables",
+      "collection",
+      "description"
+    ]
+  },
+  "6": {
+    "label": "QA y evidencias",
+    "nodes": 96,
+    "cohesion": 0.03399122807017544,
+    "examples": [
+      "qa.md",
+      "QA-FILTER-CHIP-002",
+      "QA-BADGE-001",
+      "QA-DOT-SOURCE-COLOR-002",
+      "QA-TOKENS-EXT-001 y QA-CONTROL-COLORS-FIGMA-001"
+    ]
+  },
+  "7": {
+    "label": "Continuidad y pendientes",
+    "nodes": 86,
+    "cohesion": 0.05526675786593707,
+    "examples": [
+      "MIGRATION-TRACEABILITY-STATUS.md",
+      "Actualización 2026-09-29 · Select",
+      "Cola vigente de refinamiento · 2026-10-05",
+      "Reference ../qa/implementations/six-families.color.v0.1.0.review.md",
+      "Trabajo técnico restante"
+    ]
+  },
+  "8": {
+    "label": "Chat Toolbar Contract",
+    "nodes": 79,
+    "cohesion": 0.05030834144758196,
+    "examples": [
+      "chat-toolbar.source.component-contract.yaml",
+      "Organism / Anticipa / Chat / Toolbar",
+      "accessibility",
+      "classification",
+      "content"
+    ]
+  },
+  "9": {
+    "label": "Chat Section Build",
+    "nodes": 79,
+    "cohesion": 0.055501460564751706,
+    "examples": [
+      "chat-section.v0.1.0.build.js",
+      "chat-section.v0.1.0.build.js",
+      "empty-states.v0.1.0.build.js",
+      "empty-states.v0.1.0.build.js",
+      "sidebar.v0.1.0.menu-item-bind.js"
+    ]
+  },
+  "10": {
+    "label": "Linear Progress Bar Contract",
+    "nodes": 76,
+    "cohesion": 0.05052631578947368,
+    "examples": [
+      "linear-progress-bar.source.component-contract.md",
+      "Linear Progress Bar · contrato de evidencia fuente",
+      "linear-progress-bar-final-qa.v0.1.0.js",
+      "linear-progress-bar-build.v0.1.0.js",
+      "linear-progress-bar-final-qa.v0.1.0.js"
+    ]
+  },
+  "11": {
+    "label": "Scrollbar Contract",
+    "nodes": 75,
+    "cohesion": 0.054414414414414414,
+    "examples": [
+      "MIGRATION-TOKEN-TRACEABILITY.contract.md",
+      "scrollbar.contract.v0.1.0.md",
+      "scrollbar.color-approximation.amendment.v0.1.1.md",
+      "scrollbar.v0.1.1.figma.review.md",
+      "MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.2.md"
+    ]
+  },
+  "12": {
+    "label": "QA y evidencias",
+    "nodes": 73,
+    "cohesion": 0.027777777777777776,
+    "examples": [
+      "Registro de QA",
+      "IMP-LOGOS-FIGMA-001 · Logos",
+      "QA-TOKENS-001",
+      "QA-MIGRATION-COLOR-FIDELITY-REOPEN-001",
+      "QA-TOGGLE-FIGMA-004"
+    ]
+  },
+  "13": {
+    "label": "Fuentes y procedencia",
+    "nodes": 71,
+    "cohesion": 0.047082494969818915,
+    "examples": [
+      "sources.md",
+      "SRC-FIGMA-APP-SHELL-001 · INDEXED · 2026-10-06",
+      "SRC-FIGMA-AVATAR-001",
+      "SRC-FIGMA-CHECKBOX-001",
+      "SRC-FIGMA-INPUT-FIELD-001"
+    ]
+  },
+  "14": {
+    "label": "App Shell",
+    "nodes": 71,
+    "cohesion": 0.05030181086519115,
+    "examples": [
+      "app-shell.v0.1.0.state.json",
+      "app-shell.v0.1.0.state.json",
+      "app-shell.v0.1.0.figma.review.md",
+      "app-shell.v0.1.0.final-checks.json",
+      "app-shell.v0.1.0.final-checks.json"
+    ]
+  },
+  "15": {
+    "label": "Slots Review Status",
+    "nodes": 69,
+    "cohesion": 0.0639386189258312,
+    "examples": [
+      "SLOTS-REVIEW-STATUS.md",
+      "Sidebar · 2026-10-05",
+      "Revisión de Slots · estado de adopción",
+      "Chat Section · 2026-10-08",
+      "App Shell · 2026-10-06"
+    ]
+  },
+  "16": {
+    "label": "Chart Progress Header Build",
+    "nodes": 68,
+    "cohesion": 0.058384547848990345,
+    "examples": [
+      "chart-progress-header-build.v0.1.0.js",
+      "charts-final-qa.v0.1.0.js",
+      "chart-progress-header-build.v0.1.0.js",
+      "charts-final-qa.v0.1.0.js",
+      "charts-foundation-build.v0.1.0.js"
+    ]
+  },
+  "17": {
+    "label": "Entorno y vigencia del grafo",
+    "nodes": 68,
+    "cohesion": 0.05794556628621598,
+    "examples": [
+      "environment.md",
+      "Environment Registry",
+      "Chat Section · corte de grafo · 2026-10-08",
+      "Graphify · actualización autorizada por lotes · 2026-10-01",
+      "Graphify · sincronización completa · 2026-10-08"
+    ]
+  },
+  "18": {
+    "label": "Toggle · Evidencias",
+    "nodes": 65,
+    "cohesion": 0.05432692307692308,
+    "examples": [
+      "toggle.contract.v0.1.0.md",
+      "toggle.contract.v0.1.0.candidate.md",
+      "Toggle · contrato candidato 0.1.0",
+      "Toggle · contrato delegado 0.1.0",
+      "behavior-contract.md"
+    ]
+  },
+  "19": {
+    "label": "Tooltip · Evidencias",
+    "nodes": 65,
+    "cohesion": 0.058653846153846154,
+    "examples": [
+      "tooltip.contract.v0.1.0.md",
+      "tooltip.contract.v0.1.0.candidate.md",
+      "Tooltip · contrato candidato 0.1.0 para Figma",
+      "Tooltip · contrato delegado 0.1.0 para Figma",
+      "tooltip.v0.1.0.synthesis.md"
+    ]
+  },
+  "20": {
+    "label": "Table Slots Qa",
+    "nodes": 57,
+    "cohesion": 0.07644110275689223,
+    "examples": [
+      "table-slots-qa.v0.1.0.js",
+      "table-slots-qa.v0.1.0.js",
+      "modal-parts-build.v0.1.0.js",
+      "modal-parts-build.v0.1.0.js",
+      "keep()"
+    ]
+  },
+  "21": {
+    "label": "Conversation Build",
+    "nodes": 57,
+    "cohesion": 0.08771929824561403,
+    "examples": [
+      "conversation.v0.1.0.build.js",
+      "conversation.v0.1.0.build.js",
+      "action()",
+      "keep()",
+      "bind()"
+    ]
+  },
+  "22": {
+    "label": "Implementations · Evidencias",
+    "nodes": 57,
+    "cohesion": 0.03571428571428571,
+    "examples": [
+      "Registro de implementaciones",
+      "Chat Toolbar y dependencias · cierre2026-10-08",
+      "Search · revisión documental 0.1.1 · 2026-10-05",
+      "IMP-BUTTON-LOCAL-BINDINGS-FIGMA-001 · 2026-10-05",
+      "IMP-CHART-COLORS-FIGMA-001 · colores semánticos de Charts"
+    ]
+  },
+  "23": {
+    "label": "Logos y fidelidad visual",
+    "nodes": 56,
+    "cohesion": 0.07077922077922078,
+    "examples": [
+      "logos.refinement.v0.1.1.review.md",
+      "logos.refinement.v0.1.1.manifest.json",
+      "logos.v0.1.0.figma.review.md",
+      "logos.contract.v0.1.0.md",
+      "logos.scope.amendment.v0.1.1.md"
+    ]
+  },
+  "24": {
+    "label": "Contratos e implementación",
+    "nodes": 55,
+    "cohesion": 0.04713804713804714,
+    "examples": [
+      "BUTTON-001",
+      "RADIO-BUTTON-001",
+      "ICON-BUTTON-001",
+      "Publicación de uso · 0.2.0",
+      "BUTTON-001 · enmienda vigente de bindings 0.2.2 · 2026-10-05"
+    ]
+  },
+  "25": {
+    "label": "Contratos e implementación",
+    "nodes": 53,
+    "cohesion": 0.03773584905660377,
+    "examples": [
+      "Registro de contratos",
+      "FILTER-CHIP-001 · enmienda semántica 0.2.1 · 2026-10-05",
+      "MIGRATION-TOKEN-TRACEABILITY-001",
+      "CHAT-TOOLBAR-001 · CHAT-TOOL-ITEM-001 · CHAT-HISTORY-ITEM-001 · 2026-10-08",
+      "COMPOSITION-SLOTS-001"
+    ]
+  },
+  "26": {
+    "label": "Chat Toolbar Index 2026 10",
+    "nodes": 52,
+    "cohesion": 0.08748114630467571,
+    "examples": [
+      "chat-toolbar.index.2026-10-08.json",
+      "identity",
+      "properties",
+      "slotSettings",
+      "slotSettings"
+    ]
+  },
+  "27": {
+    "label": "Stepper y marca temática",
+    "nodes": 50,
+    "cohesion": 0.06285714285714286,
+    "examples": [
+      "ai-design-system.stepper-colors.v0.1.1.json",
+      "ai-design-system.stepper-colors.v0.1.0.json",
+      "stepper.brand-theme.amendment.v0.1.1.md",
+      "stepper.contract.v0.1.0.md",
+      "foundations.stepper-brand.amendment.v0.1.20.md"
+    ]
+  },
+  "28": {
+    "label": "Navigation Tab",
+    "nodes": 49,
+    "cohesion": 0.08078231292517007,
+    "examples": [
+      "navigation-tab.v0.1.0.state.json",
+      "navigation-tab.v0.1.0.state.json",
+      "lastReadback",
+      "target",
+      "source"
+    ]
+  },
+  "29": {
+    "label": "Avatar Color Amendment",
+    "nodes": 45,
+    "cohesion": 0.08585858585858586,
+    "examples": [
+      "specs-promotion.2026-10-06.manifest.json",
+      "ai-design-system.avatar-roles.v0.1.0.json",
+      "avatar.source-color.v0.1.1.figma.review.md",
+      "foundations/foundations.avatar-roles.amendment.v0.1.6.md",
+      "foundations/foundations.avatar-fallback-source-color.amendment.v0.1.11.md"
+    ]
+  },
+  "30": {
+    "label": "Chat Toolbar Build",
+    "nodes": 43,
+    "cohesion": 0.10963455149501661,
+    "examples": [
+      "chat-toolbar.v0.1.0.build.js",
+      "chat-toolbar.v0.1.0.build.js",
+      "al()",
+      "keep()",
+      "bind()"
+    ]
+  },
+  "31": {
+    "label": "03 Contract Synthesis",
+    "nodes": 42,
+    "cohesion": 0.09175377468060394,
+    "examples": [
+      "README.md",
+      "03-CONTRACT-SYNTHESIS.md",
+      "04-FIGMA-CONSTRUCTION.md",
+      "protocol-migrations.md",
+      "06-QA-AND-VALIDATION.md"
+    ]
+  },
+  "32": {
+    "label": "Header Contract",
+    "nodes": 42,
+    "cohesion": 0.08246225319396051,
+    "examples": [
+      "header.v0.1.0.manifest.json",
+      "header.contract.v0.1.0.md",
+      "header.v0.1.0.figma.review.md",
+      "foundations.header-roles.amendment.v0.1.0.md",
+      "header.discovery.v0.1.0.md"
+    ]
+  },
+  "33": {
+    "label": "Table Build",
+    "nodes": 41,
+    "cohesion": 0.10853658536585366,
+    "examples": [
+      "table-build.v0.1.0.js",
+      "table-build.v0.1.0.js",
+      "layout()",
+      "bind()",
+      "border()"
+    ]
+  },
+  "34": {
+    "label": "Toggle Mixed Amendment",
+    "nodes": 40,
+    "cohesion": 0.09487179487179487,
+    "examples": [
+      "components/toggle.visual-contrast-amendment.v0.1.2.md",
+      "components/toggle.focus-effect-amendment.v0.1.3.md",
+      "components/toggle.mixed-amendment.v0.1.4.md",
+      "components/toggle.source-color-amendment.v0.1.5.md",
+      "SESSION-HANDOFF-2026-09-24.md"
+    ]
+  },
+  "35": {
+    "label": "Empty States",
+    "nodes": 40,
+    "cohesion": 0.07435897435897436,
+    "examples": [
+      "empty-states.v0.1.0.manifest.json",
+      "empty-states.v0.1.0.figma.review.md",
+      "SESSION-HANDOFF-2026-10-05-EMPTY-STATES.md",
+      "empty-states.v0.1.0.review.md",
+      "empty-states.v0.1.0.state.json"
+    ]
+  },
+  "36": {
+    "label": "Chat History Item Contract",
+    "nodes": 39,
+    "cohesion": 0.10121457489878542,
+    "examples": [
+      "chat-history-item.source.component-contract.yaml",
+      "Atom / Anticipa / Chat / ChatHistory",
+      "accessibility",
+      "classification",
+      "content"
+    ]
+  },
+  "37": {
+    "label": "App Shell",
+    "nodes": 39,
+    "cohesion": 0.09581646423751687,
+    "examples": [
+      "app-shell.source.v0.1.0.json",
+      "app-shell.contract.v0.1.0.md",
+      "app-shell.source.v0.1.0.json",
+      "counts",
+      "APP-SHELL-001 v0.1.0 · DELEGATED_FOR_BUILD"
+    ]
+  },
+  "38": {
+    "label": "Fuentes y procedencia",
+    "nodes": 39,
+    "cohesion": 0.05128205128205128,
+    "examples": [
+      "Registro de fuentes",
+      "SRC-FIGMA-CHAT-TOOLBAR-001 · 2026-10-08",
+      "SRC-FIGMA-ANTICIPA-LAYOUT-OBSERVATION-001",
+      "SRC-FIGMA-BADGE-001",
+      "SRC-FIGMA-TABLE-ANTICIPA-001 · 2026-10-01"
+    ]
+  },
+  "39": {
+    "label": "Characters · Evidencias",
+    "nodes": 38,
+    "cohesion": 0.10810810810810811,
+    "examples": [
+      "specs/characters.contract.v0.1.0.md",
+      "CHARACTERS-001 v0.1.0: BENI Standby and NAVI Analysis",
+      "implementations/characters.v0.1.0.review.md",
+      "Characters technical QA PASS / implementation VALIDATED",
+      "contracts/characters.v0.1.0.review.md"
+    ]
+  },
+  "40": {
+    "label": "Foundations Tokens",
+    "nodes": 38,
+    "cohesion": 0.09957325746799431,
+    "examples": [
+      "foundations/foundations-tokens.contract.md",
+      "Contrato aprobado: foundations y tokens",
+      "foundations-tokens.figma.review.md",
+      "foundations/foundations-tokens.contract.md",
+      "foundations-tokens.review.md"
+    ]
+  },
+  "41": {
+    "label": "Conversation y Slots",
+    "nodes": 37,
+    "cohesion": 0.08708708708708708,
+    "examples": [
+      "specs/conversation.contract.v0.1.0.md",
+      "implementations/conversation.v0.1.0.review.md",
+      "conversation.character-identity.amendment.v0.1.1.md",
+      "ai-design-system.character-identity.v0.1.0.json",
+      "conversation.v0.1.0.state.json"
+    ]
+  },
+  "42": {
+    "label": "Chat Layout",
+    "nodes": 37,
+    "cohesion": 0.12762762762762764,
+    "examples": [
+      "chat.layout.amendment.v0.1.1.md",
+      "CHAT LAYOUT 001 v0.1.1 width sizing scrolling amendment",
+      "chat-layout.v0.1.1.review.md",
+      "chat-layout.v0.1.1.state.json",
+      "Chat layout v0.1.1 scoped read only QA"
+    ]
+  },
+  "43": {
+    "label": "Chat Toolbar Dependencies Build",
+    "nodes": 36,
+    "cohesion": 0.1349206349206349,
+    "examples": [
+      "chat-toolbar.v0.1.0.dependencies.build.js",
+      "chat-toolbar.v0.1.0.dependencies.build.js",
+      "al()",
+      "keep()",
+      "bind()"
+    ]
+  },
+  "44": {
+    "label": "Chat Tool Item Contract",
+    "nodes": 35,
+    "cohesion": 0.11260504201680673,
+    "examples": [
+      "chat-tool-item.source.component-contract.yaml",
+      "Atom / Anticipa /  Chat / Options and Tools",
+      "accessibility",
+      "classification",
+      "content"
+    ]
+  },
+  "45": {
+    "label": "Six Families Color",
+    "nodes": 35,
+    "cohesion": 0.10252100840336134,
+    "examples": [
+      "six-family-color.amendment.v0.1.0.md",
+      "six-families.color.v0.1.0.review.md",
+      "foundations/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+      "foundations/foundations.chart-colors.amendment.v0.1.0.md",
+      "SIX-FAMILY-COLOR-001"
+    ]
+  },
+  "46": {
+    "label": "Header · Evidencias",
+    "nodes": 34,
+    "cohesion": 0.11586452762923351,
+    "examples": [
+      "header.v0.1.0.state.json",
+      "header.v0.1.0.state.json",
+      "slots",
+      "dependencies",
+      "componentId"
+    ]
+  },
+  "47": {
+    "label": "Continuidad y pendientes",
+    "nodes": 34,
+    "cohesion": 0.058823529411764705,
+    "examples": [
+      "Cobertura de trazabilidad · Librería anterior → AI Design System",
+      "Incorporación externa Chat Toolbar · cierre2026-10-08",
+      "Actualización 2026-09-30 · cierre de la cola Slots",
+      "Histórico · estado tras Modal · 2026-10-01",
+      "Historial 2026-09-29 · Slots (cola sustituida por el cierre del 30/09)"
+    ]
+  },
+  "48": {
+    "label": "Tokens Inventory",
+    "nodes": 32,
+    "cohesion": 0.06653225806451613,
+    "examples": [
+      "ai-design-system.dot-background-colors.v0.1.0.json",
+      "ai-design-system.linear-progress-colors.v0.1.0.json",
+      "color/neutral/300",
+      "color/red/600",
+      "color/emerald/600"
+    ]
+  },
+  "49": {
+    "label": "Chat Toolbar Main State",
+    "nodes": 32,
+    "cohesion": 0.12298387096774194,
+    "examples": [
+      "chat-toolbar.v0.1.0.main-state.json",
+      "properties",
+      "main",
+      "dependencies",
+      "mains"
+    ]
+  },
+  "50": {
+    "label": "Toggle Focus Effect Amendment",
+    "nodes": 31,
+    "cohesion": 0.10752688172043011,
+    "examples": [
+      "specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+      "specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md",
+      "specs-promotion-2026-10-06/toggle.source-color-amendment.v0.1.5.md",
+      "contracts/toggle.source-color-amendment.v0.1.5.md",
+      "contracts/toggle.visual-contrast-amendment.v0.1.2.md"
+    ]
+  },
+  "51": {
+    "label": "Table Anticipa Contract",
+    "nodes": 31,
+    "cohesion": 0.09462365591397849,
+    "examples": [
+      "specs/table.contract.v0.1.0.md",
+      "table.v0.1.0.figma.review.md",
+      "table.v0.1.0.state.json",
+      "table-anticipa.source.component-contract.md",
+      "TABLE-001 v0.1.0 Anticipa-source exception"
+    ]
+  },
+  "52": {
+    "label": "Modal Media Build",
+    "nodes": 31,
+    "cohesion": 0.15268817204301074,
+    "examples": [
+      "modal-media-build.v0.1.0.js",
+      "modal-media-build.v0.1.0.js",
+      "bind()",
+      "keep()",
+      "modal()"
+    ]
+  },
+  "53": {
+    "label": "Chat Toolbar",
+    "nodes": 31,
+    "cohesion": 0.12473118279569892,
+    "examples": [
+      "specs/chat-toolbar.contract.v0.1.0.md",
+      "CHAT-TOOLBAR-001 v0.1.0",
+      "Canonical local semantic roles and aliases",
+      "Toolbar technical closure 2026-10-08",
+      "Expanded false ↔ true local interaction"
+    ]
+  },
+  "54": {
+    "label": "Chat History Item",
+    "nodes": 30,
+    "cohesion": 0.12873563218390804,
+    "examples": [
+      "specs/chat-history-item.contract.v0.1.0.md",
+      "Chat History Item",
+      "19. Source of truth",
+      "22. Cierre técnico · 2026-10-08",
+      "10. Design tokens"
+    ]
+  },
+  "55": {
+    "label": "Foundations Dot Inactive Border Source",
+    "nodes": 30,
+    "cohesion": 0.11724137931034483,
+    "examples": [
+      "foundations/foundations.dot-inactive-border-source-color.amendment.v0.1.6.md",
+      "components/dot.source-color-amendment.v0.1.2.md",
+      "components/dot.contract.v0.1.0.md",
+      "ai-design-system.dot-inactive-border.v0.1.1.json",
+      "dot.source-color.v0.1.2.figma.review.md"
+    ]
+  },
+  "56": {
+    "label": "Metric Card",
+    "nodes": 30,
+    "cohesion": 0.1310344827586207,
+    "examples": [
+      "metric-card.v0.1.0.state.json",
+      "lastReadback",
+      "metric-card.v0.1.0.state.json",
+      "contract",
+      "constructionScripts"
+    ]
+  },
+  "57": {
+    "label": "Chat Toolbar",
+    "nodes": 30,
+    "cohesion": 0.15632183908045977,
+    "examples": [
+      "implementations/chat-toolbar.v0.1.0.review.md",
+      "Chat Toolbar · QA de implementación v0.1.0",
+      "Chat Toolbar target 798:284",
+      "Alcance y evidencia",
+      "Chat History Item target 796:495"
+    ]
+  },
+  "58": {
+    "label": "Sidebar Observed",
+    "nodes": 29,
+    "cohesion": 0.11330049261083744,
+    "examples": [
+      "sidebar.contract.v0.1.0.md",
+      "sidebar.v0.1.0.figma.review.md",
+      "foundations.sidebar-roles.amendment.v0.1.0.md",
+      "sidebar.v0.1.0.state.json",
+      "sidebar.observed.v0.1.0.md"
+    ]
+  },
+  "59": {
+    "label": "Tokens Inventory",
+    "nodes": 29,
+    "cohesion": 0.08374384236453201,
+    "examples": [
+      "ai-design-system.pagination-slot-state.v0.1.0.json",
+      "ai-design-system.control-colors.v0.1.1.json",
+      "color/neutral/400",
+      "color/neutral/900",
+      "color/background/subtle"
+    ]
+  },
+  "60": {
+    "label": "Query · Evidencias",
+    "nodes": 28,
+    "cohesion": 0.12433862433862433,
+    "examples": [
+      "SKILL.md",
+      "Graphify",
+      "Incremental Graph Update",
+      "query.md",
+      "Graph Query Workflow"
+    ]
+  },
+  "61": {
+    "label": "Chart Donut Contract",
+    "nodes": 28,
+    "cohesion": 0.12962962962962962,
+    "examples": [
+      "chart-donut.source.component-contract.md",
+      "Donut · contrato de evidencia fuente",
+      "chart-donut.source.component-contract.yaml",
+      "chart-donut.source.component-contract.review.md",
+      "chart-donut.vector-paths.json"
+    ]
+  },
+  "62": {
+    "label": "Metric Card Contract",
+    "nodes": 28,
+    "cohesion": 0.13227513227513227,
+    "examples": [
+      "metric-card.source.component-contract.md",
+      "Card/Metric · contrato de evidencia fuente",
+      "metric-card.source.component-contract.yaml",
+      "metric-card.source.component-contract.review.md",
+      "metric-card.source.component-contract.md"
+    ]
+  },
+  "63": {
+    "label": "Contratos e implementación",
+    "nodes": 28,
+    "cohesion": 0.08465608465608465,
+    "examples": [
+      "CHART-DONUT-001",
+      "CHARTS-001",
+      "CHART-CELL-001",
+      "CHART-HEADER-001",
+      "CHART-LABEL-CELL-001"
+    ]
+  },
+  "64": {
+    "label": "Chart Header Contract",
+    "nodes": 27,
+    "cohesion": 0.1339031339031339,
+    "examples": [
+      "chart-header.source.component-contract.md",
+      "Header (Charts) · contrato de evidencia fuente",
+      "chart-header.source.component-contract.yaml",
+      "chart-header.source.component-contract.review.md",
+      "chart-header.source.component-contract.md"
+    ]
+  },
+  "65": {
+    "label": "Chart Progress Item Contract",
+    "nodes": 27,
+    "cohesion": 0.1339031339031339,
+    "examples": [
+      "chart-progress-item.source.component-contract.md",
+      "Progress chart item · contrato de evidencia fuente",
+      "chart-progress-item.source.component-contract.yaml",
+      "chart-progress-item.source.component-contract.review.md",
+      "chart-progress-item.source.component-contract.md"
+    ]
+  },
+  "66": {
+    "label": "Dot · Evidencias",
+    "nodes": 27,
+    "cohesion": 0.1111111111111111,
+    "examples": [
+      "ai-design-system.dot-inactive-border.v0.1.0.json",
+      "dot.inactive-border-amendment.v0.1.1.md",
+      "dot.v0.1.1.figma.review.md",
+      "contracts/dot.contract.v0.1.0.md",
+      "dot.inactive-border-amendment.v0.1.1.review.md"
+    ]
+  },
+  "67": {
+    "label": "Primitivas y aliases",
+    "nodes": 27,
+    "cohesion": 0.23931623931623933,
+    "examples": [
+      "color/blue/400",
+      "ai-design-system.six-family-color.v0.1.0.json",
+      "color/green/500",
+      "color/purple/500",
+      "color/orange/500"
+    ]
+  },
+  "68": {
+    "label": "Buttons Color Write",
+    "nodes": 27,
+    "cohesion": 0.07407407407407407,
+    "examples": [
+      "six-families.color.v0.1.0.manifest.json",
+      "buttons.color.v0.1.0.write.json",
+      "charts.color.v0.1.0.write.json",
+      "icon-button.color.v0.1.0.write.json",
+      "metric-card.color.v0.1.0.write.json"
+    ]
+  },
+  "69": {
+    "label": "Radio Checkbox Refinement",
+    "nodes": 27,
+    "cohesion": 0.13105413105413105,
+    "examples": [
+      "implementations/radio-checkbox.refinement.v0.1.2.review.md",
+      "radio-checkbox.refinement.v0.1.2.manifest.json",
+      "radio-button.v0.1.0.state.json",
+      "checkbox.v0.1.0.state.json",
+      "contracts/radio-checkbox.refinement.v0.1.2.review.md"
+    ]
+  },
+  "70": {
+    "label": "Chart Cell Contract",
+    "nodes": 26,
+    "cohesion": 0.14153846153846153,
+    "examples": [
+      "chart-cell.source.component-contract.md",
+      "cell · contrato de evidencia fuente",
+      "chart-cell.source.component-contract.yaml",
+      "chart-cell.source.component-contract.review.md",
+      "chart-cell.source.component-contract.md"
+    ]
+  },
+  "71": {
+    "label": "Chart Label Cell Contract",
+    "nodes": 26,
+    "cohesion": 0.14153846153846153,
+    "examples": [
+      "chart-label-cell.source.component-contract.md",
+      "labelCell · contrato de evidencia fuente",
+      "chart-label-cell.source.component-contract.yaml",
+      "chart-label-cell.source.component-contract.review.md",
+      "chart-label-cell.source.component-contract.md"
+    ]
+  },
+  "72": {
+    "label": "Chat Tool Item Contract",
+    "nodes": 26,
+    "cohesion": 0.14461538461538462,
+    "examples": [
+      "chat-tool-item.source.component-contract.md",
+      "Atom / Anticipa /  Chat / Options and Tools · contrato fuente",
+      "17. Evidencia",
+      "Source component observation",
+      "chat-toolbar.own.2026-10-08.json"
+    ]
+  },
+  "73": {
+    "label": "Avatar · Evidencias",
+    "nodes": 25,
+    "cohesion": 0.15333333333333332,
+    "examples": [
+      "avatar.contract.v0.1.0.md",
+      "Avatar · contrato de reconstrucción 0.1.0",
+      "avatar.contract.v0.1.0.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "74": {
+    "label": "Button · Evidencias",
+    "nodes": 25,
+    "cohesion": 0.15666666666666668,
+    "examples": [
+      "contracts/button.contract.md",
+      "Contrato candidato: Button",
+      "10. Design tokens",
+      "11. Content rules",
+      "12. Composition rules"
+    ]
+  },
+  "75": {
+    "label": "Chat Toolbar Contract",
+    "nodes": 25,
+    "cohesion": 0.15333333333333332,
+    "examples": [
+      "chat-toolbar.source.component-contract.md",
+      "Organism / Anticipa / Chat / Toolbar · contrato fuente",
+      "17. Evidencia",
+      "Source component observation",
+      "chat-toolbar.deep.2026-10-08.json"
+    ]
+  },
+  "76": {
+    "label": "Checkbox Contract",
+    "nodes": 25,
+    "cohesion": 0.14,
+    "examples": [
+      "checkbox.source.component-contract.md",
+      "checkbox.source.component-contract.yaml",
+      "contracts/checkbox.contract.v0.1.0.md",
+      "Checkbox · contrato técnico de la fuente",
+      "checkbox.v0.1.0.figma.review.md"
+    ]
+  },
+  "77": {
+    "label": "Filter Chip",
+    "nodes": 25,
+    "cohesion": 0.15666666666666668,
+    "examples": [
+      "filter-chip.contract.md",
+      "Filter Chip",
+      "10. Design tokens",
+      "11. Content rules",
+      "12. Composition rules"
+    ]
+  },
+  "78": {
+    "label": "Modal Slots Qa",
+    "nodes": 25,
+    "cohesion": 0.16,
+    "examples": [
+      "modal-slots-qa.v0.1.0.js",
+      "modal-slots-qa.v0.1.0.js",
+      "populate()",
+      "prop()",
+      "B"
+    ]
+  },
+  "79": {
+    "label": "Button · Evidencias",
+    "nodes": 25,
+    "cohesion": 0.15666666666666668,
+    "examples": [
+      "components/button.contract.md",
+      "Contrato aprobado: Button",
+      "10. Design tokens",
+      "11. Content rules",
+      "12. Composition rules"
+    ]
+  },
+  "80": {
+    "label": "Badge · Evidencias",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "badge.contract.v0.1.0.candidate.md",
+      "Badge · candidato de contrato 0.1.0",
+      "badge.contract.v0.1.0.candidate.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "81": {
+    "label": "Button · Evidencias",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "contracts/button.contract.v0.2.0.md",
+      "Button · revisión candidata 0.2.0",
+      "contracts/button.contract.v0.2.0.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "82": {
+    "label": "Chat History Item Contract",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "chat-history-item.source.component-contract.md",
+      "Atom / Anticipa / Chat / ChatHistory · contrato fuente",
+      "17. Evidencia",
+      "Source component observation",
+      "10. Tipografía"
+    ]
+  },
+  "83": {
+    "label": "Filter Chip",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "contracts/filter-chip.contract.v0.2.0.md",
+      "Filter Chip · candidato 0.2.0 para Figma",
+      "contracts/filter-chip.contract.v0.2.0.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "84": {
+    "label": "Radio Button",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "radio-button.contract.v0.1.0.candidate.md",
+      "Radio Button · contrato candidato de reconstrucción 0.1.0",
+      "radio-button.contract.v0.1.0.candidate.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "85": {
+    "label": "Toggle Contrast Amendment",
+    "nodes": 24,
+    "cohesion": 0.14492753623188406,
+    "examples": [
+      "toggle.contrast-amendment.v0.1.1.md",
+      "toggle.visual-contrast-amendment.v0.1.2.candidate.md",
+      "toggle.v0.1.0.contrast-finding.md",
+      "toggle.v0.1.1.figma.review.md",
+      "toggle.contrast-amendment.v0.1.1.md"
+    ]
+  },
+  "86": {
+    "label": "Button · Evidencias",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "components/button.contract.v0.2.0.md",
+      "Contrato aprobado: Button 0.2.0",
+      "components/button.contract.v0.2.0.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "87": {
+    "label": "Filter Chip",
+    "nodes": 24,
+    "cohesion": 0.16304347826086957,
+    "examples": [
+      "components/filter-chip.contract.v0.2.0.md",
+      "Filter Chip · contrato aprobado 0.2.0 para Figma",
+      "components/filter-chip.contract.v0.2.0.md",
+      "10. Design tokens",
+      "11. Content rules"
+    ]
+  },
+  "88": {
+    "label": "Radio Button Contract",
+    "nodes": 23,
+    "cohesion": 0.16600790513833993,
+    "examples": [
+      "radio-button.source.component-contract.md",
+      "Radio Button · contrato técnico observado en Figma",
+      "radio-button.v0.1.0.figma.review.md",
+      "radio-button.source.component-contract.md",
+      "radio-button.v0.1.0.figma.review.md"
+    ]
+  },
+  "89": {
+    "label": "Search · Evidencias",
+    "nodes": 23,
+    "cohesion": 0.15810276679841898,
+    "examples": [
+      "search.v0.1.0.figma.review.md",
+      "search.contract.v0.1.0.md",
+      "textarea.contract.v0.1.0.md",
+      "input-fields.followups.v0.1.0.state.json",
+      "textarea.v0.1.0.figma.review.md"
+    ]
+  },
+  "90": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 23,
+    "cohesion": 0.16600790513833993,
+    "examples": [
+      "manifest.json",
+      "source_digests_sha256_bytes",
+      "sections",
+      "evidence",
+      "github"
+    ]
+  },
+  "91": {
+    "label": "Modal · Evidencias",
+    "nodes": 23,
+    "cohesion": 0.13043478260869565,
+    "examples": [
+      "specs/modal.contract.v0.1.0.md",
+      "modal.v0.1.0.figma.review.md",
+      "modal.v0.1.0.state.json",
+      "SESSION-HANDOFF-2026-10-01-MODAL.md",
+      "modal.v0.1.0.review.md"
+    ]
+  },
+  "92": {
+    "label": "Select Composition",
+    "nodes": 23,
+    "cohesion": 0.16996047430830039,
+    "examples": [
+      "select-composition.source.v0.1.0.json",
+      "menu",
+      "select-composition.source.v0.1.0.json",
+      "dependencies",
+      "invisibleNodes"
+    ]
+  },
+  "93": {
+    "label": "Foundations Feedback Icon Scopes",
+    "nodes": 22,
+    "cohesion": 0.15151515151515152,
+    "examples": [
+      "foundations/foundations.feedback-icon-scopes.amendment.v0.1.7.md",
+      "feedback-icon-scopes.v0.1.0.figma.review.md",
+      "ai-design-system.feedback-icon-scopes.v0.1.0.json",
+      "foundations.feedback-icon-scopes.amendment.v0.1.7.review.md",
+      "contracts/foundations.feedback-icon-scopes.amendment.v0.1.7.md"
+    ]
+  },
+  "94": {
+    "label": "Foundations Control Border Source Color",
+    "nodes": 22,
+    "cohesion": 0.16017316017316016,
+    "examples": [
+      "selection-control-source-color.v0.1.1.figma.review.md",
+      "foundations/foundations.control-colors.amendment.v0.1.1.md",
+      "foundations/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "contracts/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "selection-control-source-color.v0.1.1.review.md"
+    ]
+  },
+  "95": {
+    "label": "Foundations Warning Icon Source Color",
+    "nodes": 22,
+    "cohesion": 0.14285714285714285,
+    "examples": [
+      "foundations/foundations.warning-icon-source-color.amendment.v0.1.10.md",
+      "ai-design-system.warning-icon-contrast.v0.1.1.json",
+      "components/inline-notification.warning-source-color-amendment.v0.1.1.md",
+      "Foundations · restauración del icono Warning 0.1.10",
+      "warning-icon-source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "96": {
+    "label": "Navigation Tab Contract",
+    "nodes": 22,
+    "cohesion": 0.2077922077922078,
+    "examples": [
+      "navigation-tab.contract.v0.1.0.md",
+      "navigation-tab.v0.1.0.figma.review.md",
+      "navigation-tab.v0.1.0.review.md",
+      "navigation-tab.source.component-contract.yaml",
+      "navigation-tab.source.component-contract.md"
+    ]
+  },
+  "97": {
+    "label": "Metric Card Build",
+    "nodes": 22,
+    "cohesion": 0.21212121212121213,
+    "examples": [
+      "metric-card-build.v0.1.0.js",
+      "metric-card-build.v0.1.0.js",
+      "addNavigate()",
+      "icon()",
+      "solid()"
+    ]
+  },
+  "98": {
+    "label": "Composition Slots",
+    "nodes": 22,
+    "cohesion": 0.15584415584415584,
+    "examples": [
+      "composition-slots.v0.1.1.figma.review.md",
+      "composition-slots.v0.1.1.state.json",
+      "QA Figma · Slots 0.1.1",
+      "Referenced implementations/figma/composition-slots.v0.1.1.state.json",
+      "composition-slots.v0.1.1.charts-rows.json"
+    ]
+  },
+  "99": {
+    "label": "Specs Promotion 2026 10 06",
+    "nodes": 22,
+    "cohesion": 0.1341991341991342,
+    "examples": [
+      "specs-promotion.2026-10-06.review.md",
+      "foundations.control-colors.amendment.v0.1.1.review.md",
+      "toggle.v0.1.3.figma.review.md",
+      "toggle.visual-contrast-amendment.v0.1.2.review.md",
+      "toggle.focus-effect-amendment.v0.1.3.review.md"
+    ]
+  },
+  "100": {
+    "label": "Tokens Audit",
+    "nodes": 22,
+    "cohesion": 0.1774891774891775,
+    "examples": [
+      "tokens.audit.md",
+      "Ajustes realizados",
+      "Ajustes aplicados a `tokens.inventory.corrected.json`",
+      "Observaciones auditadas que NO se modificaron",
+      "Validación de integridad"
+    ]
+  },
+  "101": {
+    "label": "Foundations Focus Effects",
+    "nodes": 21,
+    "cohesion": 0.14761904761904762,
+    "examples": [
+      "foundations/foundations.focus-effects.amendment.v0.1.2.md",
+      "focus-effects.v0.1.0.figma.review.md",
+      "specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md",
+      "contracts/foundations.focus-effects.amendment.v0.1.2.md",
+      "foundations.focus-effects.amendment.v0.1.2.review.md"
+    ]
+  },
+  "102": {
+    "label": "Foundations Radio Indicator Colors",
+    "nodes": 21,
+    "cohesion": 0.1523809523809524,
+    "examples": [
+      "foundations/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "radio-indicator-colors.v0.1.0.figma.review.md",
+      "contracts/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "foundations.radio-indicator-colors.amendment.v0.1.3.review.md",
+      "specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md"
+    ]
+  },
+  "103": {
+    "label": "Conversation Contract",
+    "nodes": 21,
+    "cohesion": 0.19047619047619047,
+    "examples": [
+      "conversation.source.component-contract.yaml",
+      "conversation.source.component-contract.md",
+      "Conversation dependencies · partially resolved",
+      "Conversation · read-only source evidence",
+      "Conversation · synchronized source model"
+    ]
+  },
+  "104": {
+    "label": "Empty States Contract",
+    "nodes": 21,
+    "cohesion": 0.15714285714285714,
+    "examples": [
+      "empty-states.contract.v0.1.0.md",
+      "empty-states.source.component-contract.md",
+      "foundations.empty-states-roles.amendment.v0.1.0.md",
+      "EMPTY-STATES-001 v0.1.0",
+      "empty-states.source.component-contract.yaml"
+    ]
+  },
+  "105": {
+    "label": "Navigation Switch Tab Item Contract",
+    "nodes": 21,
+    "cohesion": 0.18571428571428572,
+    "examples": [
+      "navigation-switch-tab-item.contract.v0.1.0.md",
+      "ai-design-system.navigation-tab-colors.v0.1.0.json",
+      "navigation-switch-tab-item.v0.1.0.review.md",
+      "navigation-switch-tab-item.v0.1.0.figma.review.md",
+      "navigation-switch-tab-item.source.component-contract.md"
+    ]
+  },
+  "106": {
+    "label": "Tokens Inventory",
+    "nodes": 21,
+    "cohesion": 0.1380952380952381,
+    "examples": [
+      "ai-design-system.header-release.v0.1.0.json",
+      "ai-design-system.sidebar.v0.1.0.json",
+      "color/blue/300",
+      "color/purple/300",
+      "color/purple/400"
+    ]
+  },
+  "107": {
+    "label": "Composition Slots",
+    "nodes": 21,
+    "cohesion": 0.16666666666666666,
+    "examples": [
+      "composition-slots.v0.1.0.figma.review.md",
+      "composition-slots.v0.1.0.state.json",
+      "QA de implementación · Slots de composición 0.1.0",
+      "composition-slots.v0.1.0.review.md",
+      "composition-slots.v0.1.0.breadcrumb-item-fix.json"
+    ]
+  },
+  "108": {
+    "label": "Conversation Pre Promotion",
+    "nodes": 21,
+    "cohesion": 0.1761904761904762,
+    "examples": [
+      "contracts/conversation.v0.1.0.review.md",
+      "conversation.source-intake.2026-10-08.review.md",
+      "conversation.v0.1.0.pre-promotion.md",
+      "conversation.v0.1.0.prebuild-candidate.md",
+      "conversation.20355-72763.observation.2026-10-08.json"
+    ]
+  },
+  "109": {
+    "label": "Filter Chip Semantic",
+    "nodes": 21,
+    "cohesion": 0.18571428571428572,
+    "examples": [
+      "filter-chip.semantic.v0.2.1.figma.review.md",
+      "filter-chip.semantic.amendment.v0.2.1.md",
+      "filter-chip.semantic.v0.2.1.state.json",
+      "filter-chip.semantic.v0.2.1.review.md",
+      "QA implementación Filter Chip 0.2.1"
+    ]
+  },
+  "110": {
+    "label": "Chat Section Verify",
+    "nodes": 21,
+    "cohesion": 0.19047619047619047,
+    "examples": [
+      "chat-section.v0.1.0.verify.cjs",
+      "chat-section.v0.1.0.verify.cjs",
+      "exts",
+      "read()",
+      "val()"
+    ]
+  },
+  "111": {
+    "label": "Contratos e implementación",
+    "nodes": 21,
+    "cohesion": 0.09523809523809523,
+    "examples": [
+      "DOT-001",
+      "FOUNDATIONS-DOT-INACTIVE-BORDER-001",
+      "Reference ../qa/implementations/dot.source-color.v0.1.2.figma.review.md",
+      "Reference ../drafts/contracts/dot.inactive-border-amendment.v0.1.1.md",
+      "Reference ../drafts/contracts/foundations.dot-inactive-border.amendment.v0.1.5.md"
+    ]
+  },
+  "112": {
+    "label": "Header Dependencies",
+    "nodes": 21,
+    "cohesion": 0.18571428571428572,
+    "examples": [
+      "header.dependencies.v0.1.0.json",
+      "root",
+      "properties",
+      "show avatar#1929:0",
+      "show company#1349:5"
+    ]
+  },
+  "113": {
+    "label": "Protocolos y autoridad SDD",
+    "nodes": 20,
+    "cohesion": 0.19473684210526315,
+    "examples": [
+      "AGENTS.md",
+      "AGENTS · SDD protocols 0.2.4",
+      "DEC-MIGRATION-NEAREST-PRIMITIVE-001 / amendment 0.1.2",
+      "P-SLOTS: REQUIRED / NOT_APPLICABLE / UNRESOLVED",
+      "Specs Driven Design: MD rules + canonical JSON data"
+    ]
+  },
+  "114": {
+    "label": "Button Semantic Scope Amendment",
+    "nodes": 20,
+    "cohesion": 0.15789473684210525,
+    "examples": [
+      "components/button.semantic-scope-amendment.v0.2.1.md",
+      "button.semantic-scope-amendment.v0.2.1.review.md",
+      "contracts/button.semantic-scope-amendment.v0.2.1.md",
+      "button.semantic-scope.v0.2.1.figma.review.md",
+      "specs-promotion-2026-10-06/button.semantic-scope-amendment.v0.2.1.md"
+    ]
+  },
+  "115": {
+    "label": "Foundations Dot Background Colors",
+    "nodes": 20,
+    "cohesion": 0.15263157894736842,
+    "examples": [
+      "foundations/foundations.dot-background-colors.amendment.v0.1.4.md",
+      "dot-background-colors.v0.1.0.figma.review.md",
+      "contracts/foundations.dot-background-colors.amendment.v0.1.4.md",
+      "foundations.dot-background-colors.amendment.v0.1.4.review.md",
+      "specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md"
+    ]
+  },
+  "116": {
+    "label": "Anticipa Screen Composition",
+    "nodes": 20,
+    "cohesion": 0.19473684210526315,
+    "examples": [
+      "anticipa-screen-composition.contract.v0.1.0.md",
+      "anticipa-screen-composition.dependencies.v0.1.0.json",
+      "ANTICIPA-SCREEN-COMPOSITION-001 · candidate 0.1.0",
+      "anticipa-screen-composition.v0.1.0.verification.json",
+      "anticipa-layouts.observation.2026-10-06.json"
+    ]
+  },
+  "117": {
+    "label": "Badge · Evidencias",
+    "nodes": 20,
+    "cohesion": 0.15789473684210525,
+    "examples": [
+      "badge.source-color.v0.1.2.figma.review.md",
+      "components/badge.contract.v0.1.0.md",
+      "badge.contract.v0.1.0.yaml",
+      "badge.v0.1.0.synthesis.md",
+      "badge.v0.1.0.review.md"
+    ]
+  },
+  "118": {
+    "label": "Breadcrumb Item Contract",
+    "nodes": 20,
+    "cohesion": 0.19473684210526315,
+    "examples": [
+      "breadcrumb-item.source.component-contract.md",
+      "Breadcrumb item · contrato de evidencia fuente",
+      "breadcrumb-item.source.component-contract.md",
+      "Accessibility",
+      "Anatomy"
+    ]
+  },
+  "119": {
+    "label": "Breadcrumbs Contract",
+    "nodes": 20,
+    "cohesion": 0.19473684210526315,
+    "examples": [
+      "breadcrumbs.source.component-contract.md",
+      "Breadcrumbs · contrato de evidencia fuente",
+      "breadcrumbs.source.component-contract.md",
+      "Accessibility",
+      "Anatomy"
+    ]
+  },
+  "120": {
+    "label": "Chat Tool Item",
+    "nodes": 20,
+    "cohesion": 0.1736842105263158,
+    "examples": [
+      "specs/chat-tool-item.contract.v0.1.0.md",
+      "CHAT-TOOL-ITEM-001 v0.1.0",
+      "chat-toolbar.v0.1.0.final.json",
+      "Extra actions native Slot",
+      "Tool Item technical closure 2026-10-08"
+    ]
+  },
+  "121": {
+    "label": "Radio Button",
+    "nodes": 20,
+    "cohesion": 0.15789473684210525,
+    "examples": [
+      "specs/radio-button.contract.v0.1.0.md",
+      "specs/radio-button.source-color-amendment.v0.1.1.md",
+      "RADIO-BUTTON-001",
+      "contracts/radio-button.contract.v0.1.0.md",
+      "contracts/radio-button.source-color-amendment.v0.1.1.md"
+    ]
+  },
+  "122": {
+    "label": "Header Build",
+    "nodes": 20,
+    "cohesion": 0.20526315789473684,
+    "examples": [
+      "header-build.v0.1.0.js",
+      "header-build.v0.1.0.js",
+      "bind()",
+      "geometry()",
+      "paint()"
+    ]
+  },
+  "123": {
+    "label": "Contratos e implementación",
+    "nodes": 20,
+    "cohesion": 0.10526315789473684,
+    "examples": [
+      "AVATAR-001",
+      "FOUNDATIONS-AVATAR-ROLES-001",
+      "Reference ../qa/contracts/foundations.avatar-roles.amendment.v0.1.6.review.md",
+      "Reference ../qa/implementations/avatar.source-color.v0.1.1.figma.review.md",
+      "Reference ../drafts/contracts/avatar.contract.v0.1.0.md"
+    ]
+  },
+  "124": {
+    "label": "Icon Button Build",
+    "nodes": 19,
+    "cohesion": 0.2046783625730994,
+    "examples": [
+      "icon-button-build.v0.1.0.js",
+      "icon-button-build.v0.1.0.js",
+      "colX",
+      "components",
+      "created"
+    ]
+  },
+  "125": {
+    "label": "Anticipa Screen Composition Synthesis",
+    "nodes": 19,
+    "cohesion": 0.22807017543859648,
+    "examples": [
+      "anticipa-screen-composition.synthesis.v0.1.0.md",
+      "SYN-ANTICIPA-SCREEN-COMPOSITION-001 v0.1.0; REVIEWED_WITH_LIMITATIONS; 2026-10-06",
+      "Figma BLOCKED pending adoption/preflight; Web BLOCKED with functional definitions incomplete; publication unauthorized",
+      "PROP01 Drawer; PROP02 Workspace Panel; PROP03 Conversation; PROP04 Document Preview; not adopted",
+      "../contracts/anticipa-screen-composition.contract.v0.1.0.md; ANTICIPA-SCREEN-COMPOSITION-001 DRAFT"
+    ]
+  },
+  "126": {
+    "label": "Dropdown Item",
+    "nodes": 19,
+    "cohesion": 0.1695906432748538,
+    "examples": [
+      "dropdown-item.v0.1.0.figma.review.md",
+      "dropdown-item.contract.v0.1.0.md",
+      "dropdown-item.v0.1.0.review.md",
+      "dropdown-item.synthesis.v0.1.0.md",
+      "dropdown-item.v0.1.0.state.json"
+    ]
+  },
+  "127": {
+    "label": "Button Local Bindings",
+    "nodes": 19,
+    "cohesion": 0.17543859649122806,
+    "examples": [
+      "button.local-bindings.amendment.v0.2.2.md",
+      "button.local-bindings.v0.2.2.figma.review.md",
+      "buttons.local-bindings.v0.2.2.state.json",
+      "AMD-BUTTON-LOCAL-BINDINGS-001",
+      "buttons.local-bindings.v0.2.2.token-map.json"
+    ]
+  },
+  "128": {
+    "label": "Six Families Color Verify",
+    "nodes": 19,
+    "cohesion": 0.2046783625730994,
+    "examples": [
+      "six-families.color.v0.1.0.verify.cjs",
+      "six-families.color.v0.1.0.verify.cjs",
+      "json()",
+      "read()",
+      "canonical"
+    ]
+  },
+  "129": {
+    "label": "Foundations Linear Progress Colors",
+    "nodes": 18,
+    "cohesion": 0.17647058823529413,
+    "examples": [
+      "foundations/foundations.linear-progress-colors.amendment.v0.1.0.md",
+      "contracts/foundations.linear-progress-colors.amendment.v0.1.0.md",
+      "foundations.linear-progress-colors.v0.1.0.review.md",
+      "specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md",
+      "FOUNDATIONS-LINEAR-PROGRESS-COLORS-001"
+    ]
+  },
+  "130": {
+    "label": "Avatar Contract",
+    "nodes": 18,
+    "cohesion": 0.1895424836601307,
+    "examples": [
+      "avatar.source.component-contract.md",
+      "avatar.source.component-contract.yaml",
+      "avatar.v0.1.0.figma.review.md",
+      "Avatar · contrato técnico de la fuente",
+      "avatar.source.component-contract.md"
+    ]
+  },
+  "131": {
+    "label": "Chat Section Contract",
+    "nodes": 18,
+    "cohesion": 0.23529411764705882,
+    "examples": [
+      "chat-section.source.component-contract.md",
+      "chat-section.source.component-contract.yaml",
+      "Chat Section source YAML observation",
+      "Normalized source evidence PARTIAL",
+      "Chat Section · evidencia fuente"
+    ]
+  },
+  "132": {
+    "label": "Checkbox Color Amendment",
+    "nodes": 18,
+    "cohesion": 0.20261437908496732,
+    "examples": [
+      "radio-checkbox.refinement.amendment.v0.1.2.md",
+      "specs/checkbox.contract.v0.1.0.md",
+      "specs/checkbox.source-color-amendment.v0.1.1.md",
+      "AMD-CHECKBOX-SOURCE-COLOR-002",
+      "contracts/checkbox.source-color-amendment.v0.1.1.md"
+    ]
+  },
+  "133": {
+    "label": "Navigation Switch Tab Contract",
+    "nodes": 18,
+    "cohesion": 0.20915032679738563,
+    "examples": [
+      "navigation-switch-tab.contract.v0.1.0.md",
+      "navigation-switch-tab.source.component-contract.md",
+      "navigation-switch-tab.source.component-contract.yaml",
+      "navigation-switch-tab.v0.1.0.figma.review.md",
+      "navigation-switch-tab.v0.1.0.review.md"
+    ]
+  },
+  "134": {
+    "label": "Header Examples Qa",
+    "nodes": 18,
+    "cohesion": 0.22875816993464052,
+    "examples": [
+      "header-examples-qa.v0.1.0.js",
+      "header-examples-qa.v0.1.0.js",
+      "paint()",
+      "box()",
+      "text()"
+    ]
+  },
+  "135": {
+    "label": "Inline Notification Build",
+    "nodes": 18,
+    "cohesion": 0.22875816993464052,
+    "examples": [
+      "inline-notification-build.v0.1.0.js",
+      "inline-notification-build.v0.1.0.js",
+      "solid()",
+      "makeIcon()",
+      "makeText()"
+    ]
+  },
+  "136": {
+    "label": "Toggle Build",
+    "nodes": 18,
+    "cohesion": 0.22875816993464052,
+    "examples": [
+      "toggle-build.v0.1.0.js",
+      "toggle-build.v0.1.0.js",
+      "bindText()",
+      "focusEffects()",
+      "innerEffects()"
+    ]
+  },
+  "137": {
+    "label": "Steps y marca temática",
+    "nodes": 18,
+    "cohesion": 0.11764705882352941,
+    "examples": [
+      "ai-design-system.steps-colors.v0.1.1.json",
+      "ai-design-system.steps-colors.v0.1.0.json",
+      "steps.v0.1.1.state.json",
+      "steps.v0.1.0.state.json",
+      "color/shape/steps/dot/legacy-gallery/selected"
+    ]
+  },
+  "138": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 18,
+    "cohesion": 0.1111111111111111,
+    "examples": [
+      "manifest.json",
+      "artifact_id",
+      "date",
+      "file_key",
+      "historical_sketch_id"
+    ]
+  },
+  "139": {
+    "label": "Search · Evidencias",
+    "nodes": 18,
+    "cohesion": 0.20915032679738563,
+    "examples": [
+      "SESSION-HANDOFF-2026-10-05-REFINEMENT.md",
+      "search.contract.v0.1.1.md",
+      "search.v0.1.1.figma.review.md",
+      "search.v0.1.1.state.json",
+      "search.v0.1.1.review.md"
+    ]
+  },
+  "140": {
+    "label": "Validate Select Composition",
+    "nodes": 18,
+    "cohesion": 0.2222222222222222,
+    "examples": [
+      "validate-select-composition.cjs",
+      "validate-select-composition.cjs",
+      "contrast()",
+      "lum()",
+      "actual"
+    ]
+  },
+  "141": {
+    "label": "Foundations Template",
+    "nodes": 18,
+    "cohesion": 0.21568627450980393,
+    "examples": [
+      "foundations.contract.template.md",
+      "TODO: contrato de foundations/tokens",
+      "foundations.contract.template.md",
+      "10. Consumo web",
+      "11. Cambios de auditoría, conflictos y límites"
+    ]
+  },
+  "142": {
+    "label": "Foundations Icon Button Backgrounds",
+    "nodes": 17,
+    "cohesion": 0.18382352941176472,
+    "examples": [
+      "foundations/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+      "contracts/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+      "foundations.icon-button-backgrounds.amendment.v0.1.9.review.md",
+      "FOUNDATIONS-ICON-BUTTON-BACKGROUNDS-001",
+      "specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md"
+    ]
+  },
+  "143": {
+    "label": "Foundations Metric Card Roles",
+    "nodes": 17,
+    "cohesion": 0.18382352941176472,
+    "examples": [
+      "foundations/foundations.metric-card-roles.amendment.v0.1.0.md",
+      "contracts/foundations.metric-card-roles.amendment.v0.1.0.md",
+      "foundations.metric-card-roles.amendment.v0.1.0.review.md",
+      "FOUNDATIONS-METRIC-CARD-ROLES-001",
+      "specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md"
+    ]
+  },
+  "144": {
+    "label": "Foundations Tokens",
+    "nodes": 17,
+    "cohesion": 0.22794117647058823,
+    "examples": [
+      "contracts/foundations-tokens.contract.md",
+      "Contrato candidato: foundations y tokens",
+      "10. Consumo web",
+      "11. Cambios de auditoría, conflictos y límites",
+      "12. Acceptance criteria"
+    ]
+  },
+  "145": {
+    "label": "Inline Notification Contract",
+    "nodes": 17,
+    "cohesion": 0.20588235294117646,
+    "examples": [
+      "inline-notification.source.component-contract.md",
+      "inline-notification.v0.1.0.figma.review.md",
+      "inline-notification.source.component-contract.yaml",
+      "Inline Notification · contrato técnico de la fuente",
+      "inline-notification.source.component-contract.review.md"
+    ]
+  },
+  "146": {
+    "label": "Breadcrumb Item Build",
+    "nodes": 17,
+    "cohesion": 0.2426470588235294,
+    "examples": [
+      "breadcrumb-item-build.v0.1.0.js",
+      "breadcrumb-item-build.v0.1.0.js",
+      "solid()",
+      "addIcon()",
+      "addText()"
+    ]
+  },
+  "147": {
+    "label": "Button · Evidencias",
+    "nodes": 17,
+    "cohesion": 0.21323529411764705,
+    "examples": [
+      "button-description.v0.2.0.figma.review.md",
+      "button.figma.review.md",
+      "button.description.v0.2.0.md",
+      "button-description.v0.2.0.figma.review.md",
+      "QA-BUTTON-FIGMA-002 · validación de Button en Figma"
+    ]
+  },
+  "148": {
+    "label": "Table Documentary Qa",
+    "nodes": 17,
+    "cohesion": 0.23529411764705882,
+    "examples": [
+      "table-documentary-qa.v0.1.0.cjs",
+      "table-documentary-qa.v0.1.0.cjs",
+      "cr()",
+      "L()",
+      "actual"
+    ]
+  },
+  "149": {
+    "label": "Tokens Inventory",
+    "nodes": 17,
+    "cohesion": 0.27941176470588236,
+    "examples": [
+      "ai-design-system.chart-colors.v0.1.0.json",
+      "color/orange/700",
+      "color/blue/500",
+      "color/purple/600",
+      "color/green/600"
+    ]
+  },
+  "150": {
+    "label": "Button Synthesis",
+    "nodes": 17,
+    "cohesion": 0.21323529411764705,
+    "examples": [
+      "button.synthesis.md",
+      "SYN-BUTTON-001 · síntesis del contrato Button",
+      "button-26-81.png",
+      "button-26-81.snapshot.json",
+      "10. Estado final y entrega"
+    ]
+  },
+  "151": {
+    "label": "Filter Chip Synthesis",
+    "nodes": 17,
+    "cohesion": 0.20588235294117646,
+    "examples": [
+      "filter-chip.synthesis.md",
+      "Reporte de síntesis · Filter Chip",
+      "filter-chip-8203-10.png",
+      "10. Estado final y entrega al usuario",
+      "11. Historial"
+    ]
+  },
+  "152": {
+    "label": "Input Field",
+    "nodes": 17,
+    "cohesion": 0.19852941176470587,
+    "examples": [
+      "input-field.contract.v0.1.0.md",
+      "input-field.v0.1.0.figma.review.md",
+      "input-field.v0.1.0.state.json",
+      "Input Field 0.1.0 · contrato de construcción",
+      "input-field.v0.1.0.review.md"
+    ]
+  },
+  "153": {
+    "label": "Trazabilidad y sincronización",
+    "nodes": 17,
+    "cohesion": 0.23529411764705882,
+    "examples": [
+      "05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+      "GRAPH-OPERATIONS.md",
+      "DEC-GRAPH-CONTINUOUS-SYNC-001.md",
+      "P05 Autodocumentación y trazabilidad 0.2.4",
+      "Graphify referencia operativa local vigente2026-10-08"
+    ]
+  },
+  "154": {
+    "label": "Auditoría por excepciones",
+    "nodes": 17,
+    "cohesion": 0.1323529411764706,
+    "examples": [
+      "Hallazgo documental · 2026-10-01 · DOC-SEARCH-001",
+      "Revisión documental acotada · DOC-SEARCH-001 · 2026-10-01",
+      "Histórico · estado consolidado · 2026-10-01",
+      "Histórico · estado tras Empty states · 2026-10-05",
+      "Cerrado o fuera de la cola"
+    ]
+  },
+  "155": {
+    "label": "Foundations Avatar Roles",
+    "nodes": 16,
+    "cohesion": 0.20833333333333334,
+    "examples": [
+      "specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+      "contracts/foundations.avatar-roles.amendment.v0.1.6.md",
+      "specs-promotion-2026-10-06/avatar.source-color-amendment.v0.1.1.md",
+      "specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md",
+      "FOUNDATIONS-AVATAR-FALLBACK-SOURCE-COLOR-002 · archived amendment"
+    ]
+  },
+  "156": {
+    "label": "Icon Button",
+    "nodes": 16,
+    "cohesion": 0.19166666666666668,
+    "examples": [
+      "ai-design-system.icon-button-backgrounds.v0.1.0.json",
+      "icon-button.v0.1.0.figma.review.md",
+      "contracts/icon-button.contract.v0.1.0.md",
+      "icon-button-backgrounds.v0.1.0.figma.review.md",
+      "icon-button.v0.1.0.plan.md"
+    ]
+  },
+  "157": {
+    "label": "Avatar Build",
+    "nodes": 16,
+    "cohesion": 0.24166666666666667,
+    "examples": [
+      "avatar-build.v0.1.0.js",
+      "avatar-build.v0.1.0.js",
+      "comps",
+      "created",
+      "details"
+    ]
+  },
+  "158": {
+    "label": "Modal Basic Build",
+    "nodes": 16,
+    "cohesion": 0.31666666666666665,
+    "examples": [
+      "modal-basic-build.v0.1.0.js",
+      "modal-basic-build.v0.1.0.js",
+      "modal()",
+      "bind()",
+      "body()"
+    ]
+  },
+  "159": {
+    "label": "Table Paint Audit",
+    "nodes": 16,
+    "cohesion": 0.25833333333333336,
+    "examples": [
+      "table-paint-audit.v0.1.0.js",
+      "table-paint-audit.v0.1.0.js",
+      "walk()",
+      "collect()",
+      "variable()"
+    ]
+  },
+  "160": {
+    "label": "Table Paint Audit",
+    "nodes": 16,
+    "cohesion": 0.25833333333333336,
+    "examples": [
+      "table-paint-audit.v0.1.1.js",
+      "table-paint-audit.v0.1.1.js",
+      "walk()",
+      "collect()",
+      "variable()"
+    ]
+  },
+  "161": {
+    "label": "Input Field",
+    "nodes": 16,
+    "cohesion": 0.21666666666666667,
+    "examples": [
+      "input-field.disabled-text.amendment.v0.1.1.md",
+      "input-field.v0.1.1.figma.review.md",
+      "input-field.handoff.2026-09-28.md",
+      "input-field.v0.1.1.state.json",
+      "Input Field · texto Disabled 0.1.1"
+    ]
+  },
+  "162": {
+    "label": "Migration V0 2 0",
+    "nodes": 16,
+    "cohesion": 0.225,
+    "examples": [
+      "MIGRATION-v0.2.0.md",
+      "Migración documental a 0.2.0",
+      "PACKAGE-VERIFICATION.md",
+      "Verificación local del paquete 0.2.0",
+      "MIGRATION-v0.2.0.md"
+    ]
+  },
+  "163": {
+    "label": "Entorno y herramientas",
+    "nodes": 16,
+    "cohesion": 0.26666666666666666,
+    "examples": [
+      "01-ENVIRONMENT-AND-TOOLS.md",
+      "P01 Environment and tools v0.2.1",
+      "Figma read/write operations verified separately: local MD/JSON, descendants, properties/bindings, pages, variables/aliases/components, readback",
+      "READY/BLOCKED/FAILED/UNKNOWN per capability; --help success does not establish global readiness",
+      "../registry/DEC-GRAPH-CONTINUOUS-SYNC-001.md authorizes local recurring full corpus closure per P05 without per-batch approval"
+    ]
+  },
+  "164": {
+    "label": "Chat Layout Verify",
+    "nodes": 16,
+    "cohesion": 0.24166666666666667,
+    "examples": [
+      "chat-layout.v0.1.1.verify.cjs",
+      "chat-layout.v0.1.1.verify.cjs",
+      "base",
+      "byId",
+      "canonicalSha256"
+    ]
+  },
+  "165": {
+    "label": "Chat Section",
+    "nodes": 16,
+    "cohesion": 0.35,
+    "examples": [
+      "specs/chat-section.contract.v0.1.0.md",
+      "CHAT-SECTION-001 visual Figma contract v0.1.0",
+      "Chat Section · contrato de construcción",
+      "Desktop fluid height and documented minimum width",
+      "Hidden Count Small inherited typography exception"
+    ]
+  },
+  "166": {
+    "label": "Table Parts Build",
+    "nodes": 15,
+    "cohesion": 0.2761904761904762,
+    "examples": [
+      "table-parts-build.v0.1.0.js",
+      "table-parts-build.v0.1.0.js",
+      "bind()",
+      "iconPaint()",
+      "layout()"
+    ]
+  },
+  "167": {
+    "label": "Primitivas y aliases",
+    "nodes": 15,
+    "cohesion": 0.34285714285714286,
+    "examples": [
+      "color/purple/100",
+      "color/blue/100",
+      "color/green/100",
+      "color/orange/100",
+      "color/surface/brand"
+    ]
+  },
+  "168": {
+    "label": "Primitivas y aliases",
+    "nodes": 15,
+    "cohesion": 0.38095238095238093,
+    "examples": [
+      "color/green/200",
+      "color/purple/200",
+      "color/blue/200",
+      "color/orange/200",
+      "color/border/pagination/subtle"
+    ]
+  },
+  "169": {
+    "label": "Conversation External Intake 2026 10",
+    "nodes": 15,
+    "cohesion": 0.2761904761904762,
+    "examples": [
+      "conversation.external-intake.2026-10-08.md",
+      "Conversation first external intake, 2026-10-08: source INDEXED, inspection PARTIAL, target contract/implementation NOT_STARTED",
+      "P-SLOTS REQUIRED: composite responses, previews and variable actions; native AnswerText/Secondary actions/previews and composer text observed",
+      "Before build verify Buttons, specs/icon-button.contract.v0.1.0.md, specs/components/badge.contract.v0.1.0.md and icons",
+      "Candidate page Conversation; aligns with DRAFT Anticipa PROP-03; integration proposal not adopted"
+    ]
+  },
+  "170": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 15,
+    "cohesion": 0.13333333333333333,
+    "examples": [
+      "structural",
+      "counts",
+      "connectorParity",
+      "checked",
+      "mismatches"
+    ]
+  },
+  "171": {
+    "label": "Chat Layout Structure",
+    "nodes": 15,
+    "cohesion": 0.2571428571428571,
+    "examples": [
+      "chat-layout.v0.1.1.structure.json",
+      "chat-layout.v0.1.1.structure.json",
+      "count",
+      "dependencies",
+      "file_key"
+    ]
+  },
+  "172": {
+    "label": "Ai Design System Character Shadow",
+    "nodes": 15,
+    "cohesion": 0.24761904761904763,
+    "examples": [
+      "ai-design-system.character-shadow.v0.1.0.json",
+      "ai-design-system.character-shadow.v0.1.0.json",
+      "collection",
+      "specs/tokens/ai-design-system.character-identity.v0.1.0.json",
+      "defaultMode"
+    ]
+  },
+  "173": {
+    "label": "Contratos e implementación",
+    "nodes": 15,
+    "cohesion": 0.13333333333333333,
+    "examples": [
+      "BADGE-001",
+      "Reference ../drafts/contracts/badge.contract.v0.1.0.candidate.md",
+      "Reference ../drafts/contracts/badge.contract.v0.1.0.yaml",
+      "Reference ../drafts/contracts/badge.contrast-amendment.v0.1.1.candidate.md",
+      "Reference ../drafts/contracts/badge.contrast-amendment.v0.1.1.md"
+    ]
+  },
+  "174": {
+    "label": "Contratos e implementación",
+    "nodes": 15,
+    "cohesion": 0.13333333333333333,
+    "examples": [
+      "BREADCRUMBS-001",
+      "FOUNDATIONS-BREADCRUMB-CURRENT-TEXT-001",
+      "Reference ../qa/contracts/foundations.breadcrumb-current-text.amendment.v0.1.0.review.md",
+      "Reference ../drafts/contracts/breadcrumb-item.source.component-contract.md",
+      "Reference ../drafts/contracts/breadcrumbs.contract.v0.1.0.md"
+    ]
+  },
+  "175": {
+    "label": "Badge Contrast Amendment",
+    "nodes": 14,
+    "cohesion": 0.24175824175824176,
+    "examples": [
+      "badge.contrast-amendment.v0.1.1.md",
+      "badge.v0.1.0.contrast-finding.md",
+      "badge.contrast-amendment.v0.1.1.review.md",
+      "badge.v0.1.1.figma.review.md",
+      "Enmienda delegada 0.1.1 · contraste de Badge"
+    ]
+  },
+  "176": {
+    "label": "Dot Contract",
+    "nodes": 14,
+    "cohesion": 0.25274725274725274,
+    "examples": [
+      "dot.source.component-contract.md",
+      "dot.v0.1.0.review.md",
+      "Dot · contrato técnico de la fuente",
+      "dot.source.component-contract.md",
+      "dot.source.component-contract.review.md"
+    ]
+  },
+  "177": {
+    "label": "Filter Chip Plan",
+    "nodes": 14,
+    "cohesion": 0.21978021978021978,
+    "examples": [
+      "filter-chip.v0.2.0.plan.md",
+      "filter-chip.contract.yaml",
+      "filter-chip.description.v0.2.0.md",
+      "filter-chip.build.v0.2.0.yaml",
+      "filter-chip.description.v0.2.0.md"
+    ]
+  },
+  "178": {
+    "label": "Icon Button Contract",
+    "nodes": 14,
+    "cohesion": 0.25274725274725274,
+    "examples": [
+      "icon-button.source.component-contract.md",
+      "icon-button.source.component-contract.yaml",
+      "Button Icon · contrato técnico de la fuente",
+      "icon-button.source.component-contract.review.md",
+      "icon-button.source.component-contract.md"
+    ]
+  },
+  "179": {
+    "label": "Input Field Dependencies",
+    "nodes": 14,
+    "cohesion": 0.2087912087912088,
+    "examples": [
+      "input-field.source.component-contract.md",
+      "input-field.dependencies.json",
+      "input-field.dependencies.json",
+      "input-field.source.component-contract.yaml",
+      "Input Field source evidence"
+    ]
+  },
+  "180": {
+    "label": "Checkbox Build",
+    "nodes": 14,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "checkbox-build.v0.1.0.js",
+      "checkbox-build.v0.1.0.js",
+      "bindText()",
+      "solid()",
+      "components"
+    ]
+  },
+  "181": {
+    "label": "Button Usage Synthesis",
+    "nodes": 14,
+    "cohesion": 0.26373626373626374,
+    "examples": [
+      "button-usage.v0.2.0.synthesis.md",
+      "Síntesis de uso · Button 0.2.0",
+      "button-usage.v0.2.0.review.md",
+      "button-usage.v0.2.0.synthesis.md",
+      "QA-BUTTON-USAGE-002 · revisión documental"
+    ]
+  },
+  "182": {
+    "label": "Sidebar Compositions Bind",
+    "nodes": 14,
+    "cohesion": 0.31868131868131866,
+    "examples": [
+      "sidebar.v0.1.0.compositions-bind.js",
+      "sidebar.v0.1.0.compositions-bind.js",
+      "rebind()",
+      "mapped()",
+      "remapObject()"
+    ]
+  },
+  "183": {
+    "label": "Validate Select Tokens",
+    "nodes": 14,
+    "cohesion": 0.25274725274725274,
+    "examples": [
+      "validate-select-tokens.cjs",
+      "validate-select-tokens.cjs",
+      "actual",
+      "all",
+      "bytes"
+    ]
+  },
+  "184": {
+    "label": "Chat Section",
+    "nodes": 14,
+    "cohesion": 0.26373626373626374,
+    "examples": [
+      "implementations/chat-section.v0.1.0.review.md",
+      "SESSION-HANDOFF-2026-10-08-CHAT.md",
+      "QA-CHAT-SECTION-IMPL-001 · 2026-10-08",
+      "Chat Section native Slot instance tests",
+      "QA CHAT SECTION scoped technical PASS"
+    ]
+  },
+  "185": {
+    "label": "Decisiones de migración",
+    "nodes": 14,
+    "cohesion": 0.14285714285714285,
+    "examples": [
+      "DEC-PROTOCOL-SEMANTIC-PAGES-001 · páginas y variables semánticas para futuras familias",
+      "DEC-TOKENS-001 · aprobación para Figma",
+      "DEC-MIGRATION-TRACEABILITY-001 · contrato transversal de fidelidad y bindings",
+      "DEC-BUTTON-LOCAL-BINDINGS-001 · ejecución delegada · 2026-10-05",
+      "Reference ../sources/inventories/tokens.inventory.json"
+    ]
+  },
+  "186": {
+    "label": "Contract Synthesis Report Template",
+    "nodes": 14,
+    "cohesion": 0.27472527472527475,
+    "examples": [
+      "contract-synthesis-report.template.md",
+      "Reporte de síntesis de contrato",
+      "contract-synthesis-report.template.md",
+      "10. Estado final y entrega al usuario",
+      "11. Historial"
+    ]
+  },
+  "187": {
+    "label": "Foundations Control Colors",
+    "nodes": 13,
+    "cohesion": 0.2564102564102564,
+    "examples": [
+      "specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md",
+      "contracts/foundations.control-colors.amendment.v0.1.1.md",
+      "specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "AMD-FOUNDATIONS-CONTROL-COLORS-001 · archived amendment",
+      "color/border/control four aliases neutral/500 → neutral/400 #94A3B8"
+    ]
+  },
+  "188": {
+    "label": "Composition Slots",
+    "nodes": 13,
+    "cohesion": 0.28205128205128205,
+    "examples": [
+      "composition-slots.amendment.v0.1.1.md",
+      "Slots · Steps, Pagination y leyendas Charts",
+      "foundations.pagination-slot-state.amendment.v0.1.0.md",
+      "SESSION-HANDOFF-2026-09-30-SLOTS.md",
+      "composition-slots.v0.1.1.review.md"
+    ]
+  },
+  "189": {
+    "label": "Foundations Warning Icon Contrast",
+    "nodes": 13,
+    "cohesion": 0.21794871794871795,
+    "examples": [
+      "ai-design-system.warning-icon-contrast.v0.1.0.json",
+      "warning-icon-contrast.v0.1.0.figma.review.md",
+      "foundations.warning-icon-contrast.amendment.v0.1.8.review.md",
+      "foundations.warning-icon-contrast.amendment.v0.1.8.md",
+      "warning-icon-contrast.v0.1.0.state.json"
+    ]
+  },
+  "190": {
+    "label": "Navigation Pagination Contract",
+    "nodes": 13,
+    "cohesion": 0.2692307692307692,
+    "examples": [
+      "navigation-pagination.contract.v0.1.0.md",
+      "navigation-pagination.source.component-contract.md",
+      "navigation-pagination.source.component-contract.yaml",
+      "navigation-pagination.v0.1.0.state.json",
+      "navigation-pagination.v0.1.0.review.md"
+    ]
+  },
+  "191": {
+    "label": "Breadcrumbs Composition Build",
+    "nodes": 13,
+    "cohesion": 0.2948717948717949,
+    "examples": [
+      "breadcrumbs-composition-build.v0.1.0.js",
+      "breadcrumbs-composition-build.v0.1.0.js",
+      "components",
+      "created",
+      "currentMain"
+    ]
+  },
+  "192": {
+    "label": "Dot Build",
+    "nodes": 13,
+    "cohesion": 0.2948717948717949,
+    "examples": [
+      "dot-build.v0.1.0.js",
+      "dot-build.v0.1.0.js",
+      "components",
+      "created",
+      "details"
+    ]
+  },
+  "193": {
+    "label": "Radio Button Build",
+    "nodes": 13,
+    "cohesion": 0.3076923076923077,
+    "examples": [
+      "radio-button-build.v0.1.0.js",
+      "radio-button-build.v0.1.0.js",
+      "bindLabel()",
+      "solid()",
+      "components"
+    ]
+  },
+  "194": {
+    "label": "Navigation Batch 2026 09 24",
+    "nodes": 13,
+    "cohesion": 0.24358974358974358,
+    "examples": [
+      "navigation-batch-2026-09-24.handoff.md",
+      "ai-design-system.navigation-tab-borders.v0.1.0.json",
+      "navigation-tab-borders.v0.1.0.figma.review.md",
+      "foundations.navigation-tab-borders.amendment.v0.1.15.md",
+      "Handoff · Navigation, 2026-09-24"
+    ]
+  },
+  "195": {
+    "label": "App Shell Synthesis",
+    "nodes": 13,
+    "cohesion": 0.3076923076923077,
+    "examples": [
+      "app-shell.synthesis.v0.1.0.md",
+      "APP-SHELL-001 0.1.0 synthesis; QA documental PASS; delegated build",
+      "04-slots.mmd",
+      "Consumer instance tests insert/delete/reorder/replace; variant changes retain overrides; empty/one/more-than-sample counts; operations and bindings PASS",
+      "Slots applicability and implementation flow diagram"
+    ]
+  },
+  "196": {
+    "label": "Foundations Tokens Synthesis",
+    "nodes": 13,
+    "cohesion": 0.2948717948717949,
+    "examples": [
+      "foundations-tokens.synthesis.md",
+      "Síntesis de foundations/tokens",
+      "10. Estado final",
+      "11. Historial",
+      "1. Encargo y entregables"
+    ]
+  },
+  "197": {
+    "label": "03 Tokens",
+    "nodes": 13,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "03-tokens.mmd",
+      "Token traceability flow diagram",
+      "Create local aliases or map actual local IDs; verify all modes; bind semantic consumer; read real binding/value",
+      "05-construccion-y-qa.mmd",
+      "Construction and implementation QA flow diagram"
+    ]
+  },
+  "198": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 13,
+    "cohesion": 0.15384615384615385,
+    "examples": [
+      "supplement",
+      "routing",
+      "operations",
+      "counts",
+      "newNavigationalLinks"
+    ]
+  },
+  "199": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 13,
+    "cohesion": 0.16666666666666666,
+    "examples": [
+      "layout",
+      "rootBounds",
+      "rootBounds",
+      "h",
+      "w"
+    ]
+  },
+  "200": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 13,
+    "cohesion": 0.15384615384615385,
+    "examples": [
+      "qa",
+      "visual",
+      "artifact_id",
+      "blocking_issues",
+      "date"
+    ]
+  },
+  "201": {
+    "label": "Chat Section Slots",
+    "nodes": 13,
+    "cohesion": 0.2948717948717949,
+    "examples": [
+      "chat-section.v0.1.0.slots.js",
+      "chat-section.v0.1.0.slots.js",
+      "after",
+      "before",
+      "errors"
+    ]
+  },
+  "202": {
+    "label": "Conversation Verify Tokens",
+    "nodes": 13,
+    "cohesion": 0.2948717948717949,
+    "examples": [
+      "conversation.v0.1.0.verify-tokens.cjs",
+      "conversation.v0.1.0.verify-tokens.cjs",
+      "base",
+      "byId",
+      "byPrim"
+    ]
+  },
+  "203": {
+    "label": "Contratos e implementación",
+    "nodes": 13,
+    "cohesion": 0.15384615384615385,
+    "examples": [
+      "INLINE-NOTIFICATION-001",
+      "Reference ../drafts/contracts/inline-notification.source.component-contract.md",
+      "Reference ../drafts/contracts/inline-notification.source.component-contract.yaml",
+      "Reference ../drafts/reports/inline-notification.v0.1.0.plan.md",
+      "Reference ../implementations/figma/inline-notification.v0.1.0.state.json"
+    ]
+  },
+  "204": {
+    "label": "Radio Indicator Build",
+    "nodes": 12,
+    "cohesion": 0.3181818181818182,
+    "examples": [
+      "radio-indicator-build.v0.1.0.js",
+      "radio-indicator-build.v0.1.0.js",
+      "components",
+      "created",
+      "details"
+    ]
+  },
+  "205": {
+    "label": "Tokens Inventory",
+    "nodes": 12,
+    "cohesion": 0.16666666666666666,
+    "examples": [
+      "ai-design-system.focus-effects.v0.1.0.json",
+      "color/neutral/100",
+      "ai-design-system.inverse-icon.v0.1.0.json",
+      "color/background/default",
+      "color/focus/effect-inner"
+    ]
+  },
+  "206": {
+    "label": "Steps Brand Theme",
+    "nodes": 12,
+    "cohesion": 0.30303030303030304,
+    "examples": [
+      "steps.brand-theme.amendment.v0.1.1.md",
+      "steps.v0.1.1.figma.review.md",
+      "steps.brand-theme.v0.1.1.review.md",
+      "Steps · enmienda de marca por tema",
+      "steps.v0.1.0.figma.review.md"
+    ]
+  },
+  "207": {
+    "label": "Buttons Local Bindings Apply",
+    "nodes": 12,
+    "cohesion": 0.3181818181818182,
+    "examples": [
+      "buttons.local-bindings.v0.2.2.apply.js",
+      "buttons.local-bindings.v0.2.2.apply.js",
+      "before",
+      "done",
+      "failures"
+    ]
+  },
+  "208": {
+    "label": "File Upload",
+    "nodes": 12,
+    "cohesion": 0.2878787878787879,
+    "examples": [
+      "file-upload.contract.v0.1.0.md",
+      "file-upload.v0.1.0.figma.review.md",
+      "QA Figma · File Upload 0.1.0",
+      "File Upload 0.1.0 · contrato de construcción",
+      "file-upload.v0.1.0.state.json"
+    ]
+  },
+  "209": {
+    "label": "Chat Section Verify Preflight",
+    "nodes": 12,
+    "cohesion": 0.2878787878787879,
+    "examples": [
+      "chat-section.verify-preflight.cjs",
+      "chat-section.verify-preflight.cjs",
+      "ref_fs",
+      "ref_crypto",
+      "base"
+    ]
+  },
+  "210": {
+    "label": "Chat Toolbar Verify Preflight",
+    "nodes": 12,
+    "cohesion": 0.3181818181818182,
+    "examples": [
+      "chat-toolbar.verify-preflight.cjs",
+      "chat-toolbar.verify-preflight.cjs",
+      "base",
+      "byId",
+      "crypto"
+    ]
+  },
+  "211": {
+    "label": "QA y evidencias",
+    "nodes": 12,
+    "cohesion": 0.18181818181818182,
+    "examples": [
+      "QA-BUTTON-001",
+      "DEC-BUTTON-USAGE-002 · aprobación de Button 0.2.0",
+      "DEC-BUTTON-001 · aprobación del contrato Button para Figma",
+      "DEC-ICONS-001 · fuente única de iconos",
+      "DEC-BUTTON-USAGE-REQUEST-001 · solicitud de guía, no aprobación"
+    ]
+  },
+  "212": {
+    "label": "Fuentes y procedencia",
+    "nodes": 12,
+    "cohesion": 0.22727272727272727,
+    "examples": [
+      "Guías externas para la revisión candidata BUTTON-001 0.2.0",
+      "SRC-FIGMA-BUTTON-001",
+      "Guías externas para la revisión candidata BUTTON-001 0.2.0 — SRC-GUIDE-APPLE-001",
+      "Guías externas para la revisión candidata BUTTON-001 0.2.0 — SRC-GUIDE-CARBON-001",
+      "Guías externas para la revisión candidata BUTTON-001 0.2.0 — SRC-GUIDE-MATERIAL-001"
+    ]
+  },
+  "213": {
+    "label": "Navi Analysis Contract",
+    "nodes": 11,
+    "cohesion": 0.2727272727272727,
+    "examples": [
+      "beniStandBy read-only source contract",
+      "messageAnalisisNavi read-only source contract",
+      "Thirteen local Smart Animate transitions form two cycles",
+      "messageAnalisisNavi complete graphical evidence model",
+      "beniStandBy observed closed timeout cycle"
+    ]
+  },
+  "214": {
+    "label": "Button · Evidencias",
+    "nodes": 11,
+    "cohesion": 0.3090909090909091,
+    "examples": [
+      "button.review.md",
+      "components/button.contract.md",
+      "button.synthesis.md",
+      "QA-BUTTON-001 · revisión documental de Button",
+      "contracts/button.contract.md"
+    ]
+  },
+  "215": {
+    "label": "Steps Contract",
+    "nodes": 11,
+    "cohesion": 0.2545454545454545,
+    "examples": [
+      "steps.contract.v0.1.0.md",
+      "Steps 0.1.0 · contrato de construcción",
+      "steps.source.component-contract.md",
+      "steps.source.component-contract.yaml",
+      "Steps · contrato de observación de la Librería anterior"
+    ]
+  },
+  "216": {
+    "label": "Breadcrumbs Plan",
+    "nodes": 11,
+    "cohesion": 0.2909090909090909,
+    "examples": [
+      "ai-design-system.breadcrumb-current-text.v0.1.0.json",
+      "breadcrumb-current-text.v0.1.0.figma.review.md",
+      "breadcrumbs.v0.1.0.figma.review.md",
+      "breadcrumbs.v0.1.0.plan.md",
+      "breadcrumb-current-text.v0.1.0.state.json"
+    ]
+  },
+  "217": {
+    "label": "06 Cambios Y Publicacion",
+    "nodes": 11,
+    "cohesion": 0.36363636363636365,
+    "examples": [
+      "06-cambios-y-publicacion.mmd",
+      "Changes and documentary publication flow diagram",
+      "Declare exact replacement; revalidate affected documentation; implementation changes synchronize data/Figma with readback/QA",
+      "Current QA PASS → promote closed scope to specs; delegated human audit remains PENDING; consolidate exceptions and update records",
+      "08-publicacion-github.mmd"
+    ]
+  },
+  "218": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 11,
+    "cohesion": 0.18181818181818182,
+    "examples": [
+      "artifact_digests_sha256_bytes",
+      "01-flujo-general.mmd",
+      "02-fuentes-y-autorizacion.mmd",
+      "03-tokens.mmd",
+      "04-slots.mmd"
+    ]
+  },
+  "219": {
+    "label": "Conversation Characters",
+    "nodes": 11,
+    "cohesion": 0.2727272727272727,
+    "examples": [
+      "implementations/conversation.characters.v0.1.1.review.md",
+      "Conversation character identity0.1.1: PASS técnico limitado",
+      "contracts/conversation.characters.v0.1.1.review.md",
+      "CHAR-01–06: excepción cromática limitada a personajes",
+      "Conversation characters 0.1.1: PASS previo a construcción"
+    ]
+  },
+  "220": {
+    "label": "Filter Chip",
+    "nodes": 11,
+    "cohesion": 0.2909090909090909,
+    "examples": [
+      "filter-chip.v0.2.0.figma.review.md",
+      "filter-chip.v0.2.0.png",
+      "QA-FILTER-CHIP-FIGMA-001 · Filter Chip 0.2.0 en Figma",
+      "filter-chip.v0.2.0.state.json",
+      "filter-chip.v0.2.0.figma.review.md"
+    ]
+  },
+  "221": {
+    "label": "Six Families Color Snapshot",
+    "nodes": 11,
+    "cohesion": 0.36363636363636365,
+    "examples": [
+      "six-families.color.v0.1.0.snapshot.js",
+      "six-families.color.v0.1.0.snapshot.js",
+      "resolve()",
+      "variable()",
+      "colls"
+    ]
+  },
+  "222": {
+    "label": "Contratos e implementación",
+    "nodes": 11,
+    "cohesion": 0.18181818181818182,
+    "examples": [
+      "FILTER-CHIP-001",
+      "Reference ../drafts/contracts/filter-chip.build.v0.2.0.yaml",
+      "Reference ../drafts/contracts/filter-chip.contract.md",
+      "Reference ../drafts/contracts/filter-chip.contract.v0.2.0.md",
+      "Reference ../drafts/contracts/filter-chip.contract.yaml"
+    ]
+  },
+  "223": {
+    "label": "Chat Section Dependencies 2026 10",
+    "nodes": 11,
+    "cohesion": 0.34545454545454546,
+    "examples": [
+      "chat-section.dependencies.2026-10-08.json",
+      "statusMain",
+      "chat-section.dependencies.2026-10-08.json",
+      "dependencies",
+      "hidden"
+    ]
+  },
+  "224": {
+    "label": "App Shell Contract",
+    "nodes": 10,
+    "cohesion": 0.37777777777777777,
+    "examples": [
+      "app-shell.source.component-contract.yaml",
+      "App Shell · source component evidence",
+      "Breakpoints · App Shell composition",
+      "Source variables do not establish target canonical parity",
+      "APP-SHELL-001 · exclusive destination rules"
+    ]
+  },
+  "225": {
+    "label": "Badge Color Amendment",
+    "nodes": 10,
+    "cohesion": 0.28888888888888886,
+    "examples": [
+      "components/badge.source-color-amendment.v0.1.2.md",
+      "Badge · restauración de colores fuente 0.1.2",
+      "badge.source-color-amendment.v0.1.2.review.md",
+      "contracts/badge.source-color-amendment.v0.1.2.md",
+      "badge.source-color.v0.1.2.state.json"
+    ]
+  },
+  "226": {
+    "label": "Select · Evidencias",
+    "nodes": 10,
+    "cohesion": 0.35555555555555557,
+    "examples": [
+      "select.contract.v0.1.0.md",
+      "composition-slots.amendment.v0.1.0.md",
+      "Slots de composición · enmienda 0.1.0",
+      "Select · contrato de composición 0.1.0",
+      "Referenced drafts/contracts/breadcrumbs.contract.v0.1.0.md"
+    ]
+  },
+  "227": {
+    "label": "Chat Section",
+    "nodes": 10,
+    "cohesion": 0.35555555555555557,
+    "examples": [
+      "chat-section.v0.1.0.prebuild-candidate.md",
+      "contracts/chat-section.v0.1.0.review.md",
+      "QA-CHAT-SECTION-DOC-001 · 2026-10-08",
+      "contracts/chat-section.contract.v0.1.0.md",
+      "Chat Section · contrato promovido"
+    ]
+  },
+  "228": {
+    "label": "Inline Notification",
+    "nodes": 10,
+    "cohesion": 0.28888888888888886,
+    "examples": [
+      "components/inline-notification.contract.v0.1.0.md",
+      "inline-notification.v0.1.0.plan.md",
+      "contracts/inline-notification.contract.v0.1.0.md",
+      "INLINE-NOTIFICATION-001",
+      "inline-notification.v0.1.0.plan.md"
+    ]
+  },
+  "229": {
+    "label": "Loader · Evidencias",
+    "nodes": 10,
+    "cohesion": 0.28888888888888886,
+    "examples": [
+      "loader.contract.v0.1.0.md",
+      "loader.source.component-contract.md",
+      "loader.source.component-contract.yaml",
+      "loader.v0.1.0.state.json",
+      "Loader 0.1.0 · contrato de construcción"
+    ]
+  },
+  "230": {
+    "label": "Characters Build",
+    "nodes": 10,
+    "cohesion": 0.4,
+    "examples": [
+      "characters.v0.1.0.build.js",
+      "characters.v0.1.0.build.js",
+      "paint()",
+      "vector()",
+      "created"
+    ]
+  },
+  "231": {
+    "label": "Control Colors",
+    "nodes": 10,
+    "cohesion": 0.3111111111111111,
+    "examples": [
+      "control-colors.v0.1.0.figma.review.md",
+      "toggle.v0.1.2.figma.review.md",
+      "toggle.v0.1.1.visual-fidelity-finding.md",
+      "toggle.v0.1.2.figma.review.md",
+      "toggle.v0.1.1.visual-fidelity-finding.md"
+    ]
+  },
+  "232": {
+    "label": "Buttons Local Bindings After",
+    "nodes": 10,
+    "cohesion": 0.37777777777777777,
+    "examples": [
+      "buttons.local-bindings.v0.2.2.after.png",
+      "Button specimen matrix in three size columns",
+      "Three columns with progressively smaller button specimens",
+      "Blue filled buttons with white labels and icons",
+      "Pale button examples with muted gray blue labels and icons"
+    ]
+  },
+  "233": {
+    "label": "Chat Toolbar Audit",
+    "nodes": 10,
+    "cohesion": 0.37777777777777777,
+    "examples": [
+      "chat-toolbar.v0.1.0.audit.js",
+      "chat-toolbar.v0.1.0.audit.js",
+      "errors",
+      "geometry",
+      "logo()"
+    ]
+  },
+  "234": {
+    "label": "Documentation Sources",
+    "nodes": 10,
+    "cohesion": 0.37777777777777777,
+    "examples": [
+      "DOCUMENTATION-SOURCES.md",
+      "Fuentes y alcance de esta documentación",
+      "4. Fuentes técnicas externas consultadas",
+      "DOCUMENTATION-SOURCES.md",
+      "1. Decisiones del proyecto aportadas por el usuario"
+    ]
+  },
+  "235": {
+    "label": "Contratos e implementación",
+    "nodes": 10,
+    "cohesion": 0.2,
+    "examples": [
+      "LINEAR-PROGRESS-BAR-001",
+      "Reference ../drafts/contracts/linear-progress-bar.contract.v0.1.0.md",
+      "Reference ../drafts/contracts/linear-progress-bar.source.component-contract.md",
+      "Reference ../drafts/contracts/linear-progress-bar.source.component-contract.yaml",
+      "Reference ../drafts/reports/linear-progress-bar.v0.1.0.plan.md"
+    ]
+  },
+  "236": {
+    "label": "Fuentes y procedencia",
+    "nodes": 10,
+    "cohesion": 0.2,
+    "examples": [
+      "Evidencia de refinamiento · 2026-10-05",
+      "SRC-FIGMA-SEARCH-001",
+      "Reference ../drafts/contracts/search.source.component-contract.md",
+      "Reference ../drafts/contracts/search.source.component-contract.yaml",
+      "Reference ../qa/implementations/buttons.refinement.v0.1.0.discovery.json"
+    ]
+  },
+  "237": {
+    "label": "Foundations Chart Colors",
+    "nodes": 9,
+    "cohesion": 0.3611111111111111,
+    "examples": [
+      "contracts/foundations.chart-colors.amendment.v0.1.0.md",
+      "specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md",
+      "FOUNDATIONS-CHART-COLORS-001 · archived amendment",
+      "foundations.chart-colors.amendment.v0.1.0.md · administrative locator",
+      "Five Chart pieces require exact JSON/Figma parity and local bindings"
+    ]
+  },
+  "238": {
+    "label": "Breadcrumbs · Evidencias",
+    "nodes": 9,
+    "cohesion": 0.3611111111111111,
+    "examples": [
+      "specs/breadcrumbs.contract.v0.1.0.md",
+      "contracts/breadcrumbs.contract.v0.1.0.md",
+      "BREADCRUMBS-001 v0.1.0 · base delegada",
+      "AC-BRC-004–007: roles locales por scope y tipografía",
+      "Canonical specs contract · breadcrumbs.contract.v0.1.0.md"
+    ]
+  },
+  "239": {
+    "label": "Button · Evidencias",
+    "nodes": 9,
+    "cohesion": 0.2777777777777778,
+    "examples": [
+      "button.contract.yaml",
+      "button.figma.preflight.md",
+      "QA-BUTTON-FIGMA-001 · preflight de implementación",
+      "button.figma.preflight.md",
+      "Medidas verificadas"
+    ]
+  },
+  "240": {
+    "label": "Metric Card",
+    "nodes": 9,
+    "cohesion": 0.3611111111111111,
+    "examples": [
+      "specs/metric-card.contract.v0.1.0.md",
+      "contracts/metric-card.contract.v0.1.0.md",
+      "METRIC-CARD-001",
+      "Editable amounts preserve layout-specific source examples",
+      "specs/metric-card.contract.v0.1.0.md; human audit PENDING"
+    ]
+  },
+  "241": {
+    "label": "Breadcrumbs Text Fit",
+    "nodes": 9,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "breadcrumbs.v0.1.0.state.json",
+      "breadcrumbs-text-fit.v0.1.0.js",
+      "breadcrumb-current-text-bind.v0.1.0.js",
+      "breadcrumbs-text-fit.v0.1.0.js",
+      "breadcrumb-current-text-bind.v0.1.0.js"
+    ]
+  },
+  "242": {
+    "label": "Header Final Paint Audit",
+    "nodes": 9,
+    "cohesion": 0.4444444444444444,
+    "examples": [
+      "header-final-paint-audit.v0.1.0.js",
+      "header-final-paint-audit.v0.1.0.js",
+      "refs()",
+      "walk()",
+      "bindings"
+    ]
+  },
+  "243": {
+    "label": "Characters Qa",
+    "nodes": 9,
+    "cohesion": 0.4166666666666667,
+    "examples": [
+      "characters.v0.1.0.qa.js",
+      "characters.v0.1.0.qa.js",
+      "errors",
+      "original",
+      "readPaints()"
+    ]
+  },
+  "244": {
+    "label": "Metric Card",
+    "nodes": 9,
+    "cohesion": 0.2222222222222222,
+    "examples": [
+      "arrowUpRight",
+      "currencyCircleDollar",
+      "dependencies",
+      "instanceCount",
+      "sourceKey"
+    ]
+  },
+  "245": {
+    "label": "Chat Toolbar Slots",
+    "nodes": 9,
+    "cohesion": 0.4166666666666667,
+    "examples": [
+      "chat-toolbar.v0.1.0.slots.js",
+      "chat-toolbar.v0.1.0.slots.js",
+      "configs",
+      "errors",
+      "fixtures"
+    ]
+  },
+  "246": {
+    "label": "Filter Chip Semantic",
+    "nodes": 9,
+    "cohesion": 0.4166666666666667,
+    "examples": [
+      "filter-chip.semantic.v0.2.1.png",
+      "Chip specimen matrix with six rows and five columns",
+      "Fourth column with prominent blue capsule outlines",
+      "Dark chip containers with white labels",
+      "Three descending sizes each shown in light and dark rows"
+    ]
+  },
+  "247": {
+    "label": "Contratos e implementación",
+    "nodes": 9,
+    "cohesion": 0.2222222222222222,
+    "examples": [
+      "METRIC-CARD-001",
+      "Reference ../drafts/contracts/metric-card.contract.v0.1.0.md",
+      "Reference ../drafts/contracts/metric-card.source.component-contract.md",
+      "Reference ../drafts/contracts/metric-card.source.component-contract.yaml",
+      "Reference ../drafts/reports/metric-card.v0.1.0.plan.md"
+    ]
+  },
+  "248": {
+    "label": "Contratos e implementación",
+    "nodes": 9,
+    "cohesion": 0.2222222222222222,
+    "examples": [
+      "SIX-FAMILY-COLOR-001 · cierre cromático · 2026-10-05",
+      "Reference ../qa/implementations/six-families.color.v0.1.0.review.md",
+      "Reference ../specs/breadcrumbs.contract.v0.1.0.md",
+      "Reference ../specs/charts.contract.v0.1.0.md",
+      "Reference ../specs/components/six-family-color.amendment.v0.1.0.md"
+    ]
+  },
+  "249": {
+    "label": "Dec Character Identity 001",
+    "nodes": 9,
+    "cohesion": 0.4166666666666667,
+    "examples": [
+      "DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md",
+      "DEC-CHARACTER-IDENTITY-001.md",
+      "DEC-EXTERNAL-COMPONENTS-DELEGATION-001 · alcance externo explícito",
+      "DEC-CHARACTER-IDENTITY-001 · decisión explícita vigente",
+      "BENI/NAVI: identidad cromática fija y tokens directos"
+    ]
+  },
+  "250": {
+    "label": "Decisiones de migración",
+    "nodes": 9,
+    "cohesion": 0.2222222222222222,
+    "examples": [
+      "DEC-SELECTION-CONTROL-SOURCE-COLOR-002 · contorno neutral de origen",
+      "DEC-RADIO-NORMALIZATION-001 · selección y dependencia local",
+      "Reference ../drafts/contracts/checkbox.source-color-amendment.v0.1.1.md",
+      "Reference ../drafts/contracts/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "Reference ../drafts/contracts/radio-button.contract.v0.1.0.md"
+    ]
+  },
+  "251": {
+    "label": "Foundations Breadcrumb Current Text",
+    "nodes": 8,
+    "cohesion": 0.39285714285714285,
+    "examples": [
+      "contracts/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+      "specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+      "FOUNDATIONS-BREADCRUMB-CURRENT-TEXT-001 · archived amendment",
+      "foundations.breadcrumb-current-text.amendment.v0.1.0.md · administrative locator",
+      "JSON/Figma aliases, ≥4.5:1 four modes, no literal RGB"
+    ]
+  },
+  "252": {
+    "label": "Badge Contrast Amendment",
+    "nodes": 8,
+    "cohesion": 0.39285714285714285,
+    "examples": [
+      "badge.contrast-amendment.v0.1.1.candidate.md",
+      "contracts/badge.contract.v0.1.0.md",
+      "Enmienda candidata 0.1.1 · contraste de Badge",
+      "Badge · referencia administrativa",
+      "Referencia histórica a Badge canónico en specs"
+    ]
+  },
+  "253": {
+    "label": "Charts · Evidencias",
+    "nodes": 8,
+    "cohesion": 0.39285714285714285,
+    "examples": [
+      "specs/charts.contract.v0.1.0.md",
+      "contracts/charts.contract.v0.1.0.md",
+      "CHARTS-001 0.1.0",
+      "Canonical specs contract · charts.contract.v0.1.0.md",
+      "charts.contract.v0.1.0.md · administrative locator"
+    ]
+  },
+  "254": {
+    "label": "Filter Chip",
+    "nodes": 8,
+    "cohesion": 0.42857142857142855,
+    "examples": [
+      "filter-chip.review.md",
+      "QA documental · Filter Chip 0.1.0",
+      "filter-chip.contract.md",
+      "filter-chip.synthesis.md",
+      "filter-chip.review.md"
+    ]
+  },
+  "255": {
+    "label": "Navigation Pagination Border",
+    "nodes": 8,
+    "cohesion": 0.39285714285714285,
+    "examples": [
+      "ai-design-system.navigation-pagination-border.v0.1.0.json",
+      "navigation-pagination-border.v0.1.0.figma.review.md",
+      "foundations.navigation-pagination-border.amendment.v0.1.14.md",
+      "QA técnico · Foundations / Pagination border 0.1.0",
+      "Cuatro aliases y scope STROKE_COLOR"
+    ]
+  },
+  "256": {
+    "label": "Charts Classification",
+    "nodes": 8,
+    "cohesion": 0.42857142857142855,
+    "examples": [
+      "charts.source-classification.v0.1.0.md",
+      "charts.source-classification.v0.1.0.md",
+      "charts.v0.1.0.synthesis.md",
+      "Charts · clasificación inicial de fuente",
+      "charts.v0.1.0.synthesis.md"
+    ]
+  },
+  "257": {
+    "label": "Metric Card",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "target",
+      "fileKey",
+      "fileName",
+      "pageId",
+      "pageName"
+    ]
+  },
+  "258": {
+    "label": "Select · Evidencias",
+    "nodes": 8,
+    "cohesion": 0.35714285714285715,
+    "examples": [
+      "select.v0.1.0.state.json",
+      "select.v0.1.0.figma.review.md",
+      "QA implementación · SELECT-001 v0.1.0",
+      "70 pinturas consumidoras semánticas; cinco fills ocultos",
+      "Select QA PASS acotado: Closed/Open"
+    ]
+  },
+  "259": {
+    "label": "Inline Notification Warning Source Color",
+    "nodes": 8,
+    "cohesion": 0.32142857142857145,
+    "examples": [
+      "inline-notification.warning-source-color.v0.1.1.figma.review.md",
+      "inline-notification.specs-publication.v0.1.1.review.md",
+      "inline-notification.warning-source-color.v0.1.1.review.md",
+      "QA Figma · Inline Notification Warning, color de origen",
+      "Inline Notification publication QA 0.1.1"
+    ]
+  },
+  "260": {
+    "label": "Contratos e implementación",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "FOUNDATIONS-CONTROL-BORDER-SOURCE-COLOR-002",
+      "AMD-CHECKBOX-SOURCE-COLOR-002 y AMD-RADIO-BUTTON-SOURCE-COLOR-002",
+      "Reference ../qa/implementations/selection-control-source-color.v0.1.1.figma.review.md",
+      "Reference ../drafts/contracts/checkbox.source-color-amendment.v0.1.1.md",
+      "Reference ../drafts/contracts/foundations.control-border-source-color.amendment.v0.1.12.md"
+    ]
+  },
+  "261": {
+    "label": "Contratos e implementación",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "SEARCH-001 · histórico 0.1.0, sustituido por 0.1.1",
+      "SEARCH-001 · revisión vigente 0.1.1 · 2026-10-05",
+      "Reference ../specs/search.contract.v0.1.0.md",
+      "Reference ../specs/search.contract.v0.1.1.md",
+      "Reference ../drafts/contracts/search.source.component-contract.md"
+    ]
+  },
+  "262": {
+    "label": "Contratos e implementación",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "STEPPER-001",
+      "Reference ../drafts/contracts/stepper.source.component-contract.md",
+      "Reference ../drafts/contracts/stepper.source.component-contract.yaml",
+      "Reference ../implementations/figma/stepper.v0.1.1.state.json",
+      "Reference ../qa/contracts/stepper.brand-theme.v0.1.1.review.md"
+    ]
+  },
+  "263": {
+    "label": "Contratos e implementación",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "STEPS-001",
+      "Reference ../drafts/contracts/steps.source.component-contract.md",
+      "Reference ../drafts/contracts/steps.source.component-contract.yaml",
+      "Reference ../implementations/figma/steps.v0.1.1.state.json",
+      "Reference ../qa/contracts/steps.brand-theme.v0.1.1.review.md"
+    ]
+  },
+  "264": {
+    "label": "Contratos e implementación",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "TOOLTIP-001",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.candidate.md",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.md",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.yaml",
+      "Reference ../drafts/reports/tooltip.v0.1.0.plan.md"
+    ]
+  },
+  "265": {
+    "label": "Decisiones de migración",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "DEC-LOADER-COLOR-CYCLE-001 · color estable durante toda la animación",
+      "DEC-MIGRATION-SPECS-CANONICAL-001 · ajustes normativos directamente en specs",
+      "DEC-SPECS-PROMOTION-20261006 · alcance administrativo",
+      "DEC-MIGRATION-SPECS-AUDIT-001 · promoción por QA y auditoría por excepciones",
+      "Reference ../specs/loader.contract.v0.1.0.md"
+    ]
+  },
+  "266": {
+    "label": "Implementations · Evidencias",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "IMP-BREADCRUMBS-FIGMA-001 · Breadcrumbs 0.1.0",
+      "Reference ../drafts/contracts/breadcrumbs.contract.v0.1.0.md",
+      "Reference ../drafts/figma/breadcrumb-current-text-bind.v0.1.0.js",
+      "Reference ../drafts/figma/breadcrumb-item-build.v0.1.0.js",
+      "Reference ../drafts/figma/breadcrumbs-composition-build.v0.1.0.js"
+    ]
+  },
+  "267": {
+    "label": "QA y evidencias",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "QA-SEARCH-011 · 2026-10-05",
+      "QA-BUTTON-LOCAL-BINDINGS-022 · 2026-10-05",
+      "Reference ../qa/contracts/button.local-bindings.v0.2.2.review.md",
+      "Reference ../qa/contracts/search.v0.1.1.review.md",
+      "Reference ../qa/implementations/button.local-bindings.v0.2.2.figma.review.md"
+    ]
+  },
+  "268": {
+    "label": "Session Handoff 2026 10 08",
+    "nodes": 8,
+    "cohesion": 0.4642857142857143,
+    "examples": [
+      "SESSION-HANDOFF-2026-10-08-CHAT-TOOLBAR.md",
+      "Continuidad · Chat Toolbar · 2026-10-08",
+      "Reference ../graphify-out/runs/2026-10-08-chat-toolbar/closure.json",
+      "Reference ../graphify-out/runs/2026-10-08-chat-toolbar/manifest-check.json",
+      "Reference ../graphify-out/runs/2026-10-08-chat-toolbar/verification.json"
+    ]
+  },
+  "269": {
+    "label": "Fuentes y procedencia",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "SRC-TOKENS-INV-001",
+      "SRC-AI-DS-CONTROL-COLORS-001",
+      "SRC-TOKENS-AUD-001",
+      "Reference ../drafts/foundations/ai-design-system.control-colors.v0.1.0.json",
+      "Reference ../qa/contracts/foundations.control-colors.amendment.v0.1.1.review.md"
+    ]
+  },
+  "270": {
+    "label": "Fuentes y procedencia",
+    "nodes": 8,
+    "cohesion": 0.25,
+    "examples": [
+      "SRC-FIGMA-PHOSPHOR-001",
+      "SRC-FIGMA-FILTER-CHIP-001",
+      "Reference ../drafts/reports/filter-chip.synthesis.md",
+      "Reference ../sources/figma-snapshots/filter-chip-8203-10.png",
+      "Reference ../sources/figma-snapshots/filter-chip-8203-10.snapshot.json"
+    ]
+  },
+  "271": {
+    "label": "Button Page Name",
+    "nodes": 8,
+    "cohesion": 0.42857142857142855,
+    "examples": [
+      "button-page-name.amendment.md",
+      "components/README.md",
+      "button-page-name.amendment.md",
+      "components/README.md",
+      "Enmienda aprobada: página de Buttons"
+    ]
+  },
+  "272": {
+    "label": "Breadcrumbs Contract",
+    "nodes": 7,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "breadcrumbs.source.component-contract.yaml",
+      "breadcrumbs.source.component-contract.review.md",
+      "breadcrumbs.source.component-contract.review.md",
+      "QA-BREADCRUMBS-SOURCE-001",
+      "Breadcrumbs depende de Breadcrumb item local"
+    ]
+  },
+  "273": {
+    "label": "Chart Colors Variables",
+    "nodes": 7,
+    "cohesion": 0.47619047619047616,
+    "examples": [
+      "chart-colors-variables.v0.1.0.js",
+      "chart-colors-variables.v0.1.0.js",
+      "collection",
+      "created",
+      "modes"
+    ]
+  },
+  "274": {
+    "label": "Metric Card Roles Variables",
+    "nodes": 7,
+    "cohesion": 0.47619047619047616,
+    "examples": [
+      "metric-card-roles-variables.v0.1.0.js",
+      "metric-card-roles-variables.v0.1.0.js",
+      "metric-card-roles.v0.1.0.state.json",
+      "aliases",
+      "collection"
+    ]
+  },
+  "275": {
+    "label": "Ai Design System Control Colors",
+    "nodes": 7,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "ai-design-system.control-colors.v0.1.0.json",
+      "color/neutral/500",
+      "color/shape/chart/legend-neutral",
+      "color/background/control-hover",
+      "color/border/control"
+    ]
+  },
+  "276": {
+    "label": "Ai Design System Empty States",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "ai-design-system.empty-states.v0.1.0.json",
+      "color/background/empty-state/illustration",
+      "color/border/empty-state/accent",
+      "color/icon/empty-state/accent",
+      "color/icon/empty-state/light"
+    ]
+  },
+  "277": {
+    "label": "Loader Phase0 Gap",
+    "nodes": 7,
+    "cohesion": 0.47619047619047616,
+    "examples": [
+      "loader.phase0-gap.v0.1.0.md",
+      "Loader · análisis de brechas de Phase 0",
+      "loader.phase0-checklist.md",
+      "Loader · Phase 0 Checklist",
+      "Loader Phase0 completa; construcción aún no iniciada en ese corte"
+    ]
+  },
+  "278": {
+    "label": "Buttons Color Apply",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "buttons.color.v0.1.0.apply.js",
+      "buttons.color.v0.1.0.apply.js",
+      "bindVariablesToComponent()",
+      "mutatedNodeIds",
+      "nodes"
+    ]
+  },
+  "279": {
+    "label": "Charts Color Apply",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "charts.color.v0.1.0.apply.js",
+      "charts.color.v0.1.0.apply.js",
+      "bindVariablesToComponent()",
+      "mutatedNodeIds",
+      "nodes"
+    ]
+  },
+  "280": {
+    "label": "Icon Button Color Apply",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "icon-button.color.v0.1.0.apply.js",
+      "icon-button.color.v0.1.0.apply.js",
+      "bindVariablesToComponent()",
+      "mutatedNodeIds",
+      "nodes"
+    ]
+  },
+  "281": {
+    "label": "Metric Card Color Apply",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "metric-card.color.v0.1.0.apply.js",
+      "metric-card.color.v0.1.0.apply.js",
+      "bindVariablesToComponent()",
+      "mutatedNodeIds",
+      "nodes"
+    ]
+  },
+  "282": {
+    "label": "Metric Card",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "newRoleBindings",
+      "color/icon/metric/brand",
+      "color/text/metric/trend",
+      "consumerCount",
+      "id"
+    ]
+  },
+  "283": {
+    "label": "Metric Card",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "colorRefinement",
+      "contract",
+      "date",
+      "note",
+      "qa"
+    ]
+  },
+  "284": {
+    "label": "Chat Toolbar",
+    "nodes": 7,
+    "cohesion": 0.47619047619047616,
+    "examples": [
+      "contracts/chat-toolbar.v0.1.0.review.md",
+      "Chat Toolbar y dependencias · QA documental",
+      "QA-CHAT-TOOLBAR-001 · 2026-10-08",
+      "Toolbar documentary gate passed before construction",
+      "Toolbar preflight canonical roles and aliases"
+    ]
+  },
+  "285": {
+    "label": "Buttons Local Bindings Before",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "buttons.local-bindings.v0.2.2.before.png",
+      "Button appearance matrix before local bindings revision",
+      "Middle-lower rows show prominent dark blue rounded outer borders",
+      "Default label flanked by circular plus icons",
+      "Filled, outlined, underlined text and plain text button appearances"
+    ]
+  },
+  "286": {
+    "label": "Navigation Tab Colors",
+    "nodes": 7,
+    "cohesion": 0.42857142857142855,
+    "examples": [
+      "navigation-tab-colors.v0.1.0.figma.review.md",
+      "foundations.navigation-tab-colors.amendment.v0.1.13.md",
+      "QA-FOUNDATIONS-NAVIGATION-TAB-COLORS-001",
+      "Foundations · fondo activo de Navigation 0.1.13",
+      "Navigation Tab background: nuevo rol FRAME_FILL PASS"
+    ]
+  },
+  "287": {
+    "label": "Contratos e implementación",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "FOUNDATIONS-RADIO-INDICATOR-COLORS-001",
+      "Reference ../drafts/contracts/foundations.radio-indicator-colors.amendment.v0.1.3.candidate.md",
+      "Reference ../drafts/contracts/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "Reference ../drafts/foundations/ai-design-system.radio-indicator-colors.v0.1.0.json",
+      "Reference ../implementations/figma/radio-indicator-colors.v0.1.0.state.json"
+    ]
+  },
+  "288": {
+    "label": "Contratos e implementación",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "NAVIGATION-PAGINATION-001",
+      "Reference ../drafts/contracts/navigation-pagination.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-pagination.source.component-contract.yaml",
+      "Reference ../implementations/figma/navigation-pagination.v0.1.0.state.json",
+      "Reference ../qa/contracts/navigation-pagination.v0.1.0.review.md"
+    ]
+  },
+  "289": {
+    "label": "Contratos e implementación",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "NAVIGATION-SWITCH-TAB-001",
+      "Reference ../drafts/contracts/navigation-switch-tab.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-switch-tab.source.component-contract.yaml",
+      "Reference ../implementations/figma/navigation-switch-tab.v0.1.0.state.json",
+      "Reference ../qa/contracts/navigation-switch-tab.v0.1.0.review.md"
+    ]
+  },
+  "290": {
+    "label": "Contratos e implementación",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "NAVIGATION-SWITCH-TAB-ITEM-001",
+      "Reference ../drafts/contracts/navigation-switch-tab-item.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-switch-tab-item.source.component-contract.yaml",
+      "Reference ../implementations/figma/navigation-switch-tab-item.v0.1.0.state.json",
+      "Reference ../qa/contracts/navigation-switch-tab-item.v0.1.0.review.md"
+    ]
+  },
+  "291": {
+    "label": "Contratos e implementación",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "SCROLLBAR-001",
+      "Reference ../implementations/figma/scrollbar.v0.1.1.state.json",
+      "Reference ../qa/contracts/scrollbar.color-approximation.v0.1.1.review.md",
+      "Reference ../qa/contracts/scrollbar.v0.1.0.review.md",
+      "Reference ../qa/implementations/scrollbar.v0.1.1.figma.review.md"
+    ]
+  },
+  "292": {
+    "label": "Decisiones de migración",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "DEC-FILTER-CHIP-APPROVAL-002 · aprobación del contrato 0.2.0 para Figma",
+      "DEC-FILTER-CHIP-DIRECTION-001 · dirección de la revisión 0.2.0",
+      "Reference ../drafts/contracts/filter-chip.contract.v0.2.0.md",
+      "Reference ../drafts/contracts/filter-chip.build.v0.2.0.yaml",
+      "Reference ../drafts/contracts/filter-chip.contract.yaml"
+    ]
+  },
+  "293": {
+    "label": "Decisiones de migración",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "DEC-MIGRATION-MISSING-PRIMITIVE-001 · excepción acotada para un RGB fuente ausente",
+      "DEC-MIGRATION-NEAREST-PRIMITIVE-001 · preferir una primitiva existente con token semántico",
+      "Existing nearest primitive with semantic UI role",
+      "Reference ../qa/implementations/scrollbar-colors.v0.1.0.figma.review.md",
+      "Reference ../specs/foundations.scrollbar-colors.amendment.v0.1.16.md"
+    ]
+  },
+  "294": {
+    "label": "Implementations · Evidencias",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "IMP-AVATAR-FIGMA-001 · Avatars 0.1.0",
+      "Reference ../drafts/contracts/avatar.contract.v0.1.0.md",
+      "Reference ../drafts/figma/avatar-build.v0.1.0.js",
+      "Reference ../drafts/figma/avatar-preferred-icons.v0.1.0.js",
+      "Reference ../implementations/figma/avatar.v0.1.0.state.json"
+    ]
+  },
+  "295": {
+    "label": "Implementations · Evidencias",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "IMP-DOT-FIGMA-001 · Dots 0.1.0 + enmienda 0.1.1",
+      "Reference ../drafts/contracts/dot.contract.v0.1.0.md",
+      "Reference ../drafts/contracts/dot.inactive-border-amendment.v0.1.1.md",
+      "Reference ../drafts/figma/dot-build.v0.1.0.js",
+      "Reference ../drafts/figma/dot-inactive-border.v0.1.1.js"
+    ]
+  },
+  "296": {
+    "label": "Implementations · Evidencias",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "IMP-INPUT-FIELD-FIGMA-001 · Input Field",
+      "Reference ../implementations/figma/input-field.v0.1.0.state.json",
+      "Reference ../implementations/figma/input-field.v0.1.1.state.json",
+      "Reference ../qa/implementations/input-field.v0.1.0.alias-parity.json",
+      "Reference ../qa/implementations/input-field.v0.1.0.figma.review.md"
+    ]
+  },
+  "297": {
+    "label": "QA y evidencias",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "QA-GRAPH-REFRESH-2026-10-01",
+      "QA-ICON-BUTTON-SOURCE-001, QA-ICON-BUTTON-CONTRACT-001 y QA-ICON-BUTTON-BACKGROUNDS-001",
+      "Reference ../graphify-out/runs/2026-10-01/manifest-check.json",
+      "Reference ../graphify-out/runs/2026-10-01/verification.json",
+      "Reference ../qa/contracts/foundations.icon-button-backgrounds.amendment.v0.1.9.review.md"
+    ]
+  },
+  "298": {
+    "label": "Fuentes y procedencia",
+    "nodes": 7,
+    "cohesion": 0.2857142857142857,
+    "examples": [
+      "SRC-FIGMA-NAVIGATION-001 · subfamilias Switch Tab",
+      "Reference ../drafts/contracts/navigation-switch-tab-item.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-switch-tab-item.source.component-contract.yaml",
+      "Reference ../drafts/contracts/navigation-switch-tab.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-switch-tab.source.component-contract.yaml"
+    ]
+  },
+  "299": {
+    "label": "App Shell Dependencies",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "app-shell.dependencies.v0.1.0.json",
+      "app-shell.dependencies.v0.1.0.json",
+      "dependencies",
+      "hidden",
+      "nodes"
+    ]
+  },
+  "300": {
+    "label": "Input Fields Inventory",
+    "nodes": 7,
+    "cohesion": 0.5238095238095238,
+    "examples": [
+      "input-fields.inventory.json",
+      "input-fields.inventory.json",
+      "dependencies",
+      "nodes",
+      "sets"
+    ]
+  },
+  "301": {
+    "label": "Foundations Steps Brand",
+    "nodes": 7,
+    "cohesion": 0.47619047619047616,
+    "examples": [
+      "foundations.steps-brand.amendment.v0.1.21.md",
+      "Enmienda cromática de Steps por tema",
+      "foundations.steps-colors.amendment.v0.1.18.md",
+      "Enmienda cromática de Steps",
+      "FOUNDATIONS-STEPS-COLORS-001 v0.1.21 temático"
+    ]
+  },
+  "302": {
+    "label": "App Shell Contract",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "app-shell.source.component-contract.md",
+      "Breakpoints · read-only partial source evidence",
+      "48 instances / 27 mains PARTIALLY_RESOLVED; 49 variables",
+      "Native empty SLOT property Slot#8284:16",
+      "Breakpoints source 9zs5RMR8LB5wHjW9Bd59BA / 8284:12565"
+    ]
+  },
+  "303": {
+    "label": "Breadcrumb Item Contract",
+    "nodes": 6,
+    "cohesion": 0.4,
+    "examples": [
+      "breadcrumb-item.source.component-contract.yaml",
+      "breadcrumb-item.source.component-contract.review.md",
+      "breadcrumb-item.source.component-contract.review.md",
+      "QA-BREADCRUMB-ITEM-SOURCE-001",
+      "Breadcrumb Item fuente: seis combinaciones observadas"
+    ]
+  },
+  "304": {
+    "label": "Foundations Radio Indicator Colors",
+    "nodes": 6,
+    "cohesion": 0.4666666666666667,
+    "examples": [
+      "ai-design-system.radio-indicator-colors.v0.1.0.json",
+      "foundations.radio-indicator-colors.amendment.v0.1.3.candidate.md",
+      "Enmienda candidata de Foundations · rellenos para indicador de selección",
+      "radio-indicator-colors.v0.1.0.state.json",
+      "foundations.radio-indicator-colors.amendment.v0.1.3.candidate.md"
+    ]
+  },
+  "305": {
+    "label": "Modal · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.4666666666666667,
+    "examples": [
+      "contracts/table.contract.v0.1.0.md",
+      "contracts/modal.contract.v0.1.0.md",
+      "Modal v0.1.0: specs es la única especificación editable",
+      "Table v0.1.0 promovido a specs tras QA técnico acotado",
+      "Modal: enlace histórico al contrato publicado"
+    ]
+  },
+  "306": {
+    "label": "Modal Contract",
+    "nodes": 6,
+    "cohesion": 0.5333333333333333,
+    "examples": [
+      "modal.source.component-contract.md",
+      "modal.source.component-contract.yaml",
+      "Modal: contrato observacional de origen Markdown",
+      "Modal: modelo YAML observacional parcial",
+      "Modal fuente: 359 nodos leídos; normalización y procedencia externas parciales"
+    ]
+  },
+  "307": {
+    "label": "Breadcrumb Current Text Variable",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "breadcrumb-current-text-variable.v0.1.0.js",
+      "breadcrumb-current-text-variable.v0.1.0.js",
+      "aliases",
+      "collection",
+      "created"
+    ]
+  },
+  "308": {
+    "label": "Metric Card Visual Correction",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "metric-card-visual-correction.v0.1.0.js",
+      "metric-card-visual-correction.v0.1.0.js",
+      "expect",
+      "keys",
+      "mutated"
+    ]
+  },
+  "309": {
+    "label": "Breadcrumbs Synthesis",
+    "nodes": 6,
+    "cohesion": 0.5333333333333333,
+    "examples": [
+      "breadcrumbs.v0.1.0.synthesis.md",
+      "breadcrumbs.v0.1.0.synthesis.md",
+      "breadcrumbs.v0.1.0.review.md",
+      "breadcrumbs.v0.1.0.review.md",
+      "SYN-BREADCRUMBS-001 · síntesis 0.1.0"
+    ]
+  },
+  "310": {
+    "label": "Empty States Synthesis",
+    "nodes": 6,
+    "cohesion": 0.4666666666666667,
+    "examples": [
+      "empty-states.synthesis.v0.1.0.md",
+      "Empty states: composición pública con dos Slots y tipografía Manrope",
+      "modal.synthesis.v0.1.0.md",
+      "Modal: Slots Body, Side content y Actions; imágenes originales preservadas",
+      "Síntesis de Empty states v0.1.0"
+    ]
+  },
+  "311": {
+    "label": "02 Fuentes Y Autorizacion",
+    "nodes": 6,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "02-fuentes-y-autorizacion.mmd",
+      "Sources and authorization flow diagram",
+      "Authorized migration → DELEGATED_FOR_BUILD; normal flow → IN_REVIEW → human APPROVED, changes or REJECTED with reason",
+      "Deep inspection separates evidence/inference; DRAFT requirements, tokens and Slots require documentary QA PASS",
+      "Existing current contract → verify version/dependencies → destination preflight"
+    ]
+  },
+  "312": {
+    "label": "07 Casos Reales",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "07-casos-reales.mmd",
+      "Historical examples in SDD flow diagram, 2026-10-07",
+      "Buttons 5 Oct: 9 external roles → amendment 0.2.2 → 722 local references → scoped PASS with no visual change",
+      "Chips 5 Oct: reversed semantic roles → amendment 0.2.1 → binding/scope correction → 30 variants preserve colors",
+      "Logos 6 Oct: 6 sets/72 variants → 57 geometric deltas → clone tests insufficient → explicit decision pending at diagram date"
+    ]
+  },
+  "313": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "semantic",
+      "contract_approvals_created",
+      "flow_sources",
+      "library_publication_performed",
+      "normative_changes"
+    ]
+  },
+  "314": {
+    "label": "Characters Group",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "characters.v0.1.0.group.js",
+      "characters.v0.1.0.group.js",
+      "data",
+      "instances",
+      "review"
+    ]
+  },
+  "315": {
+    "label": "Tooltip · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.5333333333333333,
+    "examples": [
+      "tooltip.v0.1.0.figma.review.md",
+      "QA-TOOLTIP-FIGMA-001 · Tooltip en AI Design System",
+      "tooltip.v0.1.0.state.json",
+      "tooltip.v0.1.0.figma.review.md",
+      "Controles contra el contrato delegado"
+    ]
+  },
+  "316": {
+    "label": "Metric Card Roles",
+    "nodes": 6,
+    "cohesion": 0.5333333333333333,
+    "examples": [
+      "metric-card-roles.v0.1.0.figma.review.md",
+      "metric-card.v0.1.0.figma.review.md",
+      "metric-card-roles.v0.1.0.figma.review.md",
+      "metric-card.v0.1.0.figma.review.md",
+      "QA-METRIC-CARD-ROLES-FIGMA-001"
+    ]
+  },
+  "317": {
+    "label": "Semantic Scope Retrospective",
+    "nodes": 6,
+    "cohesion": 0.5333333333333333,
+    "examples": [
+      "toggle.v0.1.2.effect-scope-finding.md",
+      "semantic-scope-retrospective.v0.1.0.review.md",
+      "toggle.v0.1.2.effect-scope-finding.md",
+      "semantic-scope-retrospective.v0.1.0.review.md",
+      "QA-SEMANTIC-SCOPE-001 · revisión retrospectiva de familias construidas"
+    ]
+  },
+  "318": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "ANTICIPA-SCREEN-COMPOSITION-001 · 2026-10-06",
+      "Reference ../drafts/contracts/anticipa-screen-composition.contract.v0.1.0.md",
+      "Reference ../drafts/contracts/anticipa-screen-composition.dependencies.v0.1.0.json",
+      "Reference ../drafts/reports/anticipa-screen-composition.synthesis.v0.1.0.md",
+      "Reference ../qa/contracts/anticipa-screen-composition.v0.1.0.review.md"
+    ]
+  },
+  "319": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "APP-SHELL-001 · 2026-10-06",
+      "Reference ../drafts/reports/app-shell.synthesis.v0.1.0.md",
+      "Reference ../qa/contracts/app-shell.v0.1.0.review.md",
+      "Reference ../qa/implementations/app-shell.v0.1.0.figma.review.md",
+      "Reference ../specs/app-shell.contract.v0.1.0.md"
+    ]
+  },
+  "320": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "CHAT-SECTION-001 · v0.1.0 · 2026-10-08",
+      "CHAT-SECTION-001 current delegated normative contract",
+      "Reference ../qa/contracts/chat-section.v0.1.0.review.md",
+      "Reference ../qa/implementations/chat-section.v0.1.0.review.md",
+      "Reference ../specs/chat-section.contract.v0.1.0.md"
+    ]
+  },
+  "321": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "DROPDOWN-ITEM-001",
+      "Reference ../drafts/reports/dropdown-item.synthesis.v0.1.0.md",
+      "Reference ../implementations/figma/dropdown-item.v0.1.0.state.json",
+      "Reference ../qa/contracts/dropdown-item.v0.1.0.review.md",
+      "Reference ../qa/implementations/dropdown-item.v0.1.0.figma.review.md"
+    ]
+  },
+  "322": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "FOUNDATIONS-DOT-BACKGROUND-COLORS-001",
+      "Reference ../drafts/contracts/foundations.dot-background-colors.amendment.v0.1.4.md",
+      "Reference ../drafts/foundations/ai-design-system.dot-background-colors.v0.1.0.json",
+      "Reference ../implementations/figma/dot-background-colors.v0.1.0.state.json",
+      "Reference ../qa/contracts/foundations.dot-background-colors.amendment.v0.1.4.review.md"
+    ]
+  },
+  "323": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "FOUNDATIONS-FOCUS-EFFECTS-001",
+      "Reference ../drafts/contracts/foundations.focus-effects.amendment.v0.1.2.candidate.md",
+      "Reference ../drafts/contracts/foundations.focus-effects.amendment.v0.1.2.md",
+      "Reference ../drafts/foundations/ai-design-system.focus-effects.v0.1.0.json",
+      "Reference ../qa/contracts/foundations.focus-effects.amendment.v0.1.2.review.md"
+    ]
+  },
+  "324": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "FOUNDATIONS-ICON-BUTTON-BACKGROUNDS-001",
+      "Reference ../qa/contracts/foundations.icon-button-backgrounds.amendment.v0.1.9.review.md",
+      "Reference ../drafts/contracts/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+      "Reference ../drafts/foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json",
+      "Reference ../implementations/figma/icon-button-backgrounds.v0.1.0.state.json"
+    ]
+  },
+  "325": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "FOUNDATIONS-METRIC-CARD-ROLES-001",
+      "Reference ../drafts/contracts/foundations.metric-card-roles.amendment.v0.1.0.md",
+      "Reference ../drafts/foundations/ai-design-system.metric-card-roles.v0.1.0.json",
+      "Reference ../implementations/figma/metric-card-roles.v0.1.0.state.json",
+      "Reference ../qa/contracts/foundations.metric-card-roles.amendment.v0.1.0.review.md"
+    ]
+  },
+  "326": {
+    "label": "Contratos e implementación",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "FOUNDATIONS-SCROLLBAR-COLORS-001",
+      "Reference ../drafts/foundations/ai-design-system.scrollbar-colors.v0.1.0.json",
+      "Reference ../drafts/foundations/ai-design-system.scrollbar-colors.v0.1.1.json",
+      "Reference ../qa/implementations/scrollbar-colors.v0.1.1.figma.review.md",
+      "Reference ../specs/foundations.scrollbar-colors.amendment.v0.1.16.md"
+    ]
+  },
+  "327": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-BADGE-FIGMA-001 · Badges 0.1.0 + contraste 0.1.1",
+      "Reference ../drafts/contracts/badge.contrast-amendment.v0.1.1.md",
+      "Reference ../implementations/figma/badge.v0.1.0.state.json",
+      "Reference ../qa/implementations/badge.v0.1.0.contrast-finding.md",
+      "Reference ../qa/implementations/badge.v0.1.1.figma.review.md"
+    ]
+  },
+  "328": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-DROPDOWN-ITEM-FIGMA-001",
+      "Reference ../implementations/figma/dropdown-item.v0.1.0.creation.json",
+      "Reference ../implementations/figma/dropdown-item.v0.1.0.state.json",
+      "Reference ../qa/implementations/dropdown-item.v0.1.0.figma.review.md",
+      "Reference ../specs/dropdown-item.contract.v0.1.0.md"
+    ]
+  },
+  "329": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-LINEAR-PROGRESS-BAR-FIGMA-001 · Linear Progress Bar 0.1.0",
+      "Reference ../drafts/contracts/linear-progress-bar.contract.v0.1.0.md",
+      "Reference ../drafts/figma/linear-progress-bar-build.v0.1.0.js",
+      "Reference ../drafts/figma/linear-progress-bar-final-qa.v0.1.0.js",
+      "Reference ../implementations/figma/linear-progress-bar.v0.1.0.state.json"
+    ]
+  },
+  "330": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-METRIC-CARD-FIGMA-001 · Metric Cards 0.1.0",
+      "Reference ../drafts/contracts/metric-card.contract.v0.1.0.md",
+      "Reference ../drafts/figma/metric-card-build.v0.1.0.js",
+      "Reference ../drafts/figma/metric-card-visual-correction.v0.1.0.js",
+      "Reference ../implementations/figma/metric-card.v0.1.0.state.json"
+    ]
+  },
+  "331": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-RADIO-BUTTON-FIGMA-001 · Radio Buttons 0.1.0",
+      "Reference ../drafts/contracts/radio-button.contract.v0.1.0.md",
+      "Reference ../drafts/figma/radio-button-build.v0.1.0.js",
+      "Reference ../drafts/figma/radio-indicator-build.v0.1.0.js",
+      "Reference ../implementations/figma/radio-button.v0.1.0.state.json"
+    ]
+  },
+  "332": {
+    "label": "Implementations · Evidencias",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "IMP-STEPPER-FIGMA-001 · Stepper Item",
+      "Reference ../implementations/figma/stepper.v0.1.0.state.json",
+      "Reference ../implementations/figma/stepper.v0.1.1.state.json",
+      "Reference ../qa/implementations/stepper.v0.1.1.figma.review.md",
+      "Reference ../specs/stepper.brand-theme.amendment.v0.1.1.md"
+    ]
+  },
+  "333": {
+    "label": "Session Handoff 2026 09 28",
+    "nodes": 6,
+    "cohesion": 0.4666666666666667,
+    "examples": [
+      "SESSION-HANDOFF-2026-09-28-SELECT.md",
+      "SESSION-HANDOFF-2026-09-29-SLOTS.md",
+      "SESSION-HANDOFF-2026-09-29-SELECT.md",
+      "Select handoff 29 September historical",
+      "Slots handoff 29 September historical"
+    ]
+  },
+  "334": {
+    "label": "Fuentes y procedencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "SRC-FIGMA-CONVERSATION-EXTERNAL-001 · INDEXED · 2026-10-08",
+      "Reference ../drafts/contracts/conversation.source.component-contract.md",
+      "Reference ../drafts/contracts/conversation.source.component-contract.yaml",
+      "Reference ../drafts/reports/conversation.external-intake.2026-10-08.md",
+      "Reference ../sources/figma-snapshots/conversation.20355-72763.observation.2026-10-08.json"
+    ]
+  },
+  "335": {
+    "label": "Fuentes y procedencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "SRC-FIGMA-HEADER-001 · 2026-10-01",
+      "Reference ../drafts/contracts/header.source.component-contract.md",
+      "Reference ../sources/figma-snapshots/header.company-caret.source.svg",
+      "Reference ../sources/figma-snapshots/header.dependencies.v0.1.0.json",
+      "Reference ../sources/figma-snapshots/header.source.v0.1.0.json"
+    ]
+  },
+  "336": {
+    "label": "Fuentes y procedencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "SRC-FIGMA-LOGOS-001",
+      "Reference ../drafts/contracts/logos.source.component-contract.md",
+      "Reference ../drafts/contracts/logos.source.component-contract.yaml",
+      "Reference ../sources/figma-snapshots/logos.fidelity-baseline.v0.1.0.json",
+      "Reference ../sources/figma-snapshots/logos.inventory.v0.1.0.json"
+    ]
+  },
+  "337": {
+    "label": "Fuentes y procedencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "SRC-BUTTON-LOCAL-BINDINGS-022 · 2026-10-05",
+      "Reference ../implementations/figma/buttons.local-bindings.v0.2.2.token-map.json",
+      "Reference ../qa/implementations/button.local-bindings.v0.2.2.figma.review.md",
+      "Reference ../qa/implementations/buttons.local-bindings.v0.2.2.after.json",
+      "Reference ../qa/implementations/buttons.local-bindings.v0.2.2.before.json"
+    ]
+  },
+  "338": {
+    "label": "Fuentes y procedencia",
+    "nodes": 6,
+    "cohesion": 0.3333333333333333,
+    "examples": [
+      "SRC-FILTER-CHIP-SEMANTIC-021 · 2026-10-05",
+      "Reference ../qa/implementations/filter-chip.semantic.v0.2.1.figma.review.md",
+      "Reference ../qa/implementations/filter-chip.semantic.v0.2.1.preflight.json",
+      "Reference ../qa/implementations/filter-chip.semantic.v0.2.1.readback.json",
+      "Reference ../qa/implementations/filter-chip.semantic.v0.2.1.source.json"
+    ]
+  },
+  "339": {
+    "label": "Icon Button",
+    "nodes": 6,
+    "cohesion": 0.6,
+    "examples": [
+      "specs/icon-button.contract.v0.1.0.md",
+      "ICON-BUTTON-001",
+      "Icon Button 30-variant matrix and nested instances",
+      "AC-ICB-004–008: token, picker and implementation boundaries",
+      "Icon Button source evidence and color amendment precedence"
+    ]
+  },
+  "340": {
+    "label": "Button Semantic Scope Amendment",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "button.semantic-scope-amendment.v0.2.1.candidate.md",
+      "Enmienda candidata de Button · texto Disabled con rol de texto",
+      "button.semantic-scope-amendment.v0.2.1.candidate.md",
+      "Sustitución acotada de AC-BTN-004",
+      "Sustitución acotada de REQ-BTN-004"
+    ]
+  },
+  "341": {
+    "label": "Dropdown Item Contract",
+    "nodes": 5,
+    "cohesion": 0.5,
+    "examples": [
+      "dropdown-item.source.component-contract.md",
+      "dropdown-item.source.component-contract.yaml",
+      "Dropdown Item source evidence",
+      "select.source.v0.1.0.json",
+      "Dropdown Item structured source observation 2479:11730"
+    ]
+  },
+  "342": {
+    "label": "Select Contract",
+    "nodes": 5,
+    "cohesion": 0.6,
+    "examples": [
+      "select.source.component-contract.md",
+      "select.source.component-contract.yaml",
+      "Select · evidencia de origen",
+      "Select fuente PARTIAL",
+      "Select modelo PARTIAL"
+    ]
+  },
+  "343": {
+    "label": "Dot Inactive Border",
+    "nodes": 5,
+    "cohesion": 0.6,
+    "examples": [
+      "dot-inactive-border.v0.1.1.js",
+      "dot.v0.1.0.state.json",
+      "dot-inactive-border.v0.1.1.js",
+      "changed",
+      "expected"
+    ]
+  },
+  "344": {
+    "label": "Table Slots Final Check",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "table-slots-final-check.v0.1.0.js",
+      "table-slots-final-check.v0.1.0.js",
+      "cases",
+      "k",
+      "results"
+    ]
+  },
+  "345": {
+    "label": "01 Flujo General",
+    "nodes": 5,
+    "cohesion": 0.9,
+    "examples": [
+      "01-flujo-general.mmd",
+      "SDD general flow diagram",
+      "P04 destination READY → authorized build → read real result → P06 implementation QA",
+      "Technical QA PASS → applicable documentary publication → exceptions audit → P05 closure; failure → correction/revalidation",
+      "P02 preserve sources → P03 contract/tokens/Slots → P06 documentary QA → APPROVED or DELEGATED_FOR_BUILD"
+    ]
+  },
+  "346": {
+    "label": "Manifiestos de evidencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "graphify",
+      "consulted",
+      "note",
+      "regenerated",
+      "status"
+    ]
+  },
+  "347": {
+    "label": "Navigation Tab",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "contract",
+      "id",
+      "path",
+      "status",
+      "version"
+    ]
+  },
+  "348": {
+    "label": "Anticipa Screen Composition",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "anticipa-screen-composition.v0.1.0.review.md",
+      "QA-ANTICIPA-SCREEN-COMPOSITION-001: PASS documental limitado",
+      "Lock de 37 selectores semánticos y 30 dependencias directas",
+      "Restricciones de composiciones y decisiones D01–D07",
+      "Adopción explícita y cierre transitivo antes de construir composiciones nuevas"
+    ]
+  },
+  "349": {
+    "label": "Filter Chip",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "filter-chip.v0.2.0.review.md",
+      "filter-chip.v0.2.0.review.md",
+      "QA documental · Filter Chip 0.2.0",
+      "Gates posteriores",
+      "Reconciliación"
+    ]
+  },
+  "350": {
+    "label": "Buttons Local Bindings Snapshot",
+    "nodes": 5,
+    "cohesion": 0.9,
+    "examples": [
+      "buttons.local-bindings.v0.2.2.snapshot.js",
+      "buttons.local-bindings.v0.2.2.snapshot.js",
+      "fingerprint()",
+      "snapshot()",
+      "stable()"
+    ]
+  },
+  "351": {
+    "label": "Loader · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "loader.v0.1.0.figma.review.md",
+      "QA de implementación · Loader 0.1.0",
+      "Ciclos completos preservan color por tema",
+      "Loader QA: 16 públicas y 384 fotogramas",
+      "Prototipo continuo no probado en UI"
+    ]
+  },
+  "352": {
+    "label": "Navigation Pagination",
+    "nodes": 5,
+    "cohesion": 0.7,
+    "examples": [
+      "navigation-pagination.v0.1.0.figma.review.md",
+      "QA técnico · Navigation / Pagination 0.1.0",
+      "125 pinturas locales; cero errores de scope",
+      "Pagination QA base: cinco variantes 354x66",
+      "QA base no define cálculo ni navegación real"
+    ]
+  },
+  "353": {
+    "label": "Contratos e implementación",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "FOUNDATIONS-STEPS-COLORS-001",
+      "Reference ../drafts/foundations/ai-design-system.steps-colors.v0.1.0.json",
+      "Reference ../drafts/foundations/ai-design-system.steps-colors.v0.1.1.json",
+      "Reference ../specs/foundations.steps-brand.amendment.v0.1.21.md",
+      "Reference ../specs/foundations.steps-colors.amendment.v0.1.18.md"
+    ]
+  },
+  "354": {
+    "label": "Contratos e implementación",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "FOUNDATIONS-WARNING-ICON-SOURCE-COLOR-002",
+      "Reference ../drafts/foundations/ai-design-system.warning-icon-contrast.v0.1.1.json",
+      "Reference ../qa/contracts/foundations.warning-icon-source-color.v0.1.10.review.md",
+      "Reference ../qa/implementations/warning-icon-source-color.v0.1.1.figma.review.md",
+      "Reference ../specs/foundations/foundations.warning-icon-source-color.amendment.v0.1.10.md"
+    ]
+  },
+  "355": {
+    "label": "Contratos e implementación",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "TEXTAREA-001",
+      "Reference ../drafts/contracts/textarea.source.component-contract.md",
+      "Reference ../drafts/contracts/textarea.source.component-contract.yaml",
+      "Reference ../implementations/figma/textarea.v0.1.0.state.json",
+      "Reference ../specs/textarea.contract.v0.1.0.md"
+    ]
+  },
+  "356": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-AVATAR-SOURCE-COLOR-FIGMA-002 · fallback Servicios de origen",
+      "Reference ../drafts/contracts/avatar.source-color-amendment.v0.1.1.md",
+      "Reference ../drafts/contracts/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+      "Reference ../implementations/figma/avatar.source-color.v0.1.1.state.json",
+      "Reference ../qa/implementations/avatar.source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "357": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-BUTTON-FIGMA-001 · página Buttons y validación",
+      "Reference ../qa/implementations/button.figma.preflight.md",
+      "Reference ../qa/implementations/button.figma.review.md",
+      "Reference ../specs/components/button.contract.md",
+      "Reference ../specs/components/button-page-name.amendment.md"
+    ]
+  },
+  "358": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-CHECKBOX-FIGMA-001 · Checkboxes 0.1.0",
+      "Reference ../drafts/contracts/checkbox.contract.v0.1.0.md",
+      "Reference ../drafts/figma/checkbox-build.v0.1.0.js",
+      "Reference ../implementations/figma/checkbox.v0.1.0.state.json",
+      "Reference ../qa/implementations/checkbox.v0.1.0.figma.review.md"
+    ]
+  },
+  "359": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-DOT-SOURCE-COLOR-FIGMA-002 · restauración del borde Inactive",
+      "Reference ../implementations/figma/dot.source-color.v0.1.2.state.json",
+      "Reference ../qa/implementations/dot.source-color.v0.1.2.figma.review.md",
+      "Reference ../specs/components/dot.source-color-amendment.v0.1.2.md",
+      "Reference ../specs/foundations/foundations.dot-inactive-border-source-color.amendment.v0.1.6.md"
+    ]
+  },
+  "360": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-FILTER-CHIP-FIGMA-001 · Chips 0.2.0",
+      "Reference ../implementations/figma/filter-chip.v0.2.0.png",
+      "Reference ../implementations/figma/filter-chip.v0.2.0.state.json",
+      "Reference ../qa/implementations/filter-chip.v0.2.0.figma.review.md",
+      "Reference ../specs/components/filter-chip.contract.v0.2.0.md"
+    ]
+  },
+  "361": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-FOCUS-EFFECTS-FIGMA-001 · extensión semántica de foco",
+      "Reference ../drafts/contracts/foundations.focus-effects.amendment.v0.1.2.md",
+      "Reference ../drafts/foundations/ai-design-system.focus-effects.v0.1.0.json",
+      "Reference ../implementations/figma/focus-effects.v0.1.0.state.json",
+      "Reference ../qa/implementations/focus-effects.v0.1.0.figma.review.md"
+    ]
+  },
+  "362": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-INLINE-NOTIFICATION-FIGMA-001 · Inline Notifications 0.1.0",
+      "Reference ../drafts/figma/inline-notification-build.v0.1.0.js",
+      "Reference ../implementations/figma/inline-notification.v0.1.0.state.json",
+      "Reference ../qa/implementations/inline-notification.v0.1.0.figma.review.md",
+      "Reference ../specs/components/inline-notification.contract.v0.1.0.md"
+    ]
+  },
+  "363": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-RADIO-INDICATOR-COLORS-FIGMA-001 · extensión de rellenos de selección",
+      "Reference ../drafts/contracts/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "Reference ../drafts/foundations/ai-design-system.radio-indicator-colors.v0.1.0.json",
+      "Reference ../implementations/figma/radio-indicator-colors.v0.1.0.state.json",
+      "Reference ../qa/implementations/radio-indicator-colors.v0.1.0.figma.review.md"
+    ]
+  },
+  "364": {
+    "label": "Implementations · Evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "IMP-TOKENS-FIGMA-001",
+      "Reference ../implementations/figma/foundations-tokens.state.json",
+      "Reference ../qa/implementations/foundations-tokens.figma.review.md",
+      "Reference ../sources/inventories/tokens.inventory.json",
+      "Reference ../specs/foundations/foundations-tokens.contract.md"
+    ]
+  },
+  "365": {
+    "label": "QA y evidencias",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "QA-LOGOS-001",
+      "Reference ../qa/contracts/logos.v0.1.0.review.md",
+      "Reference ../qa/implementations/logos.v0.1.0.figma.review.md",
+      "Reference ../qa/implementations/logos.v0.1.0.partial-readback.json",
+      "Reference ../qa/implementations/logos.v0.1.0.properties-readback.json"
+    ]
+  },
+  "366": {
+    "label": "Fuentes y procedencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "SRC-FIGMA-CHART-DONUT-001",
+      "Reference ../drafts/contracts/chart-donut.source.component-contract.md",
+      "Reference ../drafts/contracts/chart-donut.source.component-contract.yaml",
+      "Reference ../sources/figma-snapshots/chart-donut.vector-paths.json",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3086-1090"
+    ]
+  },
+  "367": {
+    "label": "Fuentes y procedencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "SRC-CHAT-SECTION-001 · 2026-10-08",
+      "Reference ../drafts/contracts/chat-section.source.component-contract.md",
+      "Reference ../sources/figma-snapshots/chat-section.binding-index.2026-10-08.json",
+      "Reference ../sources/figma-snapshots/chat-section.index.2026-10-08.json",
+      "SRC-CHAT-SECTION-001 indexed external observation"
+    ]
+  },
+  "368": {
+    "label": "Fuentes y procedencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "SRC-FIGMA-SELECT-001",
+      "Reference ../drafts/contracts/dropdown-item.source.component-contract.md",
+      "Reference ../drafts/contracts/dropdown-item.source.component-contract.yaml",
+      "Reference ../sources/figma-snapshots/select.source.v0.1.0.json",
+      "Reference ../sources/figma-snapshots/select.target-tokens.v0.1.0.json"
+    ]
+  },
+  "369": {
+    "label": "Fuentes y procedencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "SRC-FIGMA-EMPTY-STATES-001 · 2026-10-05",
+      "Reference ../drafts/contracts/empty-states.source.component-contract.md",
+      "Reference ../implementations/figma/empty-states.v0.1.0.manifest.json",
+      "Reference ../sources/figma-snapshots/empty-states.v0.1.0.identity.json",
+      "Reference ../sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+    ]
+  },
+  "370": {
+    "label": "Fuentes y procedencia",
+    "nodes": 5,
+    "cohesion": 0.4,
+    "examples": [
+      "SRC-FIGMA-SCROLLBAR-001",
+      "Reference ../drafts/contracts/scrollbar.source.component-contract.md",
+      "Reference ../drafts/contracts/scrollbar.source.component-contract.yaml",
+      "Reference ../qa/contracts/scrollbar.source.component-contract.review.md",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=7664-49488"
+    ]
+  },
+  "371": {
+    "label": "Textarea Contract",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "textarea.source.component-contract.yaml",
+      "Lógica producto UNDEFINED",
+      "Textarea cuatro variantes 305x160; Notches remoto",
+      "Textarea fuente PARTIAL por procedencia remota"
+    ]
+  },
+  "372": {
+    "label": "Header Foundations",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "header-foundations.v0.1.0.js",
+      "header-foundations.v0.1.0.js",
+      "created",
+      "spec"
+    ]
+  },
+  "373": {
+    "label": "Table Status Icon Binding Fix",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "table-status-icon-binding-fix.v0.1.1.js",
+      "table-status-icon-binding-fix.v0.1.1.js",
+      "ids",
+      "left"
+    ]
+  },
+  "374": {
+    "label": "Loader Qa",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "loader.contract-qa.v0.1.0.md",
+      "Loader · QA documental 0.1.0",
+      "Ciclos Size Color completos para evitar salto cromático",
+      "Loader QA documental PASS delegado"
+    ]
+  },
+  "375": {
+    "label": "Loader Discovery",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "loader.discovery.v0.1.0.md",
+      "Descubrimiento inicial · Loader de Librería v1.1.0",
+      "Loader descubrimiento histórico OBSERVED24Sep",
+      "Primary temático mediante icon brand"
+    ]
+  },
+  "376": {
+    "label": "Loader Phase1 2 Checklist",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "loader.phase1-2-checklist.md",
+      "Loader · Phase 1 y 2 Checklist",
+      "Loader Phase1 roles locales verificados",
+      "Loader Phase2 página y16 internos creados"
+    ]
+  },
+  "377": {
+    "label": "Loader Phase3 4 Checklist",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "loader.phase3-4-checklist.md",
+      "Loader · Phase 3 y 4 Checklist",
+      "Loader Phase3: 384 reacciones y fotogramas",
+      "Loader Phase4 VALIDATED specs; prueba continua pendiente"
+    ]
+  },
+  "378": {
+    "label": "Select Synthesis",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "select.synthesis.v0.1.0.md",
+      "Síntesis Select0.1.0",
+      "Select síntesis: Closed Open con InputField DropdownItem",
+      "Sombras literales excepción sin categoría canónica"
+    ]
+  },
+  "379": {
+    "label": "Characters · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "characters.v0.1.0.png",
+      "Static character sheet: six blue upper-row figures and seven orange lower-row figures",
+      "Six rounded blue figures tapering downward, with pale eyes and moustache-like facial shapes; one has horizontal closed-eye marks",
+      "Seven orange domed figures with broad flat bases and pale eyes; three have horizontal eye marks, two have darker side shading, and two have unequal vertical eye heights"
+    ]
+  },
+  "380": {
+    "label": "Six Family Color Foundations",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "six-family-color.v0.1.0.foundations.js",
+      "six-family-color.v0.1.0.foundations.js",
+      "changes",
+      "data"
+    ]
+  },
+  "381": {
+    "label": "Contratos e implementación",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "FOUNDATIONS-NAVIGATION-TAB-COLORS-001",
+      "Reference ../drafts/foundations/ai-design-system.navigation-tab-colors.v0.1.0.json",
+      "Reference ../qa/implementations/navigation-tab-colors.v0.1.0.figma.review.md",
+      "Reference ../specs/foundations.navigation-tab-colors.amendment.v0.1.13.md"
+    ]
+  },
+  "382": {
+    "label": "Contratos e implementación",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "LOGOS-001",
+      "Reference ../drafts/contracts/logos.contract.v0.1.0.md",
+      "Reference ../qa/contracts/logos.v0.1.0.review.md",
+      "Reference ../qa/implementations/logos.v0.1.0.figma.review.md"
+    ]
+  },
+  "383": {
+    "label": "Contratos e implementación",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "MIGRATION-TOKEN-TRACEABILITY-001 · enmiendas de primitiva ausente",
+      "Reference ../qa/contracts/migration-token-traceability.amendment.v0.1.2.review.md",
+      "Reference ../specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.1.md",
+      "Reference ../specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.2.md"
+    ]
+  },
+  "384": {
+    "label": "Github Publication",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "github-publication.md",
+      "GitHub privado · publicación verificada2026-10-07",
+      "Migueluckleo/CONTPAQi-Design-System-1.0: PUBLISHED_PRIVATE",
+      "Publicación GitHub separada de aprobación DS ybiblioteca Figma"
+    ]
+  },
+  "385": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-AVATAR-ROLES-FIGMA-001 · roles de fondo y tipografía Avatar",
+      "Reference ../drafts/foundations/ai-design-system.avatar-roles.v0.1.0.json",
+      "Reference ../implementations/figma/avatar-roles.v0.1.0.state.json",
+      "Reference ../qa/implementations/avatar-roles.v0.1.0.figma.review.md"
+    ]
+  },
+  "386": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-BUTTON-SEMANTIC-SCOPE-FIGMA-001 · ajuste de texto Disabled",
+      "Reference ../drafts/contracts/button.semantic-scope-amendment.v0.2.1.md",
+      "Reference ../implementations/figma/button.semantic-scope.v0.2.1.state.json",
+      "Reference ../qa/implementations/button.semantic-scope.v0.2.1.figma.review.md"
+    ]
+  },
+  "387": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-COMPOSITION-SLOTS-FIGMA-001",
+      "Reference ../implementations/figma/composition-slots.v0.1.0.state.json",
+      "Reference ../qa/implementations/composition-slots.v0.1.0.figma.review.md",
+      "Reference SESSION-HANDOFF-2026-09-29-SLOTS.md"
+    ]
+  },
+  "388": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-COMPOSITION-SLOTS-FIGMA-002",
+      "Reference ../implementations/figma/composition-slots.v0.1.1.state.json",
+      "Reference ../qa/implementations/composition-slots.v0.1.1.figma.review.md",
+      "Reference SESSION-HANDOFF-2026-09-30-SLOTS.md"
+    ]
+  },
+  "389": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-DOT-BACKGROUND-COLORS-FIGMA-001 · fondos semánticos Dot",
+      "Reference ../drafts/foundations/ai-design-system.dot-background-colors.v0.1.0.json",
+      "Reference ../implementations/figma/dot-background-colors.v0.1.0.state.json",
+      "Reference ../qa/implementations/dot-background-colors.v0.1.0.figma.review.md"
+    ]
+  },
+  "390": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-DOT-INACTIVE-BORDER-FIGMA-001 · borde semántico Inactive",
+      "Reference ../drafts/foundations/ai-design-system.dot-inactive-border.v0.1.0.json",
+      "Reference ../implementations/figma/dot-inactive-border.v0.1.0.state.json",
+      "Reference ../qa/implementations/dot-inactive-border.v0.1.0.figma.review.md"
+    ]
+  },
+  "391": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-INLINE-NOTIFICATION-WARNING-SOURCE-COLOR-002 · Warning de origen",
+      "Reference ../implementations/figma/inline-notification.warning-source-color.v0.1.1.state.json",
+      "Reference ../qa/implementations/inline-notification.warning-source-color.v0.1.1.figma.review.md",
+      "Reference ../specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md"
+    ]
+  },
+  "392": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-LINEAR-PROGRESS-COLORS-FIGMA-001 · colores semánticos de Linear Progress Bar",
+      "Reference ../drafts/foundations/ai-design-system.linear-progress-colors.v0.1.0.json",
+      "Reference ../implementations/figma/linear-progress-colors.v0.1.0.state.json",
+      "Reference ../qa/implementations/linear-progress-colors.v0.1.0.figma.review.md"
+    ]
+  },
+  "393": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-LOADER-FIGMA-001 · Loader",
+      "Reference ../implementations/figma/loader.v0.1.0.state.json",
+      "Reference ../qa/implementations/loader.v0.1.0.figma.review.md",
+      "Reference ../specs/loader.contract.v0.1.0.md"
+    ]
+  },
+  "394": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-NAVIGATION-SWITCH-TAB-FIGMA-001 · Switch Tab",
+      "Reference ../implementations/figma/navigation-switch-tab.v0.1.0.state.json",
+      "Reference ../qa/implementations/navigation-switch-tab.v0.1.0.figma.review.md",
+      "Reference ../specs/navigation-switch-tab.contract.v0.1.0.md"
+    ]
+  },
+  "395": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-NAVIGATION-SWITCH-TAB-ITEM-FIGMA-001 · Switch Tab Item",
+      "Reference ../implementations/figma/navigation-switch-tab-item.v0.1.0.state.json",
+      "Reference ../qa/implementations/navigation-switch-tab-item.v0.1.0.figma.review.md",
+      "Reference ../specs/navigation-switch-tab-item.contract.v0.1.0.md"
+    ]
+  },
+  "396": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-NAVIGATION-TAB-FIGMA-001 · Tab",
+      "Reference ../implementations/figma/navigation-tab.v0.1.0.state.json",
+      "Reference ../qa/implementations/navigation-tab.v0.1.0.figma.review.md",
+      "Reference ../specs/navigation-tab.contract.v0.1.0.md"
+    ]
+  },
+  "397": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-TOGGLE-SOURCE-COLOR-FIGMA-001 · dos bordes Off restaurados 0.1.5",
+      "Reference ../drafts/contracts/toggle.source-color-amendment.v0.1.5.md",
+      "Reference ../implementations/figma/toggle.source-color.v0.1.5.state.json",
+      "Reference ../qa/implementations/toggle.source-color.v0.1.5.figma.review.md"
+    ]
+  },
+  "398": {
+    "label": "Implementations · Evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "IMP-TOOLTIP-FIGMA-001 · Tooltips 0.1.0",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.md",
+      "Reference ../implementations/figma/tooltip.v0.1.0.state.json",
+      "Reference ../qa/implementations/tooltip.v0.1.0.figma.review.md"
+    ]
+  },
+  "399": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-BADGE-SOURCE-COLOR-002",
+      "Reference ../qa/contracts/badge.source-color-amendment.v0.1.2.review.md",
+      "Reference ../qa/contracts/badge.specs-publication.v0.1.2.review.md",
+      "Reference ../qa/implementations/badge.source-color.v0.1.2.figma.review.md"
+    ]
+  },
+  "400": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-BREADCRUMB-ITEM-SOURCE-001, QA-BREADCRUMBS-SOURCE-001 y QA-BREADCRUMBS-CONTRACT-001",
+      "Reference ../qa/contracts/breadcrumb-item.source.component-contract.review.md",
+      "Reference ../qa/contracts/breadcrumbs.source.component-contract.review.md",
+      "Reference ../qa/contracts/breadcrumbs.v0.1.0.review.md"
+    ]
+  },
+  "401": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-BUTTON-FIGMA-002",
+      "Reference ../qa/implementations/button.figma.review.md",
+      "Reference ../specs/components/button.contract.md",
+      "Reference ../specs/components/button-page-name.amendment.md"
+    ]
+  },
+  "402": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-CHAT-SECTION-001 · 2026-10-08",
+      "QA CHAT SECTION current evidence boundaries",
+      "Reference ../qa/contracts/chat-section.v0.1.0.review.md",
+      "Reference ../qa/implementations/chat-section.v0.1.0.review.md"
+    ]
+  },
+  "403": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-DOT-INACTIVE-BORDER-001, QA-DOT-AMD-001 y QA-DOT-INACTIVE-BORDER-FIGMA-001",
+      "Reference ../qa/contracts/dot.inactive-border-amendment.v0.1.1.review.md",
+      "Reference ../qa/contracts/foundations.dot-inactive-border.amendment.v0.1.5.review.md",
+      "Reference ../qa/implementations/dot-inactive-border.v0.1.0.figma.review.md"
+    ]
+  },
+  "404": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-HEADER-001 · 2026-10-01",
+      "Reference ../qa/contracts/header.v0.1.0.review.md",
+      "Reference ../qa/implementations/header.v0.1.0.figma.review.md",
+      "Reference ../qa/implementations/header.v0.1.0.final.json"
+    ]
+  },
+  "405": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-INLINE-NOTIFICATION-WARNING-SOURCE-COLOR-002",
+      "Reference ../qa/contracts/inline-notification.specs-publication.v0.1.1.review.md",
+      "Reference ../qa/contracts/inline-notification.warning-source-color.v0.1.1.review.md",
+      "Reference ../qa/implementations/inline-notification.warning-source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "406": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-TOGGLE-AMD-003, QA-TOGGLE-FIGMA-005 y QA-TOGGLE-FIGMA-006",
+      "Reference ../qa/contracts/toggle.focus-effect-amendment.v0.1.3.review.md",
+      "Reference ../qa/implementations/toggle.v0.1.2.effect-scope-finding.md",
+      "Reference ../qa/implementations/toggle.v0.1.3.figma.review.md"
+    ]
+  },
+  "407": {
+    "label": "QA y evidencias",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "QA-WARNING-ICON-SOURCE-COLOR-002",
+      "Reference ../qa/contracts/foundations.warning-icon-source-color.v0.1.10.review.md",
+      "Reference ../qa/contracts/foundations.warning-icon-specs-publication.v0.1.10.review.md",
+      "Reference ../qa/implementations/warning-icon-source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "408": {
+    "label": "Session Handoff 2026 10 07",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "SESSION-HANDOFF-2026-10-07-FIGJAM-FLOW.md",
+      "FigJam SDD · documentación derivada completada",
+      "Diez secciones y ocho diagramas del flujo SDD",
+      "Boceto11:832 preservado en histórico y conectores originales ocultos"
+    ]
+  },
+  "409": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-BREADCRUMB-ITEM-001",
+      "Reference ../drafts/contracts/breadcrumb-item.source.component-contract.md",
+      "Reference ../drafts/contracts/breadcrumb-item.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2425-35897"
+    ]
+  },
+  "410": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-CHART-CELL-001",
+      "Reference ../drafts/contracts/chart-cell.source.component-contract.md",
+      "Reference ../drafts/contracts/chart-cell.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2977-2066"
+    ]
+  },
+  "411": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-CHART-LABEL-CELL-001",
+      "Reference ../drafts/contracts/chart-label-cell.source.component-contract.md",
+      "Reference ../drafts/contracts/chart-label-cell.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3086-992"
+    ]
+  },
+  "412": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-CHART-PROGRESS-ITEM-001",
+      "Reference ../drafts/contracts/chart-progress-item.source.component-contract.md",
+      "Reference ../drafts/contracts/chart-progress-item.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3075-871"
+    ]
+  },
+  "413": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-DOT-001",
+      "Reference ../drafts/contracts/dot.source.component-contract.md",
+      "Reference ../drafts/contracts/dot.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1133-31549"
+    ]
+  },
+  "414": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-FILE-UPLOAD-001",
+      "Reference ../drafts/contracts/file-upload.source.component-contract.md",
+      "Reference ../drafts/contracts/file-upload.source.component-contract.yaml",
+      "Reference ../sources/figma-snapshots/file-upload.deep.json"
+    ]
+  },
+  "415": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-INLINE-NOTIFICATION-001",
+      "Reference ../drafts/contracts/inline-notification.source.component-contract.md",
+      "Reference ../drafts/contracts/inline-notification.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2778-10287"
+    ]
+  },
+  "416": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-NAVIGATION-PAGINATION-001",
+      "Reference ../drafts/contracts/navigation-pagination.source.component-contract.md",
+      "Reference ../drafts/contracts/navigation-pagination.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2461-714"
+    ]
+  },
+  "417": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-STEPS-001",
+      "Reference ../drafts/contracts/steps.source.component-contract.md",
+      "Reference ../drafts/contracts/steps.source.component-contract.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=8029-8267"
+    ]
+  },
+  "418": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-TEXTAREA-001",
+      "Reference ../drafts/contracts/textarea.source.component-contract.md",
+      "Reference ../drafts/contracts/textarea.source.component-contract.yaml",
+      "Reference ../sources/figma-snapshots/textarea.deep.json"
+    ]
+  },
+  "419": {
+    "label": "Fuentes y procedencia",
+    "nodes": 4,
+    "cohesion": 0.5,
+    "examples": [
+      "SRC-FIGMA-CONVERSATION-DESTINATION-001 · 2026-10-08",
+      "Reference ../implementations/figma/conversation.v0.1.0.preflight.json",
+      "Reference ../implementations/figma/conversation.v0.1.0.tokens-readback.json",
+      "Reference ../qa/implementations/conversation.v0.1.0.final.json"
+    ]
+  },
+  "420": {
+    "label": "Chat Toolbar Dependencies 2026 10",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "chat-toolbar.dependencies.2026-10-08.json",
+      "chat-toolbar.dependencies.2026-10-08.json",
+      "dependencies",
+      "nodeCount"
+    ]
+  },
+  "421": {
+    "label": "Legacy Library Pages Inventory",
+    "nodes": 4,
+    "cohesion": 0.8333333333333334,
+    "examples": [
+      "legacy-library-pages.inventory.md",
+      "Inventario inicial de páginas de componentes · Libreria v1.1.0",
+      "legacy-library-pages.inventory.md",
+      "Límite de este inventario"
+    ]
+  },
+  "422": {
+    "label": "Chat Toolbar",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "contracts/chat-toolbar.contract.v0.1.0.md",
+      "chat-toolbar · promoción documental",
+      "Reference ../../specs/chat-toolbar.contract.v0.1.0.md"
+    ]
+  },
+  "423": {
+    "label": "Logos Contract",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "logos.source.component-contract.md",
+      "Logos · evidencia Figma de solo lectura",
+      "Logos fuente observacional"
+    ]
+  },
+  "424": {
+    "label": "Search Contract",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "search.source.component-contract.md",
+      "Search · contrato de evidencia fuente",
+      "Search fuente observacional PARTIAL"
+    ]
+  },
+  "425": {
+    "label": "Avatar Preferred Icons",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "avatar.v0.1.0.state.json",
+      "avatar-preferred-icons.v0.1.0.js",
+      "avatar-preferred-icons.v0.1.0.js"
+    ]
+  },
+  "426": {
+    "label": "Table Border Layout Fix",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "table-border-layout-fix.v0.1.0.js",
+      "table-border-layout-fix.v0.1.0.js",
+      "ids"
+    ]
+  },
+  "427": {
+    "label": "Badge Plan",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "badge.v0.1.0.plan.md",
+      "badge.v0.1.0.plan.md",
+      "PLAN-BADGE-FIGMA-001 · construcción delegada"
+    ]
+  },
+  "428": {
+    "label": "Charts Plan",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "charts.v0.1.0.plan.md",
+      "charts.v0.1.0.plan.md",
+      "Plan de construcción Figma · Charts 0.1.0"
+    ]
+  },
+  "429": {
+    "label": "Linear Progress Bar Plan",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "linear-progress-bar.v0.1.0.plan.md",
+      "linear-progress-bar.v0.1.0.plan.md",
+      "Plan de construcción Figma · Linear Progress Bar 0.1.0"
+    ]
+  },
+  "430": {
+    "label": "Metric Card Plan",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "metric-card.v0.1.0.plan.md",
+      "metric-card.v0.1.0.plan.md",
+      "Plan de construcción Figma · Metric Cards 0.1.0"
+    ]
+  },
+  "431": {
+    "label": "Table Discovery",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "table.discovery.v0.1.0.md",
+      "Table Anticipa: descubrimiento y checklist completado",
+      "Table usa Anticipa, no legacy; negro se aproxima mediante rol semántico neutral900"
+    ]
+  },
+  "432": {
+    "label": "Tooltip Plan",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "tooltip.v0.1.0.plan.md",
+      "tooltip.v0.1.0.plan.md",
+      "PLAN-TOOLTIP-FIGMA-001 · construcción delegada"
+    ]
+  },
+  "433": {
+    "label": "Avatar · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "avatar.v0.1.0.review.md",
+      "avatar.v0.1.0.review.md",
+      "QA-AVATAR-CONTRACT-001 · reconstrucción 0.1.0"
+    ]
+  },
+  "434": {
+    "label": "Inline Notification",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "inline-notification.v0.1.0.review.md",
+      "inline-notification.v0.1.0.review.md",
+      "QA-INLINE-NOTIFICATION-CONTRACT-001 · reconstrucción 0.1.0"
+    ]
+  },
+  "435": {
+    "label": "Linear Progress Bar Contract",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "linear-progress-bar.source.component-contract.review.md",
+      "linear-progress-bar.source.component-contract.review.md",
+      "QA-LINEAR-PROGRESS-BAR-SOURCE-001"
+    ]
+  },
+  "436": {
+    "label": "Linear Progress Bar",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "linear-progress-bar.v0.1.0.review.md",
+      "linear-progress-bar.v0.1.0.review.md",
+      "QA-LINEAR-PROGRESS-BAR-CONTRACT-001"
+    ]
+  },
+  "437": {
+    "label": "Metric Card",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "metric-card.v0.1.0.review.md",
+      "metric-card.v0.1.0.review.md",
+      "QA-METRIC-CARD-CONTRACT-001"
+    ]
+  },
+  "438": {
+    "label": "Radio Button Contract",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "radio-button.source.component-contract.review.md",
+      "radio-button.source.component-contract.review.md",
+      "QA-RADIO-SOURCE-001 · extracción técnica de origen"
+    ]
+  },
+  "439": {
+    "label": "Radio Button",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "radio-button.v0.1.0.review.md",
+      "radio-button.v0.1.0.review.md",
+      "QA-RADIO-001 · revisión documental de reconstrucción"
+    ]
+  },
+  "440": {
+    "label": "Scrollbar Contract",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "scrollbar.source.component-contract.review.md",
+      "QA de inventario fuente · Scrollbar",
+      "Scrollbar QA fuente PASS observacional"
+    ]
+  },
+  "441": {
+    "label": "Search · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "search.v0.1.0.review.md",
+      "QA documental · search 0.1.0",
+      "Search QA documental PASS delegado"
+    ]
+  },
+  "442": {
+    "label": "Select · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "select.v0.1.0.review.md",
+      "QA documental · SELECT-001 v0.1.0",
+      "Select QA documental PASS delegado"
+    ]
+  },
+  "443": {
+    "label": "Slots Protocol",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "slots-protocol.v0.1.0.review.md",
+      "Revisión documental · P-SLOTS 0.1.0",
+      "P-SLOTS QA documental PASS"
+    ]
+  },
+  "444": {
+    "label": "Stepper · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "stepper.v0.1.0.review.md",
+      "QA documental · Stepper Item 0.1.0",
+      "Stepper base QA documental histórico"
+    ]
+  },
+  "445": {
+    "label": "Steps · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "steps.v0.1.0.review.md",
+      "QA documental · Steps 0.1.0",
+      "Steps base QA documental histórico"
+    ]
+  },
+  "446": {
+    "label": "Textarea · Evidencias",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "textarea.v0.1.0.review.md",
+      "QA documental · textarea 0.1.0",
+      "Textarea QA documental PASS delegado"
+    ]
+  },
+  "447": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-ANTICIPA-SCREEN-COMPOSITION-001 · 2026-10-06",
+      "Reference ../qa/contracts/anticipa-screen-composition.v0.1.0.review.md",
+      "Reference ../qa/contracts/anticipa-screen-composition.v0.1.0.verification.json"
+    ]
+  },
+  "448": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-APP-SHELL-001 · 2026-10-06",
+      "Reference ../qa/contracts/app-shell.v0.1.0.review.md",
+      "Reference ../qa/implementations/app-shell.v0.1.0.figma.review.md"
+    ]
+  },
+  "449": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-AVATAR-ROLES-001 y QA-AVATAR-ROLES-FIGMA-001",
+      "Reference ../qa/contracts/foundations.avatar-roles.amendment.v0.1.6.review.md",
+      "Reference ../qa/implementations/avatar-roles.v0.1.0.figma.review.md"
+    ]
+  },
+  "450": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-AVATAR-SOURCE-001 y QA-AVATAR-CONTRACT-001",
+      "Reference ../qa/contracts/avatar.source.component-contract.review.md",
+      "Reference ../qa/contracts/avatar.v0.1.0.review.md"
+    ]
+  },
+  "451": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-AVATAR-SOURCE-COLOR-002",
+      "Reference ../qa/contracts/avatar.source-color-amendment.v0.1.1.review.md",
+      "Reference ../qa/implementations/avatar.source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "452": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-BADGE-AMD-001",
+      "Reference ../drafts/contracts/badge.contrast-amendment.v0.1.1.candidate.md",
+      "Reference ../qa/contracts/badge.contrast-amendment.v0.1.1.review.md"
+    ]
+  },
+  "453": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-BUTTON-AMD-001 y QA-BUTTON-FIGMA-SEMANTIC-004",
+      "Reference ../qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md",
+      "Reference ../qa/implementations/button.semantic-scope.v0.2.1.figma.review.md"
+    ]
+  },
+  "454": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-CHECKBOX-SOURCE-001 y QA-CHECKBOX-CONTRACT-001",
+      "Reference ../qa/contracts/checkbox.source.component-contract.review.md",
+      "Reference ../qa/contracts/checkbox.v0.1.0.review.md"
+    ]
+  },
+  "455": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-COMPOSITION-SLOTS-001",
+      "Reference ../qa/contracts/composition-slots.v0.1.0.review.md",
+      "Reference ../qa/implementations/composition-slots.v0.1.0.figma.review.md"
+    ]
+  },
+  "456": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-DOT-SOURCE-001 y QA-DOT-CONTRACT-001",
+      "Reference ../qa/contracts/dot.source.component-contract.review.md",
+      "Reference ../qa/contracts/dot.v0.1.0.review.md"
+    ]
+  },
+  "457": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-DROPDOWN-ITEM-001",
+      "Reference ../qa/contracts/dropdown-item.v0.1.0.review.md",
+      "Reference ../qa/implementations/dropdown-item.v0.1.0.figma.review.md"
+    ]
+  },
+  "458": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-FEEDBACK-ICON-SCOPES-001 y QA-FEEDBACK-ICON-SCOPES-FIGMA-001",
+      "Reference ../qa/contracts/foundations.feedback-icon-scopes.amendment.v0.1.7.review.md",
+      "Reference ../qa/implementations/feedback-icon-scopes.v0.1.0.figma.review.md"
+    ]
+  },
+  "459": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-FILE-UPLOAD-001",
+      "Reference ../qa/contracts/file-upload.v0.1.0.review.md",
+      "Reference ../qa/implementations/file-upload.v0.1.0.figma.review.md"
+    ]
+  },
+  "460": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-FILTER-CHIP-FIGMA-001",
+      "Reference ../qa/implementations/filter-chip.v0.2.0.figma.review.md",
+      "Reference ../specs/components/filter-chip.contract.v0.2.0.md"
+    ]
+  },
+  "461": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-FILTER-CHIP-SEMANTIC-021 · 2026-10-05",
+      "Reference ../qa/contracts/filter-chip.semantic.v0.2.1.review.md",
+      "Reference ../qa/implementations/filter-chip.semantic.v0.2.1.figma.review.md"
+    ]
+  },
+  "462": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-INPUT-FIELD-FIGMA-001",
+      "Reference ../qa/implementations/input-field.v0.1.0.figma.review.md",
+      "Reference ../qa/implementations/input-field.v0.1.1.figma.review.md"
+    ]
+  },
+  "463": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-LINEAR-PROGRESS-COLORS-CONTRACT-001 y QA-LINEAR-PROGRESS-COLORS-FIGMA-001",
+      "Reference ../qa/contracts/foundations.linear-progress-colors.v0.1.0.review.md",
+      "Reference ../qa/implementations/linear-progress-colors.v0.1.0.figma.review.md"
+    ]
+  },
+  "464": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-LOGOS-REFINEMENT-001 · 2026-10-06",
+      "Reference ../qa/contracts/logos.scope.v0.1.1.review.md",
+      "Reference ../qa/implementations/logos.refinement.v0.1.1.review.md"
+    ]
+  },
+  "465": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-METRIC-CARD-ROLES-001",
+      "Reference ../qa/contracts/foundations.metric-card-roles.amendment.v0.1.0.review.md",
+      "Reference ../qa/implementations/metric-card-roles.v0.1.0.figma.review.md"
+    ]
+  },
+  "466": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-MIGRATION-TRACEABILITY-AMENDMENT-001",
+      "Reference ../qa/contracts/migration-token-traceability.amendment.v0.1.1.review.md",
+      "Reference ../qa/contracts/migration-token-traceability.amendment.v0.1.2.review.md"
+    ]
+  },
+  "467": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-MODAL-001 · 2026-10-01",
+      "Reference ../qa/contracts/modal.v0.1.0.review.md",
+      "Reference ../qa/implementations/modal.v0.1.0.figma.review.md"
+    ]
+  },
+  "468": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-NAVIGATION-PAGINATION-FIGMA-001",
+      "Reference ../qa/contracts/navigation-pagination.v0.1.0.review.md",
+      "Reference ../qa/implementations/navigation-pagination.v0.1.0.figma.review.md"
+    ]
+  },
+  "469": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-RADIO-CHECKBOX-REFINEMENT-001 · 2026-10-06",
+      "Reference ../qa/contracts/radio-checkbox.refinement.v0.1.2.review.md",
+      "Reference ../qa/implementations/radio-checkbox.refinement.v0.1.2.review.md"
+    ]
+  },
+  "470": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-SCROLLBAR-COLORS-FIGMA-001",
+      "Reference ../qa/implementations/scrollbar-colors.v0.1.0.figma.review.md",
+      "Reference ../qa/implementations/scrollbar-colors.v0.1.1.figma.review.md"
+    ]
+  },
+  "471": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-SELECT-001",
+      "Reference ../qa/contracts/select.v0.1.0.review.md",
+      "Reference ../qa/implementations/select.v0.1.0.figma.review.md"
+    ]
+  },
+  "472": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-SELECTION-CONTROL-SOURCE-COLOR-002",
+      "Reference ../qa/contracts/selection-control-source-color.v0.1.1.review.md",
+      "Reference ../qa/implementations/selection-control-source-color.v0.1.1.figma.review.md"
+    ]
+  },
+  "473": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-SIDEBAR-001 · 2026-10-05",
+      "Reference ../qa/contracts/sidebar.v0.1.0.qa.md",
+      "Reference ../qa/implementations/sidebar.v0.1.0.figma.review.md"
+    ]
+  },
+  "474": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-STEPPER-CONTRACT-001",
+      "Reference ../qa/contracts/stepper.brand-theme.v0.1.1.review.md",
+      "Reference ../qa/contracts/stepper.v0.1.0.review.md"
+    ]
+  },
+  "475": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-STEPPER-FIGMA-001",
+      "Reference ../qa/implementations/stepper.v0.1.0.figma.review.md",
+      "Reference ../qa/implementations/stepper.v0.1.1.figma.review.md"
+    ]
+  },
+  "476": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-STEPS-CONTRACT-001",
+      "Reference ../qa/contracts/steps.brand-theme.v0.1.1.review.md",
+      "Reference ../qa/contracts/steps.v0.1.0.review.md"
+    ]
+  },
+  "477": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-TEXTAREA-001",
+      "Reference ../qa/contracts/textarea.v0.1.0.review.md",
+      "Reference ../qa/implementations/textarea.v0.1.0.figma.review.md"
+    ]
+  },
+  "478": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-TOGGLE-AMD-004 y QA-TOGGLE-FIGMA-007",
+      "Reference ../qa/contracts/toggle.mixed-amendment.v0.1.4.review.md",
+      "Reference ../qa/implementations/toggle.mixed.v0.1.4.figma.review.md"
+    ]
+  },
+  "479": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-TOKENS-FIGMA-001",
+      "Reference ../qa/implementations/foundations-tokens.figma.review.md",
+      "Reference ../specs/foundations/foundations-tokens.contract.md"
+    ]
+  },
+  "480": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-TOKENS-FOCUS-001 y QA-FOCUS-EFFECTS-FIGMA-001",
+      "Reference ../qa/contracts/foundations.focus-effects.amendment.v0.1.2.review.md",
+      "Reference ../qa/implementations/focus-effects.v0.1.0.figma.review.md"
+    ]
+  },
+  "481": {
+    "label": "QA y evidencias",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "QA-TOOLTIP-FIGMA-001",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.md",
+      "Reference ../qa/implementations/tooltip.v0.1.0.figma.review.md"
+    ]
+  },
+  "482": {
+    "label": "Fuentes y procedencia",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "SRC-FIGMA-TOGGLE-001",
+      "Reference ../drafts/contracts/toggle.contract.v0.1.0.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1230-23858"
+    ]
+  },
+  "483": {
+    "label": "Fuentes y procedencia",
+    "nodes": 3,
+    "cohesion": 0.6666666666666666,
+    "examples": [
+      "SRC-FIGMA-TOOLTIP-001",
+      "Reference ../drafts/contracts/tooltip.contract.v0.1.0.yaml",
+      "Reference https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2599-10469"
+    ]
+  },
+  "484": {
+    "label": "Empty States 7772 2323",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "empty-states-7772-2323.svg",
+      "Yellow intersecting-line decorative artwork, square",
+      "150×150 dark rounded square with cropped thick yellow crossing diagonal lines and rounded terminals."
+    ]
+  },
+  "485": {
+    "label": "Table Copy",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "table.copy.source.svg",
+      "Overlapping-sheet outline icon",
+      "16×16 transparent canvas with two overlapping rounded rectangular outlines; the rear outline is partially occluded."
+    ]
+  },
+  "486": {
+    "label": "Table Sort Down",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "table.sort-down.source.svg",
+      "Descending-sort visual icon",
+      "16×16 transparent canvas: downward arrow on the left and four horizontal bars on the right decreasing in length from top to bottom."
+    ]
+  },
+  "487": {
+    "label": "Button Component Configuration",
+    "nodes": 3,
+    "cohesion": 1.0,
+    "examples": [
+      "button-component-configuration.png",
+      "Captura de configuración del componente Button",
+      "Descripción y enlace de documentación de componente"
+    ]
+  },
+  "488": {
+    "label": "File Upload Contract",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "file-upload.source.component-contract.md",
+      "File Upload source evidence"
+    ]
+  },
+  "489": {
+    "label": "Logos Contract",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "logos.source.component-contract.yaml",
+      "Logos modelo estructurado fuente COMPLETE"
+    ]
+  },
+  "490": {
+    "label": "Search Contract",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "search.source.component-contract.yaml",
+      "Search modelo PARTIAL"
+    ]
+  },
+  "491": {
+    "label": "Table Status Icon Binding Fix",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "table-status-icon-binding-fix.v0.1.0.js",
+      "table-status-icon-binding-fix.v0.1.0.js"
+    ]
+  },
+  "492": {
+    "label": "Migration Token Traceability",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "migration-token-traceability.v0.1.0.review.md",
+      "Migration traceability documentary QA 0.1.0"
+    ]
+  },
+  "493": {
+    "label": "QA y evidencias",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "QA-CHECKBOX-FIGMA-001",
+      "Reference ../qa/implementations/checkbox.v0.1.0.figma.review.md"
+    ]
+  },
+  "494": {
+    "label": "QA y evidencias",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "QA-FILTER-CHIP-001",
+      "Reference ../qa/contracts/filter-chip.review.md"
+    ]
+  },
+  "495": {
+    "label": "QA y evidencias",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "QA-LINEAR-PROGRESS-BAR-FIGMA-001",
+      "Reference ../qa/implementations/linear-progress-bar.v0.1.0.figma.review.md"
+    ]
+  },
+  "496": {
+    "label": "QA y evidencias",
+    "nodes": 2,
+    "cohesion": 1.0,
+    "examples": [
+      "QA-METRIC-CARD-CONTRACT-001",
+      "Reference ../qa/contracts/metric-card.v0.1.0.review.md"
+    ]
+  },
+  "497": {
+    "label": "Panel Notes",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "panel-notes.json"
+    ]
+  },
+  "498": {
+    "label": "Aliases 000 009",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-000-009.json"
+    ]
+  },
+  "499": {
+    "label": "Aliases 010 019",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-010-019.json"
+    ]
+  },
+  "500": {
+    "label": "Aliases 020 029",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-020-029.json"
+    ]
+  },
+  "501": {
+    "label": "Aliases 030 039",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-030-039.json"
+    ]
+  },
+  "502": {
+    "label": "Aliases 040 049",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-040-049.json"
+    ]
+  },
+  "503": {
+    "label": "Aliases 050 059",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-050-059.json"
+    ]
+  },
+  "504": {
+    "label": "Aliases 060 069",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-060-069.json"
+    ]
+  },
+  "505": {
+    "label": "Aliases 070 079",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-070-079.json"
+    ]
+  },
+  "506": {
+    "label": "Aliases 080 089",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-080-089.json"
+    ]
+  },
+  "507": {
+    "label": "Aliases 090 099",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-090-099.json"
+    ]
+  },
+  "508": {
+    "label": "Aliases 100 109",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-100-109.json"
+    ]
+  },
+  "509": {
+    "label": "Aliases 110 119",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-110-119.json"
+    ]
+  },
+  "510": {
+    "label": "Aliases 120 128",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "aliases-120-128.json"
+    ]
+  },
+  "511": {
+    "label": "Characters Batch 0",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "characters.v0.1.0.batch-0.json"
+    ]
+  },
+  "512": {
+    "label": "Characters Batch 4",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "characters.v0.1.0.batch-4.json"
+    ]
+  },
+  "513": {
+    "label": "Characters Batch 8",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "characters.v0.1.0.batch-8.json"
+    ]
+  },
+  "514": {
+    "label": "Characters Build State",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "characters.v0.1.0.build-state.json"
+    ]
+  },
+  "515": {
+    "label": "Chat Toolbar Group State",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "chat-toolbar.v0.1.0.group-state.json"
+    ]
+  },
+  "516": {
+    "label": "Composition Slots Breadcrumbs Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.0.breadcrumbs-build.json"
+    ]
+  },
+  "517": {
+    "label": "Composition Slots Select Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.0.select-build.json"
+    ]
+  },
+  "518": {
+    "label": "Composition Slots Switch Tab Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.0.switch-tab-build.json"
+    ]
+  },
+  "519": {
+    "label": "Composition Slots Charts Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.1.charts-build.json"
+    ]
+  },
+  "520": {
+    "label": "Composition Slots Pagination Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.1.pagination-build.json"
+    ]
+  },
+  "521": {
+    "label": "Composition Slots Steps Build",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "composition-slots.v0.1.1.steps-build.json"
+    ]
+  },
+  "522": {
+    "label": "Filter Chip Semantic Foundation Write",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "filter-chip.semantic.v0.2.1.foundation-write.json"
+    ]
+  },
+  "523": {
+    "label": "Logos Copy Ledger",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "logos.copy-ledger.v0.1.0.json"
+    ]
+  },
+  "524": {
+    "label": "Modal Basic",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.basic.json"
+    ]
+  },
+  "525": {
+    "label": "Modal Compositions",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.compositions.json"
+    ]
+  },
+  "526": {
+    "label": "Modal Final Token Map",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.final-token-map.json"
+    ]
+  },
+  "527": {
+    "label": "Modal Foundations",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.foundations.json"
+    ]
+  },
+  "528": {
+    "label": "Modal Parts",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.parts.json"
+    ]
+  },
+  "529": {
+    "label": "Modal · Evidencias",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.review.json"
+    ]
+  },
+  "530": {
+    "label": "Modal Token Map",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.token-map.json"
+    ]
+  },
+  "531": {
+    "label": "Primitive 005 014",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-005-014.json"
+    ]
+  },
+  "532": {
+    "label": "Primitive 015 024",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-015-024.json"
+    ]
+  },
+  "533": {
+    "label": "Primitive 025 034",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-025-034.json"
+    ]
+  },
+  "534": {
+    "label": "Primitive 035 044",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-035-044.json"
+    ]
+  },
+  "535": {
+    "label": "Primitive 045 054",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-045-054.json"
+    ]
+  },
+  "536": {
+    "label": "Primitive 055 064",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-055-064.json"
+    ]
+  },
+  "537": {
+    "label": "Primitive 065 074",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-065-074.json"
+    ]
+  },
+  "538": {
+    "label": "Primitive 075 084",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-075-084.json"
+    ]
+  },
+  "539": {
+    "label": "Primitive 085 094",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-085-094.json"
+    ]
+  },
+  "540": {
+    "label": "Primitive 095 104",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-095-104.json"
+    ]
+  },
+  "541": {
+    "label": "Primitive 105 114",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-105-114.json"
+    ]
+  },
+  "542": {
+    "label": "Primitive 115 124",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-115-124.json"
+    ]
+  },
+  "543": {
+    "label": "Primitive 125 134",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-125-134.json"
+    ]
+  },
+  "544": {
+    "label": "Primitive 135 140",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "primitive-135-140.json"
+    ]
+  },
+  "545": {
+    "label": "Select Creation",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "select.v0.1.0.creation.json"
+    ]
+  },
+  "546": {
+    "label": "Select Integration",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "select.v0.1.0.integration.json"
+    ]
+  },
+  "547": {
+    "label": "Semantic 000 009",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-000-009.json"
+    ]
+  },
+  "548": {
+    "label": "Semantic 010 019",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-010-019.json"
+    ]
+  },
+  "549": {
+    "label": "Semantic 020 029",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-020-029.json"
+    ]
+  },
+  "550": {
+    "label": "Semantic 030 039",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-030-039.json"
+    ]
+  },
+  "551": {
+    "label": "Semantic 040 049",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-040-049.json"
+    ]
+  },
+  "552": {
+    "label": "Semantic 050 059",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-050-059.json"
+    ]
+  },
+  "553": {
+    "label": "Semantic 060 069",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-060-069.json"
+    ]
+  },
+  "554": {
+    "label": "Semantic 070 079",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-070-079.json"
+    ]
+  },
+  "555": {
+    "label": "Semantic 080 089",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-080-089.json"
+    ]
+  },
+  "556": {
+    "label": "Semantic 090 099",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-090-099.json"
+    ]
+  },
+  "557": {
+    "label": "Semantic 100 109",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-100-109.json"
+    ]
+  },
+  "558": {
+    "label": "Semantic 110 119",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-110-119.json"
+    ]
+  },
+  "559": {
+    "label": "Semantic 120 128",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "semantic-120-128.json"
+    ]
+  },
+  "560": {
+    "label": "Sidebar Compositions Bind",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.compositions-bind.json"
+    ]
+  },
+  "561": {
+    "label": "Sidebar Compositions Created",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.compositions-created.json"
+    ]
+  },
+  "562": {
+    "label": "Sidebar Menu Item Bind",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.menu-item-bind.json"
+    ]
+  },
+  "563": {
+    "label": "Sidebar Menu Item Created",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.menu-item-created.json"
+    ]
+  },
+  "564": {
+    "label": "Sidebar · Evidencias",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.review.json"
+    ]
+  },
+  "565": {
+    "label": "Refinement 2026 10 05 Verification",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "refinement.2026-10-05.verification.json"
+    ]
+  },
+  "566": {
+    "label": "App Shell Extended Slot Checks",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "app-shell.v0.1.0.extended-slot-checks.json"
+    ]
+  },
+  "567": {
+    "label": "Buttons Local Bindings Manifest",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "buttons.local-bindings.v0.2.2.manifest.json"
+    ]
+  },
+  "568": {
+    "label": "Chat Section Fixtures",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "chat-section.v0.1.0.fixtures.json"
+    ]
+  },
+  "569": {
+    "label": "Input Fields Followups Manifest",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "input-fields.followups.v0.1.0.manifest.json"
+    ]
+  },
+  "570": {
+    "label": "Modal Contrast",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.contrast.json"
+    ]
+  },
+  "571": {
+    "label": "Modal Final Paint Readback",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.final-paint-readback.json"
+    ]
+  },
+  "572": {
+    "label": "Modal Paint Readback",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.paint-readback.json"
+    ]
+  },
+  "573": {
+    "label": "Modal Theme Readback",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "modal.v0.1.0.theme-readback.json"
+    ]
+  },
+  "574": {
+    "label": "Sidebar Bindings Before Fix",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "sidebar.v0.1.0.bindings-before-fix.json"
+    ]
+  },
+  "575": {
+    "label": "Input Fields Target Colors Preflight",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "input-fields.target-colors.preflight.json"
+    ]
+  },
+  "576": {
+    "label": "Input Fields Target Metrics Preflight",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "input-fields.target-metrics.preflight.json"
+    ]
+  },
+  "577": {
+    "label": "Logos Loose Visuals",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "logos.loose-visuals.v0.1.0.json"
+    ]
+  },
+  "578": {
+    "label": "Logos Root Details",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "logos.root-details.v0.1.0.json"
+    ]
+  },
+  "579": {
+    "label": "Table Anticipa Assets",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.assets.json"
+    ]
+  },
+  "580": {
+    "label": "Table Anticipa Cells",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.cells.json"
+    ]
+  },
+  "581": {
+    "label": "Table Anticipa Containers",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.containers.json"
+    ]
+  },
+  "582": {
+    "label": "Table Anticipa Dependencies",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.dependencies.json"
+    ]
+  },
+  "583": {
+    "label": "Table Anticipa Hover Actions",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.hover-actions.json"
+    ]
+  },
+  "584": {
+    "label": "Table Anticipa Identity",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.identity.json"
+    ]
+  },
+  "585": {
+    "label": "Table Anticipa Instances",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.instances.json"
+    ]
+  },
+  "586": {
+    "label": "Table Anticipa Variables",
+    "nodes": 1,
+    "cohesion": 1.0,
+    "examples": [
+      "table-anticipa.v0.1.0.variables.json"
+    ]
+  }
+}

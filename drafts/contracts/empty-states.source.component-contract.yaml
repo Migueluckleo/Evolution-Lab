@@ -1,0 +1,3746 @@
+schema_version: "0.1.0"
+generated_at: "2026-10-05T17:38:53Z"
+generator:
+  skill: "figma-component-contract"
+  skill_version: "0.1.0"
+inspection:
+  status: "PARTIAL"
+  read_only: true
+  traversal:
+    discovered_nodes: 433
+    inspected_nodes: 433
+    pending_nodes: 0
+    invisible_nodes_inspected: 27
+    truncated: false
+    limit: null
+  mcp_limitations:
+    - "La extracción normalizada resume perfiles; no serializa las 433 capas individualmente."
+    - "Definiciones externas/alternativas de icono y reglas de producto no inspeccionadas completamente."
+    - "Importación por key de ilustraciones privadas no disponible; SVG fuente exportado sin mutar origen."
+component:
+  id: "7772:2272"
+  key: "8c4445072ebcd53036f55cd15129ce5e68ecdeb1"
+  name: "Empty State"
+  type: "COMPONENT_SET"
+  description: "Empty states are moments in an app where there is no data to display to the user. They are most commonly seen the first time a user interacts with a product or page, but can be used when data has been deleted or is unavailable."
+  parent:
+    id: "7772:2225"
+    name: "Component"
+    type: "SECTION"
+  page:
+    id: "3027:406"
+    name: "❖ Empty states"
+  source:
+    url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=7772-2272"
+    file_key: "9zs5RMR8LB5wHjW9Bd59BA"
+    node_id: "7772:2272"
+classification:
+  kind: "component_set"
+  reusable: true
+  composition: true
+  evidence_refs:
+    - "7772:2272"
+identity:
+  position:
+    x: 659
+    y: 134
+  dimensions:
+    width: 728
+    height: 1670
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: "PASS_THROUGH"
+direct_children:
+  - 
+    id: "7772:2273"
+    name: "🎨 Use Cases=Default"
+    type: "COMPONENT"
+    width: 696
+    height: 532
+  - 
+    id: "7772:2275"
+    name: "🎨 Use Cases=Compact"
+    type: "COMPONENT"
+    width: 696
+    height: 366
+  - 
+    id: "7772:2277"
+    name: "🎨 Use Cases=Inline"
+    type: "COMPONENT"
+    width: 696
+    height: 120
+  - 
+    id: "7772:2279"
+    name: "🎨 Use Cases=Main"
+    type: "COMPONENT"
+    width: 696
+    height: 572
+anatomy:
+  functional_tree:
+    - "Empty State → .Base Empty State → Content Container → .Visual / Title / Description"
+    - "Main action / Supporting action → Button → label + optional icons"
+  graphical_details_omitted:
+    - "Geometría vectorial exacta conservada en seis archivos SVG de fuente."
+dependency_inventory:
+  components:
+    total_instances: 55
+    total: 11
+    local: 10
+    remote: 1
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 11
+    unresolved: 0
+  variables:
+    total: 22
+    local: 19
+    remote: 3
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 22
+    unresolved: 0
+  styles:
+    total: 2
+    local: null
+    remote: null
+    unknown_locality: 2
+    resolved: 0
+    partially_resolved: 2
+    unresolved: 0
+dependencies:
+  - 
+    id: "7772:2281"
+    key: "da805c3bc3e7d7e478927b58b0a2e69da34ea0d9"
+    name: "_Compact / Placeholder-1"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2228"
+      - "I7772:2264;7772:2228"
+      - "I7772:2276;7772:2264;7772:2228"
+      - "I7772:2278;7772:2264;7772:2228"
+    owner:
+      id: "7772:2281"
+      key: "da805c3bc3e7d7e478927b58b0a2e69da34ea0d9"
+      name: "_Compact / Placeholder-1"
+      props: {}
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2381"
+    key: "cba80d9f422eb2abf8ed869d1062824c27bd8d60"
+    name: "_Default / Placeholder"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2230"
+      - "I7772:2254;7772:2230"
+      - "I7772:2274;7772:2254;7772:2230"
+    owner:
+      id: "7772:2381"
+      key: "cba80d9f422eb2abf8ed869d1062824c27bd8d60"
+      name: "_Default / Placeholder"
+      props: {}
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2298"
+    key: "5628e3668b1dfed5cc1cc3f2d8565870859d9a48"
+    name: "_Display / Placeholder"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2232"
+      - "I7772:2280;7772:2254;7772:2232"
+    owner:
+      id: "7772:2298"
+      key: "5628e3668b1dfed5cc1cc3f2d8565870859d9a48"
+      name: "_Display / Placeholder"
+      props: {}
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2229"
+    key: "7a7710273d846b0d5be9edcc5f10a97c2583689d"
+    name: "Size=Default"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2254"
+      - "I7772:2274;7772:2254"
+    owner:
+      id: "7772:2226"
+      key: "6e9798250d98f1e29b52912ff12cd2f07c18b66a"
+      name: ".Visual"
+      props:
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2298"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2281"
+          preferredValues:
+            count: 0
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2381"
+          preferredValues:
+            count: 0
+        Size:
+          type: "VARIANT"
+          defaultValue: "Compact"
+          variantOptions:
+            - "Compact"
+            - "Default"
+            - "Display"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "1443:213"
+    key: "2af8822fb356f3f406a3699cd550f769d5f74985"
+    name: "type=primary, size=middle, state=default"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2259"
+      - "7772:2269"
+      - "I7772:2274;7772:2259"
+      - "I7772:2276;7772:2269"
+      - "I7772:2278;7772:2269"
+      - "I7772:2280;7772:2259"
+    owner:
+      id: "355:86695"
+      key: "f03c71eefac1f21c6a0a82a113e57382e3d727d5"
+      name: "button"
+      props:
+        "show right icon#1017:0":
+          type: "BOOLEAN"
+          defaultValue: true
+        "show left icon#1017:13":
+          type: "BOOLEAN"
+          defaultValue: true
+        "text#1205:13":
+          type: "TEXT"
+          defaultValue: "Default"
+        "left icon#2828:101":
+          type: "INSTANCE_SWAP"
+          defaultValue: "3717:1976"
+          preferredValues:
+            count: 1512
+        "right icon#2828:162":
+          type: "INSTANCE_SWAP"
+          defaultValue: "3717:1976"
+          preferredValues:
+            count: 1512
+        type:
+          type: "VARIANT"
+          defaultValue: "primary"
+          variantOptions:
+            - "primary"
+            - "default"
+            - "text"
+            - "link"
+        size:
+          type: "VARIANT"
+          defaultValue: "large"
+          variantOptions:
+            - "large"
+            - "middle"
+            - "small"
+        state:
+          type: "VARIANT"
+          defaultValue: "default"
+          variantOptions:
+            - "default"
+            - "hover"
+            - "press"
+            - "disabled"
+            - "focus"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "3717:1976"
+    key: "46d251bb4099700c5852180f2370d265e5166432"
+    name: "Format=Outline, Weight=Light"
+    locality: "REMOTE"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "I7772:2259;1443:214"
+      - "I7772:2259;1443:216"
+      - "I7772:2261;1443:226"
+      - "I7772:2261;1443:228"
+      - "I7772:2269;1443:214"
+      - "I7772:2269;1443:216"
+      - "I7772:2271;1443:226"
+      - "I7772:2271;1443:228"
+      - "I7772:2274;7772:2259;1443:214"
+      - "I7772:2274;7772:2259;1443:216"
+      - "I7772:2274;7772:2261;1443:226"
+      - "I7772:2274;7772:2261;1443:228"
+      - "I7772:2276;7772:2269;1443:214"
+      - "I7772:2276;7772:2269;1443:216"
+      - "I7772:2276;7772:2271;1443:226"
+      - "I7772:2276;7772:2271;1443:228"
+      - "I7772:2278;7772:2269;1443:214"
+      - "I7772:2278;7772:2269;1443:216"
+      - "I7772:2278;7772:2271;1443:226"
+      - "I7772:2278;7772:2271;1443:228"
+      - "I7772:2280;7772:2259;1443:214"
+      - "I7772:2280;7772:2259;1443:216"
+      - "I7772:2280;7772:2261;1443:226"
+      - "I7772:2280;7772:2261;1443:228"
+    owner:
+      id: "3717:1973"
+      key: "322a346f2ce54ea1534d8b0a682a8139d9f20e87"
+      name: "PlusCircle"
+      props:
+        Format:
+          type: "VARIANT"
+          defaultValue: "Stroke"
+          variantOptions:
+            - "Outline"
+            - "Stroke"
+        Weight:
+          type: "VARIANT"
+          defaultValue: "Regular"
+          variantOptions:
+            - "Bold"
+            - "Duotone"
+            - "Fill"
+            - "Light"
+            - "Regular"
+            - "Thin"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "1443:225"
+    key: "b07982dd1ea8c5454204d3838b07ac634f2ea022"
+    name: "type=link, size=middle, state=default"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2261"
+      - "7772:2271"
+      - "I7772:2274;7772:2261"
+      - "I7772:2276;7772:2271"
+      - "I7772:2278;7772:2271"
+      - "I7772:2280;7772:2261"
+    owner:
+      id: "355:86695"
+      key: "f03c71eefac1f21c6a0a82a113e57382e3d727d5"
+      name: "button"
+      props:
+        "show right icon#1017:0":
+          type: "BOOLEAN"
+          defaultValue: true
+        "show left icon#1017:13":
+          type: "BOOLEAN"
+          defaultValue: true
+        "text#1205:13":
+          type: "TEXT"
+          defaultValue: "Default"
+        "left icon#2828:101":
+          type: "INSTANCE_SWAP"
+          defaultValue: "3717:1976"
+          preferredValues:
+            count: 1512
+        "right icon#2828:162":
+          type: "INSTANCE_SWAP"
+          defaultValue: "3717:1976"
+          preferredValues:
+            count: 1512
+        type:
+          type: "VARIANT"
+          defaultValue: "primary"
+          variantOptions:
+            - "primary"
+            - "default"
+            - "text"
+            - "link"
+        size:
+          type: "VARIANT"
+          defaultValue: "large"
+          variantOptions:
+            - "large"
+            - "middle"
+            - "small"
+        state:
+          type: "VARIANT"
+          defaultValue: "default"
+          variantOptions:
+            - "default"
+            - "hover"
+            - "press"
+            - "disabled"
+            - "focus"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2227"
+    key: "2ba0b5edc3859c3322a2cf4974a1536cdc037037"
+    name: "Size=Compact"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2264"
+      - "I7772:2276;7772:2264"
+      - "I7772:2278;7772:2264"
+    owner:
+      id: "7772:2226"
+      key: "6e9798250d98f1e29b52912ff12cd2f07c18b66a"
+      name: ".Visual"
+      props:
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2298"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2281"
+          preferredValues:
+            count: 0
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2381"
+          preferredValues:
+            count: 0
+        Size:
+          type: "VARIANT"
+          defaultValue: "Compact"
+          variantOptions:
+            - "Compact"
+            - "Default"
+            - "Display"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2252"
+    key: "ba5ebbdbc82933f6173d9aa07c28d7db89210055"
+    name: "Layout=Default"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2274"
+      - "7772:2280"
+    owner:
+      id: "7772:2251"
+      key: "0119ae9e370ea14475e2bdde27f14a1b93232ce0"
+      name: ".Base Empty State"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          defaultValue: true
+        Layout:
+          type: "VARIANT"
+          defaultValue: "Default"
+          variantOptions:
+            - "Default"
+            - "Compact"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2262"
+    key: "3ebb9710980f31a07f06d1a5becba4d7a84f3d83"
+    name: "Layout=Compact"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "7772:2276"
+      - "7772:2278"
+    owner:
+      id: "7772:2251"
+      key: "0119ae9e370ea14475e2bdde27f14a1b93232ce0"
+      name: ".Base Empty State"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          defaultValue: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          defaultValue: true
+        Layout:
+          type: "VARIANT"
+          defaultValue: "Default"
+          variantOptions:
+            - "Default"
+            - "Compact"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+  - 
+    id: "7772:2231"
+    key: "1ef557f47f25c4e90f8b8919aa5ee159081a1923"
+    name: "Size=Display"
+    locality: "LOCAL"
+    resolution: "PARTIALLY_RESOLVED"
+    used_by:
+      - "I7772:2280;7772:2254"
+    owner:
+      id: "7772:2226"
+      key: "6e9798250d98f1e29b52912ff12cd2f07c18b66a"
+      name: ".Visual"
+      props:
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2298"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2281"
+          preferredValues:
+            count: 0
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          defaultValue: "7772:2381"
+          preferredValues:
+            count: 0
+        Size:
+          type: "VARIANT"
+          defaultValue: "Compact"
+          variantOptions:
+            - "Compact"
+            - "Default"
+            - "Display"
+    evidence_refs:
+      - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+variable_dependencies:
+  - 
+    id: "VariableID:2849:196104"
+    name: "color/background/default"
+    key: "4133fceadb3cde506fd63ae1fbb1bd0878fde9dc"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+    used_by:
+      count: 2
+      example: "7772:2225:boundVariables.fills.0"
+  - 
+    id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    name: "space-8"
+    key: "7fb363c02b1ff5dc045dd2d4d78103e7250f1882"
+    remote: true
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:817e0acc218c1ced4e2774cac5ed7bc90d7a76e4/2868:1"
+      name: "Spacing"
+      modes:
+        - 
+          name: "Mode 1"
+          modeId: "2868:0"
+    values:
+      "2868:0": 8
+    used_by:
+      count: 21
+      example: "7772:2227:boundVariables.itemSpacing"
+  - 
+    id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+    name: "space-24"
+    key: "11e1b5810c078c533d2a0bada6c56c2a3397486a"
+    remote: true
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:817e0acc218c1ced4e2774cac5ed7bc90d7a76e4/2868:1"
+      name: "Spacing"
+      modes:
+        - 
+          name: "Mode 1"
+          modeId: "2868:0"
+    values:
+      "2868:0": 24
+    used_by:
+      count: 12
+      example: "7772:2252:boundVariables.paddingLeft"
+  - 
+    id: "VariableID:562:14"
+    name: "spacing/2xl"
+    key: "3965e6c950b0d2c087a10239085238d836b6bb4c"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:46"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:46"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:46"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:46"
+    used_by:
+      count: 3
+      example: "7772:2253:boundVariables.itemSpacing"
+  - 
+    id: "VariableID:562:10"
+    name: "spacing/xs"
+    key: "90435138fcc3da9fb6d745fd768eea1072696e3e"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+    used_by:
+      count: 6
+      example: "7772:2255:boundVariables.itemSpacing"
+  - 
+    id: "VariableID:2849:196116"
+    name: "color/text/primary"
+    key: "ca2ca2cc17d99357b05a0401d6eb230dfad804b5"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+    used_by:
+      count: 24
+      example: "7772:2256:boundVariables.fills.0"
+  - 
+    id: "VariableID:2845:160896"
+    name: "font/size/xl"
+    key: "323da8a509c222cd4261e41841383e061fc72378"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:710"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:710"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:710"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:710"
+    used_by:
+      count: 6
+      example: "7772:2256:boundVariables.fontSize.0"
+  - 
+    id: "VariableID:2845:160891"
+    name: "font/weight/bold"
+    key: "68953aef437f5350d545fc4a9000b6ca1328f7b2"
+    remote: false
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+    used_by:
+      count: 18
+      example: "7772:2256:boundVariables.fontStyle.0"
+  - 
+    id: "VariableID:2845:160887"
+    name: "font/family/base"
+    key: "5b6478e0ce1305efedeaf4a605843e3af57a32ca"
+    remote: false
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+    used_by:
+      count: 24
+      example: "7772:2256:boundVariables.fontFamily.0"
+  - 
+    id: "VariableID:2845:160893"
+    name: "font/size/sm"
+    key: "127a590c83af7e9167ebd4daaca4658d7e6ca288"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+    used_by:
+      count: 6
+      example: "7772:2257:boundVariables.fontSize.0"
+  - 
+    id: "VariableID:2845:160888"
+    name: "font/weight/regular"
+    key: "d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea"
+    remote: false
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+    used_by:
+      count: 6
+      example: "7772:2257:boundVariables.fontStyle.0"
+  - 
+    id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+    name: "space-16"
+    key: "601c4ae701744c43662da7b3e86d4d4aeafa1175"
+    remote: true
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:817e0acc218c1ced4e2774cac5ed7bc90d7a76e4/2868:1"
+      name: "Spacing"
+      modes:
+        - 
+          name: "Mode 1"
+          modeId: "2868:0"
+    values:
+      "2868:0": 16
+    used_by:
+      count: 15
+      example: "7772:2258:boundVariables.paddingTop"
+  - 
+    id: "VariableID:562:11"
+    name: "spacing/sm"
+    key: "634220d13f50e842b56b814d7b2f7d8049cc0c95"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+    used_by:
+      count: 36
+      example: "7772:2259:boundVariables.itemSpacing"
+  - 
+    id: "VariableID:562:12"
+    name: "spacing/lg"
+    key: "078efa311580f51425cc2454d702721e2acad78f"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+    used_by:
+      count: 27
+      example: "7772:2259:boundVariables.paddingLeft"
+  - 
+    id: "VariableID:562:4"
+    name: "radius/md"
+    key: "31c39dae3354372bf695953f2b7d26172742bdeb"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+    used_by:
+      count: 48
+      example: "7772:2259:boundVariables.topLeftRadius"
+  - 
+    id: "VariableID:2849:197279"
+    name: "color/interactive/primary/default"
+    key: "0be1d4f729e0115993584e7075baede84506f24f"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    used_by:
+      count: 12
+      example: "7772:2259:boundVariables.fills.0"
+  - 
+    id: "VariableID:2849:196142"
+    name: "color/icon/on-brand"
+    key: "a073f8e354fa6ce36ab0d8ac7a78109f53bb54e5"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+    used_by:
+      count: 24
+      example: "I7772:2259;1443:214;8899:53829:boundVariables.fills.0"
+  - 
+    id: "VariableID:2849:196123"
+    name: "color/text/on-brand"
+    key: "21c68664aad258aad360610ceb69cc12c98be563"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+    used_by:
+      count: 12
+      example: "I7772:2259;1443:215:boundVariables.fills.0"
+  - 
+    id: "VariableID:2845:160894"
+    name: "font/size/md"
+    key: "f87fc9e6809b5004a09eba644816f68c7dc60180"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+    used_by:
+      count: 12
+      example: "I7772:2259;1443:215:boundVariables.fontSize.0"
+  - 
+    id: "VariableID:2845:160902"
+    name: "font/line-height/sm"
+    key: "b8aed2fc3d0787610a1d9514cbe56ea42ee5b1e1"
+    remote: false
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:718"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:718"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:718"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:718"
+    used_by:
+      count: 12
+      example: "I7772:2259;1443:215:boundVariables.lineHeight.0"
+  - 
+    id: "VariableID:2849:196141"
+    name: "color/icon/brand"
+    key: "6343eff370d284d2b13be99a19d4fcad477ce4fd"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    used_by:
+      count: 24
+      example: "I7772:2261;1443:226;8899:53829:boundVariables.fills.0"
+  - 
+    id: "VariableID:2849:196121"
+    name: "color/text/brand"
+    key: "80588ae3ad8e2411323f00e7322938e8e73c2ecb"
+    remote: false
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        - 
+          name: "Contable"
+          modeId: "52:2"
+        - 
+          name: "Administrativo"
+          modeId: "2849:0"
+        - 
+          name: "Servicios"
+          modeId: "2849:1"
+        - 
+          name: "Personas"
+          modeId: "2849:2"
+    values:
+      "52:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      "2849:0":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      "2849:1":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      "2849:2":
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    used_by:
+      count: 12
+      example: "I7772:2261;1443:227:boundVariables.fills.0"
+style_dependencies:
+  - 
+    id: "S:d982a6106715de577a0afa3c783898a7e8a53cdd,48635:27"
+    name: "H3 (18px)/Normal"
+    remote: true
+    type: "TEXT"
+    used_by:
+      - "I7772:2280;7772:2256:textStyleId"
+  - 
+    id: "S:eafff5b8f67908f744a3d7d88cc72940c0434877,48635:35"
+    name: "Text2 (14px)/Normal"
+    remote: true
+    type: "TEXT"
+    used_by:
+      - "I7772:2280;7772:2257:textStyleId"
+properties:
+  definitions:
+    - 
+      name: "🎨 Use Cases"
+      type: "VARIANT"
+      defaultValue: "Default"
+      variantOptions:
+        - "Default"
+        - "Compact"
+        - "Inline"
+        - "Main"
+  observed:
+    - 
+      id: "7772:2274"
+      properties:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2274;7772:2254"
+      properties:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "7772:2276"
+      properties:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2276;7772:2264"
+      properties:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "7772:2278"
+      properties:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: false
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: false
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: false
+        Layout:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2278;7772:2264"
+      properties:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "7772:2280"
+      properties:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2280;7772:2254"
+      properties:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Display"
+          type: "VARIANT"
+          boundVariables: {}
+  available: []
+  unknown:
+    - "Callbacks de acciones y alternativas remotas no inspeccionadas"
+variants:
+  observed_combinations:
+    - 
+      id: "7772:2273"
+      name: "🎨 Use Cases=Default"
+    - 
+      id: "7772:2275"
+      name: "🎨 Use Cases=Compact"
+    - 
+      id: "7772:2277"
+      name: "🎨 Use Cases=Inline"
+    - 
+      id: "7772:2279"
+      name: "🎨 Use Cases=Main"
+  available_values:
+    - "Default"
+    - "Compact"
+    - "Inline"
+    - "Main"
+  unknown: []
+states:
+  observed:
+    - "Presets visuales, no estados de interacción"
+  available: []
+  unknown:
+    - "No hay regla de negocio de no-datos expuesta"
+layout:
+  node:
+    layoutMode: "VERTICAL"
+    padding:
+      - 16
+      - 16
+      - 16
+      - 16
+    gap: 16
+  children:
+    - 
+      id: "7772:2273"
+      parent: "7772:2272"
+      name: "🎨 Use Cases=Default"
+      type: "COMPONENT"
+      box:
+        - 16
+        - 16
+        - 696
+        - 532
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound: {}
+    - 
+      id: "7772:2274"
+      parent: "7772:2273"
+      name: ".Base Empty State"
+      type: "INSTANCE"
+      box:
+        - 0
+        - 0
+        - 696
+        - 532
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 0
+        - 24
+        - 24
+        - 24
+        - 24
+      refs: {}
+      bound:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2274;7772:2253"
+      parent: "7772:2274"
+      name: "Content Container"
+      type: "FRAME"
+      box:
+        - 24
+        - 24
+        - 648
+        - 380
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 32
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:14"
+    - 
+      id: "I7772:2274;7772:2254"
+      parent: "I7772:2274;7772:2253"
+      name: "↪️ Visual"
+      type: "INSTANCE"
+      box:
+        - 184
+        - 0
+        - 280
+        - 280
+      visible: true
+      layout:
+        - "HORIZONTAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 0
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Visual#317:6"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      props:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2274;7772:2255"
+      parent: "I7772:2274;7772:2253"
+      name: "Text Container"
+      type: "FRAME"
+      box:
+        - 74
+        - 312
+        - 500
+        - 68
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 4
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+    - 
+      id: "I7772:2274;7772:2258"
+      parent: "7772:2274"
+      name: "Main Action Container"
+      type: "FRAME"
+      box:
+        - 286.5
+        - 404
+        - 123
+        - 56
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 16
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Main Action#317:8"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+    - 
+      id: "I7772:2274;7772:2260"
+      parent: "7772:2274"
+      name: "Supporting Action Container"
+      type: "FRAME"
+      box:
+        - 287
+        - 460
+        - 122
+        - 48
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FIXED"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 8
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Supporting Action#317:7"
+      bound:
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    - 
+      id: "7772:2275"
+      parent: "7772:2272"
+      name: "🎨 Use Cases=Compact"
+      type: "COMPONENT"
+      box:
+        - 16
+        - 564
+        - 696
+        - 366
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound: {}
+    - 
+      id: "7772:2276"
+      parent: "7772:2275"
+      name: ".Base Empty State"
+      type: "INSTANCE"
+      box:
+        - 0
+        - 0
+        - 696
+        - 366
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 0
+        - 16
+        - 16
+        - 16
+        - 16
+      refs: {}
+      bound:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2276;7772:2263"
+      parent: "7772:2276"
+      name: "Content Container"
+      type: "FRAME"
+      box:
+        - 16
+        - 16
+        - 664
+        - 234
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 16
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:12"
+    - 
+      id: "I7772:2276;7772:2264"
+      parent: "I7772:2276;7772:2263"
+      name: "↪️ Visual"
+      type: "INSTANCE"
+      box:
+        - 257
+        - 0
+        - 150
+        - 150
+      visible: true
+      layout:
+        - "HORIZONTAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 0
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Visual#317:6"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      props:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2276;7772:2265"
+      parent: "I7772:2276;7772:2263"
+      name: "Text Container"
+      type: "FRAME"
+      box:
+        - 82
+        - 166
+        - 500
+        - 68
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 4
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+    - 
+      id: "I7772:2276;7772:2268"
+      parent: "7772:2276"
+      name: "Main Action Container"
+      type: "FRAME"
+      box:
+        - 286.5
+        - 250
+        - 123
+        - 52
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 12
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Main Action#317:8"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    - 
+      id: "I7772:2276;7772:2270"
+      parent: "7772:2276"
+      name: "Supporting Action Container"
+      type: "FRAME"
+      box:
+        - 287
+        - 302
+        - 122
+        - 48
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FIXED"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 8
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Supporting Action#317:7"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    - 
+      id: "7772:2277"
+      parent: "7772:2272"
+      name: "🎨 Use Cases=Inline"
+      type: "COMPONENT"
+      box:
+        - 16
+        - 946
+        - 696
+        - 120
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound: {}
+    - 
+      id: "7772:2278"
+      parent: "7772:2277"
+      name: ".Base Empty State"
+      type: "INSTANCE"
+      box:
+        - 0
+        - 0
+        - 696
+        - 120
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 0
+        - 16
+        - 16
+        - 16
+        - 16
+      refs: {}
+      bound:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: false
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: false
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: false
+        Layout:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2278;7772:2263"
+      parent: "7772:2278"
+      name: "Content Container"
+      type: "FRAME"
+      box:
+        - 16
+        - 16
+        - 664
+        - 40
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 16
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:12"
+    - 
+      id: "I7772:2278;7772:2264"
+      parent: "I7772:2278;7772:2263"
+      name: "↪️ Visual"
+      type: "INSTANCE"
+      box:
+        - 143.5
+        - 0
+        - 150
+        - 150
+      visible: false
+      layout:
+        - "HORIZONTAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 0
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Visual#317:6"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      props:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Compact"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2278;7772:2265"
+      parent: "I7772:2278;7772:2263"
+      name: "Text Container"
+      type: "FRAME"
+      box:
+        - 82
+        - 0
+        - 500
+        - 40
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 4
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+    - 
+      id: "I7772:2278;7772:2268"
+      parent: "7772:2278"
+      name: "Main Action Container"
+      type: "FRAME"
+      box:
+        - 173
+        - 274
+        - 123
+        - 52
+      visible: false
+      layout:
+        - "VERTICAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 12
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Main Action#317:8"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    - 
+      id: "I7772:2278;7772:2270"
+      parent: "7772:2278"
+      name: "Supporting Action Container"
+      type: "FRAME"
+      box:
+        - 287
+        - 56
+        - 122
+        - 48
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FIXED"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 8
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Supporting Action#317:7"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    - 
+      id: "7772:2279"
+      parent: "7772:2272"
+      name: "🎨 Use Cases=Main"
+      type: "COMPONENT"
+      box:
+        - 16
+        - 1082
+        - 696
+        - 572
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound: {}
+    - 
+      id: "7772:2280"
+      parent: "7772:2279"
+      name: "Properties"
+      type: "INSTANCE"
+      box:
+        - 0
+        - 0
+        - 696
+        - 572
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 0
+        - 24
+        - 24
+        - 24
+        - 24
+      refs: {}
+      bound:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+      props:
+        "Has Title#317:4":
+          type: "BOOLEAN"
+          value: true
+        "Has Visual#317:6":
+          type: "BOOLEAN"
+          value: true
+        "Has Supporting Action#317:7":
+          type: "BOOLEAN"
+          value: true
+        "Has Main Action#317:8":
+          type: "BOOLEAN"
+          value: true
+        Layout:
+          value: "Default"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2280;7772:2253"
+      parent: "7772:2280"
+      name: "Content Container"
+      type: "FRAME"
+      box:
+        - 24
+        - 24
+        - 648
+        - 420
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 32
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:14"
+    - 
+      id: "I7772:2280;7772:2254"
+      parent: "I7772:2280;7772:2253"
+      name: "↪️ Visual"
+      type: "INSTANCE"
+      box:
+        - 74
+        - 0
+        - 500
+        - 320
+      visible: true
+      layout:
+        - "HORIZONTAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 8
+        - 0
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Visual#317:6"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+      props:
+        "Medium Illustration#376:4":
+          type: "INSTANCE_SWAP"
+          value: "7772:2381"
+          preferredValues:
+            count: 0
+        "Small Illustration#376:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2281"
+          preferredValues:
+            count: 0
+        "Large Illustration#317:0":
+          type: "INSTANCE_SWAP"
+          value: "7772:2298"
+          preferredValues:
+            count: 0
+        Size:
+          value: "Display"
+          type: "VARIANT"
+          boundVariables: {}
+    - 
+      id: "I7772:2280;7772:2255"
+      parent: "I7772:2280;7772:2253"
+      name: "Text Container"
+      type: "FRAME"
+      box:
+        - 74
+        - 352
+        - 500
+        - 68
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FILL"
+        - "HUG"
+        - "MIN"
+        - "CENTER"
+        - 4
+        - 0
+        - 0
+        - 0
+        - 0
+      refs: {}
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+    - 
+      id: "I7772:2280;7772:2258"
+      parent: "7772:2280"
+      name: "Main Action Container"
+      type: "FRAME"
+      box:
+        - 286.5
+        - 444
+        - 123
+        - 56
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "HUG"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 16
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Main Action#317:8"
+      bound:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+    - 
+      id: "I7772:2280;7772:2260"
+      parent: "7772:2280"
+      name: "Supporting Action Container"
+      type: "FRAME"
+      box:
+        - 287
+        - 500
+        - 122
+        - 48
+      visible: true
+      layout:
+        - "VERTICAL"
+        - "FIXED"
+        - "HUG"
+        - "MIN"
+        - "MIN"
+        - 8
+        - 8
+        - 0
+        - 0
+        - 0
+      refs:
+        visible: "Has Supporting Action#317:7"
+      bound:
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+  relationships:
+    - "Título/descripción centrados max500; raíz vertical HUG; ilustración 150/280/500×320 según preset"
+visual:
+  node:
+    fills: []
+  descendants:
+    - 
+      id: "7772:2287"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2289"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2291"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0.6980392336845398
+            b: 0.40392157435417175
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2293"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0.6980392336845398
+            b: 0.40392157435417175
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2295"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0.6980392336845398
+            b: 0.40392157435417175
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2297"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0.6980392336845398
+            b: 0.40392157435417175
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2304"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2306"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2308"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2309"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2310"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2312"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2313"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2314"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2316"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2317"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2318"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2320"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2321"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2322"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2329"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2331"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2333"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2334"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2335"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2337"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2338"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2339"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2341"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2343"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2344"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2345"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 1
+            g: 0.7647058963775635
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2352"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2354"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2357"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.9647058844566345
+            g: 0.9686274528503418
+            b: 0.9843137264251709
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2359"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.9647058844566345
+            g: 0.9686274528503418
+            b: 0.9843137264251709
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2361"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.9647058844566345
+            g: 0.9686274528503418
+            b: 0.9843137264251709
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2363"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.9647058844566345
+            g: 0.9686274528503418
+            b: 0.9843137264251709
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2367"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2371"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2374"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2376"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2378"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2380"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2387"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0
+            g: 0
+            b: 0
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2389"
+      type: "VECTOR"
+      isMask: false
+      fills:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.1568627506494522
+            g: 0.1568627506494522
+            b: 0.1568627506494522
+          opacity: 1
+      strokes: []
+    - 
+      id: "7772:2391"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+    - 
+      id: "7772:2393"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+    - 
+      id: "7772:2395"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+    - 
+      id: "7772:2397"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+    - 
+      id: "7772:2399"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+    - 
+      id: "7772:2401"
+      type: "VECTOR"
+      isMask: false
+      fills: []
+      strokes:
+        - 
+          type: "SOLID"
+          color:
+            r: 0.4313725531101227
+            g: 0.4313725531101227
+            b: 1
+          opacity: 1
+  icons: []
+typography:
+  styles:
+    - 
+      id: "S:d982a6106715de577a0afa3c783898a7e8a53cdd,48635:27"
+      name: "H3 (18px)/Normal"
+      remote: true
+      type: "TEXT"
+      used_by:
+        - "I7772:2280;7772:2256:textStyleId"
+    - 
+      id: "S:eafff5b8f67908f744a3d7d88cc72940c0434877,48635:35"
+      name: "Text2 (14px)/Normal"
+      remote: true
+      type: "TEXT"
+      used_by:
+        - "I7772:2280;7772:2257:textStyleId"
+  text_runs:
+    - 
+      profile:
+        name: "Title"
+        visible: true
+        characters: "Write the bottom line first & keep it short"
+        font:
+          family: "Manrope"
+          style: "Bold"
+          variationSettings:
+            wght: 700
+        size: 24
+        lineHeight:
+          unit: "PIXELS"
+          value: 24
+        letterSpacing:
+          unit: "PERCENT"
+          value: -0.5
+        auto: "HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.05882352963089943
+              g: 0.09019608050584793
+              b: 0.16470588743686676
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196116"
+        style: ""
+      nodes:
+        - 
+          id: "7772:2256"
+          box:
+            - 0
+            - 0
+            - 421
+            - 48
+          refs:
+            visible: "Has Title#317:4"
+        - 
+          id: "7772:2266"
+          box:
+            - 0
+            - 0
+            - 437
+            - 48
+          refs:
+            visible: "Has Title#317:4"
+        - 
+          id: "I7772:2274;7772:2256"
+          box:
+            - 0
+            - 0
+            - 500
+            - 24
+          refs:
+            visible: "Has Title#317:4"
+        - 
+          id: "I7772:2276;7772:2266"
+          box:
+            - 0
+            - 0
+            - 500
+            - 24
+          refs:
+            visible: "Has Title#317:4"
+    - 
+      profile:
+        name: "Description"
+        visible: true
+        characters: "Give more context here. Explain what the user will gain by taking action. If you have more to say, add a link below."
+        font:
+          family: "Manrope"
+          style: "Regular"
+          variationSettings:
+            wght: 400
+        size: 14
+        lineHeight:
+          unit: "PIXELS"
+          value: 20
+        letterSpacing:
+          unit: "PIXELS"
+          value: 0
+        auto: "HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.05882352963089943
+              g: 0.09019608050584793
+              b: 0.16470588743686676
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196116"
+        style: ""
+      nodes:
+        - 
+          id: "7772:2257"
+          box:
+            - 0
+            - 52
+            - 421
+            - 40
+          refs: {}
+        - 
+          id: "7772:2267"
+          box:
+            - 0
+            - 52
+            - 437
+            - 40
+          refs: {}
+        - 
+          id: "I7772:2274;7772:2257"
+          box:
+            - 0
+            - 28
+            - 500
+            - 40
+          refs: {}
+        - 
+          id: "I7772:2276;7772:2267"
+          box:
+            - 0
+            - 28
+            - 500
+            - 40
+          refs: {}
+        - 
+          id: "I7772:2278;7772:2267"
+          box:
+            - 0
+            - 0
+            - 500
+            - 40
+          refs: {}
+    - 
+      profile:
+        name: "label-text"
+        visible: true
+        characters: "Main action"
+        font:
+          family: "Manrope"
+          style: "Bold"
+          variationSettings:
+            wght: 700
+        size: 16
+        lineHeight:
+          unit: "PIXELS"
+          value: 20
+        letterSpacing:
+          unit: "PERCENT"
+          value: 0.10000000149011612
+        auto: "WIDTH_AND_HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 1
+              g: 1
+              b: 1
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196123"
+        style: ""
+      nodes:
+        - 
+          id: "I7772:2259;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2269;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2274;7772:2259;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2276;7772:2269;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2278;7772:2269;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2280;7772:2259;1443:215"
+          box:
+            - 16
+            - 10
+            - 91
+            - 20
+          refs:
+            characters: "text#1205:13"
+    - 
+      profile:
+        name: "label-text"
+        visible: true
+        characters: "Read more"
+        font:
+          family: "Manrope"
+          style: "Bold"
+          variationSettings:
+            wght: 700
+        size: 16
+        lineHeight:
+          unit: "PIXELS"
+          value: 20
+        letterSpacing:
+          unit: "PERCENT"
+          value: 0.10000000149011612
+        auto: "WIDTH_AND_HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.19607843458652496
+              g: 0.3333333432674408
+              b: 0.9686274528503418
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196121"
+        style: ""
+      nodes:
+        - 
+          id: "I7772:2261;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2271;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2274;7772:2261;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2276;7772:2271;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2278;7772:2271;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+        - 
+          id: "I7772:2280;7772:2261;1443:227"
+          box:
+            - 19.5
+            - 10
+            - 83
+            - 20
+          refs:
+            characters: "text#1205:13"
+    - 
+      profile:
+        name: "Title"
+        visible: false
+        characters: "Write the bottom line first & keep it short"
+        font:
+          family: "Manrope"
+          style: "Bold"
+          variationSettings:
+            wght: 700
+        size: 24
+        lineHeight:
+          unit: "PIXELS"
+          value: 24
+        letterSpacing:
+          unit: "PERCENT"
+          value: -0.5
+        auto: "HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.05882352963089943
+              g: 0.09019608050584793
+              b: 0.16470588743686676
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196116"
+        style: ""
+      nodes:
+        - 
+          id: "I7772:2278;7772:2266"
+          box:
+            - 0
+            - 0
+            - 437
+            - 48
+          refs:
+            visible: "Has Title#317:4"
+    - 
+      profile:
+        name: "Title"
+        visible: true
+        characters: "Write the bottom line first & keep it short"
+        font:
+          family: "Poppins"
+          style: "Medium"
+        size: 18
+        lineHeight:
+          unit: "PIXELS"
+          value: 24
+        letterSpacing:
+          unit: "PERCENT"
+          value: -0.5
+        auto: "HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.05882352963089943
+              g: 0.09019608050584793
+              b: 0.16470588743686676
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196116"
+        style: "S:d982a6106715de577a0afa3c783898a7e8a53cdd,48635:27"
+      nodes:
+        - 
+          id: "I7772:2280;7772:2256"
+          box:
+            - 0
+            - 0
+            - 500
+            - 24
+          refs:
+            visible: "Has Title#317:4"
+    - 
+      profile:
+        name: "Description"
+        visible: true
+        characters: "Give more context here. Explain what the user will gain by taking action. If you have more to say, add a link below."
+        size: 14
+        lineHeight:
+          unit: "PIXELS"
+          value: 20
+        letterSpacing:
+          unit: "PIXELS"
+          value: 0
+        auto: "HEIGHT"
+        align: "CENTER"
+        fills:
+          - 
+            type: "SOLID"
+            visible: true
+            opacity: 1
+            blendMode: "NORMAL"
+            color:
+              r: 0.05882352963089943
+              g: 0.09019608050584793
+              b: 0.16470588743686676
+            boundVariables:
+              color:
+                type: "VARIABLE_ALIAS"
+                id: "VariableID:2849:196116"
+        style: "S:eafff5b8f67908f744a3d7d88cc72940c0434877,48635:35"
+      nodes:
+        - 
+          id: "I7772:2280;7772:2257"
+          box:
+            - 0
+            - 28
+            - 500
+            - 40
+          refs: {}
+  mixed_runs:
+    - 
+      id: "I7772:2280;7772:2257"
+      runs:
+        - 
+          characters: "Give more context here. Explain what the user will gain by taking action. If you have more to say, add a link below."
+          start: 0
+          end: 116
+          fontSize: 14
+          fontName:
+            family: "Figtree"
+            style: "Regular"
+            variationSettings:
+              wght: 400
+          lineHeight:
+            unit: "PIXELS"
+            value: 20
+          letterSpacing:
+            unit: "PIXELS"
+            value: 0
+tokens:
+  summary:
+    total: 22
+    local: 19
+    remote: 3
+  categories: {}
+  source: "variable_dependencies"
+content:
+  example_content:
+    observed_strings:
+      - "Write the bottom line first & keep it short"
+      - "Give more context here. Explain what the user will gain by taking action. If you have more to say, add a link below."
+      - "Main action"
+      - "Read more"
+  component_rules: []
+  truncation_and_wrapping:
+    - "Texto con HEIGHT y alineación CENTER observado"
+interactions:
+  status: "FIGMA_DEFINED"
+  reason: "12 reacciones heredadas de Buttons; no callbacks de producto"
+  rules:
+    - 
+      id: "7772:2259"
+      reactions:
+        - 
+          action:
+            type: "NODE"
+            destinationId: "1512:45255"
+            navigation: "CHANGE_TO"
+            transition: null
+            resetVideoPosition: false
+          actions:
+            - 
+              type: "NODE"
+              destinationId: "1512:45255"
+              navigation: "CHANGE_TO"
+              transition: null
+              resetVideoPosition: false
+          trigger:
+            type: "ON_HOVER"
+    - 
+      id: "7772:2261"
+      reactions:
+        - 
+          action:
+            type: "NODE"
+            destinationId: "1512:45267"
+            navigation: "CHANGE_TO"
+            transition: null
+            resetVideoPosition: false
+          actions:
+            - 
+              type: "NODE"
+              destinationId: "1512:45267"
+              navigation: "CHANGE_TO"
+              transition: null
+              resetVideoPosition: false
+          trigger:
+            type: "ON_HOVER"
+semantic_contract:
+  explicit_descriptions:
+    - "Empty states are moments in an app where there is no data to display to the user. They are most commonly seen the first time a user interacts with a product or page, but can be used when data has been deleted or is unavailable."
+  purpose:
+    status: "DEFINED"
+    evidence_layer: "FIGMA_DIRECT"
+    value: "Ausencia de datos según descripción de origen"
+  usage_rules:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+accessibility:
+  status: "REQUIRES_DEFINITION"
+  observed: []
+  undefined:
+    - "Teclado, foco de aplicación, ARIA, semántica de acciones"
+external_dependencies:
+  - 
+    id: "VariableID:7fb363c02b1ff5dc045dd2d4d78103e7250f1882/3515:1"
+    name: "space-8"
+  - 
+    id: "VariableID:11e1b5810c078c533d2a0bada6c56c2a3397486a/3515:3"
+    name: "space-24"
+  - 
+    id: "VariableID:601c4ae701744c43662da7b3e86d4d4aeafa1175/3515:2"
+    name: "space-16"
+unresolved:
+  - "Definición de navegación/callbacks"
+  - "Dependencias alternativas externas no recorridas profundamente"
+implementation_notes:
+  - "OBSERVED: no aprueba reconstrucción. El contrato destino separado rige la normalización a variables locales y Slots."
+evidence:
+  figma_direct:
+    - "sources/figma-snapshots/empty-states.v0.1.0.summary.json"
+    - "sources/figma-snapshots/empty-states.v0.1.0.frames.json"
+    - "sources/figma-snapshots/empty-states.v0.1.0.details.json"
+    - "sources/figma-snapshots/empty-states.v0.1.0.variables.json"
+  derived: []
+  requires_definition:
+    - "Comportamiento de producto"
+  confidence:
+    level: "MEDIUM"
+    reason: "Geometría y consumidores inspeccionados; dependencias profundas incompletas explícitas"
+

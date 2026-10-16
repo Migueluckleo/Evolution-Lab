@@ -1,0 +1,51 @@
+schema: figma-component-contract/1
+contract_id: SRC-FIGMA-SCROLLBAR-001
+status: SOURCE_INSPECTED
+source:
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  page_id: '3910:928'
+  read_only: true
+  inspected: '2026-09-24'
+inventory:
+  component_set_count: 5
+  main_variant_count: 8
+  internal_variant_count: 22
+  traversed_node_count: 125
+  visible_thumb_count: 30
+  reaction_count: 0
+  main_set:
+    id: '7664:49488'
+    key: d3d06e195e2bdb6fc5d2bc9e10f33a8edb2f357c
+    name: Scroll Bar
+    properties:
+      Orientation: [vertical, horizontal]
+      Thumb Size: ['25%', '33%', '50%', '75%']
+    vertical_size: [14, 280]
+    horizontal_size: [280, 16]
+    variants:
+      - {id: '7664:49487', orientation: vertical, thumb_size: '25%', thumb_length: 70}
+      - {id: '7664:49485', orientation: vertical, thumb_size: '33%', thumb_length: 90.666664}
+      - {id: '7664:49482', orientation: vertical, thumb_size: '50%', thumb_length: 136}
+      - {id: '7664:49481', orientation: vertical, thumb_size: '75%', thumb_length: 240}
+      - {id: '7664:49484', orientation: horizontal, thumb_size: '25%', thumb_length: 70}
+      - {id: '7664:49619', orientation: horizontal, thumb_size: '33%', thumb_length: 90.666664}
+      - {id: '7664:49629', orientation: horizontal, thumb_size: '50%', thumb_length: 136}
+      - {id: '7664:49639', orientation: horizontal, thumb_size: '75%', thumb_length: 240}
+  internal_sets:
+    - {id: '7706:49949', name: '25%', key: 34392984edae8dd5693466981a7e00bc30fc399b, variant_count: 8, positions: ['1/4', '2/4', '3/4', '4/4'], thumb_length: 70}
+    - {id: '7706:50034', name: '33%', key: 8ba289690b89b16f97c1bdbb7358ae9bd66f4aa1, variant_count: 6, positions: ['1/3', '2/3', '3/3'], thumb_length: 93.333336}
+    - {id: '7706:50119', name: '50%', key: f89fd5109591def37830a9804ef3cfd9299a72e0, variant_count: 4, positions: ['1/2', '2/2'], thumb_length: 140}
+    - {id: '7706:50204', name: '75%', key: 969ed82706109edc28f5dc06a145e9f9bd5474b8, variant_count: 4, positions: ['1/2', '2/2'], thumb_length: 248}
+observed_style:
+  thumb_rgb: '#C3C6D4'
+  thumb_fill_binding: null
+  thumb_thickness: 6
+  thumb_radius_usual: 3
+  thumb_radius_exception: {set: '75%', position: '2/2', value: 4}
+  track_fill: none
+  internal_horizontal_rotation: -90
+conflicts:
+  - {field: 'Thumb Size=75%', observed_main_ratio: 0.88235, observed_internal_ratio: 0.88571, label_ratio: 0.75}
+unobserved: [dragging, continuous_scroll_position, hover, focus, disabled, keyboard, aria, hit_target]
+destination_ready: true
+destination_contract: specs/scrollbar.contract.v0.1.0.md

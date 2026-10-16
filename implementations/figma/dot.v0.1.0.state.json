@@ -1,0 +1,72 @@
+{
+  "implementationId": "IMP-DOT-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Dots",
+    "pageId": "155:122",
+    "componentSetId": "155:144"
+  },
+  "contract": {
+    "id": "DOT-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "fa4179a3f541f2c390b60a742ffbc39bb03ada198cd7bf03943b08538a4e45cc",
+    "inactiveBorderAmendmentVersion": "0.1.1",
+    "inactiveBorderAmendmentDigestSha256": "5eb352bff505edc9b4298afb1ad6c42a3b11d63f4abdba52e294aaa0b3de4f0c",
+    "sourceMdDigestSha256": "e05bab6a993fe193fe2bc6e29d1b7c1df0adf0c985327fa5808613a5f252ec83",
+    "sourceYamlDigestSha256": "ad1d5d26b52621402aa27a5105e254d707421b94f7688277ebf77ac9bf87b146",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "backgroundDataDigestSha256": "6b78e90c03bf1406807564569ccacdaae15c9ffa4e795b02c7dfdf7151a16667",
+    "borderDataDigestSha256": "edd8a4afe5f70502a395a5a1190aa11db3600b6a84472298f9b3a5e325f8c98a"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1133:20620",
+    "componentSetId": "1133:31549",
+    "componentSetKey": "bc7fd5437899a1868aeba789925329c30d5b6996"
+  },
+  "variantIds": {
+    "Active/Large": "155:123", "Active/Medium": "155:124", "Active/Small": "155:125",
+    "Busy/Large": "155:126", "Busy/Medium": "155:127", "Busy/Small": "155:128",
+    "Inactive/Large": "155:129", "Inactive/Medium": "155:130", "Inactive/Small": "155:131",
+    "Count/Large": "155:132", "Count/Medium": "155:134", "Count/Small": "155:136",
+    "Overflow/Large": "155:138", "Overflow/Medium": "155:140", "Overflow/Small": "155:142"
+  },
+  "propertyKeys": {
+    "count": "Count#155:6",
+    "overflowLabel": "Overflow label#155:7"
+  },
+  "constructionScript": "drafts/figma/dot-build.v0.1.0.js",
+  "constructionScriptDigestSha256": "17208ebcc18b9f5c388362f7a382332f7e22651d2df41cbc3e17d6c4c14041fd",
+  "amendmentScript": "drafts/figma/dot-inactive-border.v0.1.1.js",
+  "amendmentScriptDigestSha256": "0fbd2c78ce782999064aa1872f73e9a94796f77d7dabff846ddcf8ffdc033ed2",
+  "lastReadback": {
+    "variantCount": 15,
+    "componentPropertyCount": 4,
+    "textNodes": 6,
+    "solidPaintBindingsChecked": 36,
+    "backgroundFillBindingsChecked": 15,
+    "strokeBindingsChecked": 15,
+    "textFillBindingsChecked": 6,
+    "cornerBindingsChecked": 60,
+    "strokeSideBindingsChecked": 60,
+    "sizeBindingsChecked": 28,
+    "textFamilyAndWeightBindingsChecked": 12,
+    "semanticScopeIssues": 0,
+    "reactions": 0,
+    "contrast": {"activeOnWhite": 4.93, "busyAndCountOnWhite": 5.53, "inactiveBorderOnWhite": 4.76},
+    "visualReview": "PASS: source 201x290 and target 685x613 inspected; source dimensions and type matrix retained, three Inactive outlines corrected",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Source axis values title-cased and number/number expand renamed Count/Overflow.",
+    "Source icon-role fills replaced by purpose-specific background roles aliased to the same primitives.",
+    "Inactive border changed from white to neutral/500 through a dedicated border role for visibility on white.",
+    "Six hardcoded numeric labels gained two editable TEXT properties.",
+    "Font sizes 4/8 px remain literal and are not claimed to be production-accessible.",
+    "Page title and accessibility note are additional documentation, not variants."
+  ]
+}

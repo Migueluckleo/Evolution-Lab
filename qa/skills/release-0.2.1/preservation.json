@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "legacy_skills_before_equals_after": true,
+  "legacy_skills": {
+    "contpaqi-poc-builder": {
+      "files": 1900,
+      "digest": "22773c3f9ca83a6eb90da076d9b1e00086c47d1ac31ba690ba02d8a783c5a973"
+    },
+    "contpaqi-html-prototype": {
+      "files": 462,
+      "digest": "738c14e094c665360955fb1d7d1f0df995b5e08183eb511d264acc571dfa6602"
+    }
+  },
+  "legacy_hash_method": "sha256(json.dumps({relative_posix_path:sha256(bytes)},sort_keys=True,separators=(comma,colon)).encode()); ensure_ascii=True",
+  "historical_archives": {
+    "output/skills/0.1.0/contpaqi-figma-screens-0.1.0.zip": {
+      "sha256": "6e976e1a6bf705de3c007c33b8adadec2e2b08795ad417763e977a60dce9dbd5",
+      "manifest_archive_sha256": "6e976e1a6bf705de3c007c33b8adadec2e2b08795ad417763e977a60dce9dbd5"
+    },
+    "output/skills/0.1.0/contpaqi-po-prototypes-0.1.0.zip": {
+      "sha256": "5a24c01ed8927802ab197a13b76909ccdf1f4f9b0ea725e1479b168c8f5f4b18",
+      "manifest_archive_sha256": "5a24c01ed8927802ab197a13b76909ccdf1f4f9b0ea725e1479b168c8f5f4b18"
+    },
+    "output/skills/0.2.0/contpaqi-figma-screens-0.2.0.zip": {
+      "sha256": "aad4cad6cf1e07b822c37a46c43571300e4aae22e550b57b3c27ddca98101711",
+      "manifest_archive_sha256": "aad4cad6cf1e07b822c37a46c43571300e4aae22e550b57b3c27ddca98101711"
+    },
+    "output/skills/0.2.0/contpaqi-po-prototypes-0.2.0.zip": {
+      "sha256": "5e1df4fea2997551ada0aa91a4ee6a2885bfa4591614b9b05cba6e2a9e95e038",
+      "manifest_archive_sha256": "5e1df4fea2997551ada0aa91a4ee6a2885bfa4591614b9b05cba6e2a9e95e038"
+    }
+  },
+  "managed_skills_only": [
+    "contpaqi-figma-screens",
+    "contpaqi-po-prototypes"
+  ]
+}

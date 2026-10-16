@@ -1,0 +1,55 @@
+schema: figma-component-contract/0.1
+status: OBSERVED
+source:
+  file_key: 9zs5RMR8LB5wHjW9Bd59BA
+  page_id: '7861:714'
+  section_id: '8029:8263'
+  inspected_on: '2026-09-24'
+sets:
+  - name: Steps
+    id: '8029:8267'
+    key: 8eaa164910d8446a56979798a3300d2c9c79e745
+    variant_count: 6
+    axes:
+      On color: [On White, On Primary]
+      Type: [Gallery, Numbers, Gallery only]
+    sizes_px:
+      Gallery: [191, 32]
+      Numbers: [196, 32]
+      Gallery only: [40, 8]
+  - name: .Dot
+    id: '8029:8294'
+    key: 1785ef249166851048bf78b450f03039530332a4
+    variant_count: 4
+    axes:
+      Primary: ['true', 'false']
+      Selected: ['true', 'false']
+    size_px: [8, 8]
+  - name: .Combination
+    id: '8029:8320'
+    key: 6eb0e6098ffe6c82cb1fc952b9aedc57065de0cd
+    variant_count: 27
+    number_range: [2, 7]
+    step_rule: 1_to_number_inclusive
+    width_rule_px: '16 * Number - 8'
+    height_px: 8
+colors_observed:
+  on_white_selected: '#3255F7'
+  on_white_unselected: '#E2E8F0'
+  on_primary_local_selected: '#FFFFFF'
+  on_primary_local_unselected: '#7D9AFF'
+  on_primary_public_gallery_selected: '#0073EA'
+  on_primary_public_gallery_unselected: '#DCDFEC'
+  on_primary_public_gallery_only_selected: '#3255F7'
+  on_primary_public_gallery_only_unselected: '#E2E8F0'
+  count_on_white: '#323338'
+  count_on_primary: '#FFFFFF'
+anomalies:
+  - public_on_primary_gallery_uses_other_combination
+  - public_on_primary_gallery_only_uses_on_white_colors
+  - dot_hover_reaction_has_null_destination
+behavior_observed:
+  public_reactions: 0
+  combination_reactions: 0
+  dot_reaction_count: 1
+  count_example: '5 / 6'

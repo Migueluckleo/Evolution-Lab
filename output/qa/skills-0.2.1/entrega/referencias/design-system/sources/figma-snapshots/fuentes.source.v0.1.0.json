@@ -1,0 +1,2099 @@
+{
+  "fileKey": "8qsdk3nalNNyCzBfUTrOcP",
+  "nodeId": "64:4164",
+  "capturedAt": "2026-10-09",
+  "type": "COMPONENT_SET",
+  "description": "",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "64:4164",
+      "name": "Fuentes",
+      "type": "COMPONENT_SET",
+      "parent": "0:1",
+      "x": 6679,
+      "y": 428,
+      "width": 388.66668701171875,
+      "height": 122,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "cornerRadius": 5,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "componentPropertyReferences": null
+    },
+    {
+      "id": "64:4163",
+      "name": "State=Default",
+      "type": "COMPONENT",
+      "parent": "64:4164",
+      "x": 16,
+      "y": 16,
+      "width": 167.6666717529297,
+      "height": 90,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "itemSpacing": 8,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "cornerRadius": 8,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": 150,
+      "maxWidth": 168,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "59:4109",
+      "name": "main Info",
+      "type": "FRAME",
+      "parent": "64:4163",
+      "x": 9,
+      "y": 9,
+      "width": 149.6666717529297,
+      "height": 51,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "59:4110",
+      "name": "ID & tipo",
+      "type": "FRAME",
+      "parent": "59:4109",
+      "x": 0,
+      "y": 0,
+      "width": 132,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 4,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "59:4111",
+      "name": "referencia",
+      "type": "INSTANCE",
+      "parent": "59:4110",
+      "x": 0,
+      "y": 2,
+      "width": 12,
+      "height": 12,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 9999,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "properties": {
+        "Overflow label#155:7": {
+          "type": "TEXT",
+          "value": "99+"
+        },
+        "Count#155:6": {
+          "type": "TEXT",
+          "value": "2"
+        },
+        "Type": {
+          "value": "Count",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Size": {
+          "value": "Medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I59:4111;155:135",
+      "name": "Count label",
+      "type": "TEXT",
+      "parent": "59:4111",
+      "x": 4,
+      "y": 0.5,
+      "width": 5,
+      "height": 11,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {
+        "characters": "Count#155:6"
+      },
+      "characters": "2",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "59:4112",
+      "name": "tipo",
+      "type": "TEXT",
+      "parent": "59:4110",
+      "x": 16,
+      "y": 0,
+      "width": 116,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "Manual de referencia",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "59:4113",
+      "name": "Fuente",
+      "type": "TEXT",
+      "parent": "59:4109",
+      "x": 0,
+      "y": 16,
+      "width": 149.6666717529297,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "CONTPAQi®",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4132",
+      "name": "Ubicación",
+      "type": "TEXT",
+      "parent": "59:4109",
+      "x": 0,
+      "y": 32,
+      "width": 53,
+      "height": 19,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "Mi cuenta",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4135",
+      "name": "ruta",
+      "type": "FRAME",
+      "parent": "64:4163",
+      "x": 9,
+      "y": 68,
+      "width": 130,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "64:4131",
+      "name": "breadcrum",
+      "type": "TEXT",
+      "parent": "64:4135",
+      "x": 0,
+      "y": 0,
+      "width": 69,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "generales contpaqi",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4134",
+      "name": "divider",
+      "type": "TEXT",
+      "parent": "64:4135",
+      "x": 69,
+      "y": 0,
+      "width": 12,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4136",
+      "name": "breadcrum",
+      "type": "TEXT",
+      "parent": "64:4135",
+      "x": 81,
+      "y": 0,
+      "width": 49,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "conocimiento",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4162",
+      "name": "State=Hover",
+      "type": "COMPONENT",
+      "parent": "64:4164",
+      "x": 205,
+      "y": 16,
+      "width": 167.6666717529297,
+      "height": 90,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "itemSpacing": 8,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "cornerRadius": 8,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": 150,
+      "maxWidth": 168,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "64:4151",
+      "name": "main Info",
+      "type": "FRAME",
+      "parent": "64:4162",
+      "x": 9,
+      "y": 9,
+      "width": 149.6666717529297,
+      "height": 51,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "64:4152",
+      "name": "ID & tipo",
+      "type": "FRAME",
+      "parent": "64:4151",
+      "x": 0,
+      "y": 0,
+      "width": 132,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 4,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "64:4153",
+      "name": "referencia",
+      "type": "INSTANCE",
+      "parent": "64:4152",
+      "x": 0,
+      "y": 2,
+      "width": 12,
+      "height": 12,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 9999,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "properties": {
+        "Overflow label#155:7": {
+          "type": "TEXT",
+          "value": "99+"
+        },
+        "Count#155:6": {
+          "type": "TEXT",
+          "value": "2"
+        },
+        "Type": {
+          "value": "Count",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Size": {
+          "value": "Medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I64:4153;155:135",
+      "name": "Count label",
+      "type": "TEXT",
+      "parent": "64:4153",
+      "x": 4,
+      "y": 0.5,
+      "width": 5,
+      "height": 11,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {
+        "characters": "Count#155:6"
+      },
+      "characters": "2",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4154",
+      "name": "tipo",
+      "type": "TEXT",
+      "parent": "64:4152",
+      "x": 16,
+      "y": 0,
+      "width": 116,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "Manual de referencia",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4155",
+      "name": "Fuente",
+      "type": "TEXT",
+      "parent": "64:4151",
+      "x": 0,
+      "y": 16,
+      "width": 149.6666717529297,
+      "height": 16,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "CONTPAQi®",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4156",
+      "name": "Ubicación",
+      "type": "TEXT",
+      "parent": "64:4151",
+      "x": 0,
+      "y": 32,
+      "width": 53,
+      "height": 19,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "Mi cuenta",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4157",
+      "name": "ruta",
+      "type": "FRAME",
+      "parent": "64:4162",
+      "x": 9,
+      "y": 68,
+      "width": 130,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "itemSpacing": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {}
+    },
+    {
+      "id": "64:4158",
+      "name": "breadcrum",
+      "type": "TEXT",
+      "parent": "64:4157",
+      "x": 0,
+      "y": 0,
+      "width": 69,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "generales contpaqi",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4159",
+      "name": "divider",
+      "type": "TEXT",
+      "parent": "64:4157",
+      "x": 69,
+      "y": 0,
+      "width": 12,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    },
+    {
+      "id": "64:4160",
+      "name": "breadcrum",
+      "type": "TEXT",
+      "parent": "64:4157",
+      "x": 81,
+      "y": 0,
+      "width": 49,
+      "height": 13,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "reactions": [],
+      "componentPropertyReferences": {},
+      "characters": "conocimiento",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 8,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textStyleId": ""
+    }
+  ],
+  "paints": [
+    {
+      "id": "64:4164",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": false,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4163",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:76ab4b739c34455e7f9b953978a1ae2560b5f115/16:135"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7490196228027344,
+            "g": 0.8078431487083435,
+            "b": 0.9960784316062927
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:128c068517d7fc7193a90887fef4f2cadf2b8a6c/16:43"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "boundVariables": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:76ab4b739c34455e7f9b953978a1ae2560b5f115/16:135"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:128c068517d7fc7193a90887fef4f2cadf2b8a6c/16:43"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "59:4109",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "59:4110",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "59:4111",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9450980424880981,
+            "g": 0.9607843160629272,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:40a1836a16ec366e4a4e814f476c7ea906501ed3/16:139"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:330608aa159490b8691851806261f6e5bf67f146/15:79"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:40a1836a16ec366e4a4e814f476c7ea906501ed3/16:139"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": false,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "I59:4111;155:135",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:68071bf73ebd5934ca05ffb1dd26fb91deb782da/14:19"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e414ecda73fcc59277f2ff185fc7d4384b53f5f3/14:3"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "59:4112",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "59:4113",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:bc42b776e7baffd38a38005f7d6758c9260c7052/16:103"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:bc42b776e7baffd38a38005f7d6758c9260c7052/16:103"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e414ecda73fcc59277f2ff185fc7d4384b53f5f3/14:3"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4132",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4c664b84b945c467c10429e3834408bc1cf69cd7/16:123"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:4c664b84b945c467c10429e3834408bc1cf69cd7/16:123"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4135",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4131",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4134",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4136",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4162",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:a7ba7ef8e52cf1f5940ecbb755563cb3d2d7c8d7/16:247"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7490196228027344,
+            "g": 0.8078431487083435,
+            "b": 0.9960784316062927
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:128c068517d7fc7193a90887fef4f2cadf2b8a6c/16:43"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "boundVariables": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d685f7e485d2544df2baaf3bc2a44d9ea22d2f/15:115"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9365e3927d3d13ce91cc6c8edf391d9e4d1c3ee9/16:19"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:a7ba7ef8e52cf1f5940ecbb755563cb3d2d7c8d7/16:247"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:128c068517d7fc7193a90887fef4f2cadf2b8a6c/16:43"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4151",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4152",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4153",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:76ab4b739c34455e7f9b953978a1ae2560b5f115/16:135"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:330608aa159490b8691851806261f6e5bf67f146/15:79"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d0388354e36a3664a9710cad6ebadacb7eaf56f/16:39"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8d95bd82844fdc431c31a03d15dd434645872310/15:159"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:76ab4b739c34455e7f9b953978a1ae2560b5f115/16:135"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": false,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "I64:4153;155:135",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:68071bf73ebd5934ca05ffb1dd26fb91deb782da/14:19"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e414ecda73fcc59277f2ff185fc7d4384b53f5f3/14:3"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4154",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d368e7be8df104dd3306d748e4764bbdf13b917c/16:107"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4155",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:bc42b776e7baffd38a38005f7d6758c9260c7052/16:103"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:bc42b776e7baffd38a38005f7d6758c9260c7052/16:103"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e414ecda73fcc59277f2ff185fc7d4384b53f5f3/14:3"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4156",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4c664b84b945c467c10429e3834408bc1cf69cd7/16:123"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:4c664b84b945c467c10429e3834408bc1cf69cd7/16:123"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1d66727ab62fa53df2a5ff7c8eb88e094ee08d22/14:27"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4157",
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {},
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {},
+      "strokesIncludedInLayout": true,
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "64:4158",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4159",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    },
+    {
+      "id": "64:4160",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3921568691730499,
+            "g": 0.45490196347236633,
+            "b": 0.545098066329956
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2084313fd93be5bfba80030831d62dd20326fadc/16:111"
+          }
+        ]
+      },
+      "fillStyleId": "",
+      "strokeStyleId": "",
+      "effectStyleId": "",
+      "explicitVariableModes": {}
+    }
+  ],
+  "dependencies": [
+    {
+      "instanceId": "59:4111",
+      "id": "29:914",
+      "key": "210ae593aa5c0007983efdf243cf30644fd86825",
+      "name": "Type=Count, Size=Medium",
+      "remote": true,
+      "parent": {
+        "id": "29:903",
+        "name": "Dot",
+        "type": "COMPONENT_SET"
+      },
+      "description": "",
+      "properties": {
+        "Count#155:6": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Overflow label#155:7": {
+          "type": "TEXT",
+          "defaultValue": "99+"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Active",
+          "variantOptions": [
+            "Active",
+            "Busy",
+            "Inactive",
+            "Count",
+            "Overflow"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "Large",
+            "Medium",
+            "Small"
+          ]
+        }
+      }
+    },
+    {
+      "instanceId": "64:4153",
+      "id": "29:914",
+      "key": "210ae593aa5c0007983efdf243cf30644fd86825",
+      "name": "Type=Count, Size=Medium",
+      "remote": true,
+      "parent": {
+        "id": "29:903",
+        "name": "Dot",
+        "type": "COMPONENT_SET"
+      },
+      "description": "",
+      "properties": {
+        "Count#155:6": {
+          "type": "TEXT",
+          "defaultValue": "1"
+        },
+        "Overflow label#155:7": {
+          "type": "TEXT",
+          "defaultValue": "99+"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Active",
+          "variantOptions": [
+            "Active",
+            "Busy",
+            "Inactive",
+            "Count",
+            "Overflow"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "Large",
+            "Medium",
+            "Small"
+          ]
+        }
+      }
+    }
+  ]
+}

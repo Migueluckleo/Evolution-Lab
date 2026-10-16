@@ -1,0 +1,7 @@
+# Síntesis · Charts 0.1.0
+
+- **Origen:** [clasificación de página](charts.source-classification.v0.1.0.md) y cinco contratos fuente independientes, todos `SOURCE_INSPECTED` y con QA documental `PASS`: labelCell (4), cell (13), Progress chart item (2), Donut (3) y Header (1). Se excluyen cuatro composiciones completas no materializadas como components.
+- **Decisión delegada:** página funcional exclusiva `Charts`; cuatro sets y un main component, 23 definiciones. Nombres destino precisan el rol: Chart Legend Label, Chart Cell, Progress Chart Item, Semi-donut Gauge y Chart Header. Se conservan matrices observadas, nueve instancias locales de leyenda y seis paths vectoriales.
+- **Foundations:** siete roles locales chart con JSON versionado y paridad comprobada en los cuatro modos. Background, shape, border y text se separan por categoría y scope. Los roles aliasan 16 primitivas existentes, sin primitiva nueva.
+- **Diferencias conscientes:** swatch neutro y segunda serie más visibles, avance Gauge más oscuro, Header +1 px para interlineado local y padding lateral Middle de Cell 6 px literal porque la escala no contiene 6. `Ttile` se corrige a `Title`. La muestra `80%` no se sincroniza con anchos de barra sin regla de datos demostrada.
+- **Autoridad y límites:** [contrato destino](../contracts/charts.contract.v0.1.0.md) bajo `DELEGATED_FOR_BUILD`, [enmienda Foundations](../contracts/foundations.chart-colors.amendment.v0.1.0.md), auditoría humana posterior. Figma no define accesibilidad funcional, datos, responsive ni frontend.

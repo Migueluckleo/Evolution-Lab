@@ -1,0 +1,84 @@
+{
+  "id": "7772:2272",
+  "key": "8c4445072ebcd53036f55cd15129ce5e68ecdeb1",
+  "name": "Empty State",
+  "type": "COMPONENT_SET",
+  "description": "Empty states are moments in an app where there is no data to display to the user. They are most commonly seen the first time a user interacts with a product or page, but can be used when data has been deleted or is unavailable.",
+  "parent": {
+    "id": "7772:2225",
+    "name": "Component",
+    "type": "SECTION"
+  },
+  "page": {
+    "id": "3027:406",
+    "name": "❖ Empty states"
+  },
+  "identity": {
+    "position": {
+      "x": 659,
+      "y": 134
+    },
+    "dimensions": {
+      "width": 728,
+      "height": 1670
+    },
+    "visible": true,
+    "clips_content": true,
+    "opacity": 1,
+    "blend_mode": "PASS_THROUGH"
+  },
+  "properties": {
+    "🎨 Use Cases": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Compact",
+        "Inline",
+        "Main"
+      ]
+    }
+  },
+  "children": [
+    {
+      "id": "7772:2273",
+      "name": "🎨 Use Cases=Default",
+      "type": "COMPONENT",
+      "width": 696,
+      "height": 532
+    },
+    {
+      "id": "7772:2275",
+      "name": "🎨 Use Cases=Compact",
+      "type": "COMPONENT",
+      "width": 696,
+      "height": 366
+    },
+    {
+      "id": "7772:2277",
+      "name": "🎨 Use Cases=Inline",
+      "type": "COMPONENT",
+      "width": 696,
+      "height": 120
+    },
+    {
+      "id": "7772:2279",
+      "name": "🎨 Use Cases=Main",
+      "type": "COMPONENT",
+      "width": 696,
+      "height": 572
+    }
+  ],
+  "layout": {
+    "layoutMode": "VERTICAL",
+    "padding": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "gap": 16
+  },
+  "fills": []
+}
+

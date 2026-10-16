@@ -1,0 +1,151 @@
+{
+  "nodes": 4053,
+  "edges": 8830,
+  "communities": 317,
+  "gods": [
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variable_valuesbymode",
+      "label": "valuesByMode",
+      "degree": 30
+    },
+    {
+      "id": "drafts_contracts_button_contract_contrato_candidato_button",
+      "label": "Contrato candidato: Button",
+      "degree": 25
+    },
+    {
+      "id": "specs_components_button_contract_contrato_aprobado_button",
+      "label": "Contrato aprobado: Button",
+      "degree": 25
+    },
+    {
+      "id": "drafts_contracts_filter_chip_contract_filter_chip",
+      "label": "Filter Chip",
+      "degree": 25
+    },
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variables",
+      "label": "variables",
+      "degree": 24
+    },
+    {
+      "id": "drafts_contracts_icon_button_contract_v0_1_0_icon_button_contrato_de_reconstrucción_0_1_0",
+      "label": "Icon Button · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_metric_card_contract_v0_1_0_metric_cards_contrato_de_reconstrucción_0_1_0",
+      "label": "Metric Cards · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_checkbox_contract_v0_1_0_checkbox_contrato_de_reconstrucción_0_1_0",
+      "label": "Checkbox · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_radio_button_contract_v0_1_0_candidate_radio_button_contrato_candidato_de_reconstrucción_0_1_0",
+      "label": "Radio Button · contrato candidato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_radio_button_contract_v0_1_0_radio_button_contrato_candidato_de_reconstrucción_0_1_0",
+      "label": "Radio Button · contrato candidato de reconstrucción 0.1.0",
+      "degree": 23
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Header y Slot construidos: gates de descubrimiento históricos, no tareas activas",
+      "target": "Header: gates previos satisfechos y contrato promovido a specs",
+      "source_files": [
+        "drafts/reports/header.discovery.v0.1.0.md",
+        "qa/contracts/header.v0.1.0.review.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Historical Toggle Mixed pause 24 September",
+      "target": "UX Behavior Contract",
+      "source_files": [
+        "registry/SESSION-HANDOFF-2026-09-24.md",
+        "drafts/behavior/toggle-mixed/behavior-contract.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "P05 Traceability 0.2.3",
+      "target": "Graph operations",
+      "source_files": [
+        "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+        "references/GRAPH-OPERATIONS.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Environment and Tools Protocol",
+      "target": "Graphify",
+      "source_files": [
+        "protocols/01-ENVIRONMENT-AND-TOOLS.md",
+        ".codex/skills/graphify/SKILL.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Dot · restauración del borde Inactive 0.1.2",
+      "target": "Dot source observation 1133:31549",
+      "source_files": [
+        "specs/components/dot.source-color-amendment.v0.1.2.md",
+        "drafts/contracts/dot.source.component-contract.yaml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Environment and Tools Protocol` connect `03 Contract Synthesis` to `Graph Operations`, `Documentation Sources`, `Query`?",
+      "why": "High betweenness centrality (0.006) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Graphify` connect `Query` to `03 Contract Synthesis`?",
+      "why": "High betweenness centrality (0.006) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Icon Button documentary QA 0.1.0`, `Icon Button source observation1430:18850`, `BHC-TOGGLE-MIXED-001: resolución EXACT` to the rest of the system?",
+      "why": "118 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.021900826446280993 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Modal` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07915893630179345 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Filter Chip` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05028305028305028 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Navigation Tab` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.054385964912280704 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

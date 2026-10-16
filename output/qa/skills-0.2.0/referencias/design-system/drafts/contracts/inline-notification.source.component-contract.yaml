@@ -1,0 +1,124 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T00:00:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 46, inspected_nodes: 46, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: []
+component:
+  id: "2778:10287"
+  key: 55b0bfd8fb39f8b1d16eee72f95a1b44481062ec
+  name: Inline Notifications
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "1248:4330", name: Content, type: FRAME}
+  page: {id: "1241:55464", name: "❖ Inline Notifications  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2778-10287", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2778:10287"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  dimensions: {width: 650, height: 990}
+  visible: true
+  clips_content: false
+direct_children:
+  - {id: "2778:10286", name: "type=light", type: COMPONENT, width: 602, height: 104}
+  - {id: "2778:10285", name: "type=success", type: COMPONENT, width: 602, height: 104}
+  - {id: "2778:10283", name: "type=danger", type: COMPONENT, width: 602, height: 104}
+  - {id: "2778:10284", name: "type=warning", type: COMPONENT, width: 602, height: 104}
+  - {id: "2778:10282", name: "type=info", type: COMPONENT, width: 602, height: 104}
+anatomy:
+  functional_tree: [{role: notification_variant, count: 5, children: [leading_icon, title_and_description_column, close_icon], evidence_refs: [E002]}]
+  graphical_details_omitted: ["Phosphor vector geometry is a dependency, not copied into parent anatomy"]
+dependency_inventory:
+  components: {total_instances: 10, total: 6, local: 0, remote: 6, unknown_locality: 0, resolved: 6, partially_resolved: 0, unresolved: 0}
+  variables: {total: 23, local: 18, remote: 5, unknown_locality: 0, resolved: 23, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - {id: "2828:34491", key: 27962798645349b2b27ba120b6bb1db551e4c8a3, name: Confetti, locality: REMOTE, instances: ["2778:10234"], resolution: {status: RESOLVED, evidence: [E003]}}
+  - {id: "3401:841", key: c05dcb9e418a4827e9999640903ed093e850fdc0, name: CheckCircle, locality: REMOTE, instances: ["2778:10250"], resolution: {status: RESOLVED, evidence: [E003]}}
+  - {id: "3401:907", key: a553df531f5cbc790fbf9481e2d13c0a39c6d540, name: XCircle, locality: REMOTE, instances: ["2778:10258"], resolution: {status: RESOLVED, evidence: [E003]}}
+  - {id: "2828:34368", key: 75ba7898c02f2522c78786982ea96e00a557bec0, name: Warning, locality: REMOTE, instances: ["2778:10242"], resolution: {status: RESOLVED, evidence: [E003]}}
+  - {id: "2828:34324", key: 4b8a12b3aa942823e8f1ecea2a3b8af2759cd7cc, name: Info, locality: REMOTE, instances: ["2778:10266"], resolution: {status: RESOLVED, evidence: [E003]}}
+  - {id: "3401:946", key: ad6c943c212c2ceb4f59e3b435e6781f43657387, name: Close, locality: REMOTE, instances: ["2778:10239", "2778:10255", "2778:10263", "2778:10247", "2778:10271"], resolution: {status: RESOLVED, evidence: [E003]}}
+variable_dependencies:
+  - {id: "VariableID:562:12", name: spacing/lg, type: FLOAT, locality: LOCAL, used_by: ["variants:gap-paddingVertical"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:13", name: spacing/xl, type: FLOAT, locality: LOCAL, used_by: ["variants:paddingHorizontal"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:4", name: radius/md, type: FLOAT, locality: LOCAL, used_by: ["variants:corners"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:1154a09b9b9c399f0634f77c5d7935741d5234a5/4331:1214", name: "stroke/stroke-focus ring", type: FLOAT, locality: REMOTE, used_by: ["variants:strokeLeftWeight"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196104", name: color/background/default, type: COLOR, locality: LOCAL, used_by: ["light:background", "icon-instance-hidden-fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:476dc0c24aa3bd4a9d24e145c9b7f14063069900/4360:7", name: icons/md-icon-size, type: FLOAT, locality: REMOTE, used_by: ["leading-icons:size"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196116", name: color/text/primary, type: COLOR, locality: LOCAL, used_by: ["titles:fills", "light-and-close-vectors:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:878b62efa9fa049af5276bb3173a0bc40d615432/5164:1", name: "Spacing/Small/spacing-sm-4", type: FLOAT, locality: REMOTE, used_by: ["text-column:gap"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", type: FLOAT, locality: REMOTE, used_by: ["text-column:padding"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: ["titles:fontFamily"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160894", name: font/size/md, type: FLOAT, locality: LOCAL, used_by: ["titles:fontSize"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196117", name: color/text/secondary, type: COLOR, locality: LOCAL, used_by: ["descriptions:baseFill"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160893", name: font/size/sm, type: FLOAT, locality: LOCAL, used_by: ["descriptions:fontSize"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196121", name: color/text/brand, type: COLOR, locality: LOCAL, used_by: ["descriptions:underlinedFinalRun"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12", name: icons/xsm-icon-size, type: FLOAT, locality: REMOTE, used_by: ["close-icons:size"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196109", name: color/feedback/positive/bg, type: COLOR, locality: LOCAL, used_by: ["success:background"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196143", name: color/feedback/positive/icon, type: COLOR, locality: LOCAL, used_by: ["success:leadingVector"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196111", name: color/feedback/danger/bg, type: COLOR, locality: LOCAL, used_by: ["danger:background"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196145", name: color/feedback/danger/icon, type: COLOR, locality: LOCAL, used_by: ["danger:leadingVector"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196110", name: color/feedback/warning/bg, type: COLOR, locality: LOCAL, used_by: ["warning:background"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196144", name: color/feedback/warning/icon, type: COLOR, locality: LOCAL, used_by: ["warning:leadingVector"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196112", name: color/feedback/information/bg, type: COLOR, locality: LOCAL, used_by: ["info:background"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196146", name: color/feedback/information/icon, type: COLOR, locality: LOCAL, used_by: ["info:leadingVector"], resolution: {status: RESOLVED, evidence: [E004]}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: type, type: VARIANT, default: light, available: [info, light, success, danger, warning]}
+    - {name: show_text_title, type: BOOLEAN, default: true, connected_nodes: 5}
+    - {name: title, type: TEXT, default: Tittle, connected_nodes: 5}
+    - {name: show_text_description, type: BOOLEAN, default: true, connected_nodes: 5}
+    - {name: description, type: TEXT, default: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text.", connected_nodes: 5}
+    - {name: show_icon, type: BOOLEAN, default: true, connected_nodes: 5}
+    - {name: show_dismiss, type: BOOLEAN, default: true, connected_nodes: 5}
+  observed: ["All four Boolean controlled layers visible by default", "No icon INSTANCE_SWAP property"]
+  available: []
+  unknown: []
+variants:
+  observed_combinations:
+    - {type: light, id: "2778:10286"}
+    - {type: success, id: "2778:10285"}
+    - {type: danger, id: "2778:10283"}
+    - {type: warning, id: "2778:10284"}
+    - {type: info, id: "2778:10282"}
+  available_values: [{type: [info, light, success, danger, warning]}]
+  unknown: []
+states: {observed: [light, success, danger, warning, info], available: [], unknown: ["No dismiss interaction or live semantics observed"]}
+layout:
+  node: {node: {id: "2778:10287", name: Inline Notifications, type: COMPONENT_SET}, dimensions: {width: 650, height: 990}, clips_content: false, evidence_refs: [E001]}
+  children: [{node_type: COMPONENT, count: 5, size: [602, 104], layout: HORIZONTAL, padding: [16, 24, 16, 24], gap: 16, radius: 8, evidence_refs: [E002]}]
+  relationships: ["Leading icon 24 + title/description column + close icon 16", "Texts inside content column"]
+visual:
+  node: {size: [650, 990], screenshot: "650x990 inspected inline", evidence_refs: [E006]}
+  descendants: [{type: light, background: "#ffffff"}, {type: success, background: "#e5ffe5"}, {type: danger, background: "#fbe5e5"}, {type: warning, background: "#fdf2c8"}, {type: info, background: "#dbeeff"}]
+  icons: [{name: Confetti, count: 1}, {name: CheckCircle, count: 1}, {name: XCircle, count: 1}, {name: Warning, count: 1}, {name: Info, count: 1}, {name: Close, count: 5}]
+typography:
+  styles: [{role: title, family: Manrope, weight: Regular, size: 16, line_height: "150%"}, {role: description, family: Manrope, size: 14, line_height: "160%"}]
+  text_runs: [{text: Tittle, count: 5, text_property: title}, {text: "Lorem Ipsum example", count: 5, text_property: description}, {text: "simply dummy text.", count: 5, underline: true, hyperlink: null}]
+tokens:
+  summary: {total: 23, local: 18, remote: 5}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: [Tittle, "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum is simply dummy text."]}
+  component_rules: []
+  truncation_and_wrapping: ["Explicit newline in sample description"]
+interactions: {status: UNDEFINED, reason: "Zero reactions; close icon and underlined run have no defined action or hyperlink.", rules: []}
+semantic_contract:
+  explicit_descriptions: []
+  purpose: {status: REQUIRES_PRODUCT_DEFINITION, text: null, evidence_refs: []}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: ["Visible close icon", "Colored type backgrounds and leading icons", "Underlined run without URL"]
+  undefined: ["Status versus alert semantics", "live announcement", "dismiss keyboard action", "link destination", "contrast in context"]
+external_dependencies: []
+unresolved: []
+implementation_notes: ["Title sample has typo", "Light and Close vectors use text-role fill", "Underlined description run is not a hyperlink"]
+evidence:
+  figma_direct: [{id: E001, path: "node:2778:10287", finding: "identity, properties and variants"}, {id: E002, path: "variants:5", finding: "layout, fills, sizing and radius"}, {id: E003, path: "instances:10", finding: "icon mains and keys"}, {id: E004, path: "variables:23", finding: "used variable IDs"}, {id: E005, path: "text:10", finding: "content, typography and no hyperlink"}, {id: E006, path: "node:2778:10287", finding: "650x990 screenshot"}]
+  derived: [{finding: "Five variants, ten instances and 46-node traversal", evidence_refs: [E001, E002, E003]}]
+  requires_definition: ["Message semantics", "dismiss action", "link destination", "accessible announcement"]
+  confidence: {level: HIGH, reason: "Complete source subtree read and screenshot; no behavior inferred."}

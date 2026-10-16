@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "status": "CAUSAL_INHERITANCE_SUPPORTED_FOR_THIS_PILOT",
+  "scope": {
+    "sourceInstanceId": "446:207",
+    "sourceMainId": "149:179",
+    "actorTextId": "149:180",
+    "controlTextId": "149:183",
+    "ratio": "2/3",
+    "sampleTargets": 1
+  },
+  "checks": {
+    "three_independent_readbacks": true,
+    "original_guards_preserved": true,
+    "all_observation_fields_restored": true,
+    "scale_and_main_links_stable": true,
+    "controls_unchanged": true,
+    "principal_ids_exact": true,
+    "instance_ids_blank_throughout": true,
+    "A_instance_recipe_matches_causal_style": true,
+    "B_instance_recipe_matches_causal_style": true,
+    "RESTORED_A_instance_recipe_matches_causal_style": true,
+    "write_scripts_only_actor_range_setter": true,
+    "cleanup_complete": true
+  },
+  "observations": [
+    {
+      "phase": "A",
+      "capturedAt": "2026-10-15T19:43:43.662Z",
+      "mainTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "instanceRecipe": {
+        "characters": "Field Label",
+        "start": 0,
+        "end": 11,
+        "fontSize": 9.333333969116211,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontWeight": 400,
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL",
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 13.333333969116211
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.05882352963089943,
+              "g": 0.09019608050584793,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:27"
+              }
+            }
+          }
+        ],
+        "textStyleId": "",
+        "hyperlink": null,
+        "boundVariables": {
+          "fontStyle": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          },
+          "fontFamily": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        },
+        "textStyleOverrides": [],
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0
+      },
+      "mainHash": "1sokzio.v4i4ae",
+      "instanceHash": "1jvkkj6.s73xo6"
+    },
+    {
+      "phase": "B",
+      "capturedAt": "2026-10-15T19:43:53.655Z",
+      "mainTextStyleId": "S:4ef70322ea2c1d4c083d7717cef8ecbd70dbf555,",
+      "instanceRecipe": {
+        "characters": "Field Label",
+        "start": 0,
+        "end": 11,
+        "fontSize": 13.333333969116211,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontWeight": 600,
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL",
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 150
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -2
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.05882352963089943,
+              "g": 0.09019608050584793,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:27"
+              }
+            }
+          }
+        ],
+        "textStyleId": "",
+        "hyperlink": null,
+        "boundVariables": {
+          "fontStyle": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:5"
+          },
+          "fontFamily": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        },
+        "textStyleOverrides": [],
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0
+      },
+      "mainHash": "myw49u.sf5on0",
+      "instanceHash": "104hmih.1n98e4j"
+    },
+    {
+      "phase": "RESTORED_A",
+      "capturedAt": "2026-10-15T19:44:01.070Z",
+      "mainTextStyleId": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+      "instanceRecipe": {
+        "characters": "Field Label",
+        "start": 0,
+        "end": 11,
+        "fontSize": 9.333333969116211,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontWeight": 400,
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL",
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 13.333333969116211
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.05882352963089943,
+              "g": 0.09019608050584793,
+              "b": 0.16470588743686676
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:27"
+              }
+            }
+          }
+        ],
+        "textStyleId": "",
+        "hyperlink": null,
+        "boundVariables": {
+          "fontStyle": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          },
+          "fontFamily": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        },
+        "textStyleOverrides": [],
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0
+      },
+      "mainHash": "1sokzio.v4i4ae",
+      "instanceHash": "1jvkkj6.s73xo6"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "read-a.result.json",
+      "sha256": "aaa8ec7514fcc7f78ebcb1bfab5214f64961e1b54c9aa298af07b6dad8574dea"
+    },
+    {
+      "file": "read-a.js",
+      "sha256": "f2f55d576ccd39230d6f208827548b74a0cca8664ebbeb3a4588ae3950d3c8c4"
+    },
+    {
+      "file": "set-b.result.json",
+      "sha256": "751e45729ca7ed2394f53fc883b352209d7687288fb6ab54fa6cc81509ea9b0b"
+    },
+    {
+      "file": "set-b.js",
+      "sha256": "0c0d5275a0a01052ac9cb14e4fdb0c0252e80426e7f3847b35505d59ca5ee4fa"
+    },
+    {
+      "file": "read-b.result.json",
+      "sha256": "547af504efd357dc87d28ccffb5cf1588a5f1a9303aa9ea062ed9ec4209e8369"
+    },
+    {
+      "file": "read-b.js",
+      "sha256": "f6e6e911ad8df8289dbd48547d1d0ea87047689922f5a901132536f8428b4a13"
+    },
+    {
+      "file": "restore-a.result.json",
+      "sha256": "c50973a6052a07e2b41518f06bdc189e0ca7dc24b7956537a88041adb28a3355"
+    },
+    {
+      "file": "restore-a.js",
+      "sha256": "0e2d18fb9c71ade5d5667001c8d295c84f06b0bfda78e217fe43947eca96c4b0"
+    },
+    {
+      "file": "read-restored.result.json",
+      "sha256": "77ea0bc958141da603a83e1c6bcbc07d2fdbb8f80dda9d9433c92a229a98eb12"
+    },
+    {
+      "file": "read-restored.js",
+      "sha256": "a8ac1b53622cda838ddfb49d18c03dfcd56f107433eebbc84ed237fc6836f8c6"
+    },
+    {
+      "file": "cleanup.result.json",
+      "sha256": "7b10bf0a0c423be0b965da354d1c6c6e67a042ea52fc8f1fb1e4d8079df02134"
+    },
+    {
+      "file": "cleanup.js",
+      "sha256": "7b99bc3fff014eefbc7c99c3a16256dae08c4f3f0e2e00221c122b2efc4b651b"
+    }
+  ],
+  "limits": [
+    "One isolated copy of one main/instance relation; does not establish coverage of all103 scaled ranges.",
+    "Temporary roots were normalized only for observed root refs {} vs null and the exact local name override; descendants and other overrides remain strict.",
+    "Restoration fingerprints use the pilot canonical snapshot hash; evidence files additionally have SHA256.",
+    "No catalogue, mapping, acceptance rule or final checker changed."
+  ]
+}

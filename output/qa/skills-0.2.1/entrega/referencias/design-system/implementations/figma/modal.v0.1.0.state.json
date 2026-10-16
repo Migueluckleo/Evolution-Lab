@@ -1,0 +1,57 @@
+{
+  "implementationId": "IMP-MODAL-FIGMA-001",
+  "timestamp": "2026-10-01T23:39:52Z",
+  "implementationStatus": "VALIDATED",
+  "scope": "Visual Figma; observed assets, delegated typography normalization and native Slots; not product behavior or WCAG",
+  "contractRef": "specs/modal.contract.v0.1.0.md",
+  "contractVersion": "0.1.0",
+  "contractDigest": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+  "finalManifest": "implementations/figma/modal.v0.1.0.final.json",
+  "documentStatus": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "libraryPublication": "UNPUBLISHED",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "pageId": "565:122",
+  "pageName": "Modal",
+  "components": {
+    "basic": "567:360",
+    "media": "569:301",
+    "sideBySide": "569:327",
+    "header": "566:257",
+    "footer": "566:280",
+    "close": "566:235",
+    "images": [
+      "568:4095",
+      "568:4096"
+    ]
+  },
+  "reviewId": "578:301",
+  "qa": {
+    "slotsChecks": 25,
+    "paintCount": 123,
+    "fontNodes": 53,
+    "semanticTokens": 34,
+    "aliasChecks": 136,
+    "externalVariableReferences": 0,
+    "themeComparisons": 392,
+    "errors": 0
+  },
+  "sourceSnapshot": "sources/figma-snapshots/modal.v0.1.0.source.json",
+  "sourceDigest": "cf55d6f96b11c37b68391198f1f8e3014197dee950fdeccc3f03cc4159d4d60f",
+  "tokenMap": "implementations/figma/modal.v0.1.0.local-token-map.json",
+  "tokenMapDigest": "29436671eeaca843a5d4e3c47d89c2acb6b65b0f0abf98b7fb95722f53a084a6",
+  "finalBindingReadback": "qa/implementations/modal.v0.1.0.local-binding-readback.json",
+  "localRebindEvidence": "qa/implementations/modal.v0.1.0.local-rebind.json",
+  "newVariables": 0,
+  "newPrimitives": 0,
+  "graphStatus": "STALE_AFTER_HEADER_TABLE_MODAL",
+  "nextFamily": "Sidebar",
+  "knownExceptions": [
+    "Typography normalization documented",
+    "Original shadows literal; no token category",
+    "Editorial yellow placeholder removed, empty structural Slot retained",
+    "Servicios contrast; pale dividers and checkbox border",
+    "Dead source navigation not ported",
+    "Slots do not automatically retokenize inserted content; dependencies retain their own contracts"
+  ]
+}

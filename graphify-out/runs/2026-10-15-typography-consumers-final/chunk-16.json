@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_modal_media_desktop_screenshot",
+      "label": "Modal Media desktop screenshot",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "image_size": [
+        1440,
+        900
+      ],
+      "description": "Centered white dialog over a dimmed product-prototype page; purple geometric media occupies upper dialog area, centered title and message below.",
+      "evidence_scope": "Static rendered screenshot; not proof of bindings, click handling or Figma implementation."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "label": "Media dialog composition",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Vertically arranged image region and white text region; rounded outer corners and drop shadow."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_purple_media_artwork",
+      "label": "Purple media artwork",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Lavender abstract geometric artwork with diagonal motifs in the upper region; preserved as visible image content."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_editable_intent_title_and_local_instruction",
+      "label": "Editable intent title and local instruction",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "title_text": "Detalle portable",
+      "message_text": "Presiona M para ver el detalle con contenido variable.",
+      "description": "Centered title and explanatory sentence in white dialog body; editability and keyboard behavior cannot be determined from pixels."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_close_icon_affordance",
+      "label": "Close icon affordance",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Small X at the upper right of the media region; visible affordance only."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__open__1440x900_dimmed_prototype_background",
+      "label": "Dimmed prototype background",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Background shows Prueba portable CONTPAQi heading, Buscar required input, Abrir detalle button and Consulta: vacía feedback under gray scrim."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_modal_media_desktop_screenshot",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_purple_media_artwork",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_editable_intent_title_and_local_instruction",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_close_icon_affordance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_modal_media_desktop_screenshot",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_dimmed_prototype_background",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__open__1440x900_close_icon_affordance",
+      "target": "qa_skills_release_0_2_1_demo__open__1440x900_media_dialog_composition",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE",
+  "usage_note": "Provider token counts unavailable; legacy schema numeric fields are placeholders, not measured usage.",
+  "extraction_method": "Direct vision via view_image of each exact source; no OCR-only extraction and no behavior/Figma validation inferred.",
+  "source_sha256": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--open--1440x900.png": "9440ca97a40d23766bb428c0b386fb2aebe07af32aebb5fc0b4fecf04608f75c"
+  }
+}

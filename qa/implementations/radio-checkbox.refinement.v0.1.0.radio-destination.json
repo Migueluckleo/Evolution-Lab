@@ -1,0 +1,1570 @@
+{
+  "page": {
+    "id": "142:122",
+    "name": "Radio Buttons"
+  },
+  "sets": [
+    {
+      "id": "142:144",
+      "name": "Radio Indicator",
+      "description": "Indicador visual local de Radio Button: Selected True/False × State Default/Hover/Focus/Disabled. Rellenos, bordes y foco vinculados a variables semánticas de AI Design System.",
+      "properties": {
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled"
+          ]
+        }
+      }
+    },
+    {
+      "id": "143:166",
+      "name": "Radio Button",
+      "description": "Opción visual de selección única. Selected True/False y State Default/Hover/Focus/Disabled; etiquetas izquierda y derecha editables, ocultas por defecto. Requiere grupo semántico y nombre accesible en implementación de producto.",
+      "properties": {
+        "Left label#143:32": {
+          "type": "TEXT",
+          "defaultValue": "Field Label"
+        },
+        "Right label#143:33": {
+          "type": "TEXT",
+          "defaultValue": "Field Label"
+        },
+        "Show left label#143:34": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right label#143:35": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled"
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "t": "COMPONENT_SET",
+      "w": 432,
+      "h": 208,
+      "v": true,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "componentPropertyReferences": null,
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "COMPONENT",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:122"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:122"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 8,
+      "h": 8,
+      "v": true,
+      "x": 8,
+      "y": 8,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:35"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:123"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:123"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:140:122"
+          }
+        ],
+        "effects": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:122"
+          },
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:123"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:122"
+            }
+          },
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:123"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:140:122"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:38"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:38"
+            }
+          }
+        }
+      ],
+      "strokes": []
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:123:122"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:35"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:123:122"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:19"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:35"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:19"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:16"
+          }
+        ],
+        "effects": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:122"
+          },
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:136:123"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:122"
+            }
+          },
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.12941177189350128,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 4,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 0,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:136:123"
+            }
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:35"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:16"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "ELLIPSE",
+      "w": 18,
+      "h": 18,
+      "v": true,
+      "x": 3,
+      "y": 3,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "strokeWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:3"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:17"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:35"
+            }
+          }
+        }
+      ],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.886274516582489,
+            "g": 0.9098039269447327,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:17"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "t": "COMPONENT",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        }
+      },
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 0,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show left label#143:34",
+        "characters": "Left label#143:32"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:27"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "INSTANCE",
+      "w": 24,
+      "h": 24,
+      "v": true,
+      "x": 0,
+      "y": 0,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "componentPropertyReferences": {},
+      "boundVariables": {},
+      "effects": [],
+      "fills": [],
+      "strokes": []
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 32,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show right label#143:35",
+        "characters": "Right label#143:33"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:27"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 0,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show left label#143:34",
+        "characters": "Left label#143:32"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:30"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    },
+    {
+      "t": "TEXT",
+      "w": 68,
+      "h": 20,
+      "v": false,
+      "x": 32,
+      "y": 2,
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "characters": "Field Label",
+      "componentPropertyReferences": {
+        "visible": "Show right label#143:35",
+        "characters": "Right label#143:33"
+      },
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:30"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:16"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:9"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:12:8"
+          }
+        ]
+      },
+      "effects": [],
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:13:30"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "textStyleId": ""
+    }
+  ],
+  "nodes": [
+    [
+      "142:144",
+      "Radio Indicator",
+      null,
+      0
+    ],
+    [
+      "142:124",
+      "Selected=True, State=Default",
+      "142:144",
+      1
+    ],
+    [
+      "142:125",
+      "Selected disc",
+      "142:124",
+      2
+    ],
+    [
+      "142:126",
+      "Selected center",
+      "142:124",
+      3
+    ],
+    [
+      "142:127",
+      "Selected=True, State=Hover",
+      "142:144",
+      1
+    ],
+    [
+      "142:128",
+      "Selected disc",
+      "142:127",
+      4
+    ],
+    [
+      "142:129",
+      "Selected center",
+      "142:127",
+      3
+    ],
+    [
+      "142:130",
+      "Selected=True, State=Focus",
+      "142:144",
+      1
+    ],
+    [
+      "142:131",
+      "Selected disc",
+      "142:130",
+      5
+    ],
+    [
+      "142:132",
+      "Selected center",
+      "142:130",
+      3
+    ],
+    [
+      "142:133",
+      "Selected=True, State=Disabled",
+      "142:144",
+      1
+    ],
+    [
+      "142:134",
+      "Selected disc",
+      "142:133",
+      6
+    ],
+    [
+      "142:135",
+      "Selected center",
+      "142:133",
+      3
+    ],
+    [
+      "142:136",
+      "Selected=False, State=Default",
+      "142:144",
+      1
+    ],
+    [
+      "142:137",
+      "Unselected ring",
+      "142:136",
+      7
+    ],
+    [
+      "142:138",
+      "Selected=False, State=Hover",
+      "142:144",
+      1
+    ],
+    [
+      "142:139",
+      "Unselected ring",
+      "142:138",
+      8
+    ],
+    [
+      "142:140",
+      "Selected=False, State=Focus",
+      "142:144",
+      1
+    ],
+    [
+      "142:141",
+      "Unselected ring",
+      "142:140",
+      9
+    ],
+    [
+      "142:142",
+      "Selected=False, State=Disabled",
+      "142:144",
+      1
+    ],
+    [
+      "142:143",
+      "Unselected ring",
+      "142:142",
+      10
+    ],
+    [
+      "143:166",
+      "Radio Button",
+      null,
+      0
+    ],
+    [
+      "143:122",
+      "Selected=True, State=Default",
+      "143:166",
+      11
+    ],
+    [
+      "143:123",
+      "Left label",
+      "143:122",
+      12
+    ],
+    [
+      "143:124",
+      "Radio Indicator",
+      "143:122",
+      13
+    ],
+    [
+      "I143:124;142:125",
+      "Selected disc",
+      "143:124",
+      2
+    ],
+    [
+      "I143:124;142:126",
+      "Selected center",
+      "143:124",
+      3
+    ],
+    [
+      "143:127",
+      "Right label",
+      "143:122",
+      14
+    ],
+    [
+      "143:128",
+      "Selected=True, State=Hover",
+      "143:166",
+      11
+    ],
+    [
+      "143:129",
+      "Left label",
+      "143:128",
+      12
+    ],
+    [
+      "143:130",
+      "Radio Indicator",
+      "143:128",
+      13
+    ],
+    [
+      "I143:130;142:128",
+      "Selected disc",
+      "143:130",
+      4
+    ],
+    [
+      "I143:130;142:129",
+      "Selected center",
+      "143:130",
+      3
+    ],
+    [
+      "143:133",
+      "Right label",
+      "143:128",
+      14
+    ],
+    [
+      "143:134",
+      "Selected=True, State=Focus",
+      "143:166",
+      11
+    ],
+    [
+      "143:135",
+      "Left label",
+      "143:134",
+      12
+    ],
+    [
+      "143:136",
+      "Radio Indicator",
+      "143:134",
+      13
+    ],
+    [
+      "I143:136;142:131",
+      "Selected disc",
+      "143:136",
+      5
+    ],
+    [
+      "I143:136;142:132",
+      "Selected center",
+      "143:136",
+      3
+    ],
+    [
+      "143:139",
+      "Right label",
+      "143:134",
+      14
+    ],
+    [
+      "143:140",
+      "Selected=True, State=Disabled",
+      "143:166",
+      11
+    ],
+    [
+      "143:141",
+      "Left label",
+      "143:140",
+      15
+    ],
+    [
+      "143:142",
+      "Radio Indicator",
+      "143:140",
+      13
+    ],
+    [
+      "I143:142;142:134",
+      "Selected disc",
+      "143:142",
+      6
+    ],
+    [
+      "I143:142;142:135",
+      "Selected center",
+      "143:142",
+      3
+    ],
+    [
+      "143:145",
+      "Right label",
+      "143:140",
+      16
+    ],
+    [
+      "143:146",
+      "Selected=False, State=Default",
+      "143:166",
+      11
+    ],
+    [
+      "143:147",
+      "Left label",
+      "143:146",
+      12
+    ],
+    [
+      "143:148",
+      "Radio Indicator",
+      "143:146",
+      13
+    ],
+    [
+      "I143:148;142:137",
+      "Unselected ring",
+      "143:148",
+      7
+    ],
+    [
+      "143:150",
+      "Right label",
+      "143:146",
+      14
+    ],
+    [
+      "143:151",
+      "Selected=False, State=Hover",
+      "143:166",
+      11
+    ],
+    [
+      "143:152",
+      "Left label",
+      "143:151",
+      12
+    ],
+    [
+      "143:153",
+      "Radio Indicator",
+      "143:151",
+      13
+    ],
+    [
+      "I143:153;142:139",
+      "Unselected ring",
+      "143:153",
+      8
+    ],
+    [
+      "143:155",
+      "Right label",
+      "143:151",
+      14
+    ],
+    [
+      "143:156",
+      "Selected=False, State=Focus",
+      "143:166",
+      11
+    ],
+    [
+      "143:157",
+      "Left label",
+      "143:156",
+      12
+    ],
+    [
+      "143:158",
+      "Radio Indicator",
+      "143:156",
+      13
+    ],
+    [
+      "I143:158;142:141",
+      "Unselected ring",
+      "143:158",
+      9
+    ],
+    [
+      "143:160",
+      "Right label",
+      "143:156",
+      14
+    ],
+    [
+      "143:161",
+      "Selected=False, State=Disabled",
+      "143:166",
+      11
+    ],
+    [
+      "143:162",
+      "Left label",
+      "143:161",
+      15
+    ],
+    [
+      "143:163",
+      "Radio Indicator",
+      "143:161",
+      13
+    ],
+    [
+      "I143:163;142:143",
+      "Unselected ring",
+      "143:163",
+      10
+    ],
+    [
+      "143:165",
+      "Right label",
+      "143:161",
+      16
+    ]
+  ],
+  "instances": [
+    {
+      "id": "143:124",
+      "main": "142:124",
+      "key": "515a5c2c07e4380c3fedaf0cd1fe3439c3b9f247"
+    },
+    {
+      "id": "143:130",
+      "main": "142:127",
+      "key": "8451a3368cfe5dac3e604242b99326e951fdad10"
+    },
+    {
+      "id": "143:136",
+      "main": "142:130",
+      "key": "2f0f26456f1b52364f83eb9bb20670b6f4b74c71"
+    },
+    {
+      "id": "143:142",
+      "main": "142:133",
+      "key": "6e2424ba31faa0f02dca94a5341355d5b20b1393"
+    },
+    {
+      "id": "143:148",
+      "main": "142:136",
+      "key": "2090ea72993eea89c6388156a909cc0c06cc3d5f"
+    },
+    {
+      "id": "143:153",
+      "main": "142:138",
+      "key": "2d27dc68833126f1a2c56352dd0e7048e4a3166a"
+    },
+    {
+      "id": "143:158",
+      "main": "142:140",
+      "key": "51c037fa5adef6ef2d2e9f59eed93fdd84895102"
+    },
+    {
+      "id": "143:163",
+      "main": "142:142",
+      "key": "b3e750f888d12390a99a7eeae05d4c823ad6266c"
+    }
+  ]
+}

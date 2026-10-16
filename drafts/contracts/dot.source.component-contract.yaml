@@ -1,0 +1,127 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T19:45:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 22, inspected_nodes: 22, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: []
+component:
+  id: "1133:31549"
+  key: bc7fd5437899a1868aeba789925329c30d5b6996
+  name: dot
+  type: COMPONENT_SET
+  description: "Source Description present but partly contradicted by structural evidence; not authoritative for variant coverage or automatic behavior."
+  parent: {id: "1133:31515", name: Content, type: FRAME}
+  page: {id: "1133:20620", name: "❖ Dot  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1133-31549", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1133:31549"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 372, y: 57}
+  dimensions: {width: 201, height: 290}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "1133:31550", name: "type=active, size=small", type: COMPONENT, width: 8, height: 8}
+  - {id: "1133:31551", name: "type=active, size=middle", type: COMPONENT, width: 12, height: 12}
+  - {id: "1241:39842", name: "type=active, size=large", type: COMPONENT, width: 16, height: 16}
+  - {id: "1241:39854", name: "type=busy, size=large", type: COMPONENT, width: 16, height: 16}
+  - {id: "1241:39856", name: "type=inactive, size=large", type: COMPONENT, width: 16, height: 16}
+  - {id: "1133:31552", name: "type=number, size=small", type: COMPONENT, width: 8, height: 8}
+  - {id: "1133:31554", name: "type=number, size=middle", type: COMPONENT, width: 12, height: 12}
+  - {id: "1241:39859", name: "type=number, size=large", type: COMPONENT, width: 16, height: 16}
+  - {id: "1133:31556", name: "type=number expand, size=small", type: COMPONENT, width: 12, height: 8}
+  - {id: "1133:31558", name: "type=number expand, size=middle", type: COMPONENT, width: 23, height: 12}
+  - {id: "1241:39851", name: "type=number expand, size=large", type: COMPONENT, width: 23, height: 16}
+  - {id: "1133:31560", name: "type=inactive, size=small", type: COMPONENT, width: 8, height: 8}
+  - {id: "1133:31561", name: "type=inactive, size=middle", type: COMPONENT, width: 12, height: 12}
+  - {id: "1133:31562", name: "type=busy, size=small", type: COMPONENT, width: 8, height: 8}
+  - {id: "1133:31563", name: "type=busy, size=middle", type: COMPONENT, width: 12, height: 12}
+anatomy:
+  functional_tree:
+    - {role: status_or_count_variant, count: 15, children: [optional_numeric_text], evidence_refs: [E002]}
+  graphical_details_omitted: []
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 12, local: 9, remote: 3, unknown_locality: 0, resolved: 12, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", name: radius/radius-full, type: FLOAT, locality: REMOTE, used_by: ["variants:cornerRadii"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", name: stroke/stroke-default, type: FLOAT, locality: REMOTE, used_by: ["variants:strokeSideWeights"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196143", name: color/feedback/positive/icon, type: COLOR, locality: LOCAL, used_by: ["active:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2888:26808", name: color/border/on-brand, type: COLOR, locality: LOCAL, used_by: ["variants:strokes"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196145", name: color/feedback/danger/icon, type: COLOR, locality: LOCAL, used_by: ["busy-number-number-expand:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196113", name: color/background/disabled, type: COLOR, locality: LOCAL, used_by: ["inactive:fills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:1098:28491", name: spacing/none, type: FLOAT, locality: LOCAL, used_by: ["numeric:itemSpacing", "numeric:paddingTopBottom"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: Spacing/Small/spacing-sm-0, type: FLOAT, locality: REMOTE, used_by: ["numeric:paddingTopBottom"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196123", name: color/text/on-brand, type: COLOR, locality: LOCAL, used_by: ["numeric:textFills"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160891", name: font/weight/bold, type: STRING, locality: LOCAL, used_by: ["numeric:fontStyle"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: ["numeric:fontFamily"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:10", name: spacing/xs, type: FLOAT, locality: LOCAL, used_by: ["numeric:paddingLeftRight"], resolution: {status: RESOLVED, evidence: [E004]}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: type, type: VARIANT, default: active, available: [active, busy, inactive, number, "number expand"]}
+    - {name: size, type: VARIANT, default: large, available: [small, middle, large]}
+  observed: ["No TEXT properties; six numeric labels are literal examples."]
+  available: []
+  unknown: []
+variants:
+  observed_combinations:
+    - {type: active, size: small, id: "1133:31550"}
+    - {type: active, size: middle, id: "1133:31551"}
+    - {type: active, size: large, id: "1241:39842"}
+    - {type: busy, size: small, id: "1133:31562"}
+    - {type: busy, size: middle, id: "1133:31563"}
+    - {type: busy, size: large, id: "1241:39854"}
+    - {type: inactive, size: small, id: "1133:31560"}
+    - {type: inactive, size: middle, id: "1133:31561"}
+    - {type: inactive, size: large, id: "1241:39856"}
+    - {type: number, size: small, id: "1133:31552"}
+    - {type: number, size: middle, id: "1133:31554"}
+    - {type: number, size: large, id: "1241:39859"}
+    - {type: "number expand", size: small, id: "1133:31556"}
+    - {type: "number expand", size: middle, id: "1133:31558"}
+    - {type: "number expand", size: large, id: "1241:39851"}
+  available_values: [{type: [active, busy, inactive, number, "number expand"]}, {size: [small, middle, large]}]
+  unknown: []
+states: {observed: [active, busy, inactive, number, "number expand"], available: [], unknown: ["No automatic switching or state transitions observed."]}
+layout:
+  node: {node: {id: "1133:31549", name: dot, type: COMPONENT_SET}, position: {x: 372, y: 57, absolute_x: null, absolute_y: null, unit: px}, layout_mode: NONE, dimensions: {width: 201, height: 290}, clips_content: true, evidence_refs: [E001]}
+  children: [{node_type: COMPONENT, count: 15, sizes: [[8, 8], [12, 12], [16, 16], [12, 8], [23, 12], [23, 16]], radius: full, outer_stroke: 1, evidence_refs: [E002]}]
+  relationships: ["Five types by three sizes; numeric types contain one direct TEXT child."]
+visual:
+  node: {size: [201, 290], screenshot: "201x290 inspected inline", evidence_refs: [E005]}
+  descendants: [{role: active, fill: "#098300"}, {role: busy_and_count, fill: "#d40000"}, {role: inactive, fill: "#e2e8f0"}, {role: all, stroke: "#ffffff outside 1px"}]
+  icons: []
+typography:
+  styles: [{family: Manrope, weight: Bold, sizes: [4, 8], text_color: "#ffffff", tracking: "-2%", line_height: [AUTO, "160%"], evidence_refs: [E003]}]
+  text_runs: [{text: "1", count: 3, text_property: null}, {text: "99+", count: 3, text_property: null}]
+tokens:
+  summary: {total: 12, local: 9, remote: 3}
+  categories: {color: 5, font: 2, spacing: 3, radius: 1, stroke: 1}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: ["1", "99+"]}
+  component_rules: []
+  truncation_and_wrapping: []
+interactions: {status: UNDEFINED, reason: "Zero reactions in set and 15 variants; no automatic count handling observed.", rules: []}
+semantic_contract:
+  explicit_descriptions: ["Page note: brief statuses, notifications, counts, levels or availability; can accompany icons, buttons or avatars."]
+  purpose: {status: DEFINED, text: "Communicate compact status or count", evidence_refs: [E005]}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: ["Numeric text at 4 or 8 px", "White outer stroke"]
+  undefined: ["Legibility in context", "accessible count/name", "dynamic updates", "placement", "WCAG compliance"]
+external_dependencies: []
+unresolved: []
+implementation_notes: ["Source Description contradicts actual matrix and is not normative; tiny numeric typography requires target decision."]
+evidence:
+  figma_direct: [{id: E001, path: "node:1133:31549", finding: "identity, descriptions and properties"}, {id: E002, path: "variants:15", finding: "dimensions, fills, strokes, layout and reactions"}, {id: E003, path: "text:6", finding: "content and typography"}, {id: E004, path: "variables:12", finding: "used variable IDs and locality"}, {id: E005, path: "page:1133:31513", finding: "usage note and 201x290 screenshot"}]
+  derived: [{finding: "Complete 5x3 matrix and 22-node traversal", evidence_refs: [E001, E002]}]
+  requires_definition: ["Notification count behavior", "accessible presentation and tiny type usage"]
+  confidence: {level: HIGH, reason: "Complete subtree read and screenshot; explicit contradiction in source Description flagged."}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "target": "web",
+  "version": "0.1.1",
+  "sourceHashes": {
+    "specs/tokens/ai-design-system.typography.v0.1.1.json": "26b05557aeeb40f78398a673f768a82035474dc84796aa6f5350f1ce911664cd",
+    "specs/foundations/typography.formatting.amendment.v0.1.1.md": "62af87741a8785b4b842a0305e0c6ebec407e24909707be59ede6dedcaa866f6",
+    "implementations/figma/typography_mapping.py": "58ddc9b66ea05194daa8106b02b98f6fe3b16c9f66c03ae836e22b1ac9e0d9d0",
+    "implementations/figma/typography.v0.1.1.mapping.json": "4a44eeab4e9839eed71ec90e50a4a106a312545edfad912b43c284a7612ae73d",
+    "implementations/web/scripts/typography.py": "b9ab6921c403ffa02092063269e46b02ce73d41b893e42e89d1256b8635a94ca",
+    "implementations/web/scripts/test_typography.py": "d007c88754729c985d6cc6574c0bb6e242499ffa0c4821cbfa6fd4913af17cf4",
+    "implementations/web/src/styles.css": "20d0a7d9c1812c51fcd1a196a6d9e384aaa45bc85273e50489afec71eec2641e",
+    "implementations/web/tests/browser/typography.spec.ts": "e0de70593fb3a5e0f217c42db18882b74930289d4fdb1cc2092a5fa1c0926d30"
+  },
+  "catalogStyles": 79,
+  "baseStyles": 18,
+  "complementaryStyles": 61,
+  "styleMeasurements": 316,
+  "consumerMeasurements": 2956,
+  "families": 43,
+  "themes": [
+    "administrativo",
+    "contable",
+    "personas",
+    "servicios"
+  ],
+  "unitTests": {
+    "command": "python3 -m unittest test_typography.py",
+    "count": 11,
+    "status": "PASS"
+  },
+  "determinism": {
+    "command": "python3 scripts/typography.py --check",
+    "changedOutputs": 0,
+    "status": "PASS"
+  },
+  "typecheck": {
+    "command": "node node_modules/typescript/bin/tsc --noEmit",
+    "status": "PASS"
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "PASS"
+  },
+  "browser": {
+    "command": "DS_TYPOGRAPHY_OUTPUT=../../qa/implementations/typography/web/revision-79 pnpm exec playwright test tests/browser/typography.spec.ts",
+    "tests": 2,
+    "status": "PASS",
+    "startupRetry": "Initial sandbox prevented localhost8807 bind. Rerun with authorized local execution completed2tests; no browser assertions ran in failed startup."
+  },
+  "comparison": "PASS",
+  "visualReview": {
+    "captures": [
+      "button.underline.png",
+      "file-upload.underline.png",
+      "empty-states.underline.png"
+    ],
+    "theme": "personas",
+    "observed": "Subrayado visible en las tres acciones esperadas; texto legible y sin recorte observado en esas capturas.",
+    "scope": "Three captured examples, not all variants or all possible compositions."
+  },
+  "figmaConsumerValidation": "NOT_PERFORMED_BY_THIS_WEB_QA",
+  "knownFigmaApplicationBlockers": 103
+}

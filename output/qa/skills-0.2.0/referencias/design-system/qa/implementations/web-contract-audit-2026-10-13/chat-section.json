@@ -1,0 +1,682 @@
+{
+  "family": "chat-section",
+  "sources": {
+    "base": "specs/chat-section.contract.v0.1.0.md",
+    "amendments": [
+      "specs/components/chat.layout.amendment.v0.1.1.md"
+    ]
+  },
+  "checks": 152,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/standby",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "contable/standby/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "contable/standby/root",
+      "actual": {
+        "min-height": "775px"
+      },
+      "expected": {
+        "min-height": "775px"
+      }
+    },
+    {
+      "case": "contable/standby/title",
+      "actual": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      },
+      "expected": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      }
+    },
+    {
+      "case": "contable/standby/subtitle",
+      "actual": {
+        "font-size": "20px",
+        "line-height": "28px"
+      },
+      "expected": {
+        "font-size": "20px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "case": "contable/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "contable/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "contable/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "contable/active",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "contable/active/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "contable/active/root",
+      "actual": {
+        "height": 733
+      },
+      "expected": {
+        "height": 733
+      }
+    },
+    {
+      "case": "contable/active/content-height",
+      "actual": {
+        "height": 683
+      },
+      "expected": {
+        "height": 683
+      }
+    },
+    {
+      "case": "contable/active/messages",
+      "actual": {
+        "overflow-y": "auto"
+      },
+      "expected": {
+        "overflow-y": "auto"
+      }
+    },
+    {
+      "case": "administrativo/standby",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "administrativo/standby/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "administrativo/standby/root",
+      "actual": {
+        "min-height": "775px"
+      },
+      "expected": {
+        "min-height": "775px"
+      }
+    },
+    {
+      "case": "administrativo/standby/title",
+      "actual": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      },
+      "expected": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      }
+    },
+    {
+      "case": "administrativo/standby/subtitle",
+      "actual": {
+        "font-size": "20px",
+        "line-height": "28px"
+      },
+      "expected": {
+        "font-size": "20px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "case": "administrativo/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "administrativo/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "administrativo/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "administrativo/active",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "administrativo/active/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "administrativo/active/root",
+      "actual": {
+        "height": 733
+      },
+      "expected": {
+        "height": 733
+      }
+    },
+    {
+      "case": "administrativo/active/content-height",
+      "actual": {
+        "height": 683
+      },
+      "expected": {
+        "height": 683
+      }
+    },
+    {
+      "case": "administrativo/active/messages",
+      "actual": {
+        "overflow-y": "auto"
+      },
+      "expected": {
+        "overflow-y": "auto"
+      }
+    },
+    {
+      "case": "servicios/standby",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "servicios/standby/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "servicios/standby/root",
+      "actual": {
+        "min-height": "775px"
+      },
+      "expected": {
+        "min-height": "775px"
+      }
+    },
+    {
+      "case": "servicios/standby/title",
+      "actual": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      },
+      "expected": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      }
+    },
+    {
+      "case": "servicios/standby/subtitle",
+      "actual": {
+        "font-size": "20px",
+        "line-height": "28px"
+      },
+      "expected": {
+        "font-size": "20px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "case": "servicios/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "servicios/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "servicios/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "servicios/active",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "servicios/active/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "servicios/active/root",
+      "actual": {
+        "height": 733
+      },
+      "expected": {
+        "height": 733
+      }
+    },
+    {
+      "case": "servicios/active/content-height",
+      "actual": {
+        "height": 683
+      },
+      "expected": {
+        "height": 683
+      }
+    },
+    {
+      "case": "servicios/active/messages",
+      "actual": {
+        "overflow-y": "auto"
+      },
+      "expected": {
+        "overflow-y": "auto"
+      }
+    },
+    {
+      "case": "personas/standby",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "personas/standby/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "personas/standby/root",
+      "actual": {
+        "min-height": "775px"
+      },
+      "expected": {
+        "min-height": "775px"
+      }
+    },
+    {
+      "case": "personas/standby/title",
+      "actual": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      },
+      "expected": {
+        "font-size": "32px",
+        "line-height": "40px",
+        "font-weight": "700"
+      }
+    },
+    {
+      "case": "personas/standby/subtitle",
+      "actual": {
+        "font-size": "20px",
+        "line-height": "28px"
+      },
+      "expected": {
+        "font-size": "20px",
+        "line-height": "28px"
+      }
+    },
+    {
+      "case": "personas/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "personas/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "personas/standby/suggestion",
+      "actual": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      },
+      "expected": {
+        "height": 36,
+        "padding": "8px 12px",
+        "column-gap": "8px",
+        "font-size": "14px",
+        "line-height": "20px"
+      }
+    },
+    {
+      "case": "personas/active",
+      "actual": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      },
+      "expected": {
+        "width": 782,
+        "min-width": "574px",
+        "padding-left": "16px"
+      }
+    },
+    {
+      "case": "personas/active/content",
+      "actual": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      },
+      "expected": {
+        "width": 750,
+        "max-width": "816px",
+        "padding-top": "32px",
+        "row-gap": "32px"
+      }
+    },
+    {
+      "case": "personas/active/root",
+      "actual": {
+        "height": 733
+      },
+      "expected": {
+        "height": 733
+      }
+    },
+    {
+      "case": "personas/active/content-height",
+      "actual": {
+        "height": 683
+      },
+      "expected": {
+        "height": 683
+      }
+    },
+    {
+      "case": "personas/active/messages",
+      "actual": {
+        "overflow-y": "auto"
+      },
+      "expected": {
+        "overflow-y": "auto"
+      }
+    }
+  ]
+}

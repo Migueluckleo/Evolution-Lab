@@ -1,0 +1,313 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T00:17:45Z"
+generator:
+  skill: figma-component-contract
+  skill_version: "0.1.0"
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal:
+    discovered_nodes: 364
+    inspected_nodes: 364
+    pending_nodes: 0
+    invisible_nodes_inspected: 0
+    truncated: false
+    limit: null
+  mcp_limitations:
+    - Project, organization, and version fields for external libraries are not exposed by Figma MCP; the icon source file was supplied by the user and its component keys were verified directly.
+    - Product semantics, web behavior, keyboard behavior, and accessibility compliance are not defined by the inspected node.
+component:
+  id: "26:81"
+  key: ad6968e790043ee654b3590596d5e593ebcbe73d
+  name: button
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "0:1", name: Page 1, type: PAGE}
+  page: {id: "0:1", name: Page 1}
+  source:
+    url: "https://www.figma.com/design/tj3WIBEZDGLVs7MJWKCwgf/AI-Design-System?node-id=26-81&t=IfnBuS4ZUgHBdAKP-11"
+    file_key: tj3WIBEZDGLVs7MJWKCwgf
+    node_id: "26:81"
+classification:
+  kind: component
+  reusable: true
+  composition: false
+  evidence_refs: [E001, E002]
+identity:
+  position: {x: 0, y: 0}
+  dimensions: {width: 516, height: 1883}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "26:82", name: "type=primary, size=large, state=default", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:86", name: "type=primary, size=middle, state=default", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:90", name: "type=primary, size=small, state=default", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:94", name: "type=default, size=large, state=default", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:98", name: "type=default, size=middle, state=default", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:102", name: "type=default, size=small, state=default", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:106", name: "type=link, size=large, state=default", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:110", name: "type=link, size=middle, state=default", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:114", name: "type=link, size=small, state=default", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:118", name: "type=text, size=large, state=default", type: COMPONENT, width: 135, height: 48}
+  - {id: "26:122", name: "type=text, size=middle, state=default", type: COMPONENT, width: 127, height: 40}
+  - {id: "26:126", name: "type=text, size=small, state=default", type: COMPONENT, width: 120, height: 32}
+  - {id: "26:130", name: "type=primary, size=large, state=hover", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:134", name: "type=primary, size=middle, state=hover", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:138", name: "type=primary, size=small, state=hover", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:142", name: "type=default, size=large, state=hover", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:146", name: "type=default, size=middle, state=hover", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:150", name: "type=default, size=small, state=hover", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:154", name: "type=link, size=large, state=hover", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:158", name: "type=link, size=middle, state=hover", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:162", name: "type=link, size=small, state=hover", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:166", name: "type=text, size=large, state=hover", type: COMPONENT, width: 135, height: 48}
+  - {id: "26:170", name: "type=text, size=middle, state=hover", type: COMPONENT, width: 127, height: 40}
+  - {id: "26:174", name: "type=text, size=small, state=hover", type: COMPONENT, width: 120, height: 32}
+  - {id: "26:178", name: "type=primary, size=large, state=press", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:182", name: "type=primary, size=middle, state=press", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:186", name: "type=primary, size=small, state=press", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:190", name: "type=default, size=large, state=press", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:194", name: "type=default, size=middle, state=press", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:198", name: "type=default, size=small, state=press", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:202", name: "type=link, size=large, state=press", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:206", name: "type=link, size=middle, state=press", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:210", name: "type=link, size=small, state=press", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:214", name: "type=text, size=large, state=press", type: COMPONENT, width: 135, height: 48}
+  - {id: "26:218", name: "type=text, size=middle, state=press", type: COMPONENT, width: 127, height: 40}
+  - {id: "26:222", name: "type=text, size=small, state=press", type: COMPONENT, width: 120, height: 32}
+  - {id: "26:226", name: "type=primary, size=large, state=focus", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:230", name: "type=primary, size=middle, state=focus", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:234", name: "type=primary, size=small, state=focus", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:238", name: "type=default, size=large, state=focus", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:243", name: "type=default, size=middle, state=focus", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:248", name: "type=default, size=small, state=focus", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:253", name: "type=link, size=large, state=focus", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:257", name: "type=link, size=middle, state=focus", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:261", name: "type=link, size=small, state=focus", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:265", name: "type=text, size=large, state=focus", type: COMPONENT, width: 135, height: 48}
+  - {id: "26:269", name: "type=text, size=middle, state=focus", type: COMPONENT, width: 127, height: 40}
+  - {id: "26:273", name: "type=text, size=small, state=focus", type: COMPONENT, width: 120, height: 32}
+  - {id: "26:277", name: "type=primary, size=large, state=disabled", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:281", name: "type=primary, size=middle, state=disabled", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:285", name: "type=primary, size=small, state=disabled", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:289", name: "type=default, size=large, state=disabled", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:293", name: "type=default, size=middle, state=disabled", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:297", name: "type=default, size=small, state=disabled", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:301", name: "type=link, size=large, state=disabled", type: COMPONENT, width: 154, height: 48}
+  - {id: "26:305", name: "type=link, size=middle, state=disabled", type: COMPONENT, width: 146, height: 40}
+  - {id: "26:321", name: "type=link, size=small, state=disabled", type: COMPONENT, width: 139, height: 32}
+  - {id: "26:309", name: "type=text, size=large, state=disabled", type: COMPONENT, width: 135, height: 48}
+  - {id: "26:313", name: "type=text, size=middle, state=disabled", type: COMPONENT, width: 127, height: 40}
+  - {id: "26:317", name: "type=text, size=small, state=disabled", type: COMPONENT, width: 120, height: 32}
+anatomy:
+  functional_tree:
+    - role: variant
+      children: [left_icon, label_text, right_icon]
+      exception: default/focus wraps the same roles in frame btn-default
+  graphical_details_omitted:
+    - Internal vector path of PlusCircle is summarized under the icon dependency.
+dependency_inventory:
+  components: {total_instances: 120, total: 1, local: 0, remote: 1, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+  variables: {total: 35, local: 26, remote: 9, unknown_locality: 0, resolved: 35, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: 46d251bb4099700c5852180f2370d265e5166432
+    kind: COMPONENT
+    instance_ids: ["26:83", "26:85", "26:87", "26:89", "26:91", "26:93"]
+    instance_count: 120
+    main_component: {id: "26:3", key: 46d251bb4099700c5852180f2370d265e5166432, name: "Format=Outline, Weight=Light"}
+    component_set: {id: "26:2", key: 322a346f2ce54ea1534d8b0a682a8139d9f20e87, name: PlusCircle}
+    locality: REMOTE
+    active_properties: [{name: Format, value: Outline}, {name: Weight, value: Light}]
+    property_definitions:
+      - {name: Format, type: VARIANT, available: [Outline, Stroke]}
+      - {name: Weight, type: VARIANT, available: [Light, Regular, Thin, Bold, Fill, Duotone]}
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [Outline, Stroke, Light, Regular, Thin, Bold, Fill, Duotone], unknown: []}
+    swaps: {active: ["26:3"], preferred_values: [], preferred_candidate_count: 1512, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution:
+      status: RESOLVED
+      evidence: [E005]
+      missing_fields: []
+      reason: Active component and owning set were read successfully.
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/plus-circle.contract.md"}
+variable_dependencies:
+  - {id: "VariableID:13:78", key: da9b94e67419da9ed009bf6062c4824de60ee49c, name: color/background/brand, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.937255, g: 0.952941, b: 1, a: 1}, resolved_mode: "6:0", used_by: ["node:26:142"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:35", key: 76ab4b739c34455e7f9b953978a1ae2560b5f115, name: color/background/default, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 1, g: 1, b: 1, a: 1}, resolved_mode: "6:0", used_by: ["node:26:94"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:16", key: 2c70f924ba28e0ddad7bf2ad2df965ea4d997598, name: color/border/brand, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.196078, g: 0.333333, b: 0.968627, a: 1}, resolved_mode: "6:0", used_by: ["node:26:190"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:17", key: df1826138cf6a0647fbab75e1963b7949dc93ed9, name: color/border/disabled, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.886275, g: 0.909804, b: 0.941176, a: 1}, resolved_mode: "6:0", used_by: ["node:26:289"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:19", key: d6ec470f6b5e1c1f5b44cc6a6299793b08e5ec91, name: color/border/hover, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.113725, g: 0.129412, b: 0.690196, a: 1}, resolved_mode: "6:0", used_by: ["node:26:142"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:14", key: ed73e17afc08e7019beae0996138b61b65339c7f, name: color/border/subtle, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.74902, g: 0.807843, b: 0.996078, a: 1}, resolved_mode: "6:0", used_by: ["node:26:94"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:25", key: e0dbb97bbcfa8ed994b6f442f262ee74be527f86, name: color/icon/brand, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.196078, g: 0.333333, b: 0.968627, a: 1}, resolved_mode: "6:0", used_by: ["node:I26:95;8899:53829"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:24", key: 8a64f43e4db4d892f4537a928958e2fc8126bcd3, name: color/icon/disabled, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.580392, g: 0.639216, b: 0.721569, a: 1}, resolved_mode: "6:0", used_by: ["node:I26:278;8899:53829"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:26", key: d692992088d21e9a70849f9d5c1b8ffbfe880d18, name: color/icon/hover, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.113725, g: 0.129412, b: 0.690196, a: 1}, resolved_mode: "6:0", used_by: ["node:I26:143;8899:53829"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:23", key: ba2501a377aacf297a86169ac2453d85cc97bdf2, name: color/icon/on-brand, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 1, g: 1, b: 1, a: 1}, resolved_mode: "6:0", used_by: ["node:I26:83;8899:53829"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:20", key: c315947672ee955cd7e7f8ab6a1b0f072a759ce7, name: color/icon/primary, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.058824, g: 0.090196, b: 0.164706, a: 1}, resolved_mode: "6:0", used_by: ["node:I26:119;8899:53829"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:65", key: 8f82e50754cf0c8df2f554c1f04c0747bacc7e15, name: color/interactive/disabled/bg, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.945098, g: 0.960784, b: 0.976471, a: 1}, resolved_mode: "6:0", used_by: ["node:26:277"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:63", key: a7ba7ef8e52cf1f5940ecbb755563cb3d2d7c8d7, name: color/interactive/ghost/active, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.937255, g: 0.952941, b: 1, a: 1}, resolved_mode: "6:0", used_by: ["node:26:214"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:59", key: e037fdb4aa2e041ad3afb5d1e0c033ee45545912, name: color/interactive/primary/active, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.372549, g: 0.521569, b: 0.984314, a: 1}, resolved_mode: "6:0", used_by: ["node:26:178"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:57", key: ae4adadd8df23f1c15a4019176b64bf7cd366d8b, name: color/interactive/primary/default, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.196078, g: 0.333333, b: 0.968627, a: 1}, resolved_mode: "6:0", used_by: ["node:26:82"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:58", key: d5f649c8d46af3df5c331258150c1170a2d13e2b, name: color/interactive/primary/hover, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.113725, g: 0.129412, b: 0.690196, a: 1}, resolved_mode: "6:0", used_by: ["node:26:130"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:32", key: 4c664b84b945c467c10429e3834408bc1cf69cd7, name: color/text/brand, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.196078, g: 0.333333, b: 0.968627, a: 1}, resolved_mode: "6:0", used_by: ["node:26:96"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:34", key: cd07b920fa65e402a7a71b69b430bf687ac6c5aa, name: color/text/brand/strong, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.113725, g: 0.129412, b: 0.690196, a: 1}, resolved_mode: "6:0", used_by: ["node:26:144"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:30", key: 69ba1f7af134047fc30da57a5c7950b3b3a515e9, name: color/text/disabled, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.580392, g: 0.639216, b: 0.721569, a: 1}, resolved_mode: "6:0", used_by: ["node:26:311"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:31", key: 6b629b8f6000f1ba5b59e03972538b0b89684d48, name: color/text/inverse, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 1, g: 1, b: 1, a: 1}, resolved_mode: "6:0", used_by: ["node:26:84"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:13:27", key: bc42b776e7baffd38a38005f7d6758c9260c7052, name: color/text/primary, type: COLOR, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: {r: 0.058824, g: 0.090196, b: 0.164706, a: 1}, resolved_mode: "6:0", used_by: ["node:26:120"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:10:2", key: e414ecda73fcc59277f2ff185fc7d4384b53f5f3, name: font/family/base, type: STRING, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: manrope, resolved_mode: "6:0", used_by: ["node:26:84"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:5b6478e0ce1305efedeaf4a605843e3af57a32ca/8394:2", key: 5b6478e0ce1305efedeaf4a605843e3af57a32ca, name: font/family/base, type: STRING, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: Manrope, resolved_mode: "52:2", used_by: ["node:26:246"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:12:8", key: e1a027b54d7d53090ec4c9f4619033e10dafdfd3, name: font/line-height/sm, type: FLOAT, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: 20, resolved_mode: "6:0", used_by: ["node:26:84"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:10:10", key: d46e8adb80d12d7a05042057581b0dd90cd1d417, name: font/size/md, type: FLOAT, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: 16, resolved_mode: "6:0", used_by: ["node:26:84"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:10:9", key: 5260f5a70c6e212d601f2c350c9039b2419cb916, name: font/size/sm, type: FLOAT, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: 14, resolved_mode: "6:0", used_by: ["node:26:92"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:68953aef437f5350d545fc4a9000b6ca1328f7b2/4655:15", key: 68953aef437f5350d545fc4a9000b6ca1328f7b2, name: font/weight/bold, type: STRING, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: bold, resolved_mode: "52:2", used_by: ["node:26:84"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea/8394:4", key: d9723f3635e7a39d3366f43f0c4fcbb13cfb1dea, name: font/weight/regular, type: STRING, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: Regular, resolved_mode: "52:2", used_by: ["node:26:120"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799", key: 31c39dae3354372bf695953f2b7d26172742bdeb, name: radius/md, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 8, resolved_mode: "52:2", used_by: ["node:26:82"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:12:23", key: e97af3b769cba14bfcca7d2cfb382a3a415d9858, name: size/xl, type: FLOAT, collection: {id: "VariableCollectionId:6:2", key: c04a0ffd54a55af31ee830f9e9f3b519f84a4e57, name: semantic}, locality: LOCAL, resolved_value: 24, resolved_mode: "6:0", used_by: ["node:26:83"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36", key: 078efa311580f51425cc2454d702721e2acad78f, name: spacing/lg, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 16, resolved_mode: "52:2", used_by: ["node:26:82"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:634220d13f50e842b56b814d7b2f7d8049cc0c95/3639:806", key: 634220d13f50e842b56b814d7b2f7d8049cc0c95, name: spacing/sm, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 8, resolved_mode: "52:2", used_by: ["node:26:82"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:90435138fcc3da9fb6d745fd768eea1072696e3e/3639:805", key: 90435138fcc3da9fb6d745fd768eea1072696e3e, name: spacing/xs, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 4, resolved_mode: "52:2", used_by: ["node:26:90"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:a011063fb0651a00d9a52e0c43dfd86915f0d06b/3639:795", key: a011063fb0651a00d9a52e0c43dfd86915f0d06b, name: stroke/md, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 2, resolved_mode: "52:2", used_by: ["node:26:226"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+  - {id: "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793", key: 09bf0f399feb2dd1331a55f613f3fec11642c615, name: stroke/xs, type: FLOAT, collection: {id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic}, locality: REMOTE, resolved_value: 1, resolved_mode: "52:2", used_by: ["node:26:94"], resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}, evidence_refs: [E020]}
+style_dependencies: []
+properties:
+  definitions:
+    - {native_key: "show right icon#1017:0", type: BOOLEAN, default: true, availability: AVAILABLE}
+    - {native_key: "show left icon#1017:13", type: BOOLEAN, default: true, availability: AVAILABLE}
+    - {native_key: "text#1205:13", type: TEXT, default: Default, availability: AVAILABLE}
+    - {native_key: "left icon#2828:101", type: INSTANCE_SWAP, default: "26:3", preferred_candidate_count: 1512, availability: AVAILABLE}
+    - {native_key: "right icon#2828:162", type: INSTANCE_SWAP, default: "26:3", preferred_candidate_count: 1512, availability: AVAILABLE}
+    - {native_key: type, type: VARIANT, default: primary, availability: AVAILABLE}
+    - {native_key: size, type: VARIANT, default: large, availability: AVAILABLE}
+    - {native_key: state, type: VARIANT, default: default, availability: AVAILABLE}
+  observed: []
+  available: []
+  unknown: [product_semantics, web_api]
+variants:
+  observed_combinations:
+    - "60 combinations: 4 types × 3 sizes × 5 states"
+  available_values:
+    - {property: type, values: [primary, default, text, link]}
+    - {property: size, values: [large, middle, small]}
+    - {property: state, values: [default, hover, press, disabled, focus]}
+  unknown: []
+states:
+  observed: [default, hover, press, disabled, focus]
+  available: [default, hover, press, disabled, focus]
+  unknown: [activation_semantics, keyboard_semantics, disabled_event_suppression]
+layout:
+  node:
+    node: {id: "26:81", name: button, type: COMPONENT_SET}
+    position: {x: 0, y: 0, absolute_x: 0, absolute_y: 0, unit: px}
+    layout_mode: GRID
+    layout_wrap: NO_WRAP
+    layout_positioning: AUTO
+    sizing: {horizontal: FIXED, vertical: FIXED, primary_axis_mode: FIXED, counter_axis_mode: FIXED}
+    dimensions:
+      width: {resolved_value: 516, unit: px, availability: OBSERVED, evidence_refs: [E001]}
+      height: {resolved_value: 1883, unit: px, availability: OBSERVED, evidence_refs: [E001]}
+      min_width: null
+      max_width: null
+      min_height: null
+      max_height: null
+    spacing: {gap: 10, row_gap: null, column_gap: null}
+    padding: {top: 26, right: 17, bottom: 26, left: 17}
+    alignment: {primary_axis: MIN, counter_axis: MIN, self: null}
+    constraints: {horizontal: MIN, vertical: MIN}
+    overflow: null
+    clips_content: true
+    strokes_included_in_layout: false
+    grow: 0
+    grids: []
+    evidence_refs: [E001]
+  children:
+    - {group: large, height: 48, widths: [135, 154], icon_size: 24, font_size: 16, line_height: 20}
+    - {group: middle, height: 40, widths: [127, 146], icon_size: 20, font_size: 16, line_height: 20}
+    - {group: small, height: 32, widths: [120, 139], icon_size: 20, font_size: 14, line_height: 20}
+  relationships:
+    - {parent_id: variant, child_id: left_icon, relationship: AUTO_LAYOUT_CHILD, parent_layout_mode: HORIZONTAL, child_layout_positioning: AUTO, child_sizing: {horizontal: FIXED, vertical: FIXED}, evidence_refs: [E010]}
+    - {parent_id: variant, child_id: label_text, relationship: AUTO_LAYOUT_CHILD, parent_layout_mode: HORIZONTAL, child_layout_positioning: AUTO, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E010]}
+    - {parent_id: variant, child_id: right_icon, relationship: AUTO_LAYOUT_CHILD, parent_layout_mode: HORIZONTAL, child_layout_positioning: AUTO, child_sizing: {horizontal: FIXED, vertical: FIXED}, evidence_refs: [E010]}
+visual:
+  node: {node: {id: "26:81", name: button, type: COMPONENT_SET}, fills: [], backgrounds: [], strokes: [], effects: [], evidence_refs: [E001]}
+  descendants:
+    - {scope: primary, states: [default, hover, press, focus, disabled], tokenized: true, evidence_refs: [E020]}
+    - {scope: default, states: [default, hover, press, focus, disabled], tokenized: true, evidence_refs: [E020]}
+    - {scope: link, states: [default, hover, press, focus, disabled], tokenized: true, evidence_refs: [E020]}
+    - {scope: text, states: [default, hover, press, focus, disabled], tokenized: true, evidence_refs: [E020]}
+  icons:
+    - {node: {id: "26:3", name: "Format=Outline, Weight=Light", type: COMPONENT}, dimensions: {width: 32, height: 32, unit: px}, format: Outline, weight: Light, vector_descendant_count: 1, fills: [], strokes: [], evidence_refs: [E005]}
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: representative, name: label-text}, characters: Default, range: {start: 0, end: 7}, font_family: Manrope, font_style: Bold, font_weight: 700, font_size: "16 large/middle; 14 small", line_height: {unit: PIXELS, value: 20}, letter_spacing: {unit: PIXELS, value: 0}, paragraph_spacing: 0, paragraph_indent: 0, text_align_horizontal: CENTER, text_align_vertical: CENTER, text_case: ORIGINAL, text_decoration: "UNDERLINE for link; NONE otherwise", text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: DISABLED, max_lines: null, bound_variables: [font/family/base, font/size/md, font/size/sm, font/line-height/sm, font/weight/bold, font/weight/regular], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E030]}
+tokens:
+  summary: {total: 35, local: 26, remote: 9}
+  categories:
+    Color: [color/background/brand, color/background/default, color/border/brand, color/border/disabled, color/border/hover, color/border/subtle, color/icon/brand, color/icon/disabled, color/icon/hover, color/icon/on-brand, color/icon/primary, color/interactive/disabled/bg, color/interactive/ghost/active, color/interactive/primary/active, color/interactive/primary/default, color/interactive/primary/hover, color/text/brand, color/text/brand/strong, color/text/disabled, color/text/inverse, color/text/primary]
+    Typography: [font/family/base, font/line-height/sm, font/size/md, font/size/sm, font/weight/bold, font/weight/regular]
+    Dimension: [radius/md, size/xl, spacing/lg, spacing/sm, spacing/xs, stroke/md, stroke/xs]
+  source: variable_dependencies
+content:
+  example_content:
+    observed_strings: [Default]
+  component_rules:
+    - Text is exposed through a TEXT component property with default Default.
+  truncation_and_wrapping:
+    - No truncation, maximum length, localization, or wrapping rule is defined.
+interactions:
+  status: FIGMA_DEFINED
+  reason: 23 reactions are exposed, but they do not define a complete behavior model.
+  rules:
+    - {trigger: ON_HOVER, action: CHANGE_TO, source_state: default, destination_state: hover, count: 12}
+    - {trigger: ON_PRESS, action: CHANGE_TO, source_state: hover, destination_state: press, scope: link, count: 3}
+    - {trigger: ON_HOVER, action: CHANGE_TO, source_state: focus, destination_state: hover, count: 8}
+semantic_contract:
+  explicit_descriptions: []
+  purpose: {status: REQUIRES_PRODUCT_DEFINITION}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed:
+    - Editable visible label exists.
+    - Focus variants have a visible 2 px border treatment.
+  undefined:
+    - accessible name and role
+    - keyboard activation and focus management
+    - disabled event suppression
+    - contrast and WCAG conformance
+external_dependencies:
+  - {kind: COMPONENT, id: "26:3", key: 46d251bb4099700c5852180f2370d265e5166432, name: "Format=Outline, Weight=Light", remote: true, collection: null, component_set: {id: "26:2", key: 322a346f2ce54ea1534d8b0a682a8139d9f20e87, name: PlusCircle}, library_name: "Phosphor Icons", source_file: xZSksKpcQTp5H3C4dZApBL, source_url: "https://www.figma.com/design/xZSksKpcQTp5H3C4dZApBL/Phosphor-Icons?node-id=7484-1322&t=5f3sI6AFFHMgcXfl-1", project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: RESOLVED, evidence: [E005, E006], missing_fields: [], reason: null}}
+  - {kind: VARIABLE_COLLECTION, id: "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: semantic, remote: true, collection: semantic, component_set: null, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: RESOLVED, evidence: [E020], missing_fields: [], reason: null}}
+unresolved:
+  - {id: U001, category: PRODUCT_DEFINITION, subject: purpose_and_usage, reason: No component description or product documentation is present., missing_fields: [purpose, usage_rules], evidence_refs: [E001], impact: Blocks normative product semantics.}
+  - {id: U002, category: BEHAVIOR, subject: incomplete_interaction_matrix, reason: Only 23 reactions are defined and two default focus variants change to the large hover variant., missing_fields: [activation, keyboard, release, complete_focus_transitions], evidence_refs: [E040], impact: Blocks adopting Figma reactions as the complete behavior contract.}
+  - {id: U003, category: ACCESSIBILITY, subject: accessibility_contract, reason: Figma does not define accessible role, name, keyboard, or WCAG compliance., missing_fields: [role, accessible_name, keyboard, contrast], evidence_refs: [E050], impact: Blocks accessibility validation.}
+  - {id: U004, category: DESTINATION, subject: family_page, reason: The set currently resides on Page 1; P04 requires a dedicated canonical family page., missing_fields: [approved_page_name, migration_decision], evidence_refs: [E001], impact: Blocks P04 readiness.}
+  - {id: U005, category: SOURCE_ROLE, subject: source_equals_destination, reason: The inspected source node is already in the configured destination file., missing_fields: [approved_operation_classification], evidence_refs: [E001], impact: Requires VALIDATE_ONLY, UPDATE, or MIGRATE decision after approval.}
+implementation_notes:
+  - Preserve variable identity and binding; do not replace a remote/local binding with an equal literal.
+  - Per DEC-ICONS-001, all icons must consume components from the user-selected Phosphor Icons Figma file; verify source component keys for future swaps.
+  - Do not enumerate or import 1512 preferred icon candidates during reconstruction.
+  - Do not normalize the default/focus wrapper or interaction destinations without approval.
+  - Web implementation is out of scope.
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:26:81", value: "COMPONENT_SET button on Page 1, 516x1883", note: null}
+    - {id: E002, source: "node:26:81.variantGroupProperties", value: "type 4; size 3; state 5", note: null}
+    - {id: E005, source: "component:26:3 and component_set:26:2", value: "PlusCircle Outline Light", note: Active icon dependency.}
+    - {id: E006, source: "file:xZSksKpcQTp5H3C4dZApBL page:7484:1322 component_set:8899:53875 component:8899:53827", value: "Matching set and component keys for PlusCircle Outline Light", note: User-selected icon source; see SRC-FIGMA-PHOSPHOR-001 and DEC-ICONS-001.}
+    - {id: E010, source: "components:26:82..26:321.children", value: "left icon + label-text + right icon", note: default/focus uses an extra wrapper.}
+    - {id: E020, source: "subtree boundVariables and resolveForConsumer", value: "35 variables; 26 local; 9 remote", note: All resolved.}
+    - {id: E030, source: "60 TEXT nodes", value: "Manrope; 14/16 px; 20 px line-height", note: null}
+    - {id: E040, source: "variant reactions", value: "23 CHANGE_TO reactions", note: Partial coverage and two size-changing destinations.}
+    - {id: E050, source: "node descriptions and exposed properties", value: null, note: No explicit accessibility contract.}
+  derived:
+    - {id: D001, source: "4 × 3 × 5", value: 60, note: Complete observed variant product.}
+    - {id: D002, source: "grouped main component keys", value: "1 unique dependency, 120 instances", note: null}
+  requires_definition:
+    - {id: R001, source: product, value: null, note: Purpose, usage, behavior, accessibility, page name, and operation classification.}
+  confidence:
+    level: HIGH
+    reason: Complete read-only traversal with zero pending nodes; limitations concern product definitions rather than subtree coverage.

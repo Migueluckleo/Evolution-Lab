@@ -1,0 +1,60 @@
+# Protocol 01: Environment and Tools
+
+## Purpose
+
+Own installation, capability checks, configuration and prerequisites. It
+does not define Design System intent.
+
+### General policy
+
+Before changing tools: check existing installation; use
+official/approved sources; prefer project-scoped reproducibility; never
+invent commands; record version/scope/verification; never store secrets.
+A tool is `READY` only after verification.
+
+### Graphify
+
+Official authority: `https://github.com/Graphify-Labs/graphify`
+
+Current official documentation recommends Python 3.10+ and `uv`.
+Preferred install:
+
+``` bash
+uv tool install graphifyy
+graphify install --project --platform codex
+graphify --help
+```
+
+The package is `graphifyy`; CLI is `graphify`. Codex uses `$graphify`,
+not `/graphify`. Graphify currently documents `multi_agent = true` under
+`[features]` in `~/.codex/config.toml` for parallel extraction.
+
+Expected outputs: `graphify-out/graph.html`, `GRAPH_REPORT.md`,
+`graph.json`. Prefer scoped graph queries when the graph is current.
+Preserve EXTRACTED/INFERRED provenance. Refresh after meaningful
+contract, registry, implementation, QA or architecture changes.
+
+### Figma MCP
+
+**Installation source pending the user-provided reference.** Do not
+invent installation/configuration.
+
+Before Figma work verify required capabilities: inspect
+files/pages/nodes; read variables and component metadata; write required
+structures; bind variables; manipulate components/variants when needed;
+read results back. Missing required capability =\> `BLOCKED`.
+
+Before writes identify exact Figma file, target page/area, confirm it is
+the reconstruction target, and inspect existing content. Never modify
+the original source library without explicit authorization.
+
+### Front-end
+
+Planned stack: React, TypeScript, Vite; Storybook when component
+isolation begins. Do not install during Figma-only reconstruction unless
+required. When web phase starts, record/pin Node, package manager,
+framework versions, token pipeline,
+lint/test/accessibility/visual-regression tooling and build commands.
+
+Maintain `registry/environment.md` with tool, status, version, scope,
+source, verification, last_verified, notes. No secrets.

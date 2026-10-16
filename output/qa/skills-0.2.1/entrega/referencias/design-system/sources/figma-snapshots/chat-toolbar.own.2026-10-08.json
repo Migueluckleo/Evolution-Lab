@@ -1,0 +1,5711 @@
+{
+  "roots": [
+    {
+      "id": "20355:72872",
+      "name": "Organism / Anticipa / Chat / Toolbar",
+      "properties": {
+        "header#15:0": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Indicadores Creados#17116:23": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "indicadores#17116:26": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "chats#17116:29": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "tools and actions#17116:32": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "Expanded": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20355:72830",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "extra actions#17116:19": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "available": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20355:72852",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "properties": {
+        "text#255:3": {
+          "type": "SLOT",
+          "description": "",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": null,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": []
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "hover": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        }
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "20355:72872",
+      "name": "Organism / Anticipa / Chat / Toolbar",
+      "type": "COMPONENT_SET",
+      "depth": 0,
+      "x": 1556,
+      "y": 263,
+      "width": 401,
+      "height": 823,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 41,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": null,
+      "children": [
+        "20355:72873",
+        "20355:72881"
+      ]
+    },
+    {
+      "id": "20355:72873",
+      "name": "Expanded=false",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 16,
+      "width": 79,
+      "height": 791,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 32,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": 79,
+      "maxWidth": 93,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8980392217636108,
+            "g": 0.9058823585510254,
+            "b": 0.9215686321258545
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75162"
+            }
+          }
+        }
+      ],
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75162"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72874",
+        "20355:72876"
+      ]
+    },
+    {
+      "id": "20355:72874",
+      "name": "toolbar",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 16,
+      "width": 47,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72881",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72881",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "children": [
+        "20355:72875"
+      ]
+    },
+    {
+      "id": "20355:72875",
+      "name": "icon-button",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 7.5,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7798227071762085,
+            "g": 0.812849223613739,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15001:198200"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "width": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+        },
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198200"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Show badge#4508:14": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Icon#2828:223": {
+          "type": "INSTANCE_SWAP",
+          "value": "17096:8863"
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "ghost"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "small"
+        },
+        "selected": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "state": {
+          "type": "VARIANT",
+          "value": "default"
+        }
+      },
+      "children": [
+        "I20355:72875;1430:18858",
+        "I20355:72875;1430:18859"
+      ]
+    },
+    {
+      "id": "20355:72876",
+      "name": "container",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 80,
+      "width": 47,
+      "height": 695,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FILL",
+      "itemSpacing": 32,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72877"
+      ]
+    },
+    {
+      "id": "20355:72877",
+      "name": "tools and actions",
+      "type": "FRAME",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 47,
+      "height": 620,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": []
+    },
+    {
+      "id": "20355:72881",
+      "name": "Expanded=true",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 136,
+      "y": 16,
+      "width": 264,
+      "height": 791,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 32,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": 264,
+      "maxWidth": 310,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8980392217636108,
+            "g": 0.9058823585510254,
+            "b": 0.9215686321258545
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:75162"
+            }
+          }
+        }
+      ],
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75162"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72882",
+        "20355:72886",
+        "20355:72903"
+      ]
+    },
+    {
+      "id": "20355:72882",
+      "name": "header",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 16,
+      "y": 16,
+      "width": 232,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "header#15:0"
+      },
+      "children": [
+        "20355:72883"
+      ]
+    },
+    {
+      "id": "20355:72883",
+      "name": "toolbar",
+      "type": "FRAME",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 232,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72884",
+        "20355:72885"
+      ]
+    },
+    {
+      "id": "20355:72884",
+      "name": "contables",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 4,
+      "width": 75,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "product": {
+          "type": "VARIANT",
+          "value": "anticipa"
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "horizontal"
+        }
+      },
+      "children": [
+        "I20355:72884;2849:211091"
+      ]
+    },
+    {
+      "id": "20355:72885",
+      "name": "icon-button",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 200,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7798227071762085,
+            "g": 0.812849223613739,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15001:198200"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+        },
+        "width": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+        },
+        "height": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198200"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72873",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72873",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "properties": {
+        "Show badge#4508:14": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Icon#2828:223": {
+          "type": "INSTANCE_SWAP",
+          "value": "17096:8863"
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "ghost"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "small"
+        },
+        "selected": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "state": {
+          "type": "VARIANT",
+          "value": "default"
+        }
+      },
+      "children": [
+        "I20355:72885;1430:18858",
+        "I20355:72885;1430:18859"
+      ]
+    },
+    {
+      "id": "20355:72886",
+      "name": "container",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 80,
+      "width": 232,
+      "height": 519,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FILL",
+      "itemSpacing": 32,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72887",
+        "20355:72891",
+        "20355:72899"
+      ]
+    },
+    {
+      "id": "20355:72887",
+      "name": "tools and actions",
+      "type": "SLOT",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 232,
+      "height": 152,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "tools and actions#17116:32"
+      },
+      "children": [
+        "20355:72888",
+        "20355:72889",
+        "20355:72890"
+      ]
+    },
+    {
+      "id": "20355:72888",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 0,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72838",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72838",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "properties": {
+        "extra actions#17116:19": {
+          "type": "SLOT"
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "available": {
+          "type": "VARIANT",
+          "value": "true"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72888;20355:72832",
+        "I20355:72888;20355:72835",
+        "I20355:72888;20355:72836"
+      ]
+    },
+    {
+      "id": "20355:72889",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 56,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72838",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72838",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "properties": {
+        "extra actions#17116:19": {
+          "type": "SLOT"
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "available": {
+          "type": "VARIANT",
+          "value": "true"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72889;20355:72832",
+        "I20355:72889;20355:72835",
+        "I20355:72889;20355:72836"
+      ]
+    },
+    {
+      "id": "20355:72890",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 112,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72838",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72838",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "properties": {
+        "extra actions#17116:19": {
+          "type": "SLOT"
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "available": {
+          "type": "VARIANT",
+          "value": "true"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72890;20355:72832",
+        "I20355:72890;20355:72835",
+        "I20355:72890;20355:72836"
+      ]
+    },
+    {
+      "id": "20355:72891",
+      "name": "indicadores",
+      "type": "SLOT",
+      "depth": 3,
+      "x": 0,
+      "y": 184,
+      "width": 232,
+      "height": 180,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "Indicadores Creados#17116:23",
+        "slotContentId": "indicadores#17116:26"
+      },
+      "children": [
+        "20355:72892",
+        "20355:72896",
+        "20355:72897",
+        "20355:72898"
+      ]
+    },
+    {
+      "id": "20355:72892",
+      "name": "title",
+      "type": "TEXT",
+      "depth": 4,
+      "x": 0,
+      "y": 0,
+      "width": 232,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.45073992013931274,
+            "g": 0.45073992013931274,
+            "b": 0.45073992013931274
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17023:46898"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Indicadores",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72896",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 36,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 0,
+      "paddingBottom": 8,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72838",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72838",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "properties": {
+        "extra actions#17116:19": {
+          "type": "SLOT"
+        },
+        "extra Action#17116:15": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "available": {
+          "type": "VARIANT",
+          "value": "true"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72896;20355:72832",
+        "I20355:72896;20355:72835",
+        "I20355:72896;20355:72836"
+      ]
+    },
+    {
+      "id": "20355:72897",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 92,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72867",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72867",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        },
+        {
+          "action": null,
+          "actions": [],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "text#255:3": {
+          "type": "SLOT"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "value": "true"
+        }
+      },
+      "children": [
+        "I20355:72897;20355:72864",
+        "I20355:72897;20355:72866"
+      ]
+    },
+    {
+      "id": "20355:72898",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 144,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72857",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72857",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        },
+        {
+          "action": null,
+          "actions": [],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "text#255:3": {
+          "type": "SLOT"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72898;20355:72854",
+        "I20355:72898;20355:72856"
+      ]
+    },
+    {
+      "id": "20355:72899",
+      "name": "chats",
+      "type": "SLOT",
+      "depth": 3,
+      "x": 0,
+      "y": 184,
+      "width": 232,
+      "height": 132,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "chats#17116:29"
+      },
+      "children": [
+        "20355:72900",
+        "20355:72901",
+        "20355:72902"
+      ]
+    },
+    {
+      "id": "20355:72900",
+      "name": "title",
+      "type": "TEXT",
+      "depth": 4,
+      "x": 0,
+      "y": 0,
+      "width": 232,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.45073992013931274,
+            "g": 0.45073992013931274,
+            "b": 0.45073992013931274
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17023:46898"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Chats",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72901",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 36,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72867",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72867",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        },
+        {
+          "action": null,
+          "actions": [],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "text#255:3": {
+          "type": "SLOT"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "value": "true"
+        }
+      },
+      "children": [
+        "I20355:72901;20355:72864",
+        "I20355:72901;20355:72866"
+      ]
+    },
+    {
+      "id": "20355:72902",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 92,
+      "width": 232,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72857",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72857",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        },
+        {
+          "action": null,
+          "actions": [],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "properties": {
+        "it's collapsible#17096:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "text#255:3": {
+          "type": "SLOT"
+        },
+        "hover": {
+          "type": "VARIANT",
+          "value": "false"
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "value": "false"
+        }
+      },
+      "children": [
+        "I20355:72902;20355:72854",
+        "I20355:72902;20355:72856"
+      ]
+    },
+    {
+      "id": "20355:72903",
+      "name": "plan usage",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 631,
+      "width": 232,
+      "height": 144,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15006:83462"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 16,
+      "effects": [],
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:18dde163e99fadfaea95b3b0bea1a2fc48f02e1c/6:1136"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:83462"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72904",
+        "20355:72907",
+        "20355:72913"
+      ]
+    },
+    {
+      "id": "20355:72904",
+      "name": "plan-branding",
+      "type": "FRAME",
+      "depth": 3,
+      "x": 16,
+      "y": 16,
+      "width": 96,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72905",
+        "20355:72906"
+      ]
+    },
+    {
+      "id": "20355:72905",
+      "name": "MagicWand",
+      "type": "INSTANCE",
+      "depth": 4,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 0.75,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Stroke"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Regular"
+        }
+      },
+      "children": [
+        "I20355:72905;8899:30676",
+        "I20355:72905;8899:30677",
+        "I20355:72905;8899:30678",
+        "I20355:72905;8899:30679",
+        "I20355:72905;8899:30680",
+        "I20355:72905;8899:30681",
+        "I20355:72905;8899:30682",
+        "I20355:72905;8899:30683",
+        "I20355:72905;8899:30684"
+      ]
+    },
+    {
+      "id": "20355:72906",
+      "name": "Pro Plan",
+      "type": "TEXT",
+      "depth": 4,
+      "x": 32,
+      "y": 2,
+      "width": 64,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.015222340822219849,
+            "g": 0.15631619095802307,
+            "b": 0.9558480978012085
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15001:198366"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75540"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Pro Plan",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:46b1f155edcad44b7cae6e4de1737147c3a7ef64,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72907",
+      "name": "usage-progress",
+      "type": "FRAME",
+      "depth": 3,
+      "x": 16,
+      "y": 56,
+      "width": 200,
+      "height": 36,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ec3f252c5c280a3aabf8a521918952827f008067/6:989"
+        }
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72908",
+        "20355:72911"
+      ]
+    },
+    {
+      "id": "20355:72908",
+      "name": "title&Quantity",
+      "type": "FRAME",
+      "depth": 4,
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72909",
+        "20355:72910"
+      ]
+    },
+    {
+      "id": "20355:72909",
+      "name": "title",
+      "type": "TEXT",
+      "depth": 5,
+      "x": 0,
+      "y": 0,
+      "width": 52,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.16078431904315948,
+            "b": 0.21568627655506134
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75544"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Uso de IA",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:904cfae46709f28127a303f1c81569802fdb6087,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72910",
+      "name": "usage-quantity",
+      "type": "TEXT",
+      "depth": 5,
+      "x": 159,
+      "y": 0,
+      "width": 41,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.16078431904315948,
+            "b": 0.21568627655506134
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75544"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "42 /150",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:904cfae46709f28127a303f1c81569802fdb6087,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72911",
+      "name": "progress-bar",
+      "type": "FRAME",
+      "depth": 4,
+      "x": 0,
+      "y": 28,
+      "width": 200,
+      "height": 8,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9529411792755127,
+            "g": 0.95686274766922,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 9999,
+      "effects": [],
+      "boundVariables": {
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+        }
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72912"
+      ]
+    },
+    {
+      "id": "20355:72912",
+      "name": "progression",
+      "type": "RECTANGLE",
+      "depth": 5,
+      "x": 0,
+      "y": 0,
+      "width": 94,
+      "height": 8,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FILL",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.015222340822219849,
+            "g": 0.15631619095802307,
+            "b": 0.9558480978012085
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15001:198366"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": []
+    },
+    {
+      "id": "20355:72913",
+      "name": "usage-percentage",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 16,
+      "y": 108,
+      "width": 76,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.16078431904315948,
+            "b": 0.21568627655506134
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75544"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "28% utilizado",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:904cfae46709f28127a303f1c81569802fdb6087,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72830",
+      "name": "Atom / Anticipa /  Chat / Options and Tools",
+      "type": "COMPONENT_SET",
+      "depth": 0,
+      "x": 873,
+      "y": 263,
+      "width": 218,
+      "height": 184,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": null,
+      "children": [
+        "20355:72831",
+        "20355:72838",
+        "20355:72845"
+      ]
+    },
+    {
+      "id": "20355:72831",
+      "name": "available=true, hover=false",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 16,
+      "width": 186,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72838",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72838",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "children": [
+        "20355:72832",
+        "20355:72835",
+        "20355:72836"
+      ]
+    },
+    {
+      "id": "20355:72832",
+      "name": "left container",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 8,
+      "width": 154,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 4,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72833",
+        "20355:72834"
+      ]
+    },
+    {
+      "id": "20355:72833",
+      "name": "NotePencil",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72833;8899:59887"
+      ]
+    },
+    {
+      "id": "20355:72834",
+      "name": "tool name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 28,
+      "y": 2,
+      "width": 126,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15005:75097"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72835",
+      "name": "CaretDown",
+      "type": "INSTANCE",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "it's collapsible#17096:0"
+      },
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72835;8899:79551"
+      ]
+    },
+    {
+      "id": "20355:72836",
+      "name": "extra actions",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "extra Action#17116:15",
+        "slotContentId": "extra actions#17116:19"
+      },
+      "children": [
+        "20355:72837"
+      ]
+    },
+    {
+      "id": "20355:72837",
+      "name": "Chats",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72837;8899:5104"
+      ]
+    },
+    {
+      "id": "20355:72838",
+      "name": "available=true, hover=true",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 72,
+      "width": 186,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72839",
+        "20355:72842",
+        "20355:72843"
+      ]
+    },
+    {
+      "id": "20355:72839",
+      "name": "left container",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 8,
+      "width": 154,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 4,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72840",
+        "20355:72841"
+      ]
+    },
+    {
+      "id": "20355:72840",
+      "name": "NotePencil",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72840;8899:59887"
+      ]
+    },
+    {
+      "id": "20355:72841",
+      "name": "tool name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 28,
+      "y": 2,
+      "width": 126,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15005:75097"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72842",
+      "name": "CaretDown",
+      "type": "INSTANCE",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "it's collapsible#17096:0"
+      },
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72842;8899:79551"
+      ]
+    },
+    {
+      "id": "20355:72843",
+      "name": "extra actions",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "extra Action#17116:15",
+        "slotContentId": "extra actions#17116:19"
+      },
+      "children": [
+        "20355:72844"
+      ]
+    },
+    {
+      "id": "20355:72844",
+      "name": "Chats",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72844;8899:5104"
+      ]
+    },
+    {
+      "id": "20355:72845",
+      "name": "available=false, hover=false",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 128,
+      "width": 186,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72846",
+        "20355:72849",
+        "20355:72850"
+      ]
+    },
+    {
+      "id": "20355:72846",
+      "name": "left container",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 16,
+      "y": 8,
+      "width": 154,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 4,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72847",
+        "20355:72848"
+      ]
+    },
+    {
+      "id": "20355:72847",
+      "name": "NotePencil",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72847;8899:59887"
+      ]
+    },
+    {
+      "id": "20355:72848",
+      "name": "tool name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 28,
+      "y": 2,
+      "width": 126,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6117647290229797,
+            "g": 0.6392157077789307,
+            "b": 0.686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15001:198235"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198235"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "DISABLED",
+      "maxLines": null,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72849",
+      "name": "CaretDown",
+      "type": "INSTANCE",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "it's collapsible#17096:0"
+      },
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72849;8899:79551"
+      ]
+    },
+    {
+      "id": "20355:72850",
+      "name": "extra actions",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 146,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": false,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "visible": "extra Action#17116:15",
+        "slotContentId": "extra actions#17116:19"
+      },
+      "children": [
+        "20355:72851"
+      ]
+    },
+    {
+      "id": "20355:72851",
+      "name": "Chats",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72851;8899:5104"
+      ]
+    },
+    {
+      "id": "20355:72852",
+      "name": "Atom / Anticipa / Chat / ChatHistory",
+      "type": "COMPONENT_SET",
+      "depth": 0,
+      "x": 1132,
+      "y": 263,
+      "width": 290,
+      "height": 240,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": true,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 5,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": null,
+      "children": [
+        "20355:72853",
+        "20355:72857",
+        "20355:72863",
+        "20355:72867"
+      ]
+    },
+    {
+      "id": "20355:72853",
+      "name": "hover=false, Selected=false",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 16,
+      "width": 258,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72857",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72857",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "children": [
+        "20355:72854",
+        "20355:72856"
+      ]
+    },
+    {
+      "id": "20355:72854",
+      "name": "text",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 16,
+      "y": 10,
+      "width": 187,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "text#255:3"
+      },
+      "children": [
+        "20355:72855"
+      ]
+    },
+    {
+      "id": "20355:72855",
+      "name": "chat name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 187,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15005:75097"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72856",
+      "name": "Update time",
+      "type": "TEXT",
+      "depth": 2,
+      "x": 211,
+      "y": 10,
+      "width": 31,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": 40,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.45073992013931274,
+            "g": 0.45073992013931274,
+            "b": 0.45073992013931274
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17023:46898"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75544"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "1 sem",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:904cfae46709f28127a303f1c81569802fdb6087,",
+      "textAlignHorizontal": "RIGHT"
+    },
+    {
+      "id": "20355:72857",
+      "name": "hover=true, Selected=false",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 72,
+      "width": 258,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9372549057006836,
+            "g": 0.9529411792755127,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72858",
+        "20355:72860"
+      ]
+    },
+    {
+      "id": "20355:72858",
+      "name": "text",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 16,
+      "y": 10,
+      "width": 146,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "text#255:3"
+      },
+      "children": [
+        "20355:72859"
+      ]
+    },
+    {
+      "id": "20355:72859",
+      "name": "chat name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 146,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:15005:75097"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72860",
+      "name": "rightContainer",
+      "type": "FRAME",
+      "depth": 2,
+      "x": 178,
+      "y": 8,
+      "width": 64,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72861",
+        "20355:72862"
+      ]
+    },
+    {
+      "id": "20355:72861",
+      "name": "PushPin",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72861;8899:60567"
+      ]
+    },
+    {
+      "id": "20355:72862",
+      "name": "DotsThree",
+      "type": "INSTANCE",
+      "depth": 3,
+      "x": 40,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72862;8899:45308"
+      ]
+    },
+    {
+      "id": "20355:72863",
+      "name": "hover=false, Selected=true",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 128,
+      "width": 258,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": 40,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "20355:72867",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "20355:72867",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "children": [
+        "20355:72864",
+        "20355:72866"
+      ]
+    },
+    {
+      "id": "20355:72864",
+      "name": "text",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 16,
+      "y": 10,
+      "width": 179,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "text#255:3"
+      },
+      "children": [
+        "20355:72865"
+      ]
+    },
+    {
+      "id": "20355:72865",
+      "name": "chat name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 179,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72866",
+      "name": "Update time",
+      "type": "TEXT",
+      "depth": 2,
+      "x": 211,
+      "y": 10,
+      "width": 31,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": 40,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.45073992013931274,
+            "g": 0.45073992013931274,
+            "b": 0.45073992013931274
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:17023:46898"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75544"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "1 sem",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:904cfae46709f28127a303f1c81569802fdb6087,",
+      "textAlignHorizontal": "RIGHT"
+    },
+    {
+      "id": "20355:72867",
+      "name": "hover=true, Selected=true",
+      "type": "COMPONENT",
+      "depth": 1,
+      "x": 16,
+      "y": 184,
+      "width": 258,
+      "height": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 8,
+      "paddingRight": 16,
+      "paddingBottom": 8,
+      "paddingLeft": 16,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9607843160629272,
+            "g": 0.9411764740943909,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 8,
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "children": [
+        "20355:72868",
+        "20355:72870",
+        "20355:72871"
+      ]
+    },
+    {
+      "id": "20355:72868",
+      "name": "text",
+      "type": "SLOT",
+      "depth": 2,
+      "x": 16,
+      "y": 10,
+      "width": 146,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 8,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {
+        "slotContentId": "text#255:3"
+      },
+      "children": [
+        "20355:72869"
+      ]
+    },
+    {
+      "id": "20355:72869",
+      "name": "chat name",
+      "type": "TEXT",
+      "depth": 3,
+      "x": 0,
+      "y": 0,
+      "width": 146,
+      "height": 20,
+      "visible": true,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "OUTSIDE",
+      "effects": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75178"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75542"
+          }
+        ]
+      },
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "characters": "Nuevo chat",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAutoResize": "HEIGHT",
+      "textTruncation": "ENDING",
+      "maxLines": 1,
+      "textStyleId": "S:96b3d3941169b2892202094e973f2a4778868f2c,",
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "20355:72870",
+      "name": "PushPin",
+      "type": "INSTANCE",
+      "depth": 2,
+      "x": 178,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72870;8899:60567"
+      ]
+    },
+    {
+      "id": "20355:72871",
+      "name": "DotsThree",
+      "type": "INSTANCE",
+      "depth": 2,
+      "x": 218,
+      "y": 8,
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "NONE",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutGrow": 0,
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "componentPropertyReferences": {},
+      "reactions": [],
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "value": "Outline"
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "value": "Light"
+        }
+      },
+      "children": [
+        "I20355:72871;8899:45308"
+      ]
+    }
+  ]
+}

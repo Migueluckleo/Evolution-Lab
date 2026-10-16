@@ -1,0 +1,31 @@
+flowchart TB
+entry(["Fuentes disponibles"]) --> ingest["Preservar originales e IDs"]
+ingest --> classify["Clasificar autoridad y cobertura"]
+classify --> conflict{"Fuentes en conflicto"}
+conflict -->|"Sí"| block["CONFLICT: acotar y registrar"]
+block --> resolve["Decisión explícita requerida"]
+conflict -->|"No"| exists{"Contrato vigente existente"}
+exists -->|"Sí"| reuse["Verificar versión y dependencias"]
+exists -->|"No"| inspect["Inspeccionar fuente profundamente"]
+inspect --> evidence["Separar evidencia de inferencia"]
+evidence --> draft["DRAFT con requisitos verificables"]
+draft --> mapping[["Definir tokens y Slots"]]
+mapping --> docqa{"QA documental PASS"}
+docqa -->|"No"| fix["Corregir candidato y repetir QA"]
+docqa -->|"Sí"| delegation{"Delegación aplicable"}
+delegation -->|"Migración autorizada"| delegated["DELEGATED_FOR_BUILD"]
+delegation -->|"Flujo normal"| review["IN_REVIEW"]
+review --> decision{"Decisión humana"}
+decision -->|"Aprueba versión"| approved["APPROVED"]
+decision -->|"Solicita cambios"| fix
+decision -->|"Rechaza"| rejected["REJECTED: conservar razón"]
+reuse --> preflight(["Preflight del destino"])
+delegated --> preflight
+approved --> preflight
+style block fill:#FFCDC2,stroke:#FF7556
+style draft fill:#C2E5FF,stroke:#3DADFF
+style docqa fill:#FFECBD,stroke:#FFC943
+style delegation fill:#FFECBD,stroke:#FFC943
+style delegated fill:#DCCCFF,stroke:#874FFF
+style approved fill:#CDF4D3,stroke:#66D575
+

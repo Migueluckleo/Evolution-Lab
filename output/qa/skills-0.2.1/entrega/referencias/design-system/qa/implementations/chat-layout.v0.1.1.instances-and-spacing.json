@@ -1,0 +1,389 @@
+{
+  "observed_at": "2026-10-09",
+  "file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+  "read_only": true,
+  "primitives": [{"id":"VariableID:8:33","name":"spacing/0","valuesByMode":{"6:4":0}},{"id":"VariableID:8:44","name":"spacing/8","valuesByMode":{"6:4":8}},{"id":"VariableID:8:46","name":"spacing/16","valuesByMode":{"6:4":16}},{"id":"VariableID:8:48","name":"spacing/32","valuesByMode":{"6:4":32}},{"id":"VariableID:8:50","name":"spacing/48","valuesByMode":{"6:4":48}}],
+  "nodes": [
+    {
+      "id": "784:103",
+      "name": "State=Standby",
+      "type": "INSTANCE",
+      "width": 782,
+      "height": 775,
+      "minWidth": 358,
+      "maxWidth": null,
+      "minHeight": 775,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": [],
+      "mainComponentId": "783:24"
+    },
+    {
+      "id": "784:163",
+      "name": "State=Active",
+      "type": "INSTANCE",
+      "width": 782,
+      "height": 733,
+      "minWidth": 358,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": [],
+      "mainComponentId": "783:116"
+    },
+    {
+      "id": "I784:103;783:25",
+      "name": "Chat content",
+      "type": "FRAME",
+      "width": 750,
+      "height": 573.739990234375,
+      "minWidth": null,
+      "maxWidth": 816,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": []
+    },
+    {
+      "id": "I784:163;783:117",
+      "name": "Chat content",
+      "type": "FRAME",
+      "width": 750,
+      "height": 683,
+      "minWidth": null,
+      "maxWidth": 816,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": []
+    },
+    {
+      "id": "I784:163;783:126",
+      "name": "Messages",
+      "type": "SLOT",
+      "width": 750,
+      "height": 453,
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FILL",
+      "clipsContent": false,
+      "overflowDirection": "VERTICAL",
+      "layoutWrap": "NO_WRAP"
+    },
+    {
+      "id": "798:316",
+      "name": "Chat Toolbar",
+      "type": "INSTANCE",
+      "width": 264,
+      "height": 791,
+      "minWidth": 264,
+      "maxWidth": 310,
+      "minHeight": 791,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": [],
+      "mainComponentId": "797:316"
+    },
+    {
+      "id": "I798:316;797:381",
+      "name": "Content region",
+      "type": "FRAME",
+      "width": 232,
+      "height": 519,
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FILL",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": []
+    },
+    {
+      "id": "797:374",
+      "name": "Toggle expansion",
+      "type": "FRAME",
+      "width": 32,
+      "height": 32,
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "797:458",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "797:458",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "797:461",
+      "name": "Toggle expansion",
+      "type": "FRAME",
+      "width": 32,
+      "height": 32,
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "NO_WRAP",
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "797:316",
+            "navigation": "CHANGE_TO",
+            "transition": {
+              "type": "SMART_ANIMATE",
+              "easing": {
+                "type": "EASE_OUT"
+              },
+              "duration": 0.30000001192092896
+            },
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "797:316",
+              "navigation": "CHANGE_TO",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.30000001192092896
+              },
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "783:83",
+      "name": "Suggestions",
+      "type": "SLOT",
+      "width": 750,
+      "height": 88,
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "clipsContent": false,
+      "overflowDirection": "NONE",
+      "layoutWrap": "WRAP"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "resolvedType": "FLOAT",
+      "remote": false
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "resolvedType": "FLOAT",
+      "remote": false
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "resolvedType": "FLOAT",
+      "remote": false
+    },
+    {
+      "id": "VariableID:12:34",
+      "name": "spacing/2xl",
+      "description": "Nivel grande de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:48"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "resolvedType": "FLOAT",
+      "remote": false
+    },
+    {
+      "id": "VariableID:12:36",
+      "name": "spacing/4xl",
+      "description": "Nivel superior de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:50"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:50"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:50"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:50"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "resolvedType": "FLOAT",
+      "remote": false
+    }
+  ]
+}

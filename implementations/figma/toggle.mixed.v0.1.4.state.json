@@ -1,0 +1,48 @@
+{
+  "implementationId": "IMP-TOGGLE-MIXED-FIGMA-001",
+  "amendmentId": "AMD-TOGGLE-MIXED-004",
+  "amendmentDigestSha256": "f81bd14ba58ce0401904e09e79fb30c7ed498b4f67dd05335b037daa20e54af9",
+  "behaviorContractDigestSha256": "870fee221c30dc80385f72be0339104b7f7cd7ccfc28cbe03138049ff662b8bc",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "scope": "Four additive Mixed variants only; previous Toggle color-fidelity reopening remains separate.",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "pageName": "Toggles",
+    "pageId": "111:122",
+    "componentSetId": "111:163",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "variantIds": {
+    "Mixed/Default": "232:122",
+    "Mixed/Hover": "232:128",
+    "Mixed/Focus": "232:134",
+    "Mixed/Disabled": "232:140"
+  },
+  "indicatorIds": ["232:127", "232:133", "232:139", "232:145"],
+  "existingVariantIdsPreserved": ["111:123", "111:128", "111:133", "111:138", "111:143", "111:148", "111:153", "111:158"],
+  "localVariableIds": {
+    "color/icon/on-brand": "VariableID:13:23",
+    "color/icon/disabled": "VariableID:13:24",
+    "radius/full": "VariableID:13:11"
+  },
+  "readback": {
+    "variantCount": 12,
+    "uniqueCombinationCount": 12,
+    "componentPropertyDefinitionCount": 6,
+    "mixedIndicatorFillBindingsChecked": 4,
+    "mixedIndicatorRadiusBindingsChecked": 16,
+    "mixedLabelPropertyReferencesChecked": 16,
+    "mixedTypographyBindingsChecked": 48,
+    "mixedFocusEffectColorBindingsChecked": 2,
+    "indicatorSize": [24, 4],
+    "indicatorPosition": [8, 8],
+    "variantSize": [40, 20],
+    "setSize": [704, 380],
+    "screenshotReview": "PASS: three rows of four variants; centered dash and focus ring visible; page note updated; screenshot 704x489; no apparent clipping.",
+    "iconContrastByModeDefault": [5.56, 5.93, 3.24, 6.32],
+    "iconContrastByModeHover": [11.07, 9.53, 7.2, 10.01],
+    "iconContrastDisabled": 2.34
+  },
+  "recoveryNote": "Clone initially lost component-property references on eight new labels; explicitly restored both references per label and verified post-write. No original component was altered."
+}

@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "label": "Metric Card: galería reorganizada en tres filas",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_composici_n_vertical",
+      "label": "Composición vertical",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Versiones large y small apilan Amount 1 y Amount 2 con importes $123,320.00."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_composici_n_horizontal",
+      "label": "Composición horizontal",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Versiones large y small muestran pares etiqueta e importe en líneas horizontales."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_composici_n_one_v1",
+      "label": "Composición one-v1",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Una métrica y +5.2% azul, con símbolo monetario junto al título."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_composici_n_one_v2",
+      "label": "Composición one-v2",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Un bloque con símbolo monetario acompaña la única métrica."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_jerarqu_a_de_t_tulo_importe_descripci_n",
+      "label": "Jerarquía de título importe descripción",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "El importe es prominente, Description se presenta menor y Title encabeza las tarjetas."
+    },
+    {
+      "id": "qa_implementations_typography_web_metric_card_web_galer_a_en_tres_filas",
+      "label": "Galería en tres filas",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "La primera fila tiene vertical/large, vertical/small y horizontal/large; la siguiente horizontal/small y one-v1; abajo one-v2."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_composici_n_vertical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_composici_n_horizontal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_composici_n_one_v1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_composici_n_one_v2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_jerarqu_a_de_t_tulo_importe_descripci_n",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_metric_card_web_metric_card__galer_a_reorganizada_en_tres_filas",
+      "target": "qa_implementations_typography_web_metric_card_web_galer_a_en_tres_filas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/metric-card.web.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

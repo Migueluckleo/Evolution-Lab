@@ -1,0 +1,469 @@
+{
+  "setId": "457:470",
+  "nodeCount": 136,
+  "paints": 75,
+  "textCount": 30,
+  "usedVariableIds": [
+    "VariableID:12:18",
+    "VariableID:12:39",
+    "VariableID:12:30",
+    "VariableID:13:25",
+    "VariableID:12:29",
+    "VariableID:13:27",
+    "VariableID:12:16",
+    "VariableID:10:9",
+    "VariableID:10:6",
+    "VariableID:10:2",
+    "VariableID:12:8",
+    "VariableID:13:50",
+    "VariableID:13:35",
+    "VariableID:13:13",
+    "VariableID:12:32",
+    "VariableID:12:31",
+    "VariableID:13:6",
+    "VariableID:12:41",
+    "VariableID:13:29",
+    "VariableID:10:3",
+    "VariableID:13:78",
+    "VariableID:13:5",
+    "VariableID:13:28",
+    "VariableID:12:7",
+    "VariableID:13:20",
+    "VariableID:10:8",
+    "VariableID:123:122",
+    "VariableID:13:3",
+    "VariableID:13:15"
+  ],
+  "variants": [
+    {
+      "id": "456:402",
+      "name": "Presentation=Closed",
+      "w": 464,
+      "h": 96,
+      "clip": false,
+      "reactions": [],
+      "explicitModes": {}
+    },
+    {
+      "id": "456:421",
+      "name": "Presentation=Open",
+      "w": 464,
+      "h": 96,
+      "clip": false,
+      "reactions": [],
+      "explicitModes": {}
+    }
+  ],
+  "menu": {
+    "id": "456:440",
+    "x": 0,
+    "y": 80,
+    "w": 464,
+    "h": 200,
+    "clip": true,
+    "radius": 8,
+    "boundVariables": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:12:18"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:12:18"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:12:18"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:12:18"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:12:18"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:13:6"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:13:6"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:13:6"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:13:6"
+      }
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 8,
+        "boundVariables": {},
+        "color": {
+          "r": 0.13333334028720856,
+          "g": 0.2078431397676468,
+          "b": 0.2823529541492462,
+          "a": 0.30000001192092896
+        },
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 0,
+        "boundVariables": {},
+        "color": {
+          "r": 0.13333334028720856,
+          "g": 0.2078431397676468,
+          "b": 0.2823529541492462,
+          "a": 0.47999998927116394
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "spread": 1,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ],
+    "rows": [
+      {
+        "id": "456:441",
+        "w": 464,
+        "h": 40,
+        "y": 0,
+        "exposed": true
+      },
+      {
+        "id": "456:450",
+        "w": 464,
+        "h": 40,
+        "y": 40,
+        "exposed": true
+      },
+      {
+        "id": "456:459",
+        "w": 464,
+        "h": 40,
+        "y": 80,
+        "exposed": true
+      },
+      {
+        "id": "456:468",
+        "w": 464,
+        "h": 40,
+        "y": 120,
+        "exposed": true
+      },
+      {
+        "id": "456:477",
+        "w": 464,
+        "h": 40,
+        "y": 160,
+        "exposed": true
+      }
+    ]
+  },
+  "properties": {
+    "Presentation": {
+      "type": "VARIANT",
+      "defaultValue": "Closed",
+      "variantOptions": [
+        "Closed",
+        "Open"
+      ]
+    }
+  },
+  "initialBroadAudit": [
+    {
+      "id": "I456:441;446:167;149:180",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:167;149:180",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:167;149:180",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:167;149:183",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:167;149:183",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:167;149:183",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:441;446:173;378:1790",
+      "key": "fills",
+      "error": "missing local binding"
+    },
+    {
+      "id": "I456:450;446:167;149:180",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:167;149:180",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:167;149:180",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:167;149:183",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:167;149:183",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:167;149:183",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:450;446:173;378:1790",
+      "key": "fills",
+      "error": "missing local binding"
+    },
+    {
+      "id": "I456:459;446:167;149:180",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:167;149:180",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:167;149:180",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:167;149:183",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:167;149:183",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:167;149:183",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:459;446:173;378:1790",
+      "key": "fills",
+      "error": "missing local binding"
+    },
+    {
+      "id": "I456:468;446:167;149:180",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:167;149:180",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:167;149:180",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:167;149:183",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:167;149:183",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:167;149:183",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:468;446:173;378:1790",
+      "key": "fills",
+      "error": "missing local binding"
+    },
+    {
+      "id": "I456:477;446:167;149:180",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:167;149:180",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:167;149:180",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:167;149:183",
+      "key": "fontSize",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:167;149:183",
+      "key": "lineHeight",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:167;149:183",
+      "key": "letterSpacing",
+      "error": "missing typography binding"
+    },
+    {
+      "id": "I456:477;446:173;378:1790",
+      "key": "fills",
+      "error": "missing local binding"
+    }
+  ],
+  "classification": {
+    "activeSolidPaints": 70,
+    "nonConsumingInvisiblePaints": 5,
+    "missingColorBindings": 0,
+    "fullTypographyBindings": 20,
+    "inheritedScaledHiddenLabels": 10,
+    "hiddenLabelMetricsMatchLocalDependency": true,
+    "ownGeometryAndBindingFailures": [],
+    "coverage": "Two documented Select presentations; inherited Checkbox scaled-label numeric bindings are not restored and remain a documented dependency limitation."
+  },
+  "example": {
+    "createdNodeIds": [
+      "458:470",
+      "I458:470;456:422",
+      "I458:470;456:422;395:447",
+      "I458:470;456:422;395:450",
+      "I458:470;456:422;395:451",
+      "I458:470;456:422;395:452",
+      "I458:470;456:422;395:453",
+      "I458:470;456:422;395:454",
+      "I458:470;456:422;395:455",
+      "I458:470;456:422;395:458",
+      "I458:470;456:422;395:458;8899:29300",
+      "I458:470;456:422;395:460",
+      "I458:470;456:422;395:461",
+      "I458:470;456:440",
+      "I458:470;456:441",
+      "I458:470;456:441;446:168",
+      "I458:470;456:441;446:170",
+      "I458:470;456:450",
+      "I458:470;456:450;446:168",
+      "I458:470;456:450;446:170",
+      "I458:470;456:459",
+      "I458:470;456:459;446:168",
+      "I458:470;456:459;446:170",
+      "I458:470;456:468",
+      "I458:470;456:468;446:168",
+      "I458:470;456:468;446:170",
+      "I458:470;456:477",
+      "I458:470;456:477;446:168",
+      "I458:470;456:477;446:170"
+    ],
+    "exampleId": "458:470",
+    "exposed": [
+      {
+        "id": "I458:470;456:422",
+        "name": "Field"
+      },
+      {
+        "id": "I458:470;456:441",
+        "name": "Option 1"
+      },
+      {
+        "id": "I458:470;456:450",
+        "name": "Option 2"
+      },
+      {
+        "id": "I458:470;456:459",
+        "name": "Option 3"
+      },
+      {
+        "id": "I458:470;456:468",
+        "name": "Option 4"
+      },
+      {
+        "id": "I458:470;456:477",
+        "name": "Option 5"
+      }
+    ],
+    "menu": {
+      "x": 1620,
+      "y": 880,
+      "width": 320,
+      "height": 200
+    },
+    "field": {
+      "x": 1620,
+      "y": 800,
+      "width": 320,
+      "height": 96
+    },
+    "option": {
+      "id": "I458:470;456:441",
+      "width": 320,
+      "height": 40,
+      "label": "Opción de demostración con texto largo para truncamiento"
+    }
+  },
+  "finalVisualReview": {
+    "result": "PASS",
+    "sourceNode": "1780:2989",
+    "targetSet": "457:470",
+    "page": "444:122",
+    "example": "458:470",
+    "notes": [
+      "Closed/Open match observed composition",
+      "Menu overlays helper as documented",
+      "320px example truncates option label and stays aligned",
+      "New guide readable; no changes to existing guide"
+    ]
+  }
+}

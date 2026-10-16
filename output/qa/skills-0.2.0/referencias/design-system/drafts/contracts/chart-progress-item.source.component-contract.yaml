@@ -1,0 +1,106 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T22:13:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 40, inspected_nodes: 40, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote spacing library and version not exposed"]
+component:
+  id: "3075:871"
+  key: "e0f0518afea25fa255f066c83708099842d1ccc7"
+  name: "Progress chart item"
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "3091:3035", name: "Group 7", type: GROUP}
+  page: {id: "268:20756", name: "❖ Chart ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=3075-871", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "3075:871"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 697, y: 245}
+  dimensions: {width: 678, height: 265}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children: [{id: "3075:684", name: "Property 1=Top progress item", type: COMPONENT, dimensions: [639, 30]}, {id: "3075:872", name: "Property 1=Progress item", type: COMPONENT, dimensions: [639, 104]}]
+anatomy: {functional_tree: ["Top → Header(Label,Value) + Bar(Progress)", "Progress item → Header + Body(Bar + two Legend rows)", "Legend row → three labelCell instances"], graphical_details_omitted: []}
+dependency_inventory:
+  components: {total_instances: 6, total: 1, local: 1, remote: 0, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+  variables: {total: 17, local: 16, remote: 1, unknown_locality: 0, resolved: 17, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: "28c769fbd86a940b2b097d9267f926e9b2736116"
+    kind: COMPONENT
+    instance_ids: ["3075:908", "3075:913", "3075:918", "3076:1923", "3076:1924", "3076:1925"]
+    instance_count: 6
+    main_component: {id: "3015:2309", key: "28c769fbd86a940b2b097d9267f926e9b2736116", name: "Font weight=Regular, Font Size=sm"}
+    component_set: {id: "3086:992", key: "b5deacd96d67b6a46805de3d5abc20cc2717a4ea", name: labelCell}
+    locality: LOCAL
+    active_properties: [{Font weight: Regular, Font Size: sm}]
+    resolution: {status: RESOLVED, evidence: ["instance.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: GENERATED, suggested_path: "drafts/contracts/chart-label-cell.source.component-contract.yaml"}
+variable_dependencies:
+  - {id: "VariableID:2849:196116", name: "color/text/primary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 20, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160901", name: "font/line-height/xs", locality: LOCAL, scopes: ["LINE_HEIGHT"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", locality: LOCAL, scopes: ["FONT_FAMILY"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160892", name: "font/size/xs", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 10, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:2", name: "radius/xs", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196106", name: "color/background/muted", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:559:40", name: "radius/none", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196141", name: "color/icon/brand", locality: LOCAL, scopes: ["SHAPE_FILL"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:12", name: "spacing/lg", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: "spacing/sm", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:20", name: "size/xl", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:3", name: "radius/sm", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 20, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:10", name: "spacing/xs", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 18, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0", name: "Spacing/Small/spacing-sm-0", locality: REMOTE, scopes: ["WIDTH_HEIGHT", "GAP"], observed_binding_count: 12, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:386", name: "color/brand/default", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:389", name: "color/brand/accent", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL", "STROKE_COLOR"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2992:388", name: "color/brand/subtle", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties: {definitions: [{name: Label, type: TEXT, default: "Text example"}, {name: Value, type: TEXT, default: "$100k"}, {name: "Property 1", type: VARIANT, default: "Top progress item", options: ["Top progress item", "Progress item"]}], observed: ["Top progress item", "Progress item"], available: ["Label", "Value", "Property 1"], unknown: ["bar percentage is not a property"]}
+variants: {observed_combinations: ["Top progress item", "Progress item"], available_values: ["Property 1: Top progress item/Progress item"], unknown: []}
+states: {observed: [], available: [], unknown: ["interaction states not defined"]}
+layout:
+  node: {node: {id: "3075:871", name: "Progress chart item", type: COMPONENT_SET}, dimensions: {width: 678, height: 265}, layout_mode: NONE, evidence_refs: [E001]}
+  children: [{node: {id: "3075:684", name: "Top progress item", type: COMPONENT}, dimensions: {width: 639, height: 30}, layout_mode: VERTICAL, spacing: {gap: 6}, evidence_refs: [E002]}, {node: {id: "3075:872", name: "Progress item", type: COMPONENT}, dimensions: {width: 639, height: 104}, layout_mode: VERTICAL, spacing: {gap: 16}, evidence_refs: [E002]}]
+  relationships: ["Progress item Body has two Legend rows; each has three labelCell instances"]
+visual:
+  node: {node: {id: "3075:871", name: "Progress chart item", type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["track #E2E8F0 color/background/muted", "progress #3255F7 uses color/icon/brand on rectangle", "legend swatches brand/default and brand/subtle", "four brand/accent swatch paints are inside hidden Dot frames"]
+  icons: []
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "3075:680", name: Label}, characters: "Text example", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "3075:681", name: Value}, characters: "$100k", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "3075:874", name: Label}, characters: "Text example", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "3075:875", name: Value}, characters: "$100k", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3075:908;3015:2308", name: Text}, characters: "Progress", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3075:913;3015:2308", name: Text}, characters: "80%", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3075:918;3015:2308", name: Text}, characters: "80k", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3076:1923;3015:2308", name: Text}, characters: "Progress", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3076:1924;3015:2308", name: Text}, characters: "80%", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+    - {node: {id: "I3076:1925;3015:2308", name: Text}, characters: "80k", font_family: Manrope, font_style: Regular, font_size: 12, line_height: "16px", evidence_refs: [E003]}
+tokens:
+  summary: {total: 17, local: 16, remote: 1}
+  categories:
+    color: ["color/text/primary", "color/background/muted", "color/icon/brand", "color/brand/default", "color/brand/accent", "color/brand/subtle"]
+    font: ["font/line-height/xs", "font/family/base", "font/size/xs"]
+    radius: ["radius/xs", "radius/none", "radius/sm"]
+    size: ["size/xl"]
+    spacing: ["spacing/lg", "spacing/sm", "spacing/xs", "Spacing/Small/spacing-sm-0"]
+  source: variable_dependencies
+content: {example_content: {observed_strings: ["Text example", "$100k", "Progress", "80%", "80k"]}, component_rules: ["Label and Value editable", "bar widths fixed in source"], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "zero reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["label, value, bar, legend"], undefined: ["progress semantics", "screen reader value", "dynamic updates", "series distinctions"]}
+external_dependencies: [{kind: VARIABLE, name: "Spacing/Small/spacing-sm-0", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}]
+unresolved: ["bar geometry does not match 80% legend sample", "icon-role token used on progress rectangle", "data behavior and accessibility undefined"]
+implementation_notes: ["Build destination labelCell first", "Preserve two variants and six real nested instances", "Map progress and legend fills to background/chart roles"]
+evidence:
+  figma_direct: [{id: E001, source: "node:3075:871", value: "COMPONENT_SET 678x265"}, {id: E002, source: "traversal:3075:871", value: "40 nodes, 2 variants, 6 instances"}, {id: E003, source: "TEXT descendants", value: "10 text nodes including instance children"}]
+  derived: [{id: D001, source: "bar widths", value: "580/639 and 247/639 differ from 80% example"}]
+  requires_definition: ["data mapping and accessibility"]
+  confidence: {level: HIGH, reason: "complete traversal and active local dependency resolved"}

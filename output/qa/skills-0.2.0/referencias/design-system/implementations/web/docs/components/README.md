@@ -1,0 +1,47 @@
+# Componentes web
+
+Índice generado. Cada ficha contiene API, ejemplo ejecutable, Slots, fuentes y límites.
+
+- [Button](button.md) · BUTTON-001
+- [IconButton](icon-button.md) · ICON-BUTTON-001
+- [FilterChip](filter-chip.md) · FILTER-CHIP-001
+- [Badge](badge.md) · BADGE-001
+- [Dot](dot.md) · DOT-001
+- [InlineNotification](inline-notification.md) · INLINE-NOTIFICATION-001
+- [LinearProgressBar](linear-progress-bar.md) · LINEAR-PROGRESS-BAR-001
+- [Loader](loader.md) · LOADER-001
+- [Tooltip](tooltip.md) · TOOLTIP-001
+- [InputField](input-field.md) · INPUT-FIELD-001
+- [Textarea](textarea.md) · TEXTAREA-001
+- [Checkbox](checkbox.md) · CHECKBOX-001
+- [RadioButton](radio-button.md) · RADIO-BUTTON-001
+- [Toggle](toggle.md) · TOGGLE-001
+- [Search](search.md) · SEARCH-001
+- [Select](select.md) · SELECT-001
+- [DropdownItem](dropdown-item.md) · DROPDOWN-ITEM-001
+- [FileUpload](file-upload.md) · FILEUPLOAD-001
+- [Breadcrumbs](breadcrumbs.md) · BREADCRUMBS-001
+- [NavigationPagination](navigation-pagination.md) · NAVIGATION-PAGINATION-001
+- [NavigationSwitchTab](navigation-switch-tab.md) · NAVIGATION-SWITCH-TAB-001
+- [NavigationSwitchTabItem](navigation-switch-tab-item.md) · NAVIGATION-SWITCH-TAB-ITEM-001
+- [NavigationTab](navigation-tab.md) · NAVIGATION-TAB-001
+- [Steps](steps.md) · STEPS-001
+- [Stepper](stepper.md) · STEPPER-001
+- [Avatar](avatar.md) · AVATAR-001
+- [Characters](characters.md) · CHARACTERS-001
+- [Logos](logos.md) · LOGOS-001
+- [EmptyStates](empty-states.md) · EMPTY-STATES-001
+- [MetricCard](metric-card.md) · METRIC-CARD-001
+- [Table](table.md) · TABLE-001
+- [Modal](modal.md) · MODAL-001
+- [Scrollbar](scrollbar.md) · SCROLLBAR-001
+- [Fuentes](fuentes.md) · FUENTES-001
+- [Charts](charts.md) · CHARTS-001
+- [Header](header.md) · HEADER-001
+- [Sidebar](sidebar.md) · SIDEBAR-001
+- [AppShell](app-shell.md) · APP-SHELL-001
+- [ChatHistoryItem](chat-history-item.md) · CHAT-HISTORY-ITEM-001
+- [ChatToolItem](chat-tool-item.md) · CHAT-TOOL-ITEM-001
+- [ChatToolbar](chat-toolbar.md) · CHAT-TOOLBAR-001
+- [Conversation](conversation.md) · CONVERSATION-001
+- [ChatSection](chat-section.md) · CHAT-SECTION-001

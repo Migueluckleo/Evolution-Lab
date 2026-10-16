@@ -1,0 +1,120 @@
+{
+  "implementationId": "IMP-ICON-BUTTON-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Icon Buttons",
+    "pageId": "183:160",
+    "componentSetId": "183:311",
+    "documentationNodeIds": [
+      "183:312",
+      "183:313"
+    ]
+  },
+  "contract": {
+    "id": "ICON-BUTTON-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "258c52e92035ed006e45d38476aa76b013283227f4444a3a9fd235e6f749fdc7",
+    "sourceMdDigestSha256": "728c5aef5d875765cac8e0cba06538384e2b5085320b210bbe7da511f88a7015",
+    "sourceYamlDigestSha256": "a1d197f0ed62ecb99196d08d79b9bdfe26c3f272c1cd277623e97cd3e01eca8d",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "iconButtonBackgroundsDigestSha256": "036d143ca6169355bb2ba345e80a9c6941ce545ef2fbabaae679f1a925201b0e"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1430:18021",
+    "componentSetId": "1430:18850",
+    "componentSetKey": "fbc267a15caab7547a5d782a8887da547ee7cf03"
+  },
+  "variantIds": {
+    "Ghost/Small/Default": "183:161",
+    "Ghost/Medium/Default": "183:166",
+    "Ghost/Large/Default": "183:171",
+    "Ghost/Small/Disabled": "183:176",
+    "Ghost/Medium/Disabled": "183:181",
+    "Ghost/Large/Disabled": "183:186",
+    "Ghost/Small/Hover": "183:191",
+    "Ghost/Medium/Hover": "183:196",
+    "Ghost/Large/Hover": "183:201",
+    "Ghost/Small/Focus": "183:206",
+    "Ghost/Medium/Focus": "183:211",
+    "Ghost/Large/Focus": "183:216",
+    "Ghost/Small/Active": "183:221",
+    "Ghost/Medium/Active": "183:226",
+    "Ghost/Large/Active": "183:231",
+    "Outline/Small/Default": "183:236",
+    "Outline/Medium/Default": "183:241",
+    "Outline/Large/Default": "183:246",
+    "Outline/Small/Disabled": "183:251",
+    "Outline/Medium/Disabled": "183:256",
+    "Outline/Large/Disabled": "183:261",
+    "Outline/Small/Hover": "183:266",
+    "Outline/Medium/Hover": "183:271",
+    "Outline/Large/Hover": "183:276",
+    "Outline/Small/Focus": "183:281",
+    "Outline/Medium/Focus": "183:286",
+    "Outline/Large/Focus": "183:291",
+    "Outline/Small/Active": "183:296",
+    "Outline/Medium/Active": "183:301",
+    "Outline/Large/Active": "183:306"
+  },
+  "propertyKeys": {
+    "Icon": "Icon#183:60",
+    "Show count": "Show count#183:61"
+  },
+  "dependencyMainIds": {
+    "Bell": "183:125",
+    "DotCountSmall": "155:136",
+    "DotCountMedium": "155:134",
+    "DotCountLarge": "155:132"
+  },
+  "newSemanticVariableIds": {
+    "color/interactive/icon-button/hover-bg": "VariableID:180:122",
+    "color/interactive/icon-button/active-bg": "VariableID:180:123"
+  },
+  "constructionScript": "drafts/figma/icon-button-build.v0.1.0.js",
+  "constructionScriptDigestSha256": "2d7c7bb0503110889965e958bade959c378c5fa45480478a9757cd100fc16281",
+  "preferredIconsScript": "drafts/figma/icon-button-preferred-icons.v0.1.0.js",
+  "preferredIconsScriptDigestSha256": "4cbdaf34300e905d8f944a31a006362b09c9a4f2d384c2c6a143324fc21e9843",
+  "lastReadback": {
+    "variantCount": 30,
+    "componentPropertyCount": 5,
+    "bellPhosphorInstances": 30,
+    "dotCountInstances": 30,
+    "iconPropertyRefs": 30,
+    "showCountPropertyRefs": 30,
+    "preferredPhosphorComponentSets": 1512,
+    "visibleSolidPaints": 159,
+    "visibleSolidPaintBindingsChecked": 159,
+    "hiddenBellWrapperFills": 30,
+    "semanticScopeIssues": 0,
+    "unboundVisibleSolidPaints": 0,
+    "sizeBindings": 60,
+    "paddingBindings": 120,
+    "gapBindings": 30,
+    "radiusBindings": 120,
+    "strokeSideBindings": 72,
+    "iconSizeBindings": 60,
+    "effects": 0,
+    "reactions": 0,
+    "visualReview": "PASS: source and destination 289x960 set screenshots inspected; 2x5x3 catalog visually matches without apparent clipping or overlaps",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Source type default/outline is named Style Ghost/Outline and source middle is named Medium.",
+    "Source Dot Count background used an icon-role token; the reused destination Dot has the correct background role.",
+    "The single source focus/outset effect on Ghost Large Focus is intentionally omitted so all six Focus variants use a consistent semantic focus border.",
+    "Small remains 24x24 and nested Count text remains 4 px for visual fidelity; no touch-target or legibility conformance is claimed."
+  ],
+  "colorRefinement": {
+    "date": "2026-10-05",
+    "status": "PASS_TECHNICAL_COLOR_SCOPE",
+    "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+    "state": "implementations/figma/six-family-color.v0.1.0.state.json",
+    "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+    "note": "Supersedes historical color/contrast claims only. Existing geometry/typography deviations and human-audit status remain."
+  }
+}

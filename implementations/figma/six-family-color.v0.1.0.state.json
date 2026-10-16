@@ -1,0 +1,138 @@
+{
+  "id": "IMP-SIX-FAMILY-COLOR-001",
+  "date": "2026-10-05",
+  "status": "VALIDATED_COLOR_SCOPE",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "contract": "specs/components/six-family-color.amendment.v0.1.0.md",
+  "data": "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+  "qa": "qa/implementations/six-families.color.v0.1.0.review.md",
+  "families": [
+    {
+      "name": "buttons",
+      "pageId": "0:1",
+      "rootIds": [
+        "26:81"
+      ],
+      "paintCount": 243,
+      "slots": "NOT_APPLICABLE:fixed anatomy"
+    },
+    {
+      "name": "icon-button",
+      "pageId": "183:160",
+      "rootIds": [
+        "183:311"
+      ],
+      "paintCount": 159,
+      "slots": "NOT_APPLICABLE:fixed anatomy"
+    },
+    {
+      "name": "breadcrumbs",
+      "pageId": "190:188",
+      "rootIds": [
+        "190:210",
+        "191:229"
+      ],
+      "paintCount": 38,
+      "slots": "REQUIRED/IMPLEMENTED/PRESERVED"
+    },
+    {
+      "name": "metric-card",
+      "pageId": "202:208",
+      "rootIds": [
+        "202:327"
+      ],
+      "paintCount": 70,
+      "slots": "NOT_APPLICABLE:fixed anatomy"
+    },
+    {
+      "name": "charts",
+      "pageId": "210:122",
+      "rootIds": [
+        "210:145",
+        "210:171",
+        "213:161",
+        "211:134",
+        "213:162"
+      ],
+      "paintCount": 82,
+      "slots": "REQUIRED/IMPLEMENTED/PRESERVED"
+    },
+    {
+      "name": "linear-progress-bar",
+      "pageId": "220:122",
+      "rootIds": [
+        "220:460"
+      ],
+      "paintCount": 240,
+      "slots": "NOT_APPLICABLE:fixed anatomy"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:196:122",
+      "name": "color/text/breadcrumb/current",
+      "created": false
+    },
+    {
+      "id": "VariableID:200:122",
+      "name": "color/text/metric/trend",
+      "created": false
+    },
+    {
+      "id": "VariableID:200:123",
+      "name": "color/icon/metric/brand",
+      "created": false
+    },
+    {
+      "id": "VariableID:208:123",
+      "name": "color/shape/chart/progress",
+      "created": false
+    },
+    {
+      "id": "VariableID:208:124",
+      "name": "color/shape/chart/track",
+      "created": false
+    },
+    {
+      "id": "VariableID:208:125",
+      "name": "color/shape/chart/legend-neutral",
+      "created": false
+    },
+    {
+      "id": "VariableID:208:127",
+      "name": "color/shape/chart/series-2",
+      "created": false
+    },
+    {
+      "id": "VariableID:219:123",
+      "name": "color/background/progress/primary",
+      "created": false
+    },
+    {
+      "id": "VariableID:712:122",
+      "name": "color/border/control/subtle",
+      "created": true
+    },
+    {
+      "id": "VariableID:712:123",
+      "name": "color/interactive/button/hover-bg",
+      "created": true
+    },
+    {
+      "id": "VariableID:712:125",
+      "name": "color/shape/chart/remaining",
+      "created": true
+    },
+    {
+      "id": "VariableID:712:126",
+      "name": "color/shape/chart/legend-accent",
+      "created": true
+    }
+  ],
+  "retiredUnusedVariable": "VariableID:712:124",
+  "changedBindings": 42,
+  "primitivesCreated": 0,
+  "libraryPublication": "NOT_PERFORMED",
+  "pendingValidations": []
+}

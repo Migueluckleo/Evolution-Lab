@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0",
+  "input_digest": "72895bf3e0ba82c6fbb29e3d54d61ba497a1cc194d2f14deb490a36ca6099fee",
+  "ds_digest": "05f59b74952cf681ac81049a33c368d49e4fa16656e3dee883424f5650367443",
+  "components": 43,
+  "packages": {
+    "contpaqi-figma-screens": {
+      "archive": "contpaqi-figma-screens-0.1.0.zip",
+      "sha256": "6e976e1a6bf705de3c007c33b8adadec2e2b08795ad417763e977a60dce9dbd5",
+      "bytes": 5119059,
+      "file_count": 1383
+    },
+    "contpaqi-po-prototypes": {
+      "archive": "contpaqi-po-prototypes-0.1.0.zip",
+      "sha256": "5a24c01ed8927802ab197a13b76909ccdf1f4f9b0ea725e1479b168c8f5f4b18",
+      "bytes": 5136711,
+      "file_count": 1398
+    }
+  },
+  "snapshot_files": 1373,
+  "idempotent_export": {
+    "status": "PASS",
+    "unchanged_files": 2784,
+    "bytes_and_mtimes_preserved": true
+  },
+  "tested_runtime_templates": {
+    "status": "PASS",
+    "files": [
+      "assets/starter/brief.json",
+      "assets/starter/next.config.ts",
+      "assets/starter/postcss.config.mjs",
+      "assets/starter/prototype/evidence.tsx",
+      "assets/starter/prototype/globals.css",
+      "assets/starter/prototype/layout.tsx",
+      "assets/starter/prototype/page.tsx",
+      "assets/starter/prototype/runtime-ready.tsx",
+      "assets/starter/scripts/capture.mjs",
+      "assets/starter/scripts/handoff.mjs",
+      "assets/starter/scripts/inline-export.mjs",
+      "assets/starter/scripts/offline-asset-prefix.js",
+      "assets/starter/scripts/prepare.mjs",
+      "assets/starter/tsconfig.json",
+      "scripts/init.mjs"
+    ],
+    "same_bytes_as_final_release": true,
+    "regression_runner": "Canonical scripts/verify-offline.mjs executed directly; candidate documentation predates final prose revisions."
+  }
+}

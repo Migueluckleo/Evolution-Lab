@@ -1,0 +1,52 @@
+{
+  "implementationId": "IMP-NAVIGATION-SWITCH-TAB-FIGMA-001",
+  "slotsReview": {"protocol":"P-SLOTS/0.1.0","applicability":"REQUIRED","status":"VALIDATED","amendment":"specs/composition-slots.amendment.v0.1.0.md","state":"implementations/figma/composition-slots.v0.1.0.state.json"},
+  "runId": "legacy-navigation-switch-tab-2026-09-24",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "publishStatus": "UNPUBLISHED",
+  "contract": {
+    "id": "NAVIGATION-SWITCH-TAB-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "path": "specs/navigation-switch-tab.contract.v0.1.0.md"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "268:20245",
+    "componentId": "2461:1740",
+    "childIds": ["2461:1716", "2461:1717", "2461:1718", "2461:1719"]
+  },
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Navigation",
+    "pageId": "275:122",
+    "componentId": "283:128",
+    "documentationFrameId": "283:157",
+    "childIds": ["283:129", "283:136", "283:143", "283:150"],
+    "nestedItemSetId": "276:395"
+  },
+  "tokenBindings": {
+    "fill": "VariableID:13:36",
+    "itemSpacingAndPadding": "VariableID:12:29",
+    "cornerRadius": "VariableID:13:6"
+  },
+  "completedSteps": ["P1", "P2", "P3"],
+  "lastReadback": {
+    "width": 488,
+    "height": 46,
+    "itemStates": ["Active", "Default", "Default", "Default"],
+    "nestedInstanceCount": 4,
+    "geometryBindingCount": 9,
+    "geometryBindingIssues": 0,
+    "reactionCount": 0,
+    "visualReview": "PASS; page capture matches source composition and colors",
+    "qaRecord": "QA-NAVIGATION-SWITCH-TAB-FIGMA-001"
+  },
+  "knownLimits": [
+    "The source and destination show a four-tab example, not a dynamic tab-count rule.",
+    "Selection exclusivity, keyboard control and navigation are undefined in the source.",
+    "Tab and Pagination subfamilies of Navigation remain to be migrated."
+  ]
+}

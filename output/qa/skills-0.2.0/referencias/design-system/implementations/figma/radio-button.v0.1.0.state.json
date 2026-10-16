@@ -1,0 +1,113 @@
+{
+  "implementationId": "IMP-RADIO-BUTTON-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Radio Buttons",
+    "pageId": "142:122",
+    "indicatorSetId": "142:144",
+    "publicSetId": "143:166",
+    "focusStyleId": "S:dea3da42f15a5819697eb5bd5c53429d8ebf7180,",
+    "focusStyleName": "Focus/Selection Outset"
+  },
+  "contract": {
+    "id": "RADIO-BUTTON-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "f97d72ea3a8abe0c489aaa1a5f7289a4dc900f8c367601f7ccfc1b39651a29f2",
+    "sourceMdDigestSha256": "739b6b023c26b50bfca00c51320403175e9be017ccb18371d5bd7f4051db912b",
+    "sourceYamlDigestSha256": "b6e66f541e7740cbea7d20512c5fca19a9d16b97175fa89a61deef02761cb3f4",
+    "radioColorDataDigestSha256": "46f53dc329a93374f486ad26452cdd991c6cb0651a6c068865e34352d8e6161a"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1144:34653",
+    "componentSetId": "1230:24283",
+    "componentSetKey": "92e794dad0b717afa2e923d7bf2db0b041e9f230"
+  },
+  "indicatorVariantIds": {
+    "True/Default": "142:124",
+    "True/Hover": "142:127",
+    "True/Focus": "142:130",
+    "True/Disabled": "142:133",
+    "False/Default": "142:136",
+    "False/Hover": "142:138",
+    "False/Focus": "142:140",
+    "False/Disabled": "142:142"
+  },
+  "publicVariantIds": {
+    "True/Default": "143:122",
+    "True/Hover": "143:128",
+    "True/Focus": "143:134",
+    "True/Disabled": "143:140",
+    "False/Default": "143:146",
+    "False/Hover": "143:151",
+    "False/Focus": "143:156",
+    "False/Disabled": "143:161"
+  },
+  "propertyKeys": {
+    "leftText": "Left label#143:32",
+    "rightText": "Right label#143:33",
+    "leftBoolean": "Show left label#143:34",
+    "rightBoolean": "Show right label#143:35"
+  },
+  "documentationNodeIds": [
+    "143:167",
+    "143:168",
+    "144:134",
+    "144:135"
+  ],
+  "focusEffectVariableIds": [
+    "VariableID:136:122",
+    "VariableID:136:123"
+  ],
+  "radioColorVariableIds": [
+    "VariableID:140:122",
+    "VariableID:140:123"
+  ],
+  "constructionScripts": [
+    "drafts/figma/radio-indicator-build.v0.1.0.js",
+    "drafts/figma/radio-button-build.v0.1.0.js"
+  ],
+  "lastReadback": {
+    "indicatorVariants": 8,
+    "publicVariants": 8,
+    "matchedNestedInstances": 8,
+    "hiddenLabels": 16,
+    "connectedTextProperties": 2,
+    "connectedBooleanProperties": 2,
+    "solidPaintBindingsChecked": 36,
+    "focusEffectColorBindingsChecked": 4,
+    "typographyBindingsChecked": 80,
+    "semanticScopeIssues": 0,
+    "unboundSolidPaintIssues": 0,
+    "reactions": 0,
+    "activeContrastMinimum": 3.24,
+    "visualReview": "PASS: source 678x194 and target 696x713 page captures inspected; control appearance close, with documented Off Default stroke adjustment and added page documentation; no apparent clipping",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Source radio on/off mapped to Selected True/False and enabled mapped to Default.",
+    "Selected 5 px stroke reproduced by concentric 18 px and 8 px filled circles, avoiding an unapproved stroke primitive.",
+    "Off Default neutral ring uses color/border/control instead of the lower-contrast source border/default.",
+    "Hidden labels gain editable TEXT properties and line height uses the local 20 px semantic token instead of the source 18 px.",
+    "Radio focus inner halo uses white effect token instead of source literal #f8fafc.",
+    "Local indicator helper expanded to eight exact public states instead of source instance overrides."
+  ],
+  "refinement": {
+    "version": "0.1.2",
+    "date": "2026-10-06",
+    "status": "VALIDATED",
+    "userAudit": "PENDING",
+    "contractPath": "specs/radio-button.contract.v0.1.0.md",
+    "amendmentPath": "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
+    "qaPath": "qa/implementations/radio-checkbox.refinement.v0.1.2.review.md",
+    "changedPermanentNodes": [],
+    "newVariables": 0,
+    "sourceColorAmendment": "specs/radio-button.source-color-amendment.v0.1.1.md",
+    "historicalFields": "contract.digestSha256, lastReadback y knownDeviations describen 0.1.0; el contorno más oscuro quedó sustituido por la enmienda cromática 0.1.1. El QA actual incluye la normalización anatómica/tipográfica.",
+    "libraryPublished": false
+  }
+}

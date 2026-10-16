@@ -1,0 +1,17 @@
+flowchart LR
+request(["Publicación privada solicitada"]) --> prepare["Revisar alcance y exclusiones"]
+prepare --> scan["Revisión acotada de credenciales"]
+scan --> repository["Repositorio creado por usuario"]
+repository --> auth["Autenticación CLI autorizada"]
+auth --> commit["Commit del contenido"]
+commit --> push["Push a origin/main"]
+push --> visibility["Verificar privacidad y permisos"]
+visibility --> tree["Comparar árbol y blobs"]
+tree --> result{"Verificación PASS"}
+result -->|"Sí"| published["PUBLISHED_PRIVATE registrado"]
+result -->|"No"| fix["Corregir discrepancia de publicación"]
+published --> preserve(["Conservar estados del diseño"])
+style request fill:#C2E5FF,stroke:#3DADFF
+style result fill:#FFECBD,stroke:#FFC943
+style published fill:#CDF4D3,stroke:#66D575
+

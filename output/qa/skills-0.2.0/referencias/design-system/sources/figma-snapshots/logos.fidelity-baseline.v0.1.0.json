@@ -1,0 +1,246 @@
+{
+  "algorithm": "dual FNV1a32-DJB2 structural checksum; not cryptographic; canonical field script retained",
+  "script": "\nfunction canon(v){if(v===figma.mixed)return \"MIXED\";if(Array.isArray(v))return v.map(canon);if(v&&typeof v==='object'){let o={};for(const k of Object.keys(v).sort()){if(k==='boundVariables')continue;o[k]=canon(v[k]);}return o;}return v;}\nfunction hash(s){let a=2166136261,b=5381;for(let i=0;i<s.length;i++){a=Math.imul(a^s.charCodeAt(i),16777619);b=Math.imul(b,33)^s.charCodeAt(i);}return[(a>>>0).toString(16),(b>>>0).toString(16)].join('-');}\nconst fields=['name','type','width','height','visible','locked','opacity','blendMode','fills','strokes','strokeWeight','strokeAlign','strokeCap','strokeJoin','dashPattern','effects','cornerRadius','cornerSmoothing','topLeftRadius','topRightRadius','bottomLeftRadius','bottomRightRadius','clipsContent','isMask','maskType','layoutMode','layoutWrap','primaryAxisSizingMode','counterAxisSizingMode','primaryAxisAlignItems','counterAxisAlignItems','itemSpacing','paddingTop','paddingRight','paddingBottom','paddingLeft','layoutGrow','layoutAlign','layoutPositioning','constraints','vectorPaths','vectorNetwork','exportSettings','reactions'];\nfunction inspect(root){let records=[],ids=[],bindings=[],images=new Set(),errs=[];function w(n,path){let o={path};ids.push(n.id);for(const f of fields){try{if(f in n)o[f]=canon(n[f]);}catch(e){errs.push({id:n.id,field:f,error:String(e)});}}if(path!=='')o.relativeTransform=canon(n.relativeTransform);if('boundVariables'in n&&Object.keys(n.boundVariables||{}).length)bindings.push(n.id);for(const f of ['fills','strokes'])if(f in n&&Array.isArray(n[f]))for(const p of n[f])if(p.type==='IMAGE')images.add(p.imageHash);if(n.type==='INSTANCE')o.properties=canon(n.componentProperties);records.push(o);if('children'in n)n.children.forEach((c,i)=>w(c,path+'/'+i));}w(root,'');const s=JSON.stringify(records);return{id:root.id,count:records.length,digest:hash(s),canonicalLength:s.length,bindings,images:[...images].sort(),errors:errs};}\n",
+  "roots": [
+    {
+      "id": "2849:210103",
+      "count": 1276,
+      "digest": "30af9acd-d7a6af51",
+      "canonicalLength": 3630449,
+      "bindings": [],
+      "images": [
+        "003b6235342c556e9f1ae854df58c5a4504e9a23",
+        "04bdba67f264c180dec6adfdd5624f872c0e4299",
+        "058dbd0fe3a9d143167ed6b58efee32f501606b2",
+        "062421f4455845ff93907f7103a17d754038d7ef",
+        "09413b1c46dd1255688a38bb86ea1ea435e976db",
+        "115835213c0d83e1f42125c794f4a35f07ce288f",
+        "132447d2b601b9ef86dbf9b651ad786ac62e32c2",
+        "1a137955ce71b710b34b584e777a1c6b3bd99648",
+        "1bd50586bfa3c3b13c9b914bccec5d7904a6516f",
+        "29a07ad5dd9d2abbecf1f3087d7e678fa523af2b",
+        "2d0cdc7fc27b3600e51f876c6b68096b20c08282",
+        "384481107edaeb4855889397aab5aa85058a3a35",
+        "3af778d50aa37af78308d64a538f918cca897a62",
+        "43da5f87c92b1106f67ce27a5b587ad0ed34da7f",
+        "44229ae2244e5da848e5569801b6abb18ec7a761",
+        "4c2dd81898189b4d52b721aed7069ab722ebefb0",
+        "5b63a106c74ebd4b70e5ced95676919f062f6c31",
+        "5c3f58e63d12061657d9b0027e538515c5a1e9dd",
+        "5c58ab8cfaee67514e95a365f0137bda47e8feb3",
+        "6241498de0694e9b30c51d538b2fc65a3d984ab3",
+        "64d10e71598c04b2224ce362e4576fd9c436f6d2",
+        "7da927b3abf6498895a3c4edfa2504dfe0977939",
+        "819ad67baf4105c5c929a719ffee08734f39141c",
+        "891a08d54a51b4be8ae1da98902a87c78b89754d",
+        "8d4483d52d4566d0e6d174ac62353c63ee071474",
+        "934695ee906a0d854d48c062d8624037730310a0",
+        "969016b6c180529146219b46f8b7ce36d41a6de6",
+        "9be774ba847b6659590992325552bf66c3da8c11",
+        "b2941f1ad4304aaf42fbf9081ff246394c71d0bd",
+        "b4e3cd80f6e7eaf2849eaf05b81de692edb7c8c3",
+        "b5276d209ea158b87cfcabfa465725e3f6aacbe1",
+        "b829f3d8dd187352d41c5fef0d07730c9006498b",
+        "b982468925f1a3f83eee5e6124723ffce0602546",
+        "bec70fb6cf312530a8d5d91342d1fc50afc9f32a",
+        "d90457301a02fb516a64b883998a8b60f5f164e0",
+        "ebea399d54e21b562778761b9fe1909cdae9b6ee",
+        "f152a9afd81ae9ecf8c43a7ea991d911970c657a",
+        "f19bb5c6aafb9c9ccfe2915c55bbf7310656901b",
+        "f7c59acbe34e69f603737ee9101f6982046c7208"
+      ],
+      "errors": []
+    },
+    {
+      "id": "2849:211519",
+      "count": 698,
+      "digest": "558ad7c8-f6c70e20",
+      "canonicalLength": 2582392,
+      "bindings": [],
+      "images": [
+        "0154a768799d3cad4045059e41d59f5455e005b9",
+        "a287230f66915a871b65508b17edea3be873db97",
+        "a31694b45350c61a39fe22c06aa31e770e86877a",
+        "afe3c95c2392cdebc017dd5673475923643ac2b3",
+        "b955191580e70170bc4e49bbaa7185d28688ad4e",
+        "bfc04622193fa40c6521e64f2b2c12df1e88163a",
+        "c6c389b4caf3ed68abcd4a4d0dead23d58d64968",
+        "d7dfcf5258feb2348d33a29faff6df8a9ba5e984",
+        "fcf055f5498c61b9f6b3ca03bdce9d989a33da84"
+      ],
+      "errors": []
+    },
+    {
+      "id": "2849:212172",
+      "count": 306,
+      "digest": "cdde9566-5ca49d0c",
+      "canonicalLength": 1265383,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "2849:212402",
+      "count": 242,
+      "digest": "2ad3685c-10cf1b5c",
+      "canonicalLength": 795671,
+      "bindings": [],
+      "images": [
+        "1246b72354ef3a61718ad98226cc5e43312f51c6",
+        "519a0af0bed631d8d3ec6318f5ce654cec3c5247",
+        "5793c09dd92d6fad60d855cb1d68234cafa85913",
+        "c494aeaded5401a8dd231728ad9bd015a57e58dd",
+        "cb7c076b63d004bc8eac2b65d02d9911a1e596b6",
+        "f57b0196bcbbeb70790061dbb7f7ef210d0579c4"
+      ],
+      "errors": []
+    },
+    {
+      "id": "5400:1929",
+      "count": 234,
+      "digest": "7b032299-944ae001",
+      "canonicalLength": 1156203,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:325",
+      "count": 2,
+      "digest": "73659f92-8a0b1c48",
+      "canonicalLength": 393811,
+      "bindings": [
+        "4969:324"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:327",
+      "count": 2,
+      "digest": "4182c4f4-676fdb30",
+      "canonicalLength": 374683,
+      "bindings": [
+        "4969:323"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:328",
+      "count": 2,
+      "digest": "5c46d25f-654fbb3f",
+      "canonicalLength": 90818,
+      "bindings": [
+        "4969:322"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:326",
+      "count": 2,
+      "digest": "7e89aa84-610a6ea4",
+      "canonicalLength": 149762,
+      "bindings": [
+        "4969:320"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:329",
+      "count": 2,
+      "digest": "751c9964-298e5d5a",
+      "canonicalLength": 391475,
+      "bindings": [
+        "4969:330"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:331",
+      "count": 2,
+      "digest": "a7ff3fa6-ec9634a2",
+      "canonicalLength": 372555,
+      "bindings": [
+        "4969:332"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:333",
+      "count": 2,
+      "digest": "3eec9339-72c86aed",
+      "canonicalLength": 89522,
+      "bindings": [
+        "4969:334"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "4969:335",
+      "count": 2,
+      "digest": "8089efc6-c3328976",
+      "canonicalLength": 147738,
+      "bindings": [
+        "4969:336"
+      ],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "5390:256",
+      "count": 6,
+      "digest": "2067773a-3829b6d0",
+      "canonicalLength": 27817,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "5656:22",
+      "count": 2,
+      "digest": "b1eb9e8d-81fd21e3",
+      "canonicalLength": 23169,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "5390:263",
+      "count": 6,
+      "digest": "2988e0d9-260d4de1",
+      "canonicalLength": 27990,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "5639:1658",
+      "count": 2,
+      "digest": "925fe382-ab11ccb6",
+      "canonicalLength": 149878,
+      "bindings": [],
+      "images": [],
+      "errors": []
+    },
+    {
+      "id": "8305:227",
+      "count": 211,
+      "digest": "d4e20313-8d6a8bb3",
+      "canonicalLength": 751254,
+      "bindings": [],
+      "images": [
+        "1a137955ce71b710b34b584e777a1c6b3bd99648",
+        "3af778d50aa37af78308d64a538f918cca897a62",
+        "c6c389b4caf3ed68abcd4a4d0dead23d58d64968",
+        "f57b0196bcbbeb70790061dbb7f7ef210d0579c4"
+      ],
+      "errors": []
+    }
+  ]
+}

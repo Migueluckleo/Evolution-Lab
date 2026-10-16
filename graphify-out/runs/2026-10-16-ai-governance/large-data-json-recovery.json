@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "scope": "Bounded structural classification of the ten oversized data JSON files; not semantic extraction or product validation",
+  "method": "Replay the unmodified upstream JSON extraction algorithm in an isolated namespace with the sole byte-limit substitution 1 MiB -> 8 MiB, restricted to hash-verified failure paths. Require ordinary upstream data-JSON skip. Do not edit installed package, canonical sources, or original ast.json.",
+  "upstream_extractor_sha256": "3099dff7f78e044380699138a4087729cca423f423c96fea7ea791fa4c25b599",
+  "upstream_function_sha256": "65df1d258ff9153e221b408480e50a936993ce646871717b0f92e2f8ab754771",
+  "runtime_function_sha256": "d58e60cbf6ee993476b7c034637b111ecbc5e6bc3ee4a3a3e6d7360cc50567f1",
+  "original_ast_sha256": "7b114c2e445a4f4cbf4a628fff5bfb7977432ddfafa339aae2fbc1dd9faf8e51",
+  "original_failed_sources": [
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/figma/typography.v0.1.0.mapping.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/figma/typography.v0.1.1.mapping.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-75/typography/consumers.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/consumers.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/typography/consumers.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/capture-final.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/capture.original.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/handoff.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/capture-final.json",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/handoff.json"
+  ],
+  "recovered_sources": [
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/figma/typography.v0.1.0.mapping.json",
+      "sha256": "292ae3b24fd617172a0434fcb579419f54c3813df7ae07be877dce13debd162b",
+      "bytes": 6230378,
+      "root_keys": [
+        "schema_version",
+        "id",
+        "version",
+        "fileKey",
+        "provenance",
+        "status",
+        "implementationValidation",
+        "generator",
+        "sources",
+        "summary",
+        "policies",
+        "pages",
+        "nodes",
+        "existing_style_reuse_candidates",
+        "blocked"
+      ],
+      "prior_same_hash_artifacts": [
+        "implementations_figma_typography_v0_1_0_mapping_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/implementations/figma/typography.v0.1.1.mapping.json",
+      "sha256": "4a44eeab4e9839eed71ec90e50a4a106a312545edfad912b43c284a7612ae73d",
+      "bytes": 6400169,
+      "root_keys": [
+        "schema_version",
+        "id",
+        "version",
+        "fileKey",
+        "provenance",
+        "status",
+        "implementationValidation",
+        "generator",
+        "sources",
+        "summary",
+        "policies",
+        "pages",
+        "nodes",
+        "existing_style_reuse_candidates",
+        "blocked"
+      ],
+      "prior_same_hash_artifacts": [
+        "implementations_figma_typography_v0_1_1_mapping_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-75/typography/consumers.json",
+      "sha256": "6b69689c6e1640bc297a36354dcb4a057bab8d2d1611d7c41504d1851b15c748",
+      "bytes": 1116740,
+      "root_keys": [
+        "source",
+        "sha256",
+        "status",
+        "results",
+        "failures"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_implementations_typography_web_revision_75_typography_consumers_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/revision-79/consumers.json",
+      "sha256": "539875e48f83f32c288dd08145ec96a3de0f1231ae872974e3e62172546d359e",
+      "bytes": 1212616,
+      "root_keys": [
+        "source",
+        "sha256",
+        "status",
+        "results",
+        "failures"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_implementations_typography_web_revision_79_consumers_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/typography/consumers.json",
+      "sha256": "e208c64bd84d49ad9c5491b3c233c1cbc060bbea4da51757995d0e57b741faf8",
+      "bytes": 1116740,
+      "root_keys": [
+        "source",
+        "sha256",
+        "status",
+        "results",
+        "failures"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_implementations_typography_web_typography_consumers_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/capture-final.json",
+      "sha256": "a79d1028255919afd09b0328aa33174c1d388eb0c91172c0b6ebfa8e131c94c1",
+      "bytes": 4642261,
+      "root_keys": [
+        "schema_version",
+        "html_sha256",
+        "brief_sha256",
+        "status",
+        "network",
+        "browser",
+        "states",
+        "errors",
+        "generated_at"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_skills_release_0_2_0_capture_final_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/capture.original.json",
+      "sha256": "7940d60ad519d611ac473f46fcb560775a077d3d94dda3ae8ced179042e74cec",
+      "bytes": 4642261,
+      "root_keys": [
+        "schema_version",
+        "html_sha256",
+        "brief_sha256",
+        "status",
+        "network",
+        "browser",
+        "states",
+        "errors",
+        "generated_at"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_skills_release_0_2_0_capture_original_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.0/handoff.json",
+      "sha256": "3d284221ff916a63437339c46f4dd55e7da2d65489e923aabbc8dc6c03cdf555",
+      "bytes": 4827391,
+      "root_keys": [
+        "schema_version",
+        "producer_skill",
+        "consumer_skill",
+        "package_version",
+        "ds_digest",
+        "html_sha256",
+        "title",
+        "objective",
+        "theme",
+        "viewports",
+        "figmaTarget",
+        "sources",
+        "screens",
+        "transitions",
+        "components",
+        "decisions",
+        "limitations",
+        "checks",
+        "typography",
+        "capture"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_skills_release_0_2_0_handoff_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/capture-final.json",
+      "sha256": "64381271eba4b472cc4e93b29fe2c1c81b6387a78a41a27d0625e72289776901",
+      "bytes": 5245617,
+      "root_keys": [
+        "schema_version",
+        "html_sha256",
+        "brief_sha256",
+        "status",
+        "network",
+        "browser",
+        "states",
+        "errors",
+        "generated_at"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_skills_release_0_2_1_capture_final_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    },
+    {
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/handoff.json",
+      "sha256": "246cd5a8c43bd3619926fe697cb1a01dae9e87c2a75ad77cc635dad3cee97dac",
+      "bytes": 5452407,
+      "root_keys": [
+        "schema_version",
+        "producer_skill",
+        "consumer_skill",
+        "package_version",
+        "ds_digest",
+        "html_sha256",
+        "title",
+        "objective",
+        "theme",
+        "viewports",
+        "figmaTarget",
+        "sources",
+        "screens",
+        "transitions",
+        "components",
+        "decisions",
+        "limitations",
+        "checks",
+        "typography",
+        "capture"
+      ],
+      "prior_same_hash_artifacts": [
+        "qa_skills_release_0_2_1_handoff_artifact_json"
+      ],
+      "upstream_cache_hit": false,
+      "result": {
+        "nodes": [],
+        "edges": [],
+        "skipped": "data json (not a config/manifest)"
+      }
+    }
+  ],
+  "remaining_failed_sources": [],
+  "supplement_required": true,
+  "supplement_scope": "File identity, source hash, top-level data keys/recorded status and exact local reference strings; no claim of field-by-field semantic extraction.",
+  "token_usage": "UNAVAILABLE",
+  "recovered_ast_sha256": "58eabcf4c173ff92589b370c091b6a87de0ce941a3043799d3a9aacebc42f2a9"
+}

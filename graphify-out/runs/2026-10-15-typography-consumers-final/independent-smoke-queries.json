@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "status": "PASS_SCOPED_INDEPENDENT_SMOKES",
+  "graphSha256Before": "2f1f6a8c4813923b7f14b6382eb76dffb0b04e707938943d55490410a63ccd63",
+  "graphSha256After": "2f1f6a8c4813923b7f14b6382eb76dffb0b04e707938943d55490410a63ccd63",
+  "graphCounts": {
+    "nodes": 14143,
+    "edges": 34770
+  },
+  "queries": [
+    {
+      "id": "native_consumption_chain",
+      "expandedTokens": [
+        "typography",
+        "native",
+        "inheritance",
+        "closure",
+        "consumer",
+        "acceptance"
+      ],
+      "commandArgs": [
+        "query",
+        "typography native inheritance closure consumer acceptance",
+        "--budget",
+        "5000"
+      ],
+      "execution": {
+        "id": "native_consumption_chain",
+        "exitCode": 0,
+        "seconds": 6.668,
+        "stdoutBytes": 15781,
+        "stderrBytes": 0,
+        "stdout": "smoke-native_consumption_chain.txt",
+        "stderr": "smoke-native_consumption_chain.stderr.txt"
+      },
+      "cliTruncated": true,
+      "cliCompleteOverBudget": false,
+      "outputSha256": "bcb16fba3ca82963b988c77e72e9afcdf03c8a4ac9a855986277e410b054eb58",
+      "pathOutput": "smoke-native_consumption_chain.path.txt",
+      "pathOutputSha256": "adf9023d939fa17c76908d0b3ad8b42e44a8c34325c65911167832ef890b27f4",
+      "exactPublishedNodeAnchors": [
+        {
+          "id": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+          "label": "TYPOGRAPHY NATIVE INHERITANCE 001",
+          "_origin": "semantic",
+          "audit": "PENDING",
+          "author": null,
+          "base_styles": 18,
+          "captured_at": null,
+          "catalog_styles": 79,
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "complementary_styles": 61,
+          "contributor": null,
+          "file_type": "document",
+          "implementation_validation": "VALIDATED_TYPOGRAPHY_SCOPE",
+          "metric_recipe_change": false,
+          "norm_label": "typography native inheritance 001",
+          "rationale": "103scaled consumers can resolve shared typography through verified main style and native instance scale despite an observed empty localID; scope-specific proof replaces only the identified historical direct-materialized-ID requirement.",
+          "source_file": "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+          "source_location": "L3",
+          "source_url": null,
+          "status": "DELEGATED_FOR_BUILD",
+          "version": "0.1.2"
+        },
+        {
+          "id": "specs_typography_native_inheritance_amendment_v0_1_2_final_bounded_typography_consumer_acceptance",
+          "label": "Final bounded typography consumer acceptance",
+          "_origin": "semantic",
+          "author": null,
+          "bindings": 322,
+          "captured_at": null,
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "contributor": null,
+          "direct_ranges": 3250,
+          "editorial_preserved": 150,
+          "file_type": "concept",
+          "human_audit": "PENDING",
+          "mode_resolutions": 1288,
+          "native_ranges": 103,
+          "norm_label": "final bounded typography consumer acceptance",
+          "pages": 34,
+          "preservation_fingerprints_equal": 3501,
+          "result": "PASS_TYPOGRAPHY_SCOPE",
+          "source_file": "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+          "source_location": "L69",
+          "source_url": null,
+          "styles": 79,
+          "ui_nodes": 3351,
+          "ui_ranges": 3353,
+          "unresolved_ranges": 0
+        },
+        {
+          "id": "qa_implementations_typography_v0_1_2_review_coverage",
+          "label": "Current3353-range typography closure",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "contributor": null,
+          "file_type": "concept",
+          "historical": false,
+          "norm_label": "current3353-range typography closure",
+          "source_file": "qa/implementations/typography.v0.1.2.review.md",
+          "source_location": null,
+          "source_url": null,
+          "summary": "PASS34pages/3351UInodes/3353ranges:3250direct+103provennative,0unresolved;150editorialpreserved.79styles18base61complementary;43families39consuming4excluded."
+        }
+      ],
+      "sourceCrossCheck": {
+        "result": "PASS_SOURCE_CROSS_CHECK",
+        "catalogStyles": 79,
+        "uiRanges": 3353,
+        "directStyleRanges": 3250,
+        "inheritedNativeScaleRanges": 103,
+        "observedEmptyLocalStyleIds": 103,
+        "historicalStrictResult": "FAIL_RETAINED",
+        "limits": [
+          "Table atomic whole-page response missing; final text QA does not reconstruct it.",
+          "150 editorial nodes preserved; user audit PENDING.",
+          "Native exception applies only to proven scoped entries."
+        ]
+      },
+      "verifiedNavigationPaths": [
+        {
+          "source": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+          "target": "specs_tokens_ai_design_system_typography_v0_1_2_artifact_json",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+              "to": "specs_tokens_ai_design_system_typography_v0_1_2_artifact_json",
+              "edge": {
+                "source": "specs_tokens_ai_design_system_typography_v0_1_2_artifact_json",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "specs/tokens/ai-design-system.typography.v0.1.2.json",
+                "source_location": "JSON:/authority/amendment"
+              }
+            }
+          ]
+        },
+        {
+          "source": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+          "target": "qa_implementations_typography_consumption_v0_1_1_consumer_final_global_v0_1_2_artifact_json",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+              "to": "qa_implementations_typography_consumption_v0_1_1_consumer_final_global_v0_1_2_artifact_json",
+              "edge": {
+                "source": "qa_implementations_typography_consumption_v0_1_1_consumer_final_global_v0_1_2_artifact_json",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_artifact_md",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "qa/implementations/typography/consumption-v0.1.1/consumer-final.global.v0.1.2.json",
+                "source_location": "JSON:/policy/amendment"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "release_skills_protocol_specs",
+      "expandedTokens": [
+        "consumer",
+        "skills",
+        "release",
+        "contpaqi",
+        "prototypes",
+        "paired"
+      ],
+      "commandArgs": [
+        "query",
+        "consumer skills release contpaqi prototypes paired",
+        "--budget",
+        "5000"
+      ],
+      "execution": {
+        "id": "release_skills_protocol_specs",
+        "exitCode": 0,
+        "seconds": 6.553,
+        "stdoutBytes": 15671,
+        "stderrBytes": 0,
+        "stdout": "smoke-release_skills_protocol_specs.txt",
+        "stderr": "smoke-release_skills_protocol_specs.stderr.txt"
+      },
+      "cliTruncated": true,
+      "cliCompleteOverBudget": false,
+      "outputSha256": "8fe54c498dd052c4b8964fea5469bc139ae07b2f810860bacefe7f646679e152",
+      "pathOutput": "smoke-release_skills_protocol_specs.path.txt",
+      "pathOutputSha256": "4b5d3bc835573e4968571db51d544d59fe9e956a6ff310ba930471eca726b7c9",
+      "exactPublishedNodeAnchors": [
+        {
+          "id": "registry_skills_consumer_skills_release_0_2_1",
+          "label": "Consumer skills release 0.2.1",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 59,
+          "community_name": "Readme · Evidencias",
+          "contributor": null,
+          "ds_digest": "4205fc48bf65ef7f42f3c51f15402d61c7f5e25ae88850f1a50ccd41fb90bc67",
+          "families": 43,
+          "figma_prototype": "NOT_RUN",
+          "file_type": "concept",
+          "norm_label": "consumer skills release 0.2.1",
+          "skills": [
+            "contpaqi-figma-screens",
+            "contpaqi-po-prototypes"
+          ],
+          "source_file": "registry/skills.md",
+          "source_files": 2131,
+          "source_location": "L31",
+          "source_url": null,
+          "state_at_record": "CURRENT_VERIFIED_RELEASE",
+          "version": "0.2.1"
+        },
+        {
+          "id": "qa_skills_release_0_2_1_readme_release",
+          "label": "Final paired release0.2.1 identity",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 59,
+          "community_name": "Readme · Evidencias",
+          "contributor": null,
+          "file_type": "concept",
+          "historical": false,
+          "norm_label": "final paired release0.2.1 identity",
+          "source_file": "qa/skills/release-0.2.1/README.md",
+          "source_location": null,
+          "source_url": null,
+          "summary": "CURRENTpackages/install;2131sources43families79stylesactive0.1.2. DSdigest4205fc48bf65ef7f42f3c51f15402d61c7f5e25ae88850f1a50ccd41fb90bc67;input14696426ec4dc9591a40d0b9fd7a925ad54b570c7f925bcd51a5a1424783ff39. Synccreated/exportunchanged."
+        },
+        {
+          "id": "skills_contpaqi_figma_screens_skill_contpaqi_figma_screens",
+          "label": "contpaqi figma screens",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 197,
+          "community_name": "Figma Workflow",
+          "contributor": null,
+          "deliverable": "real prototype URL/nodes/captures/component map and evidence",
+          "file_type": "document",
+          "master": "tj3WIBEZDGLVs7MJWKCwgf",
+          "master_access": "READ_IMPORT_ONLY",
+          "norm_label": "contpaqi figma screens",
+          "purpose": "Editable Figma product screens from prompts, images or portable Markdown using bundled CONTPAQi specs",
+          "rationale": "A prototype request authorizes ordinary local composition, not modification or publication of the shared master.",
+          "source_file": "skills/contpaqi-figma-screens/SKILL.md",
+          "source_location": "L2",
+          "source_url": null
+        },
+        {
+          "id": "skills_contpaqi_po_prototypes_skill_contpaqi_po_prototypes",
+          "label": "contpaqi po prototypes",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 298,
+          "community_name": "Handoff · Evidencias",
+          "contributor": null,
+          "default_assumptions": {
+            "theme": "Contable",
+            "viewport": "1440x900"
+          },
+          "deliverables": [
+            "entrega/render.html",
+            "entrega/replicar-en-figma.md",
+            "references",
+            "captures"
+          ],
+          "file_type": "document",
+          "norm_label": "contpaqi po prototypes",
+          "rationale": "Product prototype consumes versioned DS snapshot without editing master, canonical snapshot or installedskills; Markdown invokes a future Figma session, not current execution.",
+          "runtime": "client state/hash; serverless finalHTML",
+          "source_file": "skills/contpaqi-po-prototypes/SKILL.md",
+          "source_location": "L2",
+          "source_url": null,
+          "stack": [
+            "React",
+            "TypeScript",
+            "Tailwind",
+            "Next.js"
+          ]
+        },
+        {
+          "id": "protocols_08_skills_and_releases_release_acoplado_de_contpaqi_figma_screens_y_contpaqi_po_prototypes",
+          "label": "Release acoplado de contpaqi-figma-screens y contpaqi-po-prototypes",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 35,
+          "community_name": "Trazabilidad y sincronización",
+          "contributor": null,
+          "file_type": "concept",
+          "norm_label": "release acoplado de contpaqi-figma-screens y contpaqi-po-prototypes",
+          "source_file": "protocols/08-SKILLS-AND-RELEASES.md",
+          "source_location": null,
+          "source_url": null
+        }
+      ],
+      "sourceCrossCheck": {
+        "result": "PASS_SOURCE_CROSS_CHECK",
+        "version": "0.2.1",
+        "packages": [
+          "contpaqi-figma-screens",
+          "contpaqi-po-prototypes"
+        ],
+        "sourceFiles": 2131,
+        "familySpecCoverageEdges": 43,
+        "dsDigest": "4205fc48bf65ef7f42f3c51f15402d61c7f5e25ae88850f1a50ccd41fb90bc67",
+        "installedStatus": "CURRENT",
+        "newFigmaScreenExecution": "NOT_RUN",
+        "humanAudit": "PENDING"
+      },
+      "verifiedNavigationPaths": [
+        {
+          "source": "registry_skills_consumer_skills_release_0_2_1",
+          "target": "skills_contpaqi_figma_screens_skill_contpaqi_figma_screens",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "registry_skills_consumer_skills_release_0_2_1",
+              "to": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+              "edge": {
+                "source": "registry_skills_consumer_skills_release_0_2_1",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/skills.md",
+                "source_location": "L33"
+              }
+            },
+            {
+              "from": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+              "to": "skills_contpaqi_figma_screens_references_design_system_portable_snapshot_authority_resolution",
+              "edge": {
+                "source": "skills_contpaqi_figma_screens_references_design_system_portable_snapshot_authority_resolution",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "skills/contpaqi-figma-screens/references/design-system.md",
+                "source_location": "L31"
+              }
+            },
+            {
+              "from": "skills_contpaqi_figma_screens_references_design_system_portable_snapshot_authority_resolution",
+              "to": "skills_contpaqi_figma_screens_skill_contpaqi_figma_screens",
+              "edge": {
+                "source": "skills_contpaqi_figma_screens_skill_contpaqi_figma_screens",
+                "target": "skills_contpaqi_figma_screens_references_design_system_portable_snapshot_authority_resolution",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "skills/contpaqi-figma-screens/SKILL.md",
+                "source_location": null
+              }
+            }
+          ]
+        },
+        {
+          "source": "registry_skills_consumer_skills_release_0_2_1",
+          "target": "skills_contpaqi_po_prototypes_skill_contpaqi_po_prototypes",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "registry_skills_consumer_skills_release_0_2_1",
+              "to": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+              "edge": {
+                "source": "registry_skills_consumer_skills_release_0_2_1",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/skills.md",
+                "source_location": "L33"
+              }
+            },
+            {
+              "from": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+              "to": "skills_contpaqi_po_prototypes_references_design_system_canonical_ds_consumption_for_portable_prototypes",
+              "edge": {
+                "source": "skills_contpaqi_po_prototypes_references_design_system_canonical_ds_consumption_for_portable_prototypes",
+                "target": "specs_typography_native_inheritance_amendment_v0_1_2_typography_native_inheritance_001",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "skills/contpaqi-po-prototypes/references/design-system.md",
+                "source_location": "L18"
+              }
+            },
+            {
+              "from": "skills_contpaqi_po_prototypes_references_design_system_canonical_ds_consumption_for_portable_prototypes",
+              "to": "skills_contpaqi_po_prototypes_skill_contpaqi_po_prototypes",
+              "edge": {
+                "source": "skills_contpaqi_po_prototypes_skill_contpaqi_po_prototypes",
+                "target": "skills_contpaqi_po_prototypes_references_design_system_canonical_ds_consumption_for_portable_prototypes",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "skills/contpaqi-po-prototypes/SKILL.md",
+                "source_location": null
+              }
+            }
+          ]
+        },
+        {
+          "source": "registry_skills_consumer_skills_release_0_2_1",
+          "target": "protocols_08_skills_and_releases_artifact_md",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "registry_skills_consumer_skills_release_0_2_1",
+              "to": "registry_skills_artifact_md",
+              "edge": {
+                "source": "registry_skills_artifact_md",
+                "target": "registry_skills_consumer_skills_release_0_2_1",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/skills.md",
+                "source_location": "L31"
+              }
+            },
+            {
+              "from": "registry_skills_artifact_md",
+              "to": "protocols_08_skills_and_releases_artifact_md",
+              "edge": {
+                "source": "protocols_08_skills_and_releases_artifact_md",
+                "target": "registry_skills_artifact_md",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "protocols/08-SKILLS-AND-RELEASES.md",
+                "source_location": "L32"
+              }
+            }
+          ]
+        },
+        {
+          "source": "registry_skills_consumer_skills_release_0_2_1",
+          "target": "specs_typography_consumption_amendment_v0_1_0_exact_family_and_range_coverage",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "registry_skills_consumer_skills_release_0_2_1",
+              "to": "registry_skills_artifact_md",
+              "edge": {
+                "source": "registry_skills_artifact_md",
+                "target": "registry_skills_consumer_skills_release_0_2_1",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/skills.md",
+                "source_location": "L31"
+              }
+            },
+            {
+              "from": "registry_skills_artifact_md",
+              "to": "registry_contracts_artifact_md",
+              "edge": {
+                "source": "registry_contracts_artifact_md",
+                "target": "registry_skills_artifact_md",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/contracts.md",
+                "source_location": "L9"
+              }
+            },
+            {
+              "from": "registry_contracts_artifact_md",
+              "to": "specs_typography_consumption_amendment_v0_1_0_artifact_md",
+              "edge": {
+                "source": "registry_contracts_artifact_md",
+                "target": "specs_typography_consumption_amendment_v0_1_0_artifact_md",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "registry/contracts.md",
+                "source_location": "L15"
+              }
+            },
+            {
+              "from": "specs_typography_consumption_amendment_v0_1_0_artifact_md",
+              "to": "specs_typography_consumption_amendment_v0_1_0_exact_family_and_range_coverage",
+              "edge": {
+                "source": "specs_typography_consumption_amendment_v0_1_0_artifact_md",
+                "target": "specs_typography_consumption_amendment_v0_1_0_exact_family_and_range_coverage",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+                "source_location": "L53"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "count_causal_restoration_cleanup",
+      "expandedTokens": [
+        "count",
+        "causal",
+        "restoration",
+        "cleanup"
+      ],
+      "commandArgs": [
+        "query",
+        "count causal restoration cleanup",
+        "--budget",
+        "5000"
+      ],
+      "execution": {
+        "id": "count_causal_restoration_cleanup",
+        "exitCode": 0,
+        "seconds": 6.547,
+        "stdoutBytes": 26636,
+        "stderrBytes": 0,
+        "stdout": "smoke-count_causal_restoration_cleanup.txt",
+        "stderr": "smoke-count_causal_restoration_cleanup.stderr.txt"
+      },
+      "cliTruncated": false,
+      "cliCompleteOverBudget": true,
+      "outputSha256": "4c7eed99a7183bf2c696af3e2a02a26370d0184df97cd3d60ea13f27a8f3cc29",
+      "pathOutput": "smoke-count_causal_restoration_cleanup.path.txt",
+      "pathOutputSha256": "9bf0ae5dfccca242ddddb076d5ed53cfaf3d8662aae80d313fa3976024ac25c4",
+      "exactPublishedNodeAnchors": [
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+          "label": "inheritance-count-four-thirds/README.md",
+          "_origin": "ast",
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "extraction_scope": "file identity, explicit references; semantic entities indexed separately",
+          "file_type": "document",
+          "norm_label": "inheritance-count-four-thirds/readme.md",
+          "sha256": "98703d3c615a2fdf5d6bc90fe45da1d31e54fc22a844ebf899087563b96b14dd",
+          "source_file": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": "L1"
+        },
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_causal",
+          "label": "Count4/3 causal A→B→A",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "contributor": null,
+          "file_type": "concept",
+          "historical": false,
+          "norm_label": "count4/3 causal a→b→a",
+          "source_file": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": null,
+          "source_url": null,
+          "summary": "Onlycopiedmainactor receivesmicro-count-small→ui-metric-value-small→A. Bpropagates26.666667938232422/Regular400/LH32px/0px. A restores5.333333492279053/Bold700/LH160.0000023841858%/tracking−2%;localinstanceIDremains empty."
+        },
+        {
+          "id": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_restoration",
+          "label": "Count exact restoration and cleanup complete",
+          "_origin": "semantic",
+          "author": null,
+          "captured_at": null,
+          "community": 9,
+          "community_name": "Typography Native Inheritance",
+          "contributor": null,
+          "file_type": "concept",
+          "historical": false,
+          "norm_label": "count exact restoration and cleanup complete",
+          "source_file": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+          "source_location": null,
+          "source_url": null,
+          "summary": "12checks;independentreads issues[];control/relations/originalguards unchanged;fullinternalArestoredhashesequal. CLEANUP_COMPLETE. Hugegeometry/propertyrowsomittedfromtransport only;fullinternalcomparisonsretained."
+        }
+      ],
+      "sourceCrossCheck": {
+        "result": "PASS_SOURCE_CROSS_CHECK",
+        "scope": "One Count4/3 pilot; all103 proven separately.",
+        "checksPassed": 12,
+        "restoration": "A and RESTORED_A recipes/geometry/main/instance hashes exactly equal.",
+        "originalGuardsPreserved": true,
+        "localStyleId": "EMPTY_OBSERVED_THROUGHOUT",
+        "cleanup": "CLEANUP_COMPLETE",
+        "removedTemporaryNodeIds": 27
+      },
+      "verifiedNavigationPaths": [
+        {
+          "source": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_causal",
+          "target": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_restoration",
+          "mode": "UNDIRECTED_NAVIGATION_NOT_CAUSAL_PROOF",
+          "steps": [
+            {
+              "from": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_causal",
+              "to": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+              "edge": {
+                "source": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+                "target": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_causal",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+                "source_location": null
+              }
+            },
+            {
+              "from": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+              "to": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_restoration",
+              "edge": {
+                "source": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_artifact_md",
+                "target": "qa_implementations_typography_consumption_v0_1_1_inheritance_count_four_thirds_readme_restoration",
+                "relation": "references",
+                "confidence": "EXTRACTED",
+                "confidence_score": 1.0,
+                "source_file": "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md",
+                "source_location": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checkedSources": {
+    "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55",
+    "specs/tokens/ai-design-system.typography.v0.1.2.json": "074a31a83f09b30a02fa8b8f0a7730bdb33fc0a8a9c59e3c8d2469b5799e934c",
+    "qa/implementations/typography/consumption-v0.1.1/consumer-final.global.v0.1.2.json": "ae66e23690c24398000fd809ef74159744fb4045d0b9c44f0e2b5d81d359f059",
+    "qa/implementations/typography/consumption-v0.1.1/consumer-final.native-inheritance.v0.1.2.json": "f7d020a0c44694dac46cbb6792c467f7a4b9c682c4bc7ed8dee3e6b62e0d610e",
+    "qa/implementations/typography/consumption-v0.1.1/consumer-final.v0.1.1.strict.json": "ff751dbf204c013384d3cc4d678897e07aadee15f141684bd81685b5c15eaffc",
+    "qa/skills/release-0.2.1/manifest-summary.json": "4e8eef0e992a98b86ecbbbd2f6dea5c5014cbdb546006782fafdf0125bd84868",
+    "qa/skills/release-0.2.1/installed-check.json": "8dbbe6356956dd907606cb111c5388c0f2f8f93340a129e9ae9dcdefa700ea16",
+    "qa/skills/release-0.2.1/README.md": "f7728017f6aecdaa3aad50bd191ac536f5a3f32324ae0bf8fc89554502d59246",
+    "registry/skills.md": "61ffcb6ab9080759b583b548f142c139190e5a511d6a095b4f189030d6cced44",
+    "protocols/08-SKILLS-AND-RELEASES.md": "71cb5c40b6c18ae10494a55698dbd5b0bc423eb71a3cf4b72417fa180c8c5783",
+    "skills/contpaqi-figma-screens/SKILL.md": "87c5c4b743d343bb3586e6397ef823c74146988b455ff1bcbabff7cd3a038c18",
+    "skills/contpaqi-po-prototypes/SKILL.md": "0255248886284f505fcf94a5b3821881716e9b5389643d60f6afc0ca09485d4a",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/README.md": "98703d3c615a2fdf5d6bc90fe45da1d31e54fc22a844ebf899087563b96b14dd",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/evaluation.json": "c36e1e8f855ea397a88e2980c57179c5f6e66d23162815a1fe1bef689c2afa49",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/cleanup.result.json": "6d2291c2893b15934e64b4f8ba23c4d05667aa9488e7df8e3d24bca49de05c8a",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/cleanup.js": "9d201a49ceaf0709819ee036b7889954d79d80c27d327a79c0d4bb08228a4865",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/cleanup.operation.js": "9db96809231c08208e9073fc6c9665ffb9a8eaa49c0ce3319129dfd468d772e4",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/common.js": "21cfcb9be73eff4770d4a2450be5fc408a8a3c005b98c1975c371d78ee79779b",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/continue-setup.js": "ee7fff1cfd6b367734468acd00c0e42181441b3777b9e55fced3f004a4596bbd",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/continue-setup.result.json": "83a8a6f025b0a0f6b7ef4c1881819ead677ae55a7f6327c9ed202b9e346f7ec0",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/diagnose-clone-diff.js": "b9835d945b731ba8748c31a11938c7efc431a4e44ba12d9e960f910cb803ca00",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/diagnose-clone-diff.result.json": "8d04e0a82a1a7a313d8abab58f3755c077896c04aefd2bd9e0f2bb9be7dc3741",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-a.js": "54266e03271a566ba88900049b85f40329f3ff5b4413932a817a71a05b02b98e",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-a.result.json": "e4a382777c80f59546235c573565fc3bc725dea7e5d27d2fb950375166385f81",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-b.js": "0bb465d795ad625916de5d82f8b131347faa72ff25669f3e88e94100a1703867",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-b.result.json": "04c3b0c0cceba7eb4a606a4cf60b730eeb0e5d6b04483f73b1336bf297c212be",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-restored.js": "89d90fd82ee36dc2b53edb37059f28716373cfc48689a1fc7a9b55723ac2d15d",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read-restored.result.json": "198c54474363957d638096e5e263582c48da92038131f377355ec989171c05d5",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/read.operation.js": "49bc61b35a7252150da2e7ff17748c69024630d8cd0388cc57adaf820bb3734e",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/render.py": "31291e58520b2a633ae9af2876ff832f62c6a26061be85f09c6e098db8da932d",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/restore-a.js": "9c1d1c6e466496b8938a67f2dfa1fd1ce723939696a5bf5e92fa77894c5a4123",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/restore-a.result.json": "61106ae88bf5eafa274aecf3e6ae5472d044162f0db3004e73e9769ed1e3d945",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/set-b.js": "1ed4c88b6c14abf51bf67807f6493a909b4b0203d1f601a3c00ce7b47267d90f",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/set-b.result.json": "f1051e90d7e2f521bf045a03f09db60d37d805654c98d22ff972fcad76d61f37",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/set.operation.js": "908ec96bb97f91de9df41bbe1514dbef99a83c59f63679889eeae397df2bdac4",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/setup.js": "271d3d7c12cbf635be95d1f3892b70b4502d56f0ab067765e6a652d938e711ee",
+    "qa/implementations/typography/consumption-v0.1.1/inheritance-count-four-thirds/setup.result.json": "141edc833c749951509d5e06d3a0b8c61c0b061104334ff8d91b17385d7c5249",
+    "qa/implementations/typography.v0.1.2.review.md": "ae4accdbedcd501a34a2c5fb906cf4c065686b3bb4b2a9e1f51ff76ae374149d"
+  },
+  "allCheckedSourcesMatchFrozenPlan": true,
+  "sourceWrites": "NOT_RUN",
+  "graphWrites": "NOT_RUN",
+  "saveResult": "NOT_RUN",
+  "reflect": "NOT_RUN",
+  "limitations": [
+    "First two broad BFS outputs were truncated; preserved raw outputs and exact-node/path checks resolve scope.",
+    "Third CLI includes unrelated lexical matches and exceeded requested budget to retain all found edges.",
+    "Navigation paths are undirected and preserve original edge directions; they do not imply causal or normative priority.",
+    "This smoke validates retrieval and source consistency, not a fresh Figma/browser execution."
+  ]
+}

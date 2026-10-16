@@ -1,0 +1,170 @@
+{
+  "family": "navigation-switch-tab",
+  "sources": {
+    "base": "specs/navigation-switch-tab.contract.v0.1.0.md",
+    "amendments": [
+      "specs/composition-slots.amendment.v0.1.0.md"
+    ]
+  },
+  "checks": 36,
+  "status": "PASS",
+  "failures": [],
+  "measurements": [
+    {
+      "case": "contable/0 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "contable/4 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "contable/4 items/height",
+      "actual": {
+        "height": 46
+      },
+      "expected": {
+        "height": 46
+      }
+    },
+    {
+      "case": "administrativo/0 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "administrativo/4 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "administrativo/4 items/height",
+      "actual": {
+        "height": 46
+      },
+      "expected": {
+        "height": 46
+      }
+    },
+    {
+      "case": "servicios/0 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "servicios/4 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "servicios/4 items/height",
+      "actual": {
+        "height": 46
+      },
+      "expected": {
+        "height": 46
+      }
+    },
+    {
+      "case": "personas/0 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "personas/4 items",
+      "actual": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      },
+      "expected": {
+        "column-gap": "4px",
+        "padding": "4px",
+        "border-radius": "8px",
+        "background-color": "rgb(241, 245, 249)"
+      }
+    },
+    {
+      "case": "personas/4 items/height",
+      "actual": {
+        "height": 46
+      },
+      "expected": {
+        "height": 46
+      }
+    }
+  ]
+}

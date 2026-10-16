@@ -1,0 +1,4782 @@
+schema_version: "0.1.0"
+generated_at: "2026-10-01T00:00:00Z"
+generator:
+  skill: "figma-component-contract"
+  skill_version: "0.1.0"
+inspection:
+  status: "COMPLETE"
+  read_only: true
+  traversal:
+    discovered_nodes: 110
+    inspected_nodes: 110
+    pending_nodes: 0
+    invisible_nodes_inspected: 6
+    truncated: false
+    limit: null
+  mcp_limitations:
+    - "Respuestas extensas se dividieron en bloques; preferredValues remotos resumidos por cantidad, no resueltos exhaustivamente."
+    - "Biblioteca y versión remotas NOT_EXPOSED_BY_FIGMA_MCP."
+component:
+  id: "1349:4907"
+  key: "5a29f5f658d3b85560303a84f025a92bee503f30"
+  name: "header"
+  type: "COMPONENT"
+  description: null
+  parent:
+    id: "1250:13265"
+    name: "Content"
+    type: "FRAME"
+  page:
+    id: "268:20243"
+    name: "❖ Header ✅"
+  source:
+    url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1349-4907"
+    file_key: "9zs5RMR8LB5wHjW9Bd59BA"
+    node_id: "1349:4907"
+classification:
+  kind: "component"
+  reusable: true
+  composition: true
+  evidence_refs:
+    - "E001"
+identity:
+  position:
+    x: 32
+    y: 32
+  dimensions:
+    width: 1143.69091796875
+    height: 96
+  visible: true
+  clips_content: false
+  opacity: 1
+  blend_mode: "PASS_THROUGH"
+direct_children:
+  -
+    id: "2873:23060"
+    name: "Logo Categoria"
+    type: "INSTANCE"
+    parent: "1349:4907"
+    x: 24
+    y: 24
+    width: 175.69094848632812
+    height: 48
+    visible: true
+    opacity: 1
+    clipsContent: false
+    layoutMode: "NONE"
+    layoutWrap: "NO_WRAP"
+    layoutSizingHorizontal: "FIXED"
+    layoutSizingVertical: "FILL"
+    primaryAxisSizingMode: "AUTO"
+    counterAxisSizingMode: "FIXED"
+    primaryAxisAlignItems: "MIN"
+    counterAxisAlignItems: "MIN"
+    itemSpacing: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    layoutGrow: 0
+    layoutAlign: "STRETCH"
+    constraints:
+      horizontal: "MIN"
+      vertical: "MIN"
+    fills: []
+    strokes: []
+    strokeWeight: 1
+    strokeAlign: "INSIDE"
+    cornerRadius: 0
+    effects: []
+    boundVariables:
+      componentProperties:
+        categoria:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:8305:15151"
+    explicitVariableModes: {}
+    reactions: []
+    componentPropertyReferences: {}
+    componentProperties:
+      categoria:
+        value: "contable"
+        type: "VARIANT"
+        boundVariables:
+          value:
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:8305:15151"
+  -
+    id: "2412:265"
+    name: "content"
+    type: "FRAME"
+    parent: "1349:4907"
+    x: 213.69091796875
+    y: 24
+    width: 906
+    height: 48
+    visible: true
+    opacity: 1
+    clipsContent: false
+    layoutMode: "HORIZONTAL"
+    layoutWrap: "NO_WRAP"
+    layoutSizingHorizontal: "HUG"
+    layoutSizingVertical: "HUG"
+    primaryAxisSizingMode: "AUTO"
+    counterAxisSizingMode: "AUTO"
+    primaryAxisAlignItems: "MIN"
+    counterAxisAlignItems: "CENTER"
+    itemSpacing: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    layoutGrow: 0
+    layoutAlign: "INHERIT"
+    constraints:
+      horizontal: "MIN"
+      vertical: "MIN"
+    fills: []
+    strokes: []
+    strokeWeight: 1
+    strokeAlign: "INSIDE"
+    cornerRadius: 0
+    effects: []
+    boundVariables:
+      itemSpacing:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:1098:28491"
+    explicitVariableModes: {}
+    reactions: []
+    componentPropertyReferences: {}
+anatomy:
+  functional_tree:
+    - "header → Logo Categoria + content"
+    - "content → Version + Actions + Company + User"
+    - "Actions → icon header Amount=5 → cinco Button Icon con iconos activos"
+  graphical_details_omitted:
+    - "Vectores se conservan individualmente en header.source.v0.1.0.json; no se convierten en anatomía pública."
+dependency_inventory:
+  components:
+    total_instances: 25
+    total: 16
+    local: 10
+    remote: 6
+    unknown_locality: 0
+    resolved: 16
+    partially_resolved: 0
+    unresolved: 0
+  variables:
+    total: 35
+    local: 30
+    remote: 5
+    unknown_locality: 0
+    resolved: 35
+    partially_resolved: 0
+    unresolved: 0
+  styles:
+    total: 0
+    local: 0
+    remote: 0
+    unknown_locality: 0
+    resolved: 0
+    partially_resolved: 0
+    unresolved: 0
+dependencies:
+  -
+    dependency_id: "27dab35fee16fc573a7c67b645d9cd4c609429ba"
+    kind: "COMPONENT"
+    instance_ids:
+      - "2873:23060"
+    instance_count: 1
+    main_component:
+      id: "8321:294"
+      key: "27dab35fee16fc573a7c67b645d9cd4c609429ba"
+      name: "categoria=contable"
+      remote: false
+      width: 175.79220581054688
+      height: 48
+      owner:
+        id: "8321:504"
+        key: "f1a7cf5b92134fa211a64c2ea547a35fb4b7111c"
+        name: "Logo Categoria"
+        type: "COMPONENT_SET"
+        description: "Logo del header que cambia según la categoría/vertical activa (contable, comercial, servicios, personas). Usar la variante correspondiente o enlazar la propiedad &quot;categoria&quot; a una variable de modo."
+        properties:
+          categoria:
+            type: "VARIANT"
+            defaultValue: "contable"
+            variantOptions:
+              - "contable"
+              - "comercial"
+              - "servicios"
+              - "personas"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "e1770fa0d28362f0b2f2045caab556a5d18b7158"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2873:23060;8321:295"
+    instance_count: 1
+    main_component:
+      id: "2849:211513"
+      key: "e1770fa0d28362f0b2f2045caab556a5d18b7158"
+      name: "product=contabilidad, type=horizontal"
+      remote: false
+      width: 282
+      height: 77
+      owner:
+        id: "2849:211519"
+        key: "18985e0f1f2116479a98017392bff9780ce30b91"
+        name: "contables"
+        type: "COMPONENT_SET"
+        description: ""
+        properties:
+          product:
+            type: "VARIANT"
+            defaultValue: "conecta_tu_banco"
+            variantOptions:
+              - "anticipa"
+              - "bancos"
+              - "conecta_tu_banco"
+              - "contabilidad"
+              - "optimiza"
+              - "tesoreria"
+              - "xml_en_linea"
+          type:
+            type: "VARIANT"
+            defaultValue: "vertical"
+            variantOptions:
+              - "isotipo"
+              - "horizontal"
+              - "vertical"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "53127e88676b2fc30d96c4d03b8226ca7b4dacec"
+    kind: "COMPONENT"
+    instance_ids:
+      - "2780:11932"
+    instance_count: 1
+    main_component:
+      id: "1452:41412"
+      key: "53127e88676b2fc30d96c4d03b8226ca7b4dacec"
+      name: "Amount=5"
+      remote: false
+      width: 272
+      height: 48
+      owner:
+        id: "1452:41413"
+        key: "baa91d6c40f9bb0dc3621c549d3acd18b7472856"
+        name: "icon header"
+        type: "COMPONENT_SET"
+        description: ""
+        properties:
+          Amount:
+            type: "VARIANT"
+            defaultValue: "5"
+            variantOptions:
+              - "5"
+              - "4"
+              - "3"
+              - "2"
+              - "1"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "2e7c33b4f056636119cfeee7a565467c77e99754"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35164"
+      - "I2780:11932;1452:35184"
+      - "I2780:11932;1452:35165"
+      - "I2780:11932;1452:35166"
+      - "I2780:11932;1452:35167"
+    instance_count: 5
+    main_component:
+      id: "1430:18851"
+      key: "2e7c33b4f056636119cfeee7a565467c77e99754"
+      name: "state=default, size=middle, type=default"
+      remote: false
+      width: 48
+      height: 48
+      owner:
+        id: "1430:18850"
+        key: "fbc267a15caab7547a5d782a8887da547ee7cf03"
+        name: "Button Icon"
+        type: "COMPONENT_SET"
+        description: ""
+        properties:
+          icon#2828:223:
+            type: "INSTANCE_SWAP"
+            defaultValue: "3591:94201"
+            preferredValues:
+              count: 1512
+          show badge indicator#4508:14:
+            type: "BOOLEAN"
+            defaultValue: true
+          state:
+            type: "VARIANT"
+            defaultValue: "default"
+            variantOptions:
+              - "default"
+              - "disabled"
+              - "hover"
+              - "focus"
+              - "active"
+          size:
+            type: "VARIANT"
+            defaultValue: "small"
+            variantOptions:
+              - "large"
+              - "middle"
+              - "small"
+          type:
+            type: "VARIANT"
+            defaultValue: "default"
+            variantOptions:
+              - "default"
+              - "outline"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "e8a605a7dc033aeb0586aabb0797d37ef30eac38"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35164;1430:18852"
+    instance_count: 1
+    main_component:
+      id: "3399:200"
+      key: "e8a605a7dc033aeb0586aabb0797d37ef30eac38"
+      name: "Format=Outline, Weight=Light"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3399:197"
+        key: "065008a5439e5c32042f6c6a3721fb42a31772e6"
+        name: "ArrowsCounterClockwise"
+        type: "COMPONENT_SET"
+        description: "*updated*, directional, pointer, pointing, arrowhead, undo, refreshing, rotate, spin, flip, arrows"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "06df8e9033e095bd1ca776691d73501daf5fdda9"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35164;1430:18853"
+      - "I2780:11932;1452:35184;1430:18853"
+      - "I2780:11932;1452:35165;1430:18853"
+      - "I2780:11932;1452:35166;1430:18853"
+      - "I2780:11932;1452:35167;1430:18853"
+    instance_count: 5
+    main_component:
+      id: "1133:31554"
+      key: "06df8e9033e095bd1ca776691d73501daf5fdda9"
+      name: "type=number, size=middle"
+      remote: false
+      width: 12
+      height: 12
+      owner:
+        id: "1133:31549"
+        key: "bc7fd5437899a1868aeba789925329c30d5b6996"
+        name: "dot"
+        type: "COMPONENT_SET"
+        description: "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation."
+        properties:
+          type:
+            type: "VARIANT"
+            defaultValue: "active"
+            variantOptions:
+              - "number expand"
+              - "active"
+              - "inactive"
+              - "busy"
+              - "number"
+          size:
+            type: "VARIANT"
+            defaultValue: "large"
+            variantOptions:
+              - "large"
+              - "middle"
+              - "small"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "f7835a27019ae83c184f9e910f0956c0fc3b992f"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35184;1430:18852"
+    instance_count: 1
+    main_component:
+      id: "3399:157"
+      key: "f7835a27019ae83c184f9e910f0956c0fc3b992f"
+      name: "Format=Outline, Weight=Light"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3399:154"
+        key: "dd665d273098802d66b64feb805a3a6f44ca1195"
+        name: "GraduationCap"
+        type: "COMPONENT_SET"
+        description: "classroom, teacher, education, school, college, university, degree, graduate, hat, education"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "312ec28591dbe217188e9d6f8c63e64cff65ba90"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35165;1430:18852"
+    instance_count: 1
+    main_component:
+      id: "3399:118"
+      key: "312ec28591dbe217188e9d6f8c63e64cff65ba90"
+      name: "Format=Outline, Weight=Light"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3399:115"
+        key: "c7b1cfed44d45827a3beaa77894f151b8c8a115b"
+        name: "Headset"
+        type: "COMPONENT_SET"
+        description: "music, audio, listening, gaming, voice chat, microphone, headphones, support, customer-service, call-center, media"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "5cb5aa74925cb753dc21b23ebd171bea87136e02"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35166;1430:18852"
+      - "I2412:276;1430:18858"
+    instance_count: 2
+    main_component:
+      id: "3399:248"
+      key: "5cb5aa74925cb753dc21b23ebd171bea87136e02"
+      name: "Format=Outline, Weight=Light"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3399:245"
+        key: "51056409c43ff9fca51bda115460c4ef7d74f4cc"
+        name: "AppWindow"
+        type: "COMPONENT_SET"
+        description: "windows, software, programs, applications, system &amp; devices"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "ef703d88cfc6792cdd17351c4cc923a019b91855"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2780:11932;1452:35167;1430:18852"
+    instance_count: 1
+    main_component:
+      id: "3591:94201"
+      key: "ef703d88cfc6792cdd17351c4cc923a019b91855"
+      name: "Format=Outline, Weight=Light"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3591:94198"
+        key: "4f3281ebbf8b7eb010c5b83adc5939171cda029a"
+        name: "Bell"
+        type: "COMPONENT_SET"
+        description: "alarm, notifications, times, timer, clock, schedule, events, ringer, calls, system &amp; devices"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "b85e7f67612b0784b39e8d14e1e22d2bab42ed01"
+    kind: "COMPONENT"
+    instance_ids:
+      - "2412:276"
+    instance_count: 1
+    main_component:
+      id: "1430:18857"
+      key: "b85e7f67612b0784b39e8d14e1e22d2bab42ed01"
+      name: "state=default, size=small, type=default"
+      remote: false
+      width: 24
+      height: 24
+      owner:
+        id: "1430:18850"
+        key: "fbc267a15caab7547a5d782a8887da547ee7cf03"
+        name: "Button Icon"
+        type: "COMPONENT_SET"
+        description: ""
+        properties:
+          icon#2828:223:
+            type: "INSTANCE_SWAP"
+            defaultValue: "3591:94201"
+            preferredValues:
+              count: 1512
+          show badge indicator#4508:14:
+            type: "BOOLEAN"
+            defaultValue: true
+          state:
+            type: "VARIANT"
+            defaultValue: "default"
+            variantOptions:
+              - "default"
+              - "disabled"
+              - "hover"
+              - "focus"
+              - "active"
+          size:
+            type: "VARIANT"
+            defaultValue: "small"
+            variantOptions:
+              - "large"
+              - "middle"
+              - "small"
+          type:
+            type: "VARIANT"
+            defaultValue: "default"
+            variantOptions:
+              - "default"
+              - "outline"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "a100dec6c0f77e6ff8c357f51878be1cee8bd61a"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I2412:276;1430:18859"
+    instance_count: 1
+    main_component:
+      id: "1133:31552"
+      key: "a100dec6c0f77e6ff8c357f51878be1cee8bd61a"
+      name: "type=number, size=small"
+      remote: false
+      width: 8
+      height: 8
+      owner:
+        id: "1133:31549"
+        key: "bc7fd5437899a1868aeba789925329c30d5b6996"
+        name: "dot"
+        type: "COMPONENT_SET"
+        description: "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation."
+        properties:
+          type:
+            type: "VARIANT"
+            defaultValue: "active"
+            variantOptions:
+              - "number expand"
+              - "active"
+              - "inactive"
+              - "busy"
+              - "number"
+          size:
+            type: "VARIANT"
+            defaultValue: "large"
+            variantOptions:
+              - "large"
+              - "middle"
+              - "small"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "2edbd6cd6068c97d2aa8c754e315b89413a1dcd9"
+    kind: "COMPONENT"
+    instance_ids:
+      - "2412:278"
+    instance_count: 1
+    main_component:
+      id: "355:77922"
+      key: "2edbd6cd6068c97d2aa8c754e315b89413a1dcd9"
+      name: "Format=Outline, Weight=Regular"
+      remote: false
+      width: 32
+      height: 32
+      owner:
+        id: "355:77921"
+        key: "93c8be7d0aa3c811717402d117f533f0ccde092a"
+        name: "CaretDown"
+        type: "COMPONENT_SET"
+        description: "chevron, directional, pointer, pointing, arrowhead, triangle, arrows"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "5da676dc2d1422e605531493474fead9a4ff44d4"
+    kind: "COMPONENT"
+    instance_ids:
+      - "3001:3246"
+    instance_count: 1
+    main_component:
+      id: "1132:21377"
+      key: "5da676dc2d1422e605531493474fead9a4ff44d4"
+      name: "type=Text, size=extra-large"
+      remote: false
+      width: 48
+      height: 48
+      owner:
+        id: "1132:21344"
+        key: "2df4b15820fade1cc23c83fde049c755286bfdc4"
+        name: "avatar"
+        type: "COMPONENT_SET"
+        description: ""
+        properties:
+          Content#1132:2:
+            type: "TEXT"
+            defaultValue: "JA"
+          icon#2817:13:
+            type: "INSTANCE_SWAP"
+            defaultValue: "2828:33431"
+            preferredValues:
+              count: 1512
+          show badge Indicator#4508:1:
+            type: "BOOLEAN"
+            defaultValue: true
+          type:
+            type: "VARIANT"
+            defaultValue: "Image"
+            variantOptions:
+              - "Text"
+              - "Icon"
+              - "Image"
+          size:
+            type: "VARIANT"
+            defaultValue: "extra-large"
+            variantOptions:
+              - "extra-large"
+              - "large"
+              - "middle"
+              - "small"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "a2ef7876aa1f84fc9b13914a89a4b30c664d180d"
+    kind: "COMPONENT"
+    instance_ids:
+      - "I3001:3246;1132:21380"
+    instance_count: 1
+    main_component:
+      id: "1241:39842"
+      key: "a2ef7876aa1f84fc9b13914a89a4b30c664d180d"
+      name: "type=active, size=large"
+      remote: false
+      width: 16
+      height: 16
+      owner:
+        id: "1133:31549"
+        key: "bc7fd5437899a1868aeba789925329c30d5b6996"
+        name: "dot"
+        type: "COMPONENT_SET"
+        description: "A status indicator dot (badge) component used to communicate presence, availability, or notification count. Supports plain status dots and numeric badge variants across three sizes. PURPOSE: Communicates user presence/availability states (active, busy, inactive) or surfaces notification counts (number, number expand for 99+) as a compact visual indicator typically overlaid on avatars, icons, or list items. BEHAVIOR: Purely visual/static — no interactive behavior detected. The &#39;number expand&#39; variant automatically switches to a pill/expanded shape to accommodate overflow counts (99+). COMPOSITION: No nested component instances detected; all variants are self-contained with optional TEXT nodes for numeric content. USAGE: Use &#39;active/busy/inactive&#39; types for presence indicators on avatars or user list items. Use &#39;number&#39; type for notification badges with specific counts. Use &#39;number expand&#39; when count exceeds 99. Prefer &#39;small&#39; size for dense UIs (icon buttons, compact lists), &#39;middle&#39; for standard contexts, and &#39;large&#39; for prominent placement. CODE GENERATION NOTES: The component has an asymmetry in size coverage — &#39;busy&#39; and &#39;inactive&#39; are missing &#39;large&#39; variants in the structure (they appear only as large in the tree but small/middle also exist), so ensure all type×size combinations are handled. The &#39;number expand&#39; type renders as a pill shape rather than a circle; implement conditional border-radius logic based on type. Text nodes (&#39;number-small&#39;, &#39;number-middle&#39;, &#39;number-large&#39;, &#39;99+&#39;) should accept a dynamic label prop. Hard-coded values (12 of 19 token opportunities) suggest colors and sizing may not be fully tokenized — verify fill colors against the design token system before implementation."
+        properties:
+          type:
+            type: "VARIANT"
+            defaultValue: "active"
+            variantOptions:
+              - "number expand"
+              - "active"
+              - "inactive"
+              - "busy"
+              - "number"
+          size:
+            type: "VARIANT"
+            defaultValue: "large"
+            variantOptions:
+              - "large"
+              - "middle"
+              - "small"
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    dependency_id: "d9a28f4df9efa536c84babfaa67dbbf0eeb26d96"
+    kind: "COMPONENT"
+    instance_ids:
+      - "3001:3242"
+    instance_count: 1
+    main_component:
+      id: "3374:25206"
+      key: "d9a28f4df9efa536c84babfaa67dbbf0eeb26d96"
+      name: "Format=Stroke, Weight=Thin"
+      remote: true
+      width: 32
+      height: 32
+      owner:
+        id: "3374:25198"
+        key: "3501e37259778aa960dc8409cebc8ade3a70ff9b"
+        name: "CaretDown"
+        type: "COMPONENT_SET"
+        description: "chevron, directional, pointer, pointing, arrowhead, triangle, arrows"
+        properties:
+          Format:
+            type: "VARIANT"
+            defaultValue: "Stroke"
+            variantOptions:
+              - "Outline"
+              - "Stroke"
+          Weight:
+            type: "VARIANT"
+            defaultValue: "Regular"
+            variantOptions:
+              - "Bold"
+              - "Duotone"
+              - "Fill"
+              - "Light"
+              - "Regular"
+              - "Thin"
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.dependencies.v0.1.0.json"
+      missing_fields: []
+      reason: null
+variable_dependencies:
+  -
+    id: "VariableID:562:13"
+    name: "spacing/xl"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:45"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:45"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:45"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:45"
+    scopes:
+      - "GAP"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:8305:15151"
+    name: "logo/categoria"
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2: "contable"
+      2849:0: "comercial"
+      2849:1: "servicios"
+      2849:2: "personas"
+    scopes:
+      - "ALL_SCOPES"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:1098:28491"
+    name: "spacing/none"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:1098:28492"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:1098:28492"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:1098:28492"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:1098:28492"
+    scopes:
+      - "GAP"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:11"
+    name: "spacing/sm"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:43"
+    scopes:
+      - "GAP"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196116"
+    name: "color/text/primary"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+    scopes:
+      - "TEXT_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160894"
+    name: "font/size/md"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:708"
+    scopes:
+      - "FONT_SIZE"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160888"
+    name: "font/weight/regular"
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:696"
+    scopes:
+      - "ALL_SCOPES"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160887"
+    name: "font/family/base"
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:691"
+    scopes:
+      - "FONT_FAMILY"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:10"
+    name: "spacing/xs"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:42"
+    scopes:
+      - "GAP"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:3"
+    name: "radius/sm"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:34"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:34"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:34"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:34"
+    scopes:
+      - "CORNER_RADIUS"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196123"
+    name: "color/text/on-brand"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+    scopes:
+      - "TEXT_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196129"
+    name: "color/border/subtle"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:161"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:174"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:90:710"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:184"
+    scopes:
+      - "STROKE_COLOR"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:559:7"
+    name: "stroke/xs"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:476:12576"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:476:12576"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:476:12576"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:476:12576"
+    scopes:
+      - "STROKE_FLOAT"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:4"
+    name: "radius/md"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:35"
+    scopes:
+      - "CORNER_RADIUS"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:476dc0c24aa3bd4a9d24e145c9b7f14063069900/4360:7"
+    name: "icons/md-icon-size"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+      name: "Size"
+      modes:
+        -
+          name: "Mode 1"
+          modeId: "319:3"
+    valuesByMode:
+      319:3: 24
+    scopes:
+      - "WIDTH_HEIGHT"
+    remote: true
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196138"
+    name: "color/icon/primary"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21767"
+    scopes:
+      - "SHAPE_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196145"
+    name: "color/feedback/danger/icon"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:4634"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:4634"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:4634"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:4634"
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2888:26808"
+    name: "color/border/on-brand"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:57:82"
+    scopes:
+      - "STROKE_COLOR"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272"
+    name: "radius/radius-full"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+      name: "Size"
+      modes:
+        -
+          name: "Mode 1"
+          modeId: "319:3"
+    valuesByMode:
+      319:3: 9999999
+    scopes:
+      - "CORNER_RADIUS"
+    remote: true
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211"
+    name: "stroke/stroke-default"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+      name: "Size"
+      modes:
+        -
+          name: "Mode 1"
+          modeId: "319:3"
+    valuesByMode:
+      319:3: 1
+    scopes:
+      - "STROKE_FLOAT"
+    remote: true
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160891"
+    name: "font/weight/bold"
+    type: "STRING"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:699"
+    scopes:
+      - "ALL_SCOPES"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196131"
+    name: "color/border/brand"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    scopes:
+      - "STROKE_COLOR"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:12"
+    name: "spacing/lg"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:44"
+    scopes:
+      - "GAP"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:197279"
+    name: "color/interactive/primary/default"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12"
+    name: "icons/xsm-icon-size"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+      name: "Size"
+      modes:
+        -
+          name: "Mode 1"
+          modeId: "319:3"
+    valuesByMode:
+      319:3: 16
+    scopes:
+      - "WIDTH_HEIGHT"
+    remote: true
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0"
+    name: "Spacing/Small/spacing-sm-0"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201"
+      name: "Size"
+      modes:
+        -
+          name: "Mode 1"
+          modeId: "319:3"
+    valuesByMode:
+      319:3: 0
+    scopes:
+      - "WIDTH_HEIGHT"
+      - "GAP"
+    remote: true
+    locality: "REMOTE"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196121"
+    name: "color/text/brand"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:159"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:177"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:182"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:187"
+    scopes:
+      - "TEXT_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160893"
+    name: "font/size/sm"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:707"
+    scopes:
+      - "FONT_SIZE"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196117"
+    name: "color/text/secondary"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21764"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21764"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21764"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:268:21764"
+    scopes:
+      - "TEXT_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160892"
+    name: "font/size/xs"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:706"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:706"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:706"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:706"
+    scopes:
+      - "FONT_SIZE"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196107"
+    name: "color/surface/brand"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:82:162"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:173"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:178"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:2496:183"
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:7"
+    name: "radius/2xl"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:38"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:38"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:38"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:38"
+    scopes:
+      - "CORNER_RADIUS"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:562:9"
+    name: "radius/full"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:39"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:39"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:39"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:55:39"
+    scopes:
+      - "CORNER_RADIUS"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2845:160895"
+    name: "font/size/lg"
+    type: "FLOAT"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:709"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:709"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:709"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:52:709"
+    scopes:
+      - "FONT_SIZE"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+  -
+    id: "VariableID:2849:196143"
+    name: "color/feedback/positive/icon"
+    type: "COLOR"
+    collection:
+      id: "VariableCollectionId:52:726"
+      name: "semantic"
+      modes:
+        -
+          name: "Contable"
+          modeId: "52:2"
+        -
+          name: "Administrativo"
+          modeId: "2849:0"
+        -
+          name: "Servicios"
+          modeId: "2849:1"
+        -
+          name: "Personas"
+          modeId: "2849:2"
+    valuesByMode:
+      52:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:10446"
+      2849:0:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:10446"
+      2849:1:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:10446"
+      2849:2:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:6075:10446"
+    scopes:
+      - "FRAME_FILL"
+      - "SHAPE_FILL"
+    remote: false
+    locality: "LOCAL"
+    resolution:
+      status: "RESOLVED"
+      evidence:
+        - "header.source-variables.v0.1.0.json"
+      missing_fields: []
+      reason: null
+style_dependencies: []
+properties:
+  definitions:
+    -
+      name: "show version#1349:1"
+      type: "BOOLEAN"
+      defaultValue: true
+    -
+      name: "show company#1349:5"
+      type: "BOOLEAN"
+      defaultValue: true
+    -
+      name: "show icons#1452:16"
+      type: "BOOLEAN"
+      defaultValue: true
+    -
+      name: "show avatar#1929:0"
+      type: "BOOLEAN"
+      defaultValue: true
+  observed: []
+  available:
+    - "show version#1349:1"
+    - "show company#1349:5"
+    - "show icons#1452:16"
+    - "show avatar#1929:0"
+  unknown:
+    - "No propiedades de texto en el contenedor fuente."
+variants:
+  observed_combinations:
+    - "Componente único header"
+  available_values: []
+  unknown: []
+states:
+  observed: []
+  available: []
+  unknown:
+    - "Estados de apertura de selectores no definidos en Header."
+layout:
+  node:
+    id: "1349:4907"
+    name: "header"
+    type: "COMPONENT"
+    parent: null
+    x: 32
+    y: 32
+    width: 1143.69091796875
+    height: 96
+    visible: true
+    opacity: 1
+    clipsContent: false
+    layoutMode: "HORIZONTAL"
+    layoutWrap: "NO_WRAP"
+    layoutSizingHorizontal: "FIXED"
+    layoutSizingVertical: "HUG"
+    primaryAxisSizingMode: "FIXED"
+    counterAxisSizingMode: "AUTO"
+    primaryAxisAlignItems: "SPACE_BETWEEN"
+    counterAxisAlignItems: "CENTER"
+    itemSpacing: 40
+    paddingLeft: 24
+    paddingRight: 24
+    paddingTop: 24
+    paddingBottom: 24
+    layoutGrow: 0
+    layoutAlign: "INHERIT"
+    constraints:
+      horizontal: "MIN"
+      vertical: "MIN"
+    fills: []
+    strokes: []
+    strokeWeight: 1
+    strokeAlign: "INSIDE"
+    cornerRadius: 0
+    effects: []
+    boundVariables:
+      paddingLeft:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:562:13"
+      paddingTop:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:562:13"
+      paddingRight:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:562:13"
+      paddingBottom:
+        type: "VARIABLE_ALIAS"
+        id: "VariableID:562:13"
+    explicitVariableModes: {}
+    reactions: []
+    componentPropertyReferences: {}
+  children:
+    -
+      id: "2873:23060"
+      name: "Logo Categoria"
+      type: "INSTANCE"
+      parent: "1349:4907"
+      x: 24
+      y: 24
+      width: 175.69094848632812
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "NONE"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FILL"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "MIN"
+      itemSpacing: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "STRETCH"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        componentProperties:
+          categoria:
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:8305:15151"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        categoria:
+          value: "contable"
+          type: "VARIANT"
+          boundVariables:
+            value:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:8305:15151"
+    -
+      id: "2412:265"
+      name: "content"
+      type: "FRAME"
+      parent: "1349:4907"
+      x: 213.69091796875
+      y: 24
+      width: 906
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:266"
+      name: "container"
+      type: "FRAME"
+      parent: "2412:265"
+      x: 0
+      y: 0
+      width: 170
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 24
+      paddingLeft: 0
+      paddingRight: 24
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences:
+        visible: "show version#1349:1"
+    -
+      id: "2412:267"
+      name: "Version Container"
+      type: "FRAME"
+      parent: "2412:266"
+      x: 0
+      y: 0
+      width: 122
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 8
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 8
+      paddingBottom: 8
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:268"
+      name: "Version Number"
+      type: "TEXT"
+      parent: "2412:267"
+      x: 0
+      y: 13
+      width: 37
+      height: 22
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196116"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196116"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160894"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160888"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "2.0.0"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 16
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "2412:269"
+      name: "Alpha Container"
+      type: "FRAME"
+      parent: "2412:267"
+      x: 45
+      y: 9
+      width: 77
+      height: 30
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "CENTER"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 0
+      paddingLeft: 8
+      paddingRight: 8
+      paddingTop: 4
+      paddingBottom: 4
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "GRADIENT_LINEAR"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          gradientStops:
+            -
+              color:
+                r: 0.5176470875740051
+                g: 0.29019609093666077
+                b: 0.9254902005195618
+                a: 1
+              position: 0
+              boundVariables: {}
+            -
+              color:
+                r: 0.1568627506494522
+                g: 0.40784314274787903
+                b: 0.9921568632125854
+                a: 1
+              position: 1
+              boundVariables: {}
+          gradientTransform:
+            -
+              - 6.123234262925839e-17
+              - 1
+              - 0
+            -
+              - -1
+              - 6.123234262925839e-17
+              - 1
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 4
+      effects: []
+      boundVariables:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        topLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:3"
+        topRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:3"
+        bottomLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:3"
+        bottomRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:3"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:270"
+      name: "Alpha Text"
+      type: "TEXT"
+      parent: "2412:269"
+      x: 8
+      y: 4
+      width: 61
+      height: 22
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160894"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160888"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "ALPHA .1"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 16
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "2412:271"
+      name: "Divider"
+      type: "VECTOR"
+      parent: "2412:266"
+      x: 146
+      y: 4.75
+      width: 0
+      height: 38.5
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.7490196228027344
+            g: 0.8078431487083435
+            b: 0.9960784316062927
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196129"
+      strokeWeight: 1
+      strokeAlign: "CENTER"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        strokeWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokes:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196129"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:272"
+      name: "container"
+      type: "FRAME"
+      parent: "2412:265"
+      x: 170
+      y: 0
+      width: 296
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 24
+      paddingLeft: 0
+      paddingRight: 24
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences:
+        visible: "show icons#1452:16"
+    -
+      id: "2780:11932"
+      name: "icon header"
+      type: "INSTANCE"
+      parent: "2412:272"
+      x: 0
+      y: 0
+      width: 272
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 8
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        Amount:
+          value: "5"
+          type: "VARIANT"
+          boundVariables: {}
+    -
+      id: "2421:9778"
+      name: "container"
+      type: "FRAME"
+      parent: "2412:265"
+      x: 466
+      y: 0
+      width: 304
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 24
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences:
+        visible: "show company#1349:5"
+    -
+      id: "2421:9779"
+      name: "Divider"
+      type: "VECTOR"
+      parent: "2421:9778"
+      x: 0
+      y: 4.75
+      width: 0
+      height: 38.5
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.7490196228027344
+            g: 0.8078431487083435
+            b: 0.9960784316062927
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196129"
+      strokeWeight: 1
+      strokeAlign: "CENTER"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        strokeWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokes:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196129"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:275"
+      name: "company-selector"
+      type: "FRAME"
+      parent: "2421:9778"
+      x: 24
+      y: 0
+      width: 280
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "FIXED"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "CENTER"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 16
+      paddingLeft: 16
+      paddingRight: 16
+      paddingTop: 4
+      paddingBottom: 4
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9193772673606873
+            g: 0.9462514519691467
+            b: 1
+          boundVariables: {}
+      strokes:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.19607843458652496
+            g: 0.3333333432674408
+            b: 0.9686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196131"
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 8
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:12"
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:12"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:12"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        topLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        topRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        bottomLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        bottomRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        strokeTopWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokeBottomWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokeLeftWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokeRightWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokes:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196131"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:276"
+      name: "Button Icon"
+      type: "INSTANCE"
+      parent: "2412:275"
+      x: 16
+      y: 8
+      width: 32
+      height: 32
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "FIXED"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "CENTER"
+      counterAxisAlignItems: "MAX"
+      itemSpacing: -136
+      paddingLeft: 5.333333492279053
+      paddingRight: 5.333333492279053
+      paddingTop: 5.333333492279053
+      paddingBottom: 5.333333492279053
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.19607843458652496
+            g: 0.3333333432674408
+            b: 0.9686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:197279"
+      strokes: []
+      strokeWeight: 1.3333333730697632
+      strokeAlign: "INSIDE"
+      cornerRadius: 8
+      effects: []
+      boundVariables:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:10"
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:197279"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        show badge indicator#4508:14:
+          type: "BOOLEAN"
+          value: false
+        icon#2828:223:
+          type: "INSTANCE_SWAP"
+          value: "3399:248"
+          preferredValues:
+            count: 1512
+            deeplyResolved: false
+        state:
+          value: "default"
+          type: "VARIANT"
+          boundVariables: {}
+        size:
+          value: "small"
+          type: "VARIANT"
+          boundVariables: {}
+        type:
+          value: "default"
+          type: "VARIANT"
+          boundVariables: {}
+    -
+      id: "7905:2270"
+      name: "Frame 3466833"
+      type: "FRAME"
+      parent: "2412:275"
+      x: 64
+      y: 6
+      width: 160
+      height: 36
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "VERTICAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FILL"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "CENTER"
+      counterAxisAlignItems: "MIN"
+      itemSpacing: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 1
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:1098:28491"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:277"
+      name: "text-empresa-sa"
+      type: "TEXT"
+      parent: "7905:2270"
+      x: 0
+      y: 0
+      width: 160
+      height: 20
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FILL"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "STRETCH"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.19607843458652496
+            g: 0.3333333432674408
+            b: 0.9686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196121"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196121"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160893"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "Empresa SA de CV"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 14
+      lineHeight:
+        unit: "PIXELS"
+        value: 20
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0.10000000149011612
+      textStyleId: ""
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "7905:1927"
+      name: "CAC840428RH1"
+      type: "TEXT"
+      parent: "7905:2270"
+      x: 0
+      y: 20
+      width: 188
+      height: 16
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.27843138575553894
+            g: 0.3333333432674408
+            b: 0.4117647111415863
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196117"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196117"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160892"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "CAC840428RH1"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 12
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "2412:278"
+      name: "CaretDown"
+      type: "INSTANCE"
+      parent: "2412:275"
+      x: 240
+      y: 12
+      width: 24
+      height: 24
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "NONE"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "MIN"
+      itemSpacing: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: false
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables: {}
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables: {}
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        Format:
+          value: "Outline"
+          type: "VARIANT"
+          boundVariables: {}
+        Weight:
+          value: "Regular"
+          type: "VARIANT"
+          boundVariables: {}
+    -
+      id: "3465:1233"
+      name: "container"
+      type: "FRAME"
+      parent: "2412:265"
+      x: 770
+      y: 0
+      width: 136
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 24
+      paddingLeft: 24
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:13"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences:
+        visible: "show avatar#1929:0"
+    -
+      id: "3465:1234"
+      name: "Divider"
+      type: "VECTOR"
+      parent: "3465:1233"
+      x: 24
+      y: 4.75
+      width: 0
+      height: 38.5
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.7490196228027344
+            g: 0.8078431487083435
+            b: 0.9960784316062927
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196129"
+      strokeWeight: 1
+      strokeAlign: "CENTER"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        strokeWeight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:559:7"
+        strokes:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196129"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "2412:281"
+      name: "user-selector"
+      type: "FRAME"
+      parent: "3465:1233"
+      x: 48
+      y: 0
+      width: 88
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "HORIZONTAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "AUTO"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "CENTER"
+      itemSpacing: 8
+      paddingLeft: 0
+      paddingRight: 8
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.9372549057006836
+            g: 0.9529411792755127
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196107"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: "MIXED"
+      effects: []
+      boundVariables:
+        itemSpacing:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:11"
+        topLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:7"
+        topRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        bottomLeftRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:7"
+        bottomRightRadius:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:562:4"
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196107"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+    -
+      id: "3001:3246"
+      name: "avatar"
+      type: "INSTANCE"
+      parent: "2412:281"
+      x: 0
+      y: 0
+      width: 48
+      height: 48
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "VERTICAL"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "FIXED"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "MAX"
+      itemSpacing: -502.25
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1.75
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables:
+        paddingLeft:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0"
+        paddingTop:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0"
+        paddingRight:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0"
+        paddingBottom:
+          type: "VARIABLE_ALIAS"
+          id: "VariableID:64d8a637c90bfa0c9068c0ddb11d1fa2a673ebec/5164:0"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        show badge Indicator#4508:1:
+          type: "BOOLEAN"
+          value: false
+        icon#2817:13:
+          type: "INSTANCE_SWAP"
+          value: "2828:33431"
+          preferredValues:
+            count: 1512
+            deeplyResolved: false
+        Content#1132:2:
+          type: "TEXT"
+          value: "JA"
+        type:
+          value: "Text"
+          type: "VARIANT"
+          boundVariables: {}
+        size:
+          value: "extra-large"
+          type: "VARIANT"
+          boundVariables: {}
+    -
+      id: "3001:3242"
+      name: "CaretDown"
+      type: "INSTANCE"
+      parent: "2412:281"
+      x: 56
+      y: 12
+      width: 24
+      height: 24
+      visible: true
+      opacity: 1
+      clipsContent: false
+      layoutMode: "NONE"
+      layoutWrap: "NO_WRAP"
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      primaryAxisSizingMode: "AUTO"
+      counterAxisSizingMode: "FIXED"
+      primaryAxisAlignItems: "MIN"
+      counterAxisAlignItems: "MIN"
+      itemSpacing: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills: []
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "INSIDE"
+      cornerRadius: 0
+      effects: []
+      boundVariables: {}
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      componentProperties:
+        Format:
+          value: "Stroke"
+          type: "VARIANT"
+          boundVariables: {}
+        Weight:
+          value: "Thin"
+          type: "VARIANT"
+          boundVariables: {}
+  relationships:
+    - "Horizontal SPACE_BETWEEN, padding24, no wrap; contenidos HUG, acciones48 con gap8."
+    - "RFC observado188px dentro de contenedor160px."
+visual:
+  node:
+    fills: []
+    strokes: []
+    effects: []
+  descendants:
+    - "Degradado Alpha literal #844AEC→#2868FD"
+    - "Selector empresa borde de marca; perfil superficie de marca"
+  icons:
+    - "ArrowsCounterClockwise Outline Light"
+    - "GraduationCap Outline Light"
+    - "Headset Outline Light"
+    - "AppWindow Outline Light"
+    - "Bell Outline Light"
+    - "CaretDown Outline Regular"
+    - "CaretDown Stroke Thin"
+typography:
+  styles: []
+  text_runs:
+    -
+      id: "2412:268"
+      name: "Version Number"
+      type: "TEXT"
+      parent: "2412:267"
+      x: 0
+      y: 13
+      width: 37
+      height: 22
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.05882352963089943
+            g: 0.09019608050584793
+            b: 0.16470588743686676
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196116"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196116"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160894"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160888"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "2.0.0"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 16
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "2412:270"
+      name: "Alpha Text"
+      type: "TEXT"
+      parent: "2412:269"
+      x: 8
+      y: 4
+      width: 61
+      height: 22
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160894"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160888"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "ALPHA .1"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 16
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "I2780:11932;1452:35164;1430:18853;1133:31555"
+      name: "number-middle"
+      type: "TEXT"
+      parent: "I2780:11932;1452:35164;1430:18853"
+      x: 4
+      y: 0.5
+      width: 4
+      height: 11
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 8
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "I2780:11932;1452:35184;1430:18853;1133:31555"
+      name: "number-middle"
+      type: "TEXT"
+      parent: "I2780:11932;1452:35184;1430:18853"
+      x: 4
+      y: 0.5
+      width: 4
+      height: 11
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 8
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "I2780:11932;1452:35165;1430:18853;1133:31555"
+      name: "number-middle"
+      type: "TEXT"
+      parent: "I2780:11932;1452:35165;1430:18853"
+      x: 4
+      y: 0.5
+      width: 4
+      height: 11
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 8
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "I2780:11932;1452:35166;1430:18853;1133:31555"
+      name: "number-middle"
+      type: "TEXT"
+      parent: "I2780:11932;1452:35166;1430:18853"
+      x: 4
+      y: 0.5
+      width: 4
+      height: 11
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 8
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "I2780:11932;1452:35167;1430:18853;1133:31555"
+      name: "number-middle"
+      type: "TEXT"
+      parent: "I2780:11932;1452:35167;1430:18853"
+      x: 4
+      y: 0.5
+      width: 4
+      height: 11
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "HUG"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 8
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "I2412:276;1430:18859;1133:31553"
+      name: "number-small"
+      type: "TEXT"
+      parent: "I2412:276;1430:18859"
+      x: 4
+      y: 2
+      width: 2.6666667461395264
+      height: 6.6666669845581055
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1.3333333730697632
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontStyle:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160891"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "1"
+      fontName:
+        family: "Manrope"
+        style: "Bold"
+        variationSettings:
+          wght: 700
+      fontSize: 5.333333492279053
+      lineHeight:
+        unit: "PERCENT"
+        value: 160.0000023841858
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "NONE"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+    -
+      id: "2412:277"
+      name: "text-empresa-sa"
+      type: "TEXT"
+      parent: "7905:2270"
+      x: 0
+      y: 0
+      width: 160
+      height: 20
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FILL"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "STRETCH"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.19607843458652496
+            g: 0.3333333432674408
+            b: 0.9686274528503418
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196121"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196121"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160893"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "Empresa SA de CV"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 14
+      lineHeight:
+        unit: "PIXELS"
+        value: 20
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0.10000000149011612
+      textStyleId: ""
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "7905:1927"
+      name: "CAC840428RH1"
+      type: "TEXT"
+      parent: "7905:2270"
+      x: 0
+      y: 20
+      width: 188
+      height: 16
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "HUG"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 0.27843138575553894
+            g: 0.3333333432674408
+            b: 0.4117647111415863
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196117"
+      strokes: []
+      strokeWeight: 1
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196117"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160892"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences: {}
+      characters: "CAC840428RH1"
+      fontName:
+        family: "Manrope"
+        style: "Regular"
+        variationSettings:
+          wght: 400
+      fontSize: 12
+      lineHeight:
+        unit: "AUTO"
+      letterSpacing:
+        unit: "PERCENT"
+        value: 0
+      textStyleId: ""
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "LEFT"
+    -
+      id: "I3001:3246;1132:21379"
+      name: "JA"
+      type: "TEXT"
+      parent: "I3001:3246;1132:21378"
+      x: 6.5
+      y: 4.75
+      width: 35
+      height: 38.5
+      visible: true
+      opacity: 1
+      layoutSizingHorizontal: "FIXED"
+      layoutSizingVertical: "FIXED"
+      layoutGrow: 0
+      layoutAlign: "INHERIT"
+      constraints:
+        horizontal: "MIN"
+        vertical: "MIN"
+      fills:
+        -
+          type: "SOLID"
+          visible: true
+          opacity: 1
+          blendMode: "NORMAL"
+          color:
+            r: 1
+            g: 1
+            b: 1
+          boundVariables:
+            color:
+              type: "VARIABLE_ALIAS"
+              id: "VariableID:2849:196123"
+      strokes: []
+      strokeWeight: 1.75
+      strokeAlign: "OUTSIDE"
+      effects: []
+      boundVariables:
+        fills:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2849:196123"
+        fontFamily:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160887"
+        fontSize:
+          -
+            type: "VARIABLE_ALIAS"
+            id: "VariableID:2845:160895"
+      explicitVariableModes: {}
+      reactions: []
+      componentPropertyReferences:
+        characters: "Content#1132:2"
+      characters: "JA"
+      fontName:
+        family: "Manrope"
+        style: "SemiBold"
+        variationSettings:
+          wght: 600
+      fontSize: 20
+      lineHeight:
+        unit: "PERCENT"
+        value: 133.00000429153442
+      letterSpacing:
+        unit: "PERCENT"
+        value: -2
+      textStyleId: ""
+      textAutoResize: "NONE"
+      textTruncation: "DISABLED"
+      maxLines: null
+      textAlignHorizontal: "CENTER"
+tokens:
+  summary:
+    total: 35
+  categories:
+    color:
+      - "color/text/primary"
+      - "color/text/on-brand"
+      - "color/border/subtle"
+      - "color/icon/primary"
+      - "color/feedback/danger/icon"
+      - "color/border/on-brand"
+      - "color/border/brand"
+      - "color/interactive/primary/default"
+      - "color/text/brand"
+      - "color/text/secondary"
+      - "color/surface/brand"
+      - "color/feedback/positive/icon"
+    font:
+      - "font/size/md"
+      - "font/weight/regular"
+      - "font/family/base"
+      - "font/weight/bold"
+      - "font/size/sm"
+      - "font/size/xs"
+      - "font/size/lg"
+    spacing:
+      - "spacing/xl"
+      - "spacing/none"
+      - "spacing/sm"
+      - "spacing/xs"
+      - "spacing/lg"
+    radius:
+      - "radius/sm"
+      - "radius/md"
+      - "radius/radius-full"
+      - "radius/2xl"
+      - "radius/full"
+    stroke:
+      - "stroke/xs"
+      - "stroke/stroke-default"
+    logo:
+      - "logo/categoria"
+  source: "variable_dependencies"
+content:
+  example_content:
+    observed_strings:
+      - "2.0.0"
+      - "ALPHA .1"
+      - "1"
+      - "1"
+      - "1"
+      - "1"
+      - "1"
+      - "1"
+      - "Empresa SA de CV"
+      - "CAC840428RH1"
+      - "JA"
+  component_rules:
+    - "Cuatro booleanas controlan la visibilidad de grupos, no el contenido textual."
+  truncation_and_wrapping:
+    -
+      id: "2412:268"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "2412:270"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2780:11932;1452:35164;1430:18853;1133:31555"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2780:11932;1452:35184;1430:18853;1133:31555"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2780:11932;1452:35165;1430:18853;1133:31555"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2780:11932;1452:35166;1430:18853;1133:31555"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2780:11932;1452:35167;1430:18853;1133:31555"
+      textAutoResize: "WIDTH_AND_HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I2412:276;1430:18859;1133:31553"
+      textAutoResize: "NONE"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "2412:277"
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "7905:1927"
+      textAutoResize: "HEIGHT"
+      textTruncation: "DISABLED"
+      maxLines: null
+    -
+      id: "I3001:3246;1132:21379"
+      textAutoResize: "NONE"
+      textTruncation: "DISABLED"
+      maxLines: null
+interactions:
+  status: "UNDEFINED"
+  reason: "Header no expone reacciones propias; estados internos pertenecen a dependencias."
+  rules: []
+semantic_contract:
+  explicit_descriptions: []
+  purpose:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+  usage_rules:
+    status: "REQUIRES_PRODUCT_DEFINITION"
+accessibility:
+  status: "REQUIRES_DEFINITION"
+  observed:
+    - "Acciones48px y selector empresa48px; icono interior32px."
+    - "Textos y colores observados, no prueba de accesibilidad web."
+  undefined:
+    - "Nombres accesibles de acciones"
+    - "Orden de foco de aplicación"
+    - "Destinos y apertura de menús"
+external_dependencies:
+  -
+    kind: "COMPONENT"
+    key: "e8a605a7dc033aeb0586aabb0797d37ef30eac38"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  -
+    kind: "COMPONENT"
+    key: "f7835a27019ae83c184f9e910f0956c0fc3b992f"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  -
+    kind: "COMPONENT"
+    key: "312ec28591dbe217188e9d6f8c63e64cff65ba90"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  -
+    kind: "COMPONENT"
+    key: "5cb5aa74925cb753dc21b23ebd171bea87136e02"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  -
+    kind: "COMPONENT"
+    key: "ef703d88cfc6792cdd17351c4cc923a019b91855"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+  -
+    kind: "COMPONENT"
+    key: "d9a28f4df9efa536c84babfaa67dbbf0eeb26d96"
+    library_name: "NOT_EXPOSED_BY_FIGMA_MCP"
+    library_version: "NOT_EXPOSED_BY_FIGMA_MCP"
+unresolved:
+  - "Destinos de acciones, menús y permisos dependen del producto; no se inventan."
+  - "No regla responsive observada."
+implementation_notes:
+  - "Destino normativo separado: header.contract.v0.1.0.md; Slot sustituye cardinalidad Amount1–5."
+  - "Artworks no se tokenizan; categoría selecciona asset sin recolorearlo."
+evidence:
+  figma_direct:
+    -
+      id: "E001"
+      source: "sources/figma-snapshots/header.source.v0.1.0.json"
+      value: "110/110 nodos inspeccionados"
+    -
+      id: "E002"
+      source: "sources/figma-snapshots/header.dependencies.v0.1.0.json"
+      value: "25 instancias,16 mains únicos"
+    -
+      id: "E003"
+      source: "sources/figma-snapshots/header.source-variables.v0.1.0.json"
+      value: "35 variables usadas"
+  derived:
+    -
+      id: "D001"
+      source: "traversal"
+      value: "Agrupación anatómica funcional"
+  requires_definition:
+    - "Navegación y semántica de producto"
+  confidence:
+    level: "HIGH"
+    reason: "Recorrido completo incluyendo nodos ocultos; sin inferir reglas de producto."

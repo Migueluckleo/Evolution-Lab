@@ -1,0 +1,405 @@
+{
+  "tokens": {
+    "checked": 43,
+    "modeComparisons": 172,
+    "result": "PASS",
+    "errors": []
+  },
+  "paintChecks": {
+    "count": 268,
+    "issues": []
+  },
+  "slots": [
+    {
+      "id": "526:682",
+      "expected": 0,
+      "actual": 0,
+      "type": "SLOT",
+      "contentRetained": true,
+      "idsRecreated": false,
+      "violations": []
+    },
+    {
+      "id": "526:798",
+      "expected": 1,
+      "actual": 1,
+      "type": "SLOT",
+      "contentRetained": true,
+      "idsRecreated": false,
+      "violations": []
+    },
+    {
+      "id": "526:918",
+      "expected": 3,
+      "actual": 3,
+      "type": "SLOT",
+      "contentRetained": true,
+      "idsRecreated": false,
+      "violations": []
+    },
+    {
+      "id": "526:1046",
+      "expected": 5,
+      "actual": 5,
+      "type": "SLOT",
+      "contentRetained": true,
+      "idsRecreated": false,
+      "violations": []
+    },
+    {
+      "id": "526:1185",
+      "expected": 7,
+      "actual": 7,
+      "type": "SLOT",
+      "contentRetained": true,
+      "idsRecreated": false,
+      "violations": []
+    }
+  ],
+  "properties": {
+    "hidden": {
+      "groups": [
+        {
+          "id": "I526:1347;522:398",
+          "name": "Version",
+          "visible": false
+        },
+        {
+          "id": "I526:1347;522:404",
+          "name": "Actions group",
+          "visible": false
+        },
+        {
+          "id": "I526:1347;522:405",
+          "name": "Company",
+          "visible": false
+        },
+        {
+          "id": "I526:1347;522:421",
+          "name": "User",
+          "visible": false
+        }
+      ],
+      "mainExposedFlag": true
+    },
+    "shown": {
+      "groups": [
+        {
+          "name": "Version",
+          "visible": true
+        },
+        {
+          "name": "Actions group",
+          "visible": true
+        },
+        {
+          "name": "Company",
+          "visible": true
+        },
+        {
+          "name": "User",
+          "visible": true
+        }
+      ],
+      "initials": "ML",
+      "exposed": true
+    }
+  },
+  "themes": {
+    "themes": [
+      {
+        "id": "526:257",
+        "mode": {
+          "VariableCollectionId:6:2": "6:0"
+        },
+        "logo": {
+          "categoria": {
+            "value": "contable",
+            "type": "VARIANT",
+            "boundVariables": {
+              "value": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:80"
+              }
+            }
+          }
+        },
+        "logoMain": "435:2654",
+        "companyColor": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418
+        },
+        "companyBinding": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:32"
+          }
+        }
+      },
+      {
+        "id": "526:363",
+        "mode": {
+          "VariableCollectionId:6:2": "6:1"
+        },
+        "logo": {
+          "categoria": {
+            "value": "comercial",
+            "type": "VARIANT",
+            "boundVariables": {
+              "value": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:80"
+              }
+            }
+          }
+        },
+        "logoMain": "435:2656",
+        "companyColor": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408
+        },
+        "companyBinding": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:32"
+          }
+        }
+      },
+      {
+        "id": "526:469",
+        "mode": {
+          "VariableCollectionId:6:2": "6:2"
+        },
+        "logo": {
+          "categoria": {
+            "value": "servicios",
+            "type": "VARIANT",
+            "boundVariables": {
+              "value": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:80"
+              }
+            }
+          }
+        },
+        "logoMain": "435:2658",
+        "companyColor": {
+          "r": 1,
+          "g": 0.32549020648002625,
+          "b": 0
+        },
+        "companyBinding": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:32"
+          }
+        }
+      },
+      {
+        "id": "526:575",
+        "mode": {
+          "VariableCollectionId:6:2": "6:3"
+        },
+        "logo": {
+          "categoria": {
+            "value": "personas",
+            "type": "VARIANT",
+            "boundVariables": {
+              "value": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:13:80"
+              }
+            }
+          }
+        },
+        "logoMain": "435:2660",
+        "companyColor": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491
+        },
+        "companyBinding": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:32"
+          }
+        }
+      }
+    ],
+    "longTexts": [
+      {
+        "id": "I526:1347;522:417",
+        "characters": "Empresa con un nombre extraordinariamente largo para verificar truncado",
+        "w": 160,
+        "h": 20,
+        "resize": "TRUNCATE",
+        "maxLines": null
+      },
+      {
+        "id": "I526:1347;522:418",
+        "characters": "RFC-DE-EJEMPLO-EXTENDIDO-SIN-VALIDACION-FISCAL",
+        "w": 160,
+        "h": 16,
+        "resize": "TRUNCATE",
+        "maxLines": null
+      }
+    ],
+    "rootDimensions": {
+      "x": 64,
+      "y": 264,
+      "width": 1143.69091796875,
+      "height": 96
+    }
+  },
+  "contrast": [
+    {
+      "token": "color/text/brand",
+      "against": "#FFFFFF",
+      "values": [
+        "#3255F7",
+        "#037255",
+        "#FF5300",
+        "#8300F8"
+      ],
+      "ratios": [
+        5.558,
+        5.929,
+        3.236,
+        6.324
+      ]
+    },
+    {
+      "token": "color/text/secondary",
+      "against": "#FFFFFF",
+      "values": [
+        "#475569",
+        "#475569",
+        "#475569",
+        "#475569"
+      ],
+      "ratios": [
+        7.578,
+        7.578,
+        7.578,
+        7.578
+      ]
+    },
+    {
+      "token": "color/text/primary",
+      "against": "#FFFFFF",
+      "values": [
+        "#0F172A",
+        "#0F172A",
+        "#0F172A",
+        "#0F172A"
+      ],
+      "ratios": [
+        17.853,
+        17.853,
+        17.853,
+        17.853
+      ]
+    },
+    {
+      "token": "color/background/header-release-start",
+      "against": "#FFFFFF",
+      "values": [
+        "#A146FB",
+        "#A146FB",
+        "#A146FB",
+        "#A146FB"
+      ],
+      "ratios": [
+        4.389,
+        4.389,
+        4.389,
+        4.389
+      ]
+    },
+    {
+      "token": "color/background/header-release-end",
+      "against": "#FFFFFF",
+      "values": [
+        "#3255F7",
+        "#3255F7",
+        "#3255F7",
+        "#3255F7"
+      ],
+      "ratios": [
+        5.558,
+        5.558,
+        5.558,
+        5.558
+      ]
+    },
+    {
+      "token": "color/background/avatar-fallback",
+      "against": "#FFFFFF",
+      "values": [
+        "#3255F7",
+        "#037255",
+        "#FF5300",
+        "#8300F8"
+      ],
+      "ratios": [
+        5.558,
+        5.929,
+        3.236,
+        6.324
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "source": "2849:211513",
+      "target": "434:3606",
+      "count": 51,
+      "paints": true,
+      "paths": true,
+      "maxGeometryDelta": 0
+    },
+    {
+      "source": "2849:210099",
+      "target": "434:1472",
+      "count": 73,
+      "paints": true,
+      "paths": true,
+      "maxGeometryDelta": 0
+    },
+    {
+      "source": "2849:212400",
+      "target": "434:4970",
+      "count": 45,
+      "paints": true,
+      "paths": true,
+      "maxGeometryDelta": 0
+    },
+    {
+      "source": "2849:212161",
+      "target": "434:4484",
+      "count": 37,
+      "paints": true,
+      "paths": true,
+      "maxGeometryDelta": 0
+    }
+  ],
+  "visual": {
+    "reviewed": true,
+    "sourceNode": "1349:4907",
+    "targetWrapper": "524:252",
+    "themeFrame": "526:255",
+    "longText": "526:1347",
+    "getScreenshot": {
+      "width": 1192,
+      "height": 676
+    },
+    "notes": [
+      "Capturas fuente, baseline, cuatro temas y texto largo inspeccionadas.",
+      "Geometría principal1143.6909×96, regiones170/296/304/136; logo local175.7922 frente175.6909fuente.",
+      "No conformidad WCAG declarada; contraste limitado marcado en auditoría."
+    ]
+  },
+  "result": "PASS_TECHNICAL_WITH_DOCUMENTED_EXCEPTIONS"
+}

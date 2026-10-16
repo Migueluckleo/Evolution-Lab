@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_before_captura_visual",
+      "label": "Captura anterior de BENI con ojos desplazados hacia la derecha",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_before_figura_azul",
+      "label": "Silueta azul redondeada de BENI, ancha arriba y estrecha abajo",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_before_ojos_desplazados",
+      "label": "Dos ojos claros verticales desplazados hacia el borde derecho de la silueta",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    },
+    {
+      "id": "qa_implementations_web_beni_v0_1_1_before_boca_central",
+      "label": "Forma clara similar a bigote o boca situada en el centro, separada de los ojos desplazados",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION",
+      "approval_inferred": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_before_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_before_figura_azul",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_before_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_before_ojos_desplazados",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_beni_v0_1_1_before_captura_visual",
+      "target": "qa_implementations_web_beni_v0_1_1_before_boca_central",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.beni.v0.1.1.before.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

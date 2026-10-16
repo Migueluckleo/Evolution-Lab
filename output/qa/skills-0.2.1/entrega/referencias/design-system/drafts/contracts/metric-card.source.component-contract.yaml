@@ -1,0 +1,193 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T21:44:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 119, inspected_nodes: 119, pending_nodes: 0, invisible_nodes_inspected: 0, truncated: false, limit: null}
+  mcp_limitations: ["Remote icon library and version not exposed"]
+component:
+  id: "587:2751"
+  key: "9d7e8dc9398238b70936d1eeb37ef4651116a42d"
+  name: Card/Metric
+  type: COMPONENT_SET
+  description: null
+  parent: {id: "1164:63870", name: Content, type: FRAME}
+  page: {id: "258:130806", name: "❖ Cards ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=587-2751", file_key: "9zs5RMR8LB5wHjW9Bd59BA", node_id: "587:2751"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 115, y: 54}
+  dimensions: {width: 806, height: 935}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "587:2747", name: "type=Vertical Metric, size=Large", type: COMPONENT, dimensions: [289, 256]}
+  - {id: "2838:2255", name: "type=Vertical Metric, size=Small", type: COMPONENT, dimensions: [200, 216]}
+  - {id: "587:2748", name: "type=Horizontal Metric, size=Large", type: COMPONENT, dimensions: [311, 192]}
+  - {id: "2847:243", name: "type=Horizontal Metric, size=Small", type: COMPONENT, dimensions: [232, 160]}
+  - {id: "587:2749", name: "type=One Metric V1, size=Large", type: COMPONENT, dimensions: [337, 151]}
+  - {id: "2847:258", name: "type=One Metric V1, size=Small", type: COMPONENT, dimensions: [257, 111]}
+  - {id: "587:2750", name: "type=One Metric V2, size=Large", type: COMPONENT, dimensions: [397, 144]}
+  - {id: "2847:266", name: "type=One Metric V2, size=Small", type: COMPONENT, dimensions: [313, 112]}
+anatomy:
+  functional_tree: ["Card/Metric → Header + Content", "Vertical/Horizontal → icon + title + Navigate + detail + two Amount groups", "One Metric V1 → icon + title + amount + trend + Navigate", "One Metric V2 → icon tile + title + amount + trend + Navigate"]
+  graphical_details_omitted: ["24 nested icon vectors counted, omitted from functional tree"]
+dependency_inventory:
+  components: {total_instances: 16, total: 2, local: 0, remote: 2, unknown_locality: 0, resolved: 2, partially_resolved: 0, unresolved: 0}
+  variables: {total: 31, local: 31, remote: 0, unknown_locality: 0, resolved: 31, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: "441865351ce8a0390c7544fee2348dd8ae895f51"
+    kind: COMPONENT
+    instance_ids: ["2833:1755", "2838:2258", "2838:2411", "2847:246", "2838:2653", "2847:259", "583:2630", "2847:268"]
+    instance_count: 8
+    main_component: {id: null, key: "441865351ce8a0390c7544fee2348dd8ae895f51", name: "Format=Stroke, Weight=Fill"}
+    component_set: {id: null, key: null, name: "CurrencyCircleDollar"}
+    locality: REMOTE
+    resolution: {status: RESOLVED, evidence: ["instance.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: "8f20fac8635901c6627e086c16fdf197d5134b7f"
+    kind: COMPONENT
+    instance_ids: ["573:2289", "2838:2262", "2838:2664", "2847:285", "2838:2674", "2848:289", "2847:230", "2848:291"]
+    instance_count: 8
+    main_component: {id: null, key: "8f20fac8635901c6627e086c16fdf197d5134b7f", name: "Format=Outline, Weight=Regular"}
+    component_set: {id: null, key: null, name: "ArrowUpRight"}
+    locality: REMOTE
+    resolution: {status: RESOLVED, evidence: ["instance.mainComponent"], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+variable_dependencies:
+  - {id: "VariableID:2849:196104", name: "color/background/default", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 12, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196105", name: "color/background/subtle", locality: LOCAL, scopes: ["FRAME_FILL", "SHAPE_FILL"], observed_binding_count: 20, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196129", name: "color/border/subtle", locality: LOCAL, scopes: ["STROKE_COLOR"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196141", name: "color/icon/brand", locality: LOCAL, scopes: ["SHAPE_FILL"], observed_binding_count: 32, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196121", name: "color/text/brand", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196116", name: "color/text/primary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 56, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2849:196117", name: "color/text/secondary", locality: LOCAL, scopes: ["TEXT_FILL"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160887", name: "font/family/base", locality: LOCAL, scopes: ["FONT_FAMILY"], observed_binding_count: 36, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160903", name: "font/line-height/md", locality: LOCAL, scopes: ["LINE_HEIGHT"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160905", name: "font/line-height/xl", locality: LOCAL, scopes: ["LINE_HEIGHT"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160901", name: "font/line-height/xs", locality: LOCAL, scopes: ["LINE_HEIGHT"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:52:710", name: "font/size/24", locality: LOCAL, scopes: [], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160897", name: "font/size/2xl", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 4, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160895", name: "font/size/lg", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160894", name: "font/size/md", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 10, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160893", name: "font/size/sm", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160896", name: "font/size/xl", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:2845:160892", name: "font/size/xs", locality: LOCAL, scopes: ["FONT_SIZE"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:3", name: "radius/sm", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 8, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:6", name: "radius/xl", locality: LOCAL, scopes: ["CORNER_RADIUS"], observed_binding_count: 10, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:21", name: "size/2xl", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 7, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:23", name: "size/4xl", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:25", name: "size/6xl", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 1, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:19", name: "size/lg", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 7, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:20", name: "size/xl", locality: LOCAL, scopes: ["WIDTH_HEIGHT"], observed_binding_count: 12, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:14", name: "spacing/2xl", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:12", name: "spacing/lg", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 23, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:11", name: "spacing/sm", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 11, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:13", name: "spacing/xl", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 10, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:562:10", name: "spacing/xs", locality: LOCAL, scopes: ["GAP"], observed_binding_count: 9, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+  - {id: "VariableID:559:7", name: "stroke/xs", locality: LOCAL, scopes: ["STROKE_FLOAT"], observed_binding_count: 2, resolution: {status: RESOLVED, evidence: ["variable getter"], missing_fields: [], reason: null}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: "show icon", type: BOOLEAN, default: true}
+    - {name: "show button", type: BOOLEAN, default: true}
+    - {name: "show detail visible", type: BOOLEAN, default: true}
+    - {name: "detail text", type: TEXT, default: "Description"}
+    - {name: "title", type: TEXT, default: "Title"}
+    - {name: "icon", type: INSTANCE_SWAP, default: "2833:1718"}
+    - {name: "type", type: VARIANT, default: "Vertical Metric"}
+    - {name: "size", type: VARIANT, default: "Large"}
+  observed: ["all four type values × both size values", "all booleans true in materialized variants"]
+  available: ["show icon", "show button", "show detail visible", "detail text", "title", "icon", "type", "size"]
+  unknown: ["preferred icon swap values empty"]
+variants:
+  observed_combinations: ["type=Vertical Metric, size=Large", "type=Vertical Metric, size=Small", "type=Horizontal Metric, size=Large", "type=Horizontal Metric, size=Small", "type=One Metric V1, size=Large", "type=One Metric V1, size=Small", "type=One Metric V2, size=Large", "type=One Metric V2, size=Small"]
+  available_values: ["type: Vertical Metric/Horizontal Metric/One Metric V1/One Metric V2", "size: Large/Small"]
+  unknown: []
+states: {observed: [], available: [], unknown: ["interactive state axis not defined"]}
+layout:
+  node: {node: {id: "587:2751", name: Card/Metric, type: COMPONENT_SET}, dimensions: {width: 806, height: 935}, layout_mode: NONE, evidence_refs: [E001]}
+  children:
+    - {node: {id: "587:2747", name: "type=Vertical Metric, size=Large", type: COMPONENT}, layout_mode: VERTICAL, dimensions: {width: 289, height: 256}, evidence_refs: [E002]}
+    - {node: {id: "2838:2255", name: "type=Vertical Metric, size=Small", type: COMPONENT}, layout_mode: VERTICAL, dimensions: {width: 200, height: 216}, evidence_refs: [E002]}
+    - {node: {id: "587:2748", name: "type=Horizontal Metric, size=Large", type: COMPONENT}, layout_mode: VERTICAL, dimensions: {width: 311, height: 192}, evidence_refs: [E002]}
+    - {node: {id: "2847:243", name: "type=Horizontal Metric, size=Small", type: COMPONENT}, layout_mode: VERTICAL, dimensions: {width: 232, height: 160}, evidence_refs: [E002]}
+    - {node: {id: "587:2749", name: "type=One Metric V1, size=Large", type: COMPONENT}, layout_mode: HORIZONTAL, dimensions: {width: 337, height: 151}, evidence_refs: [E002]}
+    - {node: {id: "2847:258", name: "type=One Metric V1, size=Small", type: COMPONENT}, layout_mode: HORIZONTAL, dimensions: {width: 257, height: 111}, evidence_refs: [E002]}
+    - {node: {id: "587:2750", name: "type=One Metric V2, size=Large", type: COMPONENT}, layout_mode: HORIZONTAL, dimensions: {width: 397, height: 144}, evidence_refs: [E002]}
+    - {node: {id: "2847:266", name: "type=One Metric V2, size=Small", type: COMPONENT}, layout_mode: HORIZONTAL, dimensions: {width: 313, height: 112}, evidence_refs: [E002]}
+  relationships: []
+visual:
+  node: {node: {id: "587:2751", name: Card/Metric, type: COMPONENT_SET}, fills: [], strokes: [], evidence_refs: [E001]}
+  descendants: ["70 visible solid paints in eight variants", "six hidden white wrapper fills", "V2 has border/subtle and background/subtle icon tile"]
+  icons: [{name: CurrencyCircleDollar, instance_count: 8}, {name: ArrowUpRight, instance_count: 8}]
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "573:2459", name: "Description"}, characters: "Description", font: "Manrope Regular", font_size: 14, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "573:2279", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 24, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "573:2376", name: "Title"}, characters: "Amount 1", font: "Manrope Regular", font_size: 16, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "573:2377", name: "Number"}, characters: "$123,456.00", font: "Manrope Regular", font_size: 32, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "2838:1850", name: "Title"}, characters: "Amount 2", font: "Manrope Regular", font_size: 16, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "2838:1851", name: "Number"}, characters: "$123,456.00", font: "Manrope Regular", font_size: 32, variant_id: "587:2747", evidence_refs: [E003]}
+    - {node: {id: "2838:2263", name: "Description"}, characters: "Description", font: "Manrope Regular", font_size: 12, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "2838:2260", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 16, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "2838:2266", name: "Title"}, characters: "Amount 1", font: "Manrope Regular", font_size: 14, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "2838:2267", name: "Number"}, characters: "$123,456.00", font: "Manrope Regular", font_size: 24, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "2838:2284", name: "Title"}, characters: "Amount 2", font: "Manrope Regular", font_size: 14, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "2838:2285", name: "Number"}, characters: "$123,456.00", font: "Manrope Regular", font_size: 24, variant_id: "2838:2255", evidence_refs: [E003]}
+    - {node: {id: "583:2723", name: "Description"}, characters: "Description", font: "Manrope Regular", font_size: 14, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "583:2720", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 24, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "583:2726", name: "Title"}, characters: "Amount 1", font: "Manrope Regular", font_size: 16, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "583:2727", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 24, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "583:2729", name: "Title"}, characters: "Amount 2", font: "Manrope Regular", font_size: 16, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "583:2730", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 24, variant_id: "587:2748", evidence_refs: [E003]}
+    - {node: {id: "2847:250", name: "Description"}, characters: "Description", font: "Manrope Regular", font_size: 12, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "2847:247", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 16, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "2847:253", name: "Title"}, characters: "Amount 1", font: "Manrope Regular", font_size: 14, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "2847:254", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 20, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "2847:256", name: "Title"}, characters: "Amount 2", font: "Manrope Regular", font_size: 14, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "2847:257", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 20, variant_id: "2847:243", evidence_refs: [E003]}
+    - {node: {id: "573:2603", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 24, variant_id: "587:2749", evidence_refs: [E003]}
+    - {node: {id: "573:2618", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 32, variant_id: "587:2749", evidence_refs: [E003]}
+    - {node: {id: "573:2616", name: "Description"}, characters: "+5.2%", font: "Manrope Regular", font_size: 16, variant_id: "587:2749", evidence_refs: [E003]}
+    - {node: {id: "2847:261", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 18, variant_id: "2847:258", evidence_refs: [E003]}
+    - {node: {id: "2847:262", name: "Number"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 24, variant_id: "2847:258", evidence_refs: [E003]}
+    - {node: {id: "2847:263", name: "Description"}, characters: "+5.2%", font: "Manrope Regular", font_size: 14, variant_id: "2847:258", evidence_refs: [E003]}
+    - {node: {id: "2847:239", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 24, variant_id: "587:2750", evidence_refs: [E003]}
+    - {node: {id: "583:2633", name: "$123,320.00"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 32, variant_id: "587:2750", evidence_refs: [E003]}
+    - {node: {id: "583:2634", name: "+5.2%"}, characters: "+5.2%", font: "Manrope Regular", font_size: 16, variant_id: "587:2750", evidence_refs: [E003]}
+    - {node: {id: "2847:270", name: "Title"}, characters: "Title", font: "Manrope Regular", font_size: 16, variant_id: "2847:266", evidence_refs: [E003]}
+    - {node: {id: "2847:271", name: "$123,320.00"}, characters: "$123,320.00", font: "Manrope Regular", font_size: 24, variant_id: "2847:266", evidence_refs: [E003]}
+    - {node: {id: "2847:272", name: "+5.2%"}, characters: "+5.2%", font: "Manrope Regular", font_size: 14, variant_id: "2847:266", evidence_refs: [E003]}
+tokens:
+  summary: {total: 31, local: 31, remote: 0}
+  categories:
+    color: ["color/background/default", "color/background/subtle", "color/border/subtle", "color/icon/brand", "color/text/brand", "color/text/primary", "color/text/secondary"]
+    font: ["font/family/base", "font/line-height/md", "font/line-height/xl", "font/line-height/xs", "font/size/24", "font/size/2xl", "font/size/lg", "font/size/md", "font/size/sm", "font/size/xl", "font/size/xs"]
+    radius: ["radius/sm", "radius/xl"]
+    size: ["size/2xl", "size/4xl", "size/6xl", "size/lg", "size/xl"]
+    spacing: ["spacing/2xl", "spacing/lg", "spacing/sm", "spacing/xl", "spacing/xs"]
+    stroke: ["stroke/xs"]
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: ["Title", "Description", "Amount 1", "Amount 2", "$123,456.00", "$123,320.00", "+5.2%"]}
+  component_rules: ["title is editable in all variants", "detail text is editable only in two-amount variants"]
+  truncation_and_wrapping: []
+interactions: {status: UNDEFINED, reason: "zero Figma reactions observed", rules: []}
+semantic_contract: {explicit_descriptions: [], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["visible metric text and navigation affordance"], undefined: ["button semantics", "focus", "keyboard", "metric announcement", "live updates"]}
+external_dependencies:
+  - {kind: COMPONENT, key: "441865351ce8a0390c7544fee2348dd8ae895f51", name: "CurrencyCircleDollar", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}
+  - {kind: COMPONENT, key: "8f20fac8635901c6627e086c16fdf197d5134b7f", name: "ArrowUpRight", remote: true, library_name: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP}
+unresolved: ["interaction and metric semantics are not specified", "18 px V1 Small title has no confirmed destination semantic size", "modal trend-text contrast requires destination review"]
+implementation_notes: ["Source IDs do not identify target variables", "Do not infer interaction from Navigate appearance", "New destination semantic roles must alias approved primitives and use correct scopes"]
+evidence:
+  figma_direct: [{id: E001, source: "node:587:2751", value: "COMPONENT_SET with eight variants"}, {id: E002, source: "traversal:587:2751", value: "119 nodes, 16 icon instances, 31 variables"}, {id: E003, source: "TEXT descendants", value: "36 visible text nodes"}]
+  derived: [{id: D001, source: "variant grouping", value: "four types × two sizes; 70 visible paints"}]
+  requires_definition: ["interaction, accessibility, metric formatting and updating"]
+  confidence: {level: HIGH, reason: "complete read-only traversal; remote library identity unavailable"}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "unchanged_content_and_mtimes": true,
+  "no_new_run_created": true,
+  "commands": [
+    {
+      "args": [
+        "./scripts/ds",
+        "status",
+        "--write"
+      ],
+      "exit_code": 0,
+      "stdout": "Vista derivada actualizada: registry/generated/project-status.md\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "./scripts/ds",
+        "graph",
+        "prepare",
+        "--run",
+        "2026-10-13-high-priorities-noop"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"CURRENT_NO_CHANGES\",\n  \"message\": \"No se regeneró el grafo.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "./scripts/ds",
+        "graph",
+        "close",
+        "--run",
+        "2026-10-13-high-priorities"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"CURRENT\",\n  \"errors\": [],\n  \"files\": 1183,\n  \"nodes\": 8269,\n  \"edges\": 18688,\n  \"scope\": \"Graph freshness/integrity, not Figma validation\",\n  \"message\": \"Lote ya cerrado; no se reescribió.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "./scripts/ds",
+        "check",
+        "--json",
+        "--report",
+        "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/graphify-out/runs/2026-10-13-high-priorities/final-check.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"counts\": {\n    \"json\": 460,\n    \"yaml_or_frontmatter\": 218,\n    \"prose_metadata\": 4\n  },\n  \"findings\": [\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md\",\n      \"line\": 16,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.avatar-roles.v0.1.1.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md\",\n      \"line\": 15,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.avatar-roles.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md\",\n      \"line\": 23,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.chart-colors.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md\",\n      \"line\": 16,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.control-colors.v0.1.1.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.control-colors.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md\",\n      \"line\": 15,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.dot-background-colors.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.feedback-icon-scopes.amendment.v0.1.7.md\",\n      \"line\": 15,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.focus-effects.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md\",\n      \"line\": 15,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.linear-progress-colors.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.metric-card-roles.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.radio-indicator-colors.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"toggle.contract.v0.1.0.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md\",\n      \"line\": 26,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../foundations/ai-design-system.focus-effects.v0.1.0.json\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"toggle.contract.v0.1.0.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md\",\n      \"line\": 19,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"../behavior/toggle-mixed/behavior-contract.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"archive/specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md\",\n      \"line\": 21,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"toggle.contrast-amendment.v0.1.1.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"qa/contracts/chat-section.v0.1.0.prebuild-candidate.md\",\n      \"line\": 105,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"chat-section.source.component-contract.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"qa/contracts/conversation.v0.1.0.pre-promotion.md\",\n      \"line\": 107,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"conversation.source.component-contract.md\"\n    },\n    {\n      \"control\": \"DOC-LINK\",\n      \"path\": \"qa/contracts/conversation.v0.1.0.prebuild-candidate.md\",\n      \"line\": 107,\n      \"severity\": \"HISTORICAL\",\n      \"message\": \"conversation.source.component-contract.md\"\n    },\n    {\n      \"control\": \"DOC-DEPENDENCY\",\n      \"path\": \"specs/components/button.contract.md\",\n      \"line\": null,\n      \"severity\": \"WARNING\",\n      \"message\": \"Unresolved declared dependency: PLUS-CIRCLE-OBSERVED-001\"\n    },\n    {\n      \"control\": \"DOC-DEPENDENCY\",\n      \"path\": \"specs/components/button.contract.md\",\n      \"line\": null,\n      \"severity\": \"WARNING\",\n      \"message\": \"Unresolved declared dependency: PHOSPHOR-ICONS-001\"\n    },\n    {\n      \"control\": \"DOC-DEPENDENCY\",\n      \"path\": \"specs/components/button.contract.v0.2.0.md\",\n      \"line\": null,\n      \"severity\": \"WARNING\",\n      \"message\": \"Unresolved declared dependency: PHOSPHOR-ICONS-001\"\n    },\n    {\n      \"control\": \"DOC-DEPENDENCY\",\n      \"path\": \"specs/components/filter-chip.contract.v0.2.0.md\",\n      \"line\": null,\n      \"severity\": \"WARNING\",\n      \"message\": \"Unresolved declared dependency: PlusCircle\"\n    }\n  ],\n  \"scope\": \"Deterministic documentation checks; no semantic approval, Figma readback or web QA\",\n  \"documentation_status\": \"PASS\",\n  \"graph\": {\n    \"status\": \"CURRENT\",\n    \"errors\": [],\n    \"files\": 1183,\n    \"nodes\": 8269,\n    \"edges\": 18688,\n    \"scope\": \"Graph freshness/integrity, not Figma validation\"\n  },\n  \"derived_view\": \"CURRENT\"\n}\n",
+      "stderr": ""
+    }
+  ]
+}

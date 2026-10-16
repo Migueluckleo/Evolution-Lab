@@ -1,0 +1,49 @@
+{
+  "amendmentId": "FOUNDATIONS-STEPPER-COLORS-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "version": "0.1.1",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "supersedes": "drafts/foundations/ai-design-system.stepper-colors.v0.1.0.json",
+  "collection": "semantic",
+  "rule": "Los consumidores usan estos ocho roles semánticos. Checked sigue brand/strong y Default sigue brand/default por tema mediante alias directo a la primitiva local de cada modo; Inactive y textos conservan la paleta neutral fuente. No se crean primitivas ni variables adicionales.",
+  "modeIds": {"Contable": "6:0", "Administrativo": "6:1", "Servicios": "6:2", "Personas": "6:3"},
+  "variables": [
+    {
+      "name": "color/background/stepper/indicator/checked", "targetId": "VariableID:347:123", "resolvedType": "COLOR", "description": "Fondo del indicador Checked de Stepper. Sigue la marca fuerte de cada tema mediante alias a la primitiva correspondiente.", "scopes": ["FRAME_FILL"], "sourceHex": "#098300", "themeRole": "color/brand/strong",
+      "aliasesByMode": {"6:0": {"name": "color/blue/500", "targetId": "VariableID:8:88"}, "6:1": {"name": "color/green/600", "targetId": "VariableID:8:63"}, "6:2": {"name": "color/orange/700", "targetId": "VariableID:8:73"}, "6:3": {"name": "color/purple/600", "targetId": "VariableID:8:81"}}
+    },
+    {
+      "name": "color/background/stepper/indicator/default", "targetId": "VariableID:347:124", "resolvedType": "COLOR", "description": "Fondo del indicador Default de Stepper. Sigue la marca base de cada tema mediante alias a la primitiva correspondiente.", "scopes": ["FRAME_FILL"], "sourceHex": "#3255F7", "themeRole": "color/brand/default",
+      "aliasesByMode": {"6:0": {"name": "color/blue/400", "targetId": "VariableID:8:87"}, "6:1": {"name": "color/green/500", "targetId": "VariableID:8:62"}, "6:2": {"name": "color/orange/500", "targetId": "VariableID:8:71"}, "6:3": {"name": "color/purple/500", "targetId": "VariableID:8:80"}}
+    },
+    {
+      "name": "color/background/stepper/indicator/inactive", "targetId": "VariableID:347:125", "resolvedType": "COLOR", "description": "Fondo del indicador de Stepper en estado Inactive; gris claro de la fuente.", "scopes": ["FRAME_FILL"], "sourceHex": "#E2E8F0",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:1": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:2": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:3": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}}
+    },
+    {
+      "name": "color/shape/stepper/connector/checked", "targetId": "VariableID:347:126", "resolvedType": "COLOR", "description": "Conector Checked de Stepper. Sigue la marca fuerte de cada tema mediante alias a la primitiva correspondiente.", "scopes": ["SHAPE_FILL"], "sourceHex": "#098300", "themeRole": "color/brand/strong",
+      "aliasesByMode": {"6:0": {"name": "color/blue/500", "targetId": "VariableID:8:88"}, "6:1": {"name": "color/green/600", "targetId": "VariableID:8:63"}, "6:2": {"name": "color/orange/700", "targetId": "VariableID:8:73"}, "6:3": {"name": "color/purple/600", "targetId": "VariableID:8:81"}}
+    },
+    {
+      "name": "color/shape/stepper/connector/default", "targetId": "VariableID:347:127", "resolvedType": "COLOR", "description": "Línea conectora visible de Stepper en estado Default o Inactive.", "scopes": ["SHAPE_FILL"], "sourceHex": "#E2E8F0",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:1": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:2": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}, "6:3": {"name": "color/neutral/300", "targetId": "VariableID:8:95"}}
+    },
+    {
+      "name": "color/text/stepper/step", "targetId": "VariableID:347:128", "resolvedType": "COLOR", "description": "Rótulo corto del paso en Stepper, como STEP 1, en todos los estados.", "scopes": ["TEXT_FILL"], "sourceHex": "#64748B",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:1": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:2": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:3": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}}
+    },
+    {
+      "name": "color/text/stepper/title", "targetId": "VariableID:347:129", "resolvedType": "COLOR", "description": "Título visible del paso de Stepper en todos los estados.", "scopes": ["TEXT_FILL"], "sourceHex": "#64748B",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:1": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:2": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}, "6:3": {"name": "color/neutral/500", "targetId": "VariableID:8:97"}}
+    },
+    {
+      "name": "color/text/stepper/caption", "targetId": "VariableID:347:130", "resolvedType": "COLOR", "description": "Texto auxiliar de caption bajo el título del paso en Stepper.", "scopes": ["TEXT_FILL"], "sourceHex": "#94A3B8",
+      "aliasesByMode": {"6:0": {"name": "color/neutral/400", "targetId": "VariableID:8:96"}, "6:1": {"name": "color/neutral/400", "targetId": "VariableID:8:96"}, "6:2": {"name": "color/neutral/400", "targetId": "VariableID:8:96"}, "6:3": {"name": "color/neutral/400", "targetId": "VariableID:8:96"}}
+    }
+  ]
+}

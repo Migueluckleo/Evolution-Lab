@@ -1,0 +1,23 @@
+Re-extracting code files in . (no LLM needed)...
+[graphify watch] 55 file(s) not classified (no supported extension or shebang), skipped: .gitignore, .graphify_version, 01-ENVIRONMENT-AND-TOOLS.md.snapshot, 01-flujo-general.mmd, 02-DOCUMENT-INGESTION-AND-STORAGE.md.snapshot, 02-fuentes-y-autorizacion.mmd (+49 more)
+  AST extraction: 100/984 uncached files (10%) [14 workers]
+  AST extraction: 200/984 uncached files (20%) [14 workers]
+  AST extraction: 300/984 uncached files (30%) [14 workers]
+  AST extraction: 400/984 uncached files (40%) [14 workers]
+  AST extraction: 500/984 uncached files (50%) [14 workers]
+  AST extraction: 600/984 uncached files (60%) [14 workers]
+  AST extraction: 700/984 uncached files (71%) [14 workers]
+  AST extraction: 800/984 uncached files (81%) [14 workers]
+  AST extraction: 900/984 uncached files (91%) [14 workers]
+  AST extraction: 984/984 uncached files (100%) [14 workers]
+[graphify watch] community set changed since labeling (790 saved labels, 923 communities now; renamed 502 community(ies) by their hub). Run `graphify label` to refresh names with the LLM.
+[graphify watch] pruned 4 node(s) from 1 newly-ignored file(s) (matched by a live ignore rule while absent from the scan corpus).
+[graphify watch] fail-closed: kept 274 node(s) from 4 file(s) that left the scan corpus but still exist on disk and match no current ignore rule (filters changed?). Add them to .graphifyignore if the exclusion is intentional.
+[graphify] backed up curated graph (5 files) -> 2026-10-15/
+Graph has 10249 nodes (above 5000 limit). Building aggregated community view...
+graph.html written (aggregated: 923 community nodes, 2073 cross-community edges)
+Tip: run with --obsidian for full node-level detail.
+[graphify watch] Rebuilt: 10249 nodes, 18335 edges, 923 communities
+[graphify watch] graph.json, graph.html and GRAPH_REPORT.md updated in graphify-out
+Code graph updated. For doc/paper/image changes run /graphify --update in your AI assistant.
+Tip: set GEMINI_API_KEY or GOOGLE_API_KEY to use Gemini for semantic extraction.

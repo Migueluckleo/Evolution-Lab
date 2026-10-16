@@ -1,0 +1,59 @@
+[
+  {
+    "prefix": "8",
+    "number": "01",
+    "title": "Vista general del método",
+    "subtitle": "La solicitud define el alcance. P05 conserva la trazabilidad durante todas las fases.",
+    "notes": "Ruta normal: el contrato se publica al aprobarse. En la migración delegada, su promoción a specs requiere QA documental y técnico PASS. La auditoría humana y la publicación de biblioteca Figma mantienen estados independientes.\nREFERENCIAS · AGENTS.md · P02–P06 · DEC-LEGACY-MIGRATION-DELEGATION-001",
+    "tint": "#F5FBFF"
+  },
+  {
+    "prefix": "3",
+    "number": "02",
+    "title": "Fuentes y autorización",
+    "subtitle": "Responsables: agente documenta y revisa; usuario decide alcance y aprobaciones.",
+    "notes": "ENTRADA · Archivos reales, JSON, nodos Figma, decisiones y contratos existentes.\n\nP02 · Conservar originales; registrar SHA-256 de bytes, versión, cobertura e IDs fuente. INDEXED no significa aprobado.\n\nP03 · Identidad, anatomía, variantes observadas, requisitos comprobables, página semántica, dependencias, mapa de tokens y revisión de Slots. Un contrato existente se verifica antes de reutilizarlo.\n\nGATE · QA documental PASS y ausencia de conflictos materiales. La delegación solo cubre la migración autorizada y sus decisiones adicionales expresas; no adopta inferencias de producto.\n\nSALIDA · Contrato habilitado para preflight. DRAFT e IN_REVIEW no habilitan construcción.\n\nREFERENCIAS · P02 · P03 §§5–12 · P06 DOC-01–18 · registry/decisions.md",
+    "tint": "#F5FBFF"
+  },
+  {
+    "prefix": "4",
+    "number": "03",
+    "title": "Tokens y bindings",
+    "subtitle": "Cadena verificable por consumidor, estado y modo. Igual apariencia no demuestra igual semántica.",
+    "notes": "CADENA · Origen/propiedad → valor observado → primitiva exacta o aproximada → rol semántico → ID local → binding → lectura y captura.\n\nREGLA VIGENTE · Enmienda 0.1.2: si falta RGB exacto, reutilizar la primitiva existente más semejante con evidencia; documentar RGB, método, diferencia y contraste. El componente consume el rol semántico.\n\nEXTENSIONES · JSON de destino separado, contrato versionado, QA, anuncio previo y alias en cada modo. Una sola description canónica. Inventario histórico intacto.\n\nCONTRASTE · Medición y asterisco documental para revisión interna; conservar la paleta conforme a las decisiones vigentes. No certificar WCAG global por este proceso.\n\nEXCEPCIÓN · Logos conserva artwork sin tokens. Un literal de otra categoría exige la excepción acotada respaldada por el protocolo; no es permiso general.\n\nREFERENCIAS · MIGRATION-TOKEN-TRACEABILITY.contract.md + amendment.v0.1.2 · P04 §§5–6",
+    "tint": "#F8F5FF"
+  },
+  {
+    "prefix": "5",
+    "number": "04",
+    "title": "Slots y composición",
+    "subtitle": "El contenido de muestra no fija la cardinalidad ni demuestra flexibilidad.",
+    "notes": "DECIDIR · Cambiar una cadena: TEXT. Ocultar parte fija: BOOLEAN. Sustituir un único icono: INSTANCE_SWAP. Variar hijos, cantidad u orden: revisar Slot.\n\nCONTRATO · Región, propietario, contenido permitido, cardinalidad conocida, operaciones, layout, overflow, temas y pruebas. Los límites desconocidos permanecen explícitos.\n\nQA DESDE INSTANCIA · Insertar, quitar, reordenar y sustituir; probar muestra, uno, menos y más elementos; vacío permitido, texto largo y ancho reducido. Verificar retención al cambiar variante y bindings de los hijos.\n\nEVIDENCIA REAL · Select probó 0/1/3/5/8 opciones. Empty states probó 64 operaciones y 16 transiciones. Son fixtures, no máximos de producto.\n\nCIERRE REGISTRADO · Los Slots REQUIRED de la cola están implementados, incluido Content de App Shell. Un frame llamado Slot no demuestra esta capacidad.\n\nREFERENCIAS · P-SLOTS 0.1.0 · registry/SLOTS-REVIEW-STATUS.md",
+    "tint": "#F1FEFD"
+  },
+  {
+    "prefix": "6",
+    "number": "05",
+    "title": "Construcción y QA",
+    "subtitle": "El éxito de una escritura acredita ejecución; la lectura posterior acredita lo que quedó.",
+    "notes": "PREFLIGHT · Contrato/versión/digest, permiso de tarea, datos vinculados, capacidad real, página exacta, variables locales y dependencias resueltas.\n\nDESTINO · AI-Design-System. Una página semántica por familia; principales de dependencias conservados en sus páginas. Leer antes de crear, actualizar o recuperar un error parcial.\n\nCOMPROBAR · Jerarquía, variantes reales, propiedades, layout, tipografía, paints opcionales, scopes, aliases y resolución por modo. Captura visual complementaria; bindings completos no se prueban con una muestra visual.\n\nCONTROL · PASS / FAIL / BLOCKED / NOT_APPLICABLE con requisito, evidencia y alcance. Evidencia obligatoria ausente = BLOCKED.\n\nSALIDA · VALIDATED solo para el alcance completo comprobado. VALIDATED_WITH_EXCEPTIONS requiere aceptación explícita de las diferencias. Nunca inventar una tolerancia.\n\nREFERENCIAS · P04 · P06 · qa/contracts/ · qa/implementations/",
+    "tint": "#FFF7F0"
+  },
+  {
+    "prefix": "9",
+    "number": "06",
+    "title": "Cambio y continuidad",
+    "subtitle": "Corregir lo afectado, preservar la historia y mantener una única especificación vigente.",
+    "notes": "CLASIFICAR · Defecto determinista: corregir y releer. Vacío contractual: volver a P03. Conflicto de fuentes: decisión explícita. Limitación de herramienta: documentar y acotar. Desviación aceptada: conservar autorización.\n\nVERSIONAR · Después de promoción, revisar en specs mediante versión o enmienda con sustitución precisa. No abrir un segundo contrato normativo en drafts.\n\nIMPACTO · Cambio de fuente, token, contrato o exigencia nueva marca STALE únicamente el QA afectado. Repetir controles dependientes tras corregir.\n\nPROMOCIÓN DELEGADA · Ambos QA PASS vigentes; DELEGATED_FOR_BUILD permanece. user_audit: PENDING. Consolidar dudas materiales en MIGRATION-AUDIT.md.\n\nCONTINUIDAD · Registrar qué se leyó, cambió, comprobó y quedó bloqueado; decisión necesaria y próximo paso. Graphify es índice derivado y se actualiza solo con autorización.\n\nREFERENCIAS · P05 · P06 · DEC-MIGRATION-SPECS-AUDIT-001 · DEC-MIGRATION-SPECS-CANONICAL-001",
+    "tint": "#F9F9F9"
+  },
+  {
+    "prefix": "7",
+    "number": "07",
+    "title": "Casos reales",
+    "subtitle": "Ejemplos de aplicación; sus QA acreditan los alcances citados.",
+    "notes": "Buttons: 722 referencias en 123 nodos pasaron a nueve roles locales. Chips: 36 bindings inversos revisados, 30 variantes conservadas.\n\nLogos: máximo delta 0.00030517578125 px; principales preservados, clones de prueba retirados. Falta aceptar o rechazar esos 57 deltas, sin tolerancia general.\n\nFUENTES · QA button.local-bindings.v0.2.2 · filter-chip.semantic.v0.2.1 · composition-slots · logos.refinement.v0.1.1",
+    "tint": "#FFFBF0"
+  }
+]
+

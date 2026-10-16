@@ -1,0 +1,137 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-24T19:59:24Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 25, inspected_nodes: 25, pending_nodes: 0, invisible_nodes_inspected: 3, truncated: false, limit: null}
+  mcp_limitations: ["External library name and version are not exposed; preferred swap candidates were counted but not deep-resolved."]
+component:
+  id: "2461:651"
+  key: 44cd079b3bb28629bd1fdcb794dcffc89ee81a2a
+  name: Tab item
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2461:635", name: Group 7, type: FRAME}
+  page: {id: "268:20245", name: "❖ Navigation   ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=2461-651", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "2461:651"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity: {position: {x: 216, y: 32}, dimensions: {width: 165, height: 255}, visible: true, clips_content: false, opacity: 1, blend_mode: PASS_THROUGH}
+direct_children:
+  - {id: "2461:652", name: "State=Disabled", type: COMPONENT, width: 116, height: 38}
+  - {id: "2461:656", name: "State=Default", type: COMPONENT, width: 116, height: 38}
+  - {id: "2461:660", name: "State=Active", type: COMPONENT, width: 120, height: 38}
+anatomy:
+  functional_tree: ["Tab item set → State variant → hidden left AddressBook; label; visible numeric Dot; visible right AddressBook"]
+  graphical_details_omitted: ["Six nested AddressBook vectors are aggregated under icon instances."]
+dependency_inventory:
+  components: {total_instances: 9, total: 2, local: 1, remote: 1, unknown_locality: 0, resolved: 1, partially_resolved: 1, unresolved: 0}
+  variables: {total: 21, local: 15, remote: 6, unknown_locality: 0, resolved: 21, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: ba5343589d88e1f18b0ed731cebcb3ec41138ebb
+    kind: COMPONENT
+    instance_ids: ["2829:34895", "2461:655", "2829:34894", "2461:659", "2829:34893", "2461:663"]
+    instance_count: 6
+    main_component: {id: "4334:1117", key: ba5343589d88e1f18b0ed731cebcb3ec41138ebb, name: "Format=Outline, Weight=Light"}
+    component_set: {id: null, key: null, name: AddressBook}
+    locality: REMOTE
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["Format=Outline, Weight=Light"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: 1512, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: PARTIALLY_RESOLVED, evidence: [E005], missing_fields: ["Full remote component definition and library provenance"], reason: "Only active key, main name and visible instance geometry were read."}
+    contract_ref: {status: NOT_GENERATED, suggested_path: null}
+  - dependency_id: 06df8e9033e095bd1ca776691d73501daf5fdda9
+    kind: COMPONENT
+    instance_ids: ["2461:654", "2461:658", "2461:662"]
+    instance_count: 3
+    main_component: {id: "1133:31554", key: 06df8e9033e095bd1ca776691d73501daf5fdda9, name: "type=number, size=middle"}
+    component_set: {id: null, key: null, name: dot}
+    locality: LOCAL
+    active_properties: []
+    property_definitions: []
+    variants: {observed: ["type=number, size=middle"], available: [], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: null, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: []
+    resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: drafts/contracts/dot.source.component-contract.yaml}
+variable_dependencies:
+  - {id: "VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", name: "Spacing/Small/spacing-sm-8", type: FLOAT, locality: REMOTE, used_by: ["component:2461:651"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", name: "Spacing/Small/spacing-sm-12", type: FLOAT, locality: REMOTE, used_by: ["component:2461:651"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:4", name: radius/md, type: FLOAT, locality: LOCAL, used_by: ["component:2461:651"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:d10c991533398ce48a0a84cc9e51436af4b89399/4495:2", name: "icons/xxsm-icon-size", type: FLOAT, locality: REMOTE, used_by: ["instance:AddressBook"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196147", name: color/icon/disabled, type: COLOR, locality: LOCAL, used_by: ["State=Disabled"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196119", name: color/text/disabled, type: COLOR, locality: LOCAL, used_by: ["State=Disabled"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", name: "Size/sm-3", type: FLOAT, locality: REMOTE, used_by: ["instance:AddressBook"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160888", name: font/weight/regular, type: STRING, locality: LOCAL, used_by: ["State=Default", "State=Disabled"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160887", name: font/family/base, type: STRING, locality: LOCAL, used_by: ["Tab title"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:1098:28491", name: spacing/none, type: FLOAT, locality: LOCAL, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:562:10", name: spacing/xs, type: FLOAT, locality: LOCAL, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", name: "radius/radius-full", type: FLOAT, locality: REMOTE, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", name: "stroke/stroke-default", type: FLOAT, locality: REMOTE, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196145", name: color/feedback/danger/icon, type: COLOR, locality: LOCAL, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2888:26808", name: color/border/on-brand, type: COLOR, locality: LOCAL, used_by: ["instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196123", name: color/text/on-brand, type: COLOR, locality: LOCAL, used_by: ["State=Active", "instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2845:160891", name: font/weight/bold, type: STRING, locality: LOCAL, used_by: ["State=Active", "instance:dot"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196138", name: color/icon/primary, type: COLOR, locality: LOCAL, used_by: ["State=Default"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196116", name: color/text/primary, type: COLOR, locality: LOCAL, used_by: ["State=Default"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:3069:15806", name: color/interactive/accent/default, type: COLOR, locality: LOCAL, used_by: ["State=Active"], resolution: {status: RESOLVED, evidence: [E004]}}
+  - {id: "VariableID:2849:196142", name: color/icon/on-brand, type: COLOR, locality: LOCAL, used_by: ["State=Active"], resolution: {status: RESOLVED, evidence: [E004]}}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: State, type: VARIANT, default: Active}
+    - {name: "show left icon", type: BOOLEAN, default: false}
+    - {name: "Show Badge", type: BOOLEAN, default: true}
+    - {name: "show right icon", type: BOOLEAN, default: true}
+    - {name: "left icon", type: INSTANCE_SWAP, default: "4334:1117", preferred_candidate_count: 1512}
+    - {name: "right icon", type: INSTANCE_SWAP, default: "4334:1117", preferred_candidate_count: 1512}
+  observed: ["State=Active", "State=Default", "State=Disabled"]
+  available: []
+  unknown: ["No TEXT property for Tab title"]
+variants:
+  observed_combinations: ["State=Active", "State=Default", "State=Disabled"]
+  available_values: []
+  unknown: ["Hover, Focus, Press are not observed"]
+states: {observed: [Active, Default, Disabled], available: [], unknown: [Hover, Focus, Press]}
+layout:
+  node: {node: {id: "2461:651", name: Tab item, type: COMPONENT_SET}, position: {x: 216, y: 32, absolute_x: null, absolute_y: null, unit: px}, layout_mode: null, layout_wrap: null, layout_positioning: null, sizing: {horizontal: null, vertical: null, primary_axis_mode: null, counter_axis_mode: null}, dimensions: {width: {resolved_value: 165, unit: px, availability: OBSERVED, evidence_refs: [E001]}, height: {resolved_value: 255, unit: px, availability: OBSERVED, evidence_refs: [E001]}}, spacing: {gap: null, row_gap: null, column_gap: null}, padding: {top: null, right: null, bottom: null, left: null}, alignment: {primary_axis: null, counter_axis: null, self: null}, constraints: {horizontal: null, vertical: null}, overflow: null, clips_content: false, strokes_included_in_layout: null, grow: null, grids: [], evidence_refs: [E001]}
+  children: []
+  relationships: []
+visual:
+  node: {node: {id: "2461:651", name: Tab item, type: COMPONENT_SET}, fills: [], backgrounds: [], strokes: [], stroke_width: {resolved_value: null, unit: px, availability: UNKNOWN, evidence_refs: []}, stroke_widths: {top: null, right: null, bottom: null, left: null}, stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: []}, corner_radius: null, corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E001]}, blend_mode: {resolved_value: PASS_THROUGH, unit: null, availability: OBSERVED, evidence_refs: [E001]}, effects: [], shadows: [], blur: [], clips_content: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, is_mask: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, evidence_refs: [E001]}
+  descendants: []
+  icons: []
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "2461:661", name: Tab title}, characters: Tab title, range: {start: 0, end: 9}, font_family: Manrope, font_style: Bold, font_weight: 700, font_size: 14, line_height: "160%", letter_spacing: "-2%", paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: null, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160891"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E004]}
+    - {node: {id: "2461:657", name: Tab title}, characters: Tab title, range: {start: 0, end: 9}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: "160%", letter_spacing: "-2%", paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: null, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160888"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E004]}
+    - {node: {id: "2461:653", name: Tab title}, characters: Tab title, range: {start: 0, end: 9}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: "160%", letter_spacing: "-2%", paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: null, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160888"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E004]}
+tokens:
+  summary: {total: 21, local: 15, remote: 6}
+  categories: {Color: ["VariableID:2849:196147", "VariableID:2849:196119", "VariableID:2849:196145", "VariableID:2888:26808", "VariableID:2849:196123", "VariableID:2849:196138", "VariableID:2849:196116", "VariableID:3069:15806", "VariableID:2849:196142"], Other: ["VariableID:a86e2eb40e3fdbf069ab77e333ba31275ec9a5ce/5164:2", "VariableID:35a43b7a71088022e22871112284f28c0e40bc18/5164:3", "VariableID:562:4", "VariableID:d10c991533398ce48a0a84cc9e51436af4b89399/4495:2", "VariableID:4c63ba9d926fc9565b49d80a29e5f9c346f02bbe/5165:706", "VariableID:2845:160888", "VariableID:2845:160887", "VariableID:1098:28491", "VariableID:562:10", "VariableID:c3b5a3b53e7cb477f0043af3d678d534ea99dcf4/4317:272", "VariableID:0caa4b020638062b7107a63deb45ff0893dd23c9/4331:1211", "VariableID:2845:160891"]}
+  source: variable_dependencies
+content: {example_content: {observed_strings: [Tab title, "1"]}, component_rules: [], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "No reactions on the three variants.", rules: []}
+semantic_contract: {explicit_descriptions: ["Page note describes navigation among sections without reloading."], purpose: {status: REQUIRES_PRODUCT_DEFINITION}, usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}}
+accessibility: {status: REQUIRES_DEFINITION, observed: ["Visible text, dot and state-specific colors"], undefined: ["Tab role, accessible name, selected state, focus and keyboard behavior"]}
+external_dependencies:
+  - {kind: COMPONENT, id: "4334:1117", key: ba5343589d88e1f18b0ed731cebcb3ec41138ebb, name: AddressBook, remote: true, collection: null, component_set: {id: null, key: null, name: AddressBook}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: PARTIALLY_RESOLVED, evidence: [E005], missing_fields: ["Full remote component definition and library provenance"], reason: "Active identity and visible geometry only."}}
+unresolved: []
+implementation_notes: ["Reuse a local numeric Dot in the destination; preserve icon instances and semantic scopes."]
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:2461:651", value: "COMPONENT_SET Tab item, three variants", note: null}
+    - {id: E003, source: "component:2461:652|2461:656|2461:660", value: "38px height; HORIZONTAL; gap 8; padding 8/12; radius 8", note: null}
+    - {id: E004, source: "descendants:2461:651", value: "21 used variables, color and typography bindings", note: null}
+    - {id: E005, source: "instances:2461:651", value: "AddressBook remote and Dot local active mains", note: null}
+    - {id: E006, source: "screenshot:2461:634", value: "Active, Default and Disabled visual context", note: null}
+  derived:
+    - {id: E002, source: "traversal:2461:651", value: "25 nodes, three invisible, nine instances, two unique mains", note: null}
+  requires_definition: ["Web interaction, accessibility semantics and real content"]
+  confidence: {level: HIGH, reason: "Complete source traversal and active dependencies; product behavior not defined."}

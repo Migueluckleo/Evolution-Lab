@@ -1,0 +1,151 @@
+{
+  "nodes": 4056,
+  "edges": 8830,
+  "communities": 335,
+  "gods": [
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variable_valuesbymode",
+      "label": "valuesByMode",
+      "degree": 30
+    },
+    {
+      "id": "drafts_contracts_filter_chip_contract_filter_chip",
+      "label": "Filter Chip",
+      "degree": 25
+    },
+    {
+      "id": "drafts_contracts_button_contract_contrato_candidato_button",
+      "label": "Contrato candidato: Button",
+      "degree": 25
+    },
+    {
+      "id": "specs_components_button_contract_contrato_aprobado_button",
+      "label": "Contrato aprobado: Button",
+      "degree": 25
+    },
+    {
+      "id": "sources_figma_snapshots_modal_v0_1_0_source_variables",
+      "label": "variables",
+      "degree": 24
+    },
+    {
+      "id": "drafts_contracts_icon_button_contract_v0_1_0_icon_button_contrato_de_reconstrucción_0_1_0",
+      "label": "Icon Button · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_metric_card_contract_v0_1_0_metric_cards_contrato_de_reconstrucción_0_1_0",
+      "label": "Metric Cards · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_checkbox_contract_v0_1_0_checkbox_contrato_de_reconstrucción_0_1_0",
+      "label": "Checkbox · contrato de reconstrucción 0.1.0",
+      "degree": 23
+    },
+    {
+      "id": "drafts_contracts_filter_chip_contract_v0_2_0_filter_chip_candidato_0_2_0_para_figma",
+      "label": "Filter Chip · candidato 0.2.0 para Figma",
+      "degree": 23
+    },
+    {
+      "id": "specs_components_filter_chip_contract_v0_2_0_filter_chip_contrato_aprobado_0_2_0_para_figma",
+      "label": "Filter Chip · contrato aprobado 0.2.0 para Figma",
+      "degree": 23
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Header y Slot construidos: gates de descubrimiento históricos, no tareas activas",
+      "target": "Header: gates previos satisfechos y contrato promovido a specs",
+      "source_files": [
+        "drafts/reports/header.discovery.v0.1.0.md",
+        "qa/contracts/header.v0.1.0.review.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "FILTER-CHIP-001 enmienda semántica 0.2.1",
+      "target": "SRC-TOKENS-INV-001 inventario canónico",
+      "source_files": [
+        "specs/components/filter-chip.semantic.amendment.v0.2.1.md",
+        "registry/sources.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Header release gradient and caret semantic roles",
+      "target": "Sidebar brand container and passive BETA gradient roles",
+      "source_files": [
+        "specs/foundations.header-roles.amendment.v0.1.0.md",
+        "specs/foundations.sidebar-roles.amendment.v0.1.0.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Empty states: local Button bindings without modifying shared mains",
+      "target": "Modal localizes inherited Button consumer bindings, not mains",
+      "source_files": [
+        "specs/empty-states.contract.v0.1.0.md",
+        "specs/modal.contract.v0.1.0.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Traceability amendment QA 0.1.2",
+      "target": "Enmienda 0.1.2 · reutilizar primitiva y tokenizar semánticamente",
+      "source_files": [
+        "qa/contracts/migration-token-traceability.amendment.v0.1.2.review.md",
+        "specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.2.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Environment and Tools Protocol` connect `03 Contract Synthesis` to `Graph Operations`, `Query`, `Documentation Sources`?",
+      "why": "High betweenness centrality (0.033) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Graphify` connect `Query` to `03 Contract Synthesis`?",
+      "why": "High betweenness centrality (0.033) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Modal · PASS visual delegado`, `Search0.1.1 · correspondencia documental PASS, solo lectura`, `Scrollbar modelo SOURCE_INSPECTED` to the rest of the system?",
+      "why": "118 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Primitivas y aliases` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.021900826446280993 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Modal` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07915893630179345 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Filter Chip` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05028305028305028 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Composition Slots` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05754527162977867 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

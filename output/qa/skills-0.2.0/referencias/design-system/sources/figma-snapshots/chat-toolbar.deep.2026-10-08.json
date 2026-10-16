@@ -1,0 +1,6495 @@
+[
+  {
+    "id": "20355:72872",
+    "parent": "20355:72762",
+    "name": "Organism / Anticipa / Chat / Toolbar",
+    "type": "COMPONENT_SET",
+    "visible": true,
+    "w": 401,
+    "h": 823,
+    "bindings": {},
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.5921568870544434,
+          "g": 0.27843138575553894,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ]
+  },
+  {
+    "id": "20355:72873",
+    "parent": "20355:72872",
+    "name": "Expanded=false",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 79,
+    "h": 791,
+    "bindings": {
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+      },
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75162"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8980392217636108,
+          "g": 0.9058823585510254,
+          "b": 0.9215686321258545
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75162"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20355:72874",
+    "parent": "20355:72873",
+    "name": "toolbar",
+    "type": "FRAME",
+    "visible": true,
+    "w": 47,
+    "h": 32,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72875",
+    "parent": "20355:72874",
+    "name": "icon-button",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 32,
+    "h": 32,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198200"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.7798227071762085,
+          "g": 0.812849223613739,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198200"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72875;1430:18858",
+    "parent": "20355:72875",
+    "name": "Sidebar",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 16,
+    "h": 16,
+    "bindings": {
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12"
+      }
+    },
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72875;1430:18858;8899:33439",
+    "parent": "I20355:72875;1430:18858",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 12.75,
+    "h": 10.75,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:d54da22e7e50c1893e114ea6cd0d90d2d2769a04/3639:915"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d54da22e7e50c1893e114ea6cd0d90d2d2769a04/3639:915"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72875;1430:18859",
+    "parent": "20355:72875",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 8,
+    "h": 8,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6529b09a82c73a4ddc0033e45730ffe49d15c109/3639:813"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6529b09a82c73a4ddc0033e45730ffe49d15c109/3639:813"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "strokeTopWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeBottomWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeLeftWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeRightWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:fa5c6286ab4314e98428f50ac21345d18859eab0/8917:5"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8313725590705872,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+          }
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fa5c6286ab4314e98428f50ac21345d18859eab0/8917:5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20355:72876",
+    "parent": "20355:72873",
+    "name": "container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 47,
+    "h": 695,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72877",
+    "parent": "20355:72876",
+    "name": "tools and actions",
+    "type": "FRAME",
+    "visible": true,
+    "w": 47,
+    "h": 620,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72881",
+    "parent": "20355:72872",
+    "name": "Expanded=true",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 264,
+    "h": 791,
+    "bindings": {
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:078efa311580f51425cc2454d702721e2acad78f/5401:36"
+      },
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75162"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8980392217636108,
+          "g": 0.9058823585510254,
+          "b": 0.9215686321258545
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:75162"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20355:72882",
+    "parent": "20355:72881",
+    "name": "header",
+    "type": "SLOT",
+    "visible": true,
+    "w": 232,
+    "h": 32,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72883",
+    "parent": "20355:72882",
+    "name": "toolbar",
+    "type": "FRAME",
+    "visible": true,
+    "w": 232,
+    "h": 32,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72884",
+    "parent": "20355:72883",
+    "name": "contables",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 75,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211091",
+    "parent": "20355:72884",
+    "name": "Group 44",
+    "type": "GROUP",
+    "visible": true,
+    "w": 74.36959838867188,
+    "h": 23.36908531188965,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211092",
+    "parent": "I20355:72884;2849:211091",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 41.837371826171875,
+    "h": 15.993114471435547,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211093",
+    "parent": "I20355:72884;2849:211092",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 30.864700317382812,
+    "h": 4.7307939529418945,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211094",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 1.2110726833343506,
+    "h": 1.2050786018371582,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211095",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 1.6799346208572388,
+    "h": 3.1022164821624756,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211096",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.337368965148926,
+    "h": 4.317624092102051,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211097",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 3.892733573913574,
+    "h": 4.233269214630127,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211098",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 3.45155930519104,
+    "h": 4.2315473556518555,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211099",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.622837543487549,
+    "h": 4.234990119934082,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211100",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.013842582702637,
+    "h": 4.2315473556518555,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211101",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.3356451988220215,
+    "h": 4.317624568939209,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211102",
+    "parent": "I20355:72884;2849:211093",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.020414352416992,
+    "h": 4.316373825073242,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0.3529411852359772,
+          "b": 0.6980392336845398
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211103",
+    "parent": "I20355:72884;2849:211092",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 41.837371826171875,
+    "h": 10.191520690917969,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211104",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 6.897925853729248,
+    "h": 7.929416179656982,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211105",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.814876556396484,
+    "h": 6.4574995040893555,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211106",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 3.8356423377990723,
+    "h": 8.0757474899292,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211107",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 1.8442912101745605,
+    "h": 8.495803833007812,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211108",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.939444065093994,
+    "h": 6.569400310516357,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211109",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 1.842559576034546,
+    "h": 8.495803833007812,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211110",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.906571865081787,
+    "h": 8.154938697814941,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211111",
+    "parent": "I20355:72884;2849:211103",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.906571865081787,
+    "h": 6.571120738983154,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.35686275362968445,
+          "g": 0.35686275362968445,
+          "b": 0.35686275362968445
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211112",
+    "parent": "I20355:72884;2849:211091",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 25.263872146606445,
+    "h": 23.36908531188965,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211113",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 9.929962158203125,
+    "h": 10.784623146057129,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211114",
+    "parent": "I20355:72884;2849:211113",
+    "name": "clippath",
+    "type": "GROUP",
+    "visible": true,
+    "w": 9.929962158203125,
+    "h": 10.784623146057129,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211115",
+    "parent": "I20355:72884;2849:211114",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 9.929962158203125,
+    "h": 10.784623146057129,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211116",
+    "parent": "I20355:72884;2849:211113",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211117",
+    "parent": "I20355:72884;2849:211116",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211118",
+    "parent": "I20355:72884;2849:211117",
+    "name": "clippath-1",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211119",
+    "parent": "I20355:72884;2849:211118",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211120",
+    "parent": "I20355:72884;2849:211117",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211121",
+    "parent": "I20355:72884;2849:211120",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211122",
+    "parent": "I20355:72884;2849:211121",
+    "name": "clippath-2",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211123",
+    "parent": "I20355:72884;2849:211122",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 11.195501327514648,
+    "h": 12.04389762878418,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211124",
+    "parent": "I20355:72884;2849:211121",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 11.29411792755127,
+    "h": 12.064558029174805,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211125",
+    "parent": "I20355:72884;2849:211124",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "visible": true,
+    "w": 11.29411792755127,
+    "h": 12.064558029174805,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "CROP",
+        "scalingFactor": 0.5,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "bfc04622193fa40c6521e64f2b2c12df1e88163a"
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211126",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 9.810474395751953,
+    "h": 7.751157760620117,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0.2705882489681244,
+              "g": 0.5215686559677124,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0,
+              "g": 0.12941177189350128,
+              "b": 0.9215686321258545,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            1.024816632270813,
+            0.03510112687945366,
+            -0.02469678968191147
+          ],
+          [
+            -0.044206853955984116,
+            0.8137248754501343,
+            0.12039044499397278
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211127",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.235294342041016,
+    "h": 16.154937744140625,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0,
+              "g": 0.843137264251709,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0,
+              "g": 0.4627451002597809,
+              "b": 1,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            0.9998934268951416,
+            0,
+            0
+          ],
+          [
+            0,
+            0.9998934268951416,
+            0.00005327650433173403
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211128",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 12.818339347839355,
+    "h": 14.256077766418457,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211129",
+    "parent": "I20355:72884;2849:211128",
+    "name": "clippath-3",
+    "type": "GROUP",
+    "visible": true,
+    "w": 12.818339347839355,
+    "h": 14.256077766418457,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211130",
+    "parent": "I20355:72884;2849:211129",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 12.818339347839355,
+    "h": 14.256077766418457,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211131",
+    "parent": "I20355:72884;2849:211128",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211132",
+    "parent": "I20355:72884;2849:211131",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211133",
+    "parent": "I20355:72884;2849:211132",
+    "name": "clippath-4",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211134",
+    "parent": "I20355:72884;2849:211133",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211135",
+    "parent": "I20355:72884;2849:211132",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211136",
+    "parent": "I20355:72884;2849:211135",
+    "name": "Clip path group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211137",
+    "parent": "I20355:72884;2849:211136",
+    "name": "clippath-5",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211138",
+    "parent": "I20355:72884;2849:211137",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 14.548443794250488,
+    "h": 15.977619171142578,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211139",
+    "parent": "I20355:72884;2849:211136",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 14.615917205810547,
+    "h": 16.11362075805664,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211140",
+    "parent": "I20355:72884;2849:211139",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "visible": true,
+    "w": 14.615917205810547,
+    "h": 16.11362075805664,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "CROP",
+        "scalingFactor": 0.5,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a287230f66915a871b65508b17edea3be873db97"
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211141",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Group",
+    "type": "GROUP",
+    "visible": true,
+    "w": 13.197232246398926,
+    "h": 13.131914138793945,
+    "bindings": {}
+  },
+  {
+    "id": "I20355:72884;2849:211142",
+    "parent": "I20355:72884;2849:211141",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 13.197232246398926,
+    "h": 13.131914138793945,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0,
+              "g": 0.4627451002597809,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0,
+              "g": 0.843137264251709,
+              "b": 1,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            -0.7071067690849304,
+            -0.7071067690849304,
+            1.2076900005340576
+          ],
+          [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.4996127784252167
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211143",
+    "parent": "I20355:72884;2849:211141",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 12.01384162902832,
+    "h": 11.954379081726074,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0,
+              "g": 0.4627451002597809,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0,
+              "g": 0.843137264251709,
+              "b": 1,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            1,
+            0,
+            -1.7763568394002505e-15
+          ],
+          [
+            0,
+            1,
+            -4.440892098500626e-16
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211144",
+    "parent": "I20355:72884;2849:211141",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 6.723183631896973,
+    "h": 7.42328405380249,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 0.699999988079071
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            1.4070351123809814,
+            -0.303924560546875,
+            0.15495972335338593
+          ],
+          [
+            0.2738986015319824,
+            1.561280369758606,
+            -0.47171396017074585
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72884;2849:211145",
+    "parent": "I20355:72884;2849:211112",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 6.166090488433838,
+    "h": 6.135571002960205,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0.2705882489681244,
+              "g": 0.5215686559677124,
+              "b": 1,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0,
+              "g": 0.12941177189350128,
+              "b": 0.9215686321258545,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            0.999719500541687,
+            0,
+            0.0002805049007292837
+          ],
+          [
+            0,
+            0.999719500541687,
+            0.00014025245036464185
+          ]
+        ]
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72885",
+    "parent": "20355:72883",
+    "name": "icon-button",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 32,
+    "h": 32,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198200"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.7798227071762085,
+          "g": 0.812849223613739,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198200"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72885;1430:18858",
+    "parent": "20355:72885",
+    "name": "Sidebar",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 16,
+    "h": 16,
+    "bindings": {
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12"
+      }
+    },
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72885;1430:18858;8899:33439",
+    "parent": "I20355:72885;1430:18858",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 12.75,
+    "h": 10.75,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:d54da22e7e50c1893e114ea6cd0d90d2d2769a04/3639:915"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:d54da22e7e50c1893e114ea6cd0d90d2d2769a04/3639:915"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72885;1430:18859",
+    "parent": "20355:72885",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 8,
+    "h": 8,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849"
+      },
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6529b09a82c73a4ddc0033e45730ffe49d15c109/3639:813"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6529b09a82c73a4ddc0033e45730ffe49d15c109/3639:813"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:07f844cfd865a18cfad54385444f42b10f605123/3639:804"
+      },
+      "strokeTopWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeBottomWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeLeftWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "strokeRightWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:09bf0f399feb2dd1331a55f613f3fec11642c615/3639:793"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:fa5c6286ab4314e98428f50ac21345d18859eab0/8917:5"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.8313725590705872,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:9b1e68d1f4dd4f9560cbe322415f543969f12fdf/6075:39"
+          }
+        }
+      }
+    ],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:fa5c6286ab4314e98428f50ac21345d18859eab0/8917:5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20355:72886",
+    "parent": "20355:72881",
+    "name": "container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 232,
+    "h": 519,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72887",
+    "parent": "20355:72886",
+    "name": "tools and actions",
+    "type": "SLOT",
+    "visible": true,
+    "w": 232,
+    "h": 152,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72888",
+    "parent": "20355:72887",
+    "name": "Atom / Anticipa /  Chat / Options and Tools",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72832",
+    "parent": "20355:72888",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72833",
+    "parent": "I20355:72888;20355:72832",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72833;8899:59887",
+    "parent": "I20355:72888;20355:72833",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72834",
+    "parent": "I20355:72888;20355:72832",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 172,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72888;20355:72835",
+    "parent": "20355:72888",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72835;8899:79551",
+    "parent": "I20355:72888;20355:72835",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72836",
+    "parent": "20355:72888",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72837",
+    "parent": "I20355:72888;20355:72836",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72888;20355:72837;8899:5104",
+    "parent": "I20355:72888;20355:72837",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72889",
+    "parent": "20355:72887",
+    "name": "Atom / Anticipa /  Chat / Options and Tools",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72832",
+    "parent": "20355:72889",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72833",
+    "parent": "I20355:72889;20355:72832",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72833;8899:59887",
+    "parent": "I20355:72889;20355:72833",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72834",
+    "parent": "I20355:72889;20355:72832",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 172,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72889;20355:72835",
+    "parent": "20355:72889",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72835;8899:79551",
+    "parent": "I20355:72889;20355:72835",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72836",
+    "parent": "20355:72889",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72837",
+    "parent": "I20355:72889;20355:72836",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72889;20355:72837;8899:5104",
+    "parent": "I20355:72889;20355:72837",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72890",
+    "parent": "20355:72887",
+    "name": "Atom / Anticipa /  Chat / Options and Tools",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72832",
+    "parent": "20355:72890",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72833",
+    "parent": "I20355:72890;20355:72832",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72833;8899:59887",
+    "parent": "I20355:72890;20355:72833",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72834",
+    "parent": "I20355:72890;20355:72832",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 172,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72890;20355:72835",
+    "parent": "20355:72890",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72835;8899:79551",
+    "parent": "I20355:72890;20355:72835",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72836",
+    "parent": "20355:72890",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72837",
+    "parent": "I20355:72890;20355:72836",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72890;20355:72837;8899:5104",
+    "parent": "I20355:72890;20355:72837",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72891",
+    "parent": "20355:72886",
+    "name": "indicadores",
+    "type": "SLOT",
+    "visible": false,
+    "w": 232,
+    "h": 180,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72892",
+    "parent": "20355:72891",
+    "name": "title",
+    "type": "TEXT",
+    "visible": true,
+    "w": 232,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Indicadores",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72896",
+    "parent": "20355:72891",
+    "name": "Atom / Anticipa /  Chat / Options and Tools",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72832",
+    "parent": "20355:72896",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 120,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72833",
+    "parent": "I20355:72896;20355:72832",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72833;8899:59887",
+    "parent": "I20355:72896;20355:72833",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72834",
+    "parent": "I20355:72896;20355:72832",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 92,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72896;20355:72835",
+    "parent": "20355:72896",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72835;8899:79551",
+    "parent": "I20355:72896;20355:72835",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72836",
+    "parent": "20355:72896",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": true,
+    "w": 56,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72836;20355:72894",
+    "parent": "I20355:72896;20355:72836",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72836;20355:72894;8899:5104",
+    "parent": "I20355:72896;20355:72836;20355:72894",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:e026ff23a201fab5cbd75a51a22b260737aa285f/17022:31"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e026ff23a201fab5cbd75a51a22b260737aa285f/17022:31"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72836;20355:72895",
+    "parent": "I20355:72896;20355:72836",
+    "name": "DotsThreeVertical",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72896;20355:72836;20355:72895;8899:45595",
+    "parent": "I20355:72896;20355:72836;20355:72895",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 1.8750004768371582,
+    "h": 14.625,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:e026ff23a201fab5cbd75a51a22b260737aa285f/17022:31"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:e026ff23a201fab5cbd75a51a22b260737aa285f/17022:31"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72897",
+    "parent": "20355:72891",
+    "name": "Atom / Anticipa / Chat / ChatHistory",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72897;20355:72864",
+    "parent": "20355:72897",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 153,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72897;20355:72865",
+    "parent": "I20355:72897;20355:72864",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 153,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Personas físicas con IVA Retenido ",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72897;20355:72866",
+    "parent": "20355:72897",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72898",
+    "parent": "20355:72891",
+    "name": "Atom / Anticipa / Chat / ChatHistory",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72898;20355:72854",
+    "parent": "20355:72898",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 161,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72898;20355:72855",
+    "parent": "I20355:72898;20355:72854",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 161,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Reembolsos de gastos de viaje aprobados en abril",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72898;20355:72856",
+    "parent": "20355:72898",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72899",
+    "parent": "20355:72886",
+    "name": "chats",
+    "type": "SLOT",
+    "visible": true,
+    "w": 232,
+    "h": 132,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72900",
+    "parent": "20355:72899",
+    "name": "title",
+    "type": "TEXT",
+    "visible": true,
+    "w": 232,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Chats",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72901",
+    "parent": "20355:72899",
+    "name": "Atom / Anticipa / Chat / ChatHistory",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72901;20355:72864",
+    "parent": "20355:72901",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 153,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72901;20355:72865",
+    "parent": "I20355:72901;20355:72864",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 153,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Personas físicas con IVA Retenido ",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72901;20355:72866",
+    "parent": "20355:72901",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72902",
+    "parent": "20355:72899",
+    "name": "Atom / Anticipa / Chat / ChatHistory",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 232,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72902;20355:72854",
+    "parent": "20355:72902",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 161,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72902;20355:72855",
+    "parent": "I20355:72902;20355:72854",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 161,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Reembolsos de gastos de viaje aprobados en abril",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "I20355:72902;20355:72856",
+    "parent": "20355:72902",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72903",
+    "parent": "20355:72881",
+    "name": "plan usage",
+    "type": "FRAME",
+    "visible": true,
+    "w": 232,
+    "h": 144,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:18dde163e99fadfaea95b3b0bea1a2fc48f02e1c/6:1136"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:dde8b30961e391e9ddcac1ea7411da782b9b01ce/6:1275"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:c30fdfd4586518e0ec4151481df1803cb4aabf27/6:1422"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:83462"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15006:83462"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72904",
+    "parent": "20355:72903",
+    "name": "plan-branding",
+    "type": "FRAME",
+    "visible": true,
+    "w": 96,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72905",
+    "parent": "20355:72904",
+    "name": "MagicWand",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72905;8899:30676",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72905;8899:30677",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 0,
+    "h": 4.5,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30678",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.5,
+    "h": 0,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30679",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 0,
+    "h": 4.5,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30680",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 4.5,
+    "h": 0,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30681",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 0,
+    "h": 3,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30682",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 3,
+    "h": 0,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30683",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 3,
+    "h": 3,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "I20355:72905;8899:30684",
+    "parent": "20355:72905",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.970623016357422,
+    "h": 4.242186546325684,
+    "bindings": {
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "20355:72906",
+    "parent": "20355:72904",
+    "name": "Pro Plan",
+    "type": "TEXT",
+    "visible": true,
+    "w": 64,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75540"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Pro Plan",
+    "font": {
+      "family": "Manrope",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700
+      }
+    },
+    "size": 16,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:46b1f155edcad44b7cae6e4de1737147c3a7ef64,"
+  },
+  {
+    "id": "20355:72907",
+    "parent": "20355:72903",
+    "name": "usage-progress",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 36,
+    "bindings": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:ec3f252c5c280a3aabf8a521918952827f008067/6:989"
+      }
+    },
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72908",
+    "parent": "20355:72907",
+    "name": "title&Quantity",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72909",
+    "parent": "20355:72908",
+    "name": "title",
+    "type": "TEXT",
+    "visible": true,
+    "w": 52,
+    "h": 20,
+    "bindings": {
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.12156862765550613,
+          "g": 0.16078431904315948,
+          "b": 0.21568627655506134
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": [],
+    "text": "Uso de IA",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72910",
+    "parent": "20355:72908",
+    "name": "usage-quantity",
+    "type": "TEXT",
+    "visible": true,
+    "w": 41,
+    "h": 20,
+    "bindings": {
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.12156862765550613,
+          "g": 0.16078431904315948,
+          "b": 0.21568627655506134
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": [],
+    "text": "42 /150",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72911",
+    "parent": "20355:72907",
+    "name": "progress-bar",
+    "type": "FRAME",
+    "visible": true,
+    "w": 200,
+    "h": 8,
+    "bindings": {
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:69e2debfec6ad69e90d7fe8bc8dea7aee9d773f8/6:1430"
+      }
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9529411792755127,
+          "g": 0.95686274766922,
+          "b": 0.9647058844566345
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72912",
+    "parent": "20355:72911",
+    "name": "progression",
+    "type": "RECTANGLE",
+    "visible": true,
+    "w": 94,
+    "h": 8,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198366"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.015222340822219849,
+          "g": 0.15631619095802307,
+          "b": 0.9558480978012085
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198366"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72913",
+    "parent": "20355:72903",
+    "name": "usage-percentage",
+    "type": "TEXT",
+    "visible": true,
+    "w": 76,
+    "h": 20,
+    "bindings": {
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.12156862765550613,
+          "g": 0.16078431904315948,
+          "b": 0.21568627655506134
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": [],
+    "text": "28% utilizado",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72830",
+    "parent": "20355:72762",
+    "name": "Atom / Anticipa /  Chat / Options and Tools",
+    "type": "COMPONENT_SET",
+    "visible": true,
+    "w": 218,
+    "h": 184,
+    "bindings": {},
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.5921568870544434,
+          "g": 0.27843138575553894,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ]
+  },
+  {
+    "id": "20355:72831",
+    "parent": "20355:72830",
+    "name": "available=true, hover=false",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 186,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72832",
+    "parent": "20355:72831",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 154,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72833",
+    "parent": "20355:72832",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72833;8899:59887",
+    "parent": "20355:72833",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72834",
+    "parent": "20355:72832",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 126,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72835",
+    "parent": "20355:72831",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72835;8899:79551",
+    "parent": "20355:72835",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72836",
+    "parent": "20355:72831",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72837",
+    "parent": "20355:72836",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72837;8899:5104",
+    "parent": "20355:72837",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72838",
+    "parent": "20355:72830",
+    "name": "available=true, hover=true",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 186,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72839",
+    "parent": "20355:72838",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 154,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72840",
+    "parent": "20355:72839",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72840;8899:59887",
+    "parent": "20355:72840",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72841",
+    "parent": "20355:72839",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 126,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72842",
+    "parent": "20355:72838",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72842;8899:79551",
+    "parent": "20355:72842",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72843",
+    "parent": "20355:72838",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72844",
+    "parent": "20355:72843",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72844;8899:5104",
+    "parent": "20355:72844",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72845",
+    "parent": "20355:72830",
+    "name": "available=false, hover=false",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 186,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72846",
+    "parent": "20355:72845",
+    "name": "left container",
+    "type": "FRAME",
+    "visible": true,
+    "w": 154,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72847",
+    "parent": "20355:72846",
+    "name": "NotePencil",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72847;8899:59887",
+    "parent": "20355:72847",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 18.37450408935547,
+    "h": 18.37450408935547,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198235"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6117647290229797,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198235"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72848",
+    "parent": "20355:72846",
+    "name": "tool name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 126,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198235"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6117647290229797,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198235"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72849",
+    "parent": "20355:72845",
+    "name": "CaretDown",
+    "type": "INSTANCE",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72849;8899:79551",
+    "parent": "20355:72849",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 16.09693717956543,
+    "h": 8.610474586486816,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72850",
+    "parent": "20355:72845",
+    "name": "extra actions",
+    "type": "SLOT",
+    "visible": false,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72851",
+    "parent": "20355:72850",
+    "name": "Chats",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72851;8899:5104",
+    "parent": "20355:72851",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.125,
+    "h": 18.375003814697266,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15001:198235"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.6117647290229797,
+          "g": 0.6392157077789307,
+          "b": 0.686274528503418
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15001:198235"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72852",
+    "parent": "20355:72762",
+    "name": "Atom / Anticipa / Chat / ChatHistory",
+    "type": "COMPONENT_SET",
+    "visible": true,
+    "w": 290,
+    "h": 240,
+    "bindings": {},
+    "fills": [],
+    "strokes": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.5921568870544434,
+          "g": 0.27843138575553894,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ]
+  },
+  {
+    "id": "20355:72853",
+    "parent": "20355:72852",
+    "name": "hover=false, Selected=false",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 258,
+    "h": 40,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72854",
+    "parent": "20355:72853",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 187,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72855",
+    "parent": "20355:72854",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 187,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72856",
+    "parent": "20355:72853",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72857",
+    "parent": "20355:72852",
+    "name": "hover=true, Selected=false",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 258,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:3440032d1b72fda0082327f8fb8d1dab1bf7de20/5915:6"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72858",
+    "parent": "20355:72857",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 146,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72859",
+    "parent": "20355:72858",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 146,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15005:75097"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:15005:75097"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72860",
+    "parent": "20355:72857",
+    "name": "rightContainer",
+    "type": "FRAME",
+    "visible": true,
+    "w": 64,
+    "h": 24,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72861",
+    "parent": "20355:72860",
+    "name": "PushPin",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72861;8899:60567",
+    "parent": "20355:72861",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.12828826904297,
+    "h": 19.125564575195312,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72862",
+    "parent": "20355:72860",
+    "name": "DotsThree",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72862;8899:45308",
+    "parent": "20355:72862",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 14.625,
+    "h": 1.875,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72863",
+    "parent": "20355:72852",
+    "name": "hover=false, Selected=true",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 258,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72864",
+    "parent": "20355:72863",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 179,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72865",
+    "parent": "20355:72864",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 179,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72866",
+    "parent": "20355:72863",
+    "name": "Update time",
+    "type": "TEXT",
+    "visible": true,
+    "w": 31,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:17023:46898"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75544"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.45073992013931274,
+          "g": 0.45073992013931274,
+          "b": 0.45073992013931274
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:17023:46898"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "1 sem",
+    "font": {
+      "family": "Manrope",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    },
+    "size": 12,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:904cfae46709f28127a303f1c81569802fdb6087,"
+  },
+  {
+    "id": "20355:72867",
+    "parent": "20355:72852",
+    "name": "hover=true, Selected=true",
+    "type": "COMPONENT",
+    "visible": true,
+    "w": 258,
+    "h": 40,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:07227408205917b2a4a726aba85ecbab0eddf548/5915:7"
+          }
+        }
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72868",
+    "parent": "20355:72867",
+    "name": "text",
+    "type": "SLOT",
+    "visible": true,
+    "w": 146,
+    "h": 20,
+    "bindings": {},
+    "fills": [],
+    "strokes": []
+  },
+  {
+    "id": "20355:72869",
+    "parent": "20355:72868",
+    "name": "chat name",
+    "type": "TEXT",
+    "visible": true,
+    "w": 146,
+    "h": 20,
+    "bindings": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75178"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:15006:75542"
+        }
+      ]
+    },
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+          }
+        }
+      }
+    ],
+    "strokes": [],
+    "text": "Nuevo chat",
+    "font": {
+      "family": "Manrope",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400
+      }
+    },
+    "size": 14,
+    "line": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "tracking": {
+      "unit": "PERCENT",
+      "value": 0
+    },
+    "style": "S:96b3d3941169b2892202094e973f2a4778868f2c,"
+  },
+  {
+    "id": "20355:72870",
+    "parent": "20355:72867",
+    "name": "PushPin",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72870;8899:60567",
+    "parent": "20355:72870",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 19.12828826904297,
+    "h": 19.125564575195312,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "20355:72871",
+    "parent": "20355:72867",
+    "name": "DotsThree",
+    "type": "INSTANCE",
+    "visible": true,
+    "w": 24,
+    "h": 24,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  },
+  {
+    "id": "I20355:72871;8899:45308",
+    "parent": "20355:72871",
+    "name": "Vector",
+    "type": "VECTOR",
+    "visible": true,
+    "w": 14.625,
+    "h": 1.875,
+    "bindings": {},
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676
+        },
+        "boundVariables": {}
+      }
+    ],
+    "strokes": []
+  }
+]

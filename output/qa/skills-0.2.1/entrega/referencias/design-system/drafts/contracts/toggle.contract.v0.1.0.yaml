@@ -1,0 +1,123 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T18:00:00Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 41, inspected_nodes: 41, pending_nodes: 0, invisible_nodes_inspected: 16, truncated: false, limit: null}
+  mcp_limitations: [La captura se inspeccionó inline; no se conserva la URL efímera.]
+component:
+  id: "1230:23858"
+  key: 5dd1c16f84eb1e6803326c404c137e40ae28ca6b
+  name: toggled
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2468:10398", name: Group 13, type: GROUP}
+  page: {id: "1084:7229", name: "❖ Toggle"}
+  source: {file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1230:23858", url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1230-23858"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity: {position: {x: 255.984375, y: 57}, dimensions: {width: 680, height: 194}, visible: true, clips_content: true, opacity: 1, blend_mode: PASS_THROUGH}
+direct_children:
+  - {id: "1230:23874", name: "toggle=on, state=defualt", width: 40, height: 20}
+  - {id: "1230:23869", name: "toggle=on, state=hover", width: 40, height: 20}
+  - {id: "1230:23864", name: "toggle=on, state=focus", width: 40, height: 20}
+  - {id: "1230:23859", name: "toggle=on, state=disabled", width: 40, height: 20}
+  - {id: "1230:23894", name: "toggle=off, state=defualt", width: 40, height: 20}
+  - {id: "1230:23889", name: "toggle=off, state=hover", width: 40, height: 20}
+  - {id: "1230:23884", name: "toggle=off, state=focus", width: 40, height: 20}
+  - {id: "1230:23879", name: "toggle=off, state=disabled", width: 40, height: 20}
+anatomy:
+  functional_tree: [Toggle set, "Each variant: optional left label → 40×20 track containing thumb → optional right label"]
+  graphical_details_omitted: []
+dependency_inventory:
+  components: {total_instances: 0, total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+  variables: {total: 24, local: 24, remote: 0, unknown_locality: 0, resolved: 24, partially_resolved: 0, unresolved: 0}
+  styles: {total: 0, local: 0, remote: 0, unknown_locality: 0, resolved: 0, partially_resolved: 0, unresolved: 0}
+dependencies: []
+variable_dependencies:
+  - {id: "VariableID:2849:196104", name: color/background/default, used_by: ["node:1230:23877.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196113", name: color/background/disabled, used_by: ["node:1230:23886.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196106", name: color/background/muted, used_by: ["node:1230:23896.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196131", name: color/border/brand, used_by: ["node:1230:23876.strokes"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196128", name: color/border/default, used_by: ["node:1230:23891.strokes"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196137", name: color/border/disabled, used_by: ["node:1230:23886.strokes"], resolution: RESOLVED}
+  - {id: "VariableID:2992:2261", name: color/border/hover, used_by: ["node:1230:23871.strokes"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196130", name: color/border/strong, used_by: ["node:1230:23896.strokes"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196142", name: color/icon/on-brand, used_by: ["node:1230:23882.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2988:16", name: color/interactive/disabled/bg, used_by: ["node:1230:23861.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:197279", name: color/interactive/primary/default, used_by: ["node:1230:23876.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2988:9", name: color/interactive/primary/hover, used_by: ["node:1230:23871.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196119", name: color/text/disabled, used_by: ["node:1230:23860.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196116", name: color/text/primary, used_by: ["node:1230:23875.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2849:196118", name: color/text/tertiary, used_by: ["node:1230:23891.fills"], resolution: RESOLVED}
+  - {id: "VariableID:2845:160887", name: font/family/base, used_by: ["node:1230:23875.fontFamily"], resolution: RESOLVED}
+  - {id: "VariableID:2845:160895", name: font/size/lg, used_by: ["node:1230:23886.cornerRadius"], resolution: RESOLVED}
+  - {id: "VariableID:2845:160893", name: font/size/sm, used_by: ["node:1230:23875.fontSize"], resolution: RESOLVED}
+  - {id: "VariableID:2845:160888", name: font/weight/regular, used_by: ["node:1230:23875.fontStyle"], resolution: RESOLVED}
+  - {id: "VariableID:562:9", name: radius/full, used_by: ["node:1230:23876.cornerRadius"], resolution: RESOLVED}
+  - {id: "VariableID:562:15", name: spacing/3xl, used_by: ["node:1230:23858.paddingTop"], resolution: RESOLVED}
+  - {id: "VariableID:2810:21161", name: spacing/6xl, used_by: ["node:1230:23858.paddingLeft"], resolution: RESOLVED}
+  - {id: "VariableID:562:11", name: spacing/sm, used_by: ["node:1230:23874.itemSpacing"], resolution: RESOLVED}
+  - {id: "VariableID:559:7", name: stroke/xs, used_by: ["node:1230:23876.strokeTopWeight"], resolution: RESOLVED}
+style_dependencies: []
+properties:
+  definitions:
+    - {name: "text left#7375:36", type: TEXT, default: Field Label}
+    - {name: " text right#7375:45", type: TEXT, default: Field Label}
+    - {name: "show left field label#20125:0", type: BOOLEAN, default: false}
+    - {name: "show right field label#102635:0", type: BOOLEAN, default: false}
+    - {name: toggle, type: VARIANT, default: "on", values: ["on", "off"]}
+    - {name: state, type: VARIANT, default: defualt, values: [defualt, hover, focus, disabled]}
+  observed: ["on/defualt", "on/hover", "on/focus", "on/disabled", "off/defualt", "off/hover", "off/focus", "off/disabled"]
+  available: ["on", "off", defualt, hover, focus, disabled]
+  unknown: []
+variants: {observed_combinations: ["on/defualt", "on/hover", "on/focus", "on/disabled", "off/defualt", "off/hover", "off/focus", "off/disabled"], available_values: ["on", "off", defualt, hover, focus, disabled], unknown: []}
+states: {observed: [defualt, hover, focus, disabled], available: [defualt, hover, focus, disabled], unknown: [press]}
+layout:
+  node: {id: "1230:23858", dimensions: [680, 194], layout_mode: HORIZONTAL}
+  children: [{type: COMPONENT, count: 8, layout_mode: HORIZONTAL, sizing: [HUG, HUG], gap: 8, width: 40, height: 20}]
+  relationships: ["Each track: 40×20 FIXED; thumb: 16.666666×16.666666 at x=21.666666 when on, x=1.666666 when off, y=1.666666."]
+visual:
+  node: {fills: [], strokes: []}
+  descendants:
+    - {role: track, radius: "9999 except off/focus=20 via font/size/lg anomaly", stroke_px: 1, stroke_align: INSIDE, clips_content: true}
+    - {role: thumb, shape: ELLIPSE, dimensions: [16.666666, 16.666666]}
+  icons: []
+  effects: ["Six non-focus tracks have three literal INNER_SHADOW effects.", "Both focus tracks have two literal DROP_SHADOW rings; off/focus also has three INNER_SHADOW effects."]
+  color_matrix:
+    on_defualt: [color/interactive/primary/default, color/border/brand, color/background/default]
+    on_hover: [color/interactive/primary/hover, color/border/hover, color/background/default]
+    on_focus: [color/interactive/primary/default, color/border/brand, color/background/default]
+    on_disabled: [color/interactive/disabled/bg, color/border/disabled, color/background/muted]
+    off_defualt: [color/background/muted, color/border/strong, color/background/default]
+    off_hover: [color/text/tertiary, color/border/default, color/background/default]
+    off_focus: [color/background/disabled, color/border/disabled, color/background/default]
+    off_disabled: [color/background/disabled, color/border/disabled, color/icon/on-brand]
+typography:
+  styles: []
+  text_runs: [{count: 16, characters: Field Label, family: Manrope, style: Regular, size: 14, line_height_px: 15, letter_spacing_percent: 0, visible_by_default: false}]
+tokens: {summary: {total: 24, local: 24, remote: 0}, categories: {color: 15, typography: 4, radius: 1, spacing: 3, stroke: 1}, source: variable_dependencies}
+content: {example_content: {observed_strings: [Field Label]}, component_rules: [Two editable TEXT properties; both labels hidden by default.], truncation_and_wrapping: []}
+interactions: {status: UNDEFINED, reason: "No reactions on components or tracks.", rules: []}
+semantic_contract:
+  explicit_descriptions: ["Page cover: toggle activates/deactivates an option quickly in a binary state."]
+  purpose: {status: DEFINED}
+  usage_rules: {status: REQUIRES_PRODUCT_DEFINITION}
+accessibility: {status: REQUIRES_DEFINITION, observed: [Two optional label nodes, visible focus appearance], undefined: [keyboard, switch role, accessible name, target size, state announcement]}
+external_dependencies: []
+unresolved:
+  - {id: U001, category: SOURCE_ANOMALY, subject: state value, reason: "Source spells default as defualt; destination should normalize to default.", evidence_refs: [E002]}
+  - {id: U002, category: SOURCE_ANOMALY, subject: off-focus radius, reason: "Track radius binds font/size/lg=20; use radius/full in destination.", evidence_refs: [E003]}
+  - {id: U003, category: SEMANTIC_MAPPING, subject: off-focus colors, reason: "Disabled roles occur on a focusable visual state; destination maps to muted/strong roles with same primitive aliases.", evidence_refs: [E004]}
+  - {id: U004, category: MISSING_TOKEN_CATEGORY, subject: shadow geometry, reason: "JSON has no shadow/elevation category; preserve measured geometry and bind focus-ring color where possible.", evidence_refs: [E005]}
+implementation_notes: [Destination page name Toggles; use only approved local semantic variables; do not add a press variant or claim runtime switch behavior.]
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:1230:23858.children", value: "Eight variants, 41 total nodes, 16 hidden labels."}
+    - {id: E002, source: "node:1230:23858.componentPropertyDefinitions", value: "toggle on/off; state defualt/hover/focus/disabled; two TEXT and two BOOLEAN properties."}
+    - {id: E003, source: "node:1230:23886.boundVariables", value: "font/size/lg bound to all four track corner radii."}
+    - {id: E004, source: "node:1230:23886.boundVariables", value: "off/focus uses background/disabled and border/disabled."}
+    - {id: E005, source: "node:1230:23886.effects", value: "Two focus DROP_SHADOWs plus three INNER_SHADOWs without variable bindings."}
+  derived: [{id: D001, source: E001, value: "Complete 2×4 state matrix."}]
+  requires_definition: [{id: R001, source: "reactions=[]", value: "Product and keyboard behavior."}]
+  confidence: {level: HIGH, reason: "Complete 41/41 traversal and direct inspection of variants, labels, tracks, effects, tokens and reactions."}

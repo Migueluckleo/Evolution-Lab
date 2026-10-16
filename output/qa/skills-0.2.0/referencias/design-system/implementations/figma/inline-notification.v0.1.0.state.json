@@ -1,0 +1,81 @@
+{
+  "implementationId": "IMP-INLINE-NOTIFICATION-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Inline Notifications",
+    "pageId": "175:391",
+    "componentSetId": "175:432",
+    "documentationNodeIds": ["175:433", "175:434"]
+  },
+  "contract": {
+    "id": "INLINE-NOTIFICATION-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "bf41ae8b171d22f4e49bf4638e0db30ba9798f913db1835b80d11268e8f731de",
+    "sourceMdDigestSha256": "1b70a8af80696ef6ef1ab49d109a352ab680dae0aa9d1217624d2aa90c9447d2",
+    "sourceYamlDigestSha256": "75dc5a449c4292f4bb17344dd4bfe792c59aec663bee4f03695afdc876e550e3",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "warningIconContrastDataDigestSha256": "059a9af5ef58c8d4e800da8fe657c13bdd9c92cf96bc7461d4daca03909a4ac4",
+    "feedbackIconScopesDataDigestSha256": "455adef5111796d6e14f97fdf310e768f5ac6bdb9190491714335a0c520dab2e"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1241:55464",
+    "componentSetId": "2778:10287",
+    "componentSetKey": "55b0bfd8fb39f8b1d16eee72f95a1b44481062ec"
+  },
+  "variantIds": {
+    "Light": "175:392",
+    "Success": "175:400",
+    "Danger": "175:408",
+    "Warning": "175:416",
+    "Info": "175:424"
+  },
+  "propertyKeys": {
+    "Title": "Title#175:30",
+    "Description": "Description#175:31",
+    "Show title": "Show title#175:32",
+    "Show description": "Show description#175:33",
+    "Show icon": "Show icon#175:34",
+    "Show dismiss": "Show dismiss#175:35"
+  },
+  "importedIconMainIds": {
+    "Light": "175:123",
+    "Success": "175:191",
+    "Danger": "175:229",
+    "Warning": "175:272",
+    "Info": "175:315",
+    "Close": "175:354"
+  },
+  "constructionScript": "drafts/figma/inline-notification-build.v0.1.0.js",
+  "constructionScriptDigestSha256": "5bd7c8e4689c8489214b34fe98bbf7a5cdaa25875612a04099266d9aaeabec78",
+  "lastReadback": {
+    "variantCount": 5,
+    "componentPropertyCount": 7,
+    "phosphorInstances": 10,
+    "activeUniqueIconKeys": 6,
+    "editableTexts": 10,
+    "visibleSolidPaints": 25,
+    "visibleSolidPaintBindingsChecked": 25,
+    "hiddenIconWrapperFills": 10,
+    "semanticScopeIssues": 0,
+    "unboundVisibleSolidPaints": 0,
+    "layoutAndRadiusBindingsCheckedPerVariant": 9,
+    "columnGapBindingsChecked": 5,
+    "reactions": 0,
+    "minimumTextContrast": 6.29,
+    "minimumStatusIconContrast": 3.61,
+    "visualReview": "PASS: source and target set screenshots 650x990 inspected; same five color treatments and row spacing, no apparent clipping or overlaps",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "Default source title Tittle normalized to Título and example description rewritten in Spanish.",
+    "Blue-underlined apparent link with hyperlink=null removed from destination description.",
+    "Light and Close vectors use color/icon/primary instead of source color/text/primary.",
+    "Warning icon uses the previously amended amber/700 alias for contrast.",
+    "Base variant height is 108 instead of 104 to use font/line-height/md at 24 px; set catalog size remains 650x990."
+  ]
+}

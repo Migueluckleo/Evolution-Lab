@@ -1,0 +1,9 @@
+# QA-CHECKBOX-CONTRACT-001 · contrato de reconstrucción 0.1.0
+
+- **Resultado:** `PASS` documental para construcción delegada; auditoría humana `PENDING`.
+- **Cobertura:** 21 secciones y AC-CBX-001–007; matriz 3×4 igual a la fuente; estado Default normaliza Enabled sin agregar estados. [Contrato](../../drafts/contracts/checkbox.contract.v0.1.0.md), SHA-256 `bc189560b843aad787b5f17f38f51a60e4a2635955d111a176b9a5d81d2966bd`.
+- **Evidencia:** [MD de origen](../../drafts/contracts/checkbox.source.component-contract.md), SHA-256 `2bf391580a51709f1cb564c866ce1cec763870b962bdfd537a9261deb8c4207c`; [YAML](../../drafts/contracts/checkbox.source.component-contract.yaml), SHA-256 `c71f16b4fcd3830966e3feb877f83cd50809483f102e6a2e3ccc3b24933b369b`; inventario histórico de tokens `cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474`.
+- **Tokens:** nombres e IDs de fill, stroke, icon, text, font, spacing, radius y size comprobados en Figma. `radius/sm` local resuelve 4 px, `stroke/md` 2 px y `size/md` 12 px. Los dos roles de fill seleccionado ya se verificaron contra JSON y Figma; seis colores de foco usarán `EFFECT_COLOR`.
+- **Dependencias:** búsqueda del sistema del destino halló los sets Phosphor Check y Minus con las mismas keys del origen. La importación de las variantes principales aún se valida en fase de construcción; fallo de importación detiene solo esta familia.
+- **Diferencias explicadas:** contorno Unselected Default/Focus neutral 400→500 por contraste; fill seleccionado con rol background/control-selected; interlineado 18→20; helper local de uso único simplificado; estilo Focus compartido; sin nuevas primitivas ni tokens.
+- **Límites:** no se construyó todavía en Figma al emitir este QA. No se afirma comportamiento, accesibilidad web ni aprobación humana de este contrato.

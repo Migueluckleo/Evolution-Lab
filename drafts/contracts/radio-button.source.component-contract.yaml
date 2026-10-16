@@ -1,0 +1,505 @@
+schema_version: "0.1.0"
+generated_at: "2026-09-23T19:06:47Z"
+generator: {skill: figma-component-contract, skill_version: "0.1.0"}
+inspection:
+  status: COMPLETE
+  read_only: true
+  traversal: {discovered_nodes: 53, inspected_nodes: 53, pending_nodes: 0, invisible_nodes_inspected: 16, truncated: false, limit: null}
+  mcp_limitations: []
+component:
+  id: "1230:24283"
+  key: 92e794dad0b717afa2e923d7bf2db0b041e9f230
+  name: radio button
+  type: COMPONENT_SET
+  description: ""
+  parent: {id: "2468:9616", name: Group 13, type: GROUP}
+  page: {id: "1144:34653", name: "❖ Radio button  ✅"}
+  source: {url: "https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1230-24283", file_key: 9zs5RMR8LB5wHjW9Bd59BA, node_id: "1230:24283"}
+classification: {kind: component, reusable: true, composition: false, evidence_refs: [E001]}
+identity:
+  position: {x: 340, y: 57}
+  dimensions: {width: 678, height: 194}
+  visible: true
+  clips_content: true
+  opacity: 1
+  blend_mode: PASS_THROUGH
+direct_children:
+  - {id: "1230:24305", name: "radio=on, state=enabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24284", name: "radio=on, state=hover", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24291", name: "radio=on, state=focus", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24298", name: "radio=on, state=disabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24312", name: "radio=off, state=enabled", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24319", name: "radio=off, state=hover", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24326", name: "radio=off, state=focus", type: COMPONENT, width: 24, height: 24}
+  - {id: "1230:24333", name: "radio=off, state=disabled", type: COMPONENT, width: 24, height: 24}
+anatomy:
+  functional_tree:
+    - {role: variant, count: 8, children: [left_label_hidden, radio_indicator_instance, right_label_hidden], evidence_refs: [E002]}
+    - {role: indicator, size: [24, 24], circle_size: [18, 18], circle_offset: [3, 3], evidence_refs: [E003]}
+  graphical_details_omitted: ["Intermediate Content frame and On-state group; preserved in traversal count."]
+dependency_inventory:
+  components: {total_instances: 8, total: 2, local: 2, remote: 0, unknown_locality: 0, resolved: 2, partially_resolved: 0, unresolved: 0}
+  variables: {total: 12, local: 9, remote: 3, unknown_locality: 0, resolved: 12, partially_resolved: 0, unresolved: 0}
+  styles: {total: 1, local: 1, remote: 0, unknown_locality: 0, resolved: 1, partially_resolved: 0, unresolved: 0}
+dependencies:
+  - dependency_id: e7e03dc78344bdff6df2adac7aa643e9a131cc91
+    kind: COMPONENT
+    instance_ids: ["1232:301", "1232:306", "1232:311", "1232:316"]
+    instance_count: 4
+    main_component: {id: "1144:34814", key: e7e03dc78344bdff6df2adac7aa643e9a131cc91, name: "State=active"}
+    component_set: {id: "1144:34813", key: 9a7212da688ebc11ad48818760d8265d5ed0a019, name: radio}
+    locality: LOCAL
+    active_properties: [{name: State, value: active, availability: OBSERVED}]
+    property_definitions: [{name: State, type: VARIANT, default: default}]
+    variants: {observed: [active], available: [default, active, focus, hover], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: 0, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: ["Wrapper overrides circle stroke and focus effect by state."]
+    resolution: {status: RESOLVED, evidence: [E004], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/radio-indicator.source.component-contract.yaml"}
+  - dependency_id: 86581df5fac3d8ec945e4e055656830c93bcb4f7
+    kind: COMPONENT
+    instance_ids: ["1230:24504", "1230:24508", "1230:24512", "1230:24516"]
+    instance_count: 4
+    main_component: {id: "1144:34824", key: 86581df5fac3d8ec945e4e055656830c93bcb4f7, name: "State=default"}
+    component_set: {id: "1144:34813", key: 9a7212da688ebc11ad48818760d8265d5ed0a019, name: radio}
+    locality: LOCAL
+    active_properties: [{name: State, value: default, availability: OBSERVED}]
+    property_definitions: [{name: State, type: VARIANT, default: default}]
+    variants: {observed: [default], available: [default, active, focus, hover], unknown: []}
+    swaps: {active: [], preferred_values: [], preferred_candidate_count: 0, alternatives_deeply_resolved: false}
+    slots: []
+    overrides: ["Wrapper overrides circle stroke and focus effect by state."]
+    resolution: {status: RESOLVED, evidence: [E004], missing_fields: [], reason: null}
+    contract_ref: {status: NOT_GENERATED, suggested_path: "drafts/contracts/radio-indicator.source.component-contract.yaml"}
+variable_dependencies:
+  - {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/background/default, type: COLOR, locality: LOCAL, used_by: ["ellipse:*:fills.0.color"], resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}, evidence_refs: [E005]}
+  - {id: "VariableID:2849:196131", key: 8e0deb55fcbf5eca145c56fd706bcd7a229242fa, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.19607843, g: 0.33333334, b: 0.96862745, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/border/brand, type: COLOR, locality: LOCAL, used_by: ["ellipse:on-enabled:strokes.0.color", "ellipse:on-focus:strokes.0.color", "ellipse:off-focus:strokes.0.color"], resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}, evidence_refs: [E005]}
+  - {id: "VariableID:2992:2261", key: 4a7c61192dd056761491d6032333c5d1bac2ff8e, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/border/hover, type: COLOR, locality: LOCAL, used_by: ["ellipse:on-hover:strokes.0.color", "ellipse:off-hover:strokes.0.color"], resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}, evidence_refs: [E005]}
+  - {id: "VariableID:2849:196137", key: d449a52e452aa923944c9277345d99ab2ab607d5, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.88627452, g: 0.90980393, b: 0.94117647, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/border/disabled, type: COLOR, locality: LOCAL, used_by: ["ellipse:on-disabled:strokes.0.color", "ellipse:off-disabled:strokes.0.color"], resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}, evidence_refs: [E005]}
+  - {id: "VariableID:2849:196128", key: 6895a1ae8da99e8cd2d5a008d5d4bc9710695b39, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.58039218, g: 0.63921571, b: 0.72156864, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/border/default, type: COLOR, locality: LOCAL, used_by: ["ellipse:off-enabled:strokes.0.color"], resolution: {status: RESOLVED, evidence: [E005], missing_fields: [], reason: null}, evidence_refs: [E005]}
+  - {id: "VariableID:2849:196116", key: ca2ca2cc17d99357b05a0401d6eb230dfad804b5, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.05882353, g: 0.09019608, b: 0.16470589, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/text/primary, type: COLOR, locality: LOCAL, used_by: ["text:enabled-hover-focus:fills.0.color"], resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: null}, evidence_refs: [E006]}
+  - {id: "VariableID:2849:196119", key: 6170ec21a5527cbe995073a9a3a17dc633ac061d, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: {r: 0.58039218, g: 0.63921571, b: 0.72156864, a: 1}, resolved_mode: {id: "52:2", name: "Contable"}, name: color/text/disabled, type: COLOR, locality: LOCAL, used_by: ["text:disabled:fills.0.color"], resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: null}, evidence_refs: [E006]}
+  - {id: "VariableID:2845:160887", key: 5b6478e0ce1305efedeaf4a605843e3af57a32ca, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: Manrope, resolved_mode: {id: "52:2", name: "Contable"}, name: font/family/base, type: STRING, locality: LOCAL, used_by: ["text:*:fontFamily"], resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: null}, evidence_refs: [E006]}
+  - {id: "VariableID:2845:160893", key: 127a590c83af7e9167ebd4daaca4658d7e6ca288, collection: {id: "VariableCollectionId:52:726", key: 2b4ff33eb0a4c93737f24987de0779fbb064fb45, name: "semantic"}, resolved_value: 14, resolved_mode: {id: "52:2", name: "Contable"}, name: font/size/sm, type: FLOAT, locality: LOCAL, used_by: ["text:*:fontSize"], resolution: {status: RESOLVED, evidence: [E006], missing_fields: [], reason: null}, evidence_refs: [E006]}
+  - {id: "VariableID:4717fecb878f4b5a8e4a036d7eb6dc5da9fbd93f/63288:105", key: 4717fecb878f4b5a8e4a036d7eb6dc5da9fbd93f, collection: {id: "VariableCollectionId:9a6878d6121d218200151114f3626c32e66bc4bf/62072:26", key: 9a6878d6121d218200151114f3626c32e66bc4bf, name: "📐 Spacing + Sizing"}, resolved_value: 12, resolved_mode: {id: "29:3", name: "Mode 1"}, name: spacing/xl, type: FLOAT, locality: REMOTE, used_by: ["instance:*:itemSpacing"], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}, evidence_refs: [E007]}
+  - {id: "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497", key: 92a7241391f3fcf92e891a53ee94804185c39b4c, collection: {id: "VariableCollectionId:ada85fdb1262052d07535735d0f143c8dfee98f0/45:1", key: ada85fdb1262052d07535735d0f143c8dfee98f0, name: "Size"}, resolved_value: 2, resolved_mode: {id: "45:0", name: "Mode 1"}, name: radius/sm, type: FLOAT, locality: REMOTE, used_by: ["instance:*:cornerRadii"], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}, evidence_refs: [E007]}
+  - {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, collection: {id: "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201", key: 05ca11e40c0c84293ab3a0994630f61f0d156c22, name: "Size"}, resolved_value: 2, resolved_mode: {id: "319:3", name: "Mode 1"}, name: stroke/stroke-focus, type: FLOAT, locality: REMOTE, used_by: ["ellipse:off-*:strokeWeight"], resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}, evidence_refs: [E007]}
+style_dependencies:
+  - id: "S:db4f7e95726995e57ca781fbe41ec23bcab72a1e,"
+    key: db4f7e95726995e57ca781fbe41ec23bcab72a1e
+    name: focus/outset
+    type: EFFECT
+    locality: LOCAL
+    used_by: ["ellipse:on-focus:effectStyleId", "ellipse:off-focus:effectStyleId"]
+    resolution: {status: RESOLVED, evidence: [E008], missing_fields: [], reason: null}
+    evidence_refs: [E008]
+properties:
+  definitions:
+    - {name: radio, type: VARIANT, default: on, available: [on, off], evidence_refs: [E009]}
+    - {name: state, type: VARIANT, default: enabled, available: [enabled, hover, focus, disabled], evidence_refs: [E009]}
+    - {name: "show left field label#20125:0", type: BOOLEAN, default: false, evidence_refs: [E009]}
+    - {name: "show right field label#102635:0", type: BOOLEAN, default: false, evidence_refs: [E009]}
+  observed: ["Both label visibility references wired in all eight variants."]
+  available: []
+  unknown: ["No TEXT component property observed."]
+variants:
+  observed_combinations:
+    - {radio: on, state: enabled, id: "1230:24305"}
+    - {radio: on, state: hover, id: "1230:24284"}
+    - {radio: on, state: focus, id: "1230:24291"}
+    - {radio: on, state: disabled, id: "1230:24298"}
+    - {radio: off, state: enabled, id: "1230:24312"}
+    - {radio: off, state: hover, id: "1230:24319"}
+    - {radio: off, state: focus, id: "1230:24326"}
+    - {radio: off, state: disabled, id: "1230:24333"}
+  available_values: [{radio: [on, off]}, {state: [enabled, hover, focus, disabled]}]
+  unknown: []
+states:
+  observed: [enabled, hover, focus, disabled]
+  available: []
+  unknown: ["No behavioral transitions defined."]
+layout:
+  node:
+    node: {id: "1230:24283", name: radio button, type: COMPONENT_SET}
+    position: {x: 340, y: 57, absolute_x: null, absolute_y: null, unit: px}
+    layout_mode: NONE
+    layout_wrap: null
+    layout_positioning: null
+    sizing: {horizontal: FIXED, vertical: FIXED, primary_axis_mode: null, counter_axis_mode: null}
+    dimensions: {width: {resolved_value: 678, unit: px, availability: OBSERVED, evidence_refs: [E001]}, height: {resolved_value: 194, unit: px, availability: OBSERVED, evidence_refs: [E001]}, min_width: null, max_width: null, min_height: null, max_height: null}
+    spacing: {gap: null, row_gap: null, column_gap: null}
+    padding: {top: null, right: null, bottom: null, left: null}
+    alignment: {primary_axis: null, counter_axis: null, self: null}
+    constraints: {horizontal: null, vertical: null}
+    overflow: null
+    clips_content: true
+    strokes_included_in_layout: null
+    grow: null
+    grids: []
+    evidence_refs: [E001]
+  children:
+    - node: {id: "1230:24305", name: "radio=on, state=enabled", type: COMPONENT}
+      position: {x: 68, y: 34, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24284", name: "radio=on, state=hover", type: COMPONENT}
+      position: {x: 240, y: 34, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24291", name: "radio=on, state=focus", type: COMPONENT}
+      position: {x: 412, y: 34, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24298", name: "radio=on, state=disabled", type: COMPONENT}
+      position: {x: 584, y: 34, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24312", name: "radio=off, state=enabled", type: COMPONENT}
+      position: {x: 68, y: 131, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24319", name: "radio=off, state=hover", type: COMPONENT}
+      position: {x: 240, y: 131, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24326", name: "radio=off, state=focus", type: COMPONENT}
+      position: {x: 412, y: 131, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+    - node: {id: "1230:24333", name: "radio=off, state=disabled", type: COMPONENT}
+      position: {x: 584, y: 131, absolute_x: null, absolute_y: null, unit: px}
+      layout_mode: HORIZONTAL
+      layout_wrap: NO_WRAP
+      layout_positioning: DEFAULT
+      sizing: {horizontal: HUG, vertical: HUG, primary_axis_mode: AUTO, counter_axis_mode: AUTO}
+      dimensions: {width: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, height: {resolved_value: 24, unit: px, availability: OBSERVED, evidence_refs: [E002]}, min_width: null, max_width: null, min_height: null, max_height: null}
+      spacing: {gap: {resolved_value: 8, unit: px, availability: OBSERVED, evidence_refs: [E002]}, row_gap: null, column_gap: null}
+      padding: {top: 0, right: 0, bottom: 0, left: 0}
+      alignment: {primary_axis: null, counter_axis: null, self: null}
+      constraints: {horizontal: null, vertical: null}
+      overflow: null
+      clips_content: null
+      strokes_included_in_layout: null
+      grow: null
+      grids: []
+      evidence_refs: [E002]
+  relationships:
+    - {parent_id: "1230:24283", child_id: "1230:24305", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24284", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24291", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24298", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24312", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24319", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24326", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+    - {parent_id: "1230:24283", child_id: "1230:24333", relationship: variant, parent_layout_mode: NONE, child_layout_positioning: DEFAULT, child_sizing: {horizontal: HUG, vertical: HUG}, evidence_refs: [E002]}
+visual:
+  node: {node: {id: "1230:24283", name: radio button, type: COMPONENT_SET}, fills: [], backgrounds: [], strokes: [], stroke_width: {resolved_value: 0, unit: px, availability: OBSERVED, evidence_refs: [E001]}, stroke_widths: {top: null, right: null, bottom: null, left: null}, stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: []}, corner_radius: null, corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E001]}, blend_mode: {resolved_value: PASS_THROUGH, unit: null, availability: OBSERVED, evidence_refs: [E001]}, effects: [], shadows: [], blur: [], clips_content: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E001]}, is_mask: {resolved_value: false, unit: null, availability: OBSERVED, evidence_refs: [E001]}, mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}, evidence_refs: [E001]}
+  descendants:
+    - node: {id: "I1232:301;1144:34817", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196131", key: 8e0deb55fcbf5eca145c56fd706bcd7a229242fa, name: color/border/brand}, resolved_value: {r: 0.19607843, g: 0.33333334, b: 0.96862745, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {resolved_value: 5, unit: px, availability: OBSERVED, evidence_refs: [E005]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+    - node: {id: "I1232:306;1144:34817", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2992:2261", key: 4a7c61192dd056761491d6032333c5d1bac2ff8e, name: color/border/hover}, resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {resolved_value: 5, unit: px, availability: OBSERVED, evidence_refs: [E005]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+    - node: {id: "I1232:311;1144:34817", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196131", key: 8e0deb55fcbf5eca145c56fd706bcd7a229242fa, name: color/border/brand}, resolved_value: {r: 0.19607843, g: 0.33333334, b: 0.96862745, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {resolved_value: 5, unit: px, availability: OBSERVED, evidence_refs: [E005]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: [{type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 4, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}, {type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 2, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.97254902, g: 0.98039216, b: 0.98823529, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}]
+      shadows: [{type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 4, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}, {type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 2, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.97254902, g: 0.98039216, b: 0.98823529, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}]
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005, E008]
+    - node: {id: "I1232:316;1144:34817", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196137", key: d449a52e452aa923944c9277345d99ab2ab607d5, name: color/border/disabled}, resolved_value: {r: 0.88627452, g: 0.90980393, b: 0.94117647, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {resolved_value: 5, unit: px, availability: OBSERVED, evidence_refs: [E005]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+    - node: {id: "I1230:24504;1144:34826", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196128", key: 6895a1ae8da99e8cd2d5a008d5d4bc9710695b39, name: color/border/default}, resolved_value: {r: 0.58039218, g: 0.63921571, b: 0.72156864, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {token: {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, name: stroke/stroke-focus}, resolved_value: 2, unit: px, availability: OBSERVED, evidence_refs: [E007]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+    - node: {id: "I1230:24508;1144:34826", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2992:2261", key: 4a7c61192dd056761491d6032333c5d1bac2ff8e, name: color/border/hover}, resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {token: {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, name: stroke/stroke-focus}, resolved_value: 2, unit: px, availability: OBSERVED, evidence_refs: [E007]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+    - node: {id: "I1230:24512;1144:34826", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196131", key: 8e0deb55fcbf5eca145c56fd706bcd7a229242fa, name: color/border/brand}, resolved_value: {r: 0.19607843, g: 0.33333334, b: 0.96862745, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {token: {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, name: stroke/stroke-focus}, resolved_value: 2, unit: px, availability: OBSERVED, evidence_refs: [E007]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: [{type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 4, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}, {type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 2, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.97254902, g: 0.98039216, b: 0.98823529, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}]
+      shadows: [{type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 4, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.11372549, g: 0.12941177, b: 0.69019610, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}, {type: {resolved_value: DROP_SHADOW, unit: null, availability: OBSERVED, evidence_refs: [E008]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E008]}, radius: 0, spread: 2, offset: {x: 0, y: 0, unit: px}, color: {resolved_value: {r: 0.97254902, g: 0.98039216, b: 0.98823529, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E008]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E008]}, bound_variables: [], availability: OBSERVED, evidence_refs: [E008]}]
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005, E008]
+    - node: {id: "I1230:24516;1144:34826", name: radio, type: ELLIPSE}
+      fills: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196104", key: 4133fceadb3cde506fd63ae1fbb1bd0878fde9dc, name: color/background/default}, resolved_value: {r: 1, g: 1, b: 1, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      backgrounds: []
+      strokes: [{type: {resolved_value: SOLID, unit: null, availability: OBSERVED, evidence_refs: [E005]}, visible: {resolved_value: true, unit: null, availability: OBSERVED, evidence_refs: [E005]}, opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}, blend_mode: {resolved_value: NORMAL, unit: null, availability: OBSERVED, evidence_refs: [E005]}, color: {token: {id: "VariableID:2849:196137", key: d449a52e452aa923944c9277345d99ab2ab607d5, name: color/border/disabled}, resolved_value: {r: 0.88627452, g: 0.90980393, b: 0.94117647, a: 1}, unit: color, availability: OBSERVED, evidence_refs: [E005]}, gradient_stops: [], image_ref: null, scale_mode: null, transform: null, availability: OBSERVED, evidence_refs: [E005]}]
+      stroke_width: {token: {id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, name: stroke/stroke-focus}, resolved_value: 2, unit: px, availability: OBSERVED, evidence_refs: [E007]}
+      stroke_widths: {top: null, right: null, bottom: null, left: null}
+      stroke_alignment: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      dash_pattern: {resolved_value: [], unit: px, availability: UNKNOWN, evidence_refs: [E005]}
+      corner_radius: null
+      corner_radii: {top_left: null, top_right: null, bottom_right: null, bottom_left: null}
+      opacity: {resolved_value: 1, unit: ratio, availability: OBSERVED, evidence_refs: [E005]}
+      blend_mode: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: [E005]}
+      effects: []
+      shadows: []
+      blur: []
+      clips_content: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      is_mask: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      mask_type: {resolved_value: null, unit: null, availability: UNKNOWN, evidence_refs: []}
+      evidence_refs: [E005]
+  icons: []
+typography:
+  styles: []
+  text_runs:
+    - {node: {id: "1230:24306", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24307", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24285", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24286", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24292", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24293", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24299", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196119"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24300", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196119"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24313", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24314", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24320", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24321", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24327", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24328", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196116"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24334", name: "Label"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196119"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+    - {node: {id: "1230:24335", name: "Label right"}, characters: Field Label, range: {start: 0, end: 11}, font_family: Manrope, font_style: Regular, font_weight: 400, font_size: 14, line_height: {unit: PIXELS, value: 18}, letter_spacing: {unit: PERCENT, value: 0}, paragraph_spacing: null, paragraph_indent: null, text_align_horizontal: null, text_align_vertical: null, text_case: null, text_decoration: null, text_style: {id: null, key: null, name: null, locality: UNKNOWN}, auto_resize: WIDTH_AND_HEIGHT, truncation: null, max_lines: null, bound_variables: ["VariableID:2845:160887", "VariableID:2845:160893", "VariableID:2849:196119"], mixed_fields: [], styled_segments: [], hyperlinks: [], evidence_refs: [E006]}
+tokens:
+  summary: {total: 12, local: 9, remote: 3}
+  categories: {Color: [color/background/default, color/border/brand, color/border/hover, color/border/disabled, color/border/default, color/text/primary, color/text/disabled], Typography: [font/family/base, font/size/sm], Geometry: [spacing/xl, radius/sm, stroke/stroke-focus]}
+  source: variable_dependencies
+content:
+  example_content: {observed_strings: [Field Label]}
+  component_rules: []
+  truncation_and_wrapping: []
+interactions: {status: UNDEFINED, reason: "No reactions on the eight variants or active local mains.", rules: []}
+semantic_contract:
+  explicit_descriptions: ["Page note: mutually exclusive options; clear label recommended."]
+  purpose: {status: DEFINED, value: "Select one option from mutually exclusive choices.", evidence_refs: [E010]}
+  usage_rules: {status: DEFINED, value: "Page note recommends a clear label.", evidence_refs: [E010]}
+accessibility:
+  status: REQUIRES_DEFINITION
+  observed: ["Two hidden labels by default; visible focus-ring effect."]
+  undefined: [accessible_name, group_semantics, keyboard_behavior, focus_order, hit_target, WCAG_compliance]
+external_dependencies:
+  - {kind: VARIABLE, id: "VariableID:4717fecb878f4b5a8e4a036d7eb6dc5da9fbd93f/63288:105", key: 4717fecb878f4b5a8e4a036d7eb6dc5da9fbd93f, name: spacing/xl, remote: true, collection: "📐 Spacing + Sizing", component_set: {id: null, key: null, name: null}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {kind: VARIABLE, id: "VariableID:92a7241391f3fcf92e891a53ee94804185c39b4c/45:497", key: 92a7241391f3fcf92e891a53ee94804185c39b4c, name: radius/sm, remote: true, collection: Size, component_set: {id: null, key: null, name: null}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+  - {kind: VARIABLE, id: "VariableID:06a98ee346a24b7252c46757d35453bf61945838/4331:1213", key: 06a98ee346a24b7252c46757d35453bf61945838, name: stroke/stroke-focus, remote: true, collection: Size, component_set: {id: null, key: null, name: null}, library_name: NOT_EXPOSED_BY_FIGMA_MCP, source_file: NOT_EXPOSED_BY_FIGMA_MCP, source_url: NOT_EXPOSED_BY_FIGMA_MCP, project: NOT_EXPOSED_BY_FIGMA_MCP, organization: NOT_EXPOSED_BY_FIGMA_MCP, library_version: NOT_EXPOSED_BY_FIGMA_MCP, resolution: {status: RESOLVED, evidence: [E007], missing_fields: [], reason: null}}
+unresolved:
+  - {id: U001, category: PRODUCT_BEHAVIOR, subject: keyboard_and_group_semantics, reason: "Not defined by Figma appearance or reactions.", missing_fields: [keyboard_behavior, group_semantics], evidence_refs: [E011], impact: "Cannot assert web behavior or accessibility compliance."}
+  - {id: U002, category: COMPONENT_API, subject: editable_label_text, reason: "No TEXT component property exposed.", missing_fields: [text_property], evidence_refs: [E009], impact: "Destination API improvement requires explicit contract decision."}
+implementation_notes: ["Source evidence only; do not copy source IDs into target.", "On ring is 5 px literal, not a bound stroke token in source."]
+evidence:
+  figma_direct:
+    - {id: E001, source: "node:1230:24283", value: "COMPONENT_SET radio button, 678x194, 8 variants, no Description", note: null}
+    - {id: E002, source: "node:1230:24283.children", value: "Eight 24x24 variants, each with two hidden TEXT and one local INSTANCE", note: null}
+    - {id: E003, source: "instance:1232:301.descendants", value: "18x18 ELLIPSE at 3,3 in 24x24 indicator", note: null}
+    - {id: E004, source: "instance:1232:301.mainComponent", value: "Local radio set with active/default mains; four instances each", note: null}
+    - {id: E005, source: "ellipse:*.fills/strokes/boundVariables", value: "Background default and state-specific border roles", note: null}
+    - {id: E006, source: "text:*.fontName/fontSize/fills/boundVariables", value: "Manrope Regular 14/18, primary or disabled text", note: null}
+    - {id: E007, source: "instance:*.boundVariables", value: "Three remote geometry variables", note: null}
+    - {id: E008, source: "style:S:db4f7e95726995e57ca781fbe41ec23bcab72a1e", value: "focus/outset, two DROP_SHADOW effects", note: null}
+    - {id: E009, source: "node:1230:24283.componentPropertyDefinitions", value: "Two VARIANT and two BOOLEAN; no TEXT", note: null}
+    - {id: E010, source: "text:1227:37844.characters", value: "Mutually exclusive options and clear label", note: "Page text, not component Description."}
+    - {id: E011, source: "component:1230:24283.children.reactions", value: "Eight empty reaction lists", note: null}
+  derived:
+    - {id: D001, source: "E001-E003", value: "53 nodes traversed, 16 hidden labels", note: null}
+    - {id: D002, source: "E004-E008", value: "2 local main dependencies, 12 variable dependencies, 1 style", note: null}
+  requires_definition:
+    - {id: R001, source: "E009-E011", value: "Editable labels, behavior, accessibility", note: null}
+  confidence: {level: HIGH, reason: "Complete 53-node traversal and resolved used dependencies; product behavior remains undefined."}

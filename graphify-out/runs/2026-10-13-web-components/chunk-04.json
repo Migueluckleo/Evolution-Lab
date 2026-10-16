@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "label": "Pantalla de ejemplo Documentos compuesta con componentes CONTPAQi",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISUAL_READ_ONLY",
+      "approval_inferred": false,
+      "behavior_not_proven_by_screenshot": true
+    },
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_composicion_documentos",
+      "label": "Área de trabajo Documentos con encabezado, avatar ML y ruta Inicio > Documentos",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    },
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_metricas_muestra",
+      "label": "Tarjetas de datos de muestra: Documentos total 3 y Reportes disponibles 2",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    },
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_controles_documentos",
+      "label": "Buscador Buscar documentos, filtro Solo reportes y botón Nuevo documento",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    },
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_tabla_documentos",
+      "label": "Tabla Nombre, Tipo y Origen con Reporte de ventas, Factura de octubre y Resumen del periodo",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    },
+    {
+      "id": "qa_implementations_web_v0_1_0_screen_estado_local",
+      "label": "Texto visible: la información se conserva en memoria y se restablece al recargar",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "observation_kind": "VISION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "target": "qa_implementations_web_v0_1_0_screen_composicion_documentos",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "target": "qa_implementations_web_v0_1_0_screen_metricas_muestra",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "target": "qa_implementations_web_v0_1_0_screen_controles_documentos",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "target": "qa_implementations_web_v0_1_0_screen_tabla_documentos",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_implementations_web_v0_1_0_screen_captura_web",
+      "target": "qa_implementations_web_v0_1_0_screen_estado_local",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/web.v0.1.0.screen.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

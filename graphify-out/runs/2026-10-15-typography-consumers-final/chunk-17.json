@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_modal_sidebyside_narrow_screenshot",
+      "label": "Modal SideBySide narrow screenshot",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "image_size": [
+        1000,
+        760
+      ],
+      "description": "Wide modal centered over dimmed prototype, white content on left and lavender artwork on right; title, avatar, branded logo and return button are visible.",
+      "evidence_scope": "Static appearance only; no live Figma, bindings or interaction validation."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_sidebyside_modal_composition",
+      "label": "SideBySide modal composition",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Two adjacent regions: left white content stack, right abstract purple image; rounded outer dialog and lower white space."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_visible_content_stack",
+      "label": "Visible content stack",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "title_text": "Detalle portable",
+      "description": "Left region vertically arranges title, circular photo avatar with green presence dot, CONTPAQi Contabilidad logo and blue action button."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_return_action_affordance",
+      "label": "Return action affordance",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "text": "Volver al medio",
+      "description": "Blue rounded button with white text below logo; no click behavior inferred."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_focused_close_affordance",
+      "label": "Focused close affordance",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "X in upper-right with visible blue rectangular outline; appearance is consistent with focus, but focus state is inferred from outline only."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_official_brand_appearance",
+      "label": "Official brand appearance",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "text": "CONTPAQi Contabilidad",
+      "description": "Blue icon and blue/gray wordmark as a visible asset; screenshot alone does not prove canonical asset hashes."
+    },
+    {
+      "id": "qa_skills_release_0_2_1_demo__side__1000x760_dimmed_background_retained",
+      "label": "Dimmed background retained",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Heading, required input, opening action and feedback remain partly visible behind overlay."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_modal_sidebyside_narrow_screenshot",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_sidebyside_modal_composition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_sidebyside_modal_composition",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_visible_content_stack",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_visible_content_stack",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_return_action_affordance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_sidebyside_modal_composition",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_focused_close_affordance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_visible_content_stack",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_official_brand_appearance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_modal_sidebyside_narrow_screenshot",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_dimmed_background_retained",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "qa_skills_release_0_2_1_demo__side__1000x760_return_action_affordance",
+      "target": "qa_skills_release_0_2_1_demo__side__1000x760_sidebyside_modal_composition",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE",
+  "usage_note": "Provider token counts unavailable; legacy schema numeric fields are placeholders, not measured usage.",
+  "extraction_method": "Direct vision via view_image of each exact source; no OCR-only extraction and no behavior/Figma validation inferred.",
+  "source_sha256": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/skills/release-0.2.1/demo--side--1000x760.png": "5c38e1980fb9896d3d20206f25de61cb17c68831ae67f94fccf74921aa1a9b48"
+  }
+}

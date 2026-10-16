@@ -1,0 +1,40 @@
+{
+  "amendmentId": "FOUNDATIONS-SCROLLBAR-COLORS-001",
+  "status": "SUPERSEDED",
+  "supersededBy": "drafts/foundations/ai-design-system.scrollbar-colors.v0.1.1.json",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {
+      "name": "color/neutral/350",
+      "targetId": "VariableID:327:122",
+      "collection": "primitive",
+      "resolvedType": "COLOR",
+      "description": "Gris azulado primitivo observado en el thumb de Scrollbar de la Librería anterior. No expresa por sí mismo una función de interfaz; consúmase mediante un alias semántico.",
+      "scopes": [],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:4": {"r": 0.7647058823529411, "g": 0.7764705882352941, "b": 0.8313725490196079, "a": 1}
+      }
+    },
+    {
+      "name": "color/background/scrollbar/thumb",
+      "targetId": "VariableID:327:123",
+      "collection": "semantic",
+      "resolvedType": "COLOR",
+      "description": "Relleno del thumb visible de Scrollbar en ambas orientaciones y todas sus posiciones; conserva el gris original sin asignar un significado de texto, icono o borde.",
+      "scopes": ["SHAPE_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/neutral/350", "targetId": "VariableID:327:122"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/neutral/350", "targetId": "VariableID:327:122"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/neutral/350", "targetId": "VariableID:327:122"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/neutral/350", "targetId": "VariableID:327:122"}
+      }
+    }
+  ]
+}

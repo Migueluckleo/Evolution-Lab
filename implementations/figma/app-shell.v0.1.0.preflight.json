@@ -1,0 +1,696 @@
+{
+  "pages": [
+    {
+      "id": "165:198",
+      "name": "Avatars"
+    },
+    {
+      "id": "94:122",
+      "name": "Badges"
+    },
+    {
+      "id": "190:188",
+      "name": "Breadcrumbs"
+    },
+    {
+      "id": "0:1",
+      "name": "Buttons"
+    },
+    {
+      "id": "210:122",
+      "name": "Charts"
+    },
+    {
+      "id": "149:122",
+      "name": "Checkboxes"
+    },
+    {
+      "id": "67:122",
+      "name": "Chips"
+    },
+    {
+      "id": "155:122",
+      "name": "Dots"
+    },
+    {
+      "id": "639:128",
+      "name": "Empty states"
+    },
+    {
+      "id": "518:122",
+      "name": "Headers"
+    },
+    {
+      "id": "183:160",
+      "name": "Icon Buttons"
+    },
+    {
+      "id": "175:391",
+      "name": "Inline Notifications"
+    },
+    {
+      "id": "394:122",
+      "name": "Input Fields"
+    },
+    {
+      "id": "220:122",
+      "name": "Linear Progress Bars"
+    },
+    {
+      "id": "377:122",
+      "name": "Loaders"
+    },
+    {
+      "id": "427:122",
+      "name": "Logos"
+    },
+    {
+      "id": "202:208",
+      "name": "Metric Cards"
+    },
+    {
+      "id": "565:122",
+      "name": "Modal"
+    },
+    {
+      "id": "275:122",
+      "name": "Navigation"
+    },
+    {
+      "id": "142:122",
+      "name": "Radio Buttons"
+    },
+    {
+      "id": "328:122",
+      "name": "Scrollbars"
+    },
+    {
+      "id": "444:122",
+      "name": "Select"
+    },
+    {
+      "id": "614:125",
+      "name": "Sidebar"
+    },
+    {
+      "id": "341:122",
+      "name": "Steps"
+    },
+    {
+      "id": "347:122",
+      "name": "Steppers"
+    },
+    {
+      "id": "546:122",
+      "name": "Table"
+    },
+    {
+      "id": "111:122",
+      "name": "Toggles"
+    },
+    {
+      "id": "85:122",
+      "name": "Tooltips"
+    }
+  ],
+  "deps": [
+    {
+      "id": "518:123",
+      "name": "Header",
+      "key": "5c73b49a0ef60064f3dd1a3a7e564dc6571e81ea",
+      "type": "COMPONENT",
+      "width": 1143.69091796875,
+      "height": 96,
+      "layoutMode": "HORIZONTAL",
+      "props": {
+        "Actions#518:0": {
+          "type": "SLOT",
+          "preferredCount": 1
+        },
+        "Show version#522:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show actions#522:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show company#522:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show user#522:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Version#522:4": {
+          "type": "TEXT",
+          "defaultValue": "2.0.0"
+        },
+        "Release label#522:5": {
+          "type": "TEXT",
+          "defaultValue": "ALPHA .1"
+        },
+        "Company#522:6": {
+          "type": "TEXT",
+          "defaultValue": "Empresa SA de CV"
+        },
+        "Tax ID#522:7": {
+          "type": "TEXT",
+          "defaultValue": "CAC840428RH1"
+        }
+      },
+      "slots": [
+        {
+          "id": "518:124",
+          "name": "Actions",
+          "count": 5,
+          "refs": {
+            "slotContentId": "Actions#518:0"
+          }
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        }
+      ]
+    },
+    {
+      "id": "619:481",
+      "name": "Presentation=Collapsed",
+      "key": "17dcead0873d4db26b53b8e23c0871e4e637811d",
+      "type": "COMPONENT",
+      "width": 72,
+      "height": 885,
+      "layoutMode": "VERTICAL",
+      "props": {
+        "Menu items#8283:0": {
+          "type": "SLOT",
+          "preferredCount": 1
+        },
+        "Lower options#8283:3": {
+          "type": "SLOT",
+          "preferredCount": 1
+        },
+        "Presentation": {
+          "type": "VARIANT",
+          "defaultValue": "Collapsed",
+          "variantOptions": [
+            "Collapsed",
+            "Expanded"
+          ]
+        }
+      },
+      "slots": [
+        {
+          "id": "619:484",
+          "name": "Menu items",
+          "count": 7,
+          "refs": {
+            "slotContentId": "Menu items#8283:0"
+          }
+        },
+        {
+          "id": "619:492",
+          "name": "Lower options",
+          "count": 2,
+          "refs": {
+            "slotContentId": "Lower options#8283:3"
+          }
+        }
+      ],
+      "fonts": []
+    },
+    {
+      "id": "619:496",
+      "name": "Presentation=Expanded",
+      "key": "94bfd2df88f10270a3be14e5d46dc03f7ce3a318",
+      "type": "COMPONENT",
+      "width": 234,
+      "height": 885,
+      "layoutMode": "VERTICAL",
+      "props": {
+        "Menu items#8283:0": {
+          "type": "SLOT",
+          "preferredCount": 1
+        },
+        "Lower options#8283:3": {
+          "type": "SLOT",
+          "preferredCount": 1
+        },
+        "Presentation": {
+          "type": "VARIANT",
+          "defaultValue": "Collapsed",
+          "variantOptions": [
+            "Collapsed",
+            "Expanded"
+          ]
+        }
+      },
+      "slots": [
+        {
+          "id": "619:499",
+          "name": "Menu items",
+          "count": 10,
+          "refs": {
+            "slotContentId": "Menu items#8283:0"
+          }
+        },
+        {
+          "id": "619:510",
+          "name": "Lower options",
+          "count": 2,
+          "refs": {
+            "slotContentId": "Lower options#8283:3"
+          }
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:3",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:4"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:495:122",
+      "name": "component-state/pagination",
+      "modes": [
+        {
+          "name": "Enabled",
+          "modeId": "495:0"
+        },
+        {
+          "name": "Disabled",
+          "modeId": "495:1"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "collection": "VariableCollectionId:6:2",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "collection": "VariableCollectionId:6:2",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:33",
+      "name": "spacing/xl",
+      "collection": "VariableCollectionId:6:2",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel ampliado de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:47"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:47"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:47"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:47"
+        }
+      }
+    },
+    {
+      "id": "VariableID:12:39",
+      "name": "radius/none",
+      "collection": "VariableCollectionId:6:2",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Ausencia intencional de redondeo dentro de la escala semántica de radios. Úsalo cuando una superficie deba conservar esquinas rectas de forma explícita.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "collection": "VariableCollectionId:6:2",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      }
+    },
+    {
+      "id": "VariableID:13:35",
+      "name": "color/background/default",
+      "collection": "VariableCollectionId:6:2",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback.",
+      "codeSyntax": {},
+      "values": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:93"
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:33",
+      "name": "spacing/0",
+      "collection": "VariableCollectionId:6:3",
+      "type": "FLOAT",
+      "scopes": [],
+      "description": "Origen de la escala primitiva de espaciado y representación explícita de ausencia de separación. Se usa como valor fuente cuando un alias semántico necesita expresar espacio nulo de forma intencional.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": 0
+      }
+    },
+    {
+      "id": "VariableID:8:35",
+      "name": "radius/0",
+      "collection": "VariableCollectionId:6:3",
+      "type": "FLOAT",
+      "scopes": [],
+      "description": "Origen de la escala primitiva de radios y representación explícita de ausencia de redondeo. Se usa como valor fuente cuando un alias semántico requiere esquinas sin curvatura.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": 0
+      }
+    },
+    {
+      "id": "VariableID:8:46",
+      "name": "spacing/16",
+      "collection": "VariableCollectionId:6:3",
+      "type": "FLOAT",
+      "scopes": [],
+      "description": "Quinto paso de 11 en la escala primitiva de espaciado. Aporta un valor base reutilizable para aliases semánticos de separación y distribución.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": 16
+      }
+    },
+    {
+      "id": "VariableID:8:47",
+      "name": "spacing/24",
+      "collection": "VariableCollectionId:6:3",
+      "type": "FLOAT",
+      "scopes": [],
+      "description": "Sexto paso de 11 en la escala primitiva de espaciado. Aporta un valor base reutilizable para aliases semánticos de separación y distribución.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": 24
+      }
+    },
+    {
+      "id": "VariableID:8:93",
+      "name": "color/neutral/100",
+      "collection": "VariableCollectionId:6:3",
+      "type": "COLOR",
+      "scopes": [],
+      "description": "Primer nivel nominal de 9 en la escala cromática neutral. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:8:101",
+      "name": "color/neutral/900",
+      "collection": "VariableCollectionId:6:3",
+      "type": "COLOR",
+      "scopes": [],
+      "description": "Noveno nivel nominal de 9 en la escala cromática neutral. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {},
+      "values": {
+        "6:4": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676,
+          "a": 1
+        }
+      }
+    }
+  ]
+}

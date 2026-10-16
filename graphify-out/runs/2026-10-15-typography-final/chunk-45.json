@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_web_radio_button_radio_button__cuatro_combinaciones_visibles",
+      "label": "Radio Button: cuatro combinaciones visibles",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Inspección visual directa de esta imagen. No acredita bindings, tokens internos, funcionamiento, aprobación o validación."
+    },
+    {
+      "id": "qa_implementations_typography_web_radio_button_etiquetas_left_right",
+      "label": "Etiquetas Left Right",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "Texto a ambos lados del círculo en las cuatro muestras."
+    },
+    {
+      "id": "qa_implementations_typography_web_radio_button_c_rculo_vac_o",
+      "label": "Círculo vacío",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "La muestra false/false presenta anillo sin relleno central."
+    },
+    {
+      "id": "qa_implementations_typography_web_radio_button_c_rculo_seleccionado_azul",
+      "label": "Círculo seleccionado azul",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "La muestra true/false presenta anillo azul con centro claro."
+    },
+    {
+      "id": "qa_implementations_typography_web_radio_button_combinaciones_atenuadas",
+      "label": "Combinaciones atenuadas",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_status": "OBSERVED",
+      "description": "false/true y true/true muestran etiquetas y círculos de apariencia deshabilitada, sin prueba de interacción."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_web_radio_button_radio_button__cuatro_combinaciones_visibles",
+      "target": "qa_implementations_typography_web_radio_button_etiquetas_left_right",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_radio_button_radio_button__cuatro_combinaciones_visibles",
+      "target": "qa_implementations_typography_web_radio_button_c_rculo_vac_o",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_radio_button_radio_button__cuatro_combinaciones_visibles",
+      "target": "qa_implementations_typography_web_radio_button_c_rculo_seleccionado_azul",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_web_radio_button_radio_button__cuatro_combinaciones_visibles",
+      "target": "qa_implementations_typography_web_radio_button_combinaciones_atenuadas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/web/radio-button.png",
+      "source_location": null,
+      "weight": 1,
+      "evidence_status": "OBSERVED"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

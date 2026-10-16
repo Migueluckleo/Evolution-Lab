@@ -1,0 +1,43 @@
+{
+  "extensionId": "FOUNDATIONS-AVATAR-ROLES-001",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "PENDING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {"6:0": "Contable", "6:1": "Administrativo", "6:2": "Servicios", "6:3": "Personas"}
+  },
+  "variables": [
+    {
+      "name": "color/background/avatar-fallback",
+      "resolvedType": "COLOR",
+      "description": "Fondo cromático de Avatar cuando representa iniciales o un icono en lugar de una imagen; no implica acción interactiva ni se aplica al texto o al icono.",
+      "scopes": ["FRAME_FILL"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "color/blue/400", "targetId": "VariableID:8:87"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "color/green/500", "targetId": "VariableID:8:62"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "color/orange/600", "targetId": "VariableID:8:72"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "color/purple/500", "targetId": "VariableID:8:80"}
+      }
+    },
+    {
+      "name": "font/size/avatar-small",
+      "resolvedType": "FLOAT",
+      "description": "Tamaño mínimo de iniciales para Avatar Small de 20 px; eleva la muestra de origen de 6 a 10 px sin modificar la escala primitiva.",
+      "scopes": ["FONT_SIZE"],
+      "codeSyntax": {},
+      "valuesByMode": {
+        "6:0": {"type": "VARIABLE_ALIAS", "name": "font/size/10", "targetId": "VariableID:8:2"},
+        "6:1": {"type": "VARIABLE_ALIAS", "name": "font/size/10", "targetId": "VariableID:8:2"},
+        "6:2": {"type": "VARIABLE_ALIAS", "name": "font/size/10", "targetId": "VariableID:8:2"},
+        "6:3": {"type": "VARIABLE_ALIAS", "name": "font/size/10", "targetId": "VariableID:8:2"}
+      }
+    }
+  ]
+}

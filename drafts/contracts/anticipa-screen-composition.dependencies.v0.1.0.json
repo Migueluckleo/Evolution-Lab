@@ -1,0 +1,449 @@
+{
+  "schema": "sdd-composition-dependency-lock/0.1",
+  "contract_id": "ANTICIPA-SCREEN-COMPOSITION-001",
+  "contract_version": "0.1.0",
+  "generated_on": "2026-10-06",
+  "authority": "DERIVED_REFERENCE_ONLY",
+  "scope": "Direct reviewed dependencies; transitive dependencies must be resolved under each owning contract before build. No production API or token catalog.",
+  "source": {
+    "path": "sources/figma-snapshots/anticipa-layouts.observation.2026-10-06.json",
+    "sha256": "c12e7ad37d8bb43ebc339b5fe844a9e94deb1e8970aad495600bcb88edab323d",
+    "original_private_source_sha256": "de9255da9d2ec536d632fe624dd93ea572832c9125400800554a47097a494f5b",
+    "public_transform": "Corporate email anonymized; see PUBLICATION.md"
+  },
+  "canonical_inventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "direct_dependencies": [
+    {
+      "path": "specs/foundations/foundations-tokens.contract.md",
+      "sha256": "e7362c364aa2c93a1a5bd50e0024d6b551f8ec6c6947bb62c6779ee25c1b7999"
+    },
+    {
+      "path": "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+      "sha256": "135732d2d2d63261319627bc22eb1b887d2ba00a62dce51bbc2bde80bea1d7ce"
+    },
+    {
+      "path": "specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.2.md",
+      "sha256": "19874f1a561e64e363e8a4cc24fe81588a5eb8adacfbd57efcfc4ccc95b59362"
+    },
+    {
+      "path": "specs/header.contract.v0.1.0.md",
+      "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e"
+    },
+    {
+      "path": "specs/foundations.header-roles.amendment.v0.1.0.md",
+      "sha256": "e8a72b5e59eb6b1d8572138033f112069dce67556acade2bbe935beb3e6af4bf"
+    },
+    {
+      "path": "specs/sidebar.contract.v0.1.0.md",
+      "sha256": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f"
+    },
+    {
+      "path": "specs/foundations.sidebar-roles.amendment.v0.1.0.md",
+      "sha256": "4f90e95d6874e1261d6c2b3ecab5ed5e54fff65b8ed980a20990825846c99dd3"
+    },
+    {
+      "path": "specs/table.contract.v0.1.0.md",
+      "sha256": "e3b7b1c999fa8f59c839a082cde95f5709d21375feb4bc2fefd26652c2394108"
+    },
+    {
+      "path": "specs/modal.contract.v0.1.0.md",
+      "sha256": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57"
+    },
+    {
+      "path": "specs/components/button.contract.v0.2.0.md",
+      "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1"
+    },
+    {
+      "path": "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+      "sha256": "8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9"
+    },
+    {
+      "path": "specs/components/button.local-bindings.amendment.v0.2.2.md",
+      "sha256": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c"
+    },
+    {
+      "path": "specs/components/button-page-name.amendment.md",
+      "sha256": "b2c896cab9f2f5659101253dbc93ce0410c697081e53daafecebbc5b62895fd7"
+    },
+    {
+      "path": "specs/components/six-family-color.amendment.v0.1.0.md",
+      "sha256": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+    },
+    {
+      "path": "specs/icon-button.contract.v0.1.0.md",
+      "sha256": "928d083a785af74510ec0f320a362934f50bf239ffcea856ec83d91898e893cf"
+    },
+    {
+      "path": "specs/input-field.contract.v0.1.0.md",
+      "sha256": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d"
+    },
+    {
+      "path": "specs/input-field.disabled-text.amendment.v0.1.1.md",
+      "sha256": "fc73aef18bd2c4ca6fcdd4eaa17d92c9e65aee0f4e54ff993eb9aeefc0f98a45"
+    },
+    {
+      "path": "specs/select.contract.v0.1.0.md",
+      "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa"
+    },
+    {
+      "path": "specs/search.contract.v0.1.1.md",
+      "sha256": "69a4872f40aa2997f3af25774f90633054f7602c53b4d44a12af7dfd5f5c0772"
+    },
+    {
+      "path": "specs/textarea.contract.v0.1.0.md",
+      "sha256": "5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa"
+    },
+    {
+      "path": "specs/file-upload.contract.v0.1.0.md",
+      "sha256": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5"
+    },
+    {
+      "path": "specs/metric-card.contract.v0.1.0.md",
+      "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e"
+    },
+    {
+      "path": "specs/charts.contract.v0.1.0.md",
+      "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea"
+    },
+    {
+      "path": "specs/navigation-tab.contract.v0.1.0.md",
+      "sha256": "1f28dbd13b0e5c055d2dc551e6a957b2b64f91701425d0b1089ef505c9b0035c"
+    },
+    {
+      "path": "specs/navigation-pagination.contract.v0.1.0.md",
+      "sha256": "314ad6b95a6938aa1c6527b22b867f8714d21bbf138a21956333d43c8f40c0ee"
+    },
+    {
+      "path": "specs/empty-states.contract.v0.1.0.md",
+      "sha256": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f"
+    },
+    {
+      "path": "specs/components/inline-notification.contract.v0.1.0.md",
+      "sha256": "cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63"
+    },
+    {
+      "path": "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md",
+      "sha256": "064ee3d0de682fc8b00363aa91f26f24e75e3cc56bf436b2198eff7912378a33"
+    },
+    {
+      "path": "specs/composition-slots.amendment.v0.1.0.md",
+      "sha256": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5"
+    },
+    {
+      "path": "specs/composition-slots.amendment.v0.1.1.md",
+      "sha256": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041"
+    }
+  ],
+  "token_references": [
+    {
+      "name": "color/background/default",
+      "id_in_inventory": "VariableID:2849:196104",
+      "pointer": "/collections/1/variables/83",
+      "expected_scope": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/background/subtle",
+      "id_in_inventory": "VariableID:2849:196105",
+      "pointer": "/collections/1/variables/84",
+      "expected_scope": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/background/overlay",
+      "id_in_inventory": "VariableID:2849:196115",
+      "pointer": "/collections/1/variables/88",
+      "expected_scope": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/surface/brand",
+      "id_in_inventory": "VariableID:2849:196107",
+      "pointer": "/collections/1/variables/117",
+      "expected_scope": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/border/default",
+      "id_in_inventory": "VariableID:2849:196128",
+      "pointer": "/collections/1/variables/61",
+      "expected_scope": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "color/border/strong",
+      "id_in_inventory": "VariableID:2849:196130",
+      "pointer": "/collections/1/variables/63",
+      "expected_scope": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "color/text/primary",
+      "id_in_inventory": "VariableID:2849:196116",
+      "pointer": "/collections/1/variables/75",
+      "expected_scope": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "color/text/secondary",
+      "id_in_inventory": "VariableID:2849:196117",
+      "pointer": "/collections/1/variables/76",
+      "expected_scope": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "color/text/tertiary",
+      "id_in_inventory": "VariableID:2849:196118",
+      "pointer": "/collections/1/variables/77",
+      "expected_scope": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "color/text/disabled",
+      "id_in_inventory": "VariableID:2849:196119",
+      "pointer": "/collections/1/variables/78",
+      "expected_scope": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "color/text/brand",
+      "id_in_inventory": "VariableID:2849:196121",
+      "pointer": "/collections/1/variables/80",
+      "expected_scope": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "color/icon/primary",
+      "id_in_inventory": "VariableID:2849:196138",
+      "pointer": "/collections/1/variables/68",
+      "expected_scope": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/icon/secondary",
+      "id_in_inventory": "VariableID:2849:196139",
+      "pointer": "/collections/1/variables/69",
+      "expected_scope": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "color/icon/brand",
+      "id_in_inventory": "VariableID:2849:196141",
+      "pointer": "/collections/1/variables/73",
+      "expected_scope": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "font/family/base",
+      "id_in_inventory": "VariableID:2845:160887",
+      "pointer": "/collections/1/variables/0",
+      "expected_scope": [
+        "FONT_FAMILY"
+      ]
+    },
+    {
+      "name": "font/weight/regular",
+      "id_in_inventory": "VariableID:2845:160888",
+      "pointer": "/collections/1/variables/1",
+      "expected_scope": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "name": "font/weight/semibold",
+      "id_in_inventory": "VariableID:2845:160890",
+      "pointer": "/collections/1/variables/3",
+      "expected_scope": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "name": "font/weight/bold",
+      "id_in_inventory": "VariableID:2845:160891",
+      "pointer": "/collections/1/variables/4",
+      "expected_scope": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "name": "font/size/xs",
+      "id_in_inventory": "VariableID:2845:160892",
+      "pointer": "/collections/1/variables/6",
+      "expected_scope": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "name": "font/size/sm",
+      "id_in_inventory": "VariableID:2845:160893",
+      "pointer": "/collections/1/variables/7",
+      "expected_scope": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "name": "font/size/md",
+      "id_in_inventory": "VariableID:2845:160894",
+      "pointer": "/collections/1/variables/8",
+      "expected_scope": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "name": "font/size/xl",
+      "id_in_inventory": "VariableID:2845:160896",
+      "pointer": "/collections/1/variables/10",
+      "expected_scope": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "name": "font/line-height/xs",
+      "id_in_inventory": "VariableID:2845:160901",
+      "pointer": "/collections/1/variables/15",
+      "expected_scope": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "name": "font/line-height/sm",
+      "id_in_inventory": "VariableID:2845:160902",
+      "pointer": "/collections/1/variables/16",
+      "expected_scope": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "name": "font/line-height/md",
+      "id_in_inventory": "VariableID:2845:160903",
+      "pointer": "/collections/1/variables/17",
+      "expected_scope": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "name": "font/line-height/xl",
+      "id_in_inventory": "VariableID:2845:160905",
+      "pointer": "/collections/1/variables/19",
+      "expected_scope": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "name": "font/letter-spacing/normal",
+      "id_in_inventory": "VariableID:2845:160910",
+      "pointer": "/collections/1/variables/24",
+      "expected_scope": [
+        "LETTER_SPACING"
+      ]
+    },
+    {
+      "name": "spacing/none",
+      "id_in_inventory": "VariableID:1098:28491",
+      "pointer": "/collections/1/variables/26",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/xs",
+      "id_in_inventory": "VariableID:562:10",
+      "pointer": "/collections/1/variables/37",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/sm",
+      "id_in_inventory": "VariableID:562:11",
+      "pointer": "/collections/1/variables/38",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/md",
+      "id_in_inventory": "VariableID:5401:76",
+      "pointer": "/collections/1/variables/39",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/lg",
+      "id_in_inventory": "VariableID:562:12",
+      "pointer": "/collections/1/variables/40",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/xl",
+      "id_in_inventory": "VariableID:562:13",
+      "pointer": "/collections/1/variables/41",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "spacing/2xl",
+      "id_in_inventory": "VariableID:562:14",
+      "pointer": "/collections/1/variables/42",
+      "expected_scope": [
+        "GAP"
+      ]
+    },
+    {
+      "name": "radius/md",
+      "id_in_inventory": "VariableID:562:4",
+      "pointer": "/collections/1/variables/54",
+      "expected_scope": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "name": "radius/lg",
+      "id_in_inventory": "VariableID:562:5",
+      "pointer": "/collections/1/variables/55",
+      "expected_scope": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "name": "stroke/xs",
+      "id_in_inventory": "VariableID:559:7",
+      "pointer": "/collections/1/variables/49",
+      "expected_scope": [
+        "STROKE_FLOAT"
+      ]
+    }
+  ],
+  "validation": {
+    "variable_count": 270,
+    "alias_count": 512,
+    "errors": []
+  },
+  "local_figma_bindings": "NOT_READ_IN_THIS_TASK",
+  "graph": "STALE_NOT_REGENERATED"
+}

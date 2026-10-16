@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_typographic_specimen_card",
+      "label": "UI/Action/Label Medium/Underline · tarjeta visual",
+      "file_type": "image",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visual_description": "Tarjeta horizontal de fondo claro azulado, esquinas redondeadas, texto oscuro alineado a la izquierda; título, muestra, metadatos y párrafo de uso apilados.",
+      "evidence_limit": "Imagen observada: no acredita TextStyleId, bindings, estructura editable, aprobación ni validación global."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_sample_text",
+      "label": "Muestra subrayada de frase",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_text": "La información clara facilita cada decisión.",
+      "appearance": "Frase oscura en negrita y subrayada, claramente mayor que el texto de metadatos."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_printed_recipe_identity",
+      "label": "Metadatos impresos: ui-action-label-medium-underline",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "logical_style_id_printed": "ui-action-label-medium-underline",
+      "printed_recipe": {
+        "fontFamily": "Manrope",
+        "fontStyle": "Bold",
+        "fontWeight": 700,
+        "fontSizePrinted": "16 px",
+        "lineHeightPrinted": "20 px",
+        "trackingPrinted": "0.1%",
+        "decorationPrinted": "UNDERLINE"
+      },
+      "limitation": "Valores leídos en el texto visible; no son una medición de fuentes resueltas ni verificación de variables."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_consumer_scope",
+      "label": "Alcance de consumidores descrito en la tarjeta",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_claim": "El párrafo visible limita el estilo a Button Link Middle/Large y diez rangos censados."
+    },
+    {
+      "id": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_application_guidance",
+      "label": "Orientación visible para formato subrayado",
+      "file_type": "concept",
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "evidence_kind": "OBSERVED",
+      "visible_claim": "El párrafo afirma que UNDERLINE pertenece al TextStyle para preservar vínculo y API editable, prohíbe decorar después de vincular y generalizar el complemento.",
+      "limitation": "La captura documenta la instrucción impresa; su cumplimiento necesita lectura API y contrato."
+    }
+  ],
+  "edges": [
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_sample_text",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_printed_recipe_identity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_consumer_scope",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_typographic_specimen_card",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_application_guidance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_sample_text",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_printed_recipe_identity",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_consumer_scope",
+      "target": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_visible_application_guidance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED"
+    },
+    {
+      "source": "qa_implementations_typography_consumption_v0_1_1_specimen_underline_1_printed_recipe_identity",
+      "target": "specs_foundations_typography_formatting_amendment_v0_1_1_ui_action_label_medium_underline",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/qa/implementations/typography/consumption-v0.1.1/specimen-underline-1.png",
+      "source_location": null,
+      "weight": 1.0,
+      "evidence_kind": "OBSERVED",
+      "rationale": "La identidad impresa coincide con el rol documentado; esta coincidencia no prueba aplicación técnica."
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "usage_status": "UNAVAILABLE"
+}

@@ -1,0 +1,74 @@
+{
+  "implementationId": "IMP-AVATAR-FIGMA-001",
+  "status": "VALIDATED",
+  "userAudit": "PENDING",
+  "target": {
+    "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+    "fileName": "AI-Design-System",
+    "pageName": "Avatars",
+    "pageId": "165:198",
+    "componentSetId": "165:247",
+    "importedUserMainId": "165:163",
+    "importedUserMainKey": "77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f",
+    "sampleImageHash": "af4a92e41c559037ccd7d48668c854a7d25cac98"
+  },
+  "contract": {
+    "id": "AVATAR-001",
+    "version": "0.1.0",
+    "status": "DELEGATED_FOR_BUILD",
+    "digestSha256": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
+    "sourceMdDigestSha256": "c2d5e37c157e112619090a6ce4ad27c58b1c52dddf85b706d29dd723d4fb8bf9",
+    "sourceYamlDigestSha256": "581229e3dadb59f2808e7e20a091b5f08e070998ffa1f275ed988b32c48cbd96",
+    "tokenInventoryDigestSha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474",
+    "avatarRolesDataDigestSha256": "66a680bbb494895c76b43b9ca0d1b081c51afbb9c4dd079b6cf841c6488dc1f6"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1132:8891",
+    "componentSetId": "1132:21344",
+    "componentSetKey": "2df4b15820fade1cc23c83fde049c755286bfdc4",
+    "sampleImageFrameId": "1132:21349",
+    "sampleImageHash": "33f6b019db4382817513e4485e94d3a7dd5a6ca2",
+    "sampleImagePngBase64Path": "sources/figma-snapshots/avatar-source-face-48.png.base64",
+    "sampleImagePngSha256": "01e7a2b7781eb2b3c7f710295fa9b99339f13f2fafd612fa17afe0fcbe721c01"
+  },
+  "variantIds": {
+    "Image/Extra Large": "165:199", "Image/Large": "165:202", "Image/Medium": "165:205", "Image/Small": "165:208",
+    "Icon/Extra Large": "165:211", "Icon/Large": "165:216", "Icon/Medium": "165:221", "Icon/Small": "165:226",
+    "Text/Extra Large": "165:231", "Text/Large": "165:235", "Text/Medium": "165:239", "Text/Small": "165:243"
+  },
+  "propertyKeys": {"showStatus": "Show status#165:20", "icon": "Icon#165:21", "initials": "Initials#165:22"},
+  "documentationNodeIds": ["165:248", "165:249"],
+  "constructionScript": "drafts/figma/avatar-build.v0.1.0.js",
+  "constructionScriptDigestSha256": "a46626d548b381ae66c13a2737b6036965afcd8b15823082ea0c59e1b11cb261",
+  "pickerScript": "drafts/figma/avatar-preferred-icons.v0.1.0.js",
+  "pickerScriptDigestSha256": "424603819ca1cf89fa8753ab9cade279c6cd38836c6a9ad05643f69f1731d3e6",
+  "lastReadback": {
+    "variantCount": 12,
+    "componentPropertyCount": 5,
+    "nestedDotInstances": 12,
+    "phosphorUserInstances": 4,
+    "preferredPhosphorSets": 1512,
+    "editableInitials": 4,
+    "solidPaintBindingsChecked": 48,
+    "imageFillsChecked": 4,
+    "cornerBindingsChecked": 48,
+    "strokeSideBindingsChecked": 32,
+    "faceSizeBindingsChecked": 18,
+    "iconSizeBindingsChecked": 6,
+    "textFamilyAndWeightBindingsChecked": 8,
+    "textSizeBindingsChecked": 4,
+    "semanticScopeIssues": 0,
+    "reactions": 0,
+    "minimumFallbackTextContrast": 4.72,
+    "visualReview": "PASS: source 324x312 and target page 727x533 inspected; 3x4 matrix visually close with documented typography and orange contrast corrections",
+    "publishStatus": "UNPUBLISHED"
+  },
+  "knownDeviations": [
+    "The source interactive fill role was replaced with color/background/avatar-fallback; Servicios aliases orange/600 instead of orange/500 for white-text contrast.",
+    "Initials Small and Medium are 10 and 12 px instead of 6 and 9 px in the source.",
+    "Avatar Small face 20 px, its User icon 20 px on Medium, and status Dot Small 5 px remain literal due absent exact primitive sizes.",
+    "Source image face was exported as a 48 px PNG sample and reused across all four Image variants.",
+    "The icon swap picker offers the same verified 1512 Phosphor sets as Chips, without adding variants."
+  ]
+}

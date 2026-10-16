@@ -1,0 +1,414 @@
+{
+  "date": "2026-10-08",
+  "status": "PASS",
+  "scope": "Technical static readback, native path roundtrip, reaction graph, scale, theme invariance. Not perceptual playback or frontend accessibility.",
+  "rawStrictComparisons": [
+    {
+      "range": [
+        0,
+        4
+      ],
+      "nodes": 24,
+      "vectors": 16,
+      "paints": 16,
+      "empty": 0,
+      "maxDelta": 0,
+      "errors": [
+        "209:6829:paths",
+        "209:6830:paths",
+        "209:6931:paths",
+        "209:6932:paths",
+        "217:1903:paths",
+        "217:1904:paths",
+        "217:1897:paths",
+        "217:1898:paths"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "range": [
+        4,
+        8
+      ],
+      "nodes": 27,
+      "vectors": 19,
+      "paints": 15,
+      "empty": 4,
+      "maxDelta": 0.00005626678466796875,
+      "errors": [
+        "217:1910:paths",
+        "217:1911:paths",
+        "217:1917:paths",
+        "217:1918:paths",
+        "217:1919:paths",
+        "509:18224:paths",
+        "269:5912:paths",
+        "269:5913:paths",
+        "509:18494:paths",
+        "509:18495:paths",
+        "509:18311:paths",
+        "509:18408:paths",
+        "526:19634:paths",
+        "526:19635:paths"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "range": [
+        8,
+        13
+      ],
+      "nodes": 39,
+      "vectors": 29,
+      "paints": 16,
+      "empty": 13,
+      "maxDelta": 0.00006103515625,
+      "errors": [
+        "526:19639:paths",
+        "526:19640:paths",
+        "509:18666:paths",
+        "509:18667:paths",
+        "509:18220:paths",
+        "509:17697:paths",
+        "509:17698:paths",
+        "509:18669:paths",
+        "509:18670:paths",
+        "509:18218:paths",
+        "509:17704:paths",
+        "509:17705:paths",
+        "509:18672:paths",
+        "509:18673:paths",
+        "509:17706:reactions",
+        "509:18216:paths",
+        "509:17711:paths",
+        "509:17712:paths",
+        "509:18675:paths",
+        "509:18676:paths",
+        "509:18214:paths",
+        "509:17718:paths",
+        "509:17719:paths",
+        "509:18678:paths",
+        "509:18679:paths"
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "pathRoundtrip": [
+    {
+      "range": [
+        0,
+        4
+      ],
+      "vectorCount": 16,
+      "normalized": [
+        "209:6829",
+        "209:6830",
+        "209:6931",
+        "209:6932",
+        "217:1903",
+        "217:1904",
+        "217:1897",
+        "217:1898"
+      ],
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "range": [
+        4,
+        8
+      ],
+      "vectorCount": 19,
+      "normalized": [
+        "217:1910",
+        "217:1911",
+        "217:1917",
+        "217:1918",
+        "217:1919",
+        "509:18224",
+        "269:5912",
+        "269:5913",
+        "509:18494",
+        "509:18495",
+        "509:18311",
+        "509:18408",
+        "526:19634",
+        "526:19635"
+      ],
+      "errors": [],
+      "status": "PASS"
+    },
+    {
+      "range": [
+        8,
+        13
+      ],
+      "vectorCount": 29,
+      "normalized": [
+        "526:19639",
+        "526:19640",
+        "509:18666",
+        "509:18667",
+        "509:18220",
+        "509:17697",
+        "509:17698",
+        "509:18669",
+        "509:18670",
+        "509:18218",
+        "509:17704",
+        "509:17705",
+        "509:18672",
+        "509:18673",
+        "509:18216",
+        "509:17711",
+        "509:17712",
+        "509:18675",
+        "509:18676",
+        "509:18214",
+        "509:17718",
+        "509:17719",
+        "509:18678",
+        "509:18679"
+      ],
+      "errors": [],
+      "status": "PASS"
+    }
+  ],
+  "finalAudit": {
+    "status": "PASS",
+    "errors": [],
+    "themes": [
+      {
+        "name": "Contable",
+        "modeId": "6:0",
+        "paints": 47,
+        "same": true
+      },
+      {
+        "name": "Administrativo",
+        "modeId": "6:1",
+        "paints": 47,
+        "same": true
+      },
+      {
+        "name": "Servicios",
+        "modeId": "6:2",
+        "paints": 47,
+        "same": true
+      },
+      {
+        "name": "Personas",
+        "modeId": "6:3",
+        "paints": 47,
+        "same": true
+      }
+    ],
+    "scales": [
+      {
+        "mainId": "821:6",
+        "factor": 0.5,
+        "maxDelta": 0,
+        "temporaryId": "824:8400",
+        "removed": true
+      },
+      {
+        "mainId": "821:50",
+        "factor": 0.5,
+        "maxDelta": 0,
+        "temporaryId": "824:8406",
+        "removed": true
+      }
+    ],
+    "variables": [
+      {
+        "id": "VariableID:773:275",
+        "name": "color/characters/beni/body",
+        "resolvedType": "COLOR",
+        "description": "Color original e invariable del cuerpo de BENI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-characters-beni-body)"
+        },
+        "collection": "character-identity",
+        "valuesByMode": {
+          "Value": {
+            "r": 0.2549019753932953,
+            "g": 0.3450980484485626,
+            "b": 0.6078431606292725,
+            "a": 1
+          }
+        }
+      },
+      {
+        "id": "VariableID:773:276",
+        "name": "color/characters/navi/body",
+        "resolvedType": "COLOR",
+        "description": "Color original e invariable del cuerpo de NAVI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-characters-navi-body)"
+        },
+        "collection": "character-identity",
+        "valuesByMode": {
+          "Value": {
+            "r": 0.9607843160629272,
+            "g": 0.5137255191802979,
+            "b": 0.25882354378700256,
+            "a": 1
+          }
+        }
+      },
+      {
+        "id": "VariableID:773:277",
+        "name": "color/characters/shared/features",
+        "resolvedType": "COLOR",
+        "description": "Color original compartido de ojos y rasgos de BENI y NAVI. Uso exclusivo en ambos personajes; no es texto, fondo ni iconografía funcional temática.",
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-characters-shared-features)"
+        },
+        "collection": "character-identity",
+        "valuesByMode": {
+          "Value": {
+            "r": 0.8941176533699036,
+            "g": 0.8980392217636108,
+            "b": 0.9019607901573181,
+            "a": 1
+          }
+        }
+      },
+      {
+        "id": "VariableID:820:6",
+        "name": "color/characters/navi/shadow",
+        "resolvedType": "COLOR",
+        "description": "Color original e invariable de las sombras laterales de NAVI durante su animación. Exclusivo del personaje; no sigue temas ni representa estados de interfaz.",
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-characters-navi-shadow)"
+        },
+        "collection": "character-identity",
+        "valuesByMode": {
+          "Value": {
+            "r": 0.8392156958580017,
+            "g": 0.45490196347236633,
+            "b": 0.239215686917305,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "id": "822:6",
+        "name": "BENI Standby",
+        "properties": {
+          "Frame": {
+            "type": "VARIANT",
+            "defaultValue": "01",
+            "variantOptions": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05",
+              "06"
+            ]
+          }
+        },
+        "defaultVariant": "821:6",
+        "cycle": true,
+        "frameIds": [
+          "821:6",
+          "821:12",
+          "821:18",
+          "821:24",
+          "821:30",
+          "821:36"
+        ],
+        "description": "Ilustración vectorial animada de BENI Standby. Frame identifica fotogramas del bucle; no representa estados de negocio. Colores de identidad fijos y tokenizados, independientes del tema. Contrato CHARACTERS-001 v0.1.0. Sin Slots: anatomía fija. No incluye política de movimiento reducido."
+      },
+      {
+        "id": "822:7",
+        "name": "NAVI Analysis",
+        "properties": {
+          "Frame": {
+            "type": "VARIANT",
+            "defaultValue": "01",
+            "variantOptions": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05",
+              "06",
+              "07"
+            ]
+          }
+        },
+        "defaultVariant": "821:42",
+        "cycle": true,
+        "frameIds": [
+          "821:42",
+          "821:50",
+          "821:57",
+          "821:64",
+          "821:72",
+          "821:80",
+          "821:88"
+        ],
+        "description": "Ilustración vectorial animada de NAVI Analysis. Frame identifica fotogramas del bucle; no representa estados de negocio. Colores de identidad fijos y tokenizados, independientes del tema. Contrato CHARACTERS-001 v0.1.0. Sin Slots: anatomía fija. No incluye política de movimiento reducido."
+      }
+    ],
+    "review": {
+      "id": "822:21",
+      "width": 1309.179931640625,
+      "height": 375.47998046875,
+      "clipsContent": true,
+      "explicitVariableModes": {},
+      "instances": 13
+    },
+    "pageChildren": [
+      {
+        "id": "822:6",
+        "name": "BENI Standby",
+        "type": "COMPONENT_SET"
+      },
+      {
+        "id": "822:7",
+        "name": "NAVI Analysis",
+        "type": "COMPONENT_SET"
+      },
+      {
+        "id": "822:21",
+        "name": "Characters — revisión de fotogramas",
+        "type": "FRAME"
+      }
+    ]
+  },
+  "tokenErrors": [],
+  "residualErrors": [],
+  "timingNormalization": {
+    "source": 0.8,
+    "target": 0.800000011920929,
+    "delta": 1.1920928910669204e-8,
+    "limit": 0.000001,
+    "status": "PASS"
+  },
+  "reviewFinal": {
+    "id": "822:21",
+    "clipsContent": false
+  },
+  "contrast": {
+    "featuresBeni": 5.3811718154057555,
+    "featuresNavi": 2.0284836180277983,
+    "shadowNavi": 1.2775066219721016
+  }
+}
