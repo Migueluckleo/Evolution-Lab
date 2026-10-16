@@ -1,0 +1,29 @@
+name: Publicar catálogo de consumo
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['catalog/**', 'output/**', 'graphify-out/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-design-system-catalog
+  cancel-in-progress: false
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Probar el cargador y generar los datos
+        run: |
+          python3 -m unittest discover -s tests/remote -v
+          python3 scripts/ds_remote.py
+          python3 scripts/ds_remote.py --check
+      - name: Publicar únicamente el canal de datos
+        run: |
+          git add catalog/
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Actualizar catálogo de consumo del DS'
+          git push origin HEAD:main
