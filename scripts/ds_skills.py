@@ -116,7 +116,11 @@ def source_selection(root, config, project):
 
 def component_index(root, paths, project):
     registry = read_json(root / "implementations/web/components.registry.json")
-    data = generate_status(yaml_documents(paths, root), paths, project, root)
+    parsed = yaml_documents(paths, root)
+    parse_errors = [{"path": name, "errors": row["errors"]} for name, row in parsed.items() if row.get("errors")]
+    if parse_errors:
+        raise ValueError("Cannot publish invalid source metadata: " + json.dumps(parse_errors, ensure_ascii=False))
+    data = generate_status(parsed, paths, project, root)
     if data["issues"]:
         raise ValueError("Unresolved source status: " + json.dumps(data["issues"], ensure_ascii=False))
     families = {f["id"]: f for f in data["families"] if f["base"] and not f["id"].startswith(("FOUNDATIONS-", "MIGRATION-"))}

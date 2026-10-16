@@ -22,7 +22,7 @@ result = JSON.parse(STDIN.read).map do |item|
   begin
     errors = []
     duplicates(Psych.parse_stream(item.fetch('text')), errors)
-    value = YAML.safe_load(item.fetch('text'), [Date, Time], [], true)
+    value = YAML.safe_load(item.fetch('text'), permitted_classes: [Date, Time], permitted_symbols: [], aliases: true)
     { 'path' => item.fetch('path'), 'value' => value, 'errors' => errors }
   rescue StandardError => e
     { 'path' => item.fetch('path'), 'value' => nil, 'errors' => [e.message] }
