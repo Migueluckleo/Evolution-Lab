@@ -45,7 +45,7 @@ Todos los perfiles buscan oportunidades de mejora mientras trabajan en una misi�
 | [evolution_office.py](../scripts/evolution_office.py) | Validación, registro y generación del panel. |
 | [evolution_office_server.py](../scripts/evolution_office_server.py) | Servidor local del chat y envío de solicitudes a Codex CLI. |
 
-El chat muestra intercambios reales registrados y permite enviar una solicitud mediante el servidor local. El servidor inicia una ejecución nueva de Codex CLI por mensaje y agrega su respuesta final; los intercambios entre especialistas solo aparecen si realmente se despacharon y registraron. `record` actualiza los archivos de la vista al guardar; `render` permite regenerarlos explícitamente. Abierto por HTTP, el chat consulta `state.json` cada tres segundos mientras está visible y muestra si pierde la conexión. Abierto directamente como archivo, permite consultar el corte incluido sin enviar solicitudes. No es una transmisión de tokens ni del razonamiento privado de los agentes.
+El chat muestra intercambios reales registrados y permite enviar una solicitud mediante el servidor local. El servidor inicia una ejecución nueva de Codex CLI por mensaje, muestra sus avances públicos durante la ejecución y registra su respuesta final; los intercambios entre especialistas solo aparecen si realmente se despacharon y registraron. `record` actualiza los archivos de la vista al guardar; `render` permite regenerarlos explícitamente. Abierto por HTTP, el chat consulta `state.json` cada tres segundos mientras está visible y muestra si pierde la conexión. Abierto directamente como archivo, permite consultar el corte incluido sin enviar solicitudes. No es una transmisión de tokens ni del razonamiento privado de los agentes.
 
 ## Uso local
 
@@ -111,3 +111,7 @@ El estado técnico se acredita mediante las comprobaciones y eventos correspondi
 ### Cierre del servidor
 
 Detén el servidor con Ctrl+C (SIGINT) o SIGTERM: cancela la ejecución activa y termina su grupo de procesos. Una terminación forzada con SIGKILL no permite esa limpieza; antes de reiniciar tras una caída forzada, comprueba y detén cualquier proceso Codex de la oficina que haya quedado activo. El estado `failed` recuperado no prueba que un proceso huérfano haya terminado.
+
+### Avances durante la ejecución
+
+El chat recibe los mensajes públicos antes del cierre, junto con actividad de herramientas resumida y última actualización. Si no llegan eventos durante treinta segundos, lo indica explícitamente. Recargar recupera el trabajo activo o el último y sus avances guardados. No se transmite razonamiento privado; las respuestas registradas de los especialistas aparecen con su identidad real. El estado de ejecución no equivale a QA aprobado.

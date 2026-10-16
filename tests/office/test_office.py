@@ -392,7 +392,7 @@ console.log('PASS: payload remains text; no HTML sink or network');
 const vm=require('node:vm'),fs=require('node:fs');
 const input=JSON.parse(fs.readFileSync(0,'utf8')),all=[],timers=[];
 class Element {
- constructor(tag){this.tag=tag;this.children=[];this.style={setProperty(){}};this.value='';this._text='';this.scrollTop=0;this.scrollHeight=0;this.clientHeight=0;all.push(this)}
+ constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.style={setProperty(){}};this.value='';this._text='';this.scrollTop=0;this.scrollHeight=0;this.clientHeight=0;all.push(this)}
  set textContent(v){this._text=String(v)} get textContent(){return this._text}
  set innerHTML(v){throw Error('HTML sink used')}
  append(...v){this.children.push(...v)} replaceChildren(...v){this.children=v}

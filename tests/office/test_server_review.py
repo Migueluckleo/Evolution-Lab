@@ -20,6 +20,22 @@ class IndependentServerTests(unittest.TestCase):
         self.runtime = server.OfficeRuntime(self.fixture.root, codex="must-not-execute")
         self.addCleanup(self.runtime.shutdown)
 
+    def test_explicit_private_channels_never_enter_public_updates(self):
+        job = {"id": "privacy-filter-001", "updates": []}
+        with patch.object(self.runtime, "persist"):
+            for container in ("item", "event"):
+                for field in ("channel", "phase"):
+                    for value in ("analysis", "reasoning"):
+                        event = {"type": "item.completed", "item": {"id": f"{container}-{field}-{value}", "type": "agent_message", "text": "PRIVATE_REASONING"}}
+                        (event["item"] if container == "item" else event)[field] = value
+                        self.runtime.consume(job, event)
+            self.runtime.consume(job, {"type": "item.completed", "item": {"id": "public", "type": "agent_message", "channel": "commentary", "text": "Hallazgo público"}})
+            self.runtime.consume(job, {"type": "item.started", "item": {"id": "tool", "type": "mcp_tool_call", "arguments": "PRIVATE_ARGUMENTS", "result": "PRIVATE_RESULT"}})
+        encoded = json.dumps(self.runtime.public(job), ensure_ascii=False)
+        self.assertNotIn("PRIVATE_", encoded)
+        self.assertIn("Hallazgo público", encoded)
+        self.assertEqual(len([u for u in job["updates"] if u["kind"] == "message"]), 1)
+
     def test_evidence_html_cannot_execute_in_composer_origin(self):
         path = self.fixture.root / "qa/untrusted.html"
         path.write_text('<script>fetch("/api/session").then(r=>r.json())</script>')
@@ -91,7 +107,7 @@ class IndependentServerTests(unittest.TestCase):
         proc.communicate.return_value = (json.dumps({"type": "item.completed", "item": {"type": "agent_message", "text": "Answer"}}), "")
         self.runtime.processes[job["id"]] = proc
         self.addCleanup(self.runtime.processes.clear)
-        with patch.object(server, "private_write", side_effect=OSError("disk full")):
+        with patch.object(server, "private_write", side_effect=OSError("disk full")), patch.object(self.runtime, "stream", return_value=("", "", ["Answer"], None)):
             try:
                 self.runtime.run(job, proc, "prompt fixture")
             except OSError:

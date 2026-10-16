@@ -1,0 +1,23 @@
+test_conflict_preserves_text_and_refreshes_active_job (test_composer.ComposerTests) ... ok
+test_existing_busy_job_blocks_submit_and_failed_job_unlocks (test_composer.ComposerTests) ... ok
+test_expired_session_refreshes_without_losing_text_or_resubmitting (test_composer.ComposerTests) ... ok
+test_keyboard_shortcut_submits_once (test_composer.ComposerTests) ... ok
+test_public_streaming_before_exit_silence_disconnect_and_final_dedup (test_composer.ComposerTests) ... ok
+test_reload_recovers_completed_public_updates_without_resubmitting (test_composer.ComposerTests) ... ok
+test_stream_failure_preserves_updates_and_shows_error (test_composer.ComposerTests) ... ok
+test_uncertain_ack_retry_reuses_id_and_completion_unlocks (test_composer.ComposerTests) ... ok
+test_user_messages_render_as_inert_text_with_correlated_reply (test_composer.ComposerTests) ... ok
+test_evidence_html_cannot_execute_in_composer_origin (test_server_review.IndependentServerTests) ... ok
+test_explicit_private_channels_never_enter_public_updates (test_server_review.IndependentServerTests) ... ok
+test_final_result_write_failure_releases_worker_and_reports_failure (test_server_review.IndependentServerTests) ... ok
+test_initial_persistence_failure_does_not_leave_runtime_busy (test_server_review.IndependentServerTests) ... ok
+test_startup_failure_and_error_write_failure_still_release_worker (test_server_review.IndependentServerTests) ... ok
+test_chunked_unicode_progress_during_running_and_reload (test_server_streaming.StreamingTests) ... ok
+test_known_delegation_shape_no_names_from_prompt_and_dedup (test_server_streaming.StreamingTests) ... ok
+test_timeout_keeps_public_progress_and_drains_both_logs (test_server_streaming.StreamingTests) ... ok
+test_wait_error_does_not_drop_messages_or_leave_worker_busy (test_server_streaming.StreamingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 5.110s
+
+OK

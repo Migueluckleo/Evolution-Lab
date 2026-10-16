@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """Loopback-only Evolution Lab composer; each message starts a new Codex execution."""
 import argparse
+import codecs
+import datetime as dt
+import hashlib
 import fcntl
 import json
 import os
 from pathlib import Path
 import re
 import secrets
+import selectors
 import signal
 import subprocess
 import threading
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import unquote, urlsplit
 
@@ -19,6 +24,10 @@ ROOT = Path(__file__).resolve().parents[1]
 MAX_BODY = 32768
 MAX_MESSAGE = 8000
 ID = re.compile(r"^[A-Za-z0-9_-]{8,80}$")
+
+
+def now():
+    return dt.datetime.now(dt.timezone.utc).isoformat()
 
 
 def private_write(path, value):
@@ -54,10 +63,14 @@ class OfficeRuntime:
                 if job["status"] in {"received", "running"}:
                     job.update(status="failed", error="La ejecución anterior fue interrumpida; no se reintentó automáticamente.")
                     private_write(path, job)
+                job.setdefault("updates", [])
+                job.setdefault("started_at", None)
+                job.setdefault("last_activity_at", dt.datetime.fromtimestamp(path.stat().st_mtime, dt.timezone.utc).isoformat())
+                job.setdefault("activity", "Registro recuperado")
                 self.jobs[job["id"]] = job
 
     def public(self, job):
-        return {key: job.get(key) for key in ("id", "request_id", "status", "message", "error", "result")}
+        return {key: job.get(key) for key in ("id", "request_id", "status", "message", "error", "result", "updates", "last_activity_at", "started_at", "activity", "updates_truncated")}
 
     def persist(self, job):
         private_write(self.folder / job["id"] / "job.json", job)
@@ -93,7 +106,7 @@ class OfficeRuntime:
                 raise Busy("Hay una ejecución activa o el servidor está cerrándose")
             folder = self.folder / request_id
             folder.mkdir(mode=0o700, exist_ok=True)
-            job = {"id": request_id, "request_id": request_id, "status": "received", "message": message, "error": None, "result": None}
+            job = {"id": request_id, "request_id": request_id, "status": "received", "message": message, "error": None, "result": None, "updates": [], "last_activity_at": now(), "started_at": None, "activity": "Solicitud recibida", "updates_truncated": 0}
             self.jobs[request_id] = job
             self.active = request_id
             try:
@@ -109,17 +122,21 @@ class OfficeRuntime:
                 "dentro de su alcance. Usa los perfiles necesarios, registra SOLO intercambios realmente "
                 "despachados y resultados comprobados. El servidor ya registra la solicitud y registrará tu "
                 "respuesta final; no dupliques esos dos eventos. No inventes actividad, mediciones ni QA. "
+                "Emite avances públicos breves cuando haya hallazgos, decisiones o bloqueos concretos; "
+                "no esperes al final para comunicar resultados parciales útiles. Al delegar, identifica el rol "
+                "y nombre del agente real y explica su encargo; nunca finjas diálogos ni actividad. "
+                "No publiques razonamiento privado ni detalles secretos de herramientas. "
                 "No modifiques el servidor ni sus trabajos para ocultar fallos.\n\nSolicitud del usuario:\n" + message
             )
             try:
                 proc = subprocess.Popen(
                     [self.codex, "exec", "--json", "--approve-for-me", "-C", str(self.root), "-"],
                     stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                    text=True, start_new_session=True, cwd=self.root,
+                    text=True, encoding="utf-8", errors="replace", start_new_session=True, cwd=self.root,
                 )
                 self.processes[request_id] = proc
                 job["event_id"] = self.event(job)
-                job["status"] = "running"
+                job.update(status="running", started_at=now(), last_activity_at=now(), activity="Ejecución de Codex iniciada")
                 self.persist(job)
                 thread = threading.Thread(target=self.run, args=(job, proc, prompt), daemon=True)
                 self.threads.append(thread)
@@ -153,35 +170,164 @@ class OfficeRuntime:
                 pass
             proc.wait(timeout=3)
 
+    def update(self, job, update_id, message, kind="message", tool_ref=None):
+        with self.lock:
+            updates = job.setdefault("updates", [])
+            previous = next((item for item in updates if item["id"] == update_id), None)
+            if previous and previous["message"] == message and previous["kind"] == kind:
+                return
+            stamp = now()
+            entry = {"id": update_id, "actor": "eva", "message": message[:24000], "kind": kind, "timestamp": stamp}
+            if tool_ref:
+                entry["tool_ref"] = tool_ref
+            if previous:
+                updates[updates.index(previous)] = entry
+            else:
+                updates.append(entry)
+            if len(updates) > 500:
+                job["updates_truncated"] = job.get("updates_truncated", 0) + len(updates) - 500
+                del updates[:-500]
+            job.update(last_activity_at=stamp, activity="Respuesta pública recibida" if kind == "message" else message)
+            self.persist(job)
+
+    def consume(self, job, event):
+        """Only public agent messages and known, sanitized tool event shapes cross the API."""
+        if not isinstance(event, dict):
+            return None
+        if event.get("channel") in {"analysis", "reasoning"} or event.get("phase") in {"analysis", "reasoning"}:
+            return None
+        event_type = event.get("type")
+        if event_type not in {"item.started", "item.updated", "item.completed"}:
+            return None
+        item = event.get("item")
+        if not isinstance(item, dict):
+            return None
+        item_type = item.get("type")
+        if item.get("channel") in {"analysis", "reasoning"} or item.get("phase") in {"analysis", "reasoning"}:
+            return None
+        text = item.get("text")
+        item_id = item.get("id")
+        if not isinstance(item_id, str) or not item_id:
+            item_id = hashlib.sha256(json.dumps(item, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:20]
+        if item_type == "agent_message" and isinstance(text, str) and text.strip():
+            self.update(job, "message:" + item_id, text, "message")
+            return text if event_type == "item.completed" else None
+        labels = {"command_execution": "Ejecutando una comprobación o comando", "file_change": "Actualizando archivos del trabajo", "mcp_tool_call": "Consultando una herramienta conectada", "web_search": "Consultando fuentes", "collab_agent_tool_call": "Coordinando una ejecución de agente"}
+        if item_type not in labels:
+            return None
+        label = labels[item_type]
+        if event_type == "item.completed":
+            label = "Actividad de herramienta finalizada"
+        tool_ref = None
+        # Supported collab shape: a named operation and an explicit list of receiver thread IDs.
+        # Neither prompts nor returned agent text is surfaced; a thread ID is never a person's name.
+        if item_type == "collab_agent_tool_call" and item.get("tool") in {"spawn_agent", "send_message", "wait", "close_agent", "resume_agent"}:
+            receivers = item.get("receiver_thread_ids")
+            if isinstance(receivers, list) and all(isinstance(x, str) and re.fullmatch(r"[A-Za-z0-9_-]{1,100}", x) for x in receivers):
+                tool_ref = {"type": "collab_agent_tool_call", "receiver_thread_ids": receivers}
+        self.update(job, "tool:" + item_id + ":" + event_type, label, "delegation" if tool_ref else "activity", tool_ref)
+        return None
+
+    def stream(self, job, proc, prompt):
+        selector = selectors.DefaultSelector()
+        decoders = {name: codecs.getincrementaldecoder("utf-8")("replace") for name in ("stdout", "stderr")}
+        captured = {"stdout": [], "stderr": []}
+        pending, messages, writer_errors = "", [], []
+        deadline = time.monotonic() + self.timeout
+        drain_deadline, error = None, None
+
+        def write_input():
+            try:
+                proc.stdin.write(prompt)
+                proc.stdin.close()
+            except (OSError, ValueError):
+                writer_errors.append(True)
+
+        writer = threading.Thread(target=write_input, daemon=True)
+        try:
+            for name in ("stdout", "stderr"):
+                pipe = getattr(proc, name)
+                os.set_blocking(pipe.fileno(), False)
+                selector.register(pipe, selectors.EVENT_READ, name)
+            writer.start()
+            while selector.get_map():
+                current = time.monotonic()
+                if drain_deadline is None and current >= deadline:
+                    error = "La ejecución superó el tiempo permitido y fue detenida."
+                    self.terminate(proc)
+                    drain_deadline = time.monotonic() + 3
+                if drain_deadline is not None and current >= drain_deadline:
+                    break
+                for key, _ in selector.select(timeout=.1):
+                    chunk = os.read(key.fileobj.fileno(), 65536)
+                    name = key.data
+                    decoded = decoders[name].decode(chunk, final=not chunk)
+                    captured[name].append(decoded)
+                    if name == "stdout":
+                        pending += decoded
+                        while "\n" in pending:
+                            line, pending = pending.split("\n", 1)
+                            try:
+                                event = json.loads(line)
+                            except ValueError:
+                                continue
+                            text = self.consume(job, event)
+                            if text:
+                                messages.append(text)
+                    if not chunk:
+                        selector.unregister(key.fileobj)
+            if pending.strip():
+                try:
+                    text = self.consume(job, json.loads(pending))
+                    if text:
+                        messages.append(text)
+                except ValueError:
+                    pass
+            try:
+                proc.wait(timeout=max(.1, deadline - time.monotonic()) if error is None else 3)
+            except subprocess.TimeoutExpired:
+                error = "La ejecución superó el tiempo permitido y fue detenida."
+                self.terminate(proc)
+            writer.join(timeout=1)
+            if writer_errors and error is None:
+                error = "No se pudo entregar la solicitud completa a Codex."
+            return "".join(captured["stdout"]), "".join(captured["stderr"]), messages, error
+        except Exception:
+            try:
+                self.terminate(proc)
+            except (OSError, subprocess.SubprocessError):
+                pass
+            return "".join(captured["stdout"]), "".join(captured["stderr"]), messages, "La lectura de la ejecución falló; consulta la evidencia local."
+        finally:
+            selector.close()
+            if writer.ident is not None:
+                writer.join(timeout=3)
+            for name in ("stdin", "stdout", "stderr"):
+                try:
+                    getattr(proc, name).close()
+                except (OSError, ValueError):
+                    pass
+
     def run(self, job, proc, prompt):
         stdout, stderr, result, error = "", "", None, None
         try:
-            stdout, stderr = proc.communicate(prompt, timeout=self.timeout)
-            messages = []
-            for line in stdout.splitlines():
-                try:
-                    event = json.loads(line)
-                except ValueError:
-                    continue
-                item = event.get("item", {}) if isinstance(event, dict) else {}
-                if isinstance(event, dict) and event.get("type") == "item.completed" and item.get("type") == "agent_message" and isinstance(item.get("text"), str):
-                    messages.append(item["text"])
-            if proc.returncode == 0 and messages:
-                result = messages[-1][:24000]
-            else:
-                error = "Codex no completó una respuesta verificable. Consulta la evidencia local."
-        except subprocess.TimeoutExpired:
-            error = "La ejecución superó el tiempo permitido y fue detenida."
-            self.terminate(proc)
-            stdout, stderr = proc.communicate()
+            stdout, stderr, messages, error = self.stream(job, proc, prompt)
+            if error is None:
+                if proc.returncode == 0 and messages:
+                    result = messages[-1][:24000]
+                else:
+                    error = "Codex no completó una respuesta verificable. Consulta la evidencia local."
         except Exception:
             error = "La ejecución falló; consulta la evidencia local."
-            self.terminate(proc)
+            try:
+                self.terminate(proc)
+            except (OSError, subprocess.SubprocessError):
+                pass
         finally:
             with self.lock:
                 if self.closed:
                     error, result = "El servidor se cerró y detuvo la ejecución.", None
-                job.update(status="failed" if error else "completed", result=result, error=error)
+                job.update(status="failed" if error else "completed", result=result, error=error, last_activity_at=now(), activity="Ejecución fallida" if error else "Ejecución terminada")
                 folder = self.folder / job["id"]
                 try:
                     private_write(folder / "logs.json", {"stdout": stdout, "stderr": stderr, "returncode": proc.returncode})
@@ -275,7 +421,8 @@ class Handler(BaseHTTPRequestHandler):
         route = urlsplit(self.path).path
         with runtime.lock:
             if route == "/api/session":
-                self.send(200, {"token": runtime.token, "active_job": runtime.public(runtime.jobs[runtime.active]) if runtime.active else None, "session_mode": "new_execution_per_message"})
+                last = max(runtime.jobs.values(), key=lambda j: j.get("started_at") or j.get("last_activity_at") or "", default=None)
+                self.send(200, {"token": runtime.token, "active_job": runtime.public(runtime.jobs[runtime.active]) if runtime.active else None, "last_job": runtime.public(last) if last else None, "server_now": now(), "session_mode": "new_execution_per_message"})
                 return
             if route.startswith("/api/jobs/"):
                 if not secrets.compare_digest(self.headers.get("X-Office-Token", ""), runtime.token):
