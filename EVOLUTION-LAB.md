@@ -1,41 +1,29 @@
 # Evolution Lab
 
-Laboratorio de optimización del sistema de diseño CONTPAQi y sus skills. El repositorio reúne fuentes, contratos, componentes, protocolos, QA y evidencia. La prioridad es mantenimiento consultable, ejecución documentada y ahorro de tokens antes de construir.
+Oficina de agentes para optimizar la construcción y el mantenimiento del sistema de diseño CONTPAQi y sus skills. [Entrar a la oficina](office/dist/index.html) · [Guía operativa](office/README.md) · [Protocolo de comunicación](office/OPERATING-PROTOCOL.md).
 
-## Estado de esta entrega
+## Objetivos y equipo
 
-Implementado: delegación técnica sin espera humana rutinaria, QA obligatorio, dos skills empaquetadas desde un mismo corte, y controles de conexión MCP, archivo destino y biblioteca para Figma. El usuario revisa cuando lo necesita; sus observaciones abren una corrección acotada. Nunca se simula aprobación humana ni se transforma una prueba fallida en PASS.
+La configuración canónica de [perfiles y directivas](office/config.json) reúne cinco roles: Eva coordina, Atlas documenta, Bruno construye, Vera verifica e Iris optimiza. Son perfiles de IA activados por encargo; no se afirma que cinco procesos permanezcan ejecutándose. Atlas eligió su nombre y la verificadora adoptó Vera; los demás nombres de especialistas son asignaciones iniciales del orquestador.
 
-Pendiente: cargador automático de specs desde GitHub, catálogo remoto firmado/verificado, automatización de ingesta y ejecución periódica del laboratorio. Los ZIP actuales contienen snapshots; no se actualizan solos. La biblioteca Figma y el cliente Genspark requieren pruebas propias.
+El equipo prioriza documentación fácil de consultar, ejecución documentada de los protocolos del DS y ahorro de tokens antes de construir. En cada tarea busca mejoras relacionadas con estos objetivos, compara resultados y registra aprendizajes. Esa directiva no autoriza ampliar el alcance ni iniciar tareas periódicas.
 
-## Roles bajo demanda
+## Comunicación observable
 
-| Perfil | Responsabilidad | Entrega |
-|---|---|---|
-| Orquestador | Define alcance, métrica, presupuesto y reutilización antes de delegar | Plan y decisiones visibles |
-| Documentalista | Conserva fuentes y genera contratos/documentación trazable | Specs y referencias |
-| Constructor | Materializa el trabajo solicitado en su destino autorizado | Código o nodos reales |
-| Verificador | Comprueba integridad y criterios de aceptación | QA y evidencia con límites |
-| Optimizador | Propone y compara mejoras contra una referencia medida | Resultado y recomendación |
+La oficina muestra un chat con nombres, solicitudes y respuestas correlacionadas en orden. Permite filtrar por agente y buscar texto; las directrices y la evidencia se abren bajo demanda. Su fuente es [el registro de eventos](office/events.jsonl), validado mediante [el CLI de oficina](scripts/evolution_office.py).
 
-Son responsabilidades, no cinco agentes obligatorios en cada ejecución. Las tareas deterministas usan scripts y las lecturas se acotan por familia y cambios. El coste incluye coordinación y correcciones; si no hay contador disponible se declara UNAVAILABLE.
+Codex realiza los envíos con sus herramientas de colaboración y el operador registra sus resultados reales. El chat servido por HTTP consulta el estado generado cada tres segundos mientras está visible; el archivo HTML abierto directamente conserva el corte guardado. Los intercambios se presentan resumidos conforme se registran; no contienen razonamiento privado. Al iniciar `python3 scripts/evolution_office_server.py`, el campo de mensaje despacha una ejecución nueva de Codex CLI por encargo usando la sesión local. Eva consulta los registros y activa los perfiles necesarios; no hereda automáticamente la conversación del escritorio ni sus conexiones MCP. El servidor acepta un encargo a la vez, conserva la correlación para evitar duplicados y publica en el chat el resultado real. El modo HTML sin ese servidor sigue siendo de consulta. Un hash encadenado detecta cambios accidentales en el registro, pero no es una firma ni prueba por sí solo que un agente habló.
 
-## Comunicación visible
+## Construcción y QA
 
-Cada encargo registra emisor, receptor, solicitud, motivo, alcance, entregable, estado, respuesta resumida y evidencia. Las solicitudes y resultados reales pueden consultarse; no se fabrica conversación entre agentes ni se presenta razonamiento interno como evidencia.
+La solicitud determina los protocolos aplicables. La documentación, el QA y la evidencia de implementación permiten cerrar el trabajo técnico delegado sin una revisión humana rutinaria como bloqueo. Una prueba fallida o evidencia requerida ausente bloquea la parte afectada; una observación posterior del usuario abre una corrección acotada. No se simula aprobación humana.
 
-El ciclo es objetivo → referencia medible → hipótesis → experimento aislado → comparación → conservar o revertir → aprendizaje documentado. El cierre exige QA verificable, sin revisión humana rutinaria como puerta.
+Para pantallas Figma se necesita una conexión MCP autenticada con capacidad real de escritura y un archivo destino explícito distinto de la biblioteca maestra. Se reutilizan componentes auténticos del DS accesibles en ese destino; no se recrean familias existentes para eludir falta de acceso. Los componentes nuevos cubren necesidades ausentes del catálogo. La skill de prototipos no exige Figma.
 
-## Consumo por diseñadores
+## Distribución y mantenimiento
 
-La skill Figma requiere MCP remoto compatible y autenticado, capacidad de escritura y URL de un archivo destino distinto del maestro, o una solicitud explícita de crearlo. Los componentes del DS tienen prioridad: la biblioteca debe ser accesible, o sus componentes ya estar disponibles con identidad verificable en el destino. Si falta acceso se avisa; no se recrea una familia existente como sustituto. Los componentes locales nuevos cubren necesidades ausentes del catálogo.
+El contenido del DS se publica en GitHub independientemente de la versión del motor instalado. Las skills consultan `catalog/current.json` al comenzar un encargo, verifican manifiesto y archivos, reutilizan caché verificada y fijan ese corte durante el trabajo. No continúan silenciosamente con una copia antigua si no pueden comprobar la fuente.
 
-La skill de PO genera prototipos HTML y su handoff, sin requerir conexión Figma. GitHub público permite consultar documentación sin autenticación; no concede acceso a bibliotecas Figma.
+El workflow de GitHub actualiza el catálogo tras cambios y comprobaciones satisfactorias. La primera ejecución corregida fue verificada en GitHub; los ZIP 0.3.2 descargaron fuentes sin credenciales en pruebas locales. Los instaladores se entregan localmente, no se publican en el repositorio. La ejecución dentro de Genspark es una prueba separada que realiza el usuario.
 
-## Mantenimiento
-
-Las reglas operativas están en AGENTS.md y protocols/. Los registros conservan estados y límites por destino. El objetivo de distribución futura separa versión del motor de skill y versión del contenido del DS; cada ejecución fijará un mismo corte compatible y descargará solo lo necesario. Ese cargador no se presupone implementado por la presencia de este repositorio.
-
-## Actualización: consumo GitHub implementado
-
-Esta sección sustituye el estado anterior de cargador pendiente. Los motores nuevos consultan el canal público catalog/current.json en cada encargo, validan hashes y crean un corte de ejecución. La publicación de datos es independiente de la versión instalada. El workflow de main regenera y publica el canal tras pasar sus comprobaciones; una automatización pendiente o fallida conserva la última publicación. Los ZIP se entregan solo localmente. El uso real de Genspark sigue pendiente de prueba del usuario.
+Los protocolos y fuentes existentes mantienen su autoridad. La oficina organiza la ejecución y visibilidad; sus perfiles no reemplazan los contratos ni los criterios de QA.

@@ -1,0 +1,46 @@
+{
+  "status": "PREPARED_NOT_CLOSED",
+  "run": "2026-10-16-office",
+  "assignment": "Atlas indexing support; not a sixth office profile",
+  "source_cut": "Awaiting final real-message composer implementation; no CURRENT asserted",
+  "config_restoration": {
+    "operation": "Removed only office/dist/ from exclude_prefixes under Eva authorization",
+    "sha256": "06e11388c82167981b38ff8948c9a8aedc82f85225bbdafe7651bd0b863daf0c",
+    "identical_to_engine_0_3_2": true
+  },
+  "local_exclusion": {
+    "path": ".graphifyignore",
+    "rule": "/office/dist/",
+    "supported_by": "graphify.detect.ignored_predicate",
+    "verified": {
+      "office/dist/index.html": true,
+      "office/dist/state.json": true
+    },
+    "outside_skill_engine_fingerprint": true
+  },
+  "semantic_draft": {
+    "files": 10,
+    "nodes": 82,
+    "edges": 85,
+    "usage": "UNAVAILABLE; not zero"
+  },
+  "dynamic_ledger": {
+    "path": "office/events.jsonl",
+    "indexed": false,
+    "reason": "JSONL not present in supported source plan; no semantic ledger coverage claimed"
+  },
+  "catalog": {
+    "status": "CURRENT",
+    "files": 2132,
+    "families": 43,
+    "ds_digest": "17b0c5e289059eff4604febeb20287a27fe4859ed61e8f9ebd918ea5afef7c25"
+  },
+  "pending": [
+    "Wait for final source freeze",
+    "Reprepare if hashes changed and reuse only unchanged semantic sources",
+    "Regenerate derived project status after transient Ruby timeout",
+    "Complete AST/semantic merge, exports, checks and source hashes"
+  ],
+  "user_audit": "NOT_REQUIRED",
+  "human_review_policy": "OPTIONAL_NON_BLOCKING"
+}

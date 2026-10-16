@@ -1,0 +1,47 @@
+test_conflict_preserves_text_and_refreshes_active_job (test_composer.ComposerTests) ... ok
+test_existing_busy_job_blocks_submit_and_failed_job_unlocks (test_composer.ComposerTests) ... ok
+test_expired_session_refreshes_without_losing_text_or_resubmitting (test_composer.ComposerTests) ... ok
+test_keyboard_shortcut_submits_once (test_composer.ComposerTests) ... ok
+test_uncertain_ack_retry_reuses_id_and_completion_unlocks (test_composer.ComposerTests) ... ok
+test_user_messages_render_as_inert_text_with_correlated_reply (test_composer.ComposerTests) ... ok
+test_append_preserves_prior_events_and_hash_chain (test_office.OfficeTests) ... ok
+test_cli_record_file_check_and_render (test_office.OfficeTests) ... ok
+test_completed_response_requires_existing_evidence (test_office.OfficeTests) ... ok
+test_completed_response_with_local_evidence_is_valid (test_office.OfficeTests) ... ok
+test_dashboard_distinguishes_recorded_messages_http_and_local_file (test_office.OfficeTests) ... ok
+test_dashboard_uses_text_nodes_for_untrusted_values (test_office.OfficeTests) ... ok
+test_decisions_and_notes_cannot_claim_completion_without_evidence (test_office.OfficeTests) ... ok
+test_duplicate_id_does_not_modify_ledger (test_office.OfficeTests) ... ok
+test_embedded_json_cannot_escape_script_element (test_office.OfficeTests) ... ok
+test_http_sync_updates_quotes_and_preserves_last_cut_on_disconnect (test_office.OfficeTests) ... ok
+test_invalid_template_prevents_append (test_office.OfficeTests) ... ok
+test_missing_file_or_directory_is_not_evidence (test_office.OfficeTests) ... ok
+test_missing_request_and_second_response_are_rejected (test_office.OfficeTests) ... ok
+test_mutating_historical_message_breaks_validation (test_office.OfficeTests) ... ok
+test_outside_absolute_traversal_and_symlink_evidence_are_rejected (test_office.OfficeTests) ... ok
+test_panel_write_failure_returns_committed_id_and_render_recovers (test_office.OfficeTests) ... ok
+test_parallel_appends_are_not_lost (test_office.OfficeTests) ... ok
+test_render_cannot_overwrite_a_concurrent_newer_record (test_office.OfficeTests) ... ok
+test_render_failure_does_not_hide_a_committed_event (test_office.OfficeTests) ... ok
+test_request_requires_real_dispatch_status_and_no_reply_to (test_office.OfficeTests) ... ok
+test_response_links_request_and_reverses_participants (test_office.OfficeTests) ... ok
+test_state_matches_html_and_revision_tracks_events_and_config (test_office.OfficeTests) ... ok
+test_state_write_failure_returns_committed_id_and_render_recovers (test_office.OfficeTests) ... ok
+test_wrong_participants_or_objective_do_not_answer (test_office.OfficeTests) ... ok
+test_allowlist_blocks_files_and_symlinks (test_server.ComposerTests) ... ok
+test_failure_is_not_success_and_logs_are_not_served (test_server.ComposerTests) ... ok
+test_host_origin_token_and_job_auth (test_server.ComposerTests) ... ok
+test_idempotency_and_busy (test_server.ComposerTests) ... ok
+test_input_limits_and_shapes (test_server.ComposerTests) ... ok
+test_single_runtime_and_restart_idempotency (test_server.ComposerTests) ... ok
+test_success_records_request_response_and_safe_arguments (test_server.ComposerTests) ... ok
+test_timeout_stops_process (test_server.ComposerTests) ... ok
+test_evidence_html_cannot_execute_in_composer_origin (test_server_review.IndependentServerTests) ... ok
+test_final_result_write_failure_releases_worker_and_reports_failure (test_server_review.IndependentServerTests) ... ok
+test_initial_persistence_failure_does_not_leave_runtime_busy (test_server_review.IndependentServerTests) ... ok
+test_startup_failure_and_error_write_failure_still_release_worker (test_server_review.IndependentServerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 34.835s
+
+OK

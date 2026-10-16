@@ -76,6 +76,12 @@ Graphify es un índice derivado, no una autoridad. Confirma los hallazgos contra
 
 ## Estados y cierre
 
+### Oficina Evolution Lab
+
+La oficina se define en [Evolution Lab](EVOLUTION-LAB.md), con roles y directivas canónicas en [office/config.json](office/config.json). Para encargos de orquestación u optimización multiagente, aplica el [protocolo de oficina](office/OPERATING-PROTOCOL.md). Cada perfil busca mejoras en los tres objetivos primarios durante el trabajo autorizado: mantenimiento consultable, construcción documentada del DS y eficiencia de tokens. Registra un preflight ligero antes de construir, reutiliza evidencia vigente y compara beneficios sin inventar métricas ni ampliar el alcance.
+
+Los nombres representan roles de IA separados; las ejecuciones concretas se asignan bajo demanda. Registra solicitudes y respuestas reales con motivo, correlación y evidencia; nunca inventes conversaciones ni actividad en vivo. El panel generado es un corte del registro. Esta directiva no inicia agentes permanentes, monitores ni tareas periódicas.
+
 **Skills como entregable obligatorio:** [DEC-DS-SKILLS-001](registry/DEC-DS-SKILLS-001.md) y P08 exigen que `contpaqi-figma-screens` y `contpaqi-po-prototypes` se generen desde el mismo corte del DS. Al terminar un alta o modificación, sincroniza ambas, comprueba su vigencia y entrega los paquetes versionados; actualiza las copias locales gestionadas cuando ese destino esté autorizado. No cierres la tarea solo con specs o código si las skills quedaron desactualizadas. No edites snapshots de consumo ni las dos skills históricas. Las composiciones locales de una pantalla no se promueven automáticamente al DS. Esta obligación forma parte del cierre del lote; no exige monitores, servidores ni hooks globales.
 
 No confundas aprobación del contrato, preparación del destino y validación de la implementación. P03 define el ciclo documental; P05 registra el estado por destino; P06 define los criterios de cierre.

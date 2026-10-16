@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-10-16T18:21:14.372561+00:00",
+  "url": "http://127.0.0.1:8766/office/dist/index.html",
+  "method": "CUA: escribir solicitud acotada, pulsar Enviar, observar respuesta y botón disponible sin recarga",
+  "job_id": "1fe4d87f-3b1a-4dfc-8d5d-7994b38c6fc8",
+  "result": "Como Eva, soy la orquestadora de Evolution Lab: delimito cada solicitud, coordino los perfiles necesarios e integro sus resultados para cerrar con evidencia técnica verificable.",
+  "returncode": 0,
+  "evidence_sha256": "49a8fb53dd70ad4a1696134175b4a84b60a5b307b07fbb52e535f625be56e726",
+  "screenshot": "output/qa/office/composer-live.png",
+  "first_attempt": {
+    "status": "FAIL",
+    "reason": "CLI rechazó combinación --sandbox y --approve-for-me",
+    "fix": "Usar solo --approve-for-me, que incluye workspace-write y revisión automática"
+  },
+  "limits": [
+    "Prueba real solo lectura, sin delegación",
+    "No acredita Figma MCP ni todos los destinos",
+    "SIGKILL requiere comprobar runners huérfanos antes de reiniciar"
+  ],
+  "user_audit": "NOT_REQUIRED",
+  "human_review_policy": "OPTIONAL_NON_BLOCKING"
+}

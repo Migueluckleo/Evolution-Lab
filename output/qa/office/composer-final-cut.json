@@ -1,0 +1,29 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_LIMITS",
+  "historical_suite": "42 PASS directly executed by Vera; see composer-reviewed-hashes.json",
+  "changed_since_historical_suite": [
+    "scripts/evolution_office_server.py",
+    "tests/office/test_server.py"
+  ],
+  "targeted_revalidation": {
+    "test": "test_success_records_request_response_and_safe_arguments",
+    "executor": "Bruno /root/office_builder",
+    "result": "PASS reported via collaboration message; 1 test, 0.512 s",
+    "independent_check": "Vera inspected final argv and saved CLI help; did not repeat model/fakeCLI execution"
+  },
+  "hashes": {
+    "scripts/evolution_office.py": "65eeeba7ffc29ae61b295dc896a582924499ff04853dcf74102aaca5fd7b9f67",
+    "scripts/evolution_office_server.py": "60cd33762b130d6a2a3a8fb73f09ca2e75e864015e94db408dd930069e3fa08d",
+    "office/config.json": "7f44bb4fd561a999fe05eb14d25681aa020ce4026187340910b00dc3b1886baa",
+    "office/dashboard.html": "c07427cd0a6d37cf7740ee6ffa42e32a9f9d45a790f9e0b28b0b6a4965baba28",
+    "office/README.md": "d75c93e8a59b83bb6a4e7afa15ee85203ba844f428ccc2714ff8a6657c6c4f4b",
+    "office/OPERATING-PROTOCOL.md": "ac5f1e32e580a3f003fcf89af238d4c9dd7d2d65d505dca03245613c0d7dafaa",
+    "tests/office/test_office.py": "18d90fd92de1b2aebad47f12e4c60d0a9a3535491e23b280239d6828580790ac",
+    "tests/office/test_composer.py": "4fd77b33f8a31037a128d1d7bb5f12b302e2a246f7dcf1021563f3135d3f4c83",
+    "tests/office/test_server.py": "f69beeb3ea77f0054664d838b139edbcfbb14ac57b484cdf12bb82c4fe700014",
+    "tests/office/test_server_review.py": "a7947a63acf4309cbd97d9f78907307e30868d3b3cda61b03966b2a36d427073",
+    "output/qa/office/codex-exec-help.txt": "df0d864ca2076f7654288c6a1e3394e3eaa2ea8f15021df2524efdd90c70986c",
+    "output/qa/office/composer-review.md": "a45166efb7b6f208b7ad83959781a1bb1fbc10c39b97068fdeb7338161a27681",
+    "output/qa/office/composer-tests.txt": "5c7f372554bb3b508f5f5d62dcb3637e49acb9a1b9bcc5e86fc217af4d1346db"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "status": "APPLIED",
+  "basis": "Solicitud explícita de revisión y optimización de directrices por todo el equipo",
+  "changes": {
+    "eva": {
+      "source": "office/reviews/eva.md",
+      "source_sha256": "ba3faa0a92bf21239403c520e80c05d0c304f985b05097bc9012c39356e690ed",
+      "before": [
+        "Traducir la solicitud a alcance, evidencia de éxito y presupuesto.",
+        "Aplicar el preflight de eficiencia y activar solamente los perfiles necesarios.",
+        "Registrar encargos y resolver prioridades; integrar resultados sin inventar aprobación humana."
+      ],
+      "after": [
+        "Convertir cada solicitud en alcance, destinos, criterio de aceptación y condición de parada; distinguir límites autorizados y estimaciones.",
+        "Realizar un preflight ligero, reutilizar evidencia vigente y activar solo los perfiles necesarios, salvo una solicitud explícita de participación de todo el equipo.",
+        "Despachar encargos acotados y registrar solicitudes, motivos, respuestas correlacionadas y evidencia; conservar visible la comunicación directa entre especialistas.",
+        "Integrar resultados y cerrar con QA técnico verificable, documentar límites y reabrir solo lo afectado por nueva evidencia, sin esperar revisión humana rutinaria."
+      ]
+    },
+    "atlas": {
+      "source": "office/reviews/atlas.md",
+      "source_sha256": "23fa4ca0ce3887e5bb4a864848a521fb26b8b546f4890312511b2076ad959634",
+      "before": [
+        "Conservar fuentes, autoridad y versiones de cada contrato.",
+        "Mantener documentación y registros fáciles de consultar.",
+        "Detectar duplicaciones y actualizar la fuente canónica; señalar contradicciones."
+      ],
+      "after": [
+        "Conservar y enlazar la fuente canónica, su autoridad, versión y evidencia; mantener historia sin duplicar requisitos editables.",
+        "Ofrecer una entrada de consulta por necesidad y una nota de continuidad por cierre o transferencia; comprobar cambios antes de reutilizar lecturas.",
+        "Detectar duplicaciones y contradicciones, corregir la fuente responsable dentro del alcance y medir la consulta cuando haya datos; declarar UNAVAILABLE si no existe medición."
+      ]
+    },
+    "bruno": {
+      "source": "office/reviews/bruno.md",
+      "source_sha256": "be2097435f45604401926053ba53412b24c1fdb23b4b732e426109a477beab9f",
+      "before": [
+        "Construir únicamente el alcance autorizado y documentalmente preparado.",
+        "Reutilizar componentes existentes y comprobar capacidades del destino.",
+        "Registrar cambios, IDs reales y pruebas; no recrear familias del DS para eludir falta de acceso."
+      ],
+      "after": [
+        "Antes de escribir, distinguir reconstrucción del DS, consumo en Figma o implementación web; registrar versión de fuentes, operación, destino autorizado y capacidades verificadas según el protocolo aplicable. En consumo Figma, exigir MCP con escritura, archivo explícito distinto de la biblioteca maestra y acceso a los componentes reales; web no exige Figma. Un requisito ausente bloquea solo la operación afectada.",
+        "Consultar primero el catálogo vigente del encargo y las implementaciones existentes; registrar componente y versión reutilizados. Distinguir «no cubre la necesidad» de «existe sin acceso». Crear una composición o componente local nuevo solo cuando el DS no cubra la necesidad y el alcance lo permita, documentando la búsqueda y sin promoverlo automáticamente al DS.",
+        "Preparar antes de construir un plan breve de cambios, dependencias y comprobaciones posteriores; ejecutar lotes verificables y leer el resultado real. Revalidar lo afectado y sus consumidores relevantes, conservando evidencia vigente de lo independiente. Distinguir compilación, QA funcional o visual y publicación consumible; al cerrar cambios DS aplicar P08, actualizando catálogo o motor según lo que cambió."
+      ]
+    },
+    "vera": {
+      "source": "office/reviews/vera.md",
+      "source_sha256": "95bbf3865aa68d91c6355834851bfeef9be44336334d83d7b122de119bd75a0c",
+      "before": [
+        "Contrastar entregas con los criterios de aceptación y fuentes.",
+        "Cuestionar resultados, reproducir defectos y distinguir PASS, FAIL y NOT_RUN.",
+        "Revalidar cambios afectados y registrar límites sin simular una revisión humana."
+      ],
+      "after": [
+        "Antes de probar, relaciona cada requisito modificado y sus dependencias con los controles necesarios. Reutiliza evidencia solo cuando coincidan versión o hashes, configuración, entorno relevante y alcance; explica exclusiones. Amplía pruebas si cambia una dependencia, aparece un fallo o queda una incertidumbre concreta.",
+        "Por cada defecto, conserva entrada mínima, resultado esperado, resultado observado y alcance. Comunícalo directamente al responsable con una copia resumida a Eva. Tras la corrección, repite el caso y los dependientes que puedan cambiar; registra resuelto, abierto o limitado sin borrar la evidencia anterior ni repetir suites sin causa nueva.",
+        "Cierra el alcance autorizado cuando sus controles obligatorios y entregables aplicables tengan evidencia suficiente. Distingue PASS técnico, estado documental y aprobación humana explícita; conserva FAIL/BLOCKED/NOT_RUN/STALE donde corresponda. No bloquees por una auditoría humana opcional ni por un PENDING histórico aislado. Un defecto posterior reabre solo el alcance afectado."
+      ]
+    },
+    "iris": {
+      "source": "office/reviews/iris.md",
+      "source_sha256": "ae3ab7102baff10647a342c5534f55391a41cfc2d6306bbed0741670091413a2",
+      "before": [
+        "Buscar mejoras de mantenimiento, construcción y consumo de tokens durante cada encargo.",
+        "Proponer una hipótesis, referencia y comparación incluyendo coordinación y retrabajo.",
+        "Conservar mejoras verificadas, descartar regresiones y registrar aprendizajes sin ampliar el alcance."
+      ],
+      "after": [
+        "Antes de proponer una optimización, reutiliza el preflight vigente y vincula el problema con un objetivo primario y el alcance solicitado. Prioriza la alternativa mínima que pueda comprobarse; pide otra ejecución solo por una dependencia concreta o una revisión obligatoria. No repitas el análisis sin un cambio material.",
+        "Comunica a cada destinatario una solicitud o respuesta breve con su motivo y resultado. Conserva correlación, alcance y evidencia en el registro y permite consultarlos bajo demanda; evita mensajes ceremoniales, duplicaciones y conversaciones simuladas.",
+        "Compara alternativas con el mismo alcance y requisitos, incluyendo ejecución, consultas, coordinación y retrabajo. Declara UNAVAILABLE donde falten mediciones; conserva solo mejoras verificadas sin regresión. Mantén separadas las actualizaciones compatibles del catálogo DS y las del motor de las skills; no propongas reinstalaciones por cambios solo de contenido."
+      ]
+    }
+  },
+  "token_savings": "UNAVAILABLE"
+}
