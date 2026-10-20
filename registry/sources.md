@@ -499,3 +499,7 @@ Anticipa zuUq3gcF9T3CLid44bjY6W, Toolbar20355:72872 y dependencias Options and T
 ## SRC-CONVERSATION-COMPOSER-SLOT-013 · 2026-10-20
 
 Solicitud posterior y confirmación explícita: Slot para todo el aviso, texto y acciones. [Preflight leído](../implementations/figma/conversation-composer.v0.1.3.preflight.json), principal765:397 en tj3WIBEZDGLVs7MJWKCwgf; [tipos y cotejo](../qa/contracts/conversation-composer.v0.1.3.preflight.json). Conserva fuentes y QA0.1.2 como históricos; no altera su significado.
+
+## SRC-EMBEDDED-CHAT-SHELL-20261020 · INDEXED · 2026-10-20
+
+Fuente del usuario: App Shell | Chat embebido1108:3201, página Layout1108:620, instancia del main737:304, en tj3WIBEZDGLVs7MJWKCwgf. [Índice](../sources/figma-snapshots/embedded-chat-shell.1108-3201.index.2026-10-20.json) y batches completos:340 nodos/96 instancias/55 principales/98 variables/20 estilos. [Extracción MD/YAML](../drafts/contracts/embedded-chat-shell/component-contract.md). Solo lectura; sin importar dependencias ni alterar Figma. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

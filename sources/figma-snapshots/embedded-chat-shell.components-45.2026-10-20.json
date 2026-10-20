@@ -1,0 +1,521 @@
+[
+  {
+    "id": "796:246",
+    "key": "1f315f9a08488d0b413cf8cd97518fe8187d147d",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "796:243",
+      "name": "NotePencil",
+      "type": "COMPONENT_SET",
+      "key": "3092c1a44191a153fe4ea22fe2b907bbdf9d2120"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:258",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "796:289",
+    "key": "81c10c25593d451160897a03ccc39cd1fc7fad27",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "796:286",
+      "name": "Chats",
+      "type": "COMPONENT_SET",
+      "key": "9131b41d546ff92516b9ef7872f768215b98a707"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:301",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "796:430",
+    "key": "990b8ff1ee9998637c090a08e61470ecbd96bc02",
+    "name": "State=Default",
+    "remote": false,
+    "description": "CHAT-TOOL-ITEM-001 v0.1.0. Acción editable y Slot Extra actions sin cardinalidad máxima. Disabled no ejecuta hover; no crea chats automáticamente.",
+    "parent": {
+      "id": "796:494",
+      "name": "Chat Tool Item",
+      "type": "COMPONENT_SET",
+      "key": "f036f405326b6139793773917a56e3e48f93bf68"
+    },
+    "definitions": {
+      "Icon#796:8": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "796:246",
+        "preferredValuesCount": 0
+      },
+      "Label#796:9": {
+        "type": "TEXT",
+        "defaultValue": "Nuevo chat",
+        "preferredValuesCount": 0
+      },
+      "Show caret#796:10": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "Extra actions#796:11": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show extra actions#796:12": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:431",
+        "type": "FRAME",
+        "name": "Leading content"
+      },
+      {
+        "id": "796:435",
+        "type": "INSTANCE",
+        "name": "CaretDown"
+      },
+      {
+        "id": "796:437",
+        "type": "SLOT",
+        "name": "Extra actions"
+      }
+    ]
+  },
+  {
+    "id": "807:465",
+    "key": "3c5468dfee3e23cd51744d379cf3da40b60c1600",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "807:462",
+      "name": "DotsThreeVertical",
+      "type": "COMPONENT_SET",
+      "key": "3e33bff6d1d9245f541e3b8903eb0b6af8c1ca37"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "807:477",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "796:474",
+    "key": "92dc05ebe432c65a1e0d066b906b555d06e7f765",
+    "name": "Selected=true, State=Default",
+    "remote": false,
+    "description": "CHAT-HISTORY-ITEM-001 v0.1.0. Title y Actions son Slots nativos. Default muestra tiempo; Hover acciones. Selected independiente. Pin y menú sin lógica de producto.",
+    "parent": {
+      "id": "796:495",
+      "name": "Chat History Item",
+      "type": "COMPONENT_SET",
+      "key": "d97a86851016dfd4e05e10677888e452b7faa88e"
+    },
+    "definitions": {
+      "Title#796:13": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Updated#796:14": {
+        "type": "TEXT",
+        "defaultValue": "1 sem",
+        "preferredValuesCount": 0
+      },
+      "Actions#796:15": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Selected": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ],
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:475",
+        "type": "SLOT",
+        "name": "Title"
+      },
+      {
+        "id": "796:477",
+        "type": "TEXT",
+        "name": "Updated"
+      },
+      {
+        "id": "796:478",
+        "type": "SLOT",
+        "name": "Actions"
+      }
+    ]
+  },
+  {
+    "id": "796:327",
+    "key": "b0d66c2c04014490bfbefe7579e0c98cd16db0a2",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "796:324",
+      "name": "PushPin",
+      "type": "COMPONENT_SET",
+      "key": "51dfd54e3723eb6f987bde9165cdd71f93f1b922"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:339",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "548:255",
+    "key": "33bbf11fec95bfc540e85769b270534f2db07776",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "548:252",
+      "name": "DotsThree",
+      "type": "COMPONENT_SET",
+      "key": "09f6e5554e1d822472f38f728e766039d392e2c4"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "548:267",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "796:456",
+    "key": "958077a57ec436ba74627ce2b311bd805da700b3",
+    "name": "Selected=false, State=Default",
+    "remote": false,
+    "description": "CHAT-HISTORY-ITEM-001 v0.1.0. Title y Actions son Slots nativos. Default muestra tiempo; Hover acciones. Selected independiente. Pin y menú sin lógica de producto.",
+    "parent": {
+      "id": "796:495",
+      "name": "Chat History Item",
+      "type": "COMPONENT_SET",
+      "key": "d97a86851016dfd4e05e10677888e452b7faa88e"
+    },
+    "definitions": {
+      "Title#796:13": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Updated#796:14": {
+        "type": "TEXT",
+        "defaultValue": "1 sem",
+        "preferredValuesCount": 0
+      },
+      "Actions#796:15": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Selected": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ],
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "796:457",
+        "type": "SLOT",
+        "name": "Title"
+      },
+      {
+        "id": "796:461",
+        "type": "TEXT",
+        "name": "Updated"
+      },
+      {
+        "id": "796:462",
+        "type": "SLOT",
+        "name": "Actions"
+      }
+    ]
+  },
+  {
+    "id": "1108:745",
+    "key": "958077a57ec436ba74627ce2b311bd805da700b3",
+    "name": "Selected=false, State=Default",
+    "remote": true,
+    "description": "CHAT-HISTORY-ITEM-001 v0.1.0. Title y Actions son Slots nativos. Default muestra tiempo; Hover acciones. Selected independiente. Pin y menú sin lógica de producto.",
+    "parent": {
+      "id": "1108:744",
+      "name": "Chat History Item",
+      "type": "COMPONENT_SET",
+      "key": "d97a86851016dfd4e05e10677888e452b7faa88e"
+    },
+    "definitions": {
+      "Title#796:13": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Updated#796:14": {
+        "type": "TEXT",
+        "defaultValue": "1 sem",
+        "preferredValuesCount": 0
+      },
+      "Actions#796:15": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Selected": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ],
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "1108:746",
+        "type": "SLOT",
+        "name": "Title"
+      },
+      {
+        "id": "1108:748",
+        "type": "TEXT",
+        "name": "Updated"
+      },
+      {
+        "id": "1108:749",
+        "type": "SLOT",
+        "name": "Actions"
+      }
+    ]
+  },
+  {
+    "id": "797:249",
+    "key": "83ef141671189ffc05d5b1da03149fb76dc4377c",
+    "name": "Format=Outline, Weight=Regular",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "797:248",
+      "name": "MagicWand",
+      "type": "COMPONENT_SET",
+      "key": "8eee1ec5d80707fa209264209db871ff56174b94"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "797:261",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  }
+]

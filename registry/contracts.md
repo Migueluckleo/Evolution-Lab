@@ -555,3 +555,7 @@ Tres contratos v0.1.0 promovidos a specs: [Toolbar](../specs/chat-toolbar.contra
 ## CONVERSATION-COMPOSER-SLOT-001 · 0.1.3 · 2026-10-20
 
 [Enmienda](../specs/components/conversation.composer-slot.amendment.v0.1.3.md), base CONVERSATION-001. DELEGATED_FOR_BUILD tras [QA documental PASS](../qa/contracts/conversation-composer.v0.1.3.review.md). Sustituye solo la estructura fija del aviso CCA0.1.2 por Notice content; usuario confirmó texto y acciones. No reemplaza toda la familia. user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## APP-SHELL-EMBEDDED-CHAT-001 · 0.1.1 · 2026-10-20
+
+DELEGATED_FOR_BUILD para arquitectura de chats embebidos, por DEC-EMBEDDED-CHAT-ARCHITECTURE-001. Amplía App Shell y documenta herencia de Chat Layout0.1.1 y composición con Toolbar/Conversation; no redefine sus principales. Consumo documental READY; normalización integral y construcción de otra pantalla no ejecutadas. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

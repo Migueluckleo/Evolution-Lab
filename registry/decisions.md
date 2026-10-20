@@ -507,3 +507,7 @@ Solicitud EXPLICIT del usuario: integrar20355:72872 y sus dependencias locales d
 ## DEC-CONVERSATION-COMPOSER-SLOT-001 · 2026-10-20
 
 El usuario solicita agregar Slot después del cierre del aviso Composer 0.1.2. Se adopta un Slot nativo Notice content para el contenido completo, alcance inicialmente inferido y después confirmado explícitamente por el usuario, preservando la muestra y Draft/Tools. La [enmienda 0.1.3](../specs/components/conversation.composer-slot.amendment.v0.1.3.md) sustituye la clasificación NOT_APPLICABLE del aviso. QA documental PASS habilita DELEGATED_FOR_BUILD; no implica aprobación humana. user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## DEC-EMBEDDED-CHAT-ARCHITECTURE-001 · 2026-10-20
+
+Solicitud EXPLICIT: documentar el App Shell1108:3201 para que cada chat embebido en un aplicativo respete su arquitectura. Header y navegación global conservados; cabecera contextual y Chat Section izquierda/Chat Toolbar derecha dentro de Content. Máximo816 heredado de la enmienda vigente Chat Layout0.1.1. Adopción DELEGATED_FOR_BUILD tras QA documental PASS; no normaliza detalles de la muestra ni reconstruye Figma. Se integra al canal de ambas skills de Evolution-Lab conforme al flujo vigente. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

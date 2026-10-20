@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "VariableID:f648c71c358aa10f00ccc7220c2d27b800f4e667/15006:57",
+    "key": "f648c71c358aa10f00ccc7220c2d27b800f4e667",
+    "name": "Size/Font/Body/Base",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "15001:1": 14
+    },
+    "description": "",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:5acd187ce24c5a3d2600199581a1c29cc7c67313/15001:246",
+      "key": "5acd187ce24c5a3d2600199581a1c29cc7c67313",
+      "name": "tokens",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "15001:1"
+        }
+      ],
+      "defaultModeId": "15001:1"
+    }
+  },
+  {
+    "id": "VariableID:12:36",
+    "key": "80a1c238146e22cf0856023b7effd86715a55121",
+    "name": "spacing/4xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:50"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:50"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:50"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:50"
+      }
+    },
+    "description": "Nivel superior de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "scopes": [
+      "GAP"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:34",
+    "key": "822683fdadbc2e6cf5b287d4a451a1ddbe131084",
+    "name": "spacing/2xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:48"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:48"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:48"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:48"
+      }
+    },
+    "description": "Nivel grande de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "scopes": [
+      "GAP"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:773:276",
+    "key": "17526c46d990aec855ccd881588697ed490e542b",
+    "name": "color/characters/navi/body",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "773:0": {
+        "r": 0.9607843160629272,
+        "g": 0.5137255191802979,
+        "b": 0.25882354378700256,
+        "a": 1
+      }
+    },
+    "description": "Color original e invariable del cuerpo de NAVI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {
+      "WEB": "var(--color-characters-navi-body)"
+    },
+    "collection": {
+      "id": "VariableCollectionId:773:274",
+      "key": "d4338fab92327f8c10a0a42ee13997c4119167e0",
+      "name": "character-identity",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "773:0"
+        }
+      ],
+      "defaultModeId": "773:0"
+    }
+  },
+  {
+    "id": "VariableID:773:277",
+    "key": "0a62db1ae59299ae00a901f6037b7fd60b634e60",
+    "name": "color/characters/shared/features",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "773:0": {
+        "r": 0.8941176533699036,
+        "g": 0.8980392217636108,
+        "b": 0.9019607901573181,
+        "a": 1
+      }
+    },
+    "description": "Color original compartido de ojos y rasgos de BENI y NAVI. Uso exclusivo en ambos personajes; no es texto, fondo ni iconografía funcional temática.",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {
+      "WEB": "var(--color-characters-shared-features)"
+    },
+    "collection": {
+      "id": "VariableCollectionId:773:274",
+      "key": "d4338fab92327f8c10a0a42ee13997c4119167e0",
+      "name": "character-identity",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "773:0"
+        }
+      ],
+      "defaultModeId": "773:0"
+    }
+  },
+  {
+    "id": "VariableID:12:3",
+    "key": "41642e9b36332a80ae764644871c666518902777",
+    "name": "font/size/2xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:8"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:8"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:8"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:8"
+      }
+    },
+    "description": "Nivel grande de la escala semántica de tamaño tipográfico. Úsalo para jerarquías que necesiten alta presencia visual manteniendo el vínculo con la escala del sistema.",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:12",
+    "key": "344a5dab23cc482780fa11679b70ee66516f7ea0",
+    "name": "font/line-height/2xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:17"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:17"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:17"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:17"
+      }
+    },
+    "description": "Nivel grande de interlineado semántico. Úsalo para composiciones tipográficas de alta presencia que necesiten conservar proporción vertical dentro de la escala.",
+    "scopes": [
+      "LINE_HEIGHT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:10",
+    "key": "ba925ffb7da3ff79133acf48d63b7807b7294cff",
+    "name": "font/line-height/lg",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:15"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:15"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:15"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:15"
+      }
+    },
+    "description": "Nivel ampliado de interlineado semántico. Úsalo cuando el texto requiera más aire vertical que el nivel base.",
+    "scopes": [
+      "LINE_HEIGHT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:13:70",
+    "key": "b965a85907887973cd5e64cf6543765504b4428f",
+    "name": "color/surface/brand/accent",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:85"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:59"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:68"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:77"
+      }
+    },
+    "description": "Superficie de marca con un nivel de acento superior a `color/surface/brand`. Úsala cuando una región de identidad necesite más presencia manteniendo un tratamiento de fondo suave.",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:13:29",
+    "key": "2084313fd93be5bfba80030831d62dd20326fadc",
+    "name": "color/text/tertiary",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:97"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:97"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:97"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:97"
+      }
+    },
+    "description": "Color de texto de baja jerarquía. Úsalo para información auxiliar cuya presencia deba ser más discreta que el contenido secundario.",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:13:8",
+    "key": "4b161005249b8f516e5eb7b60449f7737a8053ad",
+    "name": "radius/xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:40"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:40"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:40"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:40"
+      }
+    },
+    "description": "Nivel muy alto de redondeo semántico. Úsalo cuando la geometría requiera una curvatura dominante sin llegar al radio completo.",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:13:36",
+    "key": "40a1836a16ec366e4a4e814f476c7ea906501ed3",
+    "name": "color/background/subtle",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:94"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:94"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:94"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:94"
+      }
+    },
+    "description": "Fondo neutral de baja prominencia para crear una separación suave respecto al fondo base. Úsalo cuando una región necesite diferenciación ligera sin asumir un rol interactivo o de estado.",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:40",
+    "key": "b82b0e51ea5dea219c51460196e2bf912a71ef6f",
+    "name": "stroke/none",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:53"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:53"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:53"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:53"
+      }
+    },
+    "description": "Ausencia intencional de grosor de trazo dentro de la escala semántica. Úsalo cuando un borde deba eliminarse mediante una decisión tokenizada en lugar de un valor local.",
+    "scopes": [
+      "STROKE_FLOAT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:712:122",
+    "key": "fb41af2f7d7d9516026a20973ab44171be0d3e8e",
+    "name": "color/border/control/subtle",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:85"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:59"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:121"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:77"
+      }
+    },
+    "description": "Borde de baja prominencia de Buttons, Icon Buttons y Metric Cards; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios.",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "codeSyntax": {
+      "WEB": "var(--color-border-control-subtle)"
+    },
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:13:15",
+    "key": "17cf80fa64ca648b192496cea335ab9b8b8bcbf5",
+    "name": "color/border/strong",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:95"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:95"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:95"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:95"
+      }
+    },
+    "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback.",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:24",
+    "key": "cf4ca908e0b352f3c4083085c16abfca2a6d7295",
+    "name": "size/2xl",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:28"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:28"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:28"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:28"
+      }
+    },
+    "description": "Nivel grande de la escala semántica de dimensiones. Úsalo cuando una medida de ancho o alto deba seguir este grado relativo de tamaño sin depender del valor primitivo subyacente.",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:12:31",
+    "key": "4e3a82a46ec486c78358ed5b929445b7bfd80cc8",
+    "name": "spacing/md",
+    "remote": false,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "6:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:45"
+      },
+      "6:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:45"
+      },
+      "6:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:45"
+      },
+      "6:3": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:8:45"
+      }
+    },
+    "description": "Nivel compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+    "scopes": [
+      "GAP"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:6:2",
+      "key": "c04a0ffd54a55af31ee830f9e9f3b519f84a4e57",
+      "name": "semantic",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ],
+      "defaultModeId": "6:0"
+    }
+  },
+  {
+    "id": "VariableID:773:275",
+    "key": "76fe316640460812fd06c8598caef635632c2d38",
+    "name": "color/characters/beni/body",
+    "remote": false,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "773:0": {
+        "r": 0.2549019753932953,
+        "g": 0.3450980484485626,
+        "b": 0.6078431606292725,
+        "a": 1
+      }
+    },
+    "description": "Color original e invariable del cuerpo de BENI. Uso exclusivo en el personaje; no hereda temas ni representa estados de interfaz.",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {
+      "WEB": "var(--color-characters-beni-body)"
+    },
+    "collection": {
+      "id": "VariableCollectionId:773:274",
+      "key": "d4338fab92327f8c10a0a42ee13997c4119167e0",
+      "name": "character-identity",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "773:0"
+        }
+      ],
+      "defaultModeId": "773:0"
+    }
+  },
+  {
+    "id": "VariableID:9c684d7b75159edbaab7706f53d5ed458f6dc6b8/17569:233",
+    "key": "9c684d7b75159edbaab7706f53d5ed458f6dc6b8",
+    "name": "Color/text/base",
+    "remote": true,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "17569:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:ca2ca2cc17d99357b05a0401d6eb230dfad804b5/3639:893"
+      }
+    },
+    "description": "",
+    "scopes": [
+      "SHAPE_FILL",
+      "TEXT_FILL"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:49d05b70c18c308085d9d9377272e4dc9dad207a/17569:10",
+      "key": "49d05b70c18c308085d9d9377272e4dc9dad207a",
+      "name": "Tokens 2.0",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "17569:0"
+        }
+      ],
+      "defaultModeId": "17569:0"
+    }
+  },
+  {
+    "id": "VariableID:75f0769d1fb2243335a98c52e4fb7fae9b3ce8e9/15006:66",
+    "key": "75f0769d1fb2243335a98c52e4fb7fae9b3ce8e9",
+    "name": "Size/Font/Subheading/md",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "15001:1": 16
+    },
+    "description": "",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:5acd187ce24c5a3d2600199581a1c29cc7c67313/15001:246",
+      "key": "5acd187ce24c5a3d2600199581a1c29cc7c67313",
+      "name": "tokens",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "15001:1"
+        }
+      ],
+      "defaultModeId": "15001:1"
+    }
+  },
+  {
+    "id": "VariableID:4f36a89ff3f1560665805305d5132f9b73d4b2ad/3639:849",
+    "key": "4f36a89ff3f1560665805305d5132f9b73d4b2ad",
+    "name": "spacing/none",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:08236f86ddafd66a020e5a614bd2391c1009d9c9/2507:762"
+      }
+    },
+    "description": "Sin espaciado — 0px",
+    "scopes": [
+      "GAP"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790",
+      "key": "2b4ff33eb0a4c93737f24987de0779fbb064fb45",
+      "name": "semantic",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ],
+      "defaultModeId": "52:2"
+    }
+  },
+  {
+    "id": "VariableID:a8d2e43425dd224dd65342e23db51560c586bf22/8871:7",
+    "key": "a8d2e43425dd224dd65342e23db51560c586bf22",
+    "name": "size/3xl",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6b52cc609e0ab2fa48c123a2db23d4f1aae7de36/2507:638"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6b52cc609e0ab2fa48c123a2db23d4f1aae7de36/2507:638"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6b52cc609e0ab2fa48c123a2db23d4f1aae7de36/2507:638"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6b52cc609e0ab2fa48c123a2db23d4f1aae7de36/2507:638"
+      }
+    },
+    "description": "Tamaño xl — 32px",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790",
+      "key": "2b4ff33eb0a4c93737f24987de0779fbb064fb45",
+      "name": "semantic",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ],
+      "defaultModeId": "52:2"
+    }
+  },
+  {
+    "id": "VariableID:31c39dae3354372bf695953f2b7d26172742bdeb/3639:799",
+    "key": "31c39dae3354372bf695953f2b7d26172742bdeb",
+    "name": "radius/md",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:fe441063e0ec63f2758bc3dea112cad37f6542bb/2507:645"
+      }
+    },
+    "description": "Border radius md — 8px",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790",
+      "key": "2b4ff33eb0a4c93737f24987de0779fbb064fb45",
+      "name": "semantic",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ],
+      "defaultModeId": "52:2"
+    }
+  },
+  {
+    "id": "VariableID:7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e/4360:12",
+    "key": "7b6bf4f6145d8f0aa9bf8e84a38d58241bcd9e2e",
+    "name": "icons/xsm-icon-size",
+    "remote": true,
+    "resolvedType": "FLOAT",
+    "valuesByMode": {
+      "319:3": 16
+    },
+    "description": "",
+    "scopes": [
+      "WIDTH_HEIGHT"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:05ca11e40c0c84293ab3a0994630f61f0d156c22/4317:201",
+      "key": "05ca11e40c0c84293ab3a0994630f61f0d156c22",
+      "name": "Size",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "319:3"
+        }
+      ],
+      "defaultModeId": "319:3"
+    }
+  },
+  {
+    "id": "VariableID:d54da22e7e50c1893e114ea6cd0d90d2d2769a04/3639:915",
+    "key": "d54da22e7e50c1893e114ea6cd0d90d2d2769a04",
+    "name": "color/icon/primary",
+    "remote": true,
+    "resolvedType": "COLOR",
+    "valuesByMode": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:0901549e67d1754f697bfd4fb00c3724c7e125cf/2507:695"
+      }
+    },
+    "description": "Ícono primario — contenido principal. Input icon, cell icon, menu icon.",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "codeSyntax": {},
+    "collection": {
+      "id": "VariableCollectionId:2b4ff33eb0a4c93737f24987de0779fbb064fb45/3639:790",
+      "key": "2b4ff33eb0a4c93737f24987de0779fbb064fb45",
+      "name": "semantic",
+      "remote": true,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ],
+      "defaultModeId": "52:2"
+    }
+  }
+]

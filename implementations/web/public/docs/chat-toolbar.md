@@ -6,7 +6,7 @@ Familia `CHAT-TOOLBAR-001` · API local 0.1.0 · categoría Composición.
 
 ## Uso sin backend
 
-Altura791 y ancho79/264 según contrato y enmienda0.1.1. Contenido conservado al contraer. Show indicators=false y Show plan=true. Se conserva la ausencia de overflow de la fuente; listas que excedan el alto son la limitación documental conocida.
+Altura791 y ancho79/264 según contrato y enmienda0.1.1. Contenido conservado al contraer. Show indicators=false y Show plan=true. Se conserva la ausencia de overflow de la fuente; listas que excedan el alto son la limitación documental conocida. Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.
 
 ```tsx
 'use client';
@@ -52,6 +52,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [chat-toolbar.contract.v0.1.0.md](../../../../specs/chat-toolbar.contract.v0.1.0.md) · SHA-256 `2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43`.
 - [chat.layout.amendment.v0.1.1.md](../../../../specs/components/chat.layout.amendment.v0.1.1.md) · SHA-256 `f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c`.
 - [chat-toolbar.typography.amendment.v0.1.0.md](../../../../specs/components/chat-toolbar.typography.amendment.v0.1.0.md) · SHA-256 `762ae9b620eff3b8c95c54582c165a0a13a64d7ff79785fb2720df40ff438cf4`.
+- [app-shell.embedded-chat.amendment.v0.1.1.md](../../../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md) · SHA-256 `2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

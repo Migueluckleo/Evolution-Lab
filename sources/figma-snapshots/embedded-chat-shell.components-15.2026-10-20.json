@@ -1,0 +1,735 @@
+[
+  {
+    "id": "155:123",
+    "key": "b70cc9fc852475b3ac2159fdd8ad142eb57c6c6f",
+    "name": "Type=Active, Size=Large",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "155:144",
+      "name": "Dot",
+      "type": "COMPONENT_SET",
+      "key": "df0969da7bf718ca2f0e9447eafb49c1233cba01"
+    },
+    "definitions": {
+      "Count#155:6": {
+        "type": "TEXT",
+        "defaultValue": "1",
+        "preferredValuesCount": 0
+      },
+      "Overflow label#155:7": {
+        "type": "TEXT",
+        "defaultValue": "99+",
+        "preferredValuesCount": 0
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Active",
+        "variantOptions": [
+          "Active",
+          "Busy",
+          "Inactive",
+          "Count",
+          "Overflow"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Large",
+        "variantOptions": [
+          "Large",
+          "Medium",
+          "Small"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": []
+  },
+  {
+    "id": "291:167",
+    "key": "d9a28f4df9efa536c84babfaa67dbbf0eeb26d96",
+    "name": "Format=Stroke, Weight=Thin",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "291:159",
+      "name": "CaretDown",
+      "type": "COMPONENT_SET",
+      "key": "3501e37259778aa960dc8409cebc8ade3a70ff9b"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "291:181",
+        "type": "VECTOR",
+        "name": "Vector"
+      },
+      {
+        "id": "291:182",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "619:481",
+    "key": "17dcead0873d4db26b53b8e23c0871e4e637811d",
+    "name": "Presentation=Collapsed",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "619:480",
+      "name": "Sidebar",
+      "type": "COMPONENT_SET",
+      "key": "9def7e3a4a91c77b7364626dd6a5a13c31da4b77"
+    },
+    "definitions": {
+      "Menu items#8283:0": {
+        "type": "SLOT",
+        "preferredValuesCount": 1
+      },
+      "Lower options#8283:3": {
+        "type": "SLOT",
+        "preferredValuesCount": 1
+      },
+      "Presentation": {
+        "type": "VARIANT",
+        "defaultValue": "Collapsed",
+        "variantOptions": [
+          "Collapsed",
+          "Expanded"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "619:482",
+        "type": "FRAME",
+        "name": "Icon button"
+      },
+      {
+        "id": "619:484",
+        "type": "SLOT",
+        "name": "Menu items"
+      },
+      {
+        "id": "619:492",
+        "type": "SLOT",
+        "name": "Lower options"
+      }
+    ]
+  },
+  {
+    "id": "190:158",
+    "key": "e2fc671298e81c590f5a4a5272d9c97709515666",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "190:155",
+      "name": "CaretRight",
+      "type": "COMPONENT_SET",
+      "key": "240a5c949aaadf8bfed293c4286f73556107b371"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "190:170",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "615:363",
+    "key": "441b8446a27b615d97385999fc6a42e2b47f5d25",
+    "name": "orientation=vertical, type=collapsed, status=default, isActive=true",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "615:355",
+      "name": "Menu Item",
+      "type": "COMPONENT_SET",
+      "key": "073d64dbade684c86a7f243d9ab895749f41de65"
+    },
+    "definitions": {
+      "show right icon#3365:74": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "label#3374:99": {
+        "type": "TEXT",
+        "defaultValue": "Home",
+        "preferredValuesCount": 0
+      },
+      "fill icon#3374:122": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "615:127",
+        "preferredValuesCount": 1512
+      },
+      "light icon#3374:145": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "615:125",
+        "preferredValuesCount": 1512
+      },
+      "orientation": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "vertical",
+          "horizontal"
+        ],
+        "preferredValuesCount": 0
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "collapsed",
+        "variantOptions": [
+          "collapsed",
+          "expanded",
+          "sub-menu"
+        ],
+        "preferredValuesCount": 0
+      },
+      "status": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "default",
+          "hover",
+          "focus"
+        ],
+        "preferredValuesCount": 0
+      },
+      "isActive": {
+        "type": "VARIANT",
+        "defaultValue": "true",
+        "variantOptions": [
+          "true",
+          "false"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "615:364",
+        "type": "INSTANCE",
+        "name": "Icon"
+      },
+      {
+        "id": "615:365",
+        "type": "VECTOR",
+        "name": "Union"
+      }
+    ]
+  },
+  {
+    "id": "615:127",
+    "key": "7de3e2b6dd8bfe526ed1ec72cc2df4052c42c2de",
+    "name": "Format=Outline, Weight=Fill",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "615:122",
+      "name": "HouseLine",
+      "type": "COMPONENT_SET",
+      "key": "80336447e6514b240dea1521c75b218a7fcd0634"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "615:139",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "615:366",
+    "key": "bb7d9430568256eeefb35b987942d3a027e83518",
+    "name": "orientation=vertical, type=collapsed, status=default, isActive=false",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "615:355",
+      "name": "Menu Item",
+      "type": "COMPONENT_SET",
+      "key": "073d64dbade684c86a7f243d9ab895749f41de65"
+    },
+    "definitions": {
+      "show right icon#3365:74": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "label#3374:99": {
+        "type": "TEXT",
+        "defaultValue": "Home",
+        "preferredValuesCount": 0
+      },
+      "fill icon#3374:122": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "615:127",
+        "preferredValuesCount": 1512
+      },
+      "light icon#3374:145": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "615:125",
+        "preferredValuesCount": 1512
+      },
+      "orientation": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "vertical",
+          "horizontal"
+        ],
+        "preferredValuesCount": 0
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "collapsed",
+        "variantOptions": [
+          "collapsed",
+          "expanded",
+          "sub-menu"
+        ],
+        "preferredValuesCount": 0
+      },
+      "status": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "default",
+          "hover",
+          "focus"
+        ],
+        "preferredValuesCount": 0
+      },
+      "isActive": {
+        "type": "VARIANT",
+        "defaultValue": "true",
+        "variantOptions": [
+          "true",
+          "false"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "615:367",
+        "type": "INSTANCE",
+        "name": "Icon"
+      }
+    ]
+  },
+  {
+    "id": "615:125",
+    "key": "090ff24ab3485ba51fe71427dd00328da0afe68f",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "615:122",
+      "name": "HouseLine",
+      "type": "COMPONENT_SET",
+      "key": "80336447e6514b240dea1521c75b218a7fcd0634"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "615:137",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "395:163",
+    "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "395:160",
+      "name": "Question",
+      "type": "COMPONENT_SET",
+      "key": "42f044d97a4523a55ce4e9a49a566c2fbc731e7d"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "395:175",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "1108:1458",
+    "key": "3db42e950c5ba45a17562753c4dc3ac989b7369a",
+    "name": "label BETA",
+    "remote": true,
+    "description": "",
+    "parent": null,
+    "definitions": {},
+    "children": [
+      {
+        "id": "1108:1459",
+        "type": "TEXT",
+        "name": "Beta"
+      },
+      {
+        "id": "1108:1460",
+        "type": "INSTANCE",
+        "name": "bluesky"
+      }
+    ]
+  },
+  {
+    "id": "1108:1456",
+    "key": "de41cdde3a14f2c9ab21c7d198d30abd37777e24",
+    "name": "bluesky",
+    "remote": true,
+    "description": "",
+    "parent": null,
+    "definitions": {},
+    "children": [
+      {
+        "id": "1108:1457",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "783:24",
+    "key": "f4c23bbff6fcb0a17ff567776d48f7ede0c1d821",
+    "name": "State=Standby",
+    "remote": false,
+    "description": "CHAT-SECTION-001 v0.1.0. Standby/Active con Slots Messages y Suggestions. UI temática; BENI/NAVI fijos. Estado visual sin backend ni animación de lectura. Ancho mínimo574; contenido central542.",
+    "parent": {
+      "id": "784:98",
+      "name": "Chat Section",
+      "type": "COMPONENT_SET",
+      "key": "0f1b6e9a70f3f6db3fa9800301c88c671018e6af"
+    },
+    "definitions": {
+      "Greeting#784:2": {
+        "type": "TEXT",
+        "defaultValue": "Hola,",
+        "preferredValuesCount": 0
+      },
+      "User name#784:3": {
+        "type": "TEXT",
+        "defaultValue": "Bruce Wayne",
+        "preferredValuesCount": 0
+      },
+      "Subtitle#784:4": {
+        "type": "TEXT",
+        "defaultValue": "¿En qué necesitas que te ayude?",
+        "preferredValuesCount": 0
+      },
+      "Messages#784:5": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Status text#784:6": {
+        "type": "TEXT",
+        "defaultValue": "Leyendo la información...",
+        "preferredValuesCount": 0
+      },
+      "Show status#784:7": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Suggestions#784:8": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Standby",
+        "variantOptions": [
+          "Standby",
+          "Active"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "783:25",
+        "type": "FRAME",
+        "name": "Chat content"
+      }
+    ]
+  },
+  {
+    "id": "821:42",
+    "key": "94bd6e43b3fd1b57cc120cfe82876e852f48e482",
+    "name": "Frame=01",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "822:7",
+      "name": "NAVI Analysis",
+      "type": "COMPONENT_SET",
+      "key": "c9e8fdd950cb06c102ec1cee49a7bd1498decd6f"
+    },
+    "definitions": {
+      "Frame": {
+        "type": "VARIANT",
+        "defaultValue": "01",
+        "variantOptions": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "821:43",
+        "type": "VECTOR",
+        "name": "Vector"
+      },
+      {
+        "id": "821:44",
+        "type": "VECTOR",
+        "name": "sombra"
+      },
+      {
+        "id": "821:47",
+        "type": "GROUP",
+        "name": "ojos"
+      },
+      {
+        "id": "821:48",
+        "type": "VECTOR",
+        "name": "sombra L"
+      },
+      {
+        "id": "821:49",
+        "type": "VECTOR",
+        "name": "sombra R"
+      }
+    ]
+  },
+  {
+    "id": "765:271",
+    "key": "ad6c69d13e59dac66d52dd09b9273d4aaadea9f0",
+    "name": "Conversation Message",
+    "remote": false,
+    "description": "CONVERSATION-001 v0.1.0. Composición visual homologada con tokens locales. No ejecuta operaciones de chat.",
+    "parent": {
+      "id": "765:6",
+      "name": "Conversation",
+      "type": "PAGE"
+    },
+    "definitions": {
+      "Message text#765:1": {
+        "type": "TEXT",
+        "defaultValue": "Muéstrame facturas de personas físicas con IVA retenido en marzo 2025",
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "765:272",
+        "type": "FRAME",
+        "name": "Message bubble"
+      }
+    ]
+  },
+  {
+    "id": "765:397",
+    "key": "66f0a9ee184cd9a6116725da4b1cfab1d0eac26c",
+    "name": "Conversation Composer",
+    "remote": false,
+    "description": "CONVERSATION-001 v0.1.0. Composición visual homologada con tokens locales. No ejecuta operaciones de chat.",
+    "parent": {
+      "id": "765:6",
+      "name": "Conversation",
+      "type": "PAGE"
+    },
+    "definitions": {
+      "Disclaimer#765:10": {
+        "type": "TEXT",
+        "defaultValue": "Te recomendamos revisar la información importante para asegurar un resultado óptimo",
+        "preferredValuesCount": 0
+      },
+      "Show disclaimer#765:11": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Draft#765:12": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show model selector#765:13": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "Model label#765:14": {
+        "type": "TEXT",
+        "defaultValue": "Navi Auto V1.0",
+        "preferredValuesCount": 0
+      },
+      "Tools#765:15": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show action#1087:0": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "Notice content#1103:0": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "765:398",
+        "type": "TEXT",
+        "name": "Disclaimer"
+      },
+      {
+        "id": "1087:497",
+        "type": "FRAME",
+        "name": "input"
+      }
+    ]
+  }
+]

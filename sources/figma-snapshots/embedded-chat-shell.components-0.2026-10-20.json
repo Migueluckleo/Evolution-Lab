@@ -1,0 +1,728 @@
+[
+  {
+    "id": "737:304",
+    "key": "4756e7bbbbb826773cf7ef8c833df936d729d014",
+    "name": "App Shell",
+    "remote": false,
+    "description": "Contenedor desktop de pantalla: Header y Sidebar locales, más Slot Content vacío para contenido variable. Baseline1440×1024, sin breakpoints móviles definidos. Configura Header/Sidebar expuestos y añade contenido en la instancia sin detach. Consume tokens semánticos del JSON canónico; APP-SHELL-0010.1.0. QA y auditoría humana se registran por separado.",
+    "parent": {
+      "id": "737:303",
+      "name": "App Shell",
+      "type": "PAGE"
+    },
+    "definitions": {
+      "Content#737:1": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "737:305",
+        "type": "INSTANCE",
+        "name": "Header"
+      },
+      {
+        "id": "737:410",
+        "type": "FRAME",
+        "name": "Body"
+      }
+    ]
+  },
+  {
+    "id": "518:123",
+    "key": "5c73b49a0ef60064f3dd1a3a7e564dc6571e81ea",
+    "name": "Header",
+    "remote": false,
+    "description": "Cabecera de escritorio con identidad de categoría, versión, acciones variables, empresa y perfil. Actions es Slot nativo 0..n; cuatro textos editables y Avatar expuesto. Roles semánticos por tema; logos agnósticos. HEADER-001 v0.1.0. Navegación y responsive móvil no definidos.",
+    "parent": {
+      "id": "524:252",
+      "name": "Header / Component",
+      "type": "FRAME"
+    },
+    "definitions": {
+      "Actions#518:0": {
+        "type": "SLOT",
+        "preferredValuesCount": 1
+      },
+      "Show version#522:0": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Show actions#522:1": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Show company#522:2": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Show user#522:3": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Version#522:4": {
+        "type": "TEXT",
+        "defaultValue": "2.0.0",
+        "preferredValuesCount": 0
+      },
+      "Release label#522:5": {
+        "type": "TEXT",
+        "defaultValue": "ALPHA .1",
+        "preferredValuesCount": 0
+      },
+      "Company#522:6": {
+        "type": "TEXT",
+        "defaultValue": "Empresa SA de CV",
+        "preferredValuesCount": 0
+      },
+      "Tax ID#522:7": {
+        "type": "TEXT",
+        "defaultValue": "CAC840428RH1",
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "522:295",
+        "type": "INSTANCE",
+        "name": "Logo Categoria"
+      },
+      {
+        "id": "522:397",
+        "type": "FRAME",
+        "name": "content"
+      }
+    ]
+  },
+  {
+    "id": "435:2654",
+    "key": "a0490a38c9d3e6c5cca9d1339a1441748dc7de2d",
+    "name": "categoria=contable",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "435:2653",
+      "name": "logo-categoria",
+      "type": "COMPONENT_SET",
+      "key": "ccbbf7b7593e2c520f1b23a38237f0fb0d86fc8f"
+    },
+    "definitions": {
+      "categoria": {
+        "type": "VARIANT",
+        "defaultValue": "contable",
+        "variantOptions": [
+          "contable",
+          "comercial",
+          "servicios",
+          "personas"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "435:2655",
+        "type": "INSTANCE",
+        "name": "contables"
+      }
+    ]
+  },
+  {
+    "id": "434:3606",
+    "key": "7f0955e2fc40969de0780f516579c782f09904d5",
+    "name": "product=contabilidad, type=horizontal",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "434:3372",
+      "name": "contables",
+      "type": "COMPONENT_SET",
+      "key": "e43cdfdba40d7c2b49d0d0ee99091d87da65bac9"
+    },
+    "definitions": {
+      "product": {
+        "type": "VARIANT",
+        "defaultValue": "conecta_tu_banco",
+        "variantOptions": [
+          "anticipa",
+          "bancos",
+          "conecta_tu_banco",
+          "contabilidad",
+          "optimiza",
+          "tesoreria",
+          "xml_en_linea"
+        ],
+        "preferredValuesCount": 0
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "vertical",
+        "variantOptions": [
+          "isotipo",
+          "horizontal",
+          "vertical"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "434:3607",
+        "type": "GROUP",
+        "name": "Group 32"
+      }
+    ]
+  },
+  {
+    "id": "183:166",
+    "key": "8d0b0791361b609c69e9666b0b53cab6ed337d21",
+    "name": "Style=Ghost, Size=Medium, State=Default",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "183:311",
+      "name": "Icon Button",
+      "type": "COMPONENT_SET",
+      "key": "e63720f2254f60cd870fc3fc772d811ec18483f7"
+    },
+    "definitions": {
+      "Icon#183:60": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "183:125",
+        "preferredValuesCount": 1512
+      },
+      "Show count#183:61": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Style": {
+        "type": "VARIANT",
+        "defaultValue": "Ghost",
+        "variantOptions": [
+          "Ghost",
+          "Outline"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Small",
+        "variantOptions": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Disabled",
+          "Hover",
+          "Focus",
+          "Active"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "183:167",
+        "type": "INSTANCE",
+        "name": "Bell icon"
+      },
+      {
+        "id": "183:169",
+        "type": "INSTANCE",
+        "name": "Count indicator"
+      }
+    ]
+  },
+  {
+    "id": "522:125",
+    "key": "e8a605a7dc033aeb0586aabb0797d37ef30eac38",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "522:122",
+      "name": "ArrowsCounterClockwise",
+      "type": "COMPONENT_SET",
+      "key": "065008a5439e5c32042f6c6a3721fb42a31772e6"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "522:137",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "155:134",
+    "key": "210ae593aa5c0007983efdf243cf30644fd86825",
+    "name": "Type=Count, Size=Medium",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "155:144",
+      "name": "Dot",
+      "type": "COMPONENT_SET",
+      "key": "df0969da7bf718ca2f0e9447eafb49c1233cba01"
+    },
+    "definitions": {
+      "Count#155:6": {
+        "type": "TEXT",
+        "defaultValue": "1",
+        "preferredValuesCount": 0
+      },
+      "Overflow label#155:7": {
+        "type": "TEXT",
+        "defaultValue": "99+",
+        "preferredValuesCount": 0
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Active",
+        "variantOptions": [
+          "Active",
+          "Busy",
+          "Inactive",
+          "Count",
+          "Overflow"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Large",
+        "variantOptions": [
+          "Large",
+          "Medium",
+          "Small"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "155:135",
+        "type": "TEXT",
+        "name": "Count label"
+      }
+    ]
+  },
+  {
+    "id": "522:173",
+    "key": "f7835a27019ae83c184f9e910f0956c0fc3b992f",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "522:170",
+      "name": "GraduationCap",
+      "type": "COMPONENT_SET",
+      "key": "dd665d273098802d66b64feb805a3a6f44ca1195"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "522:185",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "522:216",
+    "key": "312ec28591dbe217188e9d6f8c63e64cff65ba90",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "522:213",
+      "name": "Headset",
+      "type": "COMPONENT_SET",
+      "key": "c7b1cfed44d45827a3beaa77894f151b8c8a115b"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "522:228",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "522:255",
+    "key": "5cb5aa74925cb753dc21b23ebd171bea87136e02",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "522:252",
+      "name": "AppWindow",
+      "type": "COMPONENT_SET",
+      "key": "51056409c43ff9fca51bda115460c4ef7d74f4cc"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "522:267",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "183:125",
+    "key": "ef703d88cfc6792cdd17351c4cc923a019b91855",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "183:122",
+      "name": "Bell",
+      "type": "COMPONENT_SET",
+      "key": "4f3281ebbf8b7eb010c5b83adc5939171cda029a"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "183:137",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "183:161",
+    "key": "c6746a796f827e2b1827ecb97f3838cb8e2583d3",
+    "name": "Style=Ghost, Size=Small, State=Default",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "183:311",
+      "name": "Icon Button",
+      "type": "COMPONENT_SET",
+      "key": "e63720f2254f60cd870fc3fc772d811ec18483f7"
+    },
+    "definitions": {
+      "Icon#183:60": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "183:125",
+        "preferredValuesCount": 1512
+      },
+      "Show count#183:61": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Style": {
+        "type": "VARIANT",
+        "defaultValue": "Ghost",
+        "variantOptions": [
+          "Ghost",
+          "Outline"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Small",
+        "variantOptions": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Disabled",
+          "Hover",
+          "Focus",
+          "Active"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "183:162",
+        "type": "INSTANCE",
+        "name": "Bell icon"
+      },
+      {
+        "id": "183:164",
+        "type": "INSTANCE",
+        "name": "Count indicator"
+      }
+    ]
+  },
+  {
+    "id": "155:136",
+    "key": "647d3eaadf826f46172155b83428e3fd385d6c64",
+    "name": "Type=Count, Size=Small",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "155:144",
+      "name": "Dot",
+      "type": "COMPONENT_SET",
+      "key": "df0969da7bf718ca2f0e9447eafb49c1233cba01"
+    },
+    "definitions": {
+      "Count#155:6": {
+        "type": "TEXT",
+        "defaultValue": "1",
+        "preferredValuesCount": 0
+      },
+      "Overflow label#155:7": {
+        "type": "TEXT",
+        "defaultValue": "99+",
+        "preferredValuesCount": 0
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Active",
+        "variantOptions": [
+          "Active",
+          "Busy",
+          "Inactive",
+          "Count",
+          "Overflow"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Large",
+        "variantOptions": [
+          "Large",
+          "Medium",
+          "Small"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "155:137",
+        "type": "TEXT",
+        "name": "Count label"
+      }
+    ]
+  },
+  {
+    "id": "521:124",
+    "key": "339ac10c49007951e21266e17965aca188a432dc",
+    "name": ".Building Blocks/Header/Company caret",
+    "remote": false,
+    "description": "SVG exacto del caret de empresa fuente2412:278, main355:77922 no importable; reproducción trazable, no dibujo inferido.",
+    "parent": {
+      "id": "518:122",
+      "name": "Headers",
+      "type": "PAGE"
+    },
+    "definitions": {},
+    "children": [
+      {
+        "id": "521:123",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "165:231",
+    "key": "7c6b848c541517578f12691e446af6f610bc7a10",
+    "name": "Type=Text, Size=Extra Large",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "165:247",
+      "name": "Avatar",
+      "type": "COMPONENT_SET",
+      "key": "293efe5e705a01ef8b6b5010831725f6243ceba7"
+    },
+    "definitions": {
+      "Show status#165:20": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Icon#165:21": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "165:163",
+        "preferredValuesCount": 1512
+      },
+      "Initials#165:22": {
+        "type": "TEXT",
+        "defaultValue": "JA",
+        "preferredValuesCount": 0
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Image",
+        "variantOptions": [
+          "Image",
+          "Icon",
+          "Text"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Extra Large",
+        "variantOptions": [
+          "Extra Large",
+          "Large",
+          "Medium",
+          "Small"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "165:232",
+        "type": "FRAME",
+        "name": "Fallback face"
+      },
+      {
+        "id": "165:234",
+        "type": "INSTANCE",
+        "name": "Status dot"
+      }
+    ]
+  }
+]

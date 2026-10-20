@@ -1198,18 +1198,20 @@
     "base": "specs/app-shell.contract.v0.1.0.md",
     "amendments": [
       "specs/components/app-shell.typography.amendment.v0.1.0.md",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md"
     ],
     "slots": {
       "status": "REQUIRED",
       "reason": "header/sidebar/children"
     },
-    "notes": "Shell de escritorio, base1440×1024, Header96 y rail104/266 con padding0/16/24. width/height pertenecen al anfitrión; sin mínimo ni breakpoint1024 inventado. Sidebar llena el alto disponible (904px en la base).",
+    "notes": "Shell de escritorio, base1440×1024, Header96 y rail104/266 con padding0/16/24. width/height pertenecen al anfitrión; sin mínimo ni breakpoint1024 inventado. Sidebar llena el alto disponible (904px en la base). Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/app-shell.contract.v0.1.0.md": "f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e",
       "specs/components/app-shell.typography.amendment.v0.1.0.md": "74768a9059fed6ab27bbe6bc4b081f1ba4bae3b4e504e334ab442c45785cb31b",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8"
     },
     "api": "export interface AppShellProps { header:ReactNode; sidebar:ReactNode; children?:ReactNode; expanded?:boolean; className?:string; width?:CSSProperties['width']; height?:CSSProperties['height'] }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className=\"p-8\"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2><DS.MetricCard title=\"Documentos\" values={[{label:'Total',value:'128'}]}/></div></DS.AppShell>;}\n",
@@ -1287,18 +1289,20 @@
     "base": "specs/chat-toolbar.contract.v0.1.0.md",
     "amendments": [
       "specs/components/chat.layout.amendment.v0.1.1.md",
-      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md"
+      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md"
     ],
     "slots": {
       "status": "REQUIRED",
       "reason": "header/tools/indicators/chats/plan"
     },
-    "notes": "Altura791 y ancho79/264 según contrato y enmienda0.1.1. Contenido conservado al contraer. Show indicators=false y Show plan=true. Se conserva la ausencia de overflow de la fuente; listas que excedan el alto son la limitación documental conocida.",
+    "notes": "Altura791 y ancho79/264 según contrato y enmienda0.1.1. Contenido conservado al contraer. Show indicators=false y Show plan=true. Se conserva la ausencia de overflow de la fuente; listas que excedan el alto son la limitación documental conocida. Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/chat-toolbar.contract.v0.1.0.md": "2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43",
       "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c",
-      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md": "762ae9b620eff3b8c95c54582c165a0a13a64d7ff79785fb2720df40ff438cf4"
+      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md": "762ae9b620eff3b8c95c54582c165a0a13a64d7ff79785fb2720df40ff438cf4",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8"
     },
     "api": "export interface ChatToolbarProps { expanded:boolean; onExpandedChange:(expanded:boolean)=>void; header?:ReactNode; tools?:ReactNode; indicators?:ReactNode; chats?:ReactNode; plan?:ReactNode; planName?:string; indicatorsTitle?:string; chatsTitle?:string; showIndicators?:boolean; showPlan?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatToolbarExample(){const [expanded,setExpanded]=useState(true);return <DS.ChatToolbar expanded={expanded} onExpandedChange={setExpanded} header={<strong>Anticipa · demo</strong>} tools={<DS.ChatToolItem label=\"Nuevo chat\"/>} chats={<DS.ChatHistoryItem updated=\"1 sem\">Consulta de ejemplo</DS.ChatHistoryItem>} plan={<p>Plan de demostración</p>}/>;}\n",
@@ -1325,20 +1329,22 @@
       "specs/components/conversation.character-identity.amendment.v0.1.1.md",
       "specs/components/conversation.typography.amendment.v0.1.0.md",
       "specs/components/conversation.composer-action.amendment.v0.1.2.md",
-      "specs/components/conversation.composer-slot.amendment.v0.1.3.md"
+      "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md"
     ],
     "slots": {
       "status": "REQUIRED",
       "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector; Composer: draft/Notice content (noticeContent)"
     },
-    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada. Aviso opcional: showAction=false; actionMessage y actionLabel editables; onAction callback local independiente de onSend. La muestra de créditos/fecha no define política de producto. Texto nuevo caption-regular/caption-semibold; Button default/small sin iconos. Draft y Tools conservan sus regiones. Slot nativo Notice content para todo el aviso: noticeContent undefined conserva muestra, null permite vacío y colecciones admiten composición/orden. En Figma el Slot vacío conserva una caja de edición de49px; ocultar Show action retira la región.",
+    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada. Aviso opcional: showAction=false; actionMessage y actionLabel editables; onAction callback local independiente de onSend. La muestra de créditos/fecha no define política de producto. Texto nuevo caption-regular/caption-semibold; Button default/small sin iconos. Draft y Tools conservan sus regiones. Slot nativo Notice content para todo el aviso: noticeContent undefined conserva muestra, null permite vacío y colecciones admiten composición/orden. En Figma el Slot vacío conserva una caja de edición de49px; ocultar Show action retira la región. Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.",
     "qa": "qa/implementations/conversation-composer.v0.1.3.review.md",
     "hashes": {
       "specs/conversation.contract.v0.1.0.md": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
       "specs/components/conversation.character-identity.amendment.v0.1.1.md": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f",
       "specs/components/conversation.typography.amendment.v0.1.0.md": "e4e72ab5c84cb6e2e7fb2f5209f5bb42c25c03ed325eaedb94b63f36d38fc5d0",
       "specs/components/conversation.composer-action.amendment.v0.1.2.md": "70b8a9efc172797049ceab6125d8fdfd257eff86eb4221afc2468e266338a3a5",
-      "specs/components/conversation.composer-slot.amendment.v0.1.3.md": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3"
+      "specs/components/conversation.composer-slot.amendment.v0.1.3.md": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8"
     },
     "api": "export interface ConversationGlyphProps { agent?:'beni'|'navi'; label?:string }\n\nexport interface ConversationMessageProps { children:ReactNode }\n\nexport interface ConversationResponseProps { agent?:'beni'|'navi'; children?:ReactNode; badge?:ReactNode; previews?:ReactNode; secondaryContent?:ReactNode; additionalActions?:ReactNode; feedbackActions?:ReactNode; showPreviews?:boolean; showSecondaryContent?:boolean; showAdditionalActions?:boolean }\n\nexport interface ConversationComposerProps { value:string; onValueChange:(value:string)=>void; onSend:(value:string)=>void; placeholder?:string; label?:string; disclaimer?:ReactNode; tools?:ReactNode; modelSelector?:ReactNode; showModelSelector?:boolean; modelLabel?:string; draft?:ReactNode; showDisclaimer?:boolean; disabled?:boolean; showAction?:boolean; actionMessage?:ReactNode; actionLabel?:string; onAction?:()=>void; noticeContent?:ReactNode }\n\nexport interface ConversationPreviewProps { title:string; icon?:ReactNode; badge?:ReactNode; children?:ReactNode }\n\nexport interface ConversationProps { children:ReactNode; label?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ConversationExample(){\n const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);\n const [showAction,setShowAction]=useState(false);const [actionResult,setActionResult]=useState('');\n const [noticeMode,setNoticeMode]=useState('default');\n const notices=noticeMode==='reordered'?['Tercero','Primero','Segundo']:noticeMode==='replacement'?['Sustituto']:['Primero','Segundo','Tercero'];\n const noticeContent=noticeMode==='default'?undefined:noticeMode==='empty'?null:notices.map(name=><DS.InlineNotification key={name} title={name} showDismiss={false} showIcon={false}><span>Contenido local del aviso. </span><DS.Button variant=\"text\" size=\"small\" showLeftIcon={false} showRightIcon={false} onClick={()=>setActionResult(`Acción local: ${name}`)}>Acción {name}</DS.Button></DS.InlineNotification>);\n return <div className=\"grid gap-6 w-full\">\n  <DS.Toggle label=\"Mostrar aviso de ejemplo\" checked={showAction} onChange={e=>setShowAction(e.target.checked)}/>\n  <label>Contenido del aviso <select value={noticeMode} onChange={e=>setNoticeMode(e.target.value)}><option value=\"default\">Aviso inicial</option><option value=\"empty\">Vacío</option><option value=\"multiple\">Tres bloques</option><option value=\"reordered\">Reordenados</option><option value=\"replacement\">Sustituido</option></select></label>\n  <DS.Conversation><DS.ConversationResponse agent=\"beni\" badge={<DS.Badge>Ejemplo</DS.Badge>}>Esta respuesta es contenido local de muestra.</DS.ConversationResponse>{messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)}</DS.Conversation>\n  <DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} disclaimer=\"Demostración local, sin servicio de IA.\" showAction={showAction} noticeContent={noticeContent} actionLabel=\"Ver detalle\" onAction={()=>setActionResult('Acción local de ejemplo. No se consultaron créditos ni se realizó una compra.')}/>\n  <p role=\"status\">{actionResult}</p>\n </div>;\n}\n",
@@ -1365,18 +1371,20 @@
     "base": "specs/chat-section.contract.v0.1.0.md",
     "amendments": [
       "specs/components/chat.layout.amendment.v0.1.1.md",
-      "specs/components/chat-section.typography.amendment.v0.1.0.md"
+      "specs/components/chat-section.typography.amendment.v0.1.0.md",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md"
     ],
     "slots": {
       "status": "REQUIRED",
       "reason": "messages/suggestions/composer"
     },
-    "notes": "Standby/Active conservan regiones y contenido. Active aplica scroll web a Messages; Status y Composer permanecen fuera. Máximo de columna 816px según enmienda0.1.1, mínimo de composición574. No autoscroll ni historial remoto.",
+    "notes": "Standby/Active conservan regiones y contenido. Active aplica scroll web a Messages; Status y Composer permanecen fuera. Máximo de columna 816px según enmienda0.1.1, mínimo de composición574. No autoscroll ni historial remoto. Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/chat-section.contract.v0.1.0.md": "59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f",
       "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c",
-      "specs/components/chat-section.typography.amendment.v0.1.0.md": "7a505588136c022111f89243722a461e52a93e9dae86489620f1608f267ba5de"
+      "specs/components/chat-section.typography.amendment.v0.1.0.md": "7a505588136c022111f89243722a461e52a93e9dae86489620f1608f267ba5de",
+      "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8"
     },
     "api": "export interface ChatSuggestionProps { children:ReactNode; character?:'beni'|'navi'; onClick?:()=>void }\n\nexport interface ChatSectionProps { state?:'standby'|'active'; greeting?:string; userName?:string; subtitle?:string; statusText?:string; showStatus?:boolean; messages?:ReactNode; suggestions?:ReactNode; composer:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatSectionExample(){const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);return <DS.ChatSection state={messages.length?'active':'standby'} userName=\"Miguel\" subtitle=\"Explora una conversación local\" messages={messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)} suggestions={<DS.ChatSuggestion onClick={()=>setValue('Ver documentos')}>Ver documentos</DS.ChatSuggestion>} composer={<DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} showDisclaimer={messages.length>0} disclaimer=\"Solo datos locales de ejemplo.\"/>}/>;}\n",

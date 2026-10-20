@@ -6,7 +6,7 @@ Familia `CHAT-SECTION-001` · API local 0.1.0 · categoría Composición.
 
 ## Uso sin backend
 
-Standby/Active conservan regiones y contenido. Active aplica scroll web a Messages; Status y Composer permanecen fuera. Máximo de columna 816px según enmienda0.1.1, mínimo de composición574. No autoscroll ni historial remoto.
+Standby/Active conservan regiones y contenido. Active aplica scroll web a Messages; Status y Composer permanecen fuera. Máximo de columna 816px según enmienda0.1.1, mínimo de composición574. No autoscroll ni historial remoto. Para chat embebido en un aplicativo aplicar APP-SHELL-EMBEDDED-CHAT-001: conservar Header y navegación global, cabecera de contexto dentro de Content y Chat Section a la izquierda con historial Chat Toolbar a la derecha. La columna max816 hereda Chat Layout0.1.1; no crear un chat flotante ni sustituir la navegación global.
 
 ```tsx
 'use client';
@@ -56,6 +56,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [chat-section.contract.v0.1.0.md](../../../../specs/chat-section.contract.v0.1.0.md) · SHA-256 `59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f`.
 - [chat.layout.amendment.v0.1.1.md](../../../../specs/components/chat.layout.amendment.v0.1.1.md) · SHA-256 `f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c`.
 - [chat-section.typography.amendment.v0.1.0.md](../../../../specs/components/chat-section.typography.amendment.v0.1.0.md) · SHA-256 `7a505588136c022111f89243722a461e52a93e9dae86489620f1608f267ba5de`.
+- [app-shell.embedded-chat.amendment.v0.1.1.md](../../../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md) · SHA-256 `2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

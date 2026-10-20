@@ -1,0 +1,787 @@
+[
+  {
+    "id": "26:102",
+    "key": "5c533f1fe586e88e71e9a279dbce7081f7aae382",
+    "name": "type=default, size=small, state=default",
+    "remote": false,
+    "description": "",
+    "parent": {
+      "id": "26:81",
+      "name": "button",
+      "type": "COMPONENT_SET",
+      "key": "ad6968e790043ee654b3590596d5e593ebcbe73d"
+    },
+    "definitions": {
+      "show right icon#1017:0": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "show left icon#1017:13": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "text#1205:13": {
+        "type": "TEXT",
+        "defaultValue": "Default",
+        "preferredValuesCount": 0
+      },
+      "left icon#2828:101": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "26:3",
+        "preferredValuesCount": 1512
+      },
+      "right icon#2828:162": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "26:3",
+        "preferredValuesCount": 1512
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "primary",
+        "variantOptions": [
+          "primary",
+          "default",
+          "text",
+          "link"
+        ],
+        "preferredValuesCount": 0
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "large",
+        "variantOptions": [
+          "large",
+          "middle",
+          "small"
+        ],
+        "preferredValuesCount": 0
+      },
+      "state": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "default",
+          "hover",
+          "press",
+          "disabled",
+          "focus"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "26:103",
+        "type": "INSTANCE",
+        "name": "PlusCircle"
+      },
+      {
+        "id": "26:104",
+        "type": "TEXT",
+        "name": "label-text"
+      },
+      {
+        "id": "26:105",
+        "type": "INSTANCE",
+        "name": "PlusCircle"
+      }
+    ]
+  },
+  {
+    "id": "26:3",
+    "key": "46d251bb4099700c5852180f2370d265e5166432",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "26:2",
+      "name": "PlusCircle",
+      "type": "COMPONENT_SET",
+      "key": "322a346f2ce54ea1534d8b0a682a8139d9f20e87"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Light",
+          "Regular",
+          "Thin",
+          "Bold",
+          "Fill",
+          "Duotone"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "26:4",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "765:254",
+    "key": "6ba15add21c11e6a8900702318f644f37c3ce24c",
+    "name": ".Conversation / NAVI",
+    "remote": false,
+    "description": "Personaje NAVI con colores originales fijos de character-identity. Excepción autorizada: tokens directos, sin semánticos ni variación por tema. Silueta estática conservada.",
+    "parent": {
+      "id": "765:6",
+      "name": "Conversation",
+      "type": "PAGE"
+    },
+    "definitions": {},
+    "children": [
+      {
+        "id": "765:255",
+        "type": "VECTOR",
+        "name": "Agent silhouette"
+      },
+      {
+        "id": "765:256",
+        "type": "VECTOR",
+        "name": "Agent features"
+      },
+      {
+        "id": "765:257",
+        "type": "VECTOR",
+        "name": "Agent features"
+      }
+    ]
+  },
+  {
+    "id": "291:162",
+    "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "291:159",
+      "name": "CaretDown",
+      "type": "COMPONENT_SET",
+      "key": "3501e37259778aa960dc8409cebc8ade3a70ff9b"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "291:174",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "765:95",
+    "key": "e680150da1e51ad1cac1b3cbc753f494f1bdffbb",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "765:92",
+      "name": "Paperclip",
+      "type": "COMPONENT_SET",
+      "key": "e64ccab11b55e4aac1638ef0b7dbbab6800badd5"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "765:107",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "765:14",
+    "key": "b17b9e0b2b9d8be196330914608d40a05e09ff03",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "765:11",
+      "name": "Microphone",
+      "type": "COMPONENT_SET",
+      "key": "eac08ecff32180475bcb60bca6896ffe150f8991"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "765:26",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "765:166",
+    "key": "cd6f99b957372ddd41f6ee00ef2e3edfc62d8fa6",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "765:163",
+      "name": "PaperPlaneTilt",
+      "type": "COMPONENT_SET",
+      "key": "fedba8f5a3205dc638a8342bd679c96b954c4f0f"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "765:178",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "783:14",
+    "key": "fdb1aa875e1e2ce14f0d6943f05282f107260dd1",
+    "name": "State=Default",
+    "remote": false,
+    "description": "Sugerencia de consulta, no filtro seleccionado. Texto/identidad editables; no ejecuta la consulta.",
+    "parent": {
+      "id": "784:96",
+      "name": "Chat Suggestion",
+      "type": "COMPONENT_SET",
+      "key": "03492e51a4d4c03e638a3976fab2e995104c84f4"
+    },
+    "definitions": {
+      "Character#784:0": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "765:249",
+        "preferredValuesCount": 2
+      },
+      "Label#784:1": {
+        "type": "TEXT",
+        "defaultValue": "Muéstrame mis ingresos del mes",
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "783:15",
+        "type": "INSTANCE",
+        "name": "Character"
+      },
+      {
+        "id": "783:20",
+        "type": "TEXT",
+        "name": "Label"
+      }
+    ]
+  },
+  {
+    "id": "765:249",
+    "key": "aecdfbd38dc0bd4100993edb304c443364eba06c",
+    "name": ".Conversation / BENI",
+    "remote": false,
+    "description": "Personaje BENI con colores originales fijos de character-identity. Excepción autorizada: tokens directos, sin semánticos ni variación por tema. Silueta estática conservada.",
+    "parent": {
+      "id": "765:6",
+      "name": "Conversation",
+      "type": "PAGE"
+    },
+    "definitions": {},
+    "children": [
+      {
+        "id": "765:250",
+        "type": "VECTOR",
+        "name": "Agent silhouette"
+      },
+      {
+        "id": "765:251",
+        "type": "VECTOR",
+        "name": "Agent features"
+      },
+      {
+        "id": "765:252",
+        "type": "VECTOR",
+        "name": "Agent features"
+      },
+      {
+        "id": "765:253",
+        "type": "VECTOR",
+        "name": "Agent features"
+      }
+    ]
+  },
+  {
+    "id": "797:316",
+    "key": "834766ec2e067b174e2c1071f601dff91e49c417",
+    "name": "Expanded=true",
+    "remote": false,
+    "description": "CHAT-TOOLBAR-001 v0.1.0. Sidebar conversacional con Header, Tools and actions, Indicators y Chats como Slots editables. Expanded conserva contenido oculto. Plan demo estático42/150=28%; sin cálculo, rutas ni backend. UI temática; logo agnóstico.",
+    "parent": {
+      "id": "798:284",
+      "name": "Chat Toolbar",
+      "type": "COMPONENT_SET",
+      "key": "f49fb3e836875f1dffe934d2ee831252d3bdc985"
+    },
+    "definitions": {
+      "Header#798:0": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Tools and actions#798:1": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Indicators title#798:2": {
+        "type": "TEXT",
+        "defaultValue": "Indicadores",
+        "preferredValuesCount": 0
+      },
+      "Indicators#798:3": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show indicators#798:4": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "Chats title#798:5": {
+        "type": "TEXT",
+        "defaultValue": "Chats",
+        "preferredValuesCount": 0
+      },
+      "Chats#798:6": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show plan#798:7": {
+        "type": "BOOLEAN",
+        "defaultValue": true,
+        "preferredValuesCount": 0
+      },
+      "Plan name#798:8": {
+        "type": "TEXT",
+        "defaultValue": "Pro Plan",
+        "preferredValuesCount": 0
+      },
+      "Expanded": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "true",
+          "false"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "797:317",
+        "type": "SLOT",
+        "name": "Header"
+      },
+      {
+        "id": "797:381",
+        "type": "FRAME",
+        "name": "Content region"
+      },
+      {
+        "id": "799:462",
+        "type": "FRAME",
+        "name": "Expanded plan"
+      }
+    ]
+  },
+  {
+    "id": "175:356",
+    "key": "4046be769b352c4e707a75fd12c03a00eb63f3f4",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "175:353",
+      "name": "X",
+      "type": "COMPONENT_SET",
+      "key": "962955284e1c4455760d8b2919289f7099de8ad5"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "175:368",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "1108:789",
+    "key": "b85e7f67612b0784b39e8d14e1e22d2bab42ed01",
+    "name": "type=ghost, size=small, selected=false, state=default",
+    "remote": true,
+    "description": "Acción frecuente sin fondo ni borde (notificaciones, más opciones). Tamaño 32 px · filas de tabla, solo escritorio.",
+    "parent": {
+      "id": "1108:788",
+      "name": "icon-button",
+      "type": "COMPONENT_SET",
+      "key": "fbc267a15caab7547a5d782a8887da547ee7cf03"
+    },
+    "definitions": {
+      "Icon#2828:223": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "183:125",
+        "preferredValuesCount": 1512
+      },
+      "Show badge#4508:14": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "ghost",
+        "variantOptions": [
+          "ghost",
+          "primary",
+          "secondary",
+          "danger"
+        ],
+        "preferredValuesCount": 0
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "small",
+        "variantOptions": [
+          "small",
+          "large",
+          "medium"
+        ],
+        "preferredValuesCount": 0
+      },
+      "selected": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ],
+        "preferredValuesCount": 0
+      },
+      "state": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "default",
+          "hover",
+          "pressed",
+          "focus",
+          "disabled"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "1108:790",
+        "type": "INSTANCE",
+        "name": "Icon"
+      },
+      {
+        "id": "1108:791",
+        "type": "INSTANCE",
+        "name": "Badge"
+      }
+    ]
+  },
+  {
+    "id": "417:155",
+    "key": "b0c91d0b43c046b2a817ae2ed32c6e0f75e96f49",
+    "name": "Format=Outline, Weight=Light",
+    "remote": true,
+    "description": "",
+    "parent": {
+      "id": "417:152",
+      "name": "MagnifyingGlass",
+      "type": "COMPONENT_SET",
+      "key": "7ca271281f056d7d6321c40255cdb4d7046a9da1"
+    },
+    "definitions": {
+      "Format": {
+        "type": "VARIANT",
+        "defaultValue": "Stroke",
+        "variantOptions": [
+          "Outline",
+          "Stroke"
+        ],
+        "preferredValuesCount": 0
+      },
+      "Weight": {
+        "type": "VARIANT",
+        "defaultValue": "Regular",
+        "variantOptions": [
+          "Bold",
+          "Duotone",
+          "Fill",
+          "Light",
+          "Regular",
+          "Thin"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "417:167",
+        "type": "VECTOR",
+        "name": "Vector"
+      }
+    ]
+  },
+  {
+    "id": "1108:793",
+    "key": "a100dec6c0f77e6ff8c357f51878be1cee8bd61a",
+    "name": "type=notification, size=small",
+    "remote": true,
+    "description": "Aviso de elementos nuevos sin número. Tamaño 8 px.",
+    "parent": {
+      "id": "1108:792",
+      "name": "dot",
+      "type": "COMPONENT_SET",
+      "key": "bc7fd5437899a1868aeba789925329c30d5b6996"
+    },
+    "definitions": {
+      "Count#8917:0": {
+        "type": "TEXT",
+        "defaultValue": "1",
+        "preferredValuesCount": 0
+      },
+      "Max count#8918:0": {
+        "type": "TEXT",
+        "defaultValue": "99+",
+        "preferredValuesCount": 0
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "active",
+        "variantOptions": [
+          "notification",
+          "active",
+          "busy",
+          "inactive",
+          "count",
+          "count-expand"
+        ],
+        "preferredValuesCount": 0
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "large",
+        "variantOptions": [
+          "small",
+          "large",
+          "medium"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": []
+  },
+  {
+    "id": "1108:774",
+    "key": "990b8ff1ee9998637c090a08e61470ecbd96bc02",
+    "name": "State=Default",
+    "remote": true,
+    "description": "CHAT-TOOL-ITEM-001 v0.1.0. Acción editable y Slot Extra actions sin cardinalidad máxima. Disabled no ejecuta hover; no crea chats automáticamente.",
+    "parent": {
+      "id": "1108:773",
+      "name": "Chat Tool Item",
+      "type": "COMPONENT_SET",
+      "key": "f036f405326b6139793773917a56e3e48f93bf68"
+    },
+    "definitions": {
+      "Icon#796:8": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "796:246",
+        "preferredValuesCount": 0
+      },
+      "Label#796:9": {
+        "type": "TEXT",
+        "defaultValue": "Nuevo chat",
+        "preferredValuesCount": 0
+      },
+      "Show caret#796:10": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "Extra actions#796:11": {
+        "type": "SLOT",
+        "preferredValuesCount": 0
+      },
+      "Show extra actions#796:12": {
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredValuesCount": 0
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Disabled"
+        ],
+        "preferredValuesCount": 0
+      }
+    },
+    "children": [
+      {
+        "id": "1108:775",
+        "type": "FRAME",
+        "name": "Leading content"
+      },
+      {
+        "id": "1108:778",
+        "type": "INSTANCE",
+        "name": "CaretDown"
+      },
+      {
+        "id": "1108:779",
+        "type": "SLOT",
+        "name": "Extra actions"
+      }
+    ]
+  }
+]

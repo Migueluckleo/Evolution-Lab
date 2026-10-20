@@ -65,3 +65,7 @@ Cada alta o cambio documentado del DS debe cerrar P07/P08 con ambas skills sincr
 El usuario exige consultar GitHub en cada nuevo trabajo y recibir ZIP instaladores únicamente locales. P08 sección 6 gobierna `github-live-v1`: el motor se mantiene instalado; `catalog/current.json` anuncia la última publicación de datos verificada. El cargador valida manifiesto y archivos, mantiene un corte por ejecución y consulta de nuevo al iniciar otra. Sin acceso de red no usa silenciosamente datos antiguos. La biblioteca Figma sigue requiriendo acceso real; los specs públicos no sustituyen sus instancias.
 
 La verificación local y los límites de publicación/Genspark se registran en `qa/skills/remote-consumption/`. No se considera consumo remoto comprobado contra GitHub hasta verificar el canal publicado.
+
+## Chat embebido · arquitectura0.1.1 · 2026-10-20
+
+[QA P08](../qa/skills/embedded-chat-shell-2026-10-20.json): catálogo local CURRENT,43 familias; ambas skills conservan motor0.3.3, sync/check/export/check-installed CURRENT, paquetes sin cambios. La enmienda aparece en App Shell, Chat Section, Chat Toolbar y Conversation. Publicación remota y readback se registran aparte en output/qa/embedded-chat-shell-2026-10-20; este registro no anticipa un push ni una ejecución Genspark.

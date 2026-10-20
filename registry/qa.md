@@ -624,3 +624,7 @@ Este resultado es histórico de la revisión documental previa. La aprobación p
 QA-CONVERSATION-COMPOSER-SLOT-013 · [Documental](../qa/contracts/conversation-composer.v0.1.3.review.md) e [implementación](../qa/implementations/conversation-composer.v0.1.3.review.md) PASS.22 casos Figma;4 temas×2 anchos;0/1/3, orden/sustitución/reset/visibilidad. Web: verify PASS y Chrome1/1 PASS. Slot vacío visible Figma conserva49px editoriales; diferencia web null documentada.
 
 user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## QA-EMBEDDED-CHAT-SHELL-011 · 2026-10-20
+
+PASS documental y cotejo de arquitectura contra340 nodos y captura1440×1024. [Modelo comprobado](../output/qa/embedded-chat-shell-2026-10-20/model-check.json). Sin nueva validación funcional de Slots, temas, responsive ni código de pantalla. Dependencias remotas, textos sin estilo y modo Contable explícito conservados como límites. Catálogo y grafo se comprueban separadamente al cierre. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
