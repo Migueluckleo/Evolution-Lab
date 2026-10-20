@@ -594,3 +594,15 @@
  .ds-chat-status { --ds-type-style-id:ui-body-compact;font:var(--ds-type-ui-body-compact-font);letter-spacing:var(--ds-type-ui-body-compact-tracking); }
  .ds-chat-suggestion { --ds-type-style-id:ui-body-compact;font:var(--ds-type-ui-body-compact-font);letter-spacing:var(--ds-type-ui-body-compact-tracking); }
 }
+
+/* CONVERSATION-COMPOSER-ACTION-001: optional fixed-composition notice. */
+@layer components {
+ .ds-composer-input {display:flex;flex-direction:column;gap:var(--ds-spacing-none);min-width:0;}
+ .ds-composer-action-container {padding:var(--ds-spacing-none) var(--ds-spacing-lg);min-width:0;}
+ .ds-composer-notice-content {display:flex;flex-direction:column;gap:var(--ds-spacing-sm);min-width:0;padding:var(--ds-spacing-none);}
+ .ds-composer-notice-content>* {min-width:0;}
+ .ds-composer-action-message {display:flex;align-items:center;justify-content:space-between;gap:var(--ds-spacing-sm);padding:var(--ds-spacing-sm) var(--ds-spacing-lg);border:var(--ds-stroke-xs) solid var(--ds-color-border-subtle);border-bottom-width:var(--ds-stroke-none);border-radius:var(--ds-radius-xl) var(--ds-radius-xl) var(--ds-radius-none) var(--ds-radius-none);background:var(--ds-color-background-subtle);color:var(--ds-color-text-primary);}
+ .ds-composer-action-description {flex:1;min-width:0;overflow-wrap:anywhere;--ds-type-style-id:caption-regular;font:var(--ds-type-caption-regular-font);letter-spacing:var(--ds-type-caption-regular-tracking);}
+ .ds-composer-action-description strong {--ds-type-style-id:caption-semibold;font:var(--ds-type-caption-semibold-font);letter-spacing:var(--ds-type-caption-semibold-tracking);}
+ .ds-composer-action-message>.ds-button {flex-shrink:0;}
+}

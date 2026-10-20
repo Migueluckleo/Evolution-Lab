@@ -1,5 +1,9 @@
 # Registro de decisiones
 
+## DEC-CONVERSATION-COMPOSER-ACTION-001 · 2026-10-20
+
+El usuario informó una modificación de Conversation Composer `765:397` en AI-Design-System y solicitó documentarla, autorizando corregir parámetros incompatibles con lo canónico. Se conserva el aviso opcional con texto y Button; se normalizan borde, bindings, estilos por rango y reflow mediante la [enmienda0.1.2](../specs/components/conversation.composer-action.amendment.v0.1.2.md), tras [QA documental PASS](../qa/contracts/conversation-composer.v0.1.2.review.md). La adopción técnica es `DELEGATED_FOR_BUILD`, `user_audit: NOT_REQUIRED`, `human_review_policy: OPTIONAL_NON_BLOCKING`. Incluye sincronización local web/P08/P05; no publicación remota ni política de créditos inventada. No se cambia el inventario canónico ni principales ajenos.
+
 ## DEC-TYPOGRAPHY-STYLES-001 · mecanismo nativo0.1.2 · 2026-10-15
 
 `EXPLICIT`: continuación de la solicitud de aplicar estilos a todos los componentes y documentar sus requisitos, sin repetir aprobaciones por familia. `DERIVED`: la [enmienda nativa 0.1.2](../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) admite, exclusivamente con cadena/escala/estilo principal y evidencia causal verificables, el consumo nativo de 103 rangos cuyo ID local puede ser vacío. Mantiene el ID lógico de receta y todas las métricas; conserva asignación directa en los 3250 restantes. No aprueba automáticamente cualquier vacío ni modifica anatomía, Slots, geometría o componentes por preferencia.
@@ -498,3 +502,8 @@ Este alcance omitido no bloquea Select ni otras familias. El punto actual está 
 ## DEC-CHAT-TOOLBAR-INTEGRATION-001 · 2026-10-08
 
 Solicitud EXPLICIT del usuario: integrar20355:72872 y sus dependencias locales del mismo archivo. Se aplica [delegación externa](./DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md), no nueva aprobación humana. Decisiones DERIVED de construcción en [contrato](../specs/chat-toolbar.contract.v0.1.0.md): tres sets/nueve variantes, roles temáticos existentes, logo agnóstico, texto configurable y Slots nativos, barra estática28% coherente con42/150. No importar todos los componentes Anticipa ni crear tokens nuevos. Diferencias visuales/contraste documentadas; QA PASS no cambia auditoría PENDING.
+
+
+## DEC-CONVERSATION-COMPOSER-SLOT-001 · 2026-10-20
+
+El usuario solicita agregar Slot después del cierre del aviso Composer 0.1.2. Se adopta un Slot nativo Notice content para el contenido completo, alcance inicialmente inferido y después confirmado explícitamente por el usuario, preservando la muestra y Draft/Tools. La [enmienda 0.1.3](../specs/components/conversation.composer-slot.amendment.v0.1.3.md) sustituye la clasificación NOT_APPLICABLE del aviso. QA documental PASS habilita DELEGATED_FOR_BUILD; no implica aprobación humana. user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

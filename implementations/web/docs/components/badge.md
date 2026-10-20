@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [badge.contract.v0.1.0.md](../../../../specs/components/badge.contract.v0.1.0.md) · SHA-256 `886fd8376f440063532a526825287e030918bf9092d827108ca58a49596e4b0b`.
 - [badge.source-color-amendment.v0.1.2.md](../../../../specs/components/badge.source-color-amendment.v0.1.2.md) · SHA-256 `5120317285938bb9fc06fd67ed0ce8b11b71c1d23051cd13464137c36280dabb`.
+- [badge.typography.amendment.v0.1.0.md](../../../../specs/components/badge.typography.amendment.v0.1.0.md) · SHA-256 `de915ea9408252c6f6042c02219b4040e2c69843eaa66bd194328777e2008266`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

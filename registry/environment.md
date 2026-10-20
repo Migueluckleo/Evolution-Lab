@@ -1,5 +1,11 @@
 # Environment Registry
 
+## Conversation Composer · capacidades2026-10-20
+
+Figma MCP del perfil corporativo: lectura/escritura acotada del destino, TextStyles por rango, variables/aliases y Slots en instancias verificadas. Primeras lecturas excedieron48000 bytes; repetición con DTO explícito, sin canvas modificado por esos intentos. El agregado boundVariables del texto conserva claves históricas: getRangeBoundVariable confirmó null para tracking/interlineado porcentuales. Se usa evidencia por rango, no el agregado como prueba de override.
+
+Node no estaba en PATH del shell; se reutilizó `/Users/miguel.leo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin` por comando. Sin instalaciones ni cambios globales. El reporte ds check debe permanecer en el proyecto; se guardó en output/qa. Comprobaciones y resultados finales en el QA del componente.
+
 ## Web y Graphify · cotejo contractual0.1.3 · 2026-10-13
 
 Herramientas existentes READY; versiones locales sin cambios.43 familias cotejadas;59 pruebas Chrome,9 unitarias, TypeScript/build/generación comprobados. [QA y resolución del permiso](../qa/implementations/web.contract-audit.v0.1.3.review.md). La lectura de metadatos/trazados Figma fue posible; auto-review rechazó inicialmente exportar los dos raster privados de Modal. Después de la autorización específica del usuario, ambos se copiaron y sus hashes se verificaron. No se instalaron herramientas.
@@ -395,3 +401,8 @@ Entorno READY: Graphify0.9.65 instalado con uv; intérprete /Users/miguel.leo/.l
 ## Fuentes · cierre de lote 2026-10-09
 
 Figma corporativo leído/escrito en destino AI DS, fuente Navi solo lectura. [Estado](../implementations/figma/fuentes.v0.1.0.state.json), [QA](../qa/implementations/fuentes.v0.1.0.review.md). Capacidades de Slots, reflow y variables verificadas. Sin instalaciones, servicios externos, credenciales nuevas ni publicación remota. Grafo requiere cierre incremental estructural y semántico de este lote; su resultado real queda en [closure.json](../graphify-out/runs/2026-10-09-fuentes/closure.json), sin inferir CURRENT antes de verificar.
+
+
+## ENV-CONVERSATION-COMPOSER-SLOT-013 · 2026-10-20
+
+Figma Plugin API disponible: ComponentNode.createSlot, propiedad SLOT, SlotNode.resetSlot, edición de hijos en instancia vinculada; capacidad ejecutada en [QA](../qa/implementations/conversation-composer.v0.1.3.slots.json). Sin instalaciones ni variables nuevas. El límite de respuesta48000 bytes exigió reducir solo el payload del primer QA; aquella ejecución no comprometió cambios según la herramienta.

@@ -52,6 +52,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [radio-button.contract.v0.1.0.md](../../../../specs/radio-button.contract.v0.1.0.md) · SHA-256 `37be63a92fd4b30468c15d50689487e84a3a67de5c43547c390a083a2427fbfe`.
 - [radio-checkbox.refinement.amendment.v0.1.2.md](../../../../specs/components/radio-checkbox.refinement.amendment.v0.1.2.md) · SHA-256 `a53c4ed47b9dd7871009a67983ccc2ad3e2ba69d96bc5b8faa05ac0fa48f75a1`.
 - [radio-button.source-color-amendment.v0.1.1.md](../../../../specs/radio-button.source-color-amendment.v0.1.1.md) · SHA-256 `55ed04efb099953c15097bbd2cc8ca64b5f9141e67bd54601fe4150e7df0e5e0`.
+- [radio-button.typography.amendment.v0.1.0.md](../../../../specs/components/radio-button.typography.amendment.v0.1.0.md) · SHA-256 `2aa2d38c7ad460714cf52dccde8620e5a5d56f80920ea9b053697fdd0d2cc1ab`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "kind": "DERIVED_NOT_AUTHORITY",
+  "selection_rule": "Explicit statuses and substitution; never highest version or latest date",
+  "issues": [],
+  "families": [
+    {
+      "id": "CONVERSATION-001",
+      "resolution": "RESOLVED",
+      "base": {
+        "id": "CONVERSATION-001",
+        "path": "specs/conversation.contract.v0.1.0.md",
+        "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+        "kind": "base",
+        "metadata": {
+          "contract_id": "CONVERSATION-001",
+          "version": "0.1.0",
+          "status": "DELEGATED_FOR_BUILD",
+          "user_audit": "PENDING",
+          "figma_page_name": "Conversation",
+          "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+          "decision": "DEC-EXTERNAL-COMPONENTS-DELEGATION-001",
+          "slot_applicability": "REQUIRED"
+        }
+      },
+      "base_history_and_candidates": [],
+      "amendments": [
+        {
+          "id": "CONVERSATION-CHARACTER-IDENTITY-001",
+          "path": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+          "sha256": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "CONVERSATION-CHARACTER-IDENTITY-001",
+            "version": "0.1.1",
+            "status": "DELEGATED_FOR_BUILD",
+            "user_audit": "PENDING",
+            "decision": "DEC-CHARACTER-IDENTITY-001",
+            "slot_applicability": "NOT_APPLICABLE"
+          }
+        },
+        {
+          "id": "CONVERSATION-COMPOSER-ACTION-001",
+          "path": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+          "sha256": "70b8a9efc172797049ceab6125d8fdfd257eff86eb4221afc2468e266338a3a5",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "CONVERSATION-COMPOSER-ACTION-001",
+            "version": "0.1.2",
+            "status": "DELEGATED_FOR_BUILD",
+            "applies_to": "CONVERSATION-001",
+            "base_contract": "specs/conversation.contract.v0.1.0.md",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "figma_page_name": "Conversation",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "slot_applicability": "REQUIRED"
+          }
+        },
+        {
+          "id": "CONVERSATION-COMPOSER-SLOT-001",
+          "path": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+          "sha256": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "CONVERSATION-COMPOSER-SLOT-001",
+            "version": "0.1.3",
+            "status": "DELEGATED_FOR_BUILD",
+            "applies_to": "CONVERSATION-001",
+            "base_contract": "specs/conversation.contract.v0.1.0.md",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "figma_page_name": "Conversation",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "slot_applicability": "REQUIRED"
+          }
+        }
+      ],
+      "declared_fields_by_scope": {
+        "status": [
+          {
+            "source": "specs/conversation.contract.v0.1.0.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "DELEGATED_FOR_BUILD"
+          }
+        ],
+        "user_audit": [
+          {
+            "source": "specs/conversation.contract.v0.1.0.md",
+            "value": "PENDING"
+          },
+          {
+            "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+            "value": "PENDING"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "NOT_REQUIRED"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "NOT_REQUIRED"
+          }
+        ],
+        "figma_page_name": [
+          {
+            "source": "specs/conversation.contract.v0.1.0.md",
+            "value": "Conversation"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "Conversation"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "Conversation"
+          }
+        ],
+        "review_targets": "UNKNOWN",
+        "readiness_by_target": "UNKNOWN",
+        "slot_applicability": [
+          {
+            "source": "specs/conversation.contract.v0.1.0.md",
+            "value": "REQUIRED"
+          },
+          {
+            "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+            "value": "NOT_APPLICABLE"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "REQUIRED"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "REQUIRED"
+          }
+        ],
+        "implementation_review": "UNKNOWN",
+        "implementation_status": "UNKNOWN"
+      },
+      "implementation_evidence": [
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.2.preflight.json",
+          "contract_refs": [],
+          "declared": {}
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.2.state.json",
+          "contract_refs": [
+            "specs/components/conversation.composer-action.amendment.v0.1.2.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Aviso opcional y parámetros corregidos; no revalida toda Conversation",
+            "user_audit": "NOT_REQUIRED",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation-composer.v0.1.2.review.md"
+          }
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.3.preflight.json",
+          "contract_refs": [],
+          "declared": {}
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.3.state.json",
+          "contract_refs": [
+            "specs/components/conversation.composer-slot.amendment.v0.1.3.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Slot Notice content del Composer; no revalidación global de Conversation",
+            "user_audit": "NOT_REQUIRED",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation-composer.v0.1.3.review.md"
+          }
+        },
+        {
+          "path": "implementations/figma/conversation.characters.v0.1.1.state.json",
+          "contract_refs": [
+            "specs/components/conversation.character-identity.amendment.v0.1.1.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Fixed character colors only",
+            "userAudit": "PENDING",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation.characters.v0.1.1.review.md"
+          }
+        },
+        {
+          "path": "implementations/figma/conversation.v0.1.0.preflight.json",
+          "contract_refs": [],
+          "declared": {}
+        },
+        {
+          "path": "implementations/figma/conversation.v0.1.0.state.json",
+          "contract_refs": [
+            "specs/conversation.contract.v0.1.0.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Visual Figma component with documented inherited exceptions; no frontend behavior",
+            "userAudit": "PENDING",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation.v0.1.0.review.md"
+          }
+        },
+        {
+          "path": "implementations/figma/conversation.v0.1.0.tokens-readback.json",
+          "contract_refs": [],
+          "declared": {}
+        }
+      ],
+      "qa_refs": [
+        "qa/contracts/conversation-composer.v0.1.2.canonical-check.json",
+        "qa/contracts/conversation-composer.v0.1.2.review.md",
+        "qa/contracts/conversation-composer.v0.1.3.preflight.json",
+        "qa/contracts/conversation-composer.v0.1.3.review.md",
+        "qa/implementations/conversation-composer.v0.1.2.review.md",
+        "qa/implementations/conversation-composer.v0.1.3.review.md",
+        "qa/implementations/conversation.v0.1.0.contrast.json",
+        "qa/implementations/conversation.v0.1.0.review.md"
+      ],
+      "authority_refs": [
+        "registry/DEC-AI-TECHNICAL-CLOSURE-001.md",
+        "registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md"
+      ],
+      "closure_and_exception_evidence": [],
+      "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
+    }
+  ],
+  "standalone_amendments": []
+}

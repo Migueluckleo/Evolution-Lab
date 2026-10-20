@@ -53,6 +53,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [metric-card.contract.v0.1.0.md](../../../../specs/metric-card.contract.v0.1.0.md) · SHA-256 `243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e`.
 - [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [metric-card.typography.amendment.v0.1.0.md](../../../../specs/components/metric-card.typography.amendment.v0.1.0.md) · SHA-256 `2ca2104c99abc4a43473c8e3bac8b5f274e197f3da6612a2f0dd9f8db26fea6b`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

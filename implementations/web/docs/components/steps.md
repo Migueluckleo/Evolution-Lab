@@ -58,6 +58,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [steps.contract.v0.1.0.md](../../../../specs/steps.contract.v0.1.0.md) · SHA-256 `dad5b88393048c35391c09a5a13369849adf5b6fb9f1bfdd9fe16847690697e9`.
 - [composition-slots.amendment.v0.1.1.md](../../../../specs/composition-slots.amendment.v0.1.1.md) · SHA-256 `784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041`.
 - [steps.brand-theme.amendment.v0.1.1.md](../../../../specs/steps.brand-theme.amendment.v0.1.1.md) · SHA-256 `d13f98fb092e845e72844ccf7f0936816d3f3cdba8a432d4e68b22bbe3bbcc8b`.
+- [steps.typography.amendment.v0.1.0.md](../../../../specs/components/steps.typography.amendment.v0.1.0.md) · SHA-256 `4be55b25120f34acb52a2876e07e42a85ae12a48c9b1dcbf3d3e7b69b37e5e52`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

@@ -60,6 +60,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [icon-button.contract.v0.1.0.md](../../../../specs/icon-button.contract.v0.1.0.md) · SHA-256 `928d083a785af74510ec0f320a362934f50bf239ffcea856ec83d91898e893cf`.
 - [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [icon-button.typography.amendment.v0.1.0.md](../../../../specs/components/icon-button.typography.amendment.v0.1.0.md) · SHA-256 `d426a9344aca056929826630c2ec3543aa55a33537aca1f55a37fb98a3d2b519`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

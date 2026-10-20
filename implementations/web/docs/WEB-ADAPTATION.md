@@ -88,3 +88,12 @@ El corte posterior amplía el catálogo a **75 estilos: 18 base y 57 complementa
 `derivedFrom` registra receta de origen, razón, ratio y factor FLOAT32. El generador valida exactamente `FLOAT32(base × FLOAT32(ratio))` para tamaño e interlineado PIXELS, conserva medidas porcentuales y emite los valores ya materializados sin redondearlos ni aplicar otra escala. Las tres clases son adicionales: no reasignan recetas a los consumidores web existentes ni añaden transforms. Se conserva intacto el corte QA de 72 estilos; [la revisión de 75](../../../qa/implementations/typography/web/revision-75/README.md) registra el nuevo hash y la comprobación afectada.
 
 Validación afectada del corte de 75: 9 pruebas Python, determinismo, TypeScript y build estático PASS; 2 pruebas Chrome PASS, con 300 recetas (75 × 4) y 2,956 textos de las 43 familias en cuatro temas. Las mediciones de consumidores y los hashes de CSS/componentes/API son idénticos al corte de 72. La suite completa de 61 pruebas conserva su evidencia histórica y no se repitió para esta ampliación de clases adicionales.
+
+## Conversation Composer · aviso opcional0.1.2 · 2026-10-20
+
+La [enmienda del aviso](../../../specs/components/conversation.composer-action.amendment.v0.1.2.md) incorpora showAction, actionMessage, actionLabel y onAction al Composer. El aviso es composición fija; Draft/Tools conservan composición variable. Se reutilizan Button default/small y estilos base Caption por rango. La acción queda fuera del formulario y no envía el borrador. El ejemplo modifica solamente estado local; la fecha y el límite de créditos no son políticas implementadas. [QA acotado](../../../qa/implementations/conversation-composer.v0.1.2.review.md).
+
+
+## Conversation Composer · Slot del aviso 0.1.3
+
+La [enmienda](../../../specs/components/conversation.composer-slot.amendment.v0.1.3.md) incorpora Notice content, Slot nativo Figma1103:192. React expone `noticeContent?: ReactNode`: undefined conserva la muestra anterior; null deja la región vacía; nodos/colecciones reemplazan el aviso completo. La región vertical tiene gap spacing/sm, conserva showAction y permanece fuera del formulario. El ejemplo permite vacío, tres bloques, reordenación y sustitución mediante InlineNotification/Button existentes. Figma reserva49px para el Slot vacío visible como caja de edición; web null no añade contenido ni altura propia. Usar showAction=false cuando la pantalla deba retirar completamente el aviso. Esta diferencia de representación no crea un estado de negocio.

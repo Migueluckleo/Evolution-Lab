@@ -1,5 +1,9 @@
 # Registro de contratos
 
+## CONVERSATION-COMPOSER-ACTION-001 · 0.1.2 · 2026-10-20
+
+[Enmienda de Composer](../specs/components/conversation.composer-action.amendment.v0.1.2.md), aplica parcialmente a CONVERSATION-0010.1.0. `DELEGATED_FOR_BUILD`; [QA documental PASS](../qa/contracts/conversation-composer.v0.1.2.review.md), destino Figma READY. Revisión humana OPTIONAL_NON_BLOCKING/NOT_REQUIRED. Documenta Show action=false, aviso con texto y Button, mapeo de tokens y estilos base; conserva Draft/Tools. DEC-CONVERSATION-COMPOSER-ACTION-001 autoriza correcciones y sincronización. No sustituye Message/Response ni enmiendas de personajes.
+
 ## Tipografía · herencia nativa 0.1.2 · 2026-10-15
 
 La [enmienda nativa 0.1.2](../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) selecciona el [catálogo 0.1.2](../specs/tokens/ai-design-system.typography.v0.1.2.json), SHA-256 `074a31a83f09b30a02fa8b8f0a7730bdb33fc0a8a9c59e3c8d2469b5799e934c`. Conserva 79 estilos y todas sus recetas/IDs/bindings; aclara tres `description` y motivos de compatibilidad, codificación explicativa y procedencia. Sustituye expresamente REQ-TYP-004/AC-TYP-004, §escalados, TYC-01/06 y13 filas de cuatro familias, solo para 103 rangos con evidencia nativa verificable. Los3250 rangos directos y los 27 UNDERLINE conservan sus reglas.
@@ -546,3 +550,8 @@ Tres contratos v0.1.0 promovidos a specs: [Toolbar](../specs/chat-toolbar.contra
 ## FUENTES-001 · FOUNDATIONS-FUENTES-HOVER-001 · 2026-10-09
 
 [Fuentes0.1.0](../specs/components/fuentes.contract.v0.1.0.md) y [rol Hover0.1.0](../specs/foundations/fuentes-hover.contract.v0.1.0.md) promovidos a specs tras [QA documental](../qa/contracts/fuentes.v0.1.0.review.md) y [QA técnico](../qa/implementations/fuentes.v0.1.0.review.md) PASS. DELEGATED_FOR_BUILD por delegación externa; humana PENDING. Fuente Navi64:4164; dos estados, Path Slot nativo, Dot local sin modificación. [Estado](../implementations/figma/fuentes.v0.1.0.state.json).
+
+
+## CONVERSATION-COMPOSER-SLOT-001 · 0.1.3 · 2026-10-20
+
+[Enmienda](../specs/components/conversation.composer-slot.amendment.v0.1.3.md), base CONVERSATION-001. DELEGATED_FOR_BUILD tras [QA documental PASS](../qa/contracts/conversation-composer.v0.1.3.review.md). Sustituye solo la estructura fija del aviso CCA0.1.2 por Notice content; usuario confirmó texto y acciones. No reemplaza toda la familia. user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

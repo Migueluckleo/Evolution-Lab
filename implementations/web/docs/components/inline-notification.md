@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [inline-notification.contract.v0.1.0.md](../../../../specs/components/inline-notification.contract.v0.1.0.md) · SHA-256 `cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63`.
 - [inline-notification.warning-source-color-amendment.v0.1.1.md](../../../../specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md) · SHA-256 `064ee3d0de682fc8b00363aa91f26f24e75e3cc56bf436b2198eff7912378a33`.
+- [inline-notification.typography.amendment.v0.1.0.md](../../../../specs/components/inline-notification.typography.amendment.v0.1.0.md) · SHA-256 `f28ca585fa37606021a9977aa3b3cc8be9d25f5090cfed915e6ef63559a4caf2`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

@@ -1,0 +1,439 @@
+{
+  "removedNodeIds": [
+    "1092:286"
+  ],
+  "rows": [
+    {
+      "id": "765:397",
+      "type": "COMPONENT",
+      "name": "Conversation Composer",
+      "w": 616,
+      "h": 138,
+      "bindings": {
+        "itemSpacing": "VariableID:12:29",
+        "paddingLeft": "VariableID:12:18",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:18",
+        "paddingBottom": "VariableID:12:18"
+      },
+      "layout": "VERTICAL",
+      "sizing": [
+        "FIXED",
+        "HUG"
+      ],
+      "gap": 4,
+      "align": "MIN",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1087:497",
+      "type": "FRAME",
+      "name": "input",
+      "w": 616,
+      "h": 118,
+      "bindings": {
+        "itemSpacing": "VariableID:12:18",
+        "paddingLeft": "VariableID:12:18",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:18",
+        "paddingBottom": "VariableID:12:18"
+      },
+      "layout": "VERTICAL",
+      "sizing": [
+        "FILL",
+        "HUG"
+      ],
+      "gap": 0,
+      "align": "MIN",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1087:383",
+      "type": "FRAME",
+      "name": "container",
+      "w": 616,
+      "h": 49,
+      "bindings": {
+        "itemSpacing": "VariableID:12:30",
+        "paddingLeft": "VariableID:12:32",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:32",
+        "paddingBottom": "VariableID:12:18",
+        "topLeftRadius": "VariableID:13:8",
+        "topRightRadius": "VariableID:13:8",
+        "bottomLeftRadius": "VariableID:12:39",
+        "bottomRightRadius": "VariableID:12:39"
+      },
+      "layout": "HORIZONTAL",
+      "sizing": [
+        "FIXED",
+        "HUG"
+      ],
+      "gap": 8,
+      "align": "MIN",
+      "padding": [
+        0,
+        16,
+        0,
+        16
+      ]
+    },
+    {
+      "id": "1087:372",
+      "type": "FRAME",
+      "name": "message",
+      "w": 584,
+      "h": 49,
+      "bindings": {
+        "itemSpacing": "VariableID:12:30",
+        "paddingLeft": "VariableID:12:32",
+        "paddingTop": "VariableID:12:30",
+        "paddingRight": "VariableID:12:32",
+        "paddingBottom": "VariableID:12:30",
+        "topLeftRadius": "VariableID:13:8",
+        "topRightRadius": "VariableID:13:8",
+        "bottomLeftRadius": "VariableID:12:39",
+        "bottomRightRadius": "VariableID:12:39",
+        "strokeTopWeight": "VariableID:12:41",
+        "strokeBottomWeight": "VariableID:12:40",
+        "strokeLeftWeight": "VariableID:12:41",
+        "strokeRightWeight": "VariableID:12:41",
+        "fills": [
+          "VariableID:13:36"
+        ],
+        "strokes": [
+          "VariableID:13:14"
+        ]
+      },
+      "layout": "HORIZONTAL",
+      "sizing": [
+        "FILL",
+        "HUG"
+      ],
+      "gap": 8,
+      "align": "MIN",
+      "padding": [
+        8,
+        16,
+        8,
+        16
+      ]
+    },
+    {
+      "id": "1087:365",
+      "type": "TEXT",
+      "name": "description",
+      "w": 459,
+      "h": 19,
+      "bindings": {
+        "fills": [
+          "VariableID:13:27"
+        ],
+        "letterSpacing": [
+          "VariableID:12:16"
+        ],
+        "fontSize": [
+          "VariableID:10:8"
+        ],
+        "fontStyle": [
+          "VariableID:10:3",
+          "VariableID:10:5"
+        ],
+        "fontFamily": [
+          "VariableID:10:2"
+        ],
+        "lineHeight": [
+          "VariableID:12:7"
+        ]
+      },
+      "segments": [
+        {
+          "start": 0,
+          "end": 42,
+          "style": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,",
+          "font": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": -2
+          }
+        },
+        {
+          "start": 42,
+          "end": 72,
+          "style": "S:ed58d525ce135d142794e5c47e201096c023a800,",
+          "font": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 12,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": -2
+          }
+        }
+      ]
+    },
+    {
+      "id": "1087:399",
+      "type": "INSTANCE",
+      "name": "button",
+      "w": 83,
+      "h": 32,
+      "bindings": {
+        "itemSpacing": "VariableID:12:30",
+        "paddingLeft": "VariableID:12:32",
+        "paddingTop": "VariableID:12:29",
+        "paddingRight": "VariableID:12:32",
+        "paddingBottom": "VariableID:12:29",
+        "topLeftRadius": "VariableID:13:6",
+        "topRightRadius": "VariableID:13:6",
+        "bottomLeftRadius": "VariableID:13:6",
+        "bottomRightRadius": "VariableID:13:6",
+        "strokeTopWeight": "VariableID:12:41",
+        "strokeBottomWeight": "VariableID:12:41",
+        "strokeLeftWeight": "VariableID:12:41",
+        "strokeRightWeight": "VariableID:12:41",
+        "fills": [
+          "VariableID:13:35"
+        ],
+        "strokes": [
+          "VariableID:712:122"
+        ]
+      },
+      "main": "26:102",
+      "layout": "HORIZONTAL",
+      "sizing": [
+        "HUG",
+        "FIXED"
+      ],
+      "gap": 8,
+      "align": "CENTER",
+      "padding": [
+        4,
+        16,
+        4,
+        16
+      ]
+    },
+    {
+      "id": "1092:196",
+      "type": "INSTANCE",
+      "name": "Conversation Composer",
+      "w": 616,
+      "h": 187,
+      "bindings": {
+        "itemSpacing": "VariableID:12:29",
+        "paddingLeft": "VariableID:12:18",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:18",
+        "paddingBottom": "VariableID:12:18"
+      },
+      "main": "765:397",
+      "notice": {
+        "id": "I1092:196;1087:365",
+        "width": 459,
+        "height": 19,
+        "styles": [
+          {
+            "start": 0,
+            "end": 42,
+            "style": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,"
+          },
+          {
+            "start": 42,
+            "end": 72,
+            "style": "S:ed58d525ce135d142794e5c47e201096c023a800,"
+          }
+        ]
+      },
+      "layout": "VERTICAL",
+      "sizing": [
+        "FIXED",
+        "HUG"
+      ],
+      "gap": 4,
+      "align": "MIN",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1092:241",
+      "type": "INSTANCE",
+      "name": "Conversation Composer",
+      "w": 360,
+      "h": 228,
+      "bindings": {
+        "itemSpacing": "VariableID:12:29",
+        "paddingLeft": "VariableID:12:18",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:18",
+        "paddingBottom": "VariableID:12:18"
+      },
+      "main": "765:397",
+      "notice": {
+        "id": "I1092:241;1087:365",
+        "width": 203,
+        "height": 57,
+        "styles": [
+          {
+            "start": 0,
+            "end": 42,
+            "style": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,"
+          },
+          {
+            "start": 42,
+            "end": 72,
+            "style": "S:ed58d525ce135d142794e5c47e201096c023a800,"
+          }
+        ]
+      },
+      "layout": "VERTICAL",
+      "sizing": [
+        "FIXED",
+        "HUG"
+      ],
+      "gap": 4,
+      "align": "MIN",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "766:246",
+      "type": "INSTANCE",
+      "name": "Conversation Composer",
+      "w": 616,
+      "h": 138,
+      "bindings": {
+        "itemSpacing": "VariableID:12:29",
+        "paddingLeft": "VariableID:12:18",
+        "paddingTop": "VariableID:12:18",
+        "paddingRight": "VariableID:12:18",
+        "paddingBottom": "VariableID:12:18"
+      },
+      "main": "765:397",
+      "notice": {
+        "id": "I766:246;1087:365",
+        "width": 459,
+        "height": 19,
+        "styles": [
+          {
+            "start": 0,
+            "end": 42,
+            "style": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,"
+          },
+          {
+            "start": 42,
+            "end": 72,
+            "style": "S:ed58d525ce135d142794e5c47e201096c023a800,"
+          }
+        ]
+      },
+      "layout": "VERTICAL",
+      "sizing": [
+        "FILL",
+        "HUG"
+      ],
+      "gap": 4,
+      "align": "MIN",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "Disclaimer#765:10",
+      "type": "TEXT",
+      "default": "Te recomendamos revisar la información importante para asegurar un resultado óptimo"
+    },
+    {
+      "name": "Show disclaimer#765:11",
+      "type": "BOOLEAN",
+      "default": true
+    },
+    {
+      "name": "Draft#765:12",
+      "type": "SLOT",
+      "slotSettings": {
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      }
+    },
+    {
+      "name": "Show model selector#765:13",
+      "type": "BOOLEAN",
+      "default": false
+    },
+    {
+      "name": "Model label#765:14",
+      "type": "TEXT",
+      "default": "Navi Auto V1.0"
+    },
+    {
+      "name": "Tools#765:15",
+      "type": "SLOT",
+      "slotSettings": {
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      }
+    },
+    {
+      "name": "Show action#1087:0",
+      "type": "BOOLEAN",
+      "default": false
+    }
+  ],
+  "slots": [
+    {
+      "id": "765:400",
+      "name": "Draft",
+      "children": 1
+    },
+    {
+      "id": "765:413",
+      "name": "Tools",
+      "children": 2
+    }
+  ]
+}

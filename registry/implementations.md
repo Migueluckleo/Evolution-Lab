@@ -1,5 +1,9 @@
 # Registro de implementaciones
 
+## IMP-CONVERSATION-COMPOSER-012 · 2026-10-20
+
+[Enmienda0.1.2](../specs/components/conversation.composer-action.amendment.v0.1.2.md): Figma y web local `VALIDATED` exclusivamente para aviso opcional y correcciones. Destino AI-Design-System, página Conversation765:6, principal765:397; cuatro nodos actualizados1087:497/383/372/365, cero variables/componentes nuevos, Slots765:400/413 preservados. Instancia existente766:246 verificada. [QA y límites](../qa/implementations/conversation-composer.v0.1.2.review.md), [estado](../implementations/figma/conversation-composer.v0.1.2.state.json). Web incluye API, documentación generada y ejemplo local;9 tests/build y prueba Chrome dedicada PASS. Revisión humana OPTIONAL_NON_BLOCKING/NOT_REQUIRED; sin publicación remota.
+
 ## IMP-TYPOGRAPHY-CONSUMERS-012 · 2026-10-15
 
 **PASS para consumo tipográfico verificado**: 34 páginas, 3351 nodos UI y 3353 rangos, desglosados en3250 vínculos directos y103 herencias nativas comprobadas; cero rangos sin resolución. [Reporte vigente](../qa/implementations/typography.v0.1.2.review.md), [catálogo79 0.1.2](../specs/tokens/ai-design-system.typography.v0.1.2.json) y [enmienda de herencia](../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md).43Specs de consumo,150editoriales preservados, tres pilotos causales completos y todas sus copias retiradas. IDs locales vacíos103 conservados como observación, sin inventar vínculos. Auditoría humana `PENDING`; biblioteca no publicada. El guard completo no textual de Table perdido por timeout sigue sin evidencia; este PASS no lo sustituye. Skills y Graphify tienen cierres separados; consultar [skills.md](skills.md) y `graphify-out/ds-closure.json`.
@@ -563,3 +567,10 @@ VALIDATED para contrato visual v0.1.0. Chat783:6; Toolbar798:284 (2), Tool Item7
 ## IMP-FUENTES-FIGMA-001 · 2026-10-09
 
 VALIDATED del [contrato visual](../specs/components/fuentes.contract.v0.1.0.md), con limitaciones de accesibilidad documentadas. AI DS/Fuentes847:7/set848:41; Default848:11, Hover848:26, Path Item848:8; revisión848:42. [Estado](../implementations/figma/fuentes.v0.1.0.state.json) y [QA](../qa/implementations/fuentes.v0.1.0.review.md).22 paints, cuatro temas, Slot probado0/1/2/4 y long150. Una variable semántica nueva, cero primitivas. Biblioteca NOT_PERFORMED; humana PENDING.
+
+
+## Conversation Composer Slot · 2026-10-20
+
+IMP-CONVERSATION-COMPOSER-013 · Slot Notice content1103:192 en principal765:397; instancia766:246 vinculada. [Estado](../implementations/figma/conversation-composer.v0.1.3.state.json), [QA PASS](../qa/implementations/conversation-composer.v0.1.3.review.md). Figma y web local VALIDATED solo para este alcance. Draft/Tools y muestra original preservados; pruebas temporales eliminadas.
+
+user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

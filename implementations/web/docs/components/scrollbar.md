@@ -58,6 +58,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [scrollbar.contract.v0.1.0.md](../../../../specs/scrollbar.contract.v0.1.0.md) · SHA-256 `64326d0219578049084a46beed5181bfee13eba4b1c801a95098ce1b390cf9f9`.
 - [scrollbar.color-approximation.amendment.v0.1.1.md](../../../../specs/scrollbar.color-approximation.amendment.v0.1.1.md) · SHA-256 `9706debe1203c2b29bd58d646060744be24bddcf5ad16b65ca9ca039f40b173e`.
+- [scrollbar.typography.amendment.v0.1.0.md](../../../../specs/components/scrollbar.typography.amendment.v0.1.0.md) · SHA-256 `9eb090b2718162b5fdd4d38eaa0f7f325fe5bf940fc0cb4814ea7a4535f93a33`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

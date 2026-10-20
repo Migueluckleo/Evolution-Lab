@@ -52,6 +52,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [checkbox.contract.v0.1.0.md](../../../../specs/checkbox.contract.v0.1.0.md) · SHA-256 `3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095`.
 - [checkbox.source-color-amendment.v0.1.1.md](../../../../specs/checkbox.source-color-amendment.v0.1.1.md) · SHA-256 `9826dafb742b5efe427ff897f1dcb440cb9e01fdffbd9ef162e11530c24f06b4`.
 - [radio-checkbox.refinement.amendment.v0.1.2.md](../../../../specs/components/radio-checkbox.refinement.amendment.v0.1.2.md) · SHA-256 `a53c4ed47b9dd7871009a67983ccc2ad3e2ba69d96bc5b8faa05ac0fa48f75a1`.
+- [checkbox.typography.amendment.v0.1.0.md](../../../../specs/components/checkbox.typography.amendment.v0.1.0.md) · SHA-256 `b5845133b85b4e0a978375553b893c0ef532da4ca04f52cc6e7196bbb0535358`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

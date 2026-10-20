@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [linear-progress-bar.contract.v0.1.0.md](../../../../specs/linear-progress-bar.contract.v0.1.0.md) · SHA-256 `6fa5650cfec2b1c200f58097b29746974defad6198ce76784ff42ab77892b316`.
 - [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [linear-progress-bar.typography.amendment.v0.1.0.md](../../../../specs/components/linear-progress-bar.typography.amendment.v0.1.0.md) · SHA-256 `cf4acdbd72ba04a2eeb3e86a6391fc3123a86646876bcb26ab4a9589aa836ece`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

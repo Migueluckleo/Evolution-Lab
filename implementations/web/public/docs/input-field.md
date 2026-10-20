@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [input-field.contract.v0.1.0.md](../../../../specs/input-field.contract.v0.1.0.md) · SHA-256 `e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d`.
 - [input-field.disabled-text.amendment.v0.1.1.md](../../../../specs/input-field.disabled-text.amendment.v0.1.1.md) · SHA-256 `fc73aef18bd2c4ca6fcdd4eaa17d92c9e65aee0f4e54ff993eb9aeefc0f98a45`.
+- [input-field.typography.amendment.v0.1.0.md](../../../../specs/components/input-field.typography.amendment.v0.1.0.md) · SHA-256 `4acba0dcf0ee253e25c933c92f3a30d970bedc1facee64f2144db05675f9ac5e`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

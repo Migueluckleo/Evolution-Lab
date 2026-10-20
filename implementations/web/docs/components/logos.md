@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [logos.contract.v0.1.0.md](../../../../drafts/contracts/logos.contract.v0.1.0.md) · SHA-256 `088b7e86d695541b4587b891a658a2d50e1843e9bb0e98a1ef0cdfc340bf4f56`.
 - [logos.scope.amendment.v0.1.1.md](../../../../specs/components/logos.scope.amendment.v0.1.1.md) · SHA-256 `f72b740ff43d134c794fb2ad6ea596ffa36bc4f09afeae3996575b04a5fe7467`.
+- [logos.typography.amendment.v0.1.0.md](../../../../specs/components/logos.typography.amendment.v0.1.0.md) · SHA-256 `f31a958e685c621afa2b295eadab9889e23845299519a9341d370cdedefb13fb`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

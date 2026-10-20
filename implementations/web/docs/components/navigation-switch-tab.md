@@ -53,6 +53,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [navigation-switch-tab.contract.v0.1.0.md](../../../../specs/navigation-switch-tab.contract.v0.1.0.md) · SHA-256 `c9007112a7155c155a5fc32ee8e809fa28576005069c8964f3205e9f77fb4cf1`.
 - [composition-slots.amendment.v0.1.0.md](../../../../specs/composition-slots.amendment.v0.1.0.md) · SHA-256 `3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5`.
+- [navigation-switch-tab.typography.amendment.v0.1.0.md](../../../../specs/components/navigation-switch-tab.typography.amendment.v0.1.0.md) · SHA-256 `81abdad4e64d4ccad34270fbc60d2f0de8047384af0abe19f971131722a05b16`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

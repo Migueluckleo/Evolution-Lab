@@ -1,0 +1,560 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:33",
+      "name": "spacing/0",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 0
+      },
+      "scopes": [],
+      "description": "Origen de la escala primitiva de espaciado y representación explícita de ausencia de separación. Se usa como valor fuente cuando un alias semántico necesita expresar espacio nulo de forma intencional.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:44",
+      "name": "spacing/8",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 8
+      },
+      "scopes": [],
+      "description": "Tercer paso de 11 en la escala primitiva de espaciado. Aporta un valor base reutilizable para aliases semánticos de separación y distribución.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:32",
+      "name": "spacing/lg",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:46"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:46",
+      "name": "spacing/16",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 16
+      },
+      "scopes": [],
+      "description": "Quinto paso de 11 en la escala primitiva de espaciado. Aporta un valor base reutilizable para aliases semánticos de separación y distribución.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:39",
+      "name": "radius/none",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:35"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Ausencia intencional de redondeo dentro de la escala semántica de radios. Úsalo cuando una superficie deba conservar esquinas rectas de forma explícita.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:35",
+      "name": "radius/0",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 0
+      },
+      "scopes": [],
+      "description": "Origen de la escala primitiva de radios y representación explícita de ausencia de redondeo. Se usa como valor fuente cuando un alias semántico requiere esquinas sin curvatura.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:40",
+      "name": "stroke/none",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:53"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:53"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:53"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:53"
+        }
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Ausencia intencional de grosor de trazo dentro de la escala semántica. Úsalo cuando un borde deba eliminarse mediante una decisión tokenizada en lugar de un valor local.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:53",
+      "name": "stroke/0",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 0
+      },
+      "scopes": [],
+      "description": "Origen de la escala primitiva de grosor de trazo y representación explícita de ausencia de borde. Se usa como valor fuente cuando un alias semántico necesita eliminar el trazo.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:41",
+      "name": "stroke/xs",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:54"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:54"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:54"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:54"
+        }
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:54",
+      "name": "stroke/1",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 1
+      },
+      "scopes": [],
+      "description": "Segundo paso de 4 en la escala primitiva de grosor de trazo. Aporta una intensidad estructural reutilizable para aliases semánticos de borde.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:13:8",
+      "name": "radius/xl",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:40"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Nivel muy alto de redondeo semántico. Úsalo cuando la geometría requiera una curvatura dominante sin llegar al radio completo.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:40",
+      "name": "radius/16",
+      "resolvedType": "FLOAT",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": 16
+      },
+      "scopes": [],
+      "description": "Sexto paso de 9 en la escala primitiva de radios. Aporta un grado de redondeo reutilizable para aliases semánticos sin asignarle un contexto de componente.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:13:14",
+      "name": "color/border/subtle",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:85"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:59"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:68"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:77"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Borde de baja prominencia destinado a separaciones suaves. Úsalo cuando la delimitación deba existir sin competir visualmente con el contenido o con bordes de mayor jerarquía.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:85",
+      "name": "color/blue/200",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.7490196228027344,
+          "g": 0.8078431487083435,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Segundo nivel nominal de 9 en la escala cromática azul. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:59",
+      "name": "color/green/200",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.5764706134796143,
+          "g": 0.8274509906768799,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Segundo nivel nominal de 9 en la escala cromática verde. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:68",
+      "name": "color/orange/200",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 1,
+          "g": 0.8470588326454163,
+          "b": 0.7843137383460999,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Segundo nivel nominal de 9 en la escala cromática naranja. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:77",
+      "name": "color/purple/200",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.8784313797950745,
+          "g": 0.7921568751335144,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Segundo nivel nominal de 9 en la escala cromática morado. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:13:36",
+      "name": "color/background/subtle",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:94"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "description": "Fondo neutral de baja prominencia para crear una separación suave respecto al fondo base. Úsalo cuando una región necesite diferenciación ligera sin asumir un rol interactivo o de estado.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:94",
+      "name": "color/neutral/200",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.9450980424880981,
+          "g": 0.9607843160629272,
+          "b": 0.9764705896377563,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Segundo nivel nominal de 9 en la escala cromática neutral. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:13:27",
+      "name": "color/text/primary",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:2",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:101"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:8:101",
+      "name": "color/neutral/900",
+      "resolvedType": "COLOR",
+      "collection": "VariableCollectionId:6:3",
+      "valuesByMode": {
+        "6:4": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "Noveno nivel nominal de 9 en la escala cromática neutral. Es un valor primitivo sin intención de interfaz propia y debe adquirir significado a través de aliases semánticos cuando exista uno.",
+      "codeSyntax": {}
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "6:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "6:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "6:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "6:3"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:3",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:4"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:ed58d525ce135d142794e5c47e201096c023a800,",
+      "name": "Caption/Regular",
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,",
+      "name": "Caption/Semibold",
+      "font": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 160.0000023841858
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "textDecoration": "NONE"
+    }
+  ],
+  "buttonChildren": []
+}

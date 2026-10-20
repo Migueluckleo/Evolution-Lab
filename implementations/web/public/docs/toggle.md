@@ -54,6 +54,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [toggle.mixed-amendment.v0.1.4.md](../../../../specs/components/toggle.mixed-amendment.v0.1.4.md) · SHA-256 `1c2f085490c2ad330d92778306d5e9f09f93b625d7f08fdc5ec905ce9ed50b47`.
 - [toggle.source-color-amendment.v0.1.5.md](../../../../specs/components/toggle.source-color-amendment.v0.1.5.md) · SHA-256 `b9d4b868ed8dbd1d6eab558d8ce3b5a32919d08f6083055bca1ffe3ca527e6e2`.
 - [toggle.visual-contrast-amendment.v0.1.2.md](../../../../specs/components/toggle.visual-contrast-amendment.v0.1.2.md) · SHA-256 `8010307c88f303d8faff80c357956630ac557ff43de71ef9853d22fdaf264357`.
+- [toggle.typography.amendment.v0.1.0.md](../../../../specs/components/toggle.typography.amendment.v0.1.0.md) · SHA-256 `81b66c663c20a0af551ef1e7db166d1d38b2bc3c0502f86d7c3c811b8ba893af`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-20",
+  "scope": "Conversation Composer Slot 0.1.3",
+  "status": "CURRENT",
+  "catalog": {
+    "schema_version": 1,
+    "engine_protocol": 1,
+    "manifest": "catalog/releases/c0b607bd44ded89467d4713d7181b0ec7c8aab988f808b5efb0ece0aea5fa9ba/manifest.json",
+    "manifest_sha256": "c0b607bd44ded89467d4713d7181b0ec7c8aab988f808b5efb0ece0aea5fa9ba",
+    "bundle": "catalog/releases/c0b607bd44ded89467d4713d7181b0ec7c8aab988f808b5efb0ece0aea5fa9ba/data.tar.gz",
+    "bundle_sha256": "a13f976c9284e47b1360068dbd3563c6bf473c246e1f4acb5f19fc0c7f83970b",
+    "bundle_bytes": 9315006,
+    "ds_digest": "dbe522d12db6bbfbcff926eb895ca4b986e4ca4268a5a5a8756579aad6d63aac"
+  },
+  "engine_version": "0.3.3",
+  "engine_operation": "UNCHANGED",
+  "sync": "CURRENT",
+  "check": "CURRENT",
+  "export": "UNCHANGED",
+  "check_installed": "CURRENT",
+  "stale_installed": [],
+  "publication": "NOT_RUN",
+  "commands": [
+    "python3 scripts/ds_remote.py",
+    "scripts/ds skills sync --json",
+    "scripts/ds skills check --json",
+    "scripts/ds skills export --json",
+    "scripts/ds skills check-installed --json"
+  ],
+  "packages": {
+    "output/skills/0.3.3/contpaqi-figma-screens-0.3.3.zip": "3736ebec6b6ae3848a58021617b681f148b3807dfd985eee03c7d8d0dbd4e4ec",
+    "output/skills/0.3.3/contpaqi-po-prototypes-0.3.3.zip": "5824845ff8a007079b5ece81edfa6d192110b4653d435d7d55a2cd580dbbb5a5"
+  }
+}

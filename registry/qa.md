@@ -1,5 +1,9 @@
 # Registro de QA
 
+## QA-CONVERSATION-COMPOSER-012 · 2026-10-20
+
+[Contrato](../qa/contracts/conversation-composer.v0.1.2.review.md) PASS; [implementación](../qa/implementations/conversation-composer.v0.1.2.review.md) PASS acotado al aviso y parámetros normalizados.23 variables cotejadas, dos estilos por rango, cuatro temas × dos anchos, texto largo, Slots0/1/muestra/4/5 y operaciones desde instancia vinculada. Web: generación, TypeScript,9 tests, build estático,1 prueba Chrome funcional/visual. Copias QA retiradas. Las limitaciones y pruebas iniciales fallidas están registradas. P08/P05 tienen sus comprobantes separados; no se simula aprobación humana ni QA global.
+
 ## QA-WEB-CONTRACT-AUDIT-013 · 2026-10-13
 
 [Reporte0.1.3](../qa/implementations/web.contract-audit.v0.1.3.review.md), [matriz43](../qa/implementations/web-contract-audit-2026-10-13/family-matrix.md) y [resultados](../qa/implementations/web-contract-audit-2026-10-13/results.json):43 familias cotejadas con valores esperados explícitos por caso/tema y capturas inspeccionadas.725 fixtures×4 temas,59 pruebas de navegador y9 unitarias; build/TypeScript/generación comprobados. No se certifican cada píxel ni combinaciones arbitrarias. El rechazo inicial de extracción de raster Modal se resolvió tras autorización explícita: ambos originales están copiados, sus hashes coinciden y las variantes se revalidaron con las imágenes presentes. Fuente normativa, evidencia OBSERVED y adaptación web diferenciadas.
@@ -613,3 +617,10 @@ Este resultado es histórico de la revisión documental previa. La aprobación p
 ## QA-FUENTES-001 · 2026-10-09
 
 [Documental](../qa/contracts/fuentes.v0.1.0.review.md) y [técnico visual](../qa/implementations/fuentes.v0.1.0.review.md) PASS. [Readback](../qa/implementations/fuentes.v0.1.0.final.json), [verificador](../qa/implementations/fuentes.v0.1.0.verify.cjs), [contraste](../qa/implementations/fuentes.v0.1.0.contrast.json). No equivale a cumplimiento integral WCAG ni aprobación humana. Ruta8px y pares de contraste preservados con asterisco; no recolorear.
+
+
+## Conversation Composer Slot · 2026-10-20
+
+QA-CONVERSATION-COMPOSER-SLOT-013 · [Documental](../qa/contracts/conversation-composer.v0.1.3.review.md) e [implementación](../qa/implementations/conversation-composer.v0.1.3.review.md) PASS.22 casos Figma;4 temas×2 anchos;0/1/3, orden/sustitución/reset/visibilidad. Web: verify PASS y Chrome1/1 PASS. Slot vacío visible Figma conserva49px editoriales; diferencia web null documentada.
+
+user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.

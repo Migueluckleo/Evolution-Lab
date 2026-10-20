@@ -1,0 +1,1846 @@
+{
+  "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "nodeId": "765:397",
+  "date": "2026-10-20",
+  "authority": "OBSERVED",
+  "structure": {
+    "rows": [
+      {
+        "id": "765:397",
+        "type": "COMPONENT",
+        "name": "Conversation Composer",
+        "visible": true,
+        "w": 616,
+        "h": 138,
+        "x": 854,
+        "y": 760,
+        "layout": "VERTICAL",
+        "gap": 4,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FIXED",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:398",
+        "type": "TEXT",
+        "name": "Disclaimer",
+        "visible": true,
+        "w": 616,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "text": "Te recomendamos revisar la información importante para asegurar un resultado óptimo",
+        "style": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,"
+      },
+      {
+        "id": "1087:497",
+        "type": "FRAME",
+        "name": "input",
+        "visible": true,
+        "w": 616,
+        "h": 118,
+        "x": 0,
+        "y": 20,
+        "layout": "VERTICAL",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "1087:383",
+        "type": "FRAME",
+        "name": "container",
+        "visible": false,
+        "w": 616,
+        "h": 49,
+        "x": 0,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          16,
+          0,
+          16
+        ],
+        "sizing": [
+          "FIXED",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ]
+      },
+      {
+        "id": "1087:372",
+        "type": "FRAME",
+        "name": "message",
+        "visible": true,
+        "w": 584,
+        "h": 49,
+        "x": 16,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "SPACE_BETWEEN",
+          "CENTER"
+        ]
+      },
+      {
+        "id": "1087:365",
+        "type": "TEXT",
+        "name": "description",
+        "visible": true,
+        "w": 409,
+        "h": 16,
+        "x": 17,
+        "y": 17,
+        "text": "Alcanzaste tu límite mensual de créditos. Se renuevan el 1 de noviembre.",
+        "style": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,"
+      },
+      {
+        "id": "1087:399",
+        "type": "INSTANCE",
+        "name": "button",
+        "visible": true,
+        "w": 83,
+        "h": 32,
+        "x": 484,
+        "y": 9,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          4,
+          16,
+          4,
+          16
+        ],
+        "sizing": [
+          "HUG",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8,
+        "main": "26:102"
+      },
+      {
+        "id": "765:399",
+        "type": "FRAME",
+        "name": "Composer field",
+        "visible": true,
+        "w": 616,
+        "h": 118,
+        "x": 0,
+        "y": 0,
+        "layout": "VERTICAL",
+        "gap": 16,
+        "padding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 8
+      },
+      {
+        "id": "765:400",
+        "type": "SLOT",
+        "name": "Draft",
+        "visible": true,
+        "w": 582,
+        "h": 20,
+        "x": 17,
+        "y": 17,
+        "layout": "VERTICAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:401",
+        "type": "TEXT",
+        "name": "Placeholder",
+        "visible": true,
+        "w": 582,
+        "h": 20,
+        "x": 0,
+        "y": 0,
+        "text": "Escribe aquí tu requerimiento o necesidad",
+        "style": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,"
+      },
+      {
+        "id": "765:402",
+        "type": "LINE",
+        "name": "Divider",
+        "visible": true,
+        "w": 582,
+        "h": 0,
+        "x": 17,
+        "y": 53
+      },
+      {
+        "id": "765:403",
+        "type": "FRAME",
+        "name": "Composer toolbar",
+        "visible": true,
+        "w": 582,
+        "h": 32,
+        "x": 17,
+        "y": 69,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "CENTER"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:404",
+        "type": "FRAME",
+        "name": "Model selector",
+        "visible": false,
+        "w": 582,
+        "h": 40,
+        "x": 0,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "HUG",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "CENTER"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:405",
+        "type": "INSTANCE",
+        "name": ".Conversation / NAVI",
+        "visible": true,
+        "w": 20,
+        "h": 19.375,
+        "x": 0,
+        "y": 0,
+        "layout": "NONE",
+        "gap": 5,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0,
+        "main": "765:254"
+      },
+      {
+        "id": "765:409",
+        "type": "TEXT",
+        "name": "Model label",
+        "visible": true,
+        "w": 96,
+        "h": 20,
+        "x": 0,
+        "y": 0,
+        "text": "Navi Auto V1.0",
+        "style": "S:9c72f9fd7020cef8974458d27505fe7a151fc595,"
+      },
+      {
+        "id": "765:410",
+        "type": "INSTANCE",
+        "name": "CaretDown",
+        "visible": true,
+        "w": 16,
+        "h": 16,
+        "x": 0,
+        "y": 0,
+        "layout": "NONE",
+        "gap": 0,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0,
+        "main": "291:162"
+      },
+      {
+        "id": "765:412",
+        "type": "FRAME",
+        "name": "Composer actions",
+        "visible": true,
+        "w": 582,
+        "h": 32,
+        "x": 0,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "FILL",
+          "HUG"
+        ],
+        "align": [
+          "MAX",
+          "CENTER"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:413",
+        "type": "SLOT",
+        "name": "Tools",
+        "visible": true,
+        "w": 72,
+        "h": 32,
+        "x": 470,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sizing": [
+          "HUG",
+          "HUG"
+        ],
+        "align": [
+          "MIN",
+          "MIN"
+        ],
+        "radius": 0
+      },
+      {
+        "id": "765:414",
+        "type": "FRAME",
+        "name": "Paperclip control",
+        "visible": true,
+        "w": 32,
+        "h": 32,
+        "x": 0,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8
+      },
+      {
+        "id": "765:415",
+        "type": "INSTANCE",
+        "name": "Paperclip action",
+        "visible": true,
+        "w": 24,
+        "h": 24,
+        "x": 4,
+        "y": 4,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8,
+        "main": "183:161"
+      },
+      {
+        "id": "765:421",
+        "type": "FRAME",
+        "name": "Microphone control",
+        "visible": true,
+        "w": 32,
+        "h": 32,
+        "x": 40,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8
+      },
+      {
+        "id": "765:422",
+        "type": "INSTANCE",
+        "name": "Microphone action",
+        "visible": true,
+        "w": 24,
+        "h": 24,
+        "x": 4,
+        "y": 4,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8,
+        "main": "183:161"
+      },
+      {
+        "id": "765:428",
+        "type": "FRAME",
+        "name": "Send control",
+        "visible": true,
+        "w": 32,
+        "h": 32,
+        "x": 550,
+        "y": 0,
+        "layout": "HORIZONTAL",
+        "gap": 8,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8
+      },
+      {
+        "id": "765:429",
+        "type": "INSTANCE",
+        "name": "Send action",
+        "visible": true,
+        "w": 24,
+        "h": 24,
+        "x": 4,
+        "y": 4,
+        "layout": "HORIZONTAL",
+        "gap": 0,
+        "padding": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "sizing": [
+          "FIXED",
+          "FIXED"
+        ],
+        "align": [
+          "CENTER",
+          "CENTER"
+        ],
+        "radius": 8,
+        "main": "183:161"
+      }
+    ],
+    "defs": [
+      {
+        "name": "Disclaimer#765:10",
+        "type": "TEXT",
+        "default": "Te recomendamos revisar la información importante para asegurar un resultado óptimo"
+      },
+      {
+        "name": "Show disclaimer#765:11",
+        "type": "BOOLEAN",
+        "default": true
+      },
+      {
+        "name": "Draft#765:12",
+        "type": "SLOT"
+      },
+      {
+        "name": "Show model selector#765:13",
+        "type": "BOOLEAN",
+        "default": false
+      },
+      {
+        "name": "Model label#765:14",
+        "type": "TEXT",
+        "default": "Navi Auto V1.0"
+      },
+      {
+        "name": "Tools#765:15",
+        "type": "SLOT"
+      },
+      {
+        "name": "Show action#1087:0",
+        "type": "BOOLEAN",
+        "default": false
+      }
+    ]
+  },
+  "parameters": {
+    "nodes": [
+      {
+        "id": "765:397",
+        "name": "Conversation Composer",
+        "bindings": {
+          "itemSpacing": "VariableID:12:29",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18"
+        },
+        "refs": {},
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:398",
+        "name": "Disclaimer",
+        "bindings": {
+          "fills": [
+            "VariableID:13:28"
+          ],
+          "letterSpacing": [
+            "VariableID:12:16"
+          ],
+          "fontSize": [
+            "VariableID:10:8"
+          ],
+          "fontStyle": [
+            "VariableID:10:3"
+          ],
+          "fontFamily": [
+            "VariableID:10:2"
+          ],
+          "lineHeight": [
+            "VariableID:12:7"
+          ]
+        },
+        "refs": {
+          "visible": "Show disclaimer#765:11",
+          "characters": "Disclaimer#765:10"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.27843138575553894,
+              "g": 0.3333333432674408,
+              "b": 0.4117647111415863
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:28"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "OUTSIDE",
+        "font": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 12,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "style": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+        "textAutoResize": "HEIGHT"
+      },
+      {
+        "id": "1087:497",
+        "name": "input",
+        "bindings": {},
+        "refs": {},
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "1087:383",
+        "name": "container",
+        "bindings": {},
+        "refs": {
+          "visible": "Show action#1087:0"
+        },
+        "fills": [],
+        "strokes": [],
+        "corners": [
+          16,
+          16,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "1087:372",
+        "name": "message",
+        "bindings": {
+          "topLeftRadius": "VariableID:13:8",
+          "topRightRadius": "VariableID:13:8",
+          "fills": [
+            "VariableID:13:36"
+          ],
+          "strokes": [
+            "VariableID:495:126"
+          ]
+        },
+        "refs": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9450980424880981,
+              "g": 0.9607843160629272,
+              "b": 0.9764705896377563
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:36"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.7490196228027344,
+              "g": 0.8078431487083435,
+              "b": 0.9960784316062927
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:495:126"
+          }
+        ],
+        "corners": [
+          16,
+          16,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "1087:365",
+        "name": "description",
+        "bindings": {
+          "fills": [
+            "VariableID:13:27"
+          ],
+          "letterSpacing": [
+            "VariableID:12:16"
+          ],
+          "fontSize": [
+            "VariableID:10:8"
+          ],
+          "fontStyle": [
+            "VariableID:10:3"
+          ],
+          "fontFamily": [
+            "VariableID:10:2"
+          ],
+          "lineHeight": [
+            "VariableID:12:7"
+          ]
+        },
+        "refs": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.05882352963089943,
+              "g": 0.09019608050584793,
+              "b": 0.16470588743686676
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:27"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "OUTSIDE",
+        "fontSize": 12,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "style": "S:00ebc27da069f50e5d170d9e45cc9f392042a351,",
+        "textAutoResize": "WIDTH_AND_HEIGHT"
+      },
+      {
+        "id": "1087:399",
+        "name": "button",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:32",
+          "paddingTop": "VariableID:12:29",
+          "paddingRight": "VariableID:12:32",
+          "paddingBottom": "VariableID:12:29",
+          "topLeftRadius": "VariableID:13:6",
+          "topRightRadius": "VariableID:13:6",
+          "bottomLeftRadius": "VariableID:13:6",
+          "bottomRightRadius": "VariableID:13:6",
+          "strokeTopWeight": "VariableID:12:41",
+          "strokeBottomWeight": "VariableID:12:41",
+          "strokeLeftWeight": "VariableID:12:41",
+          "strokeRightWeight": "VariableID:12:41",
+          "fills": [
+            "VariableID:13:35"
+          ],
+          "strokes": [
+            "VariableID:712:122"
+          ]
+        },
+        "refs": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.7490196228027344,
+              "g": 0.8078431487083435,
+              "b": 0.9960784316062927
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:712:122"
+          }
+        ],
+        "strokeWeight": 1,
+        "corners": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false,
+        "props": [
+          {
+            "name": "right icon#2828:162",
+            "type": "INSTANCE_SWAP",
+            "value": "26:3"
+          },
+          {
+            "name": "left icon#2828:101",
+            "type": "INSTANCE_SWAP",
+            "value": "26:3"
+          },
+          {
+            "name": "show right icon#1017:0",
+            "type": "BOOLEAN",
+            "value": false
+          },
+          {
+            "name": "text#1205:13",
+            "type": "TEXT",
+            "value": "Default"
+          },
+          {
+            "name": "show left icon#1017:13",
+            "type": "BOOLEAN",
+            "value": false
+          },
+          {
+            "name": "type",
+            "type": "VARIANT",
+            "value": "default"
+          },
+          {
+            "name": "size",
+            "type": "VARIANT",
+            "value": "small"
+          },
+          {
+            "name": "state",
+            "type": "VARIANT",
+            "value": "default"
+          }
+        ]
+      },
+      {
+        "id": "765:399",
+        "name": "Composer field",
+        "bindings": {
+          "itemSpacing": "VariableID:12:32",
+          "paddingLeft": "VariableID:12:32",
+          "paddingTop": "VariableID:12:32",
+          "paddingRight": "VariableID:12:32",
+          "paddingBottom": "VariableID:12:32",
+          "topLeftRadius": "VariableID:13:6",
+          "topRightRadius": "VariableID:13:6",
+          "bottomLeftRadius": "VariableID:13:6",
+          "bottomRightRadius": "VariableID:13:6",
+          "strokeTopWeight": "VariableID:12:41",
+          "strokeBottomWeight": "VariableID:12:41",
+          "strokeLeftWeight": "VariableID:12:41",
+          "strokeRightWeight": "VariableID:12:41",
+          "fills": [
+            "VariableID:13:35"
+          ],
+          "strokes": [
+            "VariableID:13:14"
+          ]
+        },
+        "refs": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.7490196228027344,
+              "g": 0.8078431487083435,
+              "b": 0.9960784316062927
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:14"
+          }
+        ],
+        "strokeWeight": 1,
+        "corners": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:400",
+        "name": "Draft",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18"
+        },
+        "refs": {
+          "slotContentId": "Draft#765:12"
+        },
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:401",
+        "name": "Placeholder",
+        "bindings": {
+          "fills": [
+            "VariableID:13:29"
+          ],
+          "letterSpacing": [
+            "VariableID:12:16"
+          ],
+          "fontSize": [
+            "VariableID:10:9"
+          ],
+          "fontStyle": [
+            "VariableID:10:3"
+          ],
+          "fontFamily": [
+            "VariableID:10:2"
+          ],
+          "lineHeight": [
+            "VariableID:12:8"
+          ]
+        },
+        "refs": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.3921568691730499,
+              "g": 0.45490196347236633,
+              "b": 0.545098066329956
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:29"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "OUTSIDE",
+        "font": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "style": "S:1e79e86d57bf4121e3824ddf6dc9cf0a2466d947,",
+        "textAutoResize": "HEIGHT"
+      },
+      {
+        "id": "765:402",
+        "name": "Divider",
+        "bindings": {
+          "strokeWeight": "VariableID:12:41",
+          "strokes": [
+            "VariableID:13:15"
+          ]
+        },
+        "refs": {},
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.886274516582489,
+              "g": 0.9098039269447327,
+              "b": 0.9411764740943909
+            },
+            "opacity": 1,
+            "visible": true,
+            "binding": "VariableID:13:15"
+          }
+        ],
+        "strokeWeight": 1,
+        "strokeAlign": "CENTER"
+      },
+      {
+        "id": "765:403",
+        "name": "Composer toolbar",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18",
+          "counterAxisSpacing": "VariableID:12:30"
+        },
+        "refs": {},
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:404",
+        "name": "Model selector",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18"
+        },
+        "refs": {
+          "visible": "Show model selector#765:13"
+        },
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:412",
+        "name": "Composer actions",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18"
+        },
+        "refs": {},
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "NO_WRAP",
+        "clipsContent": false
+      },
+      {
+        "id": "765:413",
+        "name": "Tools",
+        "bindings": {
+          "itemSpacing": "VariableID:12:30",
+          "paddingLeft": "VariableID:12:18",
+          "paddingTop": "VariableID:12:18",
+          "paddingRight": "VariableID:12:18",
+          "paddingBottom": "VariableID:12:18",
+          "counterAxisSpacing": "VariableID:12:30"
+        },
+        "refs": {
+          "slotContentId": "Tools#765:15"
+        },
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strokeAlign": "INSIDE",
+        "layoutWrap": "WRAP",
+        "clipsContent": false
+      }
+    ],
+    "variables": [
+      {
+        "id": "VariableID:12:29",
+        "name": "spacing/xs",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:34"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:34"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:34"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:34"
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "description": "Nivel mínimo de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local."
+      },
+      {
+        "id": "VariableID:12:18",
+        "name": "spacing/none",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:33"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:33"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:33"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:33"
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token."
+      },
+      {
+        "id": "VariableID:13:28",
+        "name": "color/text/secondary",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:98"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:98"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:98"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:98"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "description": "Color de texto de jerarquía secundaria. Úsalo para contenido de apoyo que deba conservar legibilidad sin competir con el texto principal."
+      },
+      {
+        "id": "VariableID:12:16",
+        "name": "font/letter-spacing/normal",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:21"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:21"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:21"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:21"
+          }
+        },
+        "scopes": [
+          "LETTER_SPACING"
+        ],
+        "description": "Tracking semántico neutro. Úsalo cuando el texto deba conservar el espaciado entre caracteres de referencia sin expansión ni contracción adicional."
+      },
+      {
+        "id": "VariableID:10:8",
+        "name": "font/size/xs",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:3"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:3"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:3"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:3"
+          }
+        },
+        "scopes": [
+          "FONT_SIZE"
+        ],
+        "description": "Nivel muy compacto de la escala semántica de tamaño tipográfico. Úsalo cuando el texto necesite ocupar poco espacio manteniendo una decisión de tamaño gobernada por el sistema."
+      },
+      {
+        "id": "VariableID:10:3",
+        "name": "font/weight/regular",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:3"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:3"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:3"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:3"
+          }
+        },
+        "scopes": [
+          "FONT_STYLE"
+        ],
+        "description": "Peso tipográfico semántico para contenido de lectura sin énfasis adicional. Úsalo cuando la jerarquía deba mantenerse neutral y estable."
+      },
+      {
+        "id": "VariableID:10:2",
+        "name": "font/family/base",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:2"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:2"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:2"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7:2"
+          }
+        },
+        "scopes": [
+          "FONT_FAMILY"
+        ],
+        "description": "Familia tipográfica canónica del sistema. Úsala cuando una decisión tipográfica deba seguir la fuente base definida por el sistema, sin referenciar directamente la variable primitiva."
+      },
+      {
+        "id": "VariableID:12:7",
+        "name": "font/line-height/xs",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:12"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:12"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:12"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:12"
+          }
+        },
+        "scopes": [
+          "LINE_HEIGHT"
+        ],
+        "description": "Nivel más compacto de interlineado semántico. Úsalo cuando la composición tipográfica requiera la menor separación vertical disponible dentro de esta escala."
+      },
+      {
+        "id": "VariableID:13:8",
+        "name": "radius/xl",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:40"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:40"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:40"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:40"
+          }
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "description": "Nivel muy alto de redondeo semántico. Úsalo cuando la geometría requiera una curvatura dominante sin llegar al radio completo."
+      },
+      {
+        "id": "VariableID:13:36",
+        "name": "color/background/subtle",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:94"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:94"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:94"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:94"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "description": "Fondo neutral de baja prominencia para crear una separación suave respecto al fondo base. Úsalo cuando una región necesite diferenciación ligera sin asumir un rol interactivo o de estado."
+      },
+      {
+        "id": "VariableID:495:126",
+        "name": "color/border/pagination/page/default",
+        "collection": "VariableCollectionId:495:122",
+        "values": {
+          "495:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:290:122"
+          },
+          "495:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:13"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de página normal de Pagination por tema; adopta el borde deshabilitado del anfitrión."
+      },
+      {
+        "id": "VariableID:13:27",
+        "name": "color/text/primary",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:101"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:101"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:101"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:101"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "description": "Color de texto de máxima jerarquía neutral. Úsalo para contenido textual que deba recibir la atención principal sin comunicar marca o estado."
+      },
+      {
+        "id": "VariableID:12:30",
+        "name": "spacing/sm",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:44"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:44"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:44"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:44"
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local."
+      },
+      {
+        "id": "VariableID:12:32",
+        "name": "spacing/lg",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:46"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:46"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:46"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:46"
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "description": "Nivel base de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local."
+      },
+      {
+        "id": "VariableID:13:6",
+        "name": "radius/md",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:38"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:38"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:38"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:38"
+          }
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "description": "Nivel medio de redondeo semántico. Úsalo como opción equilibrada cuando no se requiera una curvatura especialmente sutil ni pronunciada."
+      },
+      {
+        "id": "VariableID:12:41",
+        "name": "stroke/xs",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:54"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:54"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:54"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:54"
+          }
+        },
+        "scopes": [
+          "STROKE_FLOAT"
+        ],
+        "description": "Nivel más fino de grosor de trazo disponible en la escala semántica. Úsalo cuando una delimitación necesite la menor presencia estructural definida por el sistema."
+      },
+      {
+        "id": "VariableID:13:35",
+        "name": "color/background/default",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:93"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:93"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:93"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:93"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL",
+          "SHAPE_FILL"
+        ],
+        "description": "Fondo neutral de referencia para la interfaz. Úsalo cuando una superficie necesite el tratamiento base y no exista una intención adicional de jerarquía, marca, interacción o feedback."
+      },
+      {
+        "id": "VariableID:712:122",
+        "name": "color/border/control/subtle",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:85"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:59"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:121"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:77"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de baja prominencia de Buttons, Icon Buttons y Metric Cards; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios."
+      },
+      {
+        "id": "VariableID:13:14",
+        "name": "color/border/subtle",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:85"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:59"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:68"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:77"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde de baja prominencia destinado a separaciones suaves. Úsalo cuando la delimitación deba existir sin competir visualmente con el contenido o con bordes de mayor jerarquía."
+      },
+      {
+        "id": "VariableID:13:29",
+        "name": "color/text/tertiary",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:97"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:97"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:97"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:97"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "description": "Color de texto de baja jerarquía. Úsalo para información auxiliar cuya presencia deba ser más discreta que el contenido secundario."
+      },
+      {
+        "id": "VariableID:10:9",
+        "name": "font/size/sm",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:4"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:4"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:4"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:4"
+          }
+        },
+        "scopes": [
+          "FONT_SIZE"
+        ],
+        "description": "Nivel compacto de la escala semántica de tamaño tipográfico. Úsalo para contenido que requiera una presencia menor que el tamaño base sin depender del valor primitivo."
+      },
+      {
+        "id": "VariableID:12:8",
+        "name": "font/line-height/sm",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:13"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:13"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:13"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:13"
+          }
+        },
+        "scopes": [
+          "LINE_HEIGHT"
+        ],
+        "description": "Nivel compacto de interlineado semántico. Úsalo cuando el texto necesite una separación vertical contenida sin recurrir al mínimo de la escala."
+      },
+      {
+        "id": "VariableID:13:15",
+        "name": "color/border/strong",
+        "collection": "VariableCollectionId:6:2",
+        "values": {
+          "6:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:95"
+          },
+          "6:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:95"
+          },
+          "6:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:95"
+          },
+          "6:3": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8:95"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "description": "Borde neutral de mayor presencia relativa. Úsalo cuando una separación necesite más contraste que un borde sutil sin introducir semántica de marca o feedback."
+      }
+    ]
+  }
+}

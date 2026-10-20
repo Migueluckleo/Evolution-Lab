@@ -63,6 +63,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [button.local-bindings.amendment.v0.2.2.md](../../../../specs/components/button.local-bindings.amendment.v0.2.2.md) · SHA-256 `57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c`.
 - [button.semantic-scope-amendment.v0.2.1.md](../../../../specs/components/button.semantic-scope-amendment.v0.2.1.md) · SHA-256 `8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9`.
 - [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [button.typography.amendment.v0.1.0.md](../../../../specs/components/button.typography.amendment.v0.1.0.md) · SHA-256 `7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

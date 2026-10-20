@@ -1,5 +1,9 @@
 # Cobertura de trazabilidad · Librería anterior → AI Design System
 
+## Conversation Composer · aviso con acción · 2026-10-20
+
+[Enmienda0.1.2](components/conversation.composer-action.amendment.v0.1.2.md), alcance adicional al Composer765:397: borde Pagination reemplazado por rol genérico canónico, bindings del aviso, estilos Caption por rango, reflow y Slots preservados. [Readback final](../qa/implementations/conversation-composer.v0.1.2.final.json) y [QA documental](../qa/contracts/conversation-composer.v0.1.2.review.md). No revalida globalmente Message/Response ni otros consumidores históricos.
+
 ## Chat · readback de ajustes del usuario · 2026-10-09
 
 [Enmienda de layout0.1.1](components/chat.layout.amendment.v0.1.1.md) y [estado](../implementations/figma/chat-layout.v0.1.1.state.json) actualizan el alcance de Section/Toolbar: width816, sizing y scroll. Documentación/readback completados; QA interactivo PARTIAL, sin reusar PASS históricos para atributos cambiados. No variables nuevas ni cambios Figma. [Continuidad](../registry/SESSION-HANDOFF-2026-10-09-CHAT-LAYOUT.md). Las secciones0.1.0 inferiores conservan el cierre histórico de los requisitos no modificados.

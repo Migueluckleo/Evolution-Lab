@@ -86,6 +86,19 @@ export function ChatToolItemExample(){const [count,setCount]=useState(0);return 
 // example: chat-toolbar
 export function ChatToolbarExample(){const [expanded,setExpanded]=useState(true);return <DS.ChatToolbar expanded={expanded} onExpandedChange={setExpanded} header={<strong>Anticipa · demo</strong>} tools={<DS.ChatToolItem label="Nuevo chat"/>} chats={<DS.ChatHistoryItem updated="1 sem">Consulta de ejemplo</DS.ChatHistoryItem>} plan={<p>Plan de demostración</p>}/>;}
 // example: conversation
-export function ConversationExample(){const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);return <div className="grid gap-6 w-full"><DS.Conversation><DS.ConversationResponse agent="beni" badge={<DS.Badge>Ejemplo</DS.Badge>}>Esta respuesta es contenido local de muestra.</DS.ConversationResponse>{messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)}</DS.Conversation><DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} disclaimer="Demostración local, sin servicio de IA."/></div>;}
+export function ConversationExample(){
+ const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);
+ const [showAction,setShowAction]=useState(false);const [actionResult,setActionResult]=useState('');
+ const [noticeMode,setNoticeMode]=useState('default');
+ const notices=noticeMode==='reordered'?['Tercero','Primero','Segundo']:noticeMode==='replacement'?['Sustituto']:['Primero','Segundo','Tercero'];
+ const noticeContent=noticeMode==='default'?undefined:noticeMode==='empty'?null:notices.map(name=><DS.InlineNotification key={name} title={name} showDismiss={false} showIcon={false}><span>Contenido local del aviso. </span><DS.Button variant="text" size="small" showLeftIcon={false} showRightIcon={false} onClick={()=>setActionResult(`Acción local: ${name}`)}>Acción {name}</DS.Button></DS.InlineNotification>);
+ return <div className="grid gap-6 w-full">
+  <DS.Toggle label="Mostrar aviso de ejemplo" checked={showAction} onChange={e=>setShowAction(e.target.checked)}/>
+  <label>Contenido del aviso <select value={noticeMode} onChange={e=>setNoticeMode(e.target.value)}><option value="default">Aviso inicial</option><option value="empty">Vacío</option><option value="multiple">Tres bloques</option><option value="reordered">Reordenados</option><option value="replacement">Sustituido</option></select></label>
+  <DS.Conversation><DS.ConversationResponse agent="beni" badge={<DS.Badge>Ejemplo</DS.Badge>}>Esta respuesta es contenido local de muestra.</DS.ConversationResponse>{messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)}</DS.Conversation>
+  <DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} disclaimer="Demostración local, sin servicio de IA." showAction={showAction} noticeContent={noticeContent} actionLabel="Ver detalle" onAction={()=>setActionResult('Acción local de ejemplo. No se consultaron créditos ni se realizó una compra.')}/>
+  <p role="status">{actionResult}</p>
+ </div>;
+}
 // example: chat-section
 export function ChatSectionExample(){const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);return <DS.ChatSection state={messages.length?'active':'standby'} userName="Miguel" subtitle="Explora una conversación local" messages={messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)} suggestions={<DS.ChatSuggestion onClick={()=>setValue('Ver documentos')}>Ver documentos</DS.ChatSuggestion>} composer={<DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} showDisclaimer={messages.length>0} disclaimer="Solo datos locales de ejemplo."/>}/>;}

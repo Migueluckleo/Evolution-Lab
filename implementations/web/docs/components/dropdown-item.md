@@ -50,6 +50,8 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 ## Fuentes y límites
 
 - [dropdown-item.contract.v0.1.0.md](../../../../specs/dropdown-item.contract.v0.1.0.md) · SHA-256 `414040f481f994316406dfd61ca09a4c5a52b4b9ec97e30dcb2a1dc90ef27d42`.
+- [dropdown-item.typography.amendment.v0.1.0.md](../../../../specs/components/dropdown-item.typography.amendment.v0.1.0.md) · SHA-256 `5ba8f1a160b2122fac8bc624f6d34436fcaae2b5456df3850732775de4bd582d`.
+- [TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md](../../../../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) · SHA-256 `ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

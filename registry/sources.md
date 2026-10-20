@@ -1,5 +1,9 @@
 # Registro de fuentes
 
+## SRC-CONVERSATION-COMPOSER-20261020 · INDEXED
+
+Lectura directa del nodo `765:397`, archivo `tj3WIBEZDGLVs7MJWKCwgf`, página Conversation `765:6`, 2026-10-20. [Snapshot antes de corregir](../sources/figma-snapshots/conversation-composer.765-397.before.2026-10-20.json), SHA-256 `50845ce0a209c032bf95d6c3228a87bd7a75be27a21b9ef943fa563a2aa4e6c5`; [rangos de texto originales](../sources/figma-snapshots/conversation-composer.text.before.2026-10-20.json). Evidencia `OBSERVED`, no aprobación. Cobertura: anatomía, API, geometría, bindings del aviso y dependencias; la lectura posterior incluye hijos ocultos mediante skipInvisibleInstanceChildren=false. [Preflight canónico](../implementations/figma/conversation-composer.v0.1.2.preflight.json) y [readback final](../qa/implementations/conversation-composer.v0.1.2.final.json).
+
 ## SRC-TYPOGRAPHY-NATIVE-INHERITANCE-012 · 2026-10-15
 
 El [catálogo 0.1.2](../specs/tokens/ai-design-system.typography.v0.1.2.json), SHA-256 `074a31a83f09b30a02fa8b8f0a7730bdb33fc0a8a9c59e3c8d2469b5799e934c`, y la [enmienda nativa](../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) separan receta métrica materializada de vínculo real al estilo principal por escala nativa. El JSON conserva 79 recetas/IDs/bindings; los cambios están limitados a tres `description`/motivos y metadatos explicativos. La evidencia es OBSERVED/DERIVED; no aprobación humana.
@@ -490,3 +494,8 @@ Anticipa zuUq3gcF9T3CLid44bjY6W, Toolbar20355:72872 y dependencias Options and T
 ## SRC-FIGMA-FUENTES-001 · 2026-10-09
 
 [Fuente Navi64:4164](https://www.figma.com/design/8qsdk3nalNNyCzBfUTrOcP?node-id=64-4164), set Fuentes, lectura25nodos/2variantes, una dependencia Dot key210ae593aa5c0007983efdf243cf30644fd86825. [Snapshot](../sources/figma-snapshots/fuentes.source.v0.1.0.json), [variables](../sources/figma-snapshots/fuentes.source.variables.v0.1.0.json), [dependencia](../sources/figma-snapshots/fuentes.source.dependency.v0.1.0.json), [extracción MD](../drafts/contracts/fuentes.source.component-contract.md). Fuente inmutable; origen PARTIAL por cadenas de variables externas no resueltas por completo. Mapeo destino al JSON aprobado verificado independientemente. [Extensión canónica del rol Hover](../sources/inventories/ai-design-system.fuentes-hover.v0.1.0.json), sin alterar inventario base.
+
+
+## SRC-CONVERSATION-COMPOSER-SLOT-013 · 2026-10-20
+
+Solicitud posterior y confirmación explícita: Slot para todo el aviso, texto y acciones. [Preflight leído](../implementations/figma/conversation-composer.v0.1.3.preflight.json), principal765:397 en tj3WIBEZDGLVs7MJWKCwgf; [tipos y cotejo](../qa/contracts/conversation-composer.v0.1.3.preflight.json). Conserva fuentes y QA0.1.2 como históricos; no altera su significado.

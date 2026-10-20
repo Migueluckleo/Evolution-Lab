@@ -50,6 +50,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 ## Fuentes y límites
 
 - [search.contract.v0.1.1.md](../../../../specs/search.contract.v0.1.1.md) · SHA-256 `69a4872f40aa2997f3af25774f90633054f7602c53b4d44a12af7dfd5f5c0772`.
+- [search.typography.amendment.v0.1.0.md](../../../../specs/components/search.typography.amendment.v0.1.0.md) · SHA-256 `a29c125cab88935eb1122005584a3fa7c143023e68b15f97b28fc9a84a179125`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

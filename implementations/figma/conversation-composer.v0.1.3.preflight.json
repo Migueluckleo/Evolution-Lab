@@ -1,0 +1,641 @@
+{
+  "fileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "pageId": "765:6",
+  "mainId": "765:397",
+  "createSlot": "function",
+  "properties": [
+    {
+      "key": "Disclaimer#765:10",
+      "type": "TEXT",
+      "defaultValue": "Te recomendamos revisar la información importante para asegurar un resultado óptimo"
+    },
+    {
+      "key": "Show disclaimer#765:11",
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    {
+      "key": "Draft#765:12",
+      "type": "SLOT",
+      "defaultValue": null,
+      "slotSettings": {
+        "stretchChildOnInsert": true,
+        "displayEmptyByDefault": false,
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      }
+    },
+    {
+      "key": "Show model selector#765:13",
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    {
+      "key": "Model label#765:14",
+      "type": "TEXT",
+      "defaultValue": "Navi Auto V1.0"
+    },
+    {
+      "key": "Tools#765:15",
+      "type": "SLOT",
+      "defaultValue": null,
+      "slotSettings": {
+        "stretchChildOnInsert": false,
+        "displayEmptyByDefault": false,
+        "minChildren": null,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      }
+    },
+    {
+      "key": "Show action#1087:0",
+      "type": "BOOLEAN",
+      "defaultValue": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "765:397",
+      "type": "COMPONENT",
+      "name": "Conversation Composer",
+      "parent": "765:6",
+      "width": 616,
+      "height": 138,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:29"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        }
+      },
+      "children": [
+        {
+          "id": "765:398",
+          "name": "Disclaimer",
+          "type": "TEXT"
+        },
+        {
+          "id": "1087:497",
+          "name": "input",
+          "type": "FRAME"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "1087:383",
+      "type": "FRAME",
+      "name": "container",
+      "parent": "1087:497",
+      "width": 616,
+      "height": 49,
+      "visible": false,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {
+        "visible": "Show action#1087:0"
+      },
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:8"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:8"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:39"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:39"
+        }
+      },
+      "children": [
+        {
+          "id": "1087:372",
+          "name": "message",
+          "type": "FRAME"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "1087:372",
+      "type": "FRAME",
+      "name": "message",
+      "parent": "1087:383",
+      "width": 584,
+      "height": 49,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:8"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:8"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:39"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:39"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:40"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:36"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:14"
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "1087:365",
+          "name": "description",
+          "type": "TEXT"
+        },
+        {
+          "id": "1087:399",
+          "name": "button",
+          "type": "INSTANCE"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "1087:365",
+      "type": "TEXT",
+      "name": "description",
+      "parent": "1087:372",
+      "width": 459,
+      "height": 19,
+      "visible": true,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:27"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:8"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:3"
+          },
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:5"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10:2"
+          }
+        ]
+      },
+      "children": null,
+      "text": "Alcanzaste tu límite mensual de créditos. Se renuevan el 1 de noviembre.",
+      "styles": [
+        {
+          "characters": "Alcanzaste tu límite mensual de créditos. ",
+          "start": 0,
+          "end": 42,
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "textStyleId": "S:44d1ab87ed7291cac7a1f308466f04aca4cb25b8,"
+        },
+        {
+          "characters": "Se renuevan el 1 de noviembre.",
+          "start": 42,
+          "end": 72,
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "textStyleId": "S:ed58d525ce135d142794e5c47e201096c023a800,"
+        }
+      ]
+    },
+    {
+      "id": "1087:399",
+      "type": "INSTANCE",
+      "name": "button",
+      "parent": "1087:372",
+      "width": 83,
+      "height": 32,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "componentPropertyReferences": {},
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:29"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:32"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:29"
+        },
+        "topLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:6"
+        },
+        "topRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:6"
+        },
+        "bottomLeftRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:6"
+        },
+        "bottomRightRadius": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:13:6"
+        },
+        "strokeTopWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "strokeBottomWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "strokeLeftWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "strokeRightWeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:41"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:13:35"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:712:122"
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "I1087:399;26:103",
+          "name": "PlusCircle",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I1087:399;26:104",
+          "name": "label-text",
+          "type": "TEXT"
+        },
+        {
+          "id": "I1087:399;26:105",
+          "name": "PlusCircle",
+          "type": "INSTANCE"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "765:400",
+      "type": "SLOT",
+      "name": "Draft",
+      "parent": "765:399",
+      "width": 582,
+      "height": 20,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {
+        "slotContentId": "Draft#765:12"
+      },
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        }
+      },
+      "children": [
+        {
+          "id": "765:401",
+          "name": "Placeholder",
+          "type": "TEXT"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "765:413",
+      "type": "SLOT",
+      "name": "Tools",
+      "parent": "765:412",
+      "width": 72,
+      "height": 32,
+      "visible": true,
+      "layoutMode": "HORIZONTAL",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": {
+        "slotContentId": "Tools#765:15"
+      },
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "counterAxisSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:30"
+        }
+      },
+      "children": [
+        {
+          "id": "765:414",
+          "name": "Paperclip control",
+          "type": "FRAME"
+        },
+        {
+          "id": "765:421",
+          "name": "Microphone control",
+          "type": "FRAME"
+        }
+      ],
+      "text": null,
+      "styles": null
+    },
+    {
+      "id": "766:246",
+      "type": "INSTANCE",
+      "name": "Conversation Composer",
+      "parent": "766:120",
+      "width": 616,
+      "height": 138,
+      "visible": true,
+      "layoutMode": "VERTICAL",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "componentPropertyReferences": null,
+      "boundVariables": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:29"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:12:18"
+        }
+      },
+      "children": [
+        {
+          "id": "I766:246;765:398",
+          "name": "Disclaimer",
+          "type": "TEXT"
+        },
+        {
+          "id": "I766:246;1087:497",
+          "name": "input",
+          "type": "FRAME"
+        }
+      ],
+      "text": null,
+      "styles": null
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:12:18",
+      "name": "spacing/none",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:33"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Ausencia intencional de separación dentro de la escala semántica de spacing. Úsalo cuando dos elementos deban quedar sin espacio entre sí y esa decisión deba quedar explícita como token.",
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12:30",
+      "name": "spacing/sm",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8:44"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+      "codeSyntax": {}
+    }
+  ]
+}

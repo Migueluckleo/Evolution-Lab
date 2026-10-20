@@ -6,7 +6,7 @@ import headerCaret from '../generated/header-caret.json';
 import welcome from '../generated/chat-welcome.json';
 import { cx, token } from '../lib/utils';
 import { Avatar, Characters, Logos, TableGlyph } from './content';
-import { IconButton } from './actions';
+import { Button, IconButton } from './actions';
 import { Badge } from './feedback';
 
 export interface HeaderProps { logo:ReactNode; version?:string; releaseLabel?:string; actions?:ReactNode; company?:string; taxId?:string; user?:ReactNode; showVersion?:boolean; showActions?:boolean; showCompany?:boolean; showUser?:boolean; onCompanyClick?:()=>void; onUserClick?:()=>void }
@@ -25,8 +25,26 @@ export interface ConversationMessageProps { children:ReactNode }
 export function ConversationMessage({children}:ConversationMessageProps){return <div className="ds-conversation-message"><div>{children}</div></div>;}
 export interface ConversationResponseProps { agent?:'beni'|'navi'; children?:ReactNode; badge?:ReactNode; previews?:ReactNode; secondaryContent?:ReactNode; additionalActions?:ReactNode; feedbackActions?:ReactNode; showPreviews?:boolean; showSecondaryContent?:boolean; showAdditionalActions?:boolean }
 export function ConversationResponse({agent='beni',children,badge=<Badge tone="light" showLeftIcon={false}>{agent==='beni'?'Fiscal y contable':'Super Agente'}</Badge>,previews,secondaryContent,additionalActions,feedbackActions=<><IconButton showCount={false} label="Me gusta" icon={<ThumbsUp weight="light"/>}/><IconButton showCount={false} label="No me gusta" icon={<ThumbsDown weight="light"/>}/><IconButton showCount={false} label="Copiar respuesta" icon={<TableGlyph type="copy"/>}/></>,showPreviews=false,showSecondaryContent=false,showAdditionalActions=false}:ConversationResponseProps){return <article className="ds-conversation-response"><ConversationGlyph agent={agent}/><div className="ds-response-column"><div className="ds-response-identity"><strong>{agent.toUpperCase()}</strong>{badge}</div><div>{children}</div><div hidden={!showPreviews} className="ds-response-previews">{previews}</div><div hidden={!showSecondaryContent}>{secondaryContent}</div><div hidden={!showAdditionalActions} className="flex flex-wrap gap-2">{additionalActions}</div>{feedbackActions&&<div className="flex gap-2">{feedbackActions}</div>}</div></article>;}
-export interface ConversationComposerProps { value:string; onValueChange:(value:string)=>void; onSend:(value:string)=>void; placeholder?:string; label?:string; disclaimer?:ReactNode; tools?:ReactNode; modelSelector?:ReactNode; showModelSelector?:boolean; modelLabel?:string; draft?:ReactNode; showDisclaimer?:boolean; disabled?:boolean }
-export function ConversationComposer({value,onValueChange,onSend,placeholder='Escribe un mensaje',label='Mensaje',disclaimer='Te recomendamos revisar la información importante para asegurar un resultado óptimo',tools=<><IconButton label="Adjuntar" showCount={false} icon={<Paperclip weight="light"/>}/><IconButton label="Micrófono" showCount={false} icon={<Microphone weight="light"/>}/></>,modelSelector,showModelSelector=false,modelLabel='Navi Auto V1.0',draft,showDisclaimer=true,disabled=false}:ConversationComposerProps){return <div className="ds-composer"><div hidden={!showDisclaimer||disclaimer===undefined} className="ds-composer-disclaimer">{disclaimer}</div><form onSubmit={e=>{e.preventDefault();if(value.trim()&&!disabled)onSend(value);}}>{draft??<textarea aria-label={label} disabled={disabled} placeholder={placeholder} value={value} onChange={e=>onValueChange(e.target.value)}/>}<div className="ds-composer-controls"><div hidden={!showModelSelector} className="ds-composer-model">{modelSelector??<><ConversationGlyph agent="navi"/><strong>{modelLabel}</strong><CaretDown size={24} weight="light"/></>}</div><div className="ds-composer-tools">{tools}</div><span className="ds-composer-send"><IconButton size="small" showCount={false} type="submit" disabled={disabled||!value.trim()} label="Enviar mensaje" icon={<PaperPlaneRight weight="fill"/>}/></span></div></form></div>;}
+export interface ConversationComposerProps { value:string; onValueChange:(value:string)=>void; onSend:(value:string)=>void; placeholder?:string; label?:string; disclaimer?:ReactNode; tools?:ReactNode; modelSelector?:ReactNode; showModelSelector?:boolean; modelLabel?:string; draft?:ReactNode; showDisclaimer?:boolean; disabled?:boolean; showAction?:boolean; actionMessage?:ReactNode; actionLabel?:string; onAction?:()=>void; noticeContent?:ReactNode }
+export function ConversationComposer({value,onValueChange,onSend,placeholder='Escribe un mensaje',label='Mensaje',disclaimer='Te recomendamos revisar la información importante para asegurar un resultado óptimo',tools=<><IconButton label="Adjuntar" showCount={false} icon={<Paperclip weight="light"/>}/><IconButton label="Micrófono" showCount={false} icon={<Microphone weight="light"/>}/></>,modelSelector,showModelSelector=false,modelLabel='Navi Auto V1.0',draft,showDisclaimer=true,disabled=false,showAction=false,actionMessage=<><strong>Alcanzaste tu límite mensual de créditos. </strong>Se renuevan el 1 de noviembre.</>,actionLabel='Default',onAction,noticeContent}:ConversationComposerProps){
+ return <div className="ds-composer">
+  <div hidden={!showDisclaimer||disclaimer===undefined} className="ds-composer-disclaimer">{disclaimer}</div>
+  <div className="ds-composer-input">
+   <div hidden={!showAction} className="ds-composer-action-container">
+    <div className="ds-composer-notice-content">
+    {noticeContent===undefined?<div className="ds-composer-action-message">
+     <div className="ds-composer-action-description">{actionMessage}</div>
+     <Button variant="default" size="small" type="button" showLeftIcon={false} showRightIcon={false} onClick={onAction}>{actionLabel}</Button>
+    </div>:noticeContent}
+    </div>
+   </div>
+   <form onSubmit={e=>{e.preventDefault();if(value.trim()&&!disabled)onSend(value);}}>
+    {draft??<textarea aria-label={label} disabled={disabled} placeholder={placeholder} value={value} onChange={e=>onValueChange(e.target.value)}/>}
+    <div className="ds-composer-controls"><div hidden={!showModelSelector} className="ds-composer-model">{modelSelector??<><ConversationGlyph agent="navi"/><strong>{modelLabel}</strong><CaretDown size={24} weight="light"/></>}</div><div className="ds-composer-tools">{tools}</div><span className="ds-composer-send"><IconButton size="small" showCount={false} type="submit" disabled={disabled||!value.trim()} label="Enviar mensaje" icon={<PaperPlaneRight weight="fill"/>}/></span></div>
+   </form>
+  </div>
+ </div>;
+}
 export interface ConversationPreviewProps { title:string; icon?:ReactNode; badge?:ReactNode; children?:ReactNode }
 export function ConversationPreview({title,icon=<TableIcon size={24} weight="light"/>,badge=<Badge tone="light" showLeftIcon={false}>Tabla</Badge>,children}:ConversationPreviewProps){return <div className="ds-conversation-preview">{icon}<div className="ds-preview-copy"><strong>{title}</strong>{badge}{children}</div></div>;}
 export interface ConversationProps { children:ReactNode; label?:string }

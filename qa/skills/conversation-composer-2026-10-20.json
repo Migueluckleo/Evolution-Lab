@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-20",
+  "component": "CONVERSATION-COMPOSER-ACTION-001",
+  "version": "0.3.3",
+  "catalog": {
+    "schema_version": 1,
+    "engine_protocol": 1,
+    "manifest": "catalog/releases/2df0a11409934e26112d3c85d34d08e6fd20d379a45f1ec4153fcba86e648c8c/manifest.json",
+    "manifest_sha256": "2df0a11409934e26112d3c85d34d08e6fd20d379a45f1ec4153fcba86e648c8c",
+    "bundle": "catalog/releases/2df0a11409934e26112d3c85d34d08e6fd20d379a45f1ec4153fcba86e648c8c/data.tar.gz",
+    "bundle_sha256": "7ef7830daf211812f5988e7f9d87742ef975a2c00674c733c4b80d1ecc947f61",
+    "bundle_bytes": 9297228,
+    "ds_digest": "5b0899188004a8e3f4fcead4e6e414d1fc189014cf7d6d21f8486d3615ab5f8f"
+  },
+  "archives": {
+    "output/skills/0.3.3/contpaqi-figma-screens-0.3.3.zip": {
+      "sha256": "3736ebec6b6ae3848a58021617b681f148b3807dfd985eee03c7d8d0dbd4e4ec",
+      "bytes": 25443
+    },
+    "output/skills/0.3.3/contpaqi-po-prototypes-0.3.3.zip": {
+      "sha256": "5824845ff8a007079b5ece81edfa6d192110b4653d435d7d55a2cd580dbbb5a5",
+      "bytes": 43674
+    }
+  },
+  "package_check": "CURRENT",
+  "export": "UNCHANGED",
+  "installed_check": "CURRENT",
+  "installed": [
+    "contpaqi-figma-screens",
+    "contpaqi-po-prototypes"
+  ],
+  "remote_publication": "NOT_RUN",
+  "commands": [
+    "python3 scripts/ds_remote.py",
+    "python3 scripts/ds_remote.py --check",
+    "scripts/ds skills sync --json",
+    "scripts/ds skills check --json",
+    "scripts/ds skills export --json",
+    "scripts/ds skills install --json",
+    "scripts/ds skills check-installed --json"
+  ]
+}

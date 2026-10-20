@@ -59,6 +59,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [filter-chip.contract.v0.2.0.md](../../../../specs/components/filter-chip.contract.v0.2.0.md) · SHA-256 `325a408cfa6a5880c2136aee89a448e9ab3a6d928199543d946d6ae3a52a6cb8`.
 - [filter-chip.semantic.amendment.v0.2.1.md](../../../../specs/components/filter-chip.semantic.amendment.v0.2.1.md) · SHA-256 `0c6dba55ac393a09f17176c6a23e5aeb4835e93490c057d883746a258ad2865f`.
+- [filter-chip.typography.amendment.v0.1.0.md](../../../../specs/components/filter-chip.typography.amendment.v0.1.0.md) · SHA-256 `c5d3dfe599d71b9f9c738c691a1a694083e91cbafc31f58f86130b9f80deabd1`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

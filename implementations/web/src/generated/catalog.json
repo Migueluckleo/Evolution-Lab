@@ -13,7 +13,8 @@
       "specs/components/button-page-name.amendment.md",
       "specs/components/button.local-bindings.amendment.v0.2.2.md",
       "specs/components/button.semantic-scope-amendment.v0.2.1.md",
-      "specs/components/six-family-color.amendment.v0.1.0.md"
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/button.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -26,7 +27,8 @@
       "specs/components/button-page-name.amendment.md": "b2c896cab9f2f5659101253dbc93ce0410c697081e53daafecebbc5b62895fd7",
       "specs/components/button.local-bindings.amendment.v0.2.2.md": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
       "specs/components/button.semantic-scope-amendment.v0.2.1.md": "8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/button.typography.amendment.v0.1.0.md": "7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b"
     },
     "api": "export type ButtonProps = {\n  children?: ReactNode;\n  variant?: 'primary' | 'default' | 'text' | 'link';\n  size?: Size;\n  leftIcon?: ReactNode;\n  rightIcon?: ReactNode;\n  showLeftIcon?: boolean;\n  showRightIcon?: boolean;\n  className?: string;\n} & ({ href?: never } & ButtonHTMLAttributes<HTMLButtonElement> | { href: string; disabled?: never } & AnchorHTMLAttributes<HTMLAnchorElement>);",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ButtonExample(){const [count,setCount]=useState(0);return <div className=\"flex flex-wrap items-center gap-4\"><DS.Button showLeftIcon showRightIcon={false} onClick={()=>setCount(count+1)} leftIcon={<Plus/>}>Agregar · {count}</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"default\" size=\"middle\">Secundario</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"text\" size=\"small\">Texto</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"link\" href=\"#componer\">Ver pantalla</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} disabled>Deshabilitado</DS.Button></div>;}\n",
@@ -45,7 +47,8 @@
     ],
     "base": "specs/icon-button.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/six-family-color.amendment.v0.1.0.md"
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/icon-button.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -55,7 +58,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/icon-button.contract.v0.1.0.md": "928d083a785af74510ec0f320a362934f50bf239ffcea856ec83d91898e893cf",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/icon-button.typography.amendment.v0.1.0.md": "d426a9344aca056929826630c2ec3543aa55a33537aca1f55a37fb98a3d2b519"
     },
     "api": "export interface IconButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>,'children'> {\n  /** Nombre obligatorio, incluso cuando el icono parece reconocible. */\n  label: string;\n  icon?: ReactNode;\n  variant?: 'ghost' | 'outline';\n  size?: 'small' | 'medium' | 'large';\n  /** Texto aportado por la pantalla; sin regla automática de 99+. */\n  count?: string;\n  showCount?: boolean;\n}",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function IconButtonExample(){const [count,setCount]=useState(1);return <DS.IconButton showCount label=\"Ver notificaciones de ejemplo\" icon={<Bell/>} variant=\"outline\" count={String(count)} onClick={()=>setCount(count+1)}/>;}\n",
@@ -74,7 +78,8 @@
     ],
     "base": "specs/components/filter-chip.contract.v0.2.0.md",
     "amendments": [
-      "specs/components/filter-chip.semantic.amendment.v0.2.1.md"
+      "specs/components/filter-chip.semantic.amendment.v0.2.1.md",
+      "specs/components/filter-chip.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -84,7 +89,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/components/filter-chip.contract.v0.2.0.md": "325a408cfa6a5880c2136aee89a448e9ab3a6d928199543d946d6ae3a52a6cb8",
-      "specs/components/filter-chip.semantic.amendment.v0.2.1.md": "0c6dba55ac393a09f17176c6a23e5aeb4835e93490c057d883746a258ad2865f"
+      "specs/components/filter-chip.semantic.amendment.v0.2.1.md": "0c6dba55ac393a09f17176c6a23e5aeb4835e93490c057d883746a258ad2865f",
+      "specs/components/filter-chip.typography.amendment.v0.1.0.md": "c5d3dfe599d71b9f9c738c691a1a694083e91cbafc31f58f86130b9f80deabd1"
     },
     "api": "export interface FilterChipProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>,'onChange'> {\n  selected?: boolean;\n  size?: Size;\n  leftIcon?: ReactNode;\n  rightIcon?: ReactNode;\n  showLeftIcon?: boolean;\n  showRightIcon?: boolean;\n  onSelectedChange?: (selected: boolean) => void;\n}",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function FilterChipExample(){const [selected,setSelected]=useState(false);return <DS.FilterChip showLeftIcon selected={selected} onSelectedChange={setSelected} leftIcon={<Check/>}>Facturas</DS.FilterChip>;}\n",
@@ -103,7 +109,8 @@
     ],
     "base": "specs/components/badge.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/badge.source-color-amendment.v0.1.2.md"
+      "specs/components/badge.source-color-amendment.v0.1.2.md",
+      "specs/components/badge.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -113,7 +120,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/components/badge.contract.v0.1.0.md": "886fd8376f440063532a526825287e030918bf9092d827108ca58a49596e4b0b",
-      "specs/components/badge.source-color-amendment.v0.1.2.md": "5120317285938bb9fc06fd67ed0ce8b11b71c1d23051cd13464137c36280dabb"
+      "specs/components/badge.source-color-amendment.v0.1.2.md": "5120317285938bb9fc06fd67ed0ce8b11b71c1d23051cd13464137c36280dabb",
+      "specs/components/badge.typography.amendment.v0.1.0.md": "de915ea9408252c6f6042c02219b4040e2c69843eaa66bd194328777e2008266"
     },
     "api": "export interface BadgeProps extends HTMLAttributes<HTMLSpanElement> { tone?: 'base'|'light'|'informational'|'warning'|'error'|'success'; leftIcon?: ReactNode; rightIcon?: ReactNode; showLeftIcon?: boolean; showRightIcon?: boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function BadgeExample(){return <div className=\"flex gap-3 flex-wrap\">{(['base','light','informational','warning','error','success'] as const).map(tone=><DS.Badge key={tone} tone={tone} leftIcon={<Info/>}>{tone}</DS.Badge>)}</div>;}\n",
@@ -132,7 +140,8 @@
     ],
     "base": "specs/components/dot.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/dot.source-color-amendment.v0.1.2.md"
+      "specs/components/dot.source-color-amendment.v0.1.2.md",
+      "specs/components/dot.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -142,7 +151,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/components/dot.contract.v0.1.0.md": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
-      "specs/components/dot.source-color-amendment.v0.1.2.md": "c336802895843eb6cfbc64b74dbfebcabfc767a766d821195723e13bfc8b3df7"
+      "specs/components/dot.source-color-amendment.v0.1.2.md": "c336802895843eb6cfbc64b74dbfebcabfc767a766d821195723e13bfc8b3df7",
+      "specs/components/dot.typography.amendment.v0.1.0.md": "85fe8916138e891dccda78f9ea8ad0f8655a1fb94077c9b6c674e24076a076a5"
     },
     "api": "export interface DotProps { type?: 'active'|'busy'|'inactive'|'count'|'overflow'; size?: 'small'|'medium'|'large'; count?: string; label?: string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function DotExample(){return <div className=\"flex items-center gap-5\">{(['active','busy','inactive','count','overflow'] as const).map(type=><DS.Dot key={type} type={type} size=\"large\" label={type}/>)}</div>;}\n",
@@ -161,7 +171,8 @@
     ],
     "base": "specs/components/inline-notification.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md"
+      "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md",
+      "specs/components/inline-notification.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -171,7 +182,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/components/inline-notification.contract.v0.1.0.md": "cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63",
-      "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md": "064ee3d0de682fc8b00363aa91f26f24e75e3cc56bf436b2198eff7912378a33"
+      "specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md": "064ee3d0de682fc8b00363aa91f26f24e75e3cc56bf436b2198eff7912378a33",
+      "specs/components/inline-notification.typography.amendment.v0.1.0.md": "f28ca585fa37606021a9977aa3b3cc8be9d25f5090cfed915e6ef63559a4caf2"
     },
     "api": "export interface InlineNotificationProps { tone?: 'light'|'success'|'danger'|'warning'|'info'; title?: ReactNode; children?: ReactNode; showIcon?: boolean; showTitle?: boolean; showDescription?: boolean; showDismiss?: boolean; icon?: ReactNode; onDismiss?: ()=>void; dismissLabel?: string; className?: string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function InlineNotificationExample(){const [visible,setVisible]=useState(true);return visible?<DS.InlineNotification tone=\"info\" title=\"Datos de demostración\" onDismiss={()=>setVisible(false)}>Esta pantalla utiliza datos locales editables.</DS.InlineNotification>:<DS.Button showLeftIcon={false} showRightIcon={false} variant=\"text\" onClick={()=>setVisible(true)}>Mostrar aviso</DS.Button>;}\n",
@@ -190,7 +202,8 @@
     ],
     "base": "specs/linear-progress-bar.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/six-family-color.amendment.v0.1.0.md"
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/linear-progress-bar.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -200,7 +213,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/linear-progress-bar.contract.v0.1.0.md": "6fa5650cfec2b1c200f58097b29746974defad6198ce76784ff42ab77892b316",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/linear-progress-bar.typography.amendment.v0.1.0.md": "cf4acdbd72ba04a2eeb3e86a6391fc3123a86646876bcb26ab4a9589aa836ece"
     },
     "api": "export interface LinearProgressBarProps { progress?: 25|50|75|100; tone?: 'primary'|'warning'|'positive'|'danger'; size?: 'small'|'medium'|'large'; label: string; helper?: string; showLabel?: boolean; showPercentage?: boolean; showHelper?: boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function LinearProgressBarExample(){const [progress,setProgress]=useState<25|50|75|100>(25);return <div className=\"grid gap-4\"><DS.LinearProgressBar label=\"Avance de muestra\" progress={progress} size=\"medium\" helper=\"Valor elegido localmente\"/><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"text\" size=\"small\" onClick={()=>setProgress(progress===100?25:(progress+25) as 50|75|100)}>Cambiar avance</DS.Button></div>;}\n",
@@ -218,7 +232,9 @@
       "Loader"
     ],
     "base": "specs/loader.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/loader.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -226,7 +242,8 @@
     "notes": "16 combinaciones públicas; anillo/cap de la fuente, 24 pasos antihorarios de15° con pausa1ms e interpolación50ms, ciclo1.224s y prefers-reduced-motion. No acredita un proceso remoto.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/loader.contract.v0.1.0.md": "2e20f1d300bef2c53acbbf79b400343efb344fb47a555b45e2afed62099bcf6b"
+      "specs/loader.contract.v0.1.0.md": "2e20f1d300bef2c53acbbf79b400343efb344fb47a555b45e2afed62099bcf6b",
+      "specs/components/loader.typography.amendment.v0.1.0.md": "415ef22935863785e2308588bd48d5915d76be45e6ef57944ade0649289a9ab6"
     },
     "api": "export interface LoaderProps { size?: 'sm'|'md'|'lg'|'xl'; color?: 'primary'|'secondary'|'default'|'on-color'; label?: string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function LoaderExample(){return <div className=\"flex items-center gap-6\"><DS.Loader/><DS.Loader size=\"md\" color=\"secondary\"/><DS.Loader size=\"lg\" color=\"default\"/></div>;}\n",
@@ -244,7 +261,9 @@
       "Tooltip"
     ],
     "base": "drafts/contracts/tooltip.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/tooltip.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -252,7 +271,8 @@
     "notes": "Align indica el lado de la flecha. Geometría de flecha16×10, dos sombras y texto14/24. asChild vincula aria-describedby al control existente; el wrapper se enfoca solo para contenido no interactivo. Hover/focus y Escape locales, sin detección automática de colisiones.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "drafts/contracts/tooltip.contract.v0.1.0.md": "522b74426f781231dbf0a3ce7daed35909ab8f1358e347efe97e34f454416402"
+      "drafts/contracts/tooltip.contract.v0.1.0.md": "522b74426f781231dbf0a3ce7daed35909ab8f1358e347efe97e34f454416402",
+      "specs/components/tooltip.typography.amendment.v0.1.0.md": "e851bedf0d7801703519c2fb560c9646c2e43f238d8fafc326e2f11284d28270"
     },
     "api": "export interface TooltipProps { content: string; children: ReactNode; align?: 'up'|'right'|'left'|'down'; open?: boolean; asChild?: boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function TooltipExample(){return <DS.Tooltip content=\"Información complementaria\" align=\"down\"><span className=\"inline-flex items-center gap-2\"><Info size={20}/>Detalle</span></DS.Tooltip>;}\n",
@@ -271,7 +291,8 @@
     ],
     "base": "specs/input-field.contract.v0.1.0.md",
     "amendments": [
-      "specs/input-field.disabled-text.amendment.v0.1.1.md"
+      "specs/input-field.disabled-text.amendment.v0.1.1.md",
+      "specs/components/input-field.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -281,7 +302,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/input-field.contract.v0.1.0.md": "e01e90d9dbc4dfdfc4230aac875f8d8a7374673b0a02bbda44eabf9962403c2d",
-      "specs/input-field.disabled-text.amendment.v0.1.1.md": "fc73aef18bd2c4ca6fcdd4eaa17d92c9e65aee0f4e54ff993eb9aeefc0f98a45"
+      "specs/input-field.disabled-text.amendment.v0.1.1.md": "fc73aef18bd2c4ca6fcdd4eaa17d92c9e65aee0f4e54ff993eb9aeefc0f98a45",
+      "specs/components/input-field.typography.amendment.v0.1.0.md": "4acba0dcf0ee253e25c933c92f3a30d970bedc1facee64f2144db05675f9ac5e"
     },
     "api": "export interface InputFieldProps extends Omit<InputHTMLAttributes<HTMLInputElement>,'size'|'prefix'> { label: string; hideLabel?: boolean; helper?: string; prefix?: string; trailingIcon?: ReactNode; size?: Size; status?: 'default'|'success'|'error'; showLabel?:boolean; showText?:boolean; showHelper?:boolean; showPrefix?:boolean; showTrailingIcon?:boolean; showHelpIcon?:boolean; helpIcon?:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function InputFieldExample(){const [value,setValue]=useState('');return <DS.InputField label=\"Nombre de la pantalla\" placeholder=\"Escribe un nombre\" value={value} onChange={e=>setValue(e.target.value)} helper=\"Texto editable, sin validación de negocio\" required/>;}\n",
@@ -299,7 +321,9 @@
       "Textarea"
     ],
     "base": "specs/textarea.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/textarea.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -307,7 +331,8 @@
     "notes": "counter es texto del consumidor; no existe límite implícito 300. maxLength solo limita si el consumidor lo entrega. El control no ofrece resize en esta versión.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/textarea.contract.v0.1.0.md": "5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa"
+      "specs/textarea.contract.v0.1.0.md": "5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa",
+      "specs/components/textarea.typography.amendment.v0.1.0.md": "14b102b5834756194f15ffda52bc02ff611e61327929e59cedfb06b1259676b5"
     },
     "api": "export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> { label: string; helper?: string; counter?: string; status?: 'default'|'error'; hideLabel?: boolean; showLabel?:boolean; showHelper?:boolean; showCounter?:boolean; resizeIcon?:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function TextareaExample(){const [value,setValue]=useState('');return <DS.Textarea label=\"Descripción\" value={value} onChange={e=>setValue(e.target.value)} placeholder=\"Describe el contenido\" counter={`${value.length} caracteres`} helper=\"El contador se calcula en este ejemplo.\"/>;}\n",
@@ -327,7 +352,8 @@
     "base": "specs/checkbox.contract.v0.1.0.md",
     "amendments": [
       "specs/checkbox.source-color-amendment.v0.1.1.md",
-      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md"
+      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
+      "specs/components/checkbox.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -338,7 +364,8 @@
     "hashes": {
       "specs/checkbox.contract.v0.1.0.md": "3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095",
       "specs/checkbox.source-color-amendment.v0.1.1.md": "9826dafb742b5efe427ff897f1dcb440cb9e01fdffbd9ef162e11530c24f06b4",
-      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md": "a53c4ed47b9dd7871009a67983ccc2ad3e2ba69d96bc5b8faa05ac0fa48f75a1"
+      "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md": "a53c4ed47b9dd7871009a67983ccc2ad3e2ba69d96bc5b8faa05ac0fa48f75a1",
+      "specs/components/checkbox.typography.amendment.v0.1.0.md": "b5845133b85b4e0a978375553b893c0ef532da4ca04f52cc6e7196bbb0535358"
     },
     "api": "export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement>,'type'|'size'|'children'> { label: string; hideLabel?: boolean; labelSide?: 'left'|'right'; indeterminate?: boolean; leftLabel?:ReactNode; rightLabel?:ReactNode; showLeftLabel?:boolean; showRightLabel?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function CheckboxExample(){const [checked,setChecked]=useState(false);return <DS.Checkbox showRightLabel label=\"Incluir datos de muestra\" checked={checked} onChange={e=>setChecked(e.target.checked)}/>;}\n",
@@ -358,7 +385,8 @@
     "base": "specs/radio-button.contract.v0.1.0.md",
     "amendments": [
       "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md",
-      "specs/radio-button.source-color-amendment.v0.1.1.md"
+      "specs/radio-button.source-color-amendment.v0.1.1.md",
+      "specs/components/radio-button.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -369,7 +397,8 @@
     "hashes": {
       "specs/radio-button.contract.v0.1.0.md": "37be63a92fd4b30468c15d50689487e84a3a67de5c43547c390a083a2427fbfe",
       "specs/components/radio-checkbox.refinement.amendment.v0.1.2.md": "a53c4ed47b9dd7871009a67983ccc2ad3e2ba69d96bc5b8faa05ac0fa48f75a1",
-      "specs/radio-button.source-color-amendment.v0.1.1.md": "55ed04efb099953c15097bbd2cc8ca64b5f9141e67bd54601fe4150e7df0e5e0"
+      "specs/radio-button.source-color-amendment.v0.1.1.md": "55ed04efb099953c15097bbd2cc8ca64b5f9141e67bd54601fe4150e7df0e5e0",
+      "specs/components/radio-button.typography.amendment.v0.1.0.md": "2aa2d38c7ad460714cf52dccde8620e5a5d56f80920ea9b053697fdd0d2cc1ab"
     },
     "api": "export interface RadioButtonProps extends Omit<InputHTMLAttributes<HTMLInputElement>,'type'|'size'|'children'> { label: string; hideLabel?: boolean; labelSide?: 'left'|'right'; name: string; value: string; leftLabel?:ReactNode; rightLabel?:ReactNode; showLeftLabel?:boolean; showRightLabel?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function RadioButtonExample(){const [value,setValue]=useState('a');return <fieldset className=\"grid gap-3\"><legend className=\"mb-3 font-semibold\">Vista inicial</legend>{['a','b'].map(v=><DS.RadioButton showRightLabel key={v} name=\"radio-demo\" value={v} label={`Vista ${v.toUpperCase()}`} checked={value===v} onChange={()=>setValue(v)}/>)}</fieldset>;}\n",
@@ -391,7 +420,8 @@
       "specs/components/toggle.focus-effect-amendment.v0.1.3.md",
       "specs/components/toggle.mixed-amendment.v0.1.4.md",
       "specs/components/toggle.source-color-amendment.v0.1.5.md",
-      "specs/components/toggle.visual-contrast-amendment.v0.1.2.md"
+      "specs/components/toggle.visual-contrast-amendment.v0.1.2.md",
+      "specs/components/toggle.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -404,7 +434,8 @@
       "specs/components/toggle.focus-effect-amendment.v0.1.3.md": "efcdc635b43774559b3c8001f96f51ea6d3d21c435ea8fea0c7fa8359299d364",
       "specs/components/toggle.mixed-amendment.v0.1.4.md": "1c2f085490c2ad330d92778306d5e9f09f93b625d7f08fdc5ec905ce9ed50b47",
       "specs/components/toggle.source-color-amendment.v0.1.5.md": "b9d4b868ed8dbd1d6eab558d8ce3b5a32919d08f6083055bca1ffe3ca527e6e2",
-      "specs/components/toggle.visual-contrast-amendment.v0.1.2.md": "8010307c88f303d8faff80c357956630ac557ff43de71ef9853d22fdaf264357"
+      "specs/components/toggle.visual-contrast-amendment.v0.1.2.md": "8010307c88f303d8faff80c357956630ac557ff43de71ef9853d22fdaf264357",
+      "specs/components/toggle.typography.amendment.v0.1.0.md": "81b66c663c20a0af551ef1e7db166d1d38b2bc3c0502f86d7c3c811b8ba893af"
     },
     "api": "export interface ToggleProps extends Omit<InputHTMLAttributes<HTMLInputElement>,'type'|'size'|'children'> { label: string; hideLabel?: boolean; labelSide?: 'left'|'right'; mixed?: boolean; onMixedAction?: ()=>void; leftLabel?:ReactNode; rightLabel?:ReactNode; showLeftLabel?:boolean; showRightLabel?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ToggleExample(){const [checked,setChecked]=useState(false);return <DS.Toggle showRightLabel label=\"Mostrar detalles\" checked={checked} onChange={e=>setChecked(e.target.checked)}/>;}\n",
@@ -422,7 +453,9 @@
       "Search"
     ],
     "base": "specs/search.contract.v0.1.1.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/search.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -430,7 +463,8 @@
     "notes": "value/onValueChange controlados. Limpiar emite cadena vacía; Enter y lupa llaman onSearch. El filtrado de datos está en la pantalla.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/search.contract.v0.1.1.md": "69a4872f40aa2997f3af25774f90633054f7602c53b4d44a12af7dfd5f5c0772"
+      "specs/search.contract.v0.1.1.md": "69a4872f40aa2997f3af25774f90633054f7602c53b4d44a12af7dfd5f5c0772",
+      "specs/components/search.typography.amendment.v0.1.0.md": "a29c125cab88935eb1122005584a3fa7c143023e68b15f97b28fc9a84a179125"
     },
     "api": "export interface SearchProps { label?: string; hideLabel?: boolean; value: string; onValueChange: (value:string)=>void; onSearch?: (value:string)=>void; size?: Size; disabled?: boolean; placeholder?: string; showLabel?:boolean; searchIcon?:ReactNode; clearIcon?:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function SearchExample(){const [value,setValue]=useState('');return <div className=\"grid w-full gap-4\"><DS.Search value={value} onValueChange={setValue}/><p>{['Facturas','Clientes','Reportes'].filter(x=>x.toLowerCase().includes(value.toLowerCase())).join(' · ')||'Sin coincidencias en la muestra'}</p></div>;}\n",
@@ -449,7 +483,9 @@
     ],
     "base": "specs/select.contract.v0.1.0.md",
     "amendments": [
-      "specs/composition-slots.amendment.v0.1.0.md"
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/select.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -459,7 +495,9 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/select.contract.v0.1.0.md": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
-      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5"
+      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
+      "specs/components/select.typography.amendment.v0.1.0.md": "a417b478c62fe0cf04bcaf6c2621611628208578b8428e681254e9734d74caba",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
     },
     "api": "export interface SelectOption { value: string; label: string; disabled?: boolean }\n\nexport interface SelectProps { label: string; options: readonly SelectOption[]; value: string; onValueChange: (value:string)=>void; placeholder?: string; helper?: string; disabled?: boolean; required?: boolean; name?: string; showLabel?:boolean; showHelper?:boolean; showText?:boolean; showPrefix?:boolean; prefix?:string; showTrailingIcon?:boolean; trailingIcon?:ReactNode; status?:'default'|'success'|'error' }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function SelectExample(){const [value,setValue]=useState('');return <DS.Select label=\"Tipo de documento\" value={value} onValueChange={setValue} helper=\"Opciones locales\" options={[{value:'factura',label:'Factura'},{value:'reporte',label:'Reporte'},{value:'archivo',label:'Archivo',disabled:true}]}/>;}\n",
@@ -477,7 +515,10 @@
       "DropdownItem"
     ],
     "base": "specs/dropdown-item.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/dropdown-item.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -485,7 +526,9 @@
     "notes": "Una opción o acción con contenido secundario y decoración opcional. role se elige según el anfitrión. El checkbox visual no crea otro control anidado.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/dropdown-item.contract.v0.1.0.md": "414040f481f994316406dfd61ca09a4c5a52b4b9ec97e30dcb2a1dc90ef27d42"
+      "specs/dropdown-item.contract.v0.1.0.md": "414040f481f994316406dfd61ca09a4c5a52b4b9ec97e30dcb2a1dc90ef27d42",
+      "specs/components/dropdown-item.typography.amendment.v0.1.0.md": "5ba8f1a160b2122fac8bc624f6d34436fcaae2b5456df3850732775de4bd582d",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
     },
     "api": "export interface DropdownItemProps { children: ReactNode; size?: Size; selected?: boolean; disabled?: boolean; leadingIcon?: ReactNode; trailingIcon?: ReactNode; secondaryText?: string; loading?: boolean; showDivider?: boolean; showCheckbox?: boolean; onClick?: ()=>void; tabIndex?: number; role?: 'option'|'menuitem'; id?: string; type?:'base'|'header'; showLeadingIcon?:boolean; showTrailingIcon?:boolean; showSecondaryText?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function DropdownItemExample(){const [selected,setSelected]=useState(false);return <div className=\"w-72\"><DS.DropdownItem selected={selected} leadingIcon={<FileText/>} onClick={()=>setSelected(!selected)}>Documento de muestra</DS.DropdownItem><DS.DropdownItem size=\"middle\" disabled>No disponible</DS.DropdownItem></div>;}\n",
@@ -503,7 +546,9 @@
       "FileUpload"
     ],
     "base": "specs/file-upload.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/file-upload.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -511,7 +556,8 @@
     "notes": "Solo entrega File[] al consumidor, sin red, persistencia ni lectura del contenido. accept orienta al selector, no valida seguridad, tamaño ni archivos arrastrados. status es externo: seleccionar archivo no muestra éxito. El ejemplo distingue selección de carga.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/file-upload.contract.v0.1.0.md": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5"
+      "specs/file-upload.contract.v0.1.0.md": "e069fb28b37cb08c73300ace453d5318858f912f078566e87c731cc874ae4fb5",
+      "specs/components/file-upload.typography.amendment.v0.1.0.md": "4fb333efcff27826c9e1813da867179a953c9eb873b8a24466d866c6bf278ba3"
     },
     "api": "export interface FileUploadProps { label?: string; actionText?:string; formats?: string; helper?: string; accept?: string; multiple?: boolean; disabled?: boolean; status?: 'default'|'success'|'error'; statusMessage?: string; onFilesChange: (files:File[])=>void; prefixText?:string; suffixText?:string; showHelper?:boolean; showButton?:boolean; buttonLabel?:string; onButtonClick?:()=>void; icon?:ReactNode; successMessage?:string; errorMessage?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function FileUploadExample(){const [files,setFiles]=useState<string[]>([]);return <div className=\"grid gap-3\"><DS.FileUpload onFilesChange={items=>setFiles(items.map(f=>f.name))} formats=\"Selecciona archivos de tu equipo. No se enviarán.\" multiple/><p role=\"status\">{files.length?`Seleccionados localmente: ${files.join(', ')}`:'Ningún archivo seleccionado'}</p></div>;}\n",
@@ -532,7 +578,8 @@
     "base": "specs/breadcrumbs.contract.v0.1.0.md",
     "amendments": [
       "specs/components/six-family-color.amendment.v0.1.0.md",
-      "specs/composition-slots.amendment.v0.1.0.md"
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/breadcrumbs.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -543,7 +590,8 @@
     "hashes": {
       "specs/breadcrumbs.contract.v0.1.0.md": "241c1b03d7f0d93c8c39324e604739a670926d719e3c801e82ed7c018c59323d",
       "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
-      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5"
+      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
+      "specs/components/breadcrumbs.typography.amendment.v0.1.0.md": "0f1fc99d903177a8b55c12638fd37e7028b6083f3b6b2faf65f5a0f729632980"
     },
     "api": "export interface BreadcrumbItem { id: string; label: string; href?: string; disabled?: boolean; icon?: ReactNode; type?:'default'|'icon'|'shortened' }\n\nexport interface BreadcrumbItemProps { label?:string; href?:string; disabled?:boolean; icon?:ReactNode; type?:'default'|'icon'|'shortened'; current?:boolean }\n\nexport interface BreadcrumbsProps { items: readonly BreadcrumbItem[]; label?: string; onBack?: ()=>void; showBack?:boolean; children?:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function BreadcrumbsExample(){return <DS.Breadcrumbs items={[{id:'inicio',label:'Inicio',href:'#componer'},{id:'documentos',label:'Documentos',href:'#table'},{id:'detalle',label:'Detalle'}]}/>;}\n",
@@ -563,7 +611,8 @@
     ],
     "base": "specs/navigation-pagination.contract.v0.1.0.md",
     "amendments": [
-      "specs/composition-slots.amendment.v0.1.1.md"
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/components/navigation-pagination.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -573,7 +622,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/navigation-pagination.contract.v0.1.0.md": "314ad6b95a6938aa1c6527b22b867f8714d21bbf138a21956333d43c8f40c0ee",
-      "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041"
+      "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041",
+      "specs/components/navigation-pagination.typography.amendment.v0.1.0.md": "f10067cc08c9df901cc20fb3412467ebf132359f8b9e90ed5bb7f16a2b83f6b5"
     },
     "api": "export interface NavigationPaginationProps { page: number; pages: number; onPageChange: (page:number)=>void; disabled?: boolean; pageSize?: number; pageSizes?: readonly number[]; onPageSizeChange?: (size:number)=>void; showFirstLast?: boolean; showFirst?:boolean; showLast?:boolean; pageItems?:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function NavigationPaginationExample(){const [page,setPage]=useState(1);const [size,setSize]=useState(20);return <DS.NavigationPagination page={page} pages={8} onPageChange={setPage} pageSize={size} onPageSizeChange={setSize} showFirstLast/>;}\n",
@@ -592,7 +642,8 @@
     ],
     "base": "specs/navigation-switch-tab.contract.v0.1.0.md",
     "amendments": [
-      "specs/composition-slots.amendment.v0.1.0.md"
+      "specs/composition-slots.amendment.v0.1.0.md",
+      "specs/components/navigation-switch-tab.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -602,7 +653,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/navigation-switch-tab.contract.v0.1.0.md": "c9007112a7155c155a5fc32ee8e809fa28576005069c8964f3205e9f77fb4cf1",
-      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5"
+      "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
+      "specs/components/navigation-switch-tab.typography.amendment.v0.1.0.md": "81abdad4e64d4ccad34270fbc60d2f0de8047384af0abe19f971131722a05b16"
     },
     "api": "export interface TabItem { id:string; label:string; disabled?:boolean; content?:ReactNode; leftIcon?:ReactNode; count?:string }\n\nexport interface NavigationSwitchTabProps { items:readonly TabItem[]; value:string; onValueChange:(value:string)=>void; label:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function NavigationSwitchTabExample(){const [value,setValue]=useState('lista');return <DS.NavigationSwitchTab label=\"Presentación de documentos\" value={value} onValueChange={setValue} items={[{id:'lista',label:'Lista',content:<p className=\"py-4\">Contenido de la lista</p>},{id:'resumen',label:'Resumen',content:<p className=\"py-4\">Contenido del resumen</p>}]}/>;}\n",
@@ -620,7 +672,9 @@
       "NavigationSwitchTabItem"
     ],
     "base": "specs/navigation-switch-tab-item.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/navigation-switch-tab-item.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -628,7 +682,8 @@
     "notes": "Pieza individual; el anfitrión asigna rol tab/aria-selected o aria-pressed según el caso. No inventa estados Hover/Press visuales.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/navigation-switch-tab-item.contract.v0.1.0.md": "60d2caa198236e8a508711b185be780814187e2e72ff11f2a6eda30d9a4cb44b"
+      "specs/navigation-switch-tab-item.contract.v0.1.0.md": "60d2caa198236e8a508711b185be780814187e2e72ff11f2a6eda30d9a4cb44b",
+      "specs/components/navigation-switch-tab-item.typography.amendment.v0.1.0.md": "d2ca886fbd332d3d592ce24756edfaceaca2ba3c42bac74c49aa0b33634b39ed"
     },
     "api": "export interface NavigationSwitchTabItemProps extends ButtonHTMLAttributes<HTMLButtonElement> { active?: boolean; leftIcon?: ReactNode; rightIcon?: ReactNode; count?: string; showLeftIcon?:boolean; showRightIcon?:boolean; showCount?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function NavigationSwitchTabItemExample(){const [active,setActive]=useState(true);return <DS.NavigationSwitchTabItem active={active} count=\"3\" leftIcon={<FileText/>} aria-pressed={active} onClick={()=>setActive(!active)}>Documentos</DS.NavigationSwitchTabItem>;}\n",
@@ -646,7 +701,9 @@
       "NavigationTab"
     ],
     "base": "specs/navigation-tab.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/navigation-tab.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -654,7 +711,8 @@
     "notes": "Base/Dynamic, activo y deshabilitado. selectedPresentation solo aplica a Dynamic activo; no modifica datos ni crea un panel. El consumidor asigna rol/atributos según uso.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/navigation-tab.contract.v0.1.0.md": "1f28dbd13b0e5c055d2dc551e6a957b2b64f91701425d0b1089ef505c9b0035c"
+      "specs/navigation-tab.contract.v0.1.0.md": "1f28dbd13b0e5c055d2dc551e6a957b2b64f91701425d0b1089ef505c9b0035c",
+      "specs/components/navigation-tab.typography.amendment.v0.1.0.md": "f9eede3511f70d8ba32f392b63c8e953930dd79b632d0bb8b275d64651059d78"
     },
     "api": "export interface NavigationSwitchTabItemProps extends ButtonHTMLAttributes<HTMLButtonElement> { active?: boolean; leftIcon?: ReactNode; rightIcon?: ReactNode; count?: string; showLeftIcon?:boolean; showRightIcon?:boolean; showCount?:boolean }\n\nexport interface NavigationTabProps extends NavigationSwitchTabItemProps { variant?: 'base'|'dynamic'; selectedPresentation?: boolean; showDot?: boolean; showDivisor?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function NavigationTabExample(){const [active,setActive]=useState(true);return <div className=\"flex gap-4\"><DS.NavigationTab active={active} aria-pressed={active} onClick={()=>setActive(!active)} leftIcon={<FileText/>}>Resumen</DS.NavigationTab><DS.NavigationTab variant=\"dynamic\" active={!active} aria-pressed={!active} onClick={()=>setActive(!active)}>Detalle</DS.NavigationTab></div>;}\n",
@@ -676,7 +734,8 @@
     "base": "specs/steps.contract.v0.1.0.md",
     "amendments": [
       "specs/composition-slots.amendment.v0.1.1.md",
-      "specs/steps.brand-theme.amendment.v0.1.1.md"
+      "specs/steps.brand-theme.amendment.v0.1.1.md",
+      "specs/components/steps.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -687,7 +746,8 @@
     "hashes": {
       "specs/steps.contract.v0.1.0.md": "dad5b88393048c35391c09a5a13369849adf5b6fb9f1bfdd9fe16847690697e9",
       "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041",
-      "specs/steps.brand-theme.amendment.v0.1.1.md": "d13f98fb092e845e72844ccf7f0936816d3f3cdba8a432d4e68b22bbe3bbcc8b"
+      "specs/steps.brand-theme.amendment.v0.1.1.md": "d13f98fb092e845e72844ccf7f0936816d3f3cdba8a432d4e68b22bbe3bbcc8b",
+      "specs/components/steps.typography.amendment.v0.1.0.md": "4be55b25120f34acb52a2876e07e42a85ae12a48c9b1dcbf3d3e7b69b37e5e52"
     },
     "api": "export interface StepsDotProps { onColor?:'white'|'primary'; selected?:boolean; legacyGallery?:boolean }\n\nexport interface StepsCombinationProps { current:number; total:number; onColor?:'white'|'primary'; legacyGallery?:boolean; children?:ReactNode }\n\nexport interface StepsProps { current: number; total: number; indicators?:ReactNode; type?: 'gallery'|'numbers'|'gallery-only'; onColor?: 'white'|'primary'; onStepChange?: (step:number)=>void; previousLabel?:string; nextLabel?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function StepsExample(){const [current,setCurrent]=useState(1);return <DS.Steps total={3} current={current} onStepChange={setCurrent}/>;}\n",
@@ -709,7 +769,8 @@
     ],
     "base": "specs/stepper.contract.v0.1.0.md",
     "amendments": [
-      "specs/stepper.brand-theme.amendment.v0.1.1.md"
+      "specs/stepper.brand-theme.amendment.v0.1.1.md",
+      "specs/components/stepper.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -719,7 +780,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/stepper.contract.v0.1.0.md": "5c3f8d75fe20736fd08411654db5757ea9517af6dd6b078234a17627bac19466",
-      "specs/stepper.brand-theme.amendment.v0.1.1.md": "de9981eddd06b1c39b1f0830fa2f298a09d8d63511fb6e078f88023f3081c6bf"
+      "specs/stepper.brand-theme.amendment.v0.1.1.md": "de9981eddd06b1c39b1f0830fa2f298a09d8d63511fb6e078f88023f3081c6bf",
+      "specs/components/stepper.typography.amendment.v0.1.0.md": "b794b59799d96f82830d40b9951cdcefe9f190619d5ec96302ad82795ced1220"
     },
     "api": "export interface StepperConnectorProps { orientation?:'horizontal'|'vertical'; state?:'checked'|'default'; position?:'start'|'end'; className?:string }\n\nexport interface StepperProps { orientation?:'horizontal'|'vertical'; state?:'checked'|'default'|'inactive'; position?:'start'|'middle'|'end'; step?:string; title:string; caption?:string; icon?:ReactNode; showStep?:boolean; showCaption?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function StepperExample(){return <div className=\"flex\"><DS.Stepper position=\"start\" state=\"checked\" step=\"PASO 1\" title=\"Datos\" caption=\"Captura\"/><DS.Stepper position=\"middle\" state=\"default\" step=\"PASO 2\" title=\"Revisión\" caption=\"Detalles\"/><DS.Stepper position=\"end\" state=\"inactive\" step=\"PASO 3\" title=\"Final\" caption=\"Resultado\"/></div>;}\n",
@@ -739,7 +801,8 @@
     ],
     "base": "drafts/contracts/avatar.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/avatar.source-color-amendment.v0.1.1.md"
+      "specs/components/avatar.source-color-amendment.v0.1.1.md",
+      "specs/components/avatar.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -749,7 +812,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "drafts/contracts/avatar.contract.v0.1.0.md": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
-      "specs/components/avatar.source-color-amendment.v0.1.1.md": "f1a010f1dc3f6ee85b756dc3131840d7fcfd3b6f346077bbb4fb3d445d79832d"
+      "specs/components/avatar.source-color-amendment.v0.1.1.md": "f1a010f1dc3f6ee85b756dc3131840d7fcfd3b6f346077bbb4fb3d445d79832d",
+      "specs/components/avatar.typography.amendment.v0.1.0.md": "b0a593025a3fc3c453869a80dcc34b9ed9f01e88e36502fc9706853286dc97d6"
     },
     "api": "export interface AvatarProps { type?:'image'|'icon'|'text'; size?:'small'|'medium'|'large'|'extra-large'; src?:string; initials?:string; icon?:ReactNode; label:string; showStatus?:boolean; statusLabel?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function AvatarExample(){return <div className=\"flex gap-4 items-center\"><DS.Avatar label=\"Persona de muestra\"/><DS.Avatar type=\"text\" initials=\"ML\" label=\"Miguel Leo\" showStatus statusLabel=\"Activo, dato de muestra\"/><DS.Avatar type=\"icon\" size=\"large\" label=\"Usuario\"/></div>;}\n",
@@ -767,7 +831,9 @@
       "Characters"
     ],
     "base": "specs/characters.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/characters.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
@@ -775,7 +841,8 @@
     "notes": "13 fotogramas originales BENI/NAVI desde el snapshot de Ecosistema. Las matrices locales SVG se derivan de las absolutas fuente para evitar duplicar el desplazamiento de los grupos. Identidad fija por tokens character-identity; no cambia con tema. Sin animación automática ni inferencia de backend. BENI admite 1–6; NAVI 1–7.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/characters.contract.v0.1.0.md": "b0c920ef0f4485bbdfd4669b4f37a4887f52e6216337b6c0b8e1f17aa4bdd96e"
+      "specs/characters.contract.v0.1.0.md": "b0c920ef0f4485bbdfd4669b4f37a4887f52e6216337b6c0b8e1f17aa4bdd96e",
+      "specs/components/characters.typography.amendment.v0.1.0.md": "fa55eca19e3bb8ad97a0d96662b02bb4b8a5bc06abc623c1978d0592e957b7bf"
     },
     "api": "export interface CharactersProps { character?:'beni'|'navi'; frame?:1|2|3|4|5|6|7; label?:string; className?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function CharactersExample(){const [frame,setFrame]=useState<1|2|3|4|5|6>(1);return <div className=\"grid gap-4\"><div className=\"flex gap-8\"><DS.Characters character=\"beni\" frame={frame} label=\"BENI\"/><DS.Characters character=\"navi\" frame={frame} label=\"NAVI\"/></div><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"text\" size=\"small\" onClick={()=>setFrame(frame===6?1:(frame+1) as 2|3|4|5|6)}>Siguiente fotograma</DS.Button></div>;}\n",
@@ -794,7 +861,8 @@
     ],
     "base": "drafts/contracts/logos.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/logos.scope.amendment.v0.1.1.md"
+      "specs/components/logos.scope.amendment.v0.1.1.md",
+      "specs/components/logos.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -804,7 +872,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "drafts/contracts/logos.contract.v0.1.0.md": "088b7e86d695541b4587b891a658a2d50e1843e9bb0e98a1ef0cdfc340bf4f56",
-      "specs/components/logos.scope.amendment.v0.1.1.md": "f72b740ff43d134c794fb2ad6ea596ffa36bc4f09afeae3996575b04a5fe7467"
+      "specs/components/logos.scope.amendment.v0.1.1.md": "f72b740ff43d134c794fb2ad6ea596ffa36bc4f09afeae3996575b04a5fe7467",
+      "specs/components/logos.typography.amendment.v0.1.0.md": "f31a958e685c621afa2b295eadab9889e23845299519a9341d370cdedefb13fb"
     },
     "api": "export interface LogosProps { assetId?:string; src?:string; alt:string; height?:number; className?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function LogosExample(){const [id,setId]=useState('435:2654');return <div className=\"grid gap-6\"><label>Asset local<select className=\"block mt-2 border border-ds-border rounded-ds p-2 max-w-full\" value={id} onChange={e=>setId(e.target.value)}>{DS.logoAssets.map(a=><option key={a.id} value={a.id}>{a.family} · {a.name}</option>)}</select></label><DS.Logos assetId={id} alt=\"Logotipo original CONTPAQi\" height={64}/></div>;}\n",
@@ -823,7 +892,9 @@
       "EmptyStateIllustration"
     ],
     "base": "specs/empty-states.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/empty-states.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "mainActions/supportingActions"
@@ -831,7 +902,8 @@
     "notes": "Cuatro composiciones. Seis ilustraciones locales con geometría original y colores de extensión semántica. Ilustración sustituible. Main exige 548px; no se fuerza a móvil ni se deduce un estado de error.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/empty-states.contract.v0.1.0.md": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f"
+      "specs/empty-states.contract.v0.1.0.md": "25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f",
+      "specs/components/empty-states.typography.amendment.v0.1.0.md": "9fe00f6d09fe88c4d1d20299b099e04600a33e488e265197c8606a19c4ee8333"
     },
     "api": "export interface EmptyStateIllustrationProps { asset?:'2281'|'2298'|'2323'|'2346'|'2364'|'2381' }\n\nexport interface EmptyStatesProps { presentation?:'default'|'compact'|'inline'|'main'; title?:ReactNode; children?:ReactNode; illustration?:ReactNode; mainActions?:ReactNode; supportingActions?:ReactNode; showVisual?:boolean; showTitle?:boolean; showMainActions?:boolean; showSupportingActions?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function EmptyStatesExample(){return <DS.EmptyStates presentation=\"compact\" title=\"Aún no hay documentos\" mainActions={<DS.Button showLeftIcon={false} showRightIcon={false} size=\"middle\" onClick={()=>alert('Acción local de ejemplo')}>Agregar documento</DS.Button>}>Agrega un documento de muestra para explorar esta pantalla.</DS.EmptyStates>;}\n",
@@ -851,7 +923,8 @@
     ],
     "base": "specs/metric-card.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/six-family-color.amendment.v0.1.0.md"
+      "specs/components/six-family-color.amendment.v0.1.0.md",
+      "specs/components/metric-card.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
@@ -861,7 +934,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/metric-card.contract.v0.1.0.md": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9"
+      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/metric-card.typography.amendment.v0.1.0.md": "2ca2104c99abc4a43473c8e3bac8b5f274e197f3da6612a2f0dd9f8db26fea6b"
     },
     "api": "export interface MetricValue { label:string; value:string }\n\nexport interface MetricCardProps { variant?:'vertical'|'horizontal'|'one-v1'|'one-v2'; size?:'large'|'small'; title:string; description?:string; values:readonly MetricValue[]; trend?:string; icon?:ReactNode; action?:ReactNode; showIcon?:boolean; showAction?:boolean; showDetail?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function MetricCardExample(){return <DS.MetricCard title=\"Documentos\" description=\"Datos de demostración\" values={[{label:'Este mes',value:'128'},{label:'Mes anterior',value:'112'}]} icon={<FileText/>}/>;}\n",
@@ -885,7 +959,9 @@
       "TableGlyph"
     ],
     "base": "specs/table.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/table.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "columns/rows/cell/actions"
@@ -893,7 +969,8 @@
     "notes": "Piezas Table/Header/HeaderCell/Row/Cell/ActionsCell reutilizables y Slots 0..n. Show selection/actions/status/copy/brand/sort exponen la anatomía documentada. Hover conserva TABLE-AUD-001: añade 8px de ancho, muestra DotsThree y reduce 24px la primera celda de ancho explícito. No se inventan selección, copia ni orden automático; el consumidor aporta los callbacks.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/table.contract.v0.1.0.md": "e3b7b1c999fa8f59c839a082cde95f5709d21375feb4bc2fefd26652c2394108"
+      "specs/table.contract.v0.1.0.md": "e3b7b1c999fa8f59c839a082cde95f5709d21375feb4bc2fefd26652c2394108",
+      "specs/components/table.typography.amendment.v0.1.0.md": "beded8bf553bf1d986ccfd427dda5ba3cc34dbfce55ec0129abdb7f6512bc707"
     },
     "api": "export interface TableGlyphProps { type:'sort'|'copy' }\n\nexport interface TableHeaderCellProps { children?:ReactNode; width?:number; brand?:ReactNode; showBrand?:boolean; showSort?:boolean; sortIcon?:ReactNode }\n\nexport interface TableCellProps { children?:ReactNode; width?:number; status?:ReactNode; showStatus?:boolean; showCopy?:boolean; onCopy?:()=>void }\n\nexport interface TableActionsCellProps { children?:ReactNode }\n\nexport interface TableHeaderProps { children?:ReactNode; showSelection?:boolean; selection?:ReactNode; showActions?:boolean; actionsLabel?:ReactNode }\n\nexport interface TableRowProps { children?:ReactNode; state?:'default'|'hover'; showSelection?:boolean; selection?:ReactNode; showActions?:boolean; actions?:ReactNode; hoverAction?:ReactNode }\n\nexport interface TableColumn<T> { id:string; header:ReactNode; width?:number; cell:(row:T)=>ReactNode; brand?:ReactNode; showBrand?:boolean; showSort?:boolean }\n\nexport interface TableProps<T> { columns:readonly TableColumn<T>[]; rows:readonly T[]; rowKey:(row:T)=>string; caption:string; showCaption?:boolean; actions?:(row:T)=>ReactNode; showSelection?:boolean; headerSelection?:ReactNode; rowSelection?:(row:T)=>ReactNode; header?:ReactNode; children?:ReactNode; width?:CSSProperties['width'] }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function TableExample(){const rows=[{id:'doc-1',name:'Documento A',status:'Revisado'},{id:'doc-2',name:'Documento B',status:'Pendiente'}];return <DS.Table caption=\"Documentos de ejemplo\" rows={rows} rowKey={r=>r.id} columns={[{id:'name',header:'Documento',cell:r=>r.name},{id:'status',header:'Estado',cell:r=><DS.Badge tone={r.status==='Revisado'?'success':'warning'}>{r.status}</DS.Badge>}]}/>;}\n",
@@ -917,7 +994,9 @@
       "Modal"
     ],
     "base": "specs/modal.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/modal.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "children/actions/sideContent/media"
@@ -925,7 +1004,8 @@
     "notes": "Ocho configuraciones y medidas mínimas del contrato; dialog local controlado, Escape y devolución de foco nativos. Media/SideBySide usan las dos imágenes originales verificadas por SHA-1 Figma y SHA-256 local. media admite sustitución explícita o null para vacío. Sin backend ni recoloración por tema.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/modal.contract.v0.1.0.md": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57"
+      "specs/modal.contract.v0.1.0.md": "589a78693d2bad3f3d9233a8ea6ecd5e9254f1aae429aac6da941b030cc78f57",
+      "specs/components/modal.typography.amendment.v0.1.0.md": "f00dc2b2a44144fe0039946ed6b8e9df3e5a074e075c04fad60832d9bb7a00e6"
     },
     "api": "export interface ModalProps { open:boolean; onOpenChange:(open:boolean)=>void; title:string; subtitle?:ReactNode; children?:ReactNode; actions?:ReactNode; sideContent?:ReactNode; size?:'small'|'medium'|'large'; variant?:'basic'|'media'|'side-by-side'; media?:ReactNode; scroll?:boolean; icon?:ReactNode; showIcon?:boolean; showSubtitle?:boolean; showLink?:boolean; link?:ReactNode; showClose?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ModalExample(){const [open,setOpen]=useState(false);return <><DS.Button showLeftIcon={false} showRightIcon={false} onClick={()=>setOpen(true)}>Abrir diálogo</DS.Button><DS.Modal open={open} onOpenChange={setOpen} title=\"Editar muestra\" actions={<><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"default\" size=\"middle\" onClick={()=>setOpen(false)}>Cancelar</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} size=\"middle\" onClick={()=>setOpen(false)}>Listo</DS.Button></>}><DS.InputField label=\"Nombre\" defaultValue=\"Documento de ejemplo\"/></DS.Modal></>;}\n",
@@ -946,7 +1026,8 @@
     ],
     "base": "specs/scrollbar.contract.v0.1.0.md",
     "amendments": [
-      "specs/scrollbar.color-approximation.amendment.v0.1.1.md"
+      "specs/scrollbar.color-approximation.amendment.v0.1.1.md",
+      "specs/components/scrollbar.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -956,7 +1037,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/scrollbar.contract.v0.1.0.md": "64326d0219578049084a46beed5181bfee13eba4b1c801a95098ce1b390cf9f9",
-      "specs/scrollbar.color-approximation.amendment.v0.1.1.md": "9706debe1203c2b29bd58d646060744be24bddcf5ad16b65ca9ca039f40b173e"
+      "specs/scrollbar.color-approximation.amendment.v0.1.1.md": "9706debe1203c2b29bd58d646060744be24bddcf5ad16b65ca9ca039f40b173e",
+      "specs/components/scrollbar.typography.amendment.v0.1.0.md": "9eb090b2718162b5fdd4d38eaa0f7f325fe5bf940fc0cb4814ea7a4535f93a33"
     },
     "api": "export interface ScrollbarProps { orientation?:'vertical'|'horizontal'; thumbSize?:'25%'|'33%'|'50%'|'75%'; label?:string; className?:string }\n\nexport type ScrollbarThumbProps = { orientation?:'vertical'|'horizontal'; className?:string } & ({thumbSize?:'25%';position?:'1/4'|'2/4'|'3/4'|'4/4'}|{thumbSize:'33%';position?:'1/3'|'2/3'|'3/3'}|{thumbSize:'50%'|'75%';position?:'1/2'|'2/2'});\n/** Geometría interna normalizada al recorrido público272; posiciones discretas, sin drag. */\n\nexport interface ScrollAreaProps extends HTMLAttributes<HTMLDivElement> { orientation?:'vertical'|'horizontal'; label:string; height?:number }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ScrollbarExample(){return <div className=\"flex gap-8\"><DS.Scrollbar thumbSize=\"25%\"/><DS.ScrollArea label=\"Lista larga de muestra\" height={200} className=\"w-72\"><ul className=\"grid gap-4 pr-4\">{Array.from({length:20},(_,i)=><li key={i}>Elemento {i+1}</li>)}</ul></DS.ScrollArea></div>;}\n",
@@ -977,7 +1059,9 @@
       "FuentesPathItem"
     ],
     "base": "specs/components/fuentes.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/fuentes.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "path"
@@ -985,7 +1069,8 @@
     "notes": "Tarjeta de metadatos, sin enlaces inventados. Path es composición React, el consumidor define orden/separadores. Ancho 150–168px y texto 8px de ruta conservados como limitación de legibilidad.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/components/fuentes.contract.v0.1.0.md": "284f22ca2bcb36291bcfcfeb00d48cb0b3f7fef46d9a71c579a4f58456a17799"
+      "specs/components/fuentes.contract.v0.1.0.md": "284f22ca2bcb36291bcfcfeb00d48cb0b3f7fef46d9a71c579a4f58456a17799",
+      "specs/components/fuentes.typography.amendment.v0.1.0.md": "bb127a5e2efc2f0b69acf49bf66aa9816a63418f2ffb1f58cb5ba9ea93585ef8"
     },
     "api": "export interface FuentesProps { reference:string; type:string; source:string; location?:string; path?:ReactNode }\n\nexport interface FuentesPathItemProps { children:ReactNode; separator?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function FuentesExample(){return <DS.Fuentes reference=\"2\" type=\"Manual de referencia\" source=\"CONTPAQi®\" location=\"Mi cuenta\" path={<><DS.FuentesPathItem>Inicio</DS.FuentesPathItem><DS.FuentesPathItem separator>Documentación</DS.FuentesPathItem></>}/>;}\n",
@@ -1011,7 +1096,8 @@
     "base": "specs/charts.contract.v0.1.0.md",
     "amendments": [
       "specs/components/six-family-color.amendment.v0.1.0.md",
-      "specs/composition-slots.amendment.v0.1.1.md"
+      "specs/composition-slots.amendment.v0.1.1.md",
+      "specs/components/charts.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -1022,7 +1108,8 @@
     "hashes": {
       "specs/charts.contract.v0.1.0.md": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
       "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
-      "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041"
+      "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041",
+      "specs/components/charts.typography.amendment.v0.1.0.md": "fd174e3ad5e6f3dd16f875aa09ef3d65ff17cb5c9d97d07978d91615b33ca08b"
     },
     "api": "export interface ChartLegendLabelProps { children:ReactNode; weight?:'regular'|'semibold'; size?:'small'|'medium'; swatch?:'neutral'|'series-1'|'series-2'|'series-3'|'progress'|'track'|false }\n\nexport interface ChartCellProps { hasContent?:boolean; position?:'first'|'middle'|'last'; segment?:'solo'|'upper'|'middle'|'lower'; label?:string }\n\nexport interface ChartHeaderProps { title:string; description?:string; legend?:ReactNode; showDescription?:boolean; showLegend?:boolean }\n\nexport interface ProgressChartItemProps { label:string; value:string; type?:'top'|'detail'; detail?:ReactNode }\n\nexport interface SemiDonutGaugeProps { progress?:25|50|75; label?:string }\n\nexport interface ChartsProps extends ChartHeaderProps { children:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChartsExample(){return <DS.Charts title=\"Resumen de muestra\" description=\"Composición visual con valores de ejemplo\" legend={<><DS.ChartLegendLabel swatch=\"series-1\">Serie 1</DS.ChartLegendLabel><DS.ChartLegendLabel swatch=\"series-2\">Serie 2</DS.ChartLegendLabel></>}><DS.SemiDonutGauge progress={75}/><DS.ProgressChartItem label=\"Ejemplo estático\" value=\"$100k\"/></DS.Charts>;}\n",
@@ -1045,7 +1132,10 @@
       "Header"
     ],
     "base": "specs/header.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/header.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "logo/actions/user"
@@ -1053,7 +1143,9 @@
     "notes": "Composición sin menús ficticios. logo es contenido explícito para no elegir un artwork ausente o recolorearlo por tema. Eventos company/user son callbacks del consumidor. Geometría desktop, puede requerir overflow del anfitrión.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/header.contract.v0.1.0.md": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e"
+      "specs/header.contract.v0.1.0.md": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+      "specs/components/header.typography.amendment.v0.1.0.md": "9bf2db753a9224da9ee9bfdd2d33f229c7a99d15632d1ee810861ee927f49440",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
     },
     "api": "export interface HeaderProps { logo:ReactNode; version?:string; releaseLabel?:string; actions?:ReactNode; company?:string; taxId?:string; user?:ReactNode; showVersion?:boolean; showActions?:boolean; showCompany?:boolean; showUser?:boolean; onCompanyClick?:()=>void; onUserClick?:()=>void }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function HeaderExample(){return <DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>} version=\"2.0.0\" releaseLabel=\"ALPHA .1\" actions={<DS.IconButton showCount={false} label=\"Notificaciones\" icon={<Bell/>}/>} company=\"Empresa de ejemplo\" taxId=\"RFC de muestra\" user={<DS.Avatar type=\"text\" initials=\"ML\" label=\"Usuario de muestra\"/>}/>;}\n",
@@ -1073,7 +1165,9 @@
       "TopBar"
     ],
     "base": "specs/sidebar.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/sidebar.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "Sidebar items/children y lowerOptions; TopBar items/children, 0..n. MenuItem tiene anatomía fija: NOT_APPLICABLE."
@@ -1081,7 +1175,8 @@
     "notes": "22 combinaciones documentadas de MenuItem; la unión SVG conserva paths fuente y las variantes usan roles locales verificados. Sidebar mide 72/234×885px por defecto; height es la dimensión del anfitrión (904px dentro de AppShell). Los items tipados alternan expanded/collapsed, conservan submenús ocultos y aceptan 0..n elementos. children y lowerOptions conservan contenido y requieren composición explícita del anfitrión. No se inventa un estado Disabled ni Focus de submenú.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/sidebar.contract.v0.1.0.md": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f"
+      "specs/sidebar.contract.v0.1.0.md": "6ddb3bb5e4166d5c53396d1b5f0bdac56e2bf431cce926050d818c726447cc8f",
+      "specs/components/sidebar.typography.amendment.v0.1.0.md": "c25de5c017448e9a8b6d2f47e28e4eec6051eecb0e7e93606112a0094fb4cc68"
     },
     "api": "export type MenuItemVariant =\n  | { orientation?: 'vertical'; type?: 'expanded'|'collapsed'; status?: 'default'|'hover'|'focus' }\n  | { orientation?: 'vertical'; type: 'sub-menu'; status?: 'default'|'hover' }\n  | { orientation: 'horizontal'; type?: 'collapsed'; status?: 'default'|'hover'|'focus' };\n\nexport type MenuItemProps = MenuItemVariant & {\n  label?: string; isActive?: boolean; showRightIcon?: boolean;\n  fillIcon?: ReactNode; lightIcon?: ReactNode; href?: string; onClick?: () => void;\n  className?: string;\n};\n\nexport interface SidebarItem { id:string; label:string; icon?:ReactNode; fillIcon?:ReactNode; lightIcon?:ReactNode; href?:string; active?:boolean; onClick?:()=>void; submenu?:boolean; showRightIcon?:boolean }\n\nexport interface SidebarProps { expanded?:boolean; onExpandedChange?:(expanded:boolean)=>void; items?:readonly SidebarItem[]; children?:ReactNode; lowerOptions?:ReactNode; label?:string; height?:CSSProperties['height']; className?:string }\n\nexport interface TopBarProps { items?:readonly Omit<SidebarItem,'submenu'>[]; children?:ReactNode; label?:string; width?:CSSProperties['width']; className?:string }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function SidebarExample(){const [expanded,setExpanded]=useState(true);const [active,setActive]=useState('home');return <div className=\"grid gap-6\"><label className=\"flex items-center gap-2\"><input type=\"checkbox\" checked={expanded} onChange={e=>setExpanded(e.target.checked)}/>Expanded</label><DS.Sidebar expanded={expanded} onExpandedChange={setExpanded} items={[{id:'home',label:'Home',active:active==='home',onClick:()=>setActive('home')},{id:'sub1',label:'Submenu 1',submenu:true,active:active==='sub1',onClick:()=>setActive('sub1')},{id:'sub2',label:'Submenu 2',submenu:true,active:active==='sub2',onClick:()=>setActive('sub2')},...Array.from({length:5},(_,i)=>({id:`menu-${i}`,label:`Menu item ${i+1}`,active:active===`menu-${i}`,onClick:()=>setActive(`menu-${i}`)}))]} lowerOptions={<><hr/><DS.MenuItem type={expanded?'expanded':'collapsed'} isActive={false} label=\"Help\" lightIcon={<Question weight=\"light\"/>} fillIcon={<Question weight=\"fill\"/>} showRightIcon={false}/></>}/></div>;}\n",
@@ -1101,7 +1196,10 @@
       "AppShell"
     ],
     "base": "specs/app-shell.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/app-shell.typography.amendment.v0.1.0.md",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "header/sidebar/children"
@@ -1109,7 +1207,9 @@
     "notes": "Shell de escritorio, base1440×1024, Header96 y rail104/266 con padding0/16/24. width/height pertenecen al anfitrión; sin mínimo ni breakpoint1024 inventado. Sidebar llena el alto disponible (904px en la base).",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/app-shell.contract.v0.1.0.md": "f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e"
+      "specs/app-shell.contract.v0.1.0.md": "f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e",
+      "specs/components/app-shell.typography.amendment.v0.1.0.md": "74768a9059fed6ab27bbe6bc4b081f1ba4bae3b4e504e334ab442c45785cb31b",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
     },
     "api": "export interface AppShellProps { header:ReactNode; sidebar:ReactNode; children?:ReactNode; expanded?:boolean; className?:string; width?:CSSProperties['width']; height?:CSSProperties['height'] }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className=\"p-8\"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2><DS.MetricCard title=\"Documentos\" values={[{label:'Total',value:'128'}]}/></div></DS.AppShell>;}\n",
@@ -1127,7 +1227,9 @@
       "ChatHistoryItem"
     ],
     "base": "specs/chat-history-item.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/chat-history-item.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "children/actions"
@@ -1135,7 +1237,8 @@
     "notes": "Seleccionado y hover son independientes. Acciones hermanas del botón de título evitan botones anidados; también aparecen con foco. No borra historial sin callback explícito.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/chat-history-item.contract.v0.1.0.md": "a07e46bc5a0c28ab77278d0b74a458aff3b187a1aaec1c2035fe49cd691c29fd"
+      "specs/chat-history-item.contract.v0.1.0.md": "a07e46bc5a0c28ab77278d0b74a458aff3b187a1aaec1c2035fe49cd691c29fd",
+      "specs/components/chat-history-item.typography.amendment.v0.1.0.md": "f979e494269de45786ccbcc78280029eab5472bd197ab7dfe83fe238b21e15fb"
     },
     "api": "export interface ChatHistoryItemProps { children:ReactNode; updated?:string; selected?:boolean; actions?:ReactNode; onSelect?:()=>void }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatHistoryItemExample(){const [selected,setSelected]=useState(false);return <div className=\"w-80\"><DS.ChatHistoryItem selected={selected} updated=\"1 sem\" onSelect={()=>setSelected(!selected)} actions={<DS.IconButton showCount={false} size=\"small\" label=\"Acción de ejemplo\" icon={<Info/>}/>}>Consulta de documentos</DS.ChatHistoryItem></div>;}\n",
@@ -1153,7 +1256,9 @@
       "ChatToolItem"
     ],
     "base": "specs/chat-tool-item.contract.v0.1.0.md",
-    "amendments": [],
+    "amendments": [
+      "specs/components/chat-tool-item.typography.amendment.v0.1.0.md"
+    ],
     "slots": {
       "status": "REQUIRED",
       "reason": "extraActions"
@@ -1161,7 +1266,8 @@
     "notes": "Acción con etiqueta, icono y acciones adicionales independientes. Disabled bloquea el botón principal; el anfitrión decide el estado de extraActions.",
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
-      "specs/chat-tool-item.contract.v0.1.0.md": "40ca971b56464c2ee706c1120565aef6aefe055525f21dff494ff090d91d9f53"
+      "specs/chat-tool-item.contract.v0.1.0.md": "40ca971b56464c2ee706c1120565aef6aefe055525f21dff494ff090d91d9f53",
+      "specs/components/chat-tool-item.typography.amendment.v0.1.0.md": "3a14d04ee6f03c02354dbef50cf574a2cf0302b906e2858a3227124ffb5852f5"
     },
     "api": "export interface ChatToolItemProps { label:string; icon?:ReactNode; disabled?:boolean; showCaret?:boolean; extraActions?:ReactNode; showExtraActions?:boolean; onClick?:()=>void }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatToolItemExample(){const [count,setCount]=useState(0);return <div className=\"w-72\"><DS.ChatToolItem label={`Nuevo chat · ${count}`} onClick={()=>setCount(count+1)}/><DS.ChatToolItem label=\"Herramienta no disponible\" disabled/></div>;}\n",
@@ -1180,7 +1286,8 @@
     ],
     "base": "specs/chat-toolbar.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/chat.layout.amendment.v0.1.1.md"
+      "specs/components/chat.layout.amendment.v0.1.1.md",
+      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -1190,7 +1297,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/chat-toolbar.contract.v0.1.0.md": "2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43",
-      "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c"
+      "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c",
+      "specs/components/chat-toolbar.typography.amendment.v0.1.0.md": "762ae9b620eff3b8c95c54582c165a0a13a64d7ff79785fb2720df40ff438cf4"
     },
     "api": "export interface ChatToolbarProps { expanded:boolean; onExpandedChange:(expanded:boolean)=>void; header?:ReactNode; tools?:ReactNode; indicators?:ReactNode; chats?:ReactNode; plan?:ReactNode; planName?:string; indicatorsTitle?:string; chatsTitle?:string; showIndicators?:boolean; showPlan?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatToolbarExample(){const [expanded,setExpanded]=useState(true);return <DS.ChatToolbar expanded={expanded} onExpandedChange={setExpanded} header={<strong>Anticipa · demo</strong>} tools={<DS.ChatToolItem label=\"Nuevo chat\"/>} chats={<DS.ChatHistoryItem updated=\"1 sem\">Consulta de ejemplo</DS.ChatHistoryItem>} plan={<p>Plan de demostración</p>}/>;}\n",
@@ -1214,26 +1322,32 @@
     ],
     "base": "specs/conversation.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/conversation.character-identity.amendment.v0.1.1.md"
+      "specs/components/conversation.character-identity.amendment.v0.1.1.md",
+      "specs/components/conversation.typography.amendment.v0.1.0.md",
+      "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+      "specs/components/conversation.composer-slot.amendment.v0.1.3.md"
     ],
     "slots": {
       "status": "REQUIRED",
-      "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector"
+      "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector; Composer: draft/Notice content (noticeContent)"
     },
-    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada.",
-    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
+    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada. Aviso opcional: showAction=false; actionMessage y actionLabel editables; onAction callback local independiente de onSend. La muestra de créditos/fecha no define política de producto. Texto nuevo caption-regular/caption-semibold; Button default/small sin iconos. Draft y Tools conservan sus regiones. Slot nativo Notice content para todo el aviso: noticeContent undefined conserva muestra, null permite vacío y colecciones admiten composición/orden. En Figma el Slot vacío conserva una caja de edición de49px; ocultar Show action retira la región.",
+    "qa": "qa/implementations/conversation-composer.v0.1.3.review.md",
     "hashes": {
       "specs/conversation.contract.v0.1.0.md": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
-      "specs/components/conversation.character-identity.amendment.v0.1.1.md": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f"
+      "specs/components/conversation.character-identity.amendment.v0.1.1.md": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f",
+      "specs/components/conversation.typography.amendment.v0.1.0.md": "e4e72ab5c84cb6e2e7fb2f5209f5bb42c25c03ed325eaedb94b63f36d38fc5d0",
+      "specs/components/conversation.composer-action.amendment.v0.1.2.md": "70b8a9efc172797049ceab6125d8fdfd257eff86eb4221afc2468e266338a3a5",
+      "specs/components/conversation.composer-slot.amendment.v0.1.3.md": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3"
     },
-    "api": "export interface ConversationGlyphProps { agent?:'beni'|'navi'; label?:string }\n\nexport interface ConversationMessageProps { children:ReactNode }\n\nexport interface ConversationResponseProps { agent?:'beni'|'navi'; children?:ReactNode; badge?:ReactNode; previews?:ReactNode; secondaryContent?:ReactNode; additionalActions?:ReactNode; feedbackActions?:ReactNode; showPreviews?:boolean; showSecondaryContent?:boolean; showAdditionalActions?:boolean }\n\nexport interface ConversationComposerProps { value:string; onValueChange:(value:string)=>void; onSend:(value:string)=>void; placeholder?:string; label?:string; disclaimer?:ReactNode; tools?:ReactNode; modelSelector?:ReactNode; showModelSelector?:boolean; modelLabel?:string; draft?:ReactNode; showDisclaimer?:boolean; disabled?:boolean }\n\nexport interface ConversationPreviewProps { title:string; icon?:ReactNode; badge?:ReactNode; children?:ReactNode }\n\nexport interface ConversationProps { children:ReactNode; label?:string }",
-    "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ConversationExample(){const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);return <div className=\"grid gap-6 w-full\"><DS.Conversation><DS.ConversationResponse agent=\"beni\" badge={<DS.Badge>Ejemplo</DS.Badge>}>Esta respuesta es contenido local de muestra.</DS.ConversationResponse>{messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)}</DS.Conversation><DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} disclaimer=\"Demostración local, sin servicio de IA.\"/></div>;}\n",
+    "api": "export interface ConversationGlyphProps { agent?:'beni'|'navi'; label?:string }\n\nexport interface ConversationMessageProps { children:ReactNode }\n\nexport interface ConversationResponseProps { agent?:'beni'|'navi'; children?:ReactNode; badge?:ReactNode; previews?:ReactNode; secondaryContent?:ReactNode; additionalActions?:ReactNode; feedbackActions?:ReactNode; showPreviews?:boolean; showSecondaryContent?:boolean; showAdditionalActions?:boolean }\n\nexport interface ConversationComposerProps { value:string; onValueChange:(value:string)=>void; onSend:(value:string)=>void; placeholder?:string; label?:string; disclaimer?:ReactNode; tools?:ReactNode; modelSelector?:ReactNode; showModelSelector?:boolean; modelLabel?:string; draft?:ReactNode; showDisclaimer?:boolean; disabled?:boolean; showAction?:boolean; actionMessage?:ReactNode; actionLabel?:string; onAction?:()=>void; noticeContent?:ReactNode }\n\nexport interface ConversationPreviewProps { title:string; icon?:ReactNode; badge?:ReactNode; children?:ReactNode }\n\nexport interface ConversationProps { children:ReactNode; label?:string }",
+    "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ConversationExample(){\n const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);\n const [showAction,setShowAction]=useState(false);const [actionResult,setActionResult]=useState('');\n const [noticeMode,setNoticeMode]=useState('default');\n const notices=noticeMode==='reordered'?['Tercero','Primero','Segundo']:noticeMode==='replacement'?['Sustituto']:['Primero','Segundo','Tercero'];\n const noticeContent=noticeMode==='default'?undefined:noticeMode==='empty'?null:notices.map(name=><DS.InlineNotification key={name} title={name} showDismiss={false} showIcon={false}><span>Contenido local del aviso. </span><DS.Button variant=\"text\" size=\"small\" showLeftIcon={false} showRightIcon={false} onClick={()=>setActionResult(`Acción local: ${name}`)}>Acción {name}</DS.Button></DS.InlineNotification>);\n return <div className=\"grid gap-6 w-full\">\n  <DS.Toggle label=\"Mostrar aviso de ejemplo\" checked={showAction} onChange={e=>setShowAction(e.target.checked)}/>\n  <label>Contenido del aviso <select value={noticeMode} onChange={e=>setNoticeMode(e.target.value)}><option value=\"default\">Aviso inicial</option><option value=\"empty\">Vacío</option><option value=\"multiple\">Tres bloques</option><option value=\"reordered\">Reordenados</option><option value=\"replacement\">Sustituido</option></select></label>\n  <DS.Conversation><DS.ConversationResponse agent=\"beni\" badge={<DS.Badge>Ejemplo</DS.Badge>}>Esta respuesta es contenido local de muestra.</DS.ConversationResponse>{messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)}</DS.Conversation>\n  <DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} disclaimer=\"Demostración local, sin servicio de IA.\" showAction={showAction} noticeContent={noticeContent} actionLabel=\"Ver detalle\" onAction={()=>setActionResult('Acción local de ejemplo. No se consultaron créditos ni se realizó una compra.')}/>\n  <p role=\"status\">{actionResult}</p>\n </div>;\n}\n",
     "defaults": [
       "Conversation: {children,label='Conversación'}:ConversationProps",
       "ConversationGlyph: {agent='beni',label}:ConversationGlyphProps",
       "ConversationMessage: {children}:ConversationMessageProps",
       "ConversationResponse: {agent='beni',children,badge=<Badge tone=\"light\" showLeftIcon={false}>{agent==='beni'?'Fiscal y contable':'Super Agente'}</Badge>,previews,secondaryContent,additionalActions,feedbackActions=<><IconButton showCount={false} label=\"Me gusta\" icon={<ThumbsUp weight=\"light\"/>}/><IconButton showCount={false} label=\"No me gusta\" icon={<ThumbsDown weight=\"light\"/>}/><IconButton showCount={false} label=\"Copiar respuesta\" icon={<TableGlyph type=\"copy\"/>}/></>,showPreviews=false,showSecondaryContent=false,showAdditionalActions=false}:ConversationResponseProps",
-      "ConversationComposer: {value,onValueChange,onSend,placeholder='Escribe un mensaje',label='Mensaje',disclaimer='Te recomendamos revisar la información importante para asegurar un resultado óptimo',tools=<><IconButton label=\"Adjuntar\" showCount={false} icon={<Paperclip weight=\"light\"/>}/><IconButton label=\"Micrófono\" showCount={false} icon={<Microphone weight=\"light\"/>}/></>,modelSelector,showModelSelector=false,modelLabel='Navi Auto V1.0',draft,showDisclaimer=true,disabled=false}:ConversationComposerProps",
+      "ConversationComposer: {value,onValueChange,onSend,placeholder='Escribe un mensaje',label='Mensaje',disclaimer='Te recomendamos revisar la información importante para asegurar un resultado óptimo',tools=<><IconButton label=\"Adjuntar\" showCount={false} icon={<Paperclip weight=\"light\"/>}/><IconButton label=\"Micrófono\" showCount={false} icon={<Microphone weight=\"light\"/>}/></>,modelSelector,showModelSelector=false,modelLabel='Navi Auto V1.0',draft,showDisclaimer=true,disabled=false,showAction=false,actionMessage=<><strong>Alcanzaste tu límite mensual de créditos. </strong>Se renuevan el 1 de noviembre.</>,actionLabel='Default',onAction,noticeContent}:ConversationComposerProps",
       "ConversationPreview: {title,icon=<TableIcon size={24} weight=\"light\"/>,badge=<Badge tone=\"light\" showLeftIcon={false}>Tabla</Badge>,children}:ConversationPreviewProps"
     ]
   },
@@ -1250,7 +1364,8 @@
     ],
     "base": "specs/chat-section.contract.v0.1.0.md",
     "amendments": [
-      "specs/components/chat.layout.amendment.v0.1.1.md"
+      "specs/components/chat.layout.amendment.v0.1.1.md",
+      "specs/components/chat-section.typography.amendment.v0.1.0.md"
     ],
     "slots": {
       "status": "REQUIRED",
@@ -1260,7 +1375,8 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/chat-section.contract.v0.1.0.md": "59c5331596821920d475c6efa1c80ce3deaf05a9f3ffa41ba97d3a28f7c0093f",
-      "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c"
+      "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c",
+      "specs/components/chat-section.typography.amendment.v0.1.0.md": "7a505588136c022111f89243722a461e52a93e9dae86489620f1608f267ba5de"
     },
     "api": "export interface ChatSuggestionProps { children:ReactNode; character?:'beni'|'navi'; onClick?:()=>void }\n\nexport interface ChatSectionProps { state?:'standby'|'active'; greeting?:string; userName?:string; subtitle?:string; statusText?:string; showStatus?:boolean; messages?:ReactNode; suggestions?:ReactNode; composer:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChatSectionExample(){const [value,setValue]=useState('');const [messages,setMessages]=useState<string[]>([]);return <DS.ChatSection state={messages.length?'active':'standby'} userName=\"Miguel\" subtitle=\"Explora una conversación local\" messages={messages.map((m,i)=><DS.ConversationMessage key={i}>{m}</DS.ConversationMessage>)} suggestions={<DS.ChatSuggestion onClick={()=>setValue('Ver documentos')}>Ver documentos</DS.ChatSuggestion>} composer={<DS.ConversationComposer value={value} onValueChange={setValue} onSend={text=>{setMessages([...messages,text]);setValue('');}} showDisclaimer={messages.length>0} disclaimer=\"Solo datos locales de ejemplo.\"/>}/>;}\n",

@@ -895,14 +895,16 @@
     "base": "specs/conversation.contract.v0.1.0.md",
     "amendments": [
       "specs/components/conversation.character-identity.amendment.v0.1.1.md",
-      "specs/components/conversation.typography.amendment.v0.1.0.md"
+      "specs/components/conversation.typography.amendment.v0.1.0.md",
+      "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+      "specs/components/conversation.composer-slot.amendment.v0.1.3.md"
     ],
     "slots": {
       "status": "REQUIRED",
-      "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector"
+      "reason": "children; Response: body/previews/secondaryContent/additionalActions/feedbackActions; Composer: tools/modelSelector; Composer: draft/Notice content (noticeContent)"
     },
-    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada.",
-    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+    "notes": "Message/Response/Composer/Preview y glifos originales de32px; no se escala la pose de Characters para sustituirlos. Slots y booleanas de visibilidad conservan contenido oculto. Draft admite composición; envío llama onSend. Identidad BENI/NAVI fija en los cuatro temas, sin respuesta IA fabricada. Aviso opcional: showAction=false; actionMessage y actionLabel editables; onAction callback local independiente de onSend. La muestra de créditos/fecha no define política de producto. Texto nuevo caption-regular/caption-semibold; Button default/small sin iconos. Draft y Tools conservan sus regiones. Slot nativo Notice content para todo el aviso: noticeContent undefined conserva muestra, null permite vacío y colecciones admiten composición/orden. En Figma el Slot vacío conserva una caja de edición de49px; ocultar Show action retira la región.",
+    "qa": "qa/implementations/conversation-composer.v0.1.3.review.md"
   },
   {
     "id": "CHAT-SECTION-001",

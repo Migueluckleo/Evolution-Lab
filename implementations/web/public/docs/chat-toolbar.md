@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [chat-toolbar.contract.v0.1.0.md](../../../../specs/chat-toolbar.contract.v0.1.0.md) · SHA-256 `2b96dccbb48044dae0157cf09c068b368cac7d8dbdecd4a13e7ef7caf6d8fb43`.
 - [chat.layout.amendment.v0.1.1.md](../../../../specs/components/chat.layout.amendment.v0.1.1.md) · SHA-256 `f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c`.
+- [chat-toolbar.typography.amendment.v0.1.0.md](../../../../specs/components/chat-toolbar.typography.amendment.v0.1.0.md) · SHA-256 `762ae9b620eff3b8c95c54582c165a0a13a64d7ff79785fb2720df40ff438cf4`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

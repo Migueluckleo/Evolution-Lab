@@ -51,6 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [avatar.contract.v0.1.0.md](../../../../drafts/contracts/avatar.contract.v0.1.0.md) · SHA-256 `465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396`.
 - [avatar.source-color-amendment.v0.1.1.md](../../../../specs/components/avatar.source-color-amendment.v0.1.1.md) · SHA-256 `f1a010f1dc3f6ee85b756dc3131840d7fcfd3b6f346077bbb4fb3d445d79832d`.
+- [avatar.typography.amendment.v0.1.0.md](../../../../specs/components/avatar.typography.amendment.v0.1.0.md) · SHA-256 `b0a593025a3fc3c453869a80dcc34b9ed9f01e88e36502fc9706853286dc97d6`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

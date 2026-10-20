@@ -50,6 +50,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 ## Fuentes y límites
 
 - [textarea.contract.v0.1.0.md](../../../../specs/textarea.contract.v0.1.0.md) · SHA-256 `5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa`.
+- [textarea.typography.amendment.v0.1.0.md](../../../../specs/components/textarea.typography.amendment.v0.1.0.md) · SHA-256 `14b102b5834756194f15ffda52bc02ff611e61327929e59cedfb06b1259676b5`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

@@ -53,6 +53,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 ## Fuentes y límites
 
 - [empty-states.contract.v0.1.0.md](../../../../specs/empty-states.contract.v0.1.0.md) · SHA-256 `25de9da45c7e835f9b244867b7b70d3ec496a270ab61ec785e49775526fd750f`.
+- [empty-states.typography.amendment.v0.1.0.md](../../../../specs/components/empty-states.typography.amendment.v0.1.0.md) · SHA-256 `9fe00f6d09fe88c4d1d20299b099e04600a33e488e265197c8606a19c4ee8333`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 
