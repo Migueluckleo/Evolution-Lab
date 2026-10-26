@@ -1,0 +1,126 @@
+{
+  "extensionId": "FOUNDATIONS-BUTTON-DANGER-001",
+  "version": "0.1.0",
+  "status": "DELEGATED_FOR_BUILD",
+  "userAudit": "NOT_REQUIRED",
+  "humanReviewPolicy": "OPTIONAL_NON_BLOCKING",
+  "targetFileKey": "tj3WIBEZDGLVs7MJWKCwgf",
+  "collection": {
+    "name": "semantic",
+    "targetId": "VariableCollectionId:6:2",
+    "modes": {
+      "6:0": "Contable",
+      "6:1": "Administrativo",
+      "6:2": "Servicios",
+      "6:3": "Personas"
+    }
+  },
+  "baseInventory": {
+    "path": "sources/inventories/tokens.inventory.json",
+    "sha256": "cfb17800870306782499f7697e79ca1a13ddfedfe6b225d563ef0d5707fd3474"
+  },
+  "variables": [
+    {
+      "name": "color/interactive/danger/default",
+      "resolvedType": "COLOR",
+      "description": "Fondo de Button para una acción destructiva disponible, en reposo, foco o carga. Conserva el significado de peligro en todos los temas.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--ds-color-interactive-danger-default)"
+      },
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        }
+      }
+    },
+    {
+      "name": "color/interactive/danger/hover",
+      "resolvedType": "COLOR",
+      "description": "Fondo de Button destructivo cuando el puntero pasa sobre una acción disponible; no usar durante carga o disabled.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--ds-color-interactive-danger-hover)"
+      },
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        }
+      }
+    },
+    {
+      "name": "color/interactive/danger/active",
+      "resolvedType": "COLOR",
+      "description": "Fondo de Button destructivo durante la presión de una acción disponible; no usar durante carga o disabled.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--ds-color-interactive-danger-active)"
+      },
+      "valuesByMode": {
+        "6:0": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "6:2": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "6:3": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        }
+      }
+    }
+  ]
+}

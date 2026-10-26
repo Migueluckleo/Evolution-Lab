@@ -7,14 +7,19 @@ import io
 import json
 from pathlib import Path
 import tarfile
+from ds_session import coordinated
 from ds_skills import source_inputs, compact, encoded, safe, digest
 
+@coordinated
 def build(root):
     state = source_inputs(root)
+    from ds_consumption import prepared
+    graph_bytes = prepared(root, state)
+    graph_descriptor = {"schema_version": 1, "sha256": digest(graph_bytes), "bytes": len(graph_bytes)}
     manifest = {"schema_version": 1, "package_version": "0.0.0+ds." + state["ds_digest"][:16],
                 "ds_digest": state["ds_digest"], "authority": state["config"]["authority"],
                 "files": state["files"], "components": state["components"],
-                "excluded_links": state["excluded_links"]}
+                "excluded_links": state["excluded_links"], "consumption_graph": graph_descriptor}
     manifest_bytes = encoded(manifest)
     # Identity covers metadata as well as file bytes.
     identity = digest(manifest_bytes)
@@ -33,10 +38,10 @@ def build(root):
     bundle = stream.getvalue()
     if len(bundle) > 90 * 1024 * 1024:
         raise ValueError("Data bundle exceeds supported publication size")
-    if source_inputs(root)["ds_digest"] != state["ds_digest"]:
+    if source_inputs(root)["ds_digest"] != state["ds_digest"] or prepared(root, state) != graph_bytes:
         raise ValueError("Sources changed during publication")
     directory.mkdir(parents=True, exist_ok=True)
-    for name, data in {"manifest.json": manifest_bytes, "data.tar.gz": bundle}.items():
+    for name, data in {"manifest.json": manifest_bytes, "data.tar.gz": bundle, "consumption-graph.json": graph_bytes}.items():
         target = directory / name
         if target.exists() and target.read_bytes() != data:
             raise ValueError("Immutable data release changed")
@@ -62,6 +67,10 @@ def check_catalog(root):
         manifest = json.loads(data)
         if digest(data) != identity or manifest.get("schema_version") != 1 or pointer.get("ds_digest") != state["ds_digest"] or manifest.get("ds_digest") != state["ds_digest"] or manifest["files"] != state["files"] or manifest["components"] != state["components"] or manifest["excluded_links"] != state["excluded_links"]:
             raise ValueError("Catalog differs from current source files or metadata")
+        from ds_consumption import prepared
+        graph_bytes = prepared(root, state)
+        if manifest.get("consumption_graph") != {"schema_version": 1, "sha256": digest(graph_bytes), "bytes": len(graph_bytes)} or safe(Path(root), f"catalog/releases/{identity}/consumption-graph.json").read_bytes() != graph_bytes:
+            raise ValueError("Consumption graph differs from prepared release")
         bundle = safe(Path(root), pointer["bundle"]).read_bytes()
         if len(bundle) != pointer.get("bundle_bytes") or digest(bundle) != pointer["bundle_sha256"]:
             raise ValueError("Data bundle integrity failure")

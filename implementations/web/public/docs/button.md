@@ -6,7 +6,7 @@ Familia `BUTTON-001` · API local 0.1.0 · categoría Acciones.
 
 ## Uso sin backend
 
-Defaults del maestro: primary/large, texto Default y dos PlusCircle Light visibles; showLeftIcon/showRightIcon independientes. Los ejemplos de producto ocultan iconos salvo que aporten significado (REQ-BTN-014). button type=button por defecto; href crea enlace. Pseudoestados CSS del navegador, sin envío de formulario implícito.
+Defaults del maestro: primary/large, texto Default y dos PlusCircle Light visibles; showLeftIcon/showRightIcon independientes. Los ejemplos de producto ocultan iconos salvo que aporten significado (REQ-BTN-014). button type=button por defecto; href crea enlace. Pseudoestados CSS del navegador, sin envío de formulario implícito. Ampliación 0.3.0: danger y loading en tres tamaños; Loader local a la derecha (24/20/16), sustituye iconos durante carga. Loading bloquea activación/navegación y comunica aria-busy conservando foco; disabled tiene precedencia. Foco separado 2 px, trazo 2 px y radio 12 px. No impone confirmaciones ni acciones remotas.
 
 ```tsx
 'use client';
@@ -14,7 +14,7 @@ import { useState } from 'react';
 import { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';
 import * as DS from '@/index';
 
-export function ButtonExample(){const [count,setCount]=useState(0);return <div className="flex flex-wrap items-center gap-4"><DS.Button showLeftIcon showRightIcon={false} onClick={()=>setCount(count+1)} leftIcon={<Plus/>}>Agregar · {count}</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="default" size="middle">Secundario</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="text" size="small">Texto</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="link" href="#componer">Ver pantalla</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} disabled>Deshabilitado</DS.Button></div>;}
+export function ButtonExample(){const [count,setCount]=useState(0);const [loading,setLoading]=useState(false);return <div className="flex flex-wrap items-center gap-4"><DS.Button showLeftIcon showRightIcon={false} onClick={()=>setCount(count+1)} leftIcon={<Plus/>}>Agregar · {count}</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="default" size="middle">Secundario</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="text" size="small">Texto</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant="link" href="#componer">Ver pantalla</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} disabled>Deshabilitado</DS.Button><DS.Button variant="danger" showLeftIcon={false} showRightIcon={false} loading={loading} onClick={()=>setCount(count+1)}>Eliminar · {count}</DS.Button><DS.Button variant="default" showLeftIcon={false} showRightIcon={false} aria-pressed={loading} onClick={()=>setLoading(!loading)}>{loading?'Finalizar carga de ejemplo':'Mostrar carga de ejemplo'}</DS.Button><DS.Button href="#componer" variant="link" loading={loading} showLeftIcon={false} showRightIcon={false}>Enlace de ejemplo</DS.Button></div>;}
 ```
 
 Ejemplo compilado en [examples.tsx](../../src/examples.tsx). Usa React state en memoria; recargar restaura la muestra. No hay endpoint, credencial ni persistencia implícita.
@@ -26,7 +26,9 @@ Importar desde [src/index.ts](../../src/index.ts), con `@/index` dentro del cat�
 ```tsx
 export type ButtonProps = {
   children?: ReactNode;
-  variant?: 'primary' | 'default' | 'text' | 'link';
+  variant?: 'primary' | 'default' | 'text' | 'link' | 'danger';
+  /** Ocupa la acción sin perder el foco; bloquea activación y navegación. Disabled tiene precedencia. */
+  loading?: boolean;
   size?: Size;
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
@@ -41,7 +43,7 @@ export type ButtonProps = {
 Las firmas siguientes se extraen de las funciones, incluidos sus valores por defecto. Una prop sin asignación `=` es obligatoria o permanece undefined según su tipo; no se rellena con reglas de negocio.
 
 ```tsx
-Button: { children='Default', variant='primary', size='large', leftIcon=<PlusCircle weight="light"/>, rightIcon=<PlusCircle weight="light"/>, showLeftIcon=true, showRightIcon=true, className, ...props }: ButtonProps
+Button: { children='Default', variant='primary', size='large', loading=false, leftIcon=<PlusCircle weight="light"/>, rightIcon=<PlusCircle weight="light"/>, showLeftIcon=true, showRightIcon=true, className, ...props }: ButtonProps
 ```
 
 Props `on…` son callbacks locales. No atribuyen autorización, carga, guardado ni resultados de negocio. Los iconos de intercambio usan `@phosphor-icons/react`; una posición de icono no admite texto que simule un icono.
@@ -64,9 +66,10 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [button.semantic-scope-amendment.v0.2.1.md](../../../../specs/components/button.semantic-scope-amendment.v0.2.1.md) · SHA-256 `8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9`.
 - [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
 - [button.typography.amendment.v0.1.0.md](../../../../specs/components/button.typography.amendment.v0.1.0.md) · SHA-256 `7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b`.
+- [button.evolution.amendment.v0.3.0.md](../../../../specs/components/button.evolution.amendment.v0.3.0.md) · SHA-256 `d07a01e8975f03e488787429748ae2750e61569af3137ada10480abdc56b5240`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 
 ## Verificación
 
-`pnpm verify` comprueba generación/cobertura, TypeScript, pruebas y build estático. `pnpm test:browser` valida los recorridos locales. [Evidencia de QA](../../../../qa/implementations/web.contract-audit.v0.1.3.review.md) identifica alcance, resultados y límites; una demo visible por sí sola no es un PASS visual.
+`pnpm verify` comprueba generación/cobertura, TypeScript, pruebas y build estático. `pnpm test:browser` valida los recorridos locales. [Evidencia de QA](../../../../qa/implementations/button-evolution.v0.3.0.review.md) identifica alcance, resultados y límites; una demo visible por sí sola no es un PASS visual.

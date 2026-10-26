@@ -10,6 +10,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
+from ds_session import coordinated
 
 from ds_core import ROOT, corpus, paths_of, read_json, sha, dump, relative
 
@@ -95,6 +96,7 @@ def run_path(name):
     return LIVE / "runs" / name
 
 
+@coordinated
 def prepare(config, name):
     delta, detection = plan(config)
     if not (delta["new"] or delta["changed"] or delta["deleted_or_excluded"]):
@@ -102,8 +104,27 @@ def prepare(config, name):
         if current["status"] == "CURRENT":
             return {"status": "CURRENT_NO_CHANGES", "message": "No se regeneró el grafo."}
     run = run_path(name)
+    ticket = LIVE / 'ds-prepared.json'
+    candidates = [run]
+    if ticket.exists():
+        try:
+            candidates.append(run_path(read_json(ticket)['run']))
+        except (ValueError, KeyError):
+            pass
+    for candidate in candidates:
+        if not (candidate / 'source-plan.json').exists() or (candidate / 'closure.json').exists():
+            continue
+        saved = read_json(candidate / 'source-plan.json')
+        if saved['source_sha256'] == delta['source_sha256'] and saved['config_sha256'] == delta['config_sha256']:
+            try:
+                assert_live_baseline(candidate)
+            except ValueError:
+                continue
+            return {'status': 'PREPARED' if candidate == run else 'PREPARED_SHARED',
+                    'run': candidate.name, 'semantic_files': len(saved['semantic_required']),
+                    'chunks': len(read_json(candidate / 'semantic-plan.json')['chunks'])}
     if run.exists():
-        raise ValueError("Lote ya existe; usa close con su ID o elige otro. No se sobrescribe respaldo.")
+        raise ValueError('Lote previo tiene otro corte; usa un nuevo --run. Se conserva su evidencia.')
     run.mkdir(parents=True)
     (run / "before").mkdir()
     for filename in OUTPUTS + ["ds-closure.json"]:
@@ -125,6 +146,7 @@ def prepare(config, name):
         "source_sha256": {relative(p): sha(p) for p in semantic},
         "prompt_sha256": sha(prompt), "usage_status": "UNAVAILABLE",
         "reuse_basis": "Source manifest content hash; prior semantic provenance retained"})
+    dump(LIVE / "ds-prepared.json", {"run": name})
     return {"status": "PREPARED", "run": name, "semantic_files": len(todo), "chunks": len(chunks),
             "next": "Extraer cada chunk según la skill Graphify y después ejecutar scripts/ds graph close --run " + name}
 
@@ -224,16 +246,18 @@ def publish(run, closure, live=LIVE):
             (live / (name + ".ds-publish-tmp")).unlink(missing_ok=True)
 
 
+@coordinated
 def close(config, name):
     runtime_gate(config)
     run = run_path(name)
     if not (run / "source-plan.json").exists():
         raise ValueError("Lote no preparado")
-    if (run / "closure.json").exists():
-        result = check_graph(config)
-        if result["status"] == "CURRENT":
-            return {**result, "message": "Lote ya cerrado; no se reescribió."}
-        raise ValueError("Lote cerrado previamente; preparar uno nuevo para cambios posteriores.")
+    result = check_graph(config)
+    if result['status'] == 'CURRENT':
+        return {**result, 'message': 'Cierre vigente compartido; no se repitió extracción.',
+                'run': read_json(LIVE / 'ds-closure.json')['run']}
+    if (run / 'closure.json').exists():
+        raise ValueError('Lote cerrado previamente; preparar otro para cambios posteriores.')
     assert_source_plan(run, config)
     assert_live_baseline(run)
     validate_fragments(run)
@@ -265,6 +289,9 @@ def close(config, name):
         "source_link_limitations": len(verification["source_link_limitations"]),
         "semantic_usage": "UNAVAILABLE; not zero",
         "scope": "Local corpus freshness, deterministic documentation checks, no Figma QA or design approval"}
+    from ds_incremental import tool_digest
+    closure['extraction_tool_sha256'] = tool_digest(ROOT)
+    closure['extraction_sha256'] = {p: sha(run / p) for p in ['ast.json', 'structural-supplement.json', 'source-plan.json']}
     publish(run, closure)
     dump(run / "closure.json", closure)
     return closure

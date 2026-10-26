@@ -559,3 +559,7 @@ Tres contratos v0.1.0 promovidos a specs: [Toolbar](../specs/chat-toolbar.contra
 ## APP-SHELL-EMBEDDED-CHAT-001 · 0.1.1 · 2026-10-20
 
 DELEGATED_FOR_BUILD para arquitectura de chats embebidos, por DEC-EMBEDDED-CHAT-ARCHITECTURE-001. Amplía App Shell y documenta herencia de Chat Layout0.1.1 y composición con Toolbar/Conversation; no redefine sus principales. Consumo documental READY; normalización integral y construcción de otra pantalla no ejecutadas. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## AMD-BUTTON-EVOLUTION-001 · 0.3.0 · 2026-10-23
+
+[Enmienda aditiva](../specs/components/button.evolution.amendment.v0.3.0.md) de BUTTON-001 0.2.0: danger, loading y nuevo foco en los tres tamaños. DELEGATED_FOR_BUILD tras [QA documental PASS](../qa/contracts/button-evolution.v0.3.0.review.md). Conserva los 60 IDs previos; matriz de 90. [Estado y evidencias](../implementations/figma/button-evolution.v0.3.0.state.json). Publicación Git HOLD_UNTIL_USER_REVIEW; no implica aprobación humana.

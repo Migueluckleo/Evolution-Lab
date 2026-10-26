@@ -2,12 +2,14 @@
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
 import { Bell, PlusCircle } from '@phosphor-icons/react';
 import { cx, type Size } from '../lib/utils';
-import { Dot } from './feedback';
+import { Dot, Loader } from './feedback';
 
 /** Acción nativa. Para navegación usa href; no se envían formularios por defecto. */
 export type ButtonProps = {
   children?: ReactNode;
-  variant?: 'primary' | 'default' | 'text' | 'link';
+  variant?: 'primary' | 'default' | 'text' | 'link' | 'danger';
+  /** Ocupa la acción sin perder el foco; bloquea activación y navegación. Disabled tiene precedencia. */
+  loading?: boolean;
   size?: Size;
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
@@ -15,11 +17,16 @@ export type ButtonProps = {
   showRightIcon?: boolean;
   className?: string;
 } & ({ href?: never } & ButtonHTMLAttributes<HTMLButtonElement> | { href: string; disabled?: never } & AnchorHTMLAttributes<HTMLAnchorElement>);
-export function Button({ children='Default', variant='primary', size='large', leftIcon=<PlusCircle weight="light"/>, rightIcon=<PlusCircle weight="light"/>, showLeftIcon=true, showRightIcon=true, className, ...props }: ButtonProps) {
+export function Button({ children='Default', variant='primary', size='large', loading=false, leftIcon=<PlusCircle weight="light"/>, rightIcon=<PlusCircle weight="light"/>, showLeftIcon=true, showRightIcon=true, className, ...props }: ButtonProps) {
+  const busy=loading && !props.disabled;
   const classes=cx('ds-button',`ds-button-${variant}`,`ds-size-${size}`,className);
-  const content=<>{showLeftIcon && leftIcon && <span className="ds-icon">{leftIcon}</span>}<span className="ds-button-label">{children}</span>{showRightIcon && rightIcon && <span className="ds-icon">{rightIcon}</span>}</>;
-  if ('href' in props && props.href !== undefined) return <a {...props as AnchorHTMLAttributes<HTMLAnchorElement>} href={props.href} className={classes}>{content}</a>;
-  return <button type="button" {...props as ButtonHTMLAttributes<HTMLButtonElement>} className={classes}>{content}</button>;
+  const content=<>{!busy && showLeftIcon && leftIcon && <span className="ds-icon">{leftIcon}</span>}<span className="ds-button-label">{children}</span>{busy ? <span className="ds-button-loading"><Loader color={variant==='primary'||variant==='danger'?'on-color':'primary'}/></span> : showRightIcon && rightIcon && <span className="ds-icon">{rightIcon}</span>}</>;
+  if ('href' in props && props.href !== undefined) {
+    const anchor=props as AnchorHTMLAttributes<HTMLAnchorElement>;
+    return <a {...anchor} href={busy?undefined:props.href} role={busy?'link':anchor.role} tabIndex={busy?(anchor.tabIndex??0):anchor.tabIndex} aria-busy={busy||anchor['aria-busy']} aria-disabled={busy||anchor['aria-disabled']} onClick={e=>{if(busy){e.preventDefault();e.stopPropagation();return;}anchor.onClick?.(e);}} onKeyDown={e=>{if(busy&&(e.key==='Enter'||e.key===' ')){e.preventDefault();e.stopPropagation();return;}anchor.onKeyDown?.(e);}} className={classes}>{content}</a>;
+  }
+  const button=props as ButtonHTMLAttributes<HTMLButtonElement>;
+  return <button type="button" {...button} aria-busy={busy||button['aria-busy']} aria-disabled={busy||button['aria-disabled']} onClick={e=>{if(busy){e.preventDefault();e.stopPropagation();return;}button.onClick?.(e);}} onKeyDown={e=>{if(busy&&(e.key==='Enter'||e.key===' ')){e.preventDefault();e.stopPropagation();return;}button.onKeyDown?.(e);}} className={classes}>{content}</button>;
 }
 export interface IconButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>,'children'> {
   /** Nombre obligatorio, incluso cuando el icono parece reconocible. */

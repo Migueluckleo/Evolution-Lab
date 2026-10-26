@@ -11,3 +11,9 @@ Los QA y manifiestos históricos describen los bytes y ejecuciones originales. N
 Publicar GitHub no publica la biblioteca Figma ni concede permisos para editarla. Las protecciones adicionales del repositorio y la autenticidad de futuras entregas deben comprobarse al configurar su canal de publicación; este documento no afirma que ya estén habilitadas.
 
 Los instaladores ZIP de ambas skills se entregan únicamente de forma local por instrucción posterior del usuario; no se incluyen en el commit público.
+
+## Sincronización del 2026-10-26
+
+El usuario autoriza actualizar Evolution-Lab después de la publicación del corte ef29e4668767643dc47c98347792293a8ac65458 en CONTPAQi-Design-System-1.0. Se incorporan la evolución aditiva de Button y el cierre coordinado incremental, preservando el historial público, la anonimización previa y las evidencias históricas propias. Esta autorización amplía el destino de DEC-GIT-PUBLICATION-001 a Evolution-Lab; no cambia aprobaciones visuales ni publica la biblioteca Figma.
+
+El catálogo público se regenera desde sus fuentes anonimizadas y tendrá una identidad propia. Su comprobante técnico reside en graphify-out/runs/2026-10-26-evolution-publication/closure.json; la comprobación remota de ambas skills se registra después de publicar, sin anticipar su resultado. No se añaden instaladores ZIP ni se transfiere el historial privado.

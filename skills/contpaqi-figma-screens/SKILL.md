@@ -15,6 +15,12 @@ El resultado debe ser `PASS`. Desde ese momento, **todas las rutas de scripts, r
 
 Si no hay Python, ejecución de scripts o salida HTTPS, informa la capacidad faltante y conserva la preparación. Si GitHub no responde, el catálogo aún no está publicado o falla la integridad, no construyas con una copia antigua ni afirmes que los specs están actualizados. La instalación en Genspark no garantiza esas capacidades: se comprueban en su entorno.
 
+## Consultas dirigidas al índice de consumo
+
+Después de resolver el snapshot, ejecuta `python3 scripts/consumer_graph.py --component BUTTON-001 --intent component` desde la carpeta de ejecución, sustituyendo el ID por la identidad canónica necesaria. El adaptador compartido valida el índice del mismo manifiesto y devuelve referencias, enmiendas, documentos y métricas. Usa `--intent dependencies`, `evidence`, `variants`, `states` o `tokens`; para un token concreto agrega `--token <nombre-exacto-o-id>`.
+
+`PASS` con `mode: graph` acredita navegación dirigida, no aprobación de diseño. `FALLBACK` incluye motivo y cobertura limitada a contrato y enmiendas del snapshot validado: completa dependencias por lectura selectiva de las referencias originales antes de construir. `BLOCKED` no permite usar un contexto parcial; resuelve conflicto, integridad, cobertura o límite indicado. No descargues `graphify-out/graph.json` ni reindexes el repositorio. Lee las fuentes recuperadas para verificar reglas; el índice no decide precedencia normativa.
+
 ## Alcance
 
 - Reutiliza un componente del DS cuando sus propiedades y reglas satisfagan la necesidad. Comprueba la implementación real antes de instanciarla.

@@ -1,0 +1,264 @@
+# Evolution-Lab | Graph-First Knowledge Consumption
+
+## Rol
+
+Actúa como arquitecto de software, ingeniero de herramientas para agentes y responsable de QA técnico del repositorio Evolution-Lab.
+
+Tu misión es evolucionar la arquitectura actual para que las Skills consumidoras utilicen un grafo de conocimiento como mecanismo principal de descubrimiento y resolución de dependencias, conservando los documentos originales como fuente normativa.
+
+No construyas un sistema paralelo a Graphify. Reutiliza la infraestructura, los protocolos SDD y las herramientas existentes.
+
+## Objetivo principal
+
+Implementar una arquitectura Graph-First para las Skills:
+
+- `contpaqi-figma-screens`
+- `contpaqi-po-prototypes`
+
+La arquitectura debe permitir consultas estructuradas al conocimiento publicado en GitHub sin recurrir a búsquedas indiscriminadas, lecturas completas del repositorio o reindexaciones innecesarias.
+
+## Restricciones fundamentales
+
+1. No introducir APIs de IA de pago, servicios externos permanentes ni bases de datos alojadas.
+2. No instalar dependencias nuevas salvo necesidad técnica justificada.
+3. No modificar el significado de contratos, tokens, decisiones ni especificaciones SDD.
+4. No alterar la biblioteca maestra de Figma.
+5. No sustituir los mecanismos existentes de versionado, integridad o verificación de snapshots.
+6. No publicar documentos internos, rutas locales, secretos, registros privados ni información sensible.
+7. No considerar que un grafo representa la verdad normativa: solo es un índice derivado.
+8. No utilizar un grafo obsoleto para justificar decisiones de diseño.
+9. Preservar los mecanismos de fallback y sus controles de seguridad.
+10. No crear nuevos protocolos cuando sea suficiente ampliar los existentes.
+11. Ejecutar todo el trabajo dentro de Codex y del repositorio.
+12. Evitar operaciones destructivas y preservar compatibilidad con los consumidores actuales.
+
+## Fase 0. Auditoría obligatoria
+
+Antes de modificar código:
+
+- Leer `AGENTS.md`.
+- Identificar y aplicar los protocolos P05, P06, P07 y P08.
+- Revisar `references/GRAPH-OPERATIONS.md`.
+- Revisar `references/PROJECT-TOOLING.md`.
+- Revisar `registry/DEC-GRAPH-CONTINUOUS-SYNC-001.md`.
+- Revisar la Skill instalada de Graphify.
+- Inspeccionar `scripts/ds graph`.
+- Examinar los cargadores remotos de ambas Skills.
+- Examinar el formato y los controles de integridad de los snapshots.
+- Revisar `graphify-out/PUBLICATION-STATE.json`.
+- Revisar las pruebas existentes y el workflow de publicación del catálogo.
+
+Utilizar Graphify para la navegación inicial cuando exista un grafo válido para el alcance consultado.
+
+El grafo público actualmente puede estar marcado como STALE. No interpretarlo como CURRENT.
+
+Entregar un diagnóstico breve de qué capacidades ya existen y cuáles faltan, evitando implementaciones duplicadas.
+
+## Fase 1. Diseñar el contrato Graph-First
+
+Crear una especificación SDD para un adaptador compartido de consultas al grafo.
+
+Debe admitir, como mínimo:
+
+- Resolución de componentes por identidad canónica.
+- Consulta de dependencias entre contratos.
+- Resolución de referencias a tokens.
+- Identificación de enmiendas vigentes.
+- Relaciones entre componentes, variantes y estados.
+- Referencias a fuentes verificables.
+- Detección de ausencia de cobertura.
+- Detección de ambigüedad, conflictos y referencias obsoletas.
+
+Cada resultado debe distinguir:
+
+- Identidad del nodo.
+- Tipo de relación.
+- Fuente documental.
+- Referencia o ubicación verificable.
+- Versión y estado documental.
+- Tipo y nivel de evidencia.
+- Identidad del snapshot consultado.
+
+No inventar relaciones ni asignar vigencia normativa por simple coincidencia de nombres.
+
+Definir esquemas versionados para entradas, respuestas, errores y compatibilidad.
+
+## Fase 2. Construir el grafo de consumo
+
+Reutilizar `graphify-out/graph.json` como origen derivado.
+
+Diseñar un exportador determinista que genere un índice reducido orientado a las necesidades de las Skills.
+
+Condiciones:
+
+- Permitir únicamente fuentes incluidas expresamente en el catálogo público.
+- Excluir rutas absolutas, contenido interno y metadatos no autorizados.
+- Minimizar el volumen del índice.
+- Preservar procedencia y relaciones verificables.
+- No introducir embeddings, LLM externos ni inferencias no reproducibles.
+- Registrar versión de esquema, commit fuente y huellas de integridad.
+- Fallar ante referencias inconsistentes.
+- No generar un índice válido a partir de un grafo declarado STALE.
+- No asumir que anonimizar nombres basta para evitar filtraciones.
+
+El exportador debe garantizar que los nodos y relaciones publicados no permitan recuperar información fuera del alcance autorizado.
+
+El índice resultante debe formar parte del mismo corte verificable del catálogo, no de una publicación independiente incompatible.
+
+## Fase 3. Crear el adaptador compartido
+
+Construir un módulo reutilizable por ambas Skills.
+
+El módulo debe:
+
+1. Recibir una intención de consulta.
+2. Resolver el snapshot publicado.
+3. Validar versión, integridad y compatibilidad.
+4. Consultar el índice de grafo.
+5. Recuperar únicamente los nodos y relaciones pertinentes.
+6. Obtener las referencias documentales necesarias.
+7. Leer los documentos originales solo para verificar propiedades y reglas.
+8. Devolver un contexto limitado, trazable y estructurado.
+
+Priorizar consultas por identificadores y relaciones explícitas.
+
+No cargar todo el grafo en el contexto del modelo.
+
+No utilizar búsquedas recursivas del repositorio como mecanismo principal.
+
+Si el grafo no existe, está obsoleto, falla su integridad o no cubre la consulta, utilizar el mecanismo seguro de lectura selectiva existente, únicamente sobre el snapshot validado.
+
+Registrar el motivo del fallback. No presentar el resultado como una consulta de grafo exitosa.
+
+No permitir que un fallo del adaptador produzca silenciosamente información incompleta.
+
+## Fase 4. Integración de Skills
+
+Actualizar las implementaciones y documentación de:
+
+- `skills/contpaqi-figma-screens/`
+- `skills/contpaqi-po-prototypes/`
+
+Integrar el adaptador compartido en el flujo real de ejecución, no solo en las instrucciones de `SKILL.md`.
+
+Las Skills deben mantener las capacidades actuales de:
+
+- Consulta de GitHub.
+- Carga de snapshots verificados.
+- Resolución de especificaciones vigentes.
+- Verificación de tokens y componentes.
+- Construcción de prototipos.
+- Integración con Figma, cuando corresponda.
+
+No duplicar el adaptador en cada Skill.
+
+Actualizar el empaquetado y la distribución de las Skills conforme a P08, para que el módulo compartido funcione también en instalaciones consumidoras que no tengan una copia local de Evolution-Lab.
+
+## Fase 5. Publicación segura
+
+Integrar el nuevo índice en el mecanismo de publicación existente.
+
+Evaluar si conviene ampliar `publish-catalog.yml` o crear un workflow separado. Preferir la opción de menor complejidad y mayor consistencia transaccional.
+
+La publicación deberá:
+
+- Detectar cambios relevantes.
+- Verificar la vigencia del grafo origen.
+- Validar integridad estructural.
+- Verificar cobertura y procedencia.
+- Ejecutar pruebas de seguridad del índice.
+- Validar el catálogo y el grafo como una unidad.
+- Publicar únicamente artefactos autorizados.
+- Evitar publicaciones parciales.
+- Conservar el último corte público válido si falla la nueva publicación.
+
+Si GitHub Actions no dispone del grafo local completo o de las evidencias necesarias, no simular una regeneración semántica.
+
+En ese caso, establecer un mecanismo explícito de preparación local y publicación posterior validada.
+
+## Fase 6. Pruebas obligatorias
+
+Construir pruebas unitarias, de integración y de regresión que acrediten el comportamiento real.
+
+Escenarios mínimos:
+
+**Consulta dirigida**
+Una petición relativa a Button encuentra el contrato correcto, sus dependencias y tokens, sin explorar archivos ajenos.
+
+**Enmiendas**
+Cuando una regla tiene una enmienda vigente, se recupera la versión aplicable respetando los estados y decisiones documentales.
+
+**Conflictos**
+Ante fuentes incompatibles, el adaptador devuelve un conflicto explícito y no selecciona una arbitrariamente.
+
+**Grafo obsoleto**
+Un grafo STALE no se utiliza para fundamentar respuestas. Se activa el fallback autorizado o se informa el bloqueo.
+
+**Integridad**
+Un índice alterado o incompatible se rechaza antes de consumirlo.
+
+**Aislamiento**
+Una consulta no accede a información fuera del catálogo publicado.
+
+**Compatibilidad**
+Las Skills siguen funcionando con el mecanismo anterior cuando el nuevo índice no está disponible, sin perder garantías de integridad.
+
+**Eficiencia**
+Instrumentar archivos consultados, bytes leídos, nodos visitados, duración y tamaño del contexto entregado. Comparar consultas equivalentes con el mecanismo anterior.
+
+No inventar mejoras porcentuales. Presentar resultados reproducibles.
+
+**Empaquetado**
+Instalar ambas Skills desde sus artefactos distribuidos en un entorno limpio y demostrar que el adaptador compartido funciona sin depender accidentalmente del checkout original.
+
+## Fase 7. Documentación y cierre
+
+Actualizar documentación, contratos, pruebas, manifiestos y registros que correspondan según SDD.
+
+Registrar:
+
+- Arquitectura final.
+- Decisiones técnicas.
+- Archivos modificados.
+- Esquemas publicados.
+- Compatibilidad.
+- Resultados de las pruebas.
+- Riesgos pendientes.
+- Limitaciones reales.
+- Evidencia de funcionamiento.
+- Métricas comparativas.
+
+Ejecutar los controles del repositorio que correspondan, incluyendo `./scripts/ds check` y las validaciones de Skills.
+
+No declarar CURRENT ni PASS si los controles no se ejecutaron correctamente.
+
+No modificar los resultados de QA para convertir fallos en aprobaciones.
+
+## Criterio final de aceptación
+
+La implementación estará completa únicamente si se demuestra que:
+
+1. Ambas Skills utilizan realmente el adaptador compartido.
+2. La navegación comienza con consultas dirigidas al grafo cuando este es válido.
+3. Los contratos originales siguen siendo la autoridad.
+4. El catálogo y el índice se consumen desde un snapshot consistente.
+5. Ningún dato fuera del alcance público se publica.
+6. Existe un fallback controlado.
+7. Las pruebas de integración y regresión pasan.
+8. No se introdujeron dependencias o servicios innecesarios.
+9. La implementación funciona en instalaciones limpias.
+10. Los resultados de eficiencia están respaldados por mediciones.
+
+## Política de ejecución
+
+Realiza la implementación completa, no únicamente una propuesta.
+
+Trabaja en una rama de implementación, conserva el comportamiento existente y realiza cambios incrementales verificables.
+
+Tienes autorización para modificar código, pruebas, documentación y configuraciones relacionadas dentro de la rama.
+
+No publiques cambios en `main`, no hagas merges, no realices despliegues y no cambies permisos o secretos sin autorización explícita.
+
+Si encuentras un bloqueo técnico, documenta la causa y completa los trabajos independientes que puedan verificarse.
+
+Al terminar, presenta un informe técnico con evidencias, pruebas y archivos modificados.

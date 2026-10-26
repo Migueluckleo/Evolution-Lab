@@ -52,10 +52,26 @@ def normalize_prior_evidence(record, corpus_paths, relocations):
     relocations[source]=matches[0]
     return result
 
+def oversized_design_json(path):
+    """Large DS data uses the existing JSON supplement, not the config AST parser.
+
+    Graphify rejects JSON over 1 MiB before identifying data versus config.
+    Keep that bound for code/config; validate known design-data sources in full.
+    Supplement must still succeed before the graph can be published.
+    """
+    name = rel(path)
+    roots = ('sources/', 'specs/', 'drafts/', 'qa/', 'implementations/figma/', 'implementations/figjam/')
+    if path.suffix != '.json' or not name.startswith(roots) or path.stat().st_size <= 1048576:
+        return False
+    if not isinstance(read(path), (dict, list)):
+        raise ValueError('Unsupported large design JSON root: ' + name)
+    return True
+
 def ast():
     from graphify.extract import extract
     d=read(RUN/'detection.json')
-    result=extract([Path(p) for p in d['files']['code']],cache_root=ROOT)
+    from ds_incremental import extract_ast
+    result = extract_ast(ROOT, RUN, extract, oversized_design_json)
     dump(RUN/'ast.json',result)
     sources={rel(n['source_file']) for n in result['nodes'] if n.get('source_file')}
     print(json.dumps({'ast_nodes':len(result['nodes']),'ast_edges':len(result['edges']),
@@ -96,12 +112,14 @@ def supplement():
     from urllib.parse import unquote
     d=read(RUN/'detection.json')
     paths={rel(p):Path(p) for group in d['files'].values() for p in group}
-    nodes=[]; edges=[]; broken=[]
+    from ds_incremental import supplement_seed
+    selected, nodes, edges, broken = supplement_seed(ROOT, RUN, paths)
     def edge(a,b,f,loc,relation='references'):
         if a != b: edges.append({'source':a,'target':b,'relation':relation,
              'confidence':'EXTRACTED','confidence_score':1.0,'weight':1.0,
              'source_file':f,'source_location':loc,'_origin':'ast'})
-    for p,f in paths.items():
+    for p in selected:
+        f = paths[p]
         ft='image' if f.suffix.lower() in ('.png','.jpg','.jpeg') else 'document'
         node={'id':artifact_id(p),'label':f.name,'file_type':ft,'source_file':p,
              'source_location':'L1' if ft=='document' else None,'_origin':'ast',
@@ -109,6 +127,10 @@ def supplement():
              'sha256':digest(f,'sha256')}
         nodes.append(node)
         if f.suffix=='.md':
+            from ds_core import explicit_yaml_file_references
+            for number, target in explicit_yaml_file_references(f.read_text()):
+                if target in paths:
+                    edge(node['id'],artifact_id(target),p,'L'+str(number))
             for number,line in enumerate(f.read_text().splitlines(),1):
                 # Registries often cite exact repository paths as inline code.
                 # Link only a unique, existing corpus path; no basename guesses.

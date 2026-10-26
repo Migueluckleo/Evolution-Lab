@@ -32,6 +32,7 @@
     "specs/tokens/ai-design-system.six-family-color.v0.1.0.json": "42e29b60c02b629c4b4d537c8e1f1b6f14e492e7b4fe29e2ec17204e5e5cc2ff",
     "specs/tokens/ai-design-system.character-identity.v0.1.0.json": "08d7ce889cae493027d97af1cf991ed77a5a11941eb02926a4c8d46eb0711fe4",
     "specs/tokens/ai-design-system.character-shadow.v0.1.0.json": "9ff2751fb2ac32d5ce4960c5d24fdcc928a98331331a45e826dfb5cebbe3b0e4",
+    "specs/tokens/ai-design-system.button-danger.v0.1.0.json": "7649759d7c7c0943eb063aadb69be7926185d96936800cbc3114d002ca40bd89",
     "sources/inventories/ai-design-system.fuentes-hover.v0.1.0.json": "37f23b5ddab3c88a2840eb8b9cb4971f48aee6a3755c3c586bae01eb4e528511"
   },
   "modes": [
@@ -5279,6 +5280,108 @@
           "type": "VARIABLE_ALIAS",
           "name": "color/purple/100",
           "targetId": "VariableID:8:76"
+        }
+      }
+    },
+    {
+      "name": "color/interactive/danger/active",
+      "collection": "semantic",
+      "css": "--ds-color-interactive-danger-active",
+      "source": "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+      "amendments": [],
+      "description": "Fondo de Button destructivo durante la presión de una acción disponible; no usar durante carga o disabled.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "Contable": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "Administrativo": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "Servicios": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        },
+        "Personas": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/800",
+          "targetId": "VariableID:8:127"
+        }
+      }
+    },
+    {
+      "name": "color/interactive/danger/default",
+      "collection": "semantic",
+      "css": "--ds-color-interactive-danger-default",
+      "source": "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+      "amendments": [],
+      "description": "Fondo de Button para una acción destructiva disponible, en reposo, foco o carga. Conserva el significado de peligro en todos los temas.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "Contable": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "Administrativo": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "Servicios": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        },
+        "Personas": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/600",
+          "targetId": "VariableID:8:125"
+        }
+      }
+    },
+    {
+      "name": "color/interactive/danger/hover",
+      "collection": "semantic",
+      "css": "--ds-color-interactive-danger-hover",
+      "source": "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+      "amendments": [],
+      "description": "Fondo de Button destructivo cuando el puntero pasa sobre una acción disponible; no usar durante carga o disabled.",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "Contable": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "Administrativo": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "Servicios": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
+        },
+        "Personas": {
+          "type": "VARIABLE_ALIAS",
+          "name": "color/red/700",
+          "targetId": "VariableID:8:126"
         }
       }
     },

@@ -10,6 +10,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import unquote
+from ds_session import cached, ACTIVE as ACTIVE_SESSION
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config/ds-project.json"
@@ -54,6 +55,7 @@ def excluded(path, config):
             or any(path.startswith(p) for p in config["exclude_prefixes"]))
 
 
+@cached
 def corpus(root=ROOT, config=None):
     """Use Graphify's protection filters, then narrowly supplement design sources."""
     config = config or read_json(root / "config/ds-project.json")
@@ -114,7 +116,7 @@ def paths_of(detection, root=ROOT):
     return sorted({relative(p, root) for group in detection["files"].values() for p in group})
 
 
-def yaml_documents(paths, root=ROOT):
+def _yaml_documents_uncached(paths, root=ROOT):
     rows = []
     prose = {}
     for path in paths:
@@ -151,7 +153,7 @@ def yaml_documents(paths, root=ROOT):
         rows.append({"path": path, "text": text})
     result = subprocess.run(
         ["ruby", str(ROOT / "scripts/ds_yaml.rb")],
-        input=json.dumps(rows), capture_output=True, text=True, timeout=30)
+        input=json.dumps(rows), capture_output=True, text=True, timeout=120)
     if result.returncode:
         raise RuntimeError("Ruby/Psych no disponible o falló: " + result.stderr.strip())
     return {**prose, **{row["path"]: row for row in json.loads(result.stdout)}}
@@ -232,6 +234,7 @@ def resolve_bases(records):
     return [r for r in candidates if r["path"] not in replaced]
 
 
+@cached
 def generate_status(parsed, paths, config, root=ROOT):
     records = contract_records(parsed, root)
     by_id = defaultdict(list)
@@ -419,6 +422,7 @@ def render_status(data):
     return "\n".join(out) + "\n"
 
 
+@cached
 def documentation_check(parsed, paths, status, config, root=ROOT):
     findings = []
     def add(control, path, message, severity="ERROR", line=None):
@@ -492,3 +496,60 @@ def documentation_check(parsed, paths, status, config, root=ROOT):
     return {"status": "FAIL" if any(f["severity"] == "ERROR" for f in findings) else "PASS",
             "counts": dict(counts), "findings": findings,
             "scope": "Deterministic documentation checks; no semantic approval, Figma readback or web QA"}
+
+
+def explicit_yaml_file_references(text):
+    """Exact repository-relative paths declared as YAML scalars; no ID/name inference."""
+    if not text.startswith('---\n'):
+        return []
+    result = []
+    for line, value in enumerate(text.splitlines()[1:], 2):
+        if value.strip() == '---': break
+        match = re.fullmatch(r"\s*(?:-\s+|[\w-]+:\s+)[\"']?([a-zA-Z0-9_./-]+\.(?:md|json|yaml|yml))[\"']?\s*", value)
+        if match:
+            path = match[1]
+            if not Path(path).is_absolute() and '..' not in Path(path).parts:
+                result.append((line,path))
+    return result
+
+
+def yaml_documents(paths, root=ROOT):
+    session = ACTIVE_SESSION.get()
+    if session is None:
+        return _yaml_documents_uncached(paths, root)
+    parser = sha(ROOT / 'scripts/ds_yaml.rb') + sha(ROOT / 'scripts/ds_core.py')
+    wanted = [p for p in paths if p.endswith(('.md', '.yaml', '.yml'))]
+    keys = {p: ('yaml-file', str(Path(root).resolve()), p, sha(Path(root) / p), parser) for p in wanted}
+    cache_path = Path(root) / 'output/closures/yaml-cache.json'
+    store_key = ('yaml-store', str(Path(root).resolve()))
+    if store_key not in session.cache:
+        rows = {}
+        try:
+            saved = read_json(cache_path)
+            payload = json.dumps(saved['rows'], sort_keys=True, ensure_ascii=False).encode()
+            if saved.get('schema_version') == 1 and saved.get('payload_sha256') == hashlib.sha256(payload).hexdigest():
+                rows = saved['rows']
+        except (OSError, ValueError, KeyError, TypeError):
+            pass
+        session.cache[store_key] = rows
+    rows = session.cache[store_key]
+    persisted = 0
+    for p in wanted:
+        old = rows.get(p, {})
+        if keys[p] not in session.cache and old.get('content_sha256') == keys[p][3] and old.get('parser_sha256') == parser and 'result' in old:
+            session.cache[keys[p]] = old['result']
+            persisted += 1
+    missing = [p for p in wanted if keys[p] not in session.cache]
+    if missing:
+        parsed = _yaml_documents_uncached(missing, root)
+        for p in missing:
+            session.cache[keys[p]] = parsed.get(p)
+            rows[p] = {'content_sha256': keys[p][3], 'parser_sha256': parser, 'result': parsed.get(p)}
+        payload = json.dumps(rows, sort_keys=True, ensure_ascii=False).encode()
+        dump(cache_path, {'schema_version': 1, 'payload_sha256': hashlib.sha256(payload).hexdigest(), 'rows': rows})
+    counter = session.counts.setdefault('yaml_files', {'executed': 0, 'reused': 0, 'persisted_reused': 0})
+    counter['executed'] += len(missing)
+    counter['reused'] += len(wanted) - len(missing)
+    counter['persisted_reused'] += persisted
+    from copy import deepcopy
+    return {p: deepcopy(session.cache[keys[p]]) for p in wanted if session.cache[keys[p]] is not None}

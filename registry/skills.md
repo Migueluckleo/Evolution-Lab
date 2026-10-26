@@ -8,8 +8,8 @@ Decisión [DEC-DS-SKILLS-001](DEC-DS-SKILLS-001.md). Nuevas skills `contpaqi-fig
 
 - Snapshot común: 1,373 fuentes, 43 familias; DS SHA-256 `05f59b74952cf681ac81049a33c368d49e4fa16656e3dee883424f5650367443`.
 - Input digest: `72895bf3e0ba82c6fbb29e3d54d61ba497a1cc194d2f14deb490a36ca6099fee`.
-- ZIP Figma 0.1.0 (artefacto histórico local; no incluido en esta publicación): 5,119,059 bytes; SHA-256 `6e976e1a6bf705de3c007c33b8adadec2e2b08795ad417763e977a60dce9dbd5`.
-- ZIP PO 0.1.0 (artefacto histórico local; no incluido en esta publicación): 5,136,711 bytes; SHA-256 `5a24c01ed8927802ab197a13b76909ccdf1f4f9b0ea725e1479b168c8f5f4b18`.
+- [ZIP Figma 0.1.0](../output/skills/0.1.0/contpaqi-figma-screens-0.1.0.zip): 5,119,059 bytes; SHA-256 `6e976e1a6bf705de3c007c33b8adadec2e2b08795ad417763e977a60dce9dbd5`.
+- [ZIP PO 0.1.0](../output/skills/0.1.0/contpaqi-po-prototypes-0.1.0.zip): 5,136,711 bytes; SHA-256 `5a24c01ed8927802ab197a13b76909ccdf1f4f9b0ea725e1479b168c8f5f4b18`.
 - [Informe de QA](../qa/skills/skills.release.v0.1.0.review.md) y [manifiesto resumido](../qa/skills/release.manifest.2026-10-14.json).
 
 Ejecutados: `scripts/ds test` (35 PASS); validación de ambas skills; `skills sync`, `check`, `export` (UNCHANGED), `install` y `check-installed` (CURRENT). HTML real sin servidor: build y 14 capturas de estados/viewports PASS, diez instancias verificadas, cero red/errores/textos sin mapear; seis pruebas del exportador PASS. Revisiones independientes del prompt y del MD autosuficiente PASS documentales. Figma real NOT_RUN: no se creó una pantalla en este lote.
@@ -22,8 +22,8 @@ Ambas skills exportadas e instaladas con estado **CURRENT**. El corte incorpora 
 
 - Snapshot común: 1,694 fuentes, 43 familias; DS SHA-256 `f3d8dc4b76c8261d02d60cc708b374c0700d7500400057a219f5fdd7c78d4e56`.
 - Input digest: `bace1600266365ef7b7f566b10586606b4d9af87710a539ce1ffe5acebce90fd`.
-- ZIP Figma 0.2.0 (artefacto histórico local; no incluido en esta publicación): 8,846,449 bytes; SHA-256 `aad4cad6cf1e07b822c37a46c43571300e4aae22e550b57b3c27ddca98101711`.
-- ZIP PO 0.2.0 (artefacto histórico local; no incluido en esta publicación): 8,865,778 bytes; SHA-256 `5e1df4fea2997551ada0aa91a4ee6a2885bfa4591614b9b05cba6e2a9e95e038`.
+- [ZIP Figma 0.2.0](../output/skills/0.2.0/contpaqi-figma-screens-0.2.0.zip): 8,846,449 bytes; SHA-256 `aad4cad6cf1e07b822c37a46c43571300e4aae22e550b57b3c27ddca98101711`.
+- [ZIP PO 0.2.0](../output/skills/0.2.0/contpaqi-po-prototypes-0.2.0.zip): 8,865,778 bytes; SHA-256 `5e1df4fea2997551ada0aa91a4ee6a2885bfa4591614b9b05cba6e2a9e95e038`.
 - [QA y comandos](../qa/skills/release-0.2.0/README.md), [resumen de manifiesto](../qa/skills/release-0.2.0/manifest-summary.json) e [instalación comprobada](../qa/skills/release-0.2.0/installed-check.json).
 
 `sync --bump minor` creó 0.2.0; `check` CURRENT y `export` UNCHANGED. Snapshot y sintaxis de ambas skills PASS; seis pruebas del exportador PASS; build y 14 estados/viewports reales por `file://` aislado y sin red PASS. Diez instancias y 124 fragmentos tipográficos viajan en el MD autosuficiente; revisión visual acotada a dos PNG. El handoff conserva el bloqueo Figma como control separado. Las dos skills anteriores, el inventario protegido y las 673 eliminaciones preparadas en Git se conservaron según la evidencia de preservación. Release 0.1.0 permanece intacto.
@@ -34,8 +34,8 @@ Ambas skills exportadas e instaladas con estado **CURRENT**. El corte incorpora 
 
 - Snapshot común:2131fuentes,43familias; DS SHA-256 `4205fc48bf65ef7f42f3c51f15402d61c7f5e25ae88850f1a50ccd41fb90bc67`.
 - Input digest: `14696426ec4dc9591a40d0b9fd7a925ad54b570c7f925bcd51a5a1424783ff39`.
-- ZIP Figma0.2.1 (artefacto histórico local; no incluido en esta publicación):10843055bytes; SHA-256 `4828c72fa6a27a1cce5f18a6ddb49cf5f3080a754a53f8ac29a1198ee92f60b0`.
-- ZIP PO0.2.1 (artefacto histórico local; no incluido en esta publicación):10862513bytes; SHA-256 `8898a26e181c9b2b1ed23fc6da6ca51f234c15e710669d4a832ccd8599c77af1`.
+- [ZIP Figma0.2.1](../output/skills/0.2.1/contpaqi-figma-screens-0.2.1.zip):10843055bytes; SHA-256 `4828c72fa6a27a1cce5f18a6ddb49cf5f3080a754a53f8ac29a1198ee92f60b0`.
+- [ZIP PO0.2.1](../output/skills/0.2.1/contpaqi-po-prototypes-0.2.1.zip):10862513bytes; SHA-256 `8898a26e181c9b2b1ed23fc6da6ca51f234c15e710669d4a832ccd8599c77af1`.
 - [QA y comandos](../qa/skills/release-0.2.1/README.md), [manifiesto](../qa/skills/release-0.2.1/manifest-summary.json) e [instalación comprobada](../qa/skills/release-0.2.1/installed-check.json).
 
 `sync --bump patch` creó0.2.1; `check` CURRENT y `export` UNCHANGED preservó4300archivos, bytes ymtimes. Trece pruebas de release/install, nueve de handoff y seis del exportador PASS. Build/TypeScript y14 estados/viewports por `file://` aislado sin red PASS; diez instancias,24fuentes con hashes y124fragmentos identificados en el MD autosuficiente. Se revisaron visualmente dos capturas. Los paquetes anteriores y ambas skills antiguas conservaron sus hashes. La instalación gestionada solo actualizó las dos skills nuevas autorizadas. La [revisión independiente MD-only](../qa/skills/release-0.2.1/md-forward-test.md) pasó usando únicamente el Markdown y el snapshot de la skill Figma, sin ejecutar Figma.
@@ -66,6 +66,21 @@ El usuario exige consultar GitHub en cada nuevo trabajo y recibir ZIP instalador
 
 La verificación local y los límites de publicación/Genspark se registran en `qa/skills/remote-consumption/`. No se considera consumo remoto comprobado contra GitHub hasta verificar el canal publicado.
 
+## 0.3.3 · Conversation Composer · 2026-10-20
+
+Ambas skills sincronizadas/exportadas, instaladas en sus copias gestionadas y verificadas CURRENT. [Comprobante](../qa/skills/conversation-composer-2026-10-20.json). Paquetes [Figma0.3.3](../output/skills/0.3.3/contpaqi-figma-screens-0.3.3.zip) y [PO0.3.3](../output/skills/0.3.3/contpaqi-po-prototypes-0.3.3.zip). Motores github-live-v1; no contienen specs fijos. El cambio del hash de la matriz de trazabilidad en la configuración de herramientas motivó un fingerprint nuevo; su sección histórica se verificó intacta antes de actualizar el selector.
+
+Catálogo local CURRENT:2149 fuentes,43 familias; DS digest `5b0899188004a8e3f4fcead4e6e414d1fc189014cf7d6d21f8486d3615ab5f8f`. Generación y check del catálogo PASS; sync creó0.3.3, check CURRENT y export UNCHANGED, instalación/current sin archivos ajenos reemplazados. Este lote incorpora el aviso opcional de Composer y evidencia Figma/web. No se modificaron instrucciones de los motores ni se ejecutó una pantalla con esas skills; su integridad no equivale a una prueba de nueva composición. Publicación remota NOT_RUN; el canal GitHub conservará su corte publicado hasta un push autorizado. Cierre de grafo separado por P05.
+
+
+## Conversation Composer Slot · 2026-10-20
+
+[QA de consumo](../qa/skills/conversation-composer-slot-2026-10-20.json). Catálogo local actualizado:2161 fuentes,43 familias, digest dbe522d12db6bbfbcff926eb895ca4b986e4ca4268a5a5a8756579aad6d63aac. Motores contpaqi-figma-screens y contpaqi-po-prototypes0.3.3 sin cambios por diseño github-live-v1; sync/check/export/check-installed CURRENT, paquetes e instalación íntegros. No se generó una versión artificial ni se publicaron fuentes en GitHub. [Enmienda de consumo](../specs/components/conversation.composer-slot.amendment.v0.1.3.md).
+
 ## Chat embebido · arquitectura0.1.1 · 2026-10-20
 
 [QA P08](../qa/skills/embedded-chat-shell-2026-10-20.json): catálogo local CURRENT,43 familias; ambas skills conservan motor0.3.3, sync/check/export/check-installed CURRENT, paquetes sin cambios. La enmienda aparece en App Shell, Chat Section, Chat Toolbar y Conversation. Publicación remota y readback se registran aparte en output/qa/embedded-chat-shell-2026-10-20; este registro no anticipa un push ni una ejecución Genspark.
+
+## Button 0.3.0 · cierre local · 2026-10-23
+
+La ampliación de Button participa en el mismo corte de consumo de ambos motores conforme P08. [QA de implementación](../qa/implementations/button-evolution.v0.3.0.review.md); [comprobante de catálogo/skills](../output/button-evolution/distribution.json). Consultar el comprobante para vigencia y paquetes reales; no inferir publicación remota desde el cierre local. Git permanece HOLD_UNTIL_USER_REVIEW por solicitud explícita.

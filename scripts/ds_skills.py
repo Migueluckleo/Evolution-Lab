@@ -10,6 +10,7 @@ import re
 import shutil
 import tempfile
 import zipfile
+from ds_session import cached, coordinated
 from pathlib import Path, PurePosixPath
 
 from ds_core import ROOT, ACTIVE, read_json, markdown_links, local_target, yaml_documents, generate_status
@@ -123,7 +124,7 @@ def component_index(root, paths, project):
     data = generate_status(parsed, paths, project, root)
     if data["issues"]:
         raise ValueError("Unresolved source status: " + json.dumps(data["issues"], ensure_ascii=False))
-    families = {f["id"]: f for f in data["families"] if f["base"] and not f["id"].startswith(("FOUNDATIONS-", "MIGRATION-"))}
+    families = {f["id"]: f for f in data["families"] if f["base"] and f["base"]["metadata"].get("type") != "tooling" and not f["id"].startswith(("FOUNDATIONS-", "MIGRATION-"))}
     ids = [r["id"] for r in registry]
     if len(ids) != len(set(ids)) or set(ids) != set(families):
         raise ValueError("Skill family coverage differs from current contract registry")
@@ -150,6 +151,7 @@ def component_index(root, paths, project):
     return result
 
 
+@cached
 def source_inputs(root=ROOT):
     root = Path(root).resolve()
     config = read_json(safe(root, "config/ds-skills.json"))
@@ -176,7 +178,7 @@ def source_inputs(root=ROOT):
                 raise ValueError("Generated snapshot in template: " + rel)
             entries[rel] = digest(path.read_bytes())
         templates[name] = dict(sorted(entries.items()))
-    tool_files = ["scripts/ds_skills.py", "scripts/ds_core.py", "scripts/ds_yaml.rb", "config/ds-skills.json", "config/ds-project.json"]
+    tool_files = ["schemas/consumption-query.v1.schema.json", "scripts/consumer_graph.py", "scripts/ds_skills.py", "scripts/ds_core.py", "scripts/ds_yaml.rb", "config/ds-skills.json", "config/ds-project.json"]
     fingerprint = {"files": files, "templates": templates, "components": components, "excluded_links": omissions,
                    "tooling": {p: digest(safe(root, p).read_bytes()) for p in tool_files}}
     return {"root": root, "config": config, "files": files, "templates": templates,
@@ -199,6 +201,8 @@ def package_files(state, version, name):
     root = state["root"]
     result = {p: safe(root, "skills/" + name + "/" + p) for p in state["templates"][name]}
     if state["config"].get("delivery") == "github-live-v1":
+        result["scripts/consumer_graph.py"] = safe(root, "scripts/consumer_graph.py")
+        result["references/consumption-query.v1.schema.json"] = safe(root, "schemas/consumption-query.v1.schema.json")
         result["assets/engine.json"] = encoded({"engine_protocol": 1, "version": version,
             "skill_name": name, "companion_skill": next(n for n in state["config"]["skills"] if n != name),
             "repository": "Migueluckleo/Evolution-Lab", "branch": "main"})
@@ -324,6 +328,7 @@ def pointer(manifest):
             "manifest_sha256": digest(encoded(manifest))}
 
 
+@coordinated
 def sync(root=ROOT, bump="patch", state=None):
     state = state or inputs(root)
     current = current_record(state)
@@ -404,6 +409,7 @@ def installed_receipt(target, name):
     return receipt
 
 
+@coordinated
 def install(root=ROOT, skills_dir=None, state=None, verify_only=False):
     state = state or inputs(root)
     result = check(root, state)

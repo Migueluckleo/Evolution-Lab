@@ -2,9 +2,9 @@
   "schema_version": 1,
   "kind": "DERIVED_NOT_AUTHORITY",
   "source_sha256": {
-    "config/ds-project.json": "e58f704a5d715e6b13a80844f18d461f771400fe432c5bfece9577b1891c4b90",
+    "config/ds-project.json": "0b5f688c85d6e86868b83dba709a404a4fca49c14e9008d6eb8e5df9095065ef",
     "drafts/contracts/anticipa-screen-composition.contract.v0.1.0.md": "cf08121c07588c7c69d8505e967d2894b4a079670f4c2211571c0fc3703d3995",
-    "drafts/contracts/anticipa-screen-composition.dependencies.v0.1.0.json": "9d6ee351f0f4c874d94ac407b2704d715bea327218f9e91753a96364ab3b2d44",
+    "drafts/contracts/anticipa-screen-composition.dependencies.v0.1.0.json": "68d6c9ebb66397f2f5b2e1ce51ea6de7090cbf2b475f074a46ae5a8757764778",
     "drafts/contracts/app-shell.source.component-contract.md": "c962efb969d9fbf851a42209716d304c825ae3c272b03a5d8c03a99e87607904",
     "drafts/contracts/app-shell.source.component-contract.yaml": "46038132095d361b83f2b5e26627affc5e294dcf6c0decc613841bce1bd26d19",
     "drafts/contracts/avatar.contract.v0.1.0.md": "465296694978a14e8019b2f52af61f42b88f78fecfa480d0081d4f877e122396",
@@ -67,6 +67,8 @@
     "drafts/contracts/dot.source.component-contract.yaml": "ad1d5d26b52621402aa27a5105e254d707421b94f7688277ebf77ac9bf87b146",
     "drafts/contracts/dropdown-item.source.component-contract.md": "6556110ba1f49a116dd56a91cd0bf41bd20225a39967b13f2eb66823a3331681",
     "drafts/contracts/dropdown-item.source.component-contract.yaml": "f7c109ef15289465690e9be2cbf167d36f240dc017bbababea1b0aafc98bcba7",
+    "drafts/contracts/embedded-chat-shell/component-contract.md": "d75b6ef5a455500eab4772e6b560401c6cd0130351f9def02de0ce266f80222c",
+    "drafts/contracts/embedded-chat-shell/component-contract.yaml": "9d179bd14afcc8a11e6822762ff60cc73037ec88efba7a84bb9d098d3f59f8c0",
     "drafts/contracts/empty-states.source.component-contract.md": "2b3334aa43bba1c27abff807417cdacdd664d2d77695ece07ec792488cfb22b3",
     "drafts/contracts/empty-states.source.component-contract.yaml": "7ab2c2bb1ddf2ed5d60ceab44b5175d55aa0195056c27a7de827786a9e03409e",
     "drafts/contracts/file-upload.source.component-contract.md": "ffb9396be18417267141808bf9fc11d86ef48a5a09b61dce9fbea39eaa5aa2eb",
@@ -98,6 +100,7 @@
     "drafts/contracts/foundations.warning-icon-source-color.amendment.v0.1.10.md": "f68c3c5dcfca38b55d65f808184cce32acb1329c6a4c7399d76dbc66d3e87fa7",
     "drafts/contracts/fuentes.source.component-contract.md": "7f769426b000c5513b8b06842c79ff563424b31daa3334acfe9f6d97d4f23011",
     "drafts/contracts/fuentes.source.component-contract.yaml": "7b587b895a3b4158040d4cd00de50da5da68b60e619627d06577ff668635e94f",
+    "drafts/contracts/graph-first-consumption.contract.v0.1.0.md": "2f32bdb748f576ef469a972a7948566742d60fb1db6da94c24eae31d7175aee6",
     "drafts/contracts/header.source.component-contract.md": "f7e3194e7c145331bfea3b75ba2168d3eb67863a2eed35cc853c251e0391ec76",
     "drafts/contracts/header.source.component-contract.yaml": "16dc9f7730013486fa877651bfeb3daa44375aeca898479b9bb9df79f272f788",
     "drafts/contracts/icon-button.contract.v0.1.0.md": "e9a13b48246c8f5b285acfce9f3213ecba6980cd7049ece8b19aecca7a889168",
@@ -193,6 +196,15 @@
     "implementations/figma/breadcrumb-current-text.v0.1.0.state.json": "2b56f09d5867ac757ab26cbc290dac91a2851fc1d7fa063bbb97bc33eee3d6f3",
     "implementations/figma/breadcrumbs.v0.1.0.state.json": "7ce8110b78712bce56e997c54721b41d764bea6a9170be8c4ca1fc1a472831cd",
     "implementations/figma/button-description.v0.2.0.state.json": "aff95f7a55fe93c7568420f185d8a54482e427b80fe2be277aaa740e37909120",
+    "implementations/figma/button-evolution.v0.3.0.mutation.json": "baa1775c7445e62d40370e3fd9cbd9b8ec894f443b612d2ec4d77f03f7a5990c",
+    "implementations/figma/button-evolution.v0.3.0.properties-qa.json": "e196f95a260a8777814b7bc8621fa8eab51edbae8d202cf45a307201ffcd0465",
+    "implementations/figma/button-evolution.v0.3.0.readback.json": "478b999642626a5ecc953ccffc29e769d954a3ed9f5c0b1c8b922021ac514cc4",
+    "implementations/figma/button-evolution.v0.3.0.regression-qa.json": "0871e43e952ee08dcd29b4692d7c4e9b3a8e42c5a172df5375343bec27108eb9",
+    "implementations/figma/button-evolution.v0.3.0.review.json": "77dde5035b8e75bd8365aefcbbfcca17b769f55251e5df1a85bf847e2a79da80",
+    "implementations/figma/button-evolution.v0.3.0.state.json": "40ab2acab83ef171d8cc6108d356fef18820fc09b76ebece9e9296e4b4769ef4",
+    "implementations/figma/button-evolution.v0.3.0.swap-qa.json": "41b7be297b5f3fded054af513f4a47e4c8d4d01798f19ca464756f6aa89022be",
+    "implementations/figma/button-evolution.v0.3.0.token-map.json": "e8cacb49612bf4c92014eb20f93d6b15e6df18123507515c3549d961ea9888c0",
+    "implementations/figma/button-evolution.v0.3.0.version-note.json": "3c7df2112e59d5fcae906f1cf49f02ae0731f43719e77ebd45698db993085f3d",
     "implementations/figma/button.semantic-scope.v0.2.1.state.json": "8996ec8b95901fec824291b61456dcfda5c848429a352ee4f8c740042c9bcbac",
     "implementations/figma/buttons.color.v0.1.0.write.json": "3176118b5ec46377255c0459456454a3ab0ebc1ad75a61618dc83a4e23eec009",
     "implementations/figma/buttons.local-bindings.v0.2.2.state.json": "ec1f61cd6c2915af303b9e77b8e9fa922231a817215e35a0e2408d2682ae603f",
@@ -228,6 +240,10 @@
     "implementations/figma/composition-slots.v0.1.1.state.json": "7d521987ec9bc7d335733399001c30e7131ea67ce5e7c2b94be6c8c3b94bb902",
     "implementations/figma/composition-slots.v0.1.1.steps-build.json": "dcf5c6a0f9b910bb9e6a232fedac7f849ba14ac7f1b0f87e3b3c5108b9e441e7",
     "implementations/figma/control-colors.v0.1.0.state.json": "0ba9c9935845fca284b373d64c6d6f4dc28b66ce1ecf03307f0cb499d5cea54c",
+    "implementations/figma/conversation-composer.v0.1.2.preflight.json": "caece6eb4146e962fb86ddc75e6d2cf52f9e39a9d22ef81f9dfebedecbb9ff89",
+    "implementations/figma/conversation-composer.v0.1.2.state.json": "75d84aa03f75dce55204988349684fc8104daea1d0b3bb355f82c8fff0e08079",
+    "implementations/figma/conversation-composer.v0.1.3.preflight.json": "7bab026ed59b6a8c018ad2007f2c1d57e953ed48694e6b1f8fc481d7f5339d49",
+    "implementations/figma/conversation-composer.v0.1.3.state.json": "2fb8183de68a486234000724869b027535c8147ca89975eb5269f1d8f5e8d2f1",
     "implementations/figma/conversation.characters.v0.1.1.before.json": "fb99142fd3aa4bf633ca0c5a6304e70ee5abe9ea5768e82ab69bb8e7edb412ef",
     "implementations/figma/conversation.characters.v0.1.1.state.json": "c21faa4e5aa4ca529208fadb813a266099890ba214c8e65ca96eecade9d6906d",
     "implementations/figma/conversation.characters.v0.1.1.write.json": "b004046bbdb2b91828258995f30c681af1f5366e04f27ddb69c251414cc4a3d5",
@@ -389,59 +405,61 @@
     "implementations/figma/warning-icon-contrast.v0.1.0.state.json": "837bc0bcb31a54fb7bba836647e57653a90cb66e10a03caa9e6ca611a5837492",
     "implementations/figma/warning-icon-source-color.v0.1.1.state.json": "50f61c1b181fbe3344478df537f1bf22fa40faa139356ec006c0c3335243ad01",
     "implementations/web/README.md": "2c00b7055c6d889e26bc91d05d1966e23c65fd1ed99603a12c57d124a5603265",
-    "implementations/web/components.registry.json": "6182fff5a8ab01130df96783c10631ee847cb5df27e444b0420645c06be0a8b5",
+    "implementations/web/components.registry.json": "eab29ef111de15b65317cc57459b2c17a3279b5c1c255f12526fb3d6b5ceef53",
     "implementations/web/docs/TYPOGRAPHY.md": "e4ea9dc03045a9735f00a621337f0f609d5dc79c250420a1a1dace38443ebd44",
-    "implementations/web/docs/WEB-ADAPTATION.md": "95a49235f529787bb314a89c2c155a7b0137e45593cd72e4e82c919f84a7cf75",
+    "implementations/web/docs/WEB-ADAPTATION.md": "4d22bd8e69f0a81ff2b80edf4e5034fe8bd81bc9e19367518466273abc746412",
     "implementations/web/docs/components/README.md": "39cf1b8e341a278ae2da568aa317f13bbdc59203724a15cc4db65c2b75eafcf2",
-    "implementations/web/docs/components/app-shell.md": "95d10607c15ae8cab41f76d2080684130fd1cfa90701826e8b9cef71a01087fc",
-    "implementations/web/docs/components/avatar.md": "e6b8d394dcdbc4d98a98874de5aa2284ec04102c26b1515990e5124fd6eb4d95",
-    "implementations/web/docs/components/badge.md": "fc28737d96d55cd65173cf52c8e22a465bbb0258b0c51107baa301e11229c666",
-    "implementations/web/docs/components/breadcrumbs.md": "2c155c27ae2cf30c39dad93f47f7e5664befdba586634a2b3632c52522354432",
-    "implementations/web/docs/components/button.md": "88fbd613e9ac7e18c2fca99a23becce31aae24fdecff6a16de90263ad3333ffc",
-    "implementations/web/docs/components/characters.md": "6b6ff66ed98fcd4fb4dd0fa9ea16043a073e9cba264c038228d57eea98117a81",
-    "implementations/web/docs/components/charts.md": "39c5a9e4e1f42de4e36f9958bfbda9b8f0be2d9e65df35e35fbc2bf26584bc8a",
-    "implementations/web/docs/components/chat-history-item.md": "cef4e6014277baf9a53dfeb984f1cffd2b05807b557e031962ae641372d00cd9",
-    "implementations/web/docs/components/chat-section.md": "6de2910106d6f39ccd1e4e305c9505f701227cf3f21179de96f3669064e587da",
-    "implementations/web/docs/components/chat-tool-item.md": "3098587c8f01b18c69dcdb462e99c51e6c4f20379b0e73e00ea23cddb9ee0f70",
-    "implementations/web/docs/components/chat-toolbar.md": "c6facf86155e6fbabcb27677335b8a512155fcfa8fdacd101e4148e26dbcff0f",
-    "implementations/web/docs/components/checkbox.md": "502d6775fae930ee680b20dd57b10734dbbc68c4bb3d83bbb7ec98de65f81527",
-    "implementations/web/docs/components/conversation.md": "fee6cffec28009caeb8ebbb195d5da891e4a66f57bc005db343ab4b9a0ad9ad3",
-    "implementations/web/docs/components/dot.md": "efb15549b338adf2622328def44f71a4adb1c549e0884647b3c0d3682037dae7",
-    "implementations/web/docs/components/dropdown-item.md": "e52fdd58598e8538dc2c7bb77b2976def0ab3e3f0a200410325c88f53bbbbad5",
-    "implementations/web/docs/components/empty-states.md": "16aeb7fd23453bcf9a6e1d7c9125b9809254271fc00c3e31fa0ee9b9e873f31a",
-    "implementations/web/docs/components/file-upload.md": "0ba2929f1f34f6ad43e832d51b4e41505650b876ccb4621264eac2ed85dc9abb",
-    "implementations/web/docs/components/filter-chip.md": "eead47f8b926054a9f5d54273f796e0567d79238489c3c107dc687f728f19784",
-    "implementations/web/docs/components/fuentes.md": "dc7b96002af35e49d1276c7a7a1994702e0bae028fa524d6df51e31b700a4056",
-    "implementations/web/docs/components/header.md": "c112e05e9065c0ad81eebb08b1c1c55076756bc7dfa8fd1b38e054b27c567f3c",
-    "implementations/web/docs/components/icon-button.md": "8e87a9e98ee1fec040c2fdc95cdc829980909d78a7fd9398a74988763166d465",
-    "implementations/web/docs/components/inline-notification.md": "1764866132f78eb0bd3d0e0b8145aea18197761c1a75d35e93d6ebe7645c7ed3",
-    "implementations/web/docs/components/input-field.md": "4c7a2a9d19a73c59077a876be4b938e445588cb35d53b3c8b795267f605f827b",
-    "implementations/web/docs/components/linear-progress-bar.md": "0591567453fc72310e1fd8800d2461fcff681314c4fa015e4c466ba253b1796c",
-    "implementations/web/docs/components/loader.md": "3228cb1a3b6cec5b2aaad9c46bd8956ebfa80e0b6ffe34831e0c7e7220a7bc13",
-    "implementations/web/docs/components/logos.md": "3b42833db09ef8b329c2d8fd9be4fa97cccc151161fb876ae3b3e621f94a427d",
-    "implementations/web/docs/components/metric-card.md": "fc8d18d1f016e484b47481d906dd57f69cb3068e2f44ad5e8ae28c32c080f976",
-    "implementations/web/docs/components/modal.md": "e7905d44460cf5b65a97509fdbac1e1f0397ea8ba30d62ce16ca5265a1866e72",
-    "implementations/web/docs/components/navigation-pagination.md": "131c7c6b139bb9bf26c080cbc9a50ec68560a6f568a9ad55dc313fc412bded87",
-    "implementations/web/docs/components/navigation-switch-tab-item.md": "8eaef39042149d7ca0bf7711156dbeea455b1b2a3b886e38685bafd3bb9cf186",
-    "implementations/web/docs/components/navigation-switch-tab.md": "ba02d3abf7811846105ca9199943dc2479c303b1c7fb9e51e3003291cf620844",
-    "implementations/web/docs/components/navigation-tab.md": "a8bdddecf8274f49678b651e99f3909329b143f4595520971b90109b556d4914",
-    "implementations/web/docs/components/radio-button.md": "ef2d4a322353452a04c73a8e175bf66f7abe490742dae8cc95caa2b76b161c83",
-    "implementations/web/docs/components/scrollbar.md": "07cb2f180c0e19fe4dd5e12eb80819154ca1814ae9b6b3f4fdfca05078343cf4",
-    "implementations/web/docs/components/search.md": "e97bd0335cc21996e056667c09f21c18a9575242d920ddb19e8ef117493d57b4",
-    "implementations/web/docs/components/select.md": "1b5b6493e6a2fe5ab6bbd2722d23930e981ffd9201314ff34e4df155d0554f60",
-    "implementations/web/docs/components/sidebar.md": "3d425f796ef649c9439c448dcd55b99e9fee81124625dc16dd1de062cb68bf7c",
-    "implementations/web/docs/components/stepper.md": "b20ec4a317dd29cc0fae33dc350a5eda50adce322f6490db270b3a85dc686bdd",
-    "implementations/web/docs/components/steps.md": "9d8cf637bf9a91167d8d15568f53c4e45f3f01477a5b9b3282d89779f6db4c55",
-    "implementations/web/docs/components/table.md": "6fd4c37965112a9915d95ddc7a7fc330819b5f8a70820faf41885a04796f121d",
-    "implementations/web/docs/components/textarea.md": "4a68dac3ce618347b06b04517f0ff65e68ee69d3cd53cb160800b82371667dd0",
-    "implementations/web/docs/components/toggle.md": "a544f28a34e5f4a90cfba5deee3c5b147c66c9476640b9f66cf79f261a05d2fc",
-    "implementations/web/docs/components/tooltip.md": "af45690c65982f03e986b7a227a39b18c2478c31b8678484f3e1a76a5d206b1a",
+    "implementations/web/docs/components/app-shell.md": "df93ee0699683c0c5ce1a0af0ef3c1655d57644f9d530c6ea93593ae243c9335",
+    "implementations/web/docs/components/avatar.md": "d0dc9d773b6c0858e6f874a72db5ac3a6712a675d6eba3867b711459a11df141",
+    "implementations/web/docs/components/badge.md": "c069498c637ab73ca3393255e9b42ae33a308c08d549351f3d895b5c3689a83f",
+    "implementations/web/docs/components/breadcrumbs.md": "a633fa4e08622e2cfa6230ff77218d17c4a5bdb61b836f50128143d32e9f760d",
+    "implementations/web/docs/components/button.md": "105afe434ed7446fe6f96a25f800581b3f97a12b27b33fa05082b743659c8afa",
+    "implementations/web/docs/components/characters.md": "9b4345b2d562fee59340077533e4ef7e9c726c07e502107e7756bc0a70aa054a",
+    "implementations/web/docs/components/charts.md": "35379e40da0bd1eb994b77dca1536113137ceb5ac01ac67ad9b03f2caddffdc9",
+    "implementations/web/docs/components/chat-history-item.md": "d2bd528c6ec618e87a1621c10e0f674ce0a8e965943a93e81044883ffc88b0f0",
+    "implementations/web/docs/components/chat-section.md": "831c021657cf188907ebf55776529c77a71378055b5275d33069ee685f2a7000",
+    "implementations/web/docs/components/chat-tool-item.md": "857eb55407224ac254e8c769a7a26d67cdfbb744957c9238ea1acce841247372",
+    "implementations/web/docs/components/chat-toolbar.md": "264cf69188b6fd45abb40a325890185a8d801b9466c58fbf467bb21c811eb49e",
+    "implementations/web/docs/components/checkbox.md": "33d2d84751209658369c4c96c4376bc2e266d1880ecc4245624122cf42bcbb41",
+    "implementations/web/docs/components/conversation.md": "1d36fdff5e80b7bcc984ab0597417c007e039f381311a4c1fc2aab97cc0a579c",
+    "implementations/web/docs/components/dot.md": "81530470546a75ab14e2b0ad1fa47e9bac06db0eb5b6d4c331ab40dfb096f01d",
+    "implementations/web/docs/components/dropdown-item.md": "a065296130ebc40a8f0a58cba818431738030f89aa87f62eee8dce8f067305a7",
+    "implementations/web/docs/components/empty-states.md": "becc386f40b0a8c5662ded13fdb26dd874dc01b872fb4382b01b661f5142c771",
+    "implementations/web/docs/components/file-upload.md": "fd443408025db93203f549cce584787c2673e149af0571ed2448382800abbbda",
+    "implementations/web/docs/components/filter-chip.md": "c4feca0b995e8b726052f07f3c6ed35a00a449a18aed9e2e82e67217f994f4b1",
+    "implementations/web/docs/components/fuentes.md": "68649c378ccc9aff2092bc1abdfa1e6b67a721b7c79f4f50d97c14275ab9a06f",
+    "implementations/web/docs/components/header.md": "d38684f56368184bf621de4eb4dfd3890a5d05c286f3d0e6151bf650dde64a58",
+    "implementations/web/docs/components/icon-button.md": "698b3305e24f25576577f3cd0fd7d64de7594393621c6886c3581a4f66aa746b",
+    "implementations/web/docs/components/inline-notification.md": "3a9fef1c5fc7e049aa14f9071fc1c0c43bc5c23a171fa83acabecbe40c0703fa",
+    "implementations/web/docs/components/input-field.md": "f1c3015b847278a30f8168ea42ae40c638d0e3ae5efb2bff27a9dda8f2bdd8e1",
+    "implementations/web/docs/components/linear-progress-bar.md": "0db2d04a48bcae5fdfc0bfd6ca0e417d797cd4b2ac2b71ce22f7b3bb31a51d25",
+    "implementations/web/docs/components/loader.md": "b1825a483b790bd4763ff76495f494f47e1e737737d1e834fc1d2fabda3357a2",
+    "implementations/web/docs/components/logos.md": "d242c22c6a46015399461bb18134f18eccc54f43a798404113e0aac68a54d248",
+    "implementations/web/docs/components/metric-card.md": "404e569a8be517aeb8e9971ed9789b88260e45359e4b78067a45fb5a5bfcf8d5",
+    "implementations/web/docs/components/modal.md": "a5eb7e6430e6b0df3f8c0451ce921215a32837dc6ec64ca36d175e3dc21c5b5e",
+    "implementations/web/docs/components/navigation-pagination.md": "8a0d1711e55555b5b4f60c05593df85663bfb056c7bd9f99a8f1c51c5a628727",
+    "implementations/web/docs/components/navigation-switch-tab-item.md": "7662ba2f3f4258edcdbec5dbee3540b5f3c4437f44639faec6652c4e4f725dd9",
+    "implementations/web/docs/components/navigation-switch-tab.md": "f0c5c06b36a74b842a77ae31ec73feef24a586392337126676910a0fc17de4dd",
+    "implementations/web/docs/components/navigation-tab.md": "067a69b395f23086980ead2c850a91c926755e60d9641feb03fdf55e17aa031a",
+    "implementations/web/docs/components/radio-button.md": "7f3011c6be632dcb2338458207ea159a0bfe538437e718d777bdefb95b510cd2",
+    "implementations/web/docs/components/scrollbar.md": "ee61665ade9334f7aa4ee7af33a4b9b20f8f87add4a33f3d8a58590420197c40",
+    "implementations/web/docs/components/search.md": "d3f1790cf243c8d884b6e24c5ce336c108aea2d601d15b1180c70876b760af80",
+    "implementations/web/docs/components/select.md": "6b031ce8ddcbc95174d0c400d5f5831ea8d874e555841e18b96b9461afea3a71",
+    "implementations/web/docs/components/sidebar.md": "29b6d783ed16db4f8a8365bbc7f36322272cfb614c129ecc5914de4067df8b19",
+    "implementations/web/docs/components/stepper.md": "d347bb1ed95affb30473e53eb8352774eac25a491d42993a5713127610c80ff7",
+    "implementations/web/docs/components/steps.md": "820d665538afd8648d0278ed02f4f98207e0fd8226f73804b302dcaa1b1c47b5",
+    "implementations/web/docs/components/table.md": "97bd497d50628ac9520590ea800af021bebb50d386db25f6178880ebb56fc1a7",
+    "implementations/web/docs/components/textarea.md": "1995f1323e1a77d65d75c3f0a8aeda2bc8d430e341f26dcf43f1befcd8b781c0",
+    "implementations/web/docs/components/toggle.md": "c7f11b5af8530d8d90302d092df396f1612813ef7453891c6afd8d23a2783709",
+    "implementations/web/docs/components/tooltip.md": "61a6549261b71b72f6f83029520eae0f908fa9660136656c4c7d7d3c6537b02f",
     "implementations/web/package.json": "dccd60589734104dbd4d1dbb820cc0d251c70feeacc9783a1e19a1e410c61a1f",
     "implementations/web/pnpm-lock.yaml": "322c144890040bc4d882686b46f7014bb539c56354d6bb77c46a153125d9ca37",
     "implementations/web/pnpm-workspace.yaml": "ac6feac7259e8e24ba96967180130eb0ba838b836db8ac324e5abe7badfbdc24",
     "implementations/web/tsconfig.json": "6690483f10d0f6ad7c7f81f7343da341462c9dde4ac808893fc9f3b67f5e23ef",
     "qa/contracts/anticipa-screen-composition.v0.1.0.review.md": "c614ac21c831e381c7036dce7270bbfb82be46aa84b521638b5237ce5a5a715d",
     "qa/contracts/anticipa-screen-composition.v0.1.0.verification.json": "9f8b201d1200691e43b21997bd69746c08dffd6eab30adc4acdc817b98c5fe30",
+    "qa/contracts/app-shell.embedded-chat.v0.1.1.review.md": "c1afdb701563db5fa3867ebbd26d468b77338f823ad18d2176c83170c5f9661b",
+    "qa/contracts/app-shell.embedded-chat.v0.1.1.validation.json": "4dc7c46788219d01a49f33c32bd2d6060db192a9f33cca61e78eedf0ae304563",
     "qa/contracts/app-shell.v0.1.0.review.md": "6586c3e9f451de40d5103fe843236284a0ed484fd779e5ad2cae0f07a007d63a",
     "qa/contracts/avatar.source-color-amendment.v0.1.1.review.md": "7385f55a13efb7a8e63e4ddd3d4f6d86b15f50c7d7f86a319be8b849b3bfee66",
     "qa/contracts/avatar.source.component-contract.review.md": "ca33a80147d391da2f82d5e4f910dc65989b50b8a12cc217d774b50f3c01bb5e",
@@ -453,6 +471,7 @@
     "qa/contracts/breadcrumb-item.source.component-contract.review.md": "146c995485893bc91b4d9e868abe3090e5733661f45f43c7b9f56dbd0c121545",
     "qa/contracts/breadcrumbs.source.component-contract.review.md": "1fc8f9037bda5e3bc0f990654737701c42a5b5e5b05bb101dcfb4b24daca0dcc",
     "qa/contracts/breadcrumbs.v0.1.0.review.md": "24d76758b21479566e23a3566e9d90ca3ddf30865fd170aa252e1ed60ad04bdc",
+    "qa/contracts/button-evolution.v0.3.0.review.md": "9609966125c84841ece0e064a346a9ebc6fb2caa6b0144532b3cb560e77d0c90",
     "qa/contracts/button-usage.v0.2.0.review.md": "c2fcb53addafdef0467617389346b53ea184eff6bb7b2ae3fc757797618de116",
     "qa/contracts/button.local-bindings.v0.2.2.review.md": "084730ccebbd3ee4ced62d25dc8732989469f0c6875cba6fd3be08691565a1c7",
     "qa/contracts/button.review.md": "12dc9151e4a2befab8a5e7c07f159f6622000dc5e8e180e5dee64c530199a9c9",
@@ -471,6 +490,11 @@
     "qa/contracts/checkbox.v0.1.0.review.md": "19ed39ccd93ffb649646f0ec98002640d5190376e0af5cc6ba9e96f90f1b7a69",
     "qa/contracts/composition-slots.v0.1.0.review.md": "22ec5a597298a4b6e2939d43ee3ffa21b68565d195f9872e7d811d9c3f33b595",
     "qa/contracts/composition-slots.v0.1.1.review.md": "261114d4aeccefcfd205cd2cc6e6b374379e93363e616b1e70f4d66c36a33abb",
+    "qa/contracts/conversation-composer.v0.1.2.canonical-check.json": "a3d32783ee3701ed361f8cdff70ff1cd78e5a4ff918b75aff7e4b05b0d41a1f1",
+    "qa/contracts/conversation-composer.v0.1.2.review.md": "022d3dd1a0e6ca4e6ae2bea3e00884ce367b7a643559d84f5fac1ea1b58df10a",
+    "qa/contracts/conversation-composer.v0.1.2.selector-check.json": "f6f52ecccfeed46f9e166b79a66baf2f3e2235a1f79e31f01217e24aa2a99644",
+    "qa/contracts/conversation-composer.v0.1.3.preflight.json": "1bb6ab8b91a7c5524c13d4bdd5f812d6b28de4bbfa2d6b79d85deb56425bf993",
+    "qa/contracts/conversation-composer.v0.1.3.review.md": "7ea86716fc3875dc49a38067c48e7bbc1bca28aa1fd3fe9142b0b9004dcd7eee",
     "qa/contracts/conversation.characters.v0.1.1.review.md": "909d8e11331c3707911a57f96719d08fe405c63a539b2768e2856b33df861592",
     "qa/contracts/conversation.source-intake.2026-10-08.review.md": "18db3dcb2e86ca1a93f8d86014f6b1af5350a97e2f9700f7bf52b802f3355fb9",
     "qa/contracts/conversation.v0.1.0.pre-promotion.md": "cb0d6bae4eeeabd7205ecf73ef3f3a5988329753bb106de65a7dfaba5d18b0bd",
@@ -582,6 +606,8 @@
     "qa/implementations/breadcrumbs.color.v0.1.0.source.json": "070e6cdf4793727460276932a6678bcb5929bd56dee488711c47b108fba0f319",
     "qa/implementations/breadcrumbs.v0.1.0.figma.review.md": "4d42ee31ca1634b7a2651fbc14ee3d8835c69367e1bdebe6de8f1d00b3fb6f14",
     "qa/implementations/button-description.v0.2.0.figma.review.md": "53f0215666ea8c5f086bfa5f7f7fe5abdb73f66a3b3cfc0a8614a345c6b87397",
+    "qa/implementations/button-evolution.v0.3.0.browser.json": "bf16b8f796d967a616514e249bf0b66f59250f35ce8ec020533cfc1247e4d87b",
+    "qa/implementations/button-evolution.v0.3.0.review.md": "c9c5cf1cf0418440fecda89d822e8d2c82d8ee14a9e69363f9120b3f60f732da",
     "qa/implementations/button.figma.preflight.md": "b331fb587de9a3e0f17d4807c021487a409aa9cb4737a306da43593636eee418",
     "qa/implementations/button.figma.review.md": "349ade7952772613c1d61e77f96ac2d6bf18bc66352ffcecd812902c7385707e",
     "qa/implementations/button.local-bindings.v0.2.2.figma.review.md": "fd3f1322f4bc7be7cefbe8628a7c81917907fc9d3290839574cb31612a488857",
@@ -635,6 +661,19 @@
     "qa/implementations/composition-slots.v0.1.1.pagination.json": "6657f3a0b5b537aeb97aaae936cf8e95660046ad5e7a4d8f4b9761ca15e26d02",
     "qa/implementations/composition-slots.v0.1.1.steps.json": "5deec6b2744d1538cff28e4b700bc06e47e392753c875ec81976ec4c4c545755",
     "qa/implementations/control-colors.v0.1.0.figma.review.md": "369097b6e27803250981c4a239827578bf39b093e5c31ac2c13ad498e68c43a2",
+    "qa/implementations/conversation-composer.v0.1.2.final.json": "58b575898db45118dbdd8e9ebb1d98c39d924acf098ec11698bee616d1aa471f",
+    "qa/implementations/conversation-composer.v0.1.2.manifest.json": "78d8f252ecf567a860fadea5cc468052d1088db27069cdc7c836f56978993b61",
+    "qa/implementations/conversation-composer.v0.1.2.range-bindings.json": "86370971ab391883a9763690283dfe6a54be661c798f4a32b15d85391570f8d5",
+    "qa/implementations/conversation-composer.v0.1.2.readback.json": "a98c1f90c6060c258273bb0dda3755fc101c7af46e9eadf6055e968d787932b9",
+    "qa/implementations/conversation-composer.v0.1.2.review.md": "780eedce7ba3746714307478bcb5ec2407b62a8685d0ca58249822609b9080d8",
+    "qa/implementations/conversation-composer.v0.1.2.slots.json": "80bbe389de0dc4b5ebfc6e6b170fab6818478b2cd341b13eee85fa4dd9685942",
+    "qa/implementations/conversation-composer.v0.1.2.themes.json": "11221237e32a230f086dddd4298a42d0016e7ecc5dd945997a685e5d96311242",
+    "qa/implementations/conversation-composer.v0.1.2.write.json": "db9d2500fbda55a6252bdf887e16c40630b4248a60df1f6f57429c44aab6ea41",
+    "qa/implementations/conversation-composer.v0.1.3.final.json": "e1f4710117b239afab902fcad7de13d3fc36dee60fdb0327036e7170c0397748",
+    "qa/implementations/conversation-composer.v0.1.3.manifest.json": "ff38102e3990e5a6e70baefceadee093f903f8f7fa217e19c57404bcf4278d42",
+    "qa/implementations/conversation-composer.v0.1.3.review.md": "d55f006f73473cfb0e61f4c4536a8aaa145fa8aa1e229f7b1c4054f4a721cac3",
+    "qa/implementations/conversation-composer.v0.1.3.slots.json": "eae6b953b5e1e7008fce9c2ec3dd9bb751eaa952d305da3e01b11d9219a9f9c3",
+    "qa/implementations/conversation-composer.v0.1.3.write.json": "91cde8aafeeb1accff27808c7ca99f42226eacd3c05e228f45d633944758f39e",
     "qa/implementations/conversation.characters.v0.1.1.final.json": "f10462093dbdcbe516f04776d6ae05abafe6aa935a6939aa0bba2cc1e99f13b6",
     "qa/implementations/conversation.characters.v0.1.1.review.md": "3a2b983f53f8b4ace49bc56d45460498fc1aa91107cf67c28f26332af1a2283a",
     "qa/implementations/conversation.v0.1.0.all-nodes.audit.json": "fb49bf617adfdee4eecc7e48d80c76258e758ac15bed833b6d95ba105bfca114",
@@ -1254,6 +1293,9 @@
     "qa/implementations/web.fidelity.v0.1.2.review.md": "1859df0de5716bd6f678eef98e32845c4fa96b1a8c428f21cb4b3d2b35e7b573",
     "qa/implementations/web.v0.1.0.results.json": "62deefc63fbdbeca4fd3b3436b3cee0d9674a4e266ae02e6a4e9745bffd75f38",
     "qa/implementations/web.v0.1.0.review.md": "1820b93e176a941c8d058967ed6ad3ee15fd227c497a4f22b5e41f6da0a8d637",
+    "qa/skills/conversation-composer-2026-10-20.json": "d5d860814e13cf6e79c8c3f56f6d38554fbcd8208b781c3d31a111bf85d50f0e",
+    "qa/skills/conversation-composer-slot-2026-10-20.json": "e347492d68a4bdd3c631989b1f292dac61975f970b49b142fedd8544d48e7a26",
+    "qa/skills/embedded-chat-shell-2026-10-20.json": "b74cb702e7814e7f0f831fa6ed05c779066097d639ba31f292c87073bbf08c64",
     "qa/skills/export.2026-10-14.json": "b87105abc8512f6f6b235736a8bda3c12ad5ac8b025768f03db19a6a974895cf",
     "qa/skills/figma.forward-test.2026-10-14.md": "6dce50b5c3be6527f7b39206ab0ac74b53247e95c453cb326a4f7bf6558aea64",
     "qa/skills/install.2026-10-14.json": "7fe5905c6aee07bbe1e3e59b05fa41fa72f38c5465691f849a2a1f51b076accc",
@@ -1293,7 +1335,7 @@
     "qa/skills/release-0.2.1/installed-check.json": "8dbbe6356956dd907606cb111c5388c0f2f8f93340a129e9ae9dcdefa700ea16",
     "qa/skills/release-0.2.1/legacy-before-install.json": "39ca408b77482f0ddb11716cfe919c44a33d08869430014874b367931016658c",
     "qa/skills/release-0.2.1/manifest-summary.json": "4e8eef0e992a98b86ecbbbd2f6dea5c5014cbdb546006782fafdf0125bd84868",
-    "qa/skills/release-0.2.1/md-forward-test.md": "81145ddf1dde5f6bee765966e390478539e8e6cb266c0f3374d48a27bac5cb4b",
+    "qa/skills/release-0.2.1/md-forward-test.md": "71188f1e787034fdc4ba7f977715b5d89b652de41215362f02ae0cb6a873b69c",
     "qa/skills/release-0.2.1/offline-summary.json": "2840975b1a202783b6503fa0f8a5c48e92976165f670547d1e826ce2255c2672",
     "qa/skills/release-0.2.1/preservation.json": "4cc249225ba9408f3207ea43c7a9df8cacbabb6667424f4b9e5272d1e78224eb",
     "qa/skills/release-0.2.1/release-before-export.json": "6eee72eff2e065a36af05f8bd39333a7e080c6ba30313fb9f29109d75ea937c2",
@@ -1316,16 +1358,23 @@
     "qa/skills/release-0.2.6/skills-export.json": "517f6a35ea9ab64da516676cf149e20cfe374599f90d6366f83f5b3d19bbc1ec",
     "qa/skills/release-check.2026-10-14.json": "1e395e7ac2f2a49f2016d731873de7c82183b57b86f1d23695026dba9b7a9e22",
     "qa/skills/release.manifest.2026-10-14.json": "ca2af86d2b2ee635422a177b1f7000bbbaf04987e93249308cee5f0cfda6fb1f",
+    "qa/skills/remote-consumption/README.md": "7ec0c40354706f3ec00cdf4da3e7c5ab189dcb908da233a0737615e29e781da1",
     "qa/skills/skills.release.v0.1.0.review.md": "8fb10298eed2d5b11162b8777e40b36599ab596b99b289353245ff80821b0514",
+    "qa/tooling/graph-first/audit.md": "6bfd3f244ea0f0fa358d7f4ed8574620458fed54c22010f48d9ee0eda1b3972b",
+    "qa/tooling/graph-first/documentation-check.json": "9b160b59d2a04e068a80bf260b3c55fce2276f7740923961c79642e4cf852c11",
+    "qa/tooling/graph-first/report.md": "40fb7eb8c3bbe113ee8b4381135428ef7ebed7c227fa8a94e6b52eb47c81eab1",
     "qa/tooling/project-tooling.2026-10-13.review.md": "6827b267245f1bce5d13611c94ff99dcce2284bca465530b91e7706a4e639b6d",
     "qa/tooling/retention.2026-10-13.manifest.json": "781b9bebba4802d757a9fbff8ba8274234c40775ef55a5c4b059a8c2f503ae9d",
     "qa/tooling/retention.2026-10-13.results.json": "b4e74f118ad9dcf45a02f2ba714bbd495baa3436513da7f26621fc72f28cfbdc",
     "qa/tooling/retention.2026-10-13.review.md": "266e6b81208336a054ae1d9437107a102b0c6440da43307d3666066e688aaff2",
     "registry/DEC-AI-TECHNICAL-CLOSURE-001.md": "39e61ad4424a01d6328000dae50676e30521e9d3d096754585451494a800b0cf",
     "registry/DEC-APP-SHELL-INTEGRATION-001.md": "42e96e4d8905386dabf2dd61cf2177a3fe6f64d620b1ba3fed4f2103f65a96d4",
+    "registry/DEC-BUTTON-EVOLUTION-001.md": "bdb1d3a2d7551cf8bd5857052c6afe5897b3608940c8587d0fe96fdcc8fe13c9",
     "registry/DEC-CHARACTER-IDENTITY-001.md": "84002e6810453e354f74981c16463a35b45938716b489c1fc85e06f00a77fbe7",
     "registry/DEC-DS-SKILLS-001.md": "dd334ed801c7997190eacd14119e3749ab5ef701ce070818cf0f6946b8cc9b2c",
+    "registry/DEC-EFFICIENT-CLOSURE-001.md": "b9a9cc84b8dfe76e159090dcfac06328b7219fe23c849c6ab31b61fa84405869",
     "registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md": "2b36479384125167b272bbf4126edbd5e08ef3af5ed0ab84535676171e033d88",
+    "registry/DEC-GIT-PUBLICATION-001.md": "c4f6a01b2d8f22f876296503c9ab42ea2b168d050c3162356000d85ab2a4edbf",
     "registry/DEC-GRAPH-CONTINUOUS-SYNC-001.md": "f3584fd5347b234be7702bb86875d56906425a027df7bab7a5f6de27cc4e87b1",
     "registry/DEC-TABLE-ANTICIPA-SOURCE-001.md": "3408f40e82b97eb99bd43c2e47ef64d16563e5b3dd3d63b8b9430b9633a82984",
     "registry/DEC-TYPOGRAPHY-STYLES-001.md": "9a4e9d0b1e11a4bffbae55674e5fb32145e46bd4484e4f398b1eac51c3abaec3",
@@ -1356,22 +1405,23 @@
     "registry/SESSION-HANDOFF-2026-10-09-FUENTES.md": "79fe3a9ea306587900e629ca350642df901e7c755bb0618ac6635e0f7c8853a2",
     "registry/SESSION-HANDOFF-2026-10-15-TYPOGRAPHY-CONSUMERS.md": "a6120f3fc5ad2c4fc7c572b47598a012a4c77ddc8cbaaa1185057acb6f5bc816",
     "registry/SLOTS-REVIEW-STATUS.md": "876a1fef06af2c22a956aec6ccacc2cde295cd5e940a39997f4c6356d71a22ad",
-    "registry/contracts.md": "7ea725f621c044086be202b48c12a91b9278718c877d4f4e1b33991de1ba4463",
-    "registry/decisions.md": "eb616074f28a8139a4c4f2e0a85047e2ab8546243ea55d31ac207569d3ee3621",
-    "registry/environment.md": "580c44c816947da3d97bd22e39b658fccfcabe4e2b2e63df1ee257c8f3b9fe04",
+    "registry/contracts.md": "9a148c15ce3353e153b2d78b2c7a848680296b81893d3829d260f906d230e27f",
+    "registry/decisions.md": "058b7bb0e69c9c673e2e8388fbab0f869bf5180e94392b46383b9e829b92ccd1",
+    "registry/environment.md": "a12a14b0ae1256be9aaf4c946c3924b8c8450423984d0387f62f5a69a6d5bc2b",
     "registry/github-publication.md": "5ab81f1d14f999b04bf7605ab5af432879b09f03d085dc409ab7facca1bfe86e",
-    "registry/implementations.md": "a3e71a56f1e918262117da9c886aee4b9db5ecd24dc2e1236155ef9eddbda6fd",
+    "registry/implementations.md": "100df9ebf768ceea6609ca95054564ce898a06bc11b6909d187394fe6990743b",
     "registry/protocol-migrations.md": "7c4fc98b9b938471929b0436880eff0df1e537efbd913de0364b2f8f7c05c4d9",
-    "registry/qa.md": "b10107ef22c9619a2fe972002446a0786ae2c2032bd8280d56d50998e3985ffd",
-    "registry/skills.md": "284e4dd3f270edb363c6f3da1a0fe6ad3f03c4ba84c234bc4684ca822b6e8424",
-    "registry/sources.md": "871917f56f329be4f8769e7d7ff166e4cc6bc12293dcecffd7baf38ffd686fca",
-    "scripts/ds_core.py": "fb19d66b8652d63a0e2b4c76902114d38168f262e4a88fd2fc552b9b080a434c",
-    "scripts/ds_yaml.rb": "0ecdee03b903dbed80ef314f7e4a48656b74138954ff6ac15eb65cd676920d65",
+    "registry/qa.md": "1eafb9023634772bad5dd9c77fa3becf63437aa326e079f11f2eae6967f36290",
+    "registry/refactor-backlog.md": "371d4b88cf9b2f08b6509e7ce9b382747e26ae2ce5aca2ba9abd1702102a6958",
+    "registry/skills.md": "2e48b3f5e618379362d6a616f073465c083f600a2224a7801340e9874abad074",
+    "registry/sources.md": "1af11266d26ae08f06595750b1d079c4ebf001e917fa09e3a14393e21210a212",
+    "scripts/ds_core.py": "4b6988b42d298abcfdd4378dbebae3f9e840383caf44dbdf0fd8db3476fb76b0",
+    "scripts/ds_yaml.rb": "ffd23461122eae70c83e5f3dd62949417f41d6881b41a2420ddadb597ca1d8bd",
     "specs/MIGRATION-AUDIT.md": "8670891be92c485d97f50d8f5f362733bddfa97e7ebc69d5a9defad46bbb216e",
     "specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.1.md": "36c249756d45c8e63083d7a8f66c07ef6b92aa9f9a561e1125ba79cdd9773908",
     "specs/MIGRATION-TOKEN-TRACEABILITY.amendment.v0.1.2.md": "19874f1a561e64e363e8a4cc24fe81588a5eb8adacfbd57efcfc4ccc95b59362",
     "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md": "135732d2d2d63261319627bc22eb1b887d2ba00a62dce51bbc2bde80bea1d7ce",
-    "specs/MIGRATION-TRACEABILITY-STATUS.md": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+    "specs/MIGRATION-TRACEABILITY-STATUS.md": "b9b949a6722773f08c5c3a94b9a9b922220ba7b610713a807a2f809f738eae6e",
     "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md": "da00e475aef0de122831af0ba454b375772294d3afd1f7df4a962de52f778b59",
     "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55",
     "specs/app-shell.contract.v0.1.0.md": "f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e",
@@ -1385,6 +1435,7 @@
     "specs/checkbox.contract.v0.1.0.md": "3da31a285167015d8998dc926a13b1a5e6d95b1b07d25f1405d5df9b55628095",
     "specs/checkbox.source-color-amendment.v0.1.1.md": "9826dafb742b5efe427ff897f1dcb440cb9e01fdffbd9ef162e11530c24f06b4",
     "specs/components/README.md": "cb3d11428add073383794200c5890d649838e8dfc4f97b5e235aea5b028746d0",
+    "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8",
     "specs/components/app-shell.typography.amendment.v0.1.0.md": "74768a9059fed6ab27bbe6bc4b081f1ba4bae3b4e504e334ab442c45785cb31b",
     "specs/components/avatar.source-color-amendment.v0.1.1.md": "f1a010f1dc3f6ee85b756dc3131840d7fcfd3b6f346077bbb4fb3d445d79832d",
     "specs/components/avatar.typography.amendment.v0.1.0.md": "b0a593025a3fc3c453869a80dcc34b9ed9f01e88e36502fc9706853286dc97d6",
@@ -1395,6 +1446,7 @@
     "specs/components/button-page-name.amendment.md": "b2c896cab9f2f5659101253dbc93ce0410c697081e53daafecebbc5b62895fd7",
     "specs/components/button.contract.md": "4b94f80787c1fc9d9990f806c99900e17db060e65b624471b0c8d93f534f2abb",
     "specs/components/button.contract.v0.2.0.md": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+    "specs/components/button.evolution.amendment.v0.3.0.md": "bf9c23f26cbd2582ff3d99aeb484916368d55a7c861d6291ad5b7ffcc578281b",
     "specs/components/button.local-bindings.amendment.v0.2.2.md": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
     "specs/components/button.semantic-scope-amendment.v0.2.1.md": "8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9",
     "specs/components/button.typography.amendment.v0.1.0.md": "7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b",
@@ -1407,6 +1459,8 @@
     "specs/components/chat.layout.amendment.v0.1.1.md": "f381c86b294d48087bc8c8eea2f216f4dcba9b6a900affe783601ef94f3e7b9c",
     "specs/components/checkbox.typography.amendment.v0.1.0.md": "b5845133b85b4e0a978375553b893c0ef532da4ca04f52cc6e7196bbb0535358",
     "specs/components/conversation.character-identity.amendment.v0.1.1.md": "8112028e22246a5aec596d640d8fafba3e7748afe744d58e12b9bd79a948779f",
+    "specs/components/conversation.composer-action.amendment.v0.1.2.md": "70b8a9efc172797049ceab6125d8fdfd257eff86eb4221afc2468e266338a3a5",
+    "specs/components/conversation.composer-slot.amendment.v0.1.3.md": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3",
     "specs/components/conversation.typography.amendment.v0.1.0.md": "e4e72ab5c84cb6e2e7fb2f5209f5bb42c25c03ed325eaedb94b63f36d38fc5d0",
     "specs/components/dot.contract.v0.1.0.md": "31bc2874b34be08187163584701fc8a1be0d66b0479fadd304d81fa67ca2bc77",
     "specs/components/dot.source-color-amendment.v0.1.2.md": "c336802895843eb6cfbc64b74dbfebcabfc767a766d821195723e13bfc8b3df7",
@@ -1517,6 +1571,7 @@
     "specs/steps.contract.v0.1.0.md": "dad5b88393048c35391c09a5a13369849adf5b6fb9f1bfdd9fe16847690697e9",
     "specs/table.contract.v0.1.0.md": "e3b7b1c999fa8f59c839a082cde95f5709d21375feb4bc2fefd26652c2394108",
     "specs/textarea.contract.v0.1.0.md": "5458ad9a5e9352e58b77106c40dd8df272cf07c4bd5534a59337926be943a1fa",
+    "specs/tokens/ai-design-system.button-danger.v0.1.0.json": "7649759d7c7c0943eb063aadb69be7926185d96936800cbc3114d002ca40bd89",
     "specs/tokens/ai-design-system.character-identity.v0.1.0.json": "08d7ce889cae493027d97af1cf991ed77a5a11941eb02926a4c8d46eb0711fe4",
     "specs/tokens/ai-design-system.character-shadow.v0.1.0.json": "9ff2751fb2ac32d5ce4960c5d24fdcc928a98331331a45e826dfb5cebbe3b0e4",
     "specs/tokens/ai-design-system.inverse-icon.v0.1.0.json": "7f982ccc0952adbc3eef0ec9e96da0f5531fe9ce643a69156492fab0a8372a7f",
@@ -1608,11 +1663,35 @@
         }
       },
       "base_history_and_candidates": [],
-      "amendments": [],
+      "amendments": [
+        {
+          "id": "APP-SHELL-EMBEDDED-CHAT-001",
+          "path": "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md",
+          "sha256": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "APP-SHELL-EMBEDDED-CHAT-001",
+            "version": "0.1.1",
+            "status": "DELEGATED_FOR_BUILD",
+            "applies_to": "APP-SHELL-001",
+            "base_contract": "specs/app-shell.contract.v0.1.0.md",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "figma_page_name": "Layout",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "target_node_id": "1108:3201",
+            "slot_applicability": "REQUIRED"
+          }
+        }
+      ],
       "declared_fields_by_scope": {
         "status": [
           {
             "source": "specs/app-shell.contract.v0.1.0.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md",
             "value": "DELEGATED_FOR_BUILD"
           }
         ],
@@ -1620,12 +1699,20 @@
           {
             "source": "specs/app-shell.contract.v0.1.0.md",
             "value": "PENDING"
+          },
+          {
+            "source": "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md",
+            "value": "NOT_REQUIRED"
           }
         ],
         "figma_page_name": [
           {
             "source": "specs/app-shell.contract.v0.1.0.md",
             "value": "App Shell"
+          },
+          {
+            "source": "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md",
+            "value": "Layout"
           }
         ],
         "review_targets": "UNKNOWN",
@@ -1636,6 +1723,10 @@
             "value": [
               "REQ-AS-07 / P-SLOTS: **REQUIRED** para Content. Mecanismo nativo SLOT con propiedad vinculada, no un frame solo llamado Slot. Header Actions y Sidebar Menu items/Lower options conservan sus Slots existentes y propietarios. No anidar mains ni hacer detach. Referencias: `specs/header.contract.v0.1.0.md`, main518:123; `specs/sidebar.contract.v0.1.0.md`, set619:480, Collapsed619:481/Expanded619:496. No mutar esos principales."
             ]
+          },
+          {
+            "source": "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md",
+            "value": "REQUIRED"
           }
         ],
         "implementation_review": "UNKNOWN",
@@ -1654,7 +1745,9 @@
           }
         }
       ],
-      "qa_refs": [],
+      "qa_refs": [
+        "qa/contracts/app-shell.embedded-chat.v0.1.1.review.md"
+      ],
       "authority_refs": [],
       "closure_and_exception_evidence": [],
       "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
@@ -1771,7 +1864,7 @@
       "closure_and_exception_evidence": [
         {
           "source": "specs/MIGRATION-TRACEABILITY-STATUS.md",
-          "source_sha256": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+          "source_sha256": "b9b949a6722773f08c5c3a94b9a9b922220ba7b610713a807a2f809f738eae6e",
           "heading": "## Paso 4 · promoción a specs · 2026-10-06",
           "targets": [
             "TOOLTIP-001",
@@ -1780,7 +1873,7 @@
             "LOGOS-001"
           ],
           "text": "**19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.\n\n**Bases aún sin promoción:** Tooltip (AUD-004), Toggle (AUD-003 y revisión transversal), Avatar (AUD-006), Logos (57 deltas sin aceptación). Son asuntos ya registrados, no tareas añadidas. Las demás bases cerradas ya están en specs. Publicar enmiendas acotadas no certifica estas cuatro familias completas. No hubo cambios Figma ni publicación de biblioteca; Graphify sigue STALE.",
-          "line": 27
+          "line": 31
         }
       ],
       "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
@@ -2365,6 +2458,31 @@
           }
         },
         {
+          "id": "AMD-BUTTON-EVOLUTION-001",
+          "path": "specs/components/button.evolution.amendment.v0.3.0.md",
+          "sha256": "bf9c23f26cbd2582ff3d99aeb484916368d55a7c861d6291ad5b7ffcc578281b",
+          "kind": "amendment",
+          "metadata": {
+            "amendment_id": "AMD-BUTTON-EVOLUTION-001",
+            "applies_to": "BUTTON-001",
+            "base_contract_version": "0.2.0",
+            "version": "0.3.0",
+            "status": "DELEGATED_FOR_BUILD",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "last_updated": "2026-10-26",
+            "operation": "UPDATE",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "target_page": "Buttons",
+            "target_page_id": "0:1",
+            "target_set_id": "26:81",
+            "slot_applicability": "NOT_APPLICABLE",
+            "data_ref": "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "publication_policy": "AUTHORIZED_BY_USER",
+            "publication_decision": "registry/DEC-GIT-PUBLICATION-001.md"
+          }
+        },
+        {
           "id": "AMD-BUTTON-LOCAL-BINDINGS-001",
           "path": "specs/components/button.local-bindings.amendment.v0.2.2.md",
           "sha256": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
@@ -2440,6 +2558,10 @@
             "value": "APPROVED"
           },
           {
+            "source": "specs/components/button.evolution.amendment.v0.3.0.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
             "source": "specs/components/button.local-bindings.amendment.v0.2.2.md",
             "value": "DELEGATED_FOR_BUILD"
           },
@@ -2453,6 +2575,10 @@
           }
         ],
         "user_audit": [
+          {
+            "source": "specs/components/button.evolution.amendment.v0.3.0.md",
+            "value": "NOT_REQUIRED"
+          },
           {
             "source": "specs/components/button.local-bindings.amendment.v0.2.2.md",
             "value": "PENDING"
@@ -2477,6 +2603,10 @@
         ],
         "readiness_by_target": "UNKNOWN",
         "slot_applicability": [
+          {
+            "source": "specs/components/button.evolution.amendment.v0.3.0.md",
+            "value": "NOT_APPLICABLE"
+          },
           {
             "source": "specs/components/button.local-bindings.amendment.v0.2.2.md",
             "value": "NOT_APPLICABLE"
@@ -2526,6 +2656,7 @@
         }
       ],
       "qa_refs": [
+        "qa/contracts/button-evolution.v0.3.0.review.md",
         "qa/contracts/button.local-bindings.v0.2.2.review.md",
         "qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md",
         "qa/contracts/specs-promotion.2026-10-06.review.md",
@@ -2536,6 +2667,8 @@
         "qa/implementations/six-families.color.v0.1.0.review.md"
       ],
       "authority_refs": [
+        "registry/DEC-AI-TECHNICAL-CLOSURE-001.md",
+        "registry/DEC-GIT-PUBLICATION-001.md",
         "registry/decisions.md",
         "registry/sources.md"
       ],
@@ -3463,6 +3596,42 @@
             "decision": "DEC-CHARACTER-IDENTITY-001",
             "slot_applicability": "NOT_APPLICABLE"
           }
+        },
+        {
+          "id": "CONVERSATION-COMPOSER-ACTION-001",
+          "path": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+          "sha256": "70b8a9efc172797049ceab6125d8fdfd257eff86eb4221afc2468e266338a3a5",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "CONVERSATION-COMPOSER-ACTION-001",
+            "version": "0.1.2",
+            "status": "DELEGATED_FOR_BUILD",
+            "applies_to": "CONVERSATION-001",
+            "base_contract": "specs/conversation.contract.v0.1.0.md",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "figma_page_name": "Conversation",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "slot_applicability": "REQUIRED"
+          }
+        },
+        {
+          "id": "CONVERSATION-COMPOSER-SLOT-001",
+          "path": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+          "sha256": "ee58562f873ddc27de09da898e19c3747bc2f6bea1e0909040cb84401474a4b3",
+          "kind": "amendment",
+          "metadata": {
+            "contract_id": "CONVERSATION-COMPOSER-SLOT-001",
+            "version": "0.1.3",
+            "status": "DELEGATED_FOR_BUILD",
+            "applies_to": "CONVERSATION-001",
+            "base_contract": "specs/conversation.contract.v0.1.0.md",
+            "user_audit": "NOT_REQUIRED",
+            "human_review_policy": "OPTIONAL_NON_BLOCKING",
+            "figma_page_name": "Conversation",
+            "target_file_key": "tj3WIBEZDGLVs7MJWKCwgf",
+            "slot_applicability": "REQUIRED"
+          }
         }
       ],
       "declared_fields_by_scope": {
@@ -3474,6 +3643,14 @@
           {
             "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
             "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "DELEGATED_FOR_BUILD"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "DELEGATED_FOR_BUILD"
           }
         ],
         "user_audit": [
@@ -3484,11 +3661,27 @@
           {
             "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
             "value": "PENDING"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "NOT_REQUIRED"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "NOT_REQUIRED"
           }
         ],
         "figma_page_name": [
           {
             "source": "specs/conversation.contract.v0.1.0.md",
+            "value": "Conversation"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "Conversation"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
             "value": "Conversation"
           }
         ],
@@ -3502,12 +3695,56 @@
           {
             "source": "specs/components/conversation.character-identity.amendment.v0.1.1.md",
             "value": "NOT_APPLICABLE"
+          },
+          {
+            "source": "specs/components/conversation.composer-action.amendment.v0.1.2.md",
+            "value": "REQUIRED"
+          },
+          {
+            "source": "specs/components/conversation.composer-slot.amendment.v0.1.3.md",
+            "value": "REQUIRED"
           }
         ],
         "implementation_review": "UNKNOWN",
         "implementation_status": "UNKNOWN"
       },
       "implementation_evidence": [
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.2.preflight.json",
+          "contract_refs": [],
+          "declared": {}
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.2.state.json",
+          "contract_refs": [
+            "specs/components/conversation.composer-action.amendment.v0.1.2.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Aviso opcional y parámetros corregidos; no revalida toda Conversation",
+            "user_audit": "NOT_REQUIRED",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation-composer.v0.1.2.review.md"
+          }
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.3.preflight.json",
+          "contract_refs": [],
+          "declared": {}
+        },
+        {
+          "path": "implementations/figma/conversation-composer.v0.1.3.state.json",
+          "contract_refs": [
+            "specs/components/conversation.composer-slot.amendment.v0.1.3.md"
+          ],
+          "declared": {
+            "status": "VALIDATED",
+            "scope": "Slot Notice content del Composer; no revalidación global de Conversation",
+            "user_audit": "NOT_REQUIRED",
+            "libraryPublication": "UNPUBLISHED",
+            "qa": "qa/implementations/conversation-composer.v0.1.3.review.md"
+          }
+        },
         {
           "path": "implementations/figma/conversation.characters.v0.1.1.state.json",
           "contract_refs": [
@@ -3546,10 +3783,17 @@
         }
       ],
       "qa_refs": [
+        "qa/contracts/conversation-composer.v0.1.2.canonical-check.json",
+        "qa/contracts/conversation-composer.v0.1.2.review.md",
+        "qa/contracts/conversation-composer.v0.1.3.preflight.json",
+        "qa/contracts/conversation-composer.v0.1.3.review.md",
+        "qa/implementations/conversation-composer.v0.1.2.review.md",
+        "qa/implementations/conversation-composer.v0.1.3.review.md",
         "qa/implementations/conversation.v0.1.0.contrast.json",
         "qa/implementations/conversation.v0.1.0.review.md"
       ],
       "authority_refs": [
+        "registry/DEC-AI-TECHNICAL-CLOSURE-001.md",
         "registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md"
       ],
       "closure_and_exception_evidence": [],
@@ -5488,7 +5732,7 @@
         },
         {
           "source": "specs/MIGRATION-TRACEABILITY-STATUS.md",
-          "source_sha256": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+          "source_sha256": "b9b949a6722773f08c5c3a94b9a9b922220ba7b610713a807a2f809f738eae6e",
           "heading": "## Paso 4 · promoción a specs · 2026-10-06",
           "targets": [
             "TOOLTIP-001",
@@ -5497,7 +5741,7 @@
             "LOGOS-001"
           ],
           "text": "**19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.\n\n**Bases aún sin promoción:** Tooltip (AUD-004), Toggle (AUD-003 y revisión transversal), Avatar (AUD-006), Logos (57 deltas sin aceptación). Son asuntos ya registrados, no tareas añadidas. Las demás bases cerradas ya están en specs. Publicar enmiendas acotadas no certifica estas cuatro familias completas. No hubo cambios Figma ni publicación de biblioteca; Graphify sigue STALE.",
-          "line": 27
+          "line": 31
         }
       ],
       "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
@@ -7846,7 +8090,7 @@
       "closure_and_exception_evidence": [
         {
           "source": "specs/MIGRATION-TRACEABILITY-STATUS.md",
-          "source_sha256": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+          "source_sha256": "b9b949a6722773f08c5c3a94b9a9b922220ba7b610713a807a2f809f738eae6e",
           "heading": "## Paso 4 · promoción a specs · 2026-10-06",
           "targets": [
             "TOOLTIP-001",
@@ -7855,9 +8099,54 @@
             "LOGOS-001"
           ],
           "text": "**19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.\n\n**Bases aún sin promoción:** Tooltip (AUD-004), Toggle (AUD-003 y revisión transversal), Avatar (AUD-006), Logos (57 deltas sin aceptación). Son asuntos ya registrados, no tareas añadidas. Las demás bases cerradas ya están en specs. Publicar enmiendas acotadas no certifica estas cuatro familias completas. No hubo cambios Figma ni publicación de biblioteca; Graphify sigue STALE.",
-          "line": 27
+          "line": 31
         }
       ],
+      "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
+    },
+    {
+      "id": "TOOLING-GRAPH-CONSUMPTION-001",
+      "resolution": "RESOLVED",
+      "base": {
+        "id": "TOOLING-GRAPH-CONSUMPTION-001",
+        "path": "drafts/contracts/graph-first-consumption.contract.v0.1.0.md",
+        "sha256": "2f32bdb748f576ef469a972a7948566742d60fb1db6da94c24eae31d7175aee6",
+        "kind": "base",
+        "metadata": {
+          "contract_id": "TOOLING-GRAPH-CONSUMPTION-001",
+          "version": "0.1.0",
+          "type": "tooling",
+          "status": "DELEGATED_FOR_BUILD",
+          "user_audit": "NOT_REQUIRED",
+          "human_review_policy": "OPTIONAL_NON_BLOCKING"
+        }
+      },
+      "base_history_and_candidates": [],
+      "amendments": [],
+      "declared_fields_by_scope": {
+        "status": [
+          {
+            "source": "drafts/contracts/graph-first-consumption.contract.v0.1.0.md",
+            "value": "DELEGATED_FOR_BUILD"
+          }
+        ],
+        "user_audit": [
+          {
+            "source": "drafts/contracts/graph-first-consumption.contract.v0.1.0.md",
+            "value": "NOT_REQUIRED"
+          }
+        ],
+        "figma_page_name": "UNKNOWN",
+        "review_targets": "UNKNOWN",
+        "readiness_by_target": "UNKNOWN",
+        "slot_applicability": "UNKNOWN",
+        "implementation_review": "UNKNOWN",
+        "implementation_status": "UNKNOWN"
+      },
+      "implementation_evidence": [],
+      "qa_refs": [],
+      "authority_refs": [],
+      "closure_and_exception_evidence": [],
       "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"
     },
     {
@@ -7967,7 +8256,7 @@
       "closure_and_exception_evidence": [
         {
           "source": "specs/MIGRATION-TRACEABILITY-STATUS.md",
-          "source_sha256": "9c418a32ebb1a315efe5553ee66581655f8b36640dcf11680d0efb4194417b3f",
+          "source_sha256": "b9b949a6722773f08c5c3a94b9a9b922220ba7b610713a807a2f809f738eae6e",
           "heading": "## Paso 4 · promoción a specs · 2026-10-06",
           "targets": [
             "TOOLTIP-001",
@@ -7976,7 +8265,7 @@
             "LOGOS-001"
           ],
           "text": "**19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.\n\n**Bases aún sin promoción:** Tooltip (AUD-004), Toggle (AUD-003 y revisión transversal), Avatar (AUD-006), Logos (57 deltas sin aceptación). Son asuntos ya registrados, no tareas añadidas. Las demás bases cerradas ya están en specs. Publicar enmiendas acotadas no certifica estas cuatro familias completas. No hubo cambios Figma ni publicación de biblioteca; Graphify sigue STALE.",
-          "line": 27
+          "line": 31
         }
       ],
       "next_action": "Inspect scoped QA, exceptions and unvalidated fields; no global PASS inferred"

@@ -8,7 +8,7 @@ ROOT, WEB=tokens.ROOT,tokens.WEB
 def build():
     rows=json.loads((WEB/'components.registry.json').read_text())
     status=json.loads(subprocess.check_output([str(ROOT/'scripts/ds'),'status','--json'],cwd=ROOT,text=True))
-    active={f['id']:f for f in status['families'] if f['base'] and not f['id'].startswith(('FOUNDATIONS-','MIGRATION-'))}
+    active={f['id']:f for f in status['families'] if f['base'] and not f['id'].startswith(('FOUNDATIONS-','MIGRATION-','TOOLING-'))}
     ids=[r['id'] for r in rows]
     assert len(ids)==len(set(ids)),'IDs de familia duplicados'
     assert set(ids)==set(active),f'Cobertura P07 pendiente: {set(active)-set(ids)}; entradas obsoletas: {set(ids)-set(active)}'

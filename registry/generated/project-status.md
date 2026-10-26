@@ -7,11 +7,11 @@ Los estados de QA son evidencia declarada por documento, sin nueva lectura Figma
 | Familia | Base | Estado documental | Enmiendas | Evidencia de implementación |
 |---|---|---|---|---|
 | ANTICIPA-SCREEN-COMPOSITION-001 | CANDIDATE_ONLY | UNKNOWN | 0 | 0 registros por alcance |
-| APP-SHELL-001 | [0.1.0](../../specs/app-shell.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 1 registros por alcance |
+| APP-SHELL-001 | [0.1.0](../../specs/app-shell.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 1 registros por alcance |
 | AVATAR-001 | [0.1.0](../../drafts/contracts/avatar.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 0 registros por alcance |
 | BADGE-001 | [0.1.0](../../specs/components/badge.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 3 | 1 registros por alcance |
 | BREADCRUMBS-001 | [0.1.0](../../specs/breadcrumbs.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 2 | 2 registros por alcance |
-| BUTTON-001 | [0.2.0](../../specs/components/button.contract.v0.2.0.md) | APPROVED | 5 | 3 registros por alcance |
+| BUTTON-001 | [0.2.0](../../specs/components/button.contract.v0.2.0.md) | APPROVED | 6 | 3 registros por alcance |
 | CHARACTERS-001 | [0.1.0](../../specs/characters.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 3 registros por alcance |
 | CHARTS-001 | [0.1.0](../../specs/charts.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 2 | 2 registros por alcance |
 | CHAT-HISTORY-ITEM-001 | [0.1.0](../../specs/chat-history-item.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 0 registros por alcance |
@@ -19,7 +19,7 @@ Los estados de QA son evidencia declarada por documento, sin nueva lectura Figma
 | CHAT-TOOL-ITEM-001 | [0.1.0](../../specs/chat-tool-item.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 0 registros por alcance |
 | CHAT-TOOLBAR-001 | [0.1.0](../../specs/chat-toolbar.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 2 registros por alcance |
 | CHECKBOX-001 | [0.1.0](../../specs/checkbox.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 2 | 0 registros por alcance |
-| CONVERSATION-001 | [0.1.0](../../specs/conversation.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 4 registros por alcance |
+| CONVERSATION-001 | [0.1.0](../../specs/conversation.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 3 | 8 registros por alcance |
 | DOT-001 | [0.1.0](../../specs/components/dot.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 0 registros por alcance |
 | DROPDOWN-ITEM-001 | [0.1.0](../../specs/dropdown-item.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 1 registros por alcance |
 | EMPTY-STATES-001 | [0.1.0](../../specs/empty-states.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 2 registros por alcance |
@@ -53,6 +53,7 @@ Los estados de QA son evidencia declarada por documento, sin nueva lectura Figma
 | TABLE-001 | [0.1.0](../../specs/table.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 3 registros por alcance |
 | TEXTAREA-001 | [0.1.0](../../specs/textarea.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 1 registros por alcance |
 | TOGGLE-001 | [0.1.0](../../drafts/contracts/toggle.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 8 | 0 registros por alcance |
+| TOOLING-GRAPH-CONSUMPTION-001 | [0.1.0](../../drafts/contracts/graph-first-consumption.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 0 registros por alcance |
 | TOOLTIP-001 | [0.1.0](../../drafts/contracts/tooltip.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 0 registros por alcance |
 
 ## ANTICIPA-SCREEN-COMPOSITION-001
@@ -73,12 +74,14 @@ Resolución: CANDIDATE_ONLY. Auditoría, preparación y QA permanecen separados.
 Base: [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md).
 Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 
-- Auditoría humana: PENDING en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md).
-- Página declarada: App Shell en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md).
+- Auditoría humana: PENDING en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md); NOT_REQUIRED en [specs/components/app-shell.embedded-chat.amendment.v0.1.1.md](../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md).
+- Página declarada: App Shell en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md); Layout en [specs/components/app-shell.embedded-chat.amendment.v0.1.1.md](../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md).
 - Preparación: UNKNOWN.
-- Slots: ['REQ-AS-07 / P-SLOTS: **REQUIRED** para Content. Mecanismo nativo SLOT con propiedad vinculada, no un frame solo llamado Slot. Header Actions y Sidebar Menu items/Lower options conservan sus Slots existentes y propietarios. No anidar mains ni hacer detach. Referencias: `specs/header.contract.v0.1.0.md`, main518:123; `specs/sidebar.contract.v0.1.0.md`, set619:480, Collapsed619:481/Expanded619:496. No mutar esos principales.'] en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md).
+- Slots: ['REQ-AS-07 / P-SLOTS: **REQUIRED** para Content. Mecanismo nativo SLOT con propiedad vinculada, no un frame solo llamado Slot. Header Actions y Sidebar Menu items/Lower options conservan sus Slots existentes y propietarios. No anidar mains ni hacer detach. Referencias: `specs/header.contract.v0.1.0.md`, main518:123; `specs/sidebar.contract.v0.1.0.md`, set619:480, Collapsed619:481/Expanded619:496. No mutar esos principales.'] en [specs/app-shell.contract.v0.1.0.md](../../specs/app-shell.contract.v0.1.0.md); REQUIRED en [specs/components/app-shell.embedded-chat.amendment.v0.1.1.md](../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md).
 - Revisión de implementación declarada: UNKNOWN.
+- Enmienda: [specs/components/app-shell.embedded-chat.amendment.v0.1.1.md](../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/app-shell.v0.1.0.state.json](../../implementations/figma/app-shell.v0.1.0.state.json) — {"status": "VALIDATED", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED"}.
+- QA por alcance: [qa/contracts/app-shell.embedded-chat.v0.1.1.review.md](../../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md).
 - Preparación no declarada: UNKNOWN; no se deduce del estado documental.
 - Pendientes/excepciones: [auditoría](../../specs/MIGRATION-AUDIT.md) y [trazabilidad vigente](../../specs/MIGRATION-TRACEABILITY-STATUS.md).
 
@@ -95,7 +98,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Enmienda: [specs/components/avatar.source-color-amendment.v0.1.1.md](../../specs/components/avatar.source-color-amendment.v0.1.1.md) — DELEGATED_FOR_BUILD; AVATAR-001 only for fallback color Servicios and related contrast claim.
 - QA por alcance: [qa/contracts/avatar.source-color-amendment.v0.1.1.review.md](../../qa/contracts/avatar.source-color-amendment.v0.1.1.review.md), [qa/contracts/specs-promotion.2026-10-06.review.md](../../qa/contracts/specs-promotion.2026-10-06.review.md), [qa/implementations/avatar.source-color.v0.1.1.figma.review.md](../../qa/implementations/avatar.source-color.v0.1.1.figma.review.md).
 
-Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 27).
+Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 31).
 
 > **19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.
 > 
@@ -151,21 +154,22 @@ Cierre/excepción con alcance explícito: [Actualización cromática de seis fam
 Base: [specs/components/button.contract.v0.2.0.md](../../specs/components/button.contract.v0.2.0.md).
 Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 
-- Auditoría humana: PENDING en [specs/components/button.local-bindings.amendment.v0.2.2.md](../../specs/components/button.local-bindings.amendment.v0.2.2.md); PENDING en [specs/components/button.semantic-scope-amendment.v0.2.1.md](../../specs/components/button.semantic-scope-amendment.v0.2.1.md); PENDING en [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md).
+- Auditoría humana: NOT_REQUIRED en [specs/components/button.evolution.amendment.v0.3.0.md](../../specs/components/button.evolution.amendment.v0.3.0.md); PENDING en [specs/components/button.local-bindings.amendment.v0.2.2.md](../../specs/components/button.local-bindings.amendment.v0.2.2.md); PENDING en [specs/components/button.semantic-scope-amendment.v0.2.1.md](../../specs/components/button.semantic-scope-amendment.v0.2.1.md); PENDING en [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md).
 - Página declarada: UNKNOWN.
 - Preparación: UNKNOWN.
-- Slots: NOT_APPLICABLE en [specs/components/button.local-bindings.amendment.v0.2.2.md](../../specs/components/button.local-bindings.amendment.v0.2.2.md).
+- Slots: NOT_APPLICABLE en [specs/components/button.evolution.amendment.v0.3.0.md](../../specs/components/button.evolution.amendment.v0.3.0.md); NOT_APPLICABLE en [specs/components/button.local-bindings.amendment.v0.2.2.md](../../specs/components/button.local-bindings.amendment.v0.2.2.md).
 - Revisión de implementación declarada: UNKNOWN.
 - Enmienda: [drafts/contracts/button.semantic-scope-amendment.v0.2.1.candidate.md](../../drafts/contracts/button.semantic-scope-amendment.v0.2.1.candidate.md) — DRAFT; ['REQ-BTN-004', 'AC-BTN-004'].
 - Enmienda: [specs/components/button-page-name.amendment.md](../../specs/components/button-page-name.amendment.md) — APPROVED; ['REQ-BTN-007', 'AC-BTN-007'].
+- Enmienda: [specs/components/button.evolution.amendment.v0.3.0.md](../../specs/components/button.evolution.amendment.v0.3.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Enmienda: [specs/components/button.local-bindings.amendment.v0.2.2.md](../../specs/components/button.local-bindings.amendment.v0.2.2.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Enmienda: [specs/components/button.semantic-scope-amendment.v0.2.1.md](../../specs/components/button.semantic-scope-amendment.v0.2.1.md) — DELEGATED_FOR_BUILD; ['REQ-BTN-004', 'AC-BTN-004'].
 - Enmienda: [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/buttons.local-bindings.v0.2.2.state.json](../../implementations/figma/buttons.local-bindings.v0.2.2.state.json) — {"implementationStatus": "VALIDATED", "scope": "In-place replacement of nine remote variables / 722 references; regression of scoped consumers only", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED_THIS_TASK", "qa": {"bindingChecks": 722, "aliasChecks": 36, "remainingRemoteVariables": 0, "uniqueConsumedVariables": 34, "changedPixels": 0, "consumerRegressionErrors": 0}}.
 - Implementación: [implementations/figma/buttons.local-bindings.v0.2.2.token-map.json](../../implementations/figma/buttons.local-bindings.v0.2.2.token-map.json) — {}.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
-- QA por alcance: [qa/contracts/button.local-bindings.v0.2.2.review.md](../../qa/contracts/button.local-bindings.v0.2.2.review.md), [qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md](../../qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md), [qa/contracts/specs-promotion.2026-10-06.review.md](../../qa/contracts/specs-promotion.2026-10-06.review.md), [qa/implementations/button.local-bindings.v0.2.2.figma.review.md](../../qa/implementations/button.local-bindings.v0.2.2.figma.review.md), [qa/implementations/button.semantic-scope.v0.2.1.figma.review.md](../../qa/implementations/button.semantic-scope.v0.2.1.figma.review.md), [qa/implementations/buttons.local-bindings.v0.2.2.before.json](../../qa/implementations/buttons.local-bindings.v0.2.2.before.json), [qa/implementations/buttons.refinement.v0.1.0.remote-variables.json](../../qa/implementations/buttons.refinement.v0.1.0.remote-variables.json), [qa/implementations/six-families.color.v0.1.0.review.md](../../qa/implementations/six-families.color.v0.1.0.review.md).
-- Autoridad/registro: [registry/decisions.md](../../registry/decisions.md), [registry/sources.md](../../registry/sources.md).
+- QA por alcance: [qa/contracts/button-evolution.v0.3.0.review.md](../../qa/contracts/button-evolution.v0.3.0.review.md), [qa/contracts/button.local-bindings.v0.2.2.review.md](../../qa/contracts/button.local-bindings.v0.2.2.review.md), [qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md](../../qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md), [qa/contracts/specs-promotion.2026-10-06.review.md](../../qa/contracts/specs-promotion.2026-10-06.review.md), [qa/implementations/button.local-bindings.v0.2.2.figma.review.md](../../qa/implementations/button.local-bindings.v0.2.2.figma.review.md), [qa/implementations/button.semantic-scope.v0.2.1.figma.review.md](../../qa/implementations/button.semantic-scope.v0.2.1.figma.review.md), [qa/implementations/buttons.local-bindings.v0.2.2.before.json](../../qa/implementations/buttons.local-bindings.v0.2.2.before.json), [qa/implementations/buttons.refinement.v0.1.0.remote-variables.json](../../qa/implementations/buttons.refinement.v0.1.0.remote-variables.json), [qa/implementations/six-families.color.v0.1.0.review.md](../../qa/implementations/six-families.color.v0.1.0.review.md).
+- Autoridad/registro: [registry/DEC-AI-TECHNICAL-CLOSURE-001.md](../../registry/DEC-AI-TECHNICAL-CLOSURE-001.md), [registry/DEC-GIT-PUBLICATION-001.md](../../registry/DEC-GIT-PUBLICATION-001.md), [registry/decisions.md](../../registry/decisions.md), [registry/sources.md](../../registry/sources.md).
 - Historia/candidatos: [drafts/contracts/button.contract.md](../../drafts/contracts/button.contract.md), [drafts/contracts/button.contract.v0.2.0.md](../../drafts/contracts/button.contract.v0.2.0.md), [specs/components/button.contract.md](../../specs/components/button.contract.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
@@ -319,18 +323,24 @@ Cierre/excepción con alcance explícito: [Radio Buttons / Checkboxes · cierre 
 Base: [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md).
 Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 
-- Auditoría humana: PENDING en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md); PENDING en [specs/components/conversation.character-identity.amendment.v0.1.1.md](../../specs/components/conversation.character-identity.amendment.v0.1.1.md).
-- Página declarada: Conversation en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md).
+- Auditoría humana: PENDING en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md); PENDING en [specs/components/conversation.character-identity.amendment.v0.1.1.md](../../specs/components/conversation.character-identity.amendment.v0.1.1.md); NOT_REQUIRED en [specs/components/conversation.composer-action.amendment.v0.1.2.md](../../specs/components/conversation.composer-action.amendment.v0.1.2.md); NOT_REQUIRED en [specs/components/conversation.composer-slot.amendment.v0.1.3.md](../../specs/components/conversation.composer-slot.amendment.v0.1.3.md).
+- Página declarada: Conversation en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md); Conversation en [specs/components/conversation.composer-action.amendment.v0.1.2.md](../../specs/components/conversation.composer-action.amendment.v0.1.2.md); Conversation en [specs/components/conversation.composer-slot.amendment.v0.1.3.md](../../specs/components/conversation.composer-slot.amendment.v0.1.3.md).
 - Preparación: UNKNOWN.
-- Slots: REQUIRED en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md); NOT_APPLICABLE en [specs/components/conversation.character-identity.amendment.v0.1.1.md](../../specs/components/conversation.character-identity.amendment.v0.1.1.md).
+- Slots: REQUIRED en [specs/conversation.contract.v0.1.0.md](../../specs/conversation.contract.v0.1.0.md); NOT_APPLICABLE en [specs/components/conversation.character-identity.amendment.v0.1.1.md](../../specs/components/conversation.character-identity.amendment.v0.1.1.md); REQUIRED en [specs/components/conversation.composer-action.amendment.v0.1.2.md](../../specs/components/conversation.composer-action.amendment.v0.1.2.md); REQUIRED en [specs/components/conversation.composer-slot.amendment.v0.1.3.md](../../specs/components/conversation.composer-slot.amendment.v0.1.3.md).
 - Revisión de implementación declarada: UNKNOWN.
 - Enmienda: [specs/components/conversation.character-identity.amendment.v0.1.1.md](../../specs/components/conversation.character-identity.amendment.v0.1.1.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
+- Enmienda: [specs/components/conversation.composer-action.amendment.v0.1.2.md](../../specs/components/conversation.composer-action.amendment.v0.1.2.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
+- Enmienda: [specs/components/conversation.composer-slot.amendment.v0.1.3.md](../../specs/components/conversation.composer-slot.amendment.v0.1.3.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
+- Implementación: [implementations/figma/conversation-composer.v0.1.2.preflight.json](../../implementations/figma/conversation-composer.v0.1.2.preflight.json) — {}.
+- Implementación: [implementations/figma/conversation-composer.v0.1.2.state.json](../../implementations/figma/conversation-composer.v0.1.2.state.json) — {"status": "VALIDATED", "scope": "Aviso opcional y parámetros corregidos; no revalida toda Conversation", "user_audit": "NOT_REQUIRED", "libraryPublication": "UNPUBLISHED", "qa": "qa/implementations/conversation-composer.v0.1.2.review.md"}.
+- Implementación: [implementations/figma/conversation-composer.v0.1.3.preflight.json](../../implementations/figma/conversation-composer.v0.1.3.preflight.json) — {}.
+- Implementación: [implementations/figma/conversation-composer.v0.1.3.state.json](../../implementations/figma/conversation-composer.v0.1.3.state.json) — {"status": "VALIDATED", "scope": "Slot Notice content del Composer; no revalidación global de Conversation", "user_audit": "NOT_REQUIRED", "libraryPublication": "UNPUBLISHED", "qa": "qa/implementations/conversation-composer.v0.1.3.review.md"}.
 - Implementación: [implementations/figma/conversation.characters.v0.1.1.state.json](../../implementations/figma/conversation.characters.v0.1.1.state.json) — {"status": "VALIDATED", "scope": "Fixed character colors only", "userAudit": "PENDING", "libraryPublication": "UNPUBLISHED", "qa": "qa/implementations/conversation.characters.v0.1.1.review.md"}.
 - Implementación: [implementations/figma/conversation.v0.1.0.preflight.json](../../implementations/figma/conversation.v0.1.0.preflight.json) — {}.
 - Implementación: [implementations/figma/conversation.v0.1.0.state.json](../../implementations/figma/conversation.v0.1.0.state.json) — {"status": "VALIDATED", "scope": "Visual Figma component with documented inherited exceptions; no frontend behavior", "userAudit": "PENDING", "libraryPublication": "UNPUBLISHED", "qa": "qa/implementations/conversation.v0.1.0.review.md"}.
 - Implementación: [implementations/figma/conversation.v0.1.0.tokens-readback.json](../../implementations/figma/conversation.v0.1.0.tokens-readback.json) — {}.
-- QA por alcance: [qa/implementations/conversation.v0.1.0.contrast.json](../../qa/implementations/conversation.v0.1.0.contrast.json), [qa/implementations/conversation.v0.1.0.review.md](../../qa/implementations/conversation.v0.1.0.review.md).
-- Autoridad/registro: [registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md](../../registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md).
+- QA por alcance: [qa/contracts/conversation-composer.v0.1.2.canonical-check.json](../../qa/contracts/conversation-composer.v0.1.2.canonical-check.json), [qa/contracts/conversation-composer.v0.1.2.review.md](../../qa/contracts/conversation-composer.v0.1.2.review.md), [qa/contracts/conversation-composer.v0.1.3.preflight.json](../../qa/contracts/conversation-composer.v0.1.3.preflight.json), [qa/contracts/conversation-composer.v0.1.3.review.md](../../qa/contracts/conversation-composer.v0.1.3.review.md), [qa/implementations/conversation-composer.v0.1.2.review.md](../../qa/implementations/conversation-composer.v0.1.2.review.md), [qa/implementations/conversation-composer.v0.1.3.review.md](../../qa/implementations/conversation-composer.v0.1.3.review.md), [qa/implementations/conversation.v0.1.0.contrast.json](../../qa/implementations/conversation.v0.1.0.contrast.json), [qa/implementations/conversation.v0.1.0.review.md](../../qa/implementations/conversation.v0.1.0.review.md).
+- Autoridad/registro: [registry/DEC-AI-TECHNICAL-CLOSURE-001.md](../../registry/DEC-AI-TECHNICAL-CLOSURE-001.md), [registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md](../../registry/DEC-EXTERNAL-COMPONENTS-DELEGATION-001.md).
 - Preparación no declarada: UNKNOWN; no se deduce del estado documental.
 - Pendientes/excepciones: [auditoría](../../specs/MIGRATION-AUDIT.md) y [trazabilidad vigente](../../specs/MIGRATION-TRACEABILITY-STATUS.md).
 
@@ -608,7 +618,7 @@ Cierre/excepción con alcance explícito: [Logos · decisión acotada pendiente 
 > El [paso3](../../qa/implementations/logos.refinement.v0.1.1.review.md) revalidó seis sets/72 variantes/2967 nodos. Arte y dependencias conservados, Personas exacto. Persisten57 diferencias geométricas de hasta0.00030517578125px; las pruebas seguras en clones no resolvieron la igualdad y los principales quedaron intactos. Única propuesta pendiente: aceptar esos deltas específicos sin tolerancia general, redibujo ni escalado. No se declara VALIDATED_WITH_EXCEPTIONS hasta aceptación explícita. Los doce assets siguen omitidos; las exportaciones nuevas observadas en fuente no son tarea de migración añadida.
 
 
-Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 27).
+Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 31).
 
 > **19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.
 > 
@@ -919,12 +929,25 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - QA por alcance: [qa/contracts/specs-promotion.2026-10-06.review.md](../../qa/contracts/specs-promotion.2026-10-06.review.md), [qa/contracts/toggle.contrast-amendment.v0.1.1.review.md](../../qa/contracts/toggle.contrast-amendment.v0.1.1.review.md), [qa/contracts/toggle.focus-effect-amendment.v0.1.3.review.md](../../qa/contracts/toggle.focus-effect-amendment.v0.1.3.review.md), [qa/contracts/toggle.mixed-amendment.v0.1.4.review.md](../../qa/contracts/toggle.mixed-amendment.v0.1.4.review.md), [qa/contracts/toggle.source-color-amendment.v0.1.5.review.md](../../qa/contracts/toggle.source-color-amendment.v0.1.5.review.md), [qa/contracts/toggle.v0.1.0.review.md](../../qa/contracts/toggle.v0.1.0.review.md), [qa/contracts/toggle.visual-contrast-amendment.v0.1.2.review.md](../../qa/contracts/toggle.visual-contrast-amendment.v0.1.2.review.md), [qa/implementations/toggle.mixed.v0.1.4.figma.review.md](../../qa/implementations/toggle.mixed.v0.1.4.figma.review.md), [qa/implementations/toggle.source-color.v0.1.5.figma.review.md](../../qa/implementations/toggle.source-color.v0.1.5.figma.review.md), [qa/implementations/toggle.v0.1.0.contrast-finding.md](../../qa/implementations/toggle.v0.1.0.contrast-finding.md), [qa/implementations/toggle.v0.1.1.visual-fidelity-finding.md](../../qa/implementations/toggle.v0.1.1.visual-fidelity-finding.md), [qa/implementations/toggle.v0.1.2.figma.review.md](../../qa/implementations/toggle.v0.1.2.figma.review.md), [qa/implementations/toggle.v0.1.3.figma.review.md](../../qa/implementations/toggle.v0.1.3.figma.review.md).
 - Historia/candidatos: [drafts/contracts/toggle.contract.v0.1.0.candidate.md](../../drafts/contracts/toggle.contract.v0.1.0.candidate.md).
 
-Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 27).
+Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 31).
 
 > **19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.
 > 
 > **Bases aún sin promoción:** Tooltip (AUD-004), Toggle (AUD-003 y revisión transversal), Avatar (AUD-006), Logos (57 deltas sin aceptación). Son asuntos ya registrados, no tareas añadidas. Las demás bases cerradas ya están en specs. Publicar enmiendas acotadas no certifica estas cuatro familias completas. No hubo cambios Figma ni publicación de biblioteca; Graphify sigue STALE.
 
+- Preparación no declarada: UNKNOWN; no se deduce del estado documental.
+- Pendientes/excepciones: [auditoría](../../specs/MIGRATION-AUDIT.md) y [trazabilidad vigente](../../specs/MIGRATION-TRACEABILITY-STATUS.md).
+
+## TOOLING-GRAPH-CONSUMPTION-001
+
+Base: [drafts/contracts/graph-first-consumption.contract.v0.1.0.md](../../drafts/contracts/graph-first-consumption.contract.v0.1.0.md).
+Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
+
+- Auditoría humana: NOT_REQUIRED en [drafts/contracts/graph-first-consumption.contract.v0.1.0.md](../../drafts/contracts/graph-first-consumption.contract.v0.1.0.md).
+- Página declarada: UNKNOWN.
+- Preparación: UNKNOWN.
+- Slots: UNKNOWN.
+- Revisión de implementación declarada: UNKNOWN.
 - Preparación no declarada: UNKNOWN; no se deduce del estado documental.
 - Pendientes/excepciones: [auditoría](../../specs/MIGRATION-AUDIT.md) y [trazabilidad vigente](../../specs/MIGRATION-TRACEABILITY-STATUS.md).
 
@@ -942,7 +965,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Autoridad/registro: [registry/decisions.md](../../registry/decisions.md).
 - Historia/candidatos: [drafts/contracts/tooltip.contract.v0.1.0.candidate.md](../../drafts/contracts/tooltip.contract.v0.1.0.candidate.md).
 
-Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 27).
+Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-10-06](../../specs/MIGRATION-TRACEABILITY-STATUS.md) (línea 31).
 
 > **19 enmiendas promovidas** con QA documental/técnico del alcance cerrado:13 Foundations, una Buttons, una Avatar y cuatro Toggle. [Índice y QA](../../qa/contracts/specs-promotion.2026-10-06.review.md), [verificación](../../qa/contracts/specs-promotion.2026-10-06.verification.json). Rutas previas son punteros; datos JSON y QA históricos intactos. Los campos sustituidos remiten a sus enmiendas vigentes; no se reactivan ajustes de contraste históricos.
 > 

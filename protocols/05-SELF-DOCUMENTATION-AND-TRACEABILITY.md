@@ -139,3 +139,13 @@ Para las skills aplica [P08](08-SKILLS-AND-RELEASES.md). Registra por separado i
 Explica qué se recibió, redactó o construyó; desde qué fuentes; qué comprobaciones se ejecutaron; qué está aprobado y qué no; qué bloquea la siguiente fase. Usa vínculos a archivos/IDs verificables y no afirmes validaciones inexistentes.
 
 El criterio de cierre es que otro agente pueda continuar con los archivos del proyecto sin depender de esta conversación ni confundir una plantilla con un contrato vigente.
+
+## Índice de consumo Graph-First · 2026-10-23
+
+El índice reducido se prepara localmente después del cierre P05 CURRENT mediante `scripts/ds_consumption.py --prepare`, usando el intérprete configurado para Graphify. `scripts/ds_consumption.py` sin argumentos valida la preparación sin ejecutar extracción. Luego `scripts/ds_remote.py` ensambla catálogo e índice como una unidad y `--check` verifica su vigencia. GitHub Actions ejecuta únicamente pruebas, validación y publicación; no crea conocimiento semántico ni repara un índice STALE. Si falta preparación o difieren fuentes/herramientas, conserva el puntero anterior.
+
+Una sola fuente `scripts/consumer_graph.py` se distribuye por el empaquetador en ambos motores. La versión del índice es independiente del protocolo compatible del catálogo. El grafo sigue siendo derivado; cada resultado remite al snapshot y documentos originales. Fallback registrado sobre fuentes verificadas; conflictos y límites nunca producen éxito parcial. Los comprobantes preparados viven en `catalog/prepared/`, excluidos del corpus Graphify como los demás derivados del catálogo.
+
+## Cierre coordinado e incremental · 2026-10-23
+
+Por [DEC-EFFICIENT-CLOSURE-001](../registry/DEC-EFFICIENT-CLOSURE-001.md), usar scripts/ds close --run ID según la [guía](../references/EFFICIENT-CLOSURE.md). El comando coordina escritores, comparte comprobaciones del mismo corte y genera catálogo y ZIP con integridad final. Sustituye la ejecución redundante de subcomandos equivalentes; conserva todos los criterios de QA. Los comandos individuales siguen disponibles. Los estados BUSY/WAITING_FOR_SEMANTICS requieren reutilizar al propietario, no otro rebuild; NEEDS_SEMANTICS conserva la extracción semántica del delta según la skill. Registrar métricas reales y límites de atribución. No concede publicación remota.

@@ -14,14 +14,15 @@
       "specs/components/button.local-bindings.amendment.v0.2.2.md",
       "specs/components/button.semantic-scope-amendment.v0.2.1.md",
       "specs/components/six-family-color.amendment.v0.1.0.md",
-      "specs/components/button.typography.amendment.v0.1.0.md"
+      "specs/components/button.typography.amendment.v0.1.0.md",
+      "specs/components/button.evolution.amendment.v0.3.0.md"
     ],
     "slots": {
       "status": "NOT_APPLICABLE",
       "reason": "Anatomía fija; texto, icono o estado tipado. Sin lista de composición abierta."
     },
-    "notes": "Defaults del maestro: primary/large, texto Default y dos PlusCircle Light visibles; showLeftIcon/showRightIcon independientes. Los ejemplos de producto ocultan iconos salvo que aporten significado (REQ-BTN-014). button type=button por defecto; href crea enlace. Pseudoestados CSS del navegador, sin envío de formulario implícito.",
-    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
+    "notes": "Defaults del maestro: primary/large, texto Default y dos PlusCircle Light visibles; showLeftIcon/showRightIcon independientes. Los ejemplos de producto ocultan iconos salvo que aporten significado (REQ-BTN-014). button type=button por defecto; href crea enlace. Pseudoestados CSS del navegador, sin envío de formulario implícito. Ampliación 0.3.0: danger y loading en tres tamaños; Loader local a la derecha (24/20/16), sustituye iconos durante carga. Loading bloquea activación/navegación y comunica aria-busy conservando foco; disabled tiene precedencia. Foco separado 2 px, trazo 2 px y radio 12 px. No impone confirmaciones ni acciones remotas.",
+    "qa": "qa/implementations/button-evolution.v0.3.0.review.md"
   },
   {
     "id": "ICON-BUTTON-001",

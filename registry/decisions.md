@@ -511,3 +511,7 @@ El usuario solicita agregar Slot después del cierre del aviso Composer 0.1.2. S
 ## DEC-EMBEDDED-CHAT-ARCHITECTURE-001 · 2026-10-20
 
 Solicitud EXPLICIT: documentar el App Shell1108:3201 para que cada chat embebido en un aplicativo respete su arquitectura. Header y navegación global conservados; cabecera contextual y Chat Section izquierda/Chat Toolbar derecha dentro de Content. Máximo816 heredado de la enmienda vigente Chat Layout0.1.1. Adopción DELEGATED_FOR_BUILD tras QA documental PASS; no normaliza detalles de la muestra ni reconstruye Figma. Se integra al canal de ambas skills de Evolution-Lab conforme al flujo vigente. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## DEC-BUTTON-EVOLUTION-001 · 2026-10-23
+
+[Decisión y límites](DEC-BUTTON-EVOLUTION-001.md): ampliar Button con danger/carga y actualizar configuración de foco en AI Design System, preservando variantes anteriores. Documentación aditiva antes de construcción; publicación Git retenida hasta revisión del usuario.

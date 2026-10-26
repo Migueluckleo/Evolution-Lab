@@ -503,3 +503,7 @@ Solicitud posterior y confirmación explícita: Slot para todo el aviso, texto y
 ## SRC-EMBEDDED-CHAT-SHELL-20261020 · INDEXED · 2026-10-20
 
 Fuente del usuario: App Shell | Chat embebido1108:3201, página Layout1108:620, instancia del main737:304, en tj3WIBEZDGLVs7MJWKCwgf. [Índice](../sources/figma-snapshots/embedded-chat-shell.1108-3201.index.2026-10-20.json) y batches completos:340 nodos/96 instancias/55 principales/98 variables/20 estilos. [Extracción MD/YAML](../drafts/contracts/embedded-chat-shell/component-contract.md). Solo lectura; sin importar dependencias ni alterar Figma. [Enmienda](../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md); [QA documental](../qa/contracts/app-shell.embedded-chat.v0.1.1.review.md). user_audit: NOT_REQUIRED; human_review_policy: OPTIONAL_NON_BLOCKING.
+
+## SRC-BUTTON-EVOLUTION-20261023 · 2026-10-23
+
+Fuente indicada: EGUrRbbjSizruuBL4XFTfT, 10:4046; [contexto](../sources/figma-snapshots/button-evolution.sample-context.2026-10-23.json) y [principal relacionado 10:3444](../sources/figma-snapshots/button-evolution.related-source.2026-10-23.json). Observaciones conservadas sin modificar la fuente. [Snapshot previo del DS](../sources/figma-snapshots/button-evolution.all-variants-before.2026-10-23.json). Las diferencias de nomenclatura, tipografía, posición de Loader y color de foco se resuelven explícitamente en la [enmienda 0.3.0](../specs/components/button.evolution.amendment.v0.3.0.md), bajo la discreción solicitada por el usuario.

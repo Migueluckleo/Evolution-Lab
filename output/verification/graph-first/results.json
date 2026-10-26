@@ -1,0 +1,1201 @@
+{
+  "status": "PASS",
+  "remote_publication": "BLOCKED_BY_EXPLICIT_BUTTON_HOLD; not requested",
+  "branch": "codex/graph-first-consumption",
+  "steps": {
+    "graph-current": {
+      "exit_code": 0,
+      "log": "graph-current.log",
+      "result": {
+        "status": "CURRENT",
+        "errors": [],
+        "files": 2465,
+        "nodes": 14118,
+        "edges": 33624,
+        "scope": "Graph freshness/integrity, not Figma validation"
+      }
+    },
+    "prepare": {
+      "exit_code": 0,
+      "log": "prepare.log",
+      "result": {
+        "status": "CURRENT",
+        "index_bytes": 311526,
+        "documents": 331,
+        "relations": 905
+      }
+    },
+    "prepared-validation": {
+      "exit_code": 0,
+      "log": "prepared-validation.log",
+      "result": {
+        "status": "CURRENT",
+        "index_bytes": 311526
+      }
+    },
+    "catalog-build": {
+      "exit_code": 0,
+      "log": "catalog-build.log",
+      "result": {
+        "status": "CURRENT",
+        "files": 2217,
+        "components": 43,
+        "ds_digest": "f447cf83455f3df10ce5cebd81361e7f9455d30e7bfc47e5614225838df37dce",
+        "bundle_bytes": 9493445
+      }
+    },
+    "catalog-check": {
+      "exit_code": 0,
+      "log": "catalog-check.log",
+      "result": {
+        "status": "CURRENT",
+        "ds_digest": "f447cf83455f3df10ce5cebd81361e7f9455d30e7bfc47e5614225838df37dce"
+      }
+    },
+    "publication-hold": {
+      "exit_code": 1,
+      "log": "publication-hold.log",
+      "result": {
+        "status": "BLOCKED",
+        "error": "PUBLICATION_HOLD: specs/components/button.evolution.amendment.v0.3.0.md"
+      }
+    },
+    "skills-check": {
+      "exit_code": 0,
+      "log": "skills-check.log",
+      "result": {
+        "status": "CURRENT",
+        "version": "0.4.0",
+        "ds_digest": "REMOTE",
+        "components": 0,
+        "errors": [],
+        "scope": "Package integrity and source freshness; no design approval or live Figma/web QA"
+      }
+    },
+    "benchmark": {
+      "exit_code": 0,
+      "log": "benchmark.log",
+      "result": {
+        "schema_version": 1,
+        "snapshot": "bf99d92195366e7feb98b00c660204c1cf223088ace77c60d4bb7a6779dccc2e",
+        "component": "BUTTON-001",
+        "method": "Selective control reads full originals of exactly the graph-selected set. Additional fallback disables the index only in memory and reads contract/amendments, with narrower coverage. No claim of baseline discovery cost or network savings. Timings depend on local cache.",
+        "rows": [
+          {
+            "intent": "component",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 11.988,
+              "context_bytes": 809960
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 11.642
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 4.561,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 0
+          },
+          {
+            "intent": "dependencies",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 10.317,
+              "context_bytes": 809960
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 12.042
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 5.071,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 0
+          },
+          {
+            "intent": "evidence",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 9.762,
+              "context_bytes": 809960
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 12.954
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 3.855,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 0
+          },
+          {
+            "intent": "variants",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 10.538,
+              "context_bytes": 793762
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 11.253
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 3.87,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 0
+          },
+          {
+            "intent": "states",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 9.153,
+              "context_bytes": 793290
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 10.556
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 3.284,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 0
+          },
+          {
+            "intent": "tokens",
+            "status": "PASS",
+            "mode": "graph",
+            "reason": null,
+            "graph": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "index_bytes": 311526,
+              "nodes_visited": 17,
+              "duration_ms": 22.571,
+              "context_bytes": 197284
+            },
+            "selective_control": {
+              "files_read": 17,
+              "bytes_read": 743441,
+              "context_bytes": 797249,
+              "duration_ms": 10.345
+            },
+            "fallback": {
+              "status": "FALLBACK",
+              "coverage": "CONTRACT_AND_AMENDMENTS_ONLY",
+              "metrics": {
+                "files_read": 7,
+                "bytes_read": 57159,
+                "index_bytes": 311526,
+                "nodes_visited": 0,
+                "duration_ms": 3.889,
+                "context_bytes": 60628
+              },
+              "paths": [
+                "specs/components/button-page-name.amendment.md",
+                "specs/components/button.contract.v0.2.0.md",
+                "specs/components/button.evolution.amendment.v0.3.0.md",
+                "specs/components/button.local-bindings.amendment.v0.2.2.md",
+                "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+                "specs/components/button.typography.amendment.v0.1.0.md",
+                "specs/components/six-family-color.amendment.v0.1.0.md"
+              ]
+            },
+            "paths": [
+              "drafts/contracts/button.contract.yaml",
+              "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+              "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+              "specs/components/button-page-name.amendment.md",
+              "specs/components/button.contract.md",
+              "specs/components/button.contract.v0.2.0.md",
+              "specs/components/button.evolution.amendment.v0.3.0.md",
+              "specs/components/button.local-bindings.amendment.v0.2.2.md",
+              "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+              "specs/components/button.typography.amendment.v0.1.0.md",
+              "specs/components/six-family-color.amendment.v0.1.0.md",
+              "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+              "sources/inventories/tokens.inventory.json",
+              "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+              "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+              "specs/tokens/ai-design-system.typography.v0.1.1.json",
+              "specs/tokens/ai-design-system.typography.v0.1.2.json"
+            ],
+            "tokens_returned": 45
+          }
+        ]
+      }
+    },
+    "managed-install": {
+      "exit_code": 0,
+      "log": "managed-install.log",
+      "result": {
+        "status": "CURRENT",
+        "operation": "INSTALLED",
+        "version": "0.4.0",
+        "skills_dir": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/verification/graph-first/clean-bf99d9219536/managed-skills",
+        "installed": [
+          "contpaqi-figma-screens",
+          "contpaqi-po-prototypes"
+        ]
+      }
+    },
+    "managed-install-check": {
+      "exit_code": 0,
+      "log": "managed-install-check.log",
+      "result": {
+        "status": "CURRENT",
+        "operation": "CHECKED",
+        "version": "0.4.0",
+        "skills_dir": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/verification/graph-first/clean-bf99d9219536/managed-skills",
+        "stale": []
+      }
+    },
+    "final-gates": {
+      "exit_code": 0,
+      "log": "final-gates.log",
+      "result": {
+        "status": "PASS",
+        "counts": {
+          "json": 1172,
+          "yaml_or_frontmatter": 279,
+          "prose_metadata": 4
+        },
+        "findings": [
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+            "line": 16,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.avatar-roles.v0.1.1.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md",
+            "line": 15,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.avatar-roles.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+            "line": 23,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.chart-colors.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md",
+            "line": 16,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.control-colors.v0.1.1.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.control-colors.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md",
+            "line": 15,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.dot-background-colors.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.feedback-icon-scopes.amendment.v0.1.7.md",
+            "line": 15,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+            "line": 15,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.linear-progress-colors.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.metric-card-roles.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.radio-indicator-colors.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "toggle.contract.v0.1.0.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+            "line": 26,
+            "severity": "HISTORICAL",
+            "message": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "toggle.contract.v0.1.0.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+            "line": 19,
+            "severity": "HISTORICAL",
+            "message": "../behavior/toggle-mixed/behavior-contract.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "archive/specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md",
+            "line": 21,
+            "severity": "HISTORICAL",
+            "message": "toggle.contrast-amendment.v0.1.1.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "qa/contracts/chat-section.v0.1.0.prebuild-candidate.md",
+            "line": 105,
+            "severity": "HISTORICAL",
+            "message": "chat-section.source.component-contract.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "qa/contracts/conversation.v0.1.0.pre-promotion.md",
+            "line": 107,
+            "severity": "HISTORICAL",
+            "message": "conversation.source.component-contract.md"
+          },
+          {
+            "control": "DOC-LINK",
+            "path": "qa/contracts/conversation.v0.1.0.prebuild-candidate.md",
+            "line": 107,
+            "severity": "HISTORICAL",
+            "message": "conversation.source.component-contract.md"
+          },
+          {
+            "control": "DOC-DEPENDENCY",
+            "path": "specs/components/button.contract.md",
+            "line": null,
+            "severity": "WARNING",
+            "message": "Unresolved declared dependency: PLUS-CIRCLE-OBSERVED-001"
+          },
+          {
+            "control": "DOC-DEPENDENCY",
+            "path": "specs/components/button.contract.md",
+            "line": null,
+            "severity": "WARNING",
+            "message": "Unresolved declared dependency: PHOSPHOR-ICONS-001"
+          },
+          {
+            "control": "DOC-DEPENDENCY",
+            "path": "specs/components/button.contract.v0.2.0.md",
+            "line": null,
+            "severity": "WARNING",
+            "message": "Unresolved declared dependency: PHOSPHOR-ICONS-001"
+          },
+          {
+            "control": "DOC-DEPENDENCY",
+            "path": "specs/components/filter-chip.contract.v0.2.0.md",
+            "line": null,
+            "severity": "WARNING",
+            "message": "Unresolved declared dependency: PlusCircle"
+          }
+        ],
+        "scope": "Deterministic documentation checks; no semantic approval, Figma readback or web QA",
+        "documentation_status": "PASS",
+        "graph": {
+          "status": "CURRENT",
+          "errors": [],
+          "files": 2465,
+          "nodes": 14118,
+          "edges": 33624,
+          "scope": "Graph freshness/integrity, not Figma validation"
+        },
+        "derived_view": "CURRENT",
+        "skills": {
+          "status": "CURRENT",
+          "version": "0.4.0",
+          "ds_digest": "REMOTE",
+          "components": 0,
+          "errors": [],
+          "scope": "Package integrity and source freshness; no design approval or live Figma/web QA"
+        }
+      }
+    }
+  },
+  "packages": {
+    "contpaqi-figma-screens": {
+      "archive": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-figma-screens-0.4.0.zip",
+      "runtime": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/verification/graph-first/clean-bf99d9219536/runtime-contpaqi-figma-screens",
+      "queries": {
+        "component": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.307,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "dependencies": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.195,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "evidence": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.212,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "variants": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 7.983,
+            "context_bytes": 793762
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "states": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.731,
+            "context_bytes": 793290
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "tokens": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 21.117,
+            "context_bytes": 197284
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 45
+        },
+        "spacing/sm": {
+          "status": "PASS",
+          "tokens": [
+            {
+              "id": "sources/inventories/tokens.inventory.json#/collections/1/variables/38",
+              "source": "sources/inventories/tokens.inventory.json",
+              "location": "JSON:/collections/1/variables/38",
+              "evidence": "EXTRACTED",
+              "confidence": 1,
+              "value": {
+                "id": "VariableID:562:11",
+                "name": "spacing/sm",
+                "resolvedType": "FLOAT",
+                "valuesByMode": {
+                  "52:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  }
+                },
+                "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+                "scopes": [
+                  "GAP"
+                ],
+                "codeSyntax": {}
+              }
+            }
+          ]
+        }
+      },
+      "shared_adapter_identical": true,
+      "isolation_cwd": "/tmp"
+    },
+    "contpaqi-po-prototypes": {
+      "archive": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-po-prototypes-0.4.0.zip",
+      "runtime": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/verification/graph-first/clean-bf99d9219536/runtime-contpaqi-po-prototypes",
+      "queries": {
+        "component": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.94,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "dependencies": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.435,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "evidence": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.526,
+            "context_bytes": 809960
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "variants": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.785,
+            "context_bytes": 793762
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "states": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 8.358,
+            "context_bytes": 793290
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 0
+        },
+        "tokens": {
+          "status": "PASS",
+          "mode": "graph",
+          "reason": null,
+          "metrics": {
+            "files_read": 17,
+            "bytes_read": 743441,
+            "index_bytes": 311526,
+            "nodes_visited": 17,
+            "duration_ms": 22.992,
+            "context_bytes": 197284
+          },
+          "paths": [
+            "drafts/contracts/button.contract.yaml",
+            "specs/MIGRATION-TOKEN-TRACEABILITY.contract.md",
+            "specs/TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md",
+            "specs/components/button-page-name.amendment.md",
+            "specs/components/button.contract.md",
+            "specs/components/button.contract.v0.2.0.md",
+            "specs/components/button.evolution.amendment.v0.3.0.md",
+            "specs/components/button.local-bindings.amendment.v0.2.2.md",
+            "specs/components/button.semantic-scope-amendment.v0.2.1.md",
+            "specs/components/button.typography.amendment.v0.1.0.md",
+            "specs/components/six-family-color.amendment.v0.1.0.md",
+            "specs/foundations/typography.formatting.amendment.v0.1.1.md",
+            "sources/inventories/tokens.inventory.json",
+            "specs/tokens/ai-design-system.button-danger.v0.1.0.json",
+            "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
+            "specs/tokens/ai-design-system.typography.v0.1.1.json",
+            "specs/tokens/ai-design-system.typography.v0.1.2.json"
+          ],
+          "tokens_returned": 45
+        },
+        "spacing/sm": {
+          "status": "PASS",
+          "tokens": [
+            {
+              "id": "sources/inventories/tokens.inventory.json#/collections/1/variables/38",
+              "source": "sources/inventories/tokens.inventory.json",
+              "location": "JSON:/collections/1/variables/38",
+              "evidence": "EXTRACTED",
+              "confidence": 1,
+              "value": {
+                "id": "VariableID:562:11",
+                "name": "spacing/sm",
+                "resolvedType": "FLOAT",
+                "valuesByMode": {
+                  "52:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:0": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:1": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  },
+                  "2849:2": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:55:43"
+                  }
+                },
+                "description": "Nivel muy compacto de la escala semántica de separación. Úsalo cuando la distancia entre elementos deba responder a este grado relativo de espacio sin fijar un valor local.",
+                "scopes": [
+                  "GAP"
+                ],
+                "codeSyntax": {}
+              }
+            }
+          ]
+        }
+      },
+      "shared_adapter_identical": true,
+      "isolation_cwd": "/tmp"
+    }
+  },
+  "version": "0.4.0",
+  "snapshot": "bf99d92195366e7feb98b00c660204c1cf223088ace77c60d4bb7a6779dccc2e",
+  "index_bytes": 311526,
+  "full_graph_bytes": 47028452,
+  "unit_tests": {
+    "status": "PASS",
+    "count": 35,
+    "log": "remote-tests.log"
+  },
+  "regression": {
+    "status": "PASS",
+    "count": 46,
+    "skipped": 9,
+    "log": "regression.log"
+  },
+  "ast_compatibility": {
+    "reason": "Graphify config JSON AST limit 1 MiB rejected ten valid historical design-data files",
+    "change": "Validated oversized design-data JSON uses the existing structural supplement; code/config limits and failure gates preserved",
+    "regression_tests": 2
+  }
+}

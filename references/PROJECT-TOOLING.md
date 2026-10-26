@@ -121,3 +121,7 @@ scripts/ds skills check-installed
 `install` es explícito y actualiza las dos skills nuevas en el directorio de skills del entorno (`CODEX_HOME/skills` o `~/.codex/skills`); `--skills-dir` permite otro destino autorizado. Solo reemplaza copias gestionadas cuyo contenido conserva sus hashes; cambios ajenos se preservan y se reportan. Usa staging, respaldo temporal y recuperación ante fallos ordinarios. `check-installed` comprueba esa copia sin escribir. El estado global del repo no depende de que todas las máquinas de los consumidores estén instaladas.
 
 Los resultados del release y del QA se guardan en `registry/skills.md` y `qa/skills/`, fuera del fingerprint del snapshot para evitar autorreferencia. Esos registros sí se indexan en Graphify. No hay publicación remota, monitor ni actualización automática en equipos ajenos.
+
+## Cierre eficiente
+
+Entrada recomendada: scripts/ds close --run ID. Ver [operación, estados y medición](EFFICIENT-CLOSURE.md). Las verificaciones individuales permanecen para diagnóstico; el cierre común evita ejecutarlas repetidamente sobre fuentes intactas.

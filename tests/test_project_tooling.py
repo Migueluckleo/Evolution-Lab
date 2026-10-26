@@ -239,5 +239,35 @@ class GraphGateTests(unittest.TestCase):
             self.assertEqual(delta["semantic_required"], ["new.md"])
 
 
+class LargeDesignJsonTests(unittest.TestCase):
+    def test_large_design_data_keeps_verified_supplement_and_references(self):
+        import ds_graph_engine as engine
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp).resolve();run=root/'run';run.mkdir()
+            data=root/'qa/capture.json';data.parent.mkdir()
+            target=root/'specs/source.md';target.parent.mkdir();target.write_text('# Source')
+            data.write_text(json.dumps({'payload':'x'*1048576,'source':'specs/source.md'}))
+            core.dump(run/'detection.json',{'files':{'code':[str(data)],'document':[str(target)]}})
+            core.dump(run/'source-plan.json',{'new':['qa/capture.json','specs/source.md'],'changed':[],'deleted_or_excluded':[]})
+            core.dump(run/'before/graph.json',{'nodes':[],'links':[]})
+            with patch.object(engine,'ROOT',root),patch.object(engine,'RUN',run),patch('graphify.extract.extract',return_value={'nodes':[],'edges':[],'failed_sources':[],'extracted_sources':[]}) as extract:
+                engine.ast();extract.assert_not_called()
+                engine.supplement()
+                self.assertEqual(core.read_json(run/'ast.json')['supplemental_json_sources'],['qa/capture.json'])
+                supplement=core.read_json(run/'structural-supplement.json')
+                self.assertEqual(len(supplement['nodes']),2)
+                self.assertTrue(any(e['source_file']=='qa/capture.json' and e['source_location']=='JSON:/source' for e in supplement['edges']))
+
+    def test_invalid_large_json_blocks_and_config_is_not_rerouted(self):
+        import ds_graph_engine as engine
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp).resolve();data=root/'qa/broken.json';data.parent.mkdir()
+            data.write_text('{'+('x'*1048576))
+            config=root/'package.json';config.write_text(json.dumps({'payload':'x'*1048576}))
+            with patch.object(engine,'ROOT',root):
+                with self.assertRaises(ValueError):engine.oversized_design_json(data)
+                self.assertFalse(engine.oversized_design_json(config))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -155,6 +155,22 @@ def resolve(engine, output, cache, transport=fetch):
         snapshot = staging / 'assets/design-system'
         extract(bundle, manifest, snapshot)
         (staging / 'assets/snapshot-manifest.json').write_bytes(data)
+        # Optional graph failure never bypasses source/bundle integrity. Data only.
+        graph_status = {'mode': 'fallback', 'reason': 'MISSING'}
+        descriptor = manifest.get('consumption_graph')
+        if descriptor:
+            try:
+                from consumer_graph import validate_index
+                graph_data = checked(f'catalog/releases/{identity}/consumption-graph.json',
+                                     descriptor['sha256'], 8 * 1024 * 1024, cache, transport)
+                if len(graph_data) != descriptor['bytes']:
+                    raise ValueError('INTEGRITY')
+                validate_index(unique_json(graph_data), manifest)
+                (staging / 'assets/consumption-graph.json').write_bytes(graph_data)
+                graph_status = {'mode': 'graph', 'reason': None}
+            except (OSError, ValueError, KeyError, TypeError, ImportError) as error:
+                graph_status = {'mode': 'fallback', 'reason': 'INDEX_UNAVAILABLE_OR_INVALID', 'detail': str(error)}
+        (staging / 'assets/graph-receipt.json').write_bytes(encoded(graph_status))
         (staging / 'references').mkdir(exist_ok=True)
         (staging / 'references/components.json').write_bytes(encoded(manifest['components']))
         release = {**info, 'version': manifest['package_version'], 'engine_version': info['version'],
@@ -170,7 +186,7 @@ def resolve(engine, output, cache, transport=fetch):
             shutil.rmtree(staging)
     return {'status': 'PASS', 'runtime': str(output), 'engine_version': info['version'],
             'ds_version': manifest['package_version'], 'ds_digest': manifest['ds_digest'],
-            'manifest_sha256': identity, 'files': len(manifest['files'])}
+            'manifest_sha256': identity, 'files': len(manifest['files']), 'graph': graph_status}
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)

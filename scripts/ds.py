@@ -31,7 +31,21 @@ def main():
     skills.add_argument("--bump", choices=["patch", "minor", "major"], default="patch")
     skills.add_argument("--skills-dir", type=Path, help="Destino explícito de instalación o comprobación; no cambia el gate portable.")
     skills.add_argument("--json", action="store_true")
+    closing = subs.add_parser('close', help='Cierre local coordinado, incremental y medido; reanudable.')
+    closing.add_argument('--run', required=True)
+    closing.add_argument('--install', action='store_true', help='Actualizar las copias locales gestionadas autorizadas.')
+    closing.add_argument('--usage-start', type=Path)
+    closing.add_argument('--usage-end', type=Path)
+    metrics = subs.add_parser('metrics', help='Registrar observación real de consumo final, sin recalcular el cierre.')
+    metrics.add_argument('--run', required=True)
+    metrics.add_argument('--usage-end', required=True, type=Path)
     args = parser.parse_args()
+    if args.command == 'metrics':
+        from ds_close import record_metrics
+        return record_metrics(args)
+    if args.command == 'close':
+        from ds_close import dispatch
+        return dispatch(args)
     if args.command == "test":
         import subprocess
         return subprocess.call([sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-v"], cwd=ROOT)

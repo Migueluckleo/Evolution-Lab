@@ -1,0 +1,135 @@
+{
+  "run": "2026-10-23-button-evolution-final",
+  "status": "COMPLETE_LOCAL",
+  "publication": "HOLD_UNTIL_USER_REVIEW",
+  "remote_publication": "NOT_RUN",
+  "figma_web_qa": "PASS",
+  "tooling_tests": {
+    "command": "/Users/miguel.leo/.local/share/uv/tools/graphifyy/bin/python -m unittest discover -s tests -p test_project_tooling.py",
+    "result": "PASS",
+    "tests": 24
+  },
+  "graph": {
+    "prior_attempt": "2026-10-23-button-evolution",
+    "prior_result": "BLOCKED",
+    "reason": "Graphify config JSON extractor rejects files above 1 MiB; current project wrapper routes validated design JSON through full structural supplement",
+    "run": "2026-10-23-graph-first-json-data",
+    "status": "CURRENT",
+    "semantic_reuse": "VERIFIED_IDENTICAL_INPUTS",
+    "evidence": "graphify-out/runs/2026-10-23-button-evolution-final/semantic-reuse.json",
+    "concurrent_closure": {
+      "run": "2026-10-23-graph-first-json-data",
+      "same_source_sha256": true,
+      "same_config_sha256": true,
+      "decision": "Preserve newer valid closure; all Button sources and semantic concepts present"
+    },
+    "attempt_result": "PRESERVED_CONCURRENT_CLOSURE",
+    "closure": "graphify-out/ds-closure.json",
+    "files": 2465,
+    "nodes": 14118,
+    "edges": 33624,
+    "task_paths_qa": "output/button-evolution/graph-paths-qa.json"
+  },
+  "consumption_prepare": {
+    "status": "CURRENT",
+    "index_bytes": 311526,
+    "documents": 331,
+    "relations": 905
+  },
+  "consumption_check": {
+    "status": "CURRENT",
+    "index_bytes": 311526
+  },
+  "catalog_build": {
+    "status": "CURRENT",
+    "files": 2217,
+    "components": 43,
+    "ds_digest": "f447cf83455f3df10ce5cebd81361e7f9455d30e7bfc47e5614225838df37dce",
+    "bundle_bytes": 9493445
+  },
+  "catalog_check": {
+    "status": "CURRENT",
+    "ds_digest": "f447cf83455f3df10ce5cebd81361e7f9455d30e7bfc47e5614225838df37dce"
+  },
+  "skills_sync": {
+    "status": "CURRENT",
+    "version": "0.4.0",
+    "ds_digest": "REMOTE",
+    "components": 0,
+    "errors": [],
+    "scope": "Package integrity and source freshness; no design approval or live Figma/web QA",
+    "operation": "UNCHANGED"
+  },
+  "skills_check": {
+    "status": "CURRENT",
+    "version": "0.4.0",
+    "ds_digest": "REMOTE",
+    "components": 0,
+    "errors": [],
+    "scope": "Package integrity and source freshness; no design approval or live Figma/web QA"
+  },
+  "skills_export": {
+    "status": "CURRENT",
+    "version": "0.4.0",
+    "ds_digest": "REMOTE",
+    "components": 0,
+    "errors": [],
+    "scope": "Package integrity and source freshness; no design approval or live Figma/web QA",
+    "operation": "UNCHANGED"
+  },
+  "installation_check": {
+    "status": "STALE",
+    "operation": "CHECKED",
+    "version": "0.4.0",
+    "skills_dir": "/Users/miguel.leo/.codex/skills",
+    "stale": [
+      "contpaqi-figma-screens",
+      "contpaqi-po-prototypes"
+    ]
+  },
+  "publication_guard": {
+    "status": "PASS",
+    "publication": "BLOCKED_AS_REQUESTED",
+    "reason": "PUBLICATION_HOLD: specs/components/button.evolution.amendment.v0.3.0.md"
+  },
+  "packages": [
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-figma-screens-0.4.0.zip",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-po-prototypes-0.4.0.zip"
+  ],
+  "installation": {
+    "status": "CURRENT",
+    "operation": "INSTALLED",
+    "version": "0.4.0",
+    "skills": [
+      {
+        "name": "contpaqi-figma-screens",
+        "version": "0.4.0",
+        "files": 12,
+        "status": "CURRENT"
+      },
+      {
+        "name": "contpaqi-po-prototypes",
+        "version": "0.4.0",
+        "files": 27,
+        "status": "CURRENT"
+      }
+    ],
+    "post_install_hash_check": "PASS"
+  },
+  "final_check": {
+    "status": "PASS",
+    "evidence": "output/button-evolution/final-check.json",
+    "historical_link_limitations": 21,
+    "existing_dependency_warnings": 4
+  },
+  "button_catalog_check": {
+    "status": "PASS",
+    "base": "specs/components/button.contract.v0.2.0.md",
+    "amendment": "specs/components/button.evolution.amendment.v0.3.0.md",
+    "danger_tokens": true
+  },
+  "package_hashes": {
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-figma-screens-0.4.0.zip": "a03a3b7d182186b4b38a5154380e876415d3fd44074751fa47e47b0beb247936",
+    "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado/output/skills/0.4.0/contpaqi-po-prototypes-0.4.0.zip": "b110aab21cff4b02b475c29b9905aff4e4b9c2cd77ff46f073e1f62f78ad7efb"
+  }
+}
