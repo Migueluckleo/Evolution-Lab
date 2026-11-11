@@ -9,6 +9,8 @@ decision_refs: [DEC-MIGRATION-VISUAL-FIDELITY-001, DEC-MIGRATION-NEAREST-PRIMITI
 
 # Enmienda cromática · seis familias
 
+> El retiro del 2026-11-11 sustituye el alcance de Metric Cards. [Decisión](../../registry/DEC-RETIRE-METRIC-001.md). Las tablas y cifras del lote original documentan la ejecución histórica.
+
 ## Autoridad y alcance
 
 El usuario solicita ejecutar el punto 1, revisión de colores, tokens y bindings de Buttons, Icon Buttons, Breadcrumbs, Metric Cards, Charts y Linear Progress Bars. Esta enmienda aplica la fidelidad cromática delegada y el uso de primitivas existentes; no cambia aprobaciones humanas, anatomía, tipografía, variantes, comportamientos ni publicación remota.

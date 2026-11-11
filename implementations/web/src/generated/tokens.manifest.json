@@ -13,7 +13,6 @@
     "drafts/foundations/ai-design-system.header-release.v0.1.0.json": "8c5e8d90c55c04edba7020cdf03a4749aea369b85047e1bc84b0055d363a202b",
     "drafts/foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json": "036d143ca6169355bb2ba345e80a9c6941ce545ef2fbabaae679f1a925201b0e",
     "drafts/foundations/ai-design-system.linear-progress-colors.v0.1.0.json": "8dfbd5c2952bc47feabbf202687a69da14e60277f250b6493fe4222d5a66472b",
-    "drafts/foundations/ai-design-system.metric-card-roles.v0.1.0.json": "61e3eb83c09cd8eef57da4dc7b30a3f425f7f22983a4231bc72e0540ac7f8df0",
     "drafts/foundations/ai-design-system.navigation-pagination-border.v0.1.0.json": "863f1711d70cb2f020680d89686693fcb1b2e65055afc017e9e10947c506f7c7",
     "drafts/foundations/ai-design-system.navigation-tab-borders.v0.1.0.json": "fe78ac2b642db5bb6f355dda93af1d6ecf54bb8c11c29c6249b6addfe949c2eb",
     "drafts/foundations/ai-design-system.navigation-tab-colors.v0.1.0.json": "513f1dd9e009d09b1f42c270ce7354ccc2bcebc72dd51d0642a3415e269825bf",
@@ -29,7 +28,7 @@
     "drafts/foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json": "455adef5111796d6e14f97fdf310e768f5ac6bdb9190491714335a0c520dab2e",
     "drafts/foundations/ai-design-system.warning-icon-contrast.v0.1.1.json": "565fddec17b67743a320d91beb3850e2166bbfc892ba81443cc0a4905e6b7887",
     "specs/tokens/ai-design-system.inverse-icon.v0.1.0.json": "7f982ccc0952adbc3eef0ec9e96da0f5531fe9ce643a69156492fab0a8372a7f",
-    "specs/tokens/ai-design-system.six-family-color.v0.1.0.json": "42e29b60c02b629c4b4d537c8e1f1b6f14e492e7b4fe29e2ec17204e5e5cc2ff",
+    "specs/tokens/ai-design-system.six-family-color.v0.1.0.json": "5fabc756faa15c507d0e77813a5f477bb3c19119bc864a1274d4336400917f6f",
     "specs/tokens/ai-design-system.character-identity.v0.1.0.json": "08d7ce889cae493027d97af1cf991ed77a5a11941eb02926a4c8d46eb0711fe4",
     "specs/tokens/ai-design-system.character-shadow.v0.1.0.json": "9ff2751fb2ac32d5ce4960c5d24fdcc928a98331331a45e826dfb5cebbe3b0e4",
     "specs/tokens/ai-design-system.button-danger.v0.1.0.json": "7649759d7c7c0943eb063aadb69be7926185d96936800cbc3114d002ca40bd89",
@@ -3629,7 +3628,7 @@
       "css": "--ds-color-border-control-subtle",
       "source": "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
       "amendments": [],
-      "description": "Borde de baja prominencia de Buttons, Icon Buttons y Metric Cards; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios.",
+      "description": "Borde de baja prominencia de Buttons e Icon Buttons; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios.",
       "scopes": [
         "STROKE_COLOR"
       ],
@@ -5006,39 +5005,6 @@
           "name": "color/neutral/100",
           "sourceId": "VariableID:57:82",
           "targetId": "VariableID:8:93"
-        }
-      }
-    },
-    {
-      "name": "color/icon/metric/brand",
-      "collection": "semantic",
-      "css": "--ds-color-icon-metric-brand",
-      "source": "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
-      "amendments": [],
-      "description": "Iconos de marca dentro de Metric Card sobre fondo claro o sutil, incluidos el icono de categoría y la flecha Navigate; no se usa para texto ni fondo.",
-      "scopes": [
-        "SHAPE_FILL"
-      ],
-      "values": {
-        "Contable": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/blue/400",
-          "targetId": "VariableID:8:87"
-        },
-        "Administrativo": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/green/500",
-          "targetId": "VariableID:8:62"
-        },
-        "Servicios": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/orange/500",
-          "targetId": "VariableID:8:71"
-        },
-        "Personas": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/purple/500",
-          "targetId": "VariableID:8:80"
         }
       }
     },
@@ -6484,39 +6450,6 @@
         "Personas": {
           "type": "VARIABLE_ALIAS",
           "id": "VariableID:57:82"
-        }
-      }
-    },
-    {
-      "name": "color/text/metric/trend",
-      "collection": "semantic",
-      "css": "--ds-color-text-metric-trend",
-      "source": "specs/tokens/ai-design-system.six-family-color.v0.1.0.json",
-      "amendments": [],
-      "description": "Texto de variación porcentual en Metric Card sobre fondo claro o sutil; expresa el acento de marca sin inferir por sí solo si la variación es favorable.",
-      "scopes": [
-        "TEXT_FILL"
-      ],
-      "values": {
-        "Contable": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/blue/400",
-          "targetId": "VariableID:8:87"
-        },
-        "Administrativo": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/green/500",
-          "targetId": "VariableID:8:62"
-        },
-        "Servicios": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/orange/500",
-          "targetId": "VariableID:8:71"
-        },
-        "Personas": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/purple/500",
-          "targetId": "VariableID:8:80"
         }
       }
     },

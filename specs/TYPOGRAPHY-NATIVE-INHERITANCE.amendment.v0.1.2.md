@@ -18,6 +18,8 @@ supersedes_scope: Mecanismo verificable de vínculo de 103 rangos escalados, sin
 
 # Consumo tipográfico por herencia nativa · enmienda0.1.2
 
+> El retiro del 2026-11-11 sustituyó parte del catálogo vigente. Los conteos siguientes corresponden al corte original. [Decisión de retiro](../registry/DEC-RETIRE-METRIC-001.md).
+
 ## Autoridad y límite
 
 La [delegación específica](../registry/DEC-TYPOGRAPHY-STYLES-001.md) y su continuación explícita autorizan documentar e integrar los estilos de todos los componentes. Esta enmienda resuelve técnicamente el mecanismo de consumo de 103 rangos ya censados; no registra aprobación humana del detalle, que sigue `PENDING`. La procedencia de las observaciones es `OBSERVED` y su interpretación técnica `DERIVED`. La regla no acredita por sí misma su aplicación. El estado inicial `VALIDATION_PENDING` se cerró mediante la evidencia exigida por rango y el QA global posterior enlazados al final; la validación se limita a esos consumidores.

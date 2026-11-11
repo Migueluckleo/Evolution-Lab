@@ -28,9 +28,9 @@
       "specs/components/button-page-name.amendment.md": "b2c896cab9f2f5659101253dbc93ce0410c697081e53daafecebbc5b62895fd7",
       "specs/components/button.local-bindings.amendment.v0.2.2.md": "57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c",
       "specs/components/button.semantic-scope-amendment.v0.2.1.md": "8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/six-family-color.amendment.v0.1.0.md": "84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97",
       "specs/components/button.typography.amendment.v0.1.0.md": "7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b",
-      "specs/components/button.evolution.amendment.v0.3.0.md": "d07a01e8975f03e488787429748ae2750e61569af3137ada10480abdc56b5240"
+      "specs/components/button.evolution.amendment.v0.3.0.md": "bf9c23f26cbd2582ff3d99aeb484916368d55a7c861d6291ad5b7ffcc578281b"
     },
     "api": "export type ButtonProps = {\n  children?: ReactNode;\n  variant?: 'primary' | 'default' | 'text' | 'link' | 'danger';\n  /** Ocupa la acción sin perder el foco; bloquea activación y navegación. Disabled tiene precedencia. */\n  loading?: boolean;\n  size?: Size;\n  leftIcon?: ReactNode;\n  rightIcon?: ReactNode;\n  showLeftIcon?: boolean;\n  showRightIcon?: boolean;\n  className?: string;\n} & ({ href?: never } & ButtonHTMLAttributes<HTMLButtonElement> | { href: string; disabled?: never } & AnchorHTMLAttributes<HTMLAnchorElement>);",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ButtonExample(){const [count,setCount]=useState(0);const [loading,setLoading]=useState(false);return <div className=\"flex flex-wrap items-center gap-4\"><DS.Button showLeftIcon showRightIcon={false} onClick={()=>setCount(count+1)} leftIcon={<Plus/>}>Agregar · {count}</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"default\" size=\"middle\">Secundario</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"text\" size=\"small\">Texto</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} variant=\"link\" href=\"#componer\">Ver pantalla</DS.Button><DS.Button showLeftIcon={false} showRightIcon={false} disabled>Deshabilitado</DS.Button><DS.Button variant=\"danger\" showLeftIcon={false} showRightIcon={false} loading={loading} onClick={()=>setCount(count+1)}>Eliminar · {count}</DS.Button><DS.Button variant=\"default\" showLeftIcon={false} showRightIcon={false} aria-pressed={loading} onClick={()=>setLoading(!loading)}>{loading?'Finalizar carga de ejemplo':'Mostrar carga de ejemplo'}</DS.Button><DS.Button href=\"#componer\" variant=\"link\" loading={loading} showLeftIcon={false} showRightIcon={false}>Enlace de ejemplo</DS.Button></div>;}\n",
@@ -60,7 +60,7 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/icon-button.contract.v0.1.0.md": "928d083a785af74510ec0f320a362934f50bf239ffcea856ec83d91898e893cf",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/six-family-color.amendment.v0.1.0.md": "84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97",
       "specs/components/icon-button.typography.amendment.v0.1.0.md": "d426a9344aca056929826630c2ec3543aa55a33537aca1f55a37fb98a3d2b519"
     },
     "api": "export interface IconButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>,'children'> {\n  /** Nombre obligatorio, incluso cuando el icono parece reconocible. */\n  label: string;\n  icon?: ReactNode;\n  variant?: 'ghost' | 'outline';\n  size?: 'small' | 'medium' | 'large';\n  /** Texto aportado por la pantalla; sin regla automática de 99+. */\n  count?: string;\n  showCount?: boolean;\n}",
@@ -215,7 +215,7 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/linear-progress-bar.contract.v0.1.0.md": "6fa5650cfec2b1c200f58097b29746974defad6198ce76784ff42ab77892b316",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/six-family-color.amendment.v0.1.0.md": "84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97",
       "specs/components/linear-progress-bar.typography.amendment.v0.1.0.md": "cf4acdbd72ba04a2eeb3e86a6391fc3123a86646876bcb26ab4a9589aa836ece"
     },
     "api": "export interface LinearProgressBarProps { progress?: 25|50|75|100; tone?: 'primary'|'warning'|'positive'|'danger'; size?: 'small'|'medium'|'large'; label: string; helper?: string; showLabel?: boolean; showPercentage?: boolean; showHelper?: boolean }",
@@ -499,7 +499,7 @@
       "specs/select.contract.v0.1.0.md": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
       "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
       "specs/components/select.typography.amendment.v0.1.0.md": "a417b478c62fe0cf04bcaf6c2621611628208578b8428e681254e9734d74caba",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "3c99993be2ecb4858753fd342a12a363779eac3ee4393603fe7ee2a3c05b04e9"
     },
     "api": "export interface SelectOption { value: string; label: string; disabled?: boolean }\n\nexport interface SelectProps { label: string; options: readonly SelectOption[]; value: string; onValueChange: (value:string)=>void; placeholder?: string; helper?: string; disabled?: boolean; required?: boolean; name?: string; showLabel?:boolean; showHelper?:boolean; showText?:boolean; showPrefix?:boolean; prefix?:string; showTrailingIcon?:boolean; trailingIcon?:ReactNode; status?:'default'|'success'|'error' }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function SelectExample(){const [value,setValue]=useState('');return <DS.Select label=\"Tipo de documento\" value={value} onValueChange={setValue} helper=\"Opciones locales\" options={[{value:'factura',label:'Factura'},{value:'reporte',label:'Reporte'},{value:'archivo',label:'Archivo',disabled:true}]}/>;}\n",
@@ -530,7 +530,7 @@
     "hashes": {
       "specs/dropdown-item.contract.v0.1.0.md": "414040f481f994316406dfd61ca09a4c5a52b4b9ec97e30dcb2a1dc90ef27d42",
       "specs/components/dropdown-item.typography.amendment.v0.1.0.md": "5ba8f1a160b2122fac8bc624f6d34436fcaae2b5456df3850732775de4bd582d",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "3c99993be2ecb4858753fd342a12a363779eac3ee4393603fe7ee2a3c05b04e9"
     },
     "api": "export interface DropdownItemProps { children: ReactNode; size?: Size; selected?: boolean; disabled?: boolean; leadingIcon?: ReactNode; trailingIcon?: ReactNode; secondaryText?: string; loading?: boolean; showDivider?: boolean; showCheckbox?: boolean; onClick?: ()=>void; tabIndex?: number; role?: 'option'|'menuitem'; id?: string; type?:'base'|'header'; showLeadingIcon?:boolean; showTrailingIcon?:boolean; showSecondaryText?:boolean }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function DropdownItemExample(){const [selected,setSelected]=useState(false);return <div className=\"w-72\"><DS.DropdownItem selected={selected} leadingIcon={<FileText/>} onClick={()=>setSelected(!selected)}>Documento de muestra</DS.DropdownItem><DS.DropdownItem size=\"middle\" disabled>No disponible</DS.DropdownItem></div>;}\n",
@@ -591,7 +591,7 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/breadcrumbs.contract.v0.1.0.md": "241c1b03d7f0d93c8c39324e604739a670926d719e3c801e82ed7c018c59323d",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/six-family-color.amendment.v0.1.0.md": "84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97",
       "specs/composition-slots.amendment.v0.1.0.md": "3573e964d3f523470e9c3d733993911ccec94dd2484ea6211d739a1588c81cb5",
       "specs/components/breadcrumbs.typography.amendment.v0.1.0.md": "0f1fc99d903177a8b55c12638fd37e7028b6083f3b6b2faf65f5a0f729632980"
     },
@@ -915,37 +915,6 @@
     ]
   },
   {
-    "id": "METRIC-CARD-001",
-    "slug": "metric-card",
-    "name": "MetricCard",
-    "category": "Contenido",
-    "module": "content",
-    "exports": [
-      "MetricCard"
-    ],
-    "base": "specs/metric-card.contract.v0.1.0.md",
-    "amendments": [
-      "specs/components/six-family-color.amendment.v0.1.0.md",
-      "specs/components/metric-card.typography.amendment.v0.1.0.md"
-    ],
-    "slots": {
-      "status": "NOT_APPLICABLE",
-      "reason": "Anatomía fija, dos métricas en Vertical/Horizontal y una en V1/V2. Los swaps icon/action no crean cardinalidad variable."
-    },
-    "notes": "Ocho estructuras exactas Type×Size. Valores y textos son muestras, sin cálculo; vertical/horizontal usan hasta dos pares, V1/V2 el primer valor. Show icon/action/detail son independientes. V1 tiene las alturas normalizadas156/116; V2 baldosa96/80 con icono64/48. action es una affordance de muestra; un botón/enlace real debe venir del consumidor.",
-    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
-    "hashes": {
-      "specs/metric-card.contract.v0.1.0.md": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
-      "specs/components/metric-card.typography.amendment.v0.1.0.md": "2ca2104c99abc4a43473c8e3bac8b5f274e197f3da6612a2f0dd9f8db26fea6b"
-    },
-    "api": "export interface MetricValue { label:string; value:string }\n\nexport interface MetricCardProps { variant?:'vertical'|'horizontal'|'one-v1'|'one-v2'; size?:'large'|'small'; title:string; description?:string; values:readonly MetricValue[]; trend?:string; icon?:ReactNode; action?:ReactNode; showIcon?:boolean; showAction?:boolean; showDetail?:boolean }",
-    "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function MetricCardExample(){return <DS.MetricCard title=\"Documentos\" description=\"Datos de demostración\" values={[{label:'Este mes',value:'128'},{label:'Mes anterior',value:'112'}]} icon={<FileText/>}/>;}\n",
-    "defaults": [
-      "MetricCard: {variant='vertical',size='large',title,description,values,trend,icon=<CurrencyCircleDollar weight=\"light\"/>,action=<ArrowUpRight weight=\"light\"/>,showIcon=true,showAction=true,showDetail=true}:MetricCardProps"
-    ]
-  },
-  {
     "id": "TABLE-001",
     "slug": "table",
     "name": "Table",
@@ -1109,9 +1078,9 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md",
     "hashes": {
       "specs/charts.contract.v0.1.0.md": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
-      "specs/components/six-family-color.amendment.v0.1.0.md": "f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9",
+      "specs/components/six-family-color.amendment.v0.1.0.md": "84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97",
       "specs/composition-slots.amendment.v0.1.1.md": "784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041",
-      "specs/components/charts.typography.amendment.v0.1.0.md": "fd174e3ad5e6f3dd16f875aa09ef3d65ff17cb5c9d97d07978d91615b33ca08b"
+      "specs/components/charts.typography.amendment.v0.1.0.md": "f9a1c01ffe473da3f9477cfc10ff895fa2e630fbb43f61640674c197b1bcf4a5"
     },
     "api": "export interface ChartLegendLabelProps { children:ReactNode; weight?:'regular'|'semibold'; size?:'small'|'medium'; swatch?:'neutral'|'series-1'|'series-2'|'series-3'|'progress'|'track'|false }\n\nexport interface ChartCellProps { hasContent?:boolean; position?:'first'|'middle'|'last'; segment?:'solo'|'upper'|'middle'|'lower'; label?:string }\n\nexport interface ChartHeaderProps { title:string; description?:string; legend?:ReactNode; showDescription?:boolean; showLegend?:boolean }\n\nexport interface ProgressChartItemProps { label:string; value:string; type?:'top'|'detail'; detail?:ReactNode }\n\nexport interface SemiDonutGaugeProps { progress?:25|50|75; label?:string }\n\nexport interface ChartsProps extends ChartHeaderProps { children:ReactNode }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function ChartsExample(){return <DS.Charts title=\"Resumen de muestra\" description=\"Composición visual con valores de ejemplo\" legend={<><DS.ChartLegendLabel swatch=\"series-1\">Serie 1</DS.ChartLegendLabel><DS.ChartLegendLabel swatch=\"series-2\">Serie 2</DS.ChartLegendLabel></>}><DS.SemiDonutGauge progress={75}/><DS.ProgressChartItem label=\"Ejemplo estático\" value=\"$100k\"/></DS.Charts>;}\n",
@@ -1147,7 +1116,7 @@
     "hashes": {
       "specs/header.contract.v0.1.0.md": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
       "specs/components/header.typography.amendment.v0.1.0.md": "9bf2db753a9224da9ee9bfdd2d33f229c7a99d15632d1ee810861ee927f49440",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55"
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "3c99993be2ecb4858753fd342a12a363779eac3ee4393603fe7ee2a3c05b04e9"
     },
     "api": "export interface HeaderProps { logo:ReactNode; version?:string; releaseLabel?:string; actions?:ReactNode; company?:string; taxId?:string; user?:ReactNode; showVersion?:boolean; showActions?:boolean; showCompany?:boolean; showUser?:boolean; onCompanyClick?:()=>void; onUserClick?:()=>void }",
     "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function HeaderExample(){return <DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>} version=\"2.0.0\" releaseLabel=\"ALPHA .1\" actions={<DS.IconButton showCount={false} label=\"Notificaciones\" icon={<Bell/>}/>} company=\"Empresa de ejemplo\" taxId=\"RFC de muestra\" user={<DS.Avatar type=\"text\" initials=\"ML\" label=\"Usuario de muestra\"/>}/>;}\n",
@@ -1212,11 +1181,11 @@
     "hashes": {
       "specs/app-shell.contract.v0.1.0.md": "f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e",
       "specs/components/app-shell.typography.amendment.v0.1.0.md": "74768a9059fed6ab27bbe6bc4b081f1ba4bae3b4e504e334ab442c45785cb31b",
-      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55",
+      "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": "3c99993be2ecb4858753fd342a12a363779eac3ee4393603fe7ee2a3c05b04e9",
       "specs/components/app-shell.embedded-chat.amendment.v0.1.1.md": "2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8"
     },
     "api": "export interface AppShellProps { header:ReactNode; sidebar:ReactNode; children?:ReactNode; expanded?:boolean; className?:string; width?:CSSProperties['width']; height?:CSSProperties['height'] }",
-    "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className=\"p-8\"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2><DS.MetricCard title=\"Documentos\" values={[{label:'Total',value:'128'}]}/></div></DS.AppShell>;}\n",
+    "example": "'use client';\nimport { useState } from 'react';\nimport { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';\nimport * as DS from '@/index';\n\nexport function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt=\"CONTPAQi Contable\"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className=\"p-8\"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2></div></DS.AppShell>;}\n",
     "defaults": [
       "AppShell: {header,sidebar,children,expanded=false,className,width=1440,height=1024}:AppShellProps"
     ]

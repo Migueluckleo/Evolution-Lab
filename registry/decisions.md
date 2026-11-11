@@ -515,3 +515,7 @@ Solicitud EXPLICIT: documentar el App Shell1108:3201 para que cada chat embebido
 ## DEC-BUTTON-EVOLUTION-001 · 2026-10-23
 
 [Decisión y límites](DEC-BUTTON-EVOLUTION-001.md): ampliar Button con danger/carga y actualizar configuración de foco en AI Design System, preservando variantes anteriores. Documentación aditiva antes de construcción; publicación Git retenida hasta revisión del usuario.
+
+## DEC-RETIRE-METRIC-001 · Retiro de Metric Cards
+
+2026-11-11 · EXPLICIT. La familia se retira de Figma, la documentación y el consumo web. [Decisión y alcance](DEC-RETIRE-METRIC-001.md).

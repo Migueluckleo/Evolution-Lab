@@ -35,7 +35,7 @@ Cotejo contractual de43 familias del destino web: [QA0.1.3](../qa/implementation
 
 ## IMP-WEB-FIDELITY-012 · 2026-10-13
 
-Biblioteca web local corregida contra43 contratos y enmiendas, con442 casos de referencia. [QA0.1.2](../qa/implementations/web.fidelity.v0.1.2.review.md), [matriz](../qa/implementations/web-fidelity-2026-10-13/family-matrix.md), [resultados](../qa/implementations/web-fidelity-2026-10-13/results.json). Sidebar/MenuItem/TopBar, controles, Metric Card, Table, Modal, Charts y composiciones rectificados. Props/defaults, exports, ejemplos y43 fichas sincronizados. Scrollbar visual separado de ScrollArea nativo; ConversationGlyph original32px; Logos72/72. BENI conserva coordenadas de la corrección0.1.1.
+Biblioteca web local corregida contra43 contratos y enmiendas, con442 casos de referencia. [QA0.1.2](../qa/implementations/web.fidelity.v0.1.2.review.md), [matriz](../qa/implementations/web-fidelity-2026-10-13/family-matrix.md), [resultados](../qa/implementations/web-fidelity-2026-10-13/results.json). Sidebar/MenuItem/TopBar, controles, Table, Modal, Charts y composiciones rectificados. Props/defaults, exports, ejemplos y43 fichas sincronizados. Scrollbar visual separado de ScrollArea nativo; ConversationGlyph original32px; Logos72/72. BENI conserva coordenadas de la corrección0.1.1.
 
 Estado IMPLEMENTED_FOR_LOCAL_PROTOTYPING; PASS solo para QA registrado:8 pruebas de código,15 Chrome, TypeScript/build,88 mediciones de recetas Sidebar en4 temas y medidas acotadas de otras familias. No igualdad global por píxel, publicación ni validación Figma nueva. [Adaptación vigente](../implementations/web/docs/WEB-ADAPTATION.md). Estados históricos0.1.0/0.1.1 permanecen como evidencia de sus cortes.
 
@@ -416,19 +416,13 @@ VALIDATED técnico: página Headers518:122, componente518:123, Slot518:124 y car
 - **Mapa y QA:** [estado](../implementations/figma/breadcrumbs.v0.1.0.state.json), [QA-BREADCRUMBS-FIGMA-001](../qa/implementations/breadcrumbs.v0.1.0.figma.review.md) `PASS`; scripts [ítem](../drafts/figma/breadcrumb-item-build.v0.1.0.js), [composición](../drafts/figma/breadcrumbs-composition-build.v0.1.0.js), [ajuste de texto](../drafts/figma/breadcrumbs-text-fit.v0.1.0.js) y [binding Current](../drafts/figma/breadcrumb-current-text-bind.v0.1.0.js).
 - **Límite:** dos sets `UNPUBLISHED`; no se implementa navegación, estado dinámico, teclado, responsive ni web.
 
-## IMP-METRIC-CARD-ROLES-FIGMA-001 · colores semánticos de Metric Cards
+## IMP-METRIC-CARD-ROLES-FIGMA-001 · registro histórico
 
-- **Estado:** `VALIDATED` técnicamente; auditoría humana `PENDING`.
-- **Operación:** dos variables en colección semántica, `TEXT_FILL` para Trend y `SHAPE_FILL` para vectores de icono, cuatro aliases por variable a primitivas existentes, JSON/Figma coincidentes. Cuatro textos y 16 vectores consumidores verificados. [Estado](../implementations/figma/metric-card-roles.v0.1.0.state.json), [QA](../qa/implementations/metric-card-roles.v0.1.0.figma.review.md).
+Alcance retirado por [DEC-RETIRE-METRIC-001](DEC-RETIRE-METRIC-001.md).
 
-## IMP-METRIC-CARD-FIGMA-001 · Metric Cards 0.1.0
+## IMP-METRIC-CARD-FIGMA-001 · registro histórico
 
-- **Artefacto y destino:** página exclusiva `Metric Cards` `202:208`, set `Metric Card` `202:327` de AI Design System.
-- **Estado:** `VALIDATED` técnicamente para [METRIC-CARD-001](../drafts/contracts/metric-card.contract.v0.1.0.md); auditoría humana `PENDING`.
-- **Lectura final:** ocho variantes 4×2, 16 iconos Phosphor reales, 36 textos y 70/70 pinturas visibles ligadas; cero incompatibilidades de categoría/scope, cero reacciones. Títulos, visibilidades, swaps y contenido numérico conectados a propiedades.
-- **Visual y cambios:** fuente y destino 806×935 comparados. Se restauró la alineación superior de V1/V2 y el importe ejemplo Horizontal; V1 subió cinco píxeles de alto para interlineado de tendencia y Title V1 Small pasó 18→20 por token semántico. Servicios usa orange/700 solo en los nuevos roles de texto/icono.
-- **Mapa y QA:** [estado](../implementations/figma/metric-card.v0.1.0.state.json), [QA-METRIC-CARD-FIGMA-001](../qa/implementations/metric-card.v0.1.0.figma.review.md) `PASS`; scripts [base](../drafts/figma/metric-card-build.v0.1.0.js) y [corrección](../drafts/figma/metric-card-visual-correction.v0.1.0.js).
-- **Límite:** `UNPUBLISHED`; no se implementa navegación, actualización de datos, formato monetario ni frontend.
+Alcance retirado por [DEC-RETIRE-METRIC-001](DEC-RETIRE-METRIC-001.md).
 
 ## IMP-CHART-COLORS-FIGMA-001 · colores semánticos de Charts
 

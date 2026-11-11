@@ -14,6 +14,8 @@ slot_applicability: NOT_APPLICABLE
 
 # Charts · consumo tipográfico · enmienda 0.1.0
 
+> En V002, el mapping histórico conserva `ui-metric-label-compact` en `N272`. La receta vigente se identifica como `ui-chart-legend-medium` en el [catálogo 0.1.2](../tokens/ai-design-system.typography.v0.1.2.json), con el mismo ID Figma y las mismas medidas. [Decisión de retiro](../../registry/DEC-RETIRE-METRIC-001.md).
+
 ## Alcance y autoridad
 
 La solicitud explícita del usuario del 2026-10-15 exige aplicar estilos compartidos a todos los componentes y documentar las tipografías de cada Spec. Esta enmienda adopta, por delegación específica de esa tarea, las identidades de la tabla para `CHARTS-001`. Auditoría humana `PENDING`; no equivale a aprobación humana ni a consumo Figma validado. Rigen las [reglas transversales](../TYPOGRAPHY-CONSUMPTION.amendment.v0.1.0.md) y la [enmienda de formato 0.1.1](../foundations/typography.formatting.amendment.v0.1.1.md).
@@ -45,7 +47,7 @@ Cada fila selecciona exactamente los registros `N` indicados del array `nodes` d
 | `000` · Propio en Chart Legend Label | V001 | `ui-caption-compact` | `S:00ebc27da069f50e5d170d9e45cc9f392042a351,` | 1 | `N271`; `210:132@[0,3)` |
 | `000` · Propio en Chart Legend Label | V003 | `ui-caption-compact-emphasis` | `S:2abe28a5572333135574e7c097c878babf7fcd84,` | 1 | `N273`; `210:140@[0,3)` |
 | `000` · Propio en Chart Legend Label | V004 | `ui-chart-legend-medium-emphasis` | `S:7b31dce69c499509a0af3002b21866abdbfcd262,` | 1 | `N274`; `210:144@[0,3)` |
-| `000` · Propio en Chart Legend Label | V002 | `ui-metric-label-compact` | `S:baee55f07c82b151e9cd50adbdd1511c771796ef,` | 1 | `N272`; `210:136@[0,3)` |
+| `000` · Propio en Chart Legend Label | V002 | `ui-chart-legend-medium` | `S:baee55f07c82b151e9cd50adbdd1511c771796ef,` | 1 | `N272`; `210:136@[0,3)` |
 | `Percent` · Propio en Semi-donut Gauge | V005, V006, V007 | `ui-chart-gauge-value` | `S:d9b5d1dba7f2299ca9f25120b49032699343f365,` | 3 | `N275–N277`; `211:125@[0,3)` |
 | `000` · Instancia/Slot en Progress Chart Item; referencia Chart Legend Label | V008, V009 | `ui-caption-compact` | `S:00ebc27da069f50e5d170d9e45cc9f392042a351,` | 12 | `N280–N285, N288–N293`; `I502:346;210:132@[0,8)` |
 | `Label` · Propio en Progress Chart Item | V008, V009 | `ui-caption-compact` | `S:00ebc27da069f50e5d170d9e45cc9f392042a351,` | 2 | `N278, N286`; `213:124@[0,12)` |

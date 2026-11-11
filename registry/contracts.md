@@ -74,7 +74,7 @@ Diecinueve enmiendas trasladadas a su ubicación normativa en specs:13 de Founda
 
 [Enmienda en specs](../specs/components/six-family-color.amendment.v0.1.0.md), [datos canónicos](../specs/tokens/ai-design-system.six-family-color.v0.1.0.json), [QA](../qa/implementations/six-families.color.v0.1.0.review.md). DELEGATED_FOR_BUILD, auditoría PENDING.12 roles: ocho corregidos/cuatro nuevos; cero primitivas. Sustituye las recetas y umbrales señalados, no la anatomía ni la aprobación humana.
 
-Promovidos a ubicación canónica: [Icon Button](../specs/icon-button.contract.v0.1.0.md), [Breadcrumbs](../specs/breadcrumbs.contract.v0.1.0.md), [Metric Card](../specs/metric-card.contract.v0.1.0.md), [Charts](../specs/charts.contract.v0.1.0.md), [Linear Progress Bar](../specs/linear-progress-bar.contract.v0.1.0.md). Las rutas anteriores son localizadores, no segundas definiciones editables. Los hashes/cierres0.1.0 inferiores son históricos; los bytes actuales se registran en el manifiesto del cierre. Buttons conserva su base0.2.0 y enmiendas0.2.1/0.2.2, complementadas por ésta.
+Promovidos a ubicación canónica: [Icon Button](../specs/icon-button.contract.v0.1.0.md), [Breadcrumbs](../specs/breadcrumbs.contract.v0.1.0.md), [Charts](../specs/charts.contract.v0.1.0.md), [Linear Progress Bar](../specs/linear-progress-bar.contract.v0.1.0.md). Las rutas anteriores son localizadores, no segundas definiciones editables. Los hashes/cierres0.1.0 inferiores son históricos; los bytes actuales se registran en el manifiesto del cierre. Buttons conserva su base0.2.0 y enmiendas0.2.1/0.2.2, complementadas por ésta.
 
 ## Conciliación de referencias operativas · 2026-10-05
 
@@ -356,17 +356,11 @@ La [lista vigente](../specs/MIGRATION-TRACEABILITY-STATUS.md) distingue revision
 
 ## METRIC-CARD-001
 
-- **Ruta delegada:** [Metric Cards 0.1.0](../drafts/contracts/metric-card.contract.v0.1.0.md), SHA-256 `f59add2d0f424d671d71a76890c980a9a8c15443c0d29903f71c4db046b7a3d9`.
-- **Evidencia fuente:** [MD](../drafts/contracts/metric-card.source.component-contract.md), SHA-256 `431b99b91122c781b39f0bdedc1c63e24ef3cb3c15f62684607203f5dcbc1cbb`; [YAML](../drafts/contracts/metric-card.source.component-contract.yaml), SHA-256 `b57528bf6bc80298d484e931c82f2675fb8d0fb0c255eeeb980749d5a288eb88`.
-- **Estado documental:** `DELEGATED_FOR_BUILD` bajo DEC-LEGACY-MIGRATION-DELEGATION-001 y DEC-SEMANTIC-EXTENSIONS-001; [QA fuente](../qa/contracts/metric-card.source.component-contract.review.md) y [QA destino](../qa/contracts/metric-card.v0.1.0.review.md) `PASS`; auditoría humana `PENDING`.
-- **Preparación Figma:** `READY` para `CREATE`: página `Metric Cards` ausente en preflight, roles nuevos JSON/Figma leídos de vuelta, tokens base y Manrope Regular disponibles. [Plan](../drafts/reports/metric-card.v0.1.0.plan.md).
-- **Implementación Figma:** `VALIDATED` técnicamente: página `Metric Cards` `202:208`, set `Metric Card` `202:327`, ocho variantes y 70/70 pinturas visibles vinculadas con scopes/categorías correctos. 36 textos, 16 iconos Phosphor, cuatro tendencias y 16 vectores ligados a roles nuevos; captura fuente/destino comparada. [Estado](../implementations/figma/metric-card.v0.1.0.state.json) y [QA](../qa/implementations/metric-card.v0.1.0.figma.review.md). `UNPUBLISHED`; auditoría humana pendiente.
+**SUPERSEDED · retirado el 2026-11-11.** [DEC-RETIRE-METRIC-001](DEC-RETIRE-METRIC-001.md).
 
 ## FOUNDATIONS-METRIC-CARD-ROLES-001
 
-- **Ruta delegada:** [enmienda Foundations 0.1.0](../drafts/contracts/foundations.metric-card-roles.amendment.v0.1.0.md), SHA-256 `c3c038c6da9795fc8e41a4dfd0afe7c84c080bfcdcc272b33165110dcdd8af78`; [JSON canónico](../drafts/foundations/ai-design-system.metric-card-roles.v0.1.0.json), SHA-256 `61e3eb83c09cd8eef57da4dc7b30a3f425f7f22983a4231bc72e0540ac7f8df0`.
-- **Estado:** `DELEGATED_FOR_BUILD` bajo DEC-SEMANTIC-EXTENSIONS-001; [QA documental](../qa/contracts/foundations.metric-card-roles.amendment.v0.1.0.review.md) y [QA Figma](../qa/implementations/metric-card-roles.v0.1.0.figma.review.md) `PASS` técnico. Auditoría humana `PENDING`.
-- **Implementación:** dos roles exclusivos de texto/icono con cuatro aliases cada uno a primitivas existentes; JSON/Figma idénticos por readback. Cuatro textos Trend y 16 vectores iconográficos consumen ya los roles con categoría correcta. [Estado](../implementations/figma/metric-card-roles.v0.1.0.state.json).
+**SUPERSEDED · roles exclusivos retirados el 2026-11-11.** [DEC-RETIRE-METRIC-001](DEC-RETIRE-METRIC-001.md).
 
 ## CHART-LABEL-CELL-001
 

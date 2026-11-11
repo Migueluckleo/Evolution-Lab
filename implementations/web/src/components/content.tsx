@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useId, useRef, type CSSProperties, type HTMLAttributes, type ReactNode } from 'react';
-import { ArrowUpRight, CurrencyCircleDollar, User, X, DotsThree, Copy, ArrowsDownUp } from '@phosphor-icons/react';
+import { User, X, DotsThree, Copy, ArrowsDownUp } from '@phosphor-icons/react';
 import { cx, token } from '../lib/utils';
 import { Checkbox } from './forms';
 import { Dot, Badge } from './feedback';
@@ -23,14 +23,6 @@ export interface EmptyStateIllustrationProps { asset?:'2281'|'2298'|'2323'|'2346
 export function EmptyStateIllustration({asset='2381'}:EmptyStateIllustrationProps){const id=useId().replaceAll(':','');return <div aria-hidden="true" dangerouslySetInnerHTML={{__html:illustrations[asset].replaceAll('IDPREFIX',id)}}/>;}
 export interface EmptyStatesProps { presentation?:'default'|'compact'|'inline'|'main'; title?:ReactNode; children?:ReactNode; illustration?:ReactNode; mainActions?:ReactNode; supportingActions?:ReactNode; showVisual?:boolean; showTitle?:boolean; showMainActions?:boolean; showSupportingActions?:boolean }
 export function EmptyStates({presentation='default',title,children,illustration,mainActions,supportingActions,showVisual=presentation!=='inline',showTitle=presentation!=='inline',showMainActions=presentation!=='inline',showSupportingActions=true}:EmptyStatesProps){const key=presentation==='main'?'2298':presentation==='compact'?'2281':'2381';return <section className={cx('ds-empty',`ds-empty-${presentation}`)}><div hidden={!showVisual} className="ds-empty-art">{illustration??<EmptyStateIllustration asset={key}/>}</div><div className="ds-empty-copy"><h3 hidden={!showTitle||title===undefined}>{title}</h3>{children&&<div>{children}</div>}</div><div hidden={!showMainActions} className="ds-empty-actions">{mainActions}</div><div hidden={!showSupportingActions} className="ds-empty-support">{supportingActions}</div></section>;}
-export interface MetricValue { label:string; value:string }
-export interface MetricCardProps { variant?:'vertical'|'horizontal'|'one-v1'|'one-v2'; size?:'large'|'small'; title:string; description?:string; values:readonly MetricValue[]; trend?:string; icon?:ReactNode; action?:ReactNode; showIcon?:boolean; showAction?:boolean; showDetail?:boolean }
-export function MetricCard({variant='vertical',size='large',title,description,values,trend,icon=<CurrencyCircleDollar weight="light"/>,action=<ArrowUpRight weight="light"/>,showIcon=true,showAction=true,showDetail=true}:MetricCardProps){
- const single=variant==='one-v1'||variant==='one-v2';
- const visual=<span hidden={!showIcon} className="ds-metric-icon">{icon}</span>;
- const navigate=<span hidden={!showAction} className="ds-metric-action">{action}</span>;
- return <article className={cx('ds-metric',`ds-metric-${variant}`,`ds-metric-${size}`)}>{single?<>{visual}<div className="ds-metric-single"><h3>{title}</h3><p className="ds-metric-value">{values[0]?.value}</p><p hidden={!showDetail||trend===undefined} className="ds-metric-trend">{trend}</p></div>{navigate}</>:<><div className="ds-metric-heading"><div className="ds-metric-title-row">{visual}<h3>{title}</h3>{navigate}</div><p hidden={!showDetail||description===undefined}>{description}</p></div><dl className="ds-metric-values">{values.slice(0,2).map((x,i)=><div key={i}><dt>{x.label}</dt><dd>{x.value}</dd></div>)}</dl></>}</article>;
-}
 type TableGlyphNode={id:string;x:number;y:number;paths?:{data:string;windingRule:string}[];children?:TableGlyphNode[]};
 function TableGlyphShape({node}:{node:TableGlyphNode}){return <g transform={`translate(${node.x} ${node.y})`}>{node.paths?.map((p,i)=><path key={i} d={p.data} fillRule={p.windingRule==='EVENODD'?'evenodd':'nonzero'}/>)}{node.children?.map(n=><TableGlyphShape key={n.id} node={n}/>)}</g>;}
 /** Arte privado compartido con Conversation; trazados visibles del auxiliar local. */

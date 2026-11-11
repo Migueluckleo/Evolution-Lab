@@ -617,27 +617,6 @@
     "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
   },
   {
-    "id": "METRIC-CARD-001",
-    "slug": "metric-card",
-    "name": "MetricCard",
-    "category": "Contenido",
-    "module": "content",
-    "exports": [
-      "MetricCard"
-    ],
-    "base": "specs/metric-card.contract.v0.1.0.md",
-    "amendments": [
-      "specs/components/six-family-color.amendment.v0.1.0.md",
-      "specs/components/metric-card.typography.amendment.v0.1.0.md"
-    ],
-    "slots": {
-      "status": "NOT_APPLICABLE",
-      "reason": "Anatomía fija, dos métricas en Vertical/Horizontal y una en V1/V2. Los swaps icon/action no crean cardinalidad variable."
-    },
-    "notes": "Ocho estructuras exactas Type×Size. Valores y textos son muestras, sin cálculo; vertical/horizontal usan hasta dos pares, V1/V2 el primer valor. Show icon/action/detail son independientes. V1 tiene las alturas normalizadas156/116; V2 baldosa96/80 con icono64/48. action es una affordance de muestra; un botón/enlace real debe venir del consumidor.",
-    "qa": "qa/implementations/web.contract-audit.v0.1.3.review.md"
-  },
-  {
     "id": "TABLE-001",
     "slug": "table",
     "name": "Table",

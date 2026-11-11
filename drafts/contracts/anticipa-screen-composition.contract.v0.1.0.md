@@ -114,7 +114,7 @@ Estas son **recetas de composición**, no ocho variantes de un megacomponente ni
 | Receta | Uso observado / evidencia | Ensamblaje propuesto y dependencias | Límite |
 |---|---|---|---|
 | R01 · Shell desktop | Inicio `19871:20289`, OBS-01 | Header + Sidebar + región principal. Base compartida de R02–R06. | No incluir automáticamente shell en un drawer, email o Connect. |
-| R02 · Dashboard | `20239:192284`, `18840:28207`, `18818:14273` | Encabezado, colección variable de Metric Cards, bloques Charts y herramientas locales. | Metric Card no es un contenedor genérico. No reconstruir gráficas no cubiertas por CHARTS-001 como si existieran. |
+| R02 · Dashboard | `20239:192284`, `18840:28207`, `18818:14273` | Encabezado, bloques Charts y herramientas locales. | No reconstruir gráficas no cubiertas por CHARTS-001 como si existieran. |
 | R03 · Espacio de datos | CFDI `17335:2023`, SAT `17840:22727` | Encabezado, filtros/herramientas, Table y Pagination; métricas opcionales solo con evidencia del contexto. | Filtros, sort, selección, recuentos y paginación no están implementados por sus variantes Figma. |
 | R04 · Lista y detalle | Buzón `20082:64748`, documentos `18033:7753` | Lista de registros + región documental persistente; PROP-04 para preview; acciones del registro separado de filtros. | La selección no se infiere de hover; PDF real y privacidad requieren definición de producto. |
 | R05 · Conversación | `19871:20289`, `19871:21358` y secuencia principal | Historial/carpetas, transcript y composer; propuestas PROP-02/03, con Input/Buttons existentes cuando encajen. | Orden espacial de pantallas no es un flujo conectado. |
@@ -222,7 +222,7 @@ Para texto nuevo: `font/family/base` y `font/letter-spacing/normal`, además de 
 | Etiqueta contextual compacta | `font/weight/regular` | `font/size/sm` | `font/line-height/sm` |
 | Metadato breve | `font/weight/regular` | `font/size/xs` | `font/line-height/xs` |
 
-Layout propuesto: `spacing/xl` en márgenes principales y drawer; `spacing/lg` en panel interno; `spacing/sm` entre herramientas; `spacing/xs` entre título y metadato; `spacing/2xl` entre secciones; `spacing/none` donde no corresponda separación. Panel nuevo: `radius/lg`; agrupación de mensaje: `radius/md`. Son selecciones de roles existentes, no redefinición de sus valores. No imponer estas filas sobre Modal, Table, Metric Cards o demás hijos con tipografía/espacios propios.
+Layout propuesto: `spacing/xl` en márgenes principales y drawer; `spacing/lg` en panel interno; `spacing/sm` entre herramientas; `spacing/xs` entre título y metadato; `spacing/2xl` entre secciones; `spacing/none` donde no corresponda separación. Panel nuevo: `radius/lg`; agrupación de mensaje: `radius/md`. Son selecciones de roles existentes, no redefinición de sus valores. No imponer estas filas sobre Modal, Table u otros hijos con tipografía/espacios propios.
 
 **Sombras y efectos:** no hay una receta universal nueva. Las excepciones de sombras de Select y Modal quedan dentro de esos componentes; no se copian al Drawer ni se simula elevación usando un token de foco. Elevación del Drawer queda abierta en D05. El JSON no se amplía para cubrirla en esta tarea.
 
@@ -231,7 +231,7 @@ Layout propuesto: `spacing/xl` en márgenes principales y drawer; `spacing/lg` e
 - Sustituir ejemplos de compañía, RFC, importes, archivos y marcas por datos de demo no sensibles o copy de producto aprobado. No usar credenciales reales ni completar contenido oculto por intuición.
 - Elegir terminología de producto antes de publicar: Anticipa, Contabilidad, NAVI y BENI coexisten en la fuente; no son nombres equivalentes demostrados.
 - Reutilizar reglas de Button: etiqueta con acción clara, no `Default`; normalmente un solo primary por grupo; mismo tamaño en el grupo; `link` no muta datos. Ocultar iconos redundantes mediante propiedades existentes.
-- El80% de Charts y los importes de Metric Cards son demos, no fórmulas. El contador de Textarea no define límite300. File Upload no convierte XLS/XLSX/CSV ni50MB en política de carga para CSF o FIEL.
+- El80% de Charts es un dato de muestra. El contador de Textarea no define límite300. File Upload no convierte XLS/XLSX/CSV ni50MB en política de carga para CSF o FIEL.
 - No introducir URL ficticia para los segmentos que parecen enlaces en la fuente. No prometer PDF/ZIP porque figure en el nombre del frame; D03.
 - Las longitudes máximas, redondeo, validación fiscal, obligatoriedad, formatos aceptados y tratamiento de datos personales requieren definición de producto. Este contrato no ofrece validación contable/legal.
 
@@ -249,7 +249,7 @@ Layout propuesto: `spacing/xl` en márgenes principales y drawer; `spacing/lg` e
 | Selector variable | [Select0.1.0](../../specs/select.contract.v0.1.0.md) + [Slots0.1.0](../../specs/composition-slots.amendment.v0.1.0.md). Dropdown Item e Input Field se resuelven transitivamente; no reconstruirlos desde apariencia. |
 | Tabla y páginas | [Table0.1.0](../../specs/table.contract.v0.1.0.md); [Pagination0.1.0](../../specs/navigation-pagination.contract.v0.1.0.md) + [Slots0.1.1](../../specs/composition-slots.amendment.v0.1.1.md), incluyendo su extensión contextual de estado. |
 | Pestañas de espacio de trabajo | [Tab0.1.0](../../specs/navigation-tab.contract.v0.1.0.md). Para una región de varias pestañas, Slot en el anfitrión; un Tab individual no se convierte en lista. |
-| Métricas y gráficos | [Metric Card0.1.0](../../specs/metric-card.contract.v0.1.0.md), [Charts0.1.0](../../specs/charts.contract.v0.1.0.md), ambos con enmienda seis familias; Charts además Slots0.1.1. Los roles sustituidos proceden del [JSON cromático vigente](../../specs/tokens/ai-design-system.six-family-color.v0.1.0.json), no de una extensión histórica seleccionada por nombre. |
+| Gráficos | [Charts0.1.0](../../specs/charts.contract.v0.1.0.md), con enmienda cromática y Slots0.1.1. Los roles sustituidos proceden del [JSON cromático vigente](../../specs/tokens/ai-design-system.six-family-color.v0.1.0.json), no de una extensión histórica seleccionada por nombre. |
 | Mensaje contextual | [Inline Notification0.1.0](../../specs/components/inline-notification.contract.v0.1.0.md) + [Warning0.1.1](../../specs/components/inline-notification.warning-source-color-amendment.v0.1.1.md) y Foundations citadas por ella. El requisito histórico de oscurecer Warning está sustituido. |
 | Ausencia de datos | [Empty states0.1.0](../../specs/empty-states.contract.v0.1.0.md), con Slots y límites de ancho propios. No aplicarlo automáticamente a permiso denegado o error. |
 | Diálogo | [Modal0.1.0](../../specs/modal.contract.v0.1.0.md), conservando Body/Actions y dependencias de Button. No usar SideBySide como sustituto de Drawer. |
@@ -264,7 +264,7 @@ El lock fija las dependencias directas revisadas, **no certifica todo su cierre 
 |---|---|---|---|
 | Shell: contenido principal | REQUIRED si se convierte en componente reutilizable; Slot nativo | Una composición activa; su interior puede variar. No mezclar varias pantallas completas. | FILL ancho; altura según scrollOwner; regiones estructurales Header/Sidebar separadas. |
 | Encabezado de página: herramientas/filtros | REQUIRED si se empaqueta; Slot nativo por región | Instancias Buttons, Icon Buttons, Search, Select; cantidad variable sin máximo de negocio definido. | Herramientas horizontal HUG, gap `spacing/sm`; wrap propuesto solo si no altera hijos ni orden de acciones. |
-| Dashboard: bloques | REQUIRED si se empaqueta; Slot nativo | Metric Card/Charts/composiciones aprobadas; muestras no limitan cantidad. | Colección con reflow propuesto; columnas y mínimo de cada tarjeta pendientes de validación, no grilla fija inferida. |
+| Dashboard: bloques | REQUIRED si se empaqueta; Slot nativo | Charts y composiciones aprobadas; muestras no limitan cantidad. | Colección con reflow propuesto; columnas y mínimo de cada tarjeta pendientes de validación, no grilla fija inferida. |
 | Table: rows/header cells/row cells/actions | REQUIRED, ya especificado en TABLE-001 | Según contrato Table. Añadir/quitar columnas exige sincronizar encabezado y filas; no automático. | Conservar mecanismos y restricciones de Table, no un Table nuevo con slots simulados. |
 | Select: Options | REQUIRED, enmienda0.1.0 | Dropdown Item; cinco es muestra, no máximo. | Slot vertical HUG. No añadir max-height/scroll por inferencia; el anclaje80 corresponde al preset documentado. |
 | Drawer: Toolbar/Header/Body/Actions | REQUIRED, PROP-01; fuente tiene tres Slots, Actions fuente es frame | Toolbar/actions: controles DS; Header: contenido contextual; Body: composición identificada. Actions variable, sin máximo de negocio. | Toolbar/header/actions HUG; body FILL si viewport limitado; scroll propuesto solo body. No declarar footer sticky por su nombre fuente. |

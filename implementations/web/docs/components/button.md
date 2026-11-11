@@ -64,9 +64,9 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 - [button-page-name.amendment.md](../../../../specs/components/button-page-name.amendment.md) · SHA-256 `b2c896cab9f2f5659101253dbc93ce0410c697081e53daafecebbc5b62895fd7`.
 - [button.local-bindings.amendment.v0.2.2.md](../../../../specs/components/button.local-bindings.amendment.v0.2.2.md) · SHA-256 `57b84698047da82ebfd10c18ed828a1aac43482283856d49690d379b60d2e59c`.
 - [button.semantic-scope-amendment.v0.2.1.md](../../../../specs/components/button.semantic-scope-amendment.v0.2.1.md) · SHA-256 `8655c79ae1f13c66be04ed406815066a1f3a44d553d2b948390f6bf1b6f1dfb9`.
-- [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97`.
 - [button.typography.amendment.v0.1.0.md](../../../../specs/components/button.typography.amendment.v0.1.0.md) · SHA-256 `7bdede73c5ea2864ed61d4e74d5ec20c553ad29f158bf633dcc3e4b2d073607b`.
-- [button.evolution.amendment.v0.3.0.md](../../../../specs/components/button.evolution.amendment.v0.3.0.md) · SHA-256 `d07a01e8975f03e488787429748ae2750e61569af3137ada10480abdc56b5240`.
+- [button.evolution.amendment.v0.3.0.md](../../../../specs/components/button.evolution.amendment.v0.3.0.md) · SHA-256 `bf9c23f26cbd2582ff3d99aeb484916368d55a7c861d6291ad5b7ffcc578281b`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

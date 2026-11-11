@@ -33,7 +33,7 @@ Fecha:2026-10-13. Las fuentes exactas y sus hashes están en [family-matrix.json
 | [Characters](../../../implementations/web/docs/components/characters.md) | Regresión13 poses y64 vectores; matrices SVG sin doble traslación; identidad fija. | 13 | Revisión + render |
 | [Logos](../../../implementations/web/docs/components/logos.md) | 72 assets locales; ocho originales recuperados por ID; hashes y proporción. | 72 | Revisión + render |
 | [EmptyStates](../../../implementations/web/docs/components/empty-states.md) | Show visual/title/main/supporting independientes; defaults Inline y Slots. | 4 | Revisión + render |
-| [MetricCard](../../../implementations/web/docs/components/metric-card.md) | Ocho anatomías y cajas; V/H dos métricas, V1/V2 una; icono/action/detail independientes. | 8 | Medida + render |
+| MetricCard ([retiro posterior](../../../registry/DEC-RETIRE-METRIC-001.md)) | Ocho anatomías y cajas; V/H dos métricas, V1/V2 una; icono/action/detail independientes. | 8 | Medida + render |
 | [Table](../../../implementations/web/docs/components/table.md) | Exports de piezas, Slots, visibilidades, cajas52/36 y hover1288/primera celda132. | 2 | Medida + render |
 | [Modal](../../../implementations/web/docs/components/modal.md) | Ocho cajas y anatomías; Header/Body/Footer, media260 y SideBySide500+340; flags. | 8 | Medida + render |
 | [Scrollbar](../../../implementations/web/docs/components/scrollbar.md) | Ocho presets visuales exactos; ScrollArea nativo separado; tamaños literales. | 8 | Medida + render |

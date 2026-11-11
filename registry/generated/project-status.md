@@ -36,7 +36,7 @@ Los estados de QA son evidencia declarada por documento, sin nueva lectura Figma
 | LINEAR-PROGRESS-BAR-001 | [0.1.0](../../specs/linear-progress-bar.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 1 registros por alcance |
 | LOADER-001 | [0.1.0](../../specs/loader.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 1 registros por alcance |
 | LOGOS-001 | [0.1.0](../../drafts/contracts/logos.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 1 registros por alcance |
-| METRIC-CARD-001 | [0.1.0](../../specs/metric-card.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 1 registros por alcance |
+| METRIC-CARD-001 | CANDIDATE_ONLY | UNKNOWN | 1 | 1 registros por alcance |
 | MIGRATION-TOKEN-TRACEABILITY-001 | [0.1.0](../../specs/MIGRATION-TOKEN-TRACEABILITY.contract.md) | APPROVED | 2 | 0 registros por alcance |
 | MODAL-001 | [0.1.0](../../specs/modal.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 0 | 2 registros por alcance |
 | NAVIGATION-PAGINATION-001 | [0.1.0](../../specs/navigation-pagination.contract.v0.1.0.md) | DELEGATED_FOR_BUILD | 1 | 2 registros por alcance |
@@ -140,7 +140,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Enmienda: [specs/composition-slots.amendment.v0.1.0.md](../../specs/composition-slots.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/composition-slots.v0.1.0.state.json](../../implementations/figma/composition-slots.v0.1.0.state.json) — {"status": "VALIDATED", "userAudit": "PENDING", "libraryPublication": "UNPUBLISHED"}.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
-- Autoridad/registro: [registry/SLOTS-REVIEW-STATUS.md](../../registry/SLOTS-REVIEW-STATUS.md).
+- Autoridad/registro: [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md), [registry/SLOTS-REVIEW-STATUS.md](../../registry/SLOTS-REVIEW-STATUS.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
 
@@ -169,7 +169,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Implementación: [implementations/figma/buttons.local-bindings.v0.2.2.token-map.json](../../implementations/figma/buttons.local-bindings.v0.2.2.token-map.json) — {}.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
 - QA por alcance: [qa/contracts/button-evolution.v0.3.0.review.md](../../qa/contracts/button-evolution.v0.3.0.review.md), [qa/contracts/button.local-bindings.v0.2.2.review.md](../../qa/contracts/button.local-bindings.v0.2.2.review.md), [qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md](../../qa/contracts/button.semantic-scope-amendment.v0.2.1.review.md), [qa/contracts/specs-promotion.2026-10-06.review.md](../../qa/contracts/specs-promotion.2026-10-06.review.md), [qa/implementations/button.local-bindings.v0.2.2.figma.review.md](../../qa/implementations/button.local-bindings.v0.2.2.figma.review.md), [qa/implementations/button.semantic-scope.v0.2.1.figma.review.md](../../qa/implementations/button.semantic-scope.v0.2.1.figma.review.md), [qa/implementations/buttons.local-bindings.v0.2.2.before.json](../../qa/implementations/buttons.local-bindings.v0.2.2.before.json), [qa/implementations/buttons.refinement.v0.1.0.remote-variables.json](../../qa/implementations/buttons.refinement.v0.1.0.remote-variables.json), [qa/implementations/six-families.color.v0.1.0.review.md](../../qa/implementations/six-families.color.v0.1.0.review.md).
-- Autoridad/registro: [registry/DEC-AI-TECHNICAL-CLOSURE-001.md](../../registry/DEC-AI-TECHNICAL-CLOSURE-001.md), [registry/DEC-GIT-PUBLICATION-001.md](../../registry/DEC-GIT-PUBLICATION-001.md), [registry/decisions.md](../../registry/decisions.md), [registry/sources.md](../../registry/sources.md).
+- Autoridad/registro: [registry/DEC-AI-TECHNICAL-CLOSURE-001.md](../../registry/DEC-AI-TECHNICAL-CLOSURE-001.md), [registry/DEC-GIT-PUBLICATION-001.md](../../registry/DEC-GIT-PUBLICATION-001.md), [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md), [registry/decisions.md](../../registry/decisions.md), [registry/sources.md](../../registry/sources.md).
 - Historia/candidatos: [drafts/contracts/button.contract.md](../../drafts/contracts/button.contract.md), [drafts/contracts/button.contract.v0.2.0.md](../../drafts/contracts/button.contract.v0.2.0.md), [specs/components/button.contract.md](../../specs/components/button.contract.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
@@ -212,6 +212,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Implementación: [implementations/figma/composition-slots.v0.1.1.state.json](../../implementations/figma/composition-slots.v0.1.1.state.json) — {"status": "VALIDATED", "scope": "P-SLOTS: Steps Gallery, Pagination Pages y leyendas Charts; no revalidación cromática global", "userAudit": "PENDING", "publication": "UNPUBLISHED"}.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
 - QA por alcance: [qa/implementations/composition-slots.v0.1.1.charts-rows.json](../../qa/implementations/composition-slots.v0.1.1.charts-rows.json), [qa/implementations/composition-slots.v0.1.1.figma.review.md](../../qa/implementations/composition-slots.v0.1.1.figma.review.md).
+- Autoridad/registro: [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
 
@@ -524,6 +525,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Revisión de implementación declarada: UNKNOWN.
 - Enmienda: [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
+- Autoridad/registro: [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
 
@@ -576,6 +578,7 @@ Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
 - Revisión de implementación declarada: UNKNOWN.
 - Enmienda: [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
+- Autoridad/registro: [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md).
 
 Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
 
@@ -629,21 +632,17 @@ Cierre/excepción con alcance explícito: [Paso 4 · promoción a specs · 2026-
 
 ## METRIC-CARD-001
 
-Base: [specs/metric-card.contract.v0.1.0.md](../../specs/metric-card.contract.v0.1.0.md).
-Resolución: RESOLVED. Auditoría, preparación y QA permanecen separados.
+Resolución: CANDIDATE_ONLY. Auditoría, preparación y QA permanecen separados.
 
-- Auditoría humana: PENDING en [specs/metric-card.contract.v0.1.0.md](../../specs/metric-card.contract.v0.1.0.md); PENDING en [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md).
-- Página declarada: Metric Cards en [specs/metric-card.contract.v0.1.0.md](../../specs/metric-card.contract.v0.1.0.md).
+- Auditoría humana: PENDING en [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md).
+- Página declarada: UNKNOWN.
 - Preparación: UNKNOWN.
 - Slots: UNKNOWN.
 - Revisión de implementación declarada: UNKNOWN.
 - Enmienda: [specs/components/six-family-color.amendment.v0.1.0.md](../../specs/components/six-family-color.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD; Consultar alcance en la enmienda.
 - Implementación: [implementations/figma/six-family-color.v0.1.0.state.json](../../implementations/figma/six-family-color.v0.1.0.state.json) — {"status": "VALIDATED_COLOR_SCOPE", "userAudit": "PENDING", "libraryPublication": "NOT_PERFORMED", "qa": "qa/implementations/six-families.color.v0.1.0.review.md", "pendingValidations": []}.
-
-Cierre/excepción con alcance explícito: [Actualización cromática de seis familias · 2026-10-05](../../specs/MIGRATION-AUDIT.md) (línea 31).
-
-> Las revisiones pendientes de Buttons, Icon Buttons, Breadcrumbs, Metric Cards, Charts y Linear Progress Bars están cerradas técnicamente; no requieren otra aprobación individual. [QA y mediciones](../../qa/implementations/six-families.color.v0.1.0.review.md). Se restauraron colores de origen, conservando limitaciones* para revisión interna: Servicios, Primary Press, bordes suaves, Gauge y series claras. El swatch Charts#D9D9D9 se aproxima con neutral/300#E2E8F0 mediante rol semántico; no hay color primitivo nuevo. Los Slots siguen intactos y el80% continúa como demo. La auditoría humana sigue PENDING, sin recolorear para forzar contraste.
-
+- Autoridad/registro: [registry/DEC-RETIRE-METRIC-001.md](../../registry/DEC-RETIRE-METRIC-001.md).
+- Historia/candidatos: [specs/metric-card.contract.v0.1.0.md](../../specs/metric-card.contract.v0.1.0.md).
 - Preparación no declarada: UNKNOWN; no se deduce del estado documental.
 - Pendientes/excepciones: [auditoría](../../specs/MIGRATION-AUDIT.md) y [trazabilidad vigente](../../specs/MIGRATION-TRACEABILITY-STATUS.md).
 
@@ -1009,7 +1008,7 @@ Conservan su identidad y alcance propios; consultar relaciones explícitas en ca
 - [specs/components/linear-progress-bar.typography.amendment.v0.1.0.md](../../specs/components/linear-progress-bar.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
 - [specs/components/loader.typography.amendment.v0.1.0.md](../../specs/components/loader.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
 - [specs/components/logos.typography.amendment.v0.1.0.md](../../specs/components/logos.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
-- [specs/components/metric-card.typography.amendment.v0.1.0.md](../../specs/components/metric-card.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
+- [specs/components/metric-card.typography.amendment.v0.1.0.md](../../specs/components/metric-card.typography.amendment.v0.1.0.md) — SUPERSEDED.
 - [specs/components/modal.typography.amendment.v0.1.0.md](../../specs/components/modal.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
 - [specs/components/navigation-pagination.typography.amendment.v0.1.0.md](../../specs/components/navigation-pagination.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
 - [specs/components/navigation-switch-tab-item.typography.amendment.v0.1.0.md](../../specs/components/navigation-switch-tab-item.typography.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
@@ -1048,6 +1047,6 @@ Conservan su identidad y alcance propios; consultar relaciones explícitas en ca
 - [specs/foundations/foundations.feedback-icon-scopes.amendment.v0.1.7.md](../../specs/foundations/foundations.feedback-icon-scopes.amendment.v0.1.7.md) — DELEGATED_FOR_BUILD.
 - [specs/foundations/foundations.icon-button-backgrounds.amendment.v0.1.9.md](../../specs/foundations/foundations.icon-button-backgrounds.amendment.v0.1.9.md) — DELEGATED_FOR_BUILD.
 - [specs/foundations/foundations.linear-progress-colors.amendment.v0.1.0.md](../../specs/foundations/foundations.linear-progress-colors.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
-- [specs/foundations/foundations.metric-card-roles.amendment.v0.1.0.md](../../specs/foundations/foundations.metric-card-roles.amendment.v0.1.0.md) — DELEGATED_FOR_BUILD.
+- [specs/foundations/foundations.metric-card-roles.amendment.v0.1.0.md](../../specs/foundations/foundations.metric-card-roles.amendment.v0.1.0.md) — SUPERSEDED.
 - [specs/foundations/foundations.warning-icon-source-color.amendment.v0.1.10.md](../../specs/foundations/foundations.warning-icon-source-color.amendment.v0.1.10.md) — DELEGATED_FOR_BUILD.
 - [specs/foundations/typography.formatting.amendment.v0.1.1.md](../../specs/foundations/typography.formatting.amendment.v0.1.1.md) — DELEGATED_FOR_BUILD.

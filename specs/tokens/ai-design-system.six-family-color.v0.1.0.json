@@ -24,10 +24,6 @@
       "scope": "Only variables enumerated in this extension; other definitions unchanged"
     },
     {
-      "extensionId": "FOUNDATIONS-METRIC-CARD-ROLES-001",
-      "scope": "Only variables enumerated in this extension; other definitions unchanged"
-    },
-    {
       "extensionId": "FOUNDATIONS-CHART-COLORS-001",
       "scope": "Only variables enumerated in this extension; other definitions unchanged"
     },
@@ -68,70 +64,6 @@
         }
       },
       "targetId": "VariableID:196:122"
-    },
-    {
-      "name": "color/text/metric/trend",
-      "resolvedType": "COLOR",
-      "description": "Texto de variación porcentual en Metric Card sobre fondo claro o sutil; expresa el acento de marca sin inferir por sí solo si la variación es favorable.",
-      "scopes": [
-        "TEXT_FILL"
-      ],
-      "codeSyntax": {},
-      "valuesByMode": {
-        "6:0": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/blue/400",
-          "targetId": "VariableID:8:87"
-        },
-        "6:1": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/green/500",
-          "targetId": "VariableID:8:62"
-        },
-        "6:2": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/orange/500",
-          "targetId": "VariableID:8:71"
-        },
-        "6:3": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/purple/500",
-          "targetId": "VariableID:8:80"
-        }
-      },
-      "targetId": "VariableID:200:122"
-    },
-    {
-      "name": "color/icon/metric/brand",
-      "resolvedType": "COLOR",
-      "description": "Iconos de marca dentro de Metric Card sobre fondo claro o sutil, incluidos el icono de categoría y la flecha Navigate; no se usa para texto ni fondo.",
-      "scopes": [
-        "SHAPE_FILL"
-      ],
-      "codeSyntax": {},
-      "valuesByMode": {
-        "6:0": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/blue/400",
-          "targetId": "VariableID:8:87"
-        },
-        "6:1": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/green/500",
-          "targetId": "VariableID:8:62"
-        },
-        "6:2": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/orange/500",
-          "targetId": "VariableID:8:71"
-        },
-        "6:3": {
-          "type": "VARIABLE_ALIAS",
-          "name": "color/purple/500",
-          "targetId": "VariableID:8:80"
-        }
-      },
-      "targetId": "VariableID:200:123"
     },
     {
       "name": "color/shape/chart/progress",
@@ -296,7 +228,7 @@
     {
       "name": "color/border/control/subtle",
       "resolvedType": "COLOR",
-      "description": "Borde de baja prominencia de Buttons, Icon Buttons y Metric Cards; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios.",
+      "description": "Borde de baja prominencia de Buttons e Icon Buttons; preserva la receta cromática de estos controles en cada tema, sin expresar error en Servicios.",
       "scopes": [
         "STROKE_COLOR"
       ],

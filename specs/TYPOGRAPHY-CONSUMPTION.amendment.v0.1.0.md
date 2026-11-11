@@ -12,6 +12,8 @@ implementation_validation: REQUIRES_FINAL_READBACK
 
 # Consumo tipográfico · 43 familias · enmienda 0.1.0
 
+> El retiro del 2026-11-11 sustituye el alcance de Metric Cards. [Decisión](../registry/DEC-RETIRE-METRIC-001.md). Las tablas y cifras del lote original documentan la ejecución histórica.
+
 ## Decisión específica y sustitución
 
 La solicitud explícita del usuario del 2026-10-15 exige aplicar los estilos a **todos los componentes Figma** y documentar en cada Spec qué tipografías requiere. Esa solicitud delega esta aplicación y su documentación; no es aprobación humana de cada detalle. La auditoría humana permanece `PENDING`. Esta enmienda y las 43 enmiendas de familia que enlaza son el paquete normativo de esa solicitud, con versiones históricas intactas.

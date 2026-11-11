@@ -31,7 +31,6 @@ export const examples: Record<string, ComponentType> = {
   "characters": Examples.CharactersExample,
   "logos": Examples.LogosExample,
   "empty-states": Examples.EmptyStatesExample,
-  "metric-card": Examples.MetricCardExample,
   "table": Examples.TableExample,
   "modal": Examples.ModalExample,
   "scrollbar": Examples.ScrollbarExample,

@@ -1427,57 +1427,6 @@ export const typography = {
       "decoration": "none"
     }
   },
-  "ui-metric-description-small": {
-    "id": "ui-metric-description-small",
-    "name": "UI/Metric/Description Small",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 12,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 24
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Descripción de Vertical Metric Small,12 Regular/24; preserva su composición fija existente. No generalizar como una segunda escala de caption. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/xs",
-      "lineHeight": "font/line-height/md",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 4; nodes 202:237",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-description-small",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-xs)",
-      "line-height": "var(--ds-font-line-height-md)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
-      "decoration": "none"
-    }
-  },
   "ui-chip-label-small": {
     "id": "ui-chip-label-small",
     "name": "UI/Chip/Label Small",
@@ -1829,7 +1778,7 @@ export const typography = {
       "unit": "PIXELS",
       "value": 0
     },
-    "description": "Prefijo Input, etiquetas ocultas de Toggle y rótulos compactos de Metric,14 Regular/16. Mantener únicamente en los roles existentes de línea estrecha. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "description": "Prefijo Input y etiquetas ocultas de Toggle,14 Regular/16. Mantener únicamente en los roles existentes de línea estrecha. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
     "tokenRefs": {
       "fontFamily": "font/family/base",
       "fontStyle": "font/weight/regular",
@@ -1849,13 +1798,6 @@ export const typography = {
         "source": "drafts/contracts/toggle.contract.v0.1.0.md",
         "sha256": "c3b6d1100241e3bdb5c89cc98e89854cda999c87f775a8552211280979326c38",
         "locator": "line90: labels14Regular/16, normal tracking, hidden default",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
         "provenance": "EXPLICIT",
         "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
       },
@@ -2225,7 +2167,7 @@ export const typography = {
       "unit": "PIXELS",
       "value": 0
     },
-    "description": "Descripción Inline Notification y Metric, y label Sidebar inactivo 14 Regular/24. Conserva la altura de línea de esos roles existentes. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "description": "Descripción Inline Notification y label Sidebar inactivo 14 Regular/24. Conserva la altura de línea de esos roles existentes. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
     "tokenRefs": {
       "fontFamily": "font/family/base",
       "fontStyle": "font/weight/regular",
@@ -2238,13 +2180,6 @@ export const typography = {
         "source": "specs/components/inline-notification.contract.v0.1.0.md",
         "sha256": "cdabc527b403751f7f69ca4fe15fd729142b56f404e91f9b28940f374856aa63",
         "locator": "§§6,10: title/body semantic local typography",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
         "provenance": "EXPLICIT",
         "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
       },
@@ -2864,70 +2799,6 @@ export const typography = {
       "decoration": "none"
     }
   },
-  "ui-metric-label-compact": {
-    "id": "ui-metric-label-compact",
-    "name": "UI/Metric/Label Compact",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 16,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 16
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Etiqueta métrica y leyenda Medium regular 16/16. Mantener solo en sus cajas compactas existentes; no es texto de lectura general. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/md",
-      "lineHeight": "font/line-height/xs",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "specs/charts.contract.v0.1.0.md",
-        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
-        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 2; nodes 202:222,202:225,202:233",
-        "provenance": "OBSERVED"
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
-        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
-        "locator": "recipes indices 2; nodes 210:136",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-label-compact",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-md)",
-      "line-height": "var(--ds-font-line-height-xs)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
-      "decoration": "none"
-    }
-  },
   "ui-action-text-medium": {
     "id": "ui-action-text-medium",
     "name": "UI/Action/Text Medium",
@@ -2982,57 +2853,6 @@ export const typography = {
       "size": "var(--ds-font-size-md)",
       "line-height": "var(--ds-font-line-height-sm)",
       "tracking": "0.001em",
-      "decoration": "none"
-    }
-  },
-  "ui-metric-label-trend": {
-    "id": "ui-metric-label-trend",
-    "name": "UI/Metric/Label and trend",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 16,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 20
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Label y Trend de Metric 16 Regular/20. Preservar las composiciones Horizontal y V 1 cuyos altos ya fueron ajustados para este interlineado. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/md",
-      "lineHeight": "font/line-height/sm",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 6,11; nodes 202:258,202:261,202:288",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-label-trend",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-md)",
-      "line-height": "var(--ds-font-line-height-sm)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
       "decoration": "none"
     }
   },
@@ -3103,7 +2923,7 @@ export const typography = {
       "unit": "PIXELS",
       "value": 0
     },
-    "description": "Texto amplio 16 Regular/24: cuerpo y subtítulo Modal, título Inline Notification, labels Select Large y textos Metric según sus contratos. No sustituir por SubheadingBold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
+    "description": "Texto amplio 16 Regular/24: cuerpo y subtítulo Modal, título Inline Notification, y labels Select Large según sus contratos. No sustituir por SubheadingBold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
     "tokenRefs": {
       "fontFamily": "font/family/base",
       "fontStyle": "font/weight/regular",
@@ -3130,13 +2950,6 @@ export const typography = {
         "source": "specs/select.contract.v0.1.0.md",
         "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
         "locator": "§§6,10: scaled nested checkbox, preserved source label roles and local typography",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
         "provenance": "EXPLICIT",
         "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
       },
@@ -3224,6 +3037,63 @@ export const typography = {
       "weight": "var(--ds-font-weight-medium)",
       "size": "var(--ds-font-size-md)",
       "line-height": "var(--ds-font-line-height-md)",
+      "tracking": "var(--ds-font-letter-spacing-normal)",
+      "decoration": "none"
+    }
+  },
+  "ui-chart-legend-medium": {
+    "id": "ui-chart-legend-medium",
+    "name": "UI/Chart/Legend Medium",
+    "category": "complementary",
+    "fontFamily": "Manrope",
+    "fontStyle": "Regular",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 16
+    },
+    "letterSpacing": {
+      "unit": "PIXELS",
+      "value": 0
+    },
+    "description": "Leyenda mediana de Chart Legend Label en peso Regular, Manrope 16/16 px.",
+    "tokenRefs": {
+      "fontFamily": "font/family/base",
+      "fontStyle": "font/weight/regular",
+      "fontSize": "font/size/md",
+      "lineHeight": "font/line-height/xs",
+      "letterSpacing": "font/letter-spacing/normal"
+    },
+    "evidence": [
+      {
+        "source": "specs/charts.contract.v0.1.0.md",
+        "sha256": "e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea",
+        "locator": "§§4,6,10, lines41,53,82: legend76×16, Header20px lines, semantic font roles",
+        "provenance": "EXPLICIT",
+        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
+        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
+        "locator": "recipes indices 2; nodes 202:222,202:225,202:233",
+        "provenance": "OBSERVED"
+      },
+      {
+        "source": "sources/figma-snapshots/typography/census.before.210-122.json",
+        "sha256": "5c21d1c9200268b2152160aa1f95fb4f9235d4af6434113b89be64bab50d0ca2",
+        "locator": "recipes indices 2; nodes 210:136",
+        "provenance": "OBSERVED"
+      }
+    ],
+    "compatibilityOnly": true,
+    "textDecoration": "NONE",
+    "cssClass": "ds-type-ui-chart-legend-medium",
+    "css": {
+      "family": "var(--ds-font-family-base)",
+      "weight": "var(--ds-font-weight-regular)",
+      "size": "var(--ds-font-size-md)",
+      "line-height": "var(--ds-font-line-height-xs)",
       "tracking": "var(--ds-font-letter-spacing-normal)",
       "decoration": "none"
     }
@@ -3573,57 +3443,6 @@ export const typography = {
       "decoration": "none"
     }
   },
-  "ui-metric-value-small": {
-    "id": "ui-metric-value-small",
-    "name": "UI/Metric/Value Small",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 20,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 24
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Valor Horizontal Small y título One Metric V 1 Small 20 Regular/24. Preserva 20 px en lugar de forzar 24 px o pesoSemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/lg",
-      "lineHeight": "font/line-height/md",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 10; nodes 202:277,202:280,202:297",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-value-small",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-lg)",
-      "line-height": "var(--ds-font-line-height-md)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
-      "decoration": "none"
-    }
-  },
   "ui-chat-subtitle": {
     "id": "ui-chat-subtitle",
     "name": "UI/Chat/Subtitle",
@@ -3794,57 +3613,6 @@ export const typography = {
       "decoration": "none"
     }
   },
-  "ui-metric-value-medium": {
-    "id": "ui-metric-value-medium",
-    "name": "UI/Metric/Value Medium",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 24,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 24
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Títulos y valores Metric 24 Regular/24. Mantener los roles de cifra y título existentes; el catálogo base 24 solo ofrece Bold/SemiBold. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/xl",
-      "lineHeight": "font/line-height/md",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 0; nodes 202:215,202:241,202:244",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-value-medium",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-xl)",
-      "line-height": "var(--ds-font-line-height-md)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
-      "decoration": "none"
-    }
-  },
   "ui-empty-title": {
     "id": "ui-empty-title",
     "name": "UI/Empty/Title",
@@ -3942,57 +3710,6 @@ export const typography = {
       "family": "var(--ds-font-family-base)",
       "weight": "var(--ds-font-weight-bold)",
       "size": "var(--ds-font-size-xl)",
-      "line-height": "var(--ds-font-line-height-xl)",
-      "tracking": "var(--ds-font-letter-spacing-normal)",
-      "decoration": "none"
-    }
-  },
-  "ui-metric-value-large": {
-    "id": "ui-metric-value-large",
-    "name": "UI/Metric/Value Large",
-    "category": "complementary",
-    "fontFamily": "Manrope",
-    "fontStyle": "Regular",
-    "fontSize": 32,
-    "fontWeight": 400,
-    "lineHeight": {
-      "unit": "PIXELS",
-      "value": 32
-    },
-    "letterSpacing": {
-      "unit": "PIXELS",
-      "value": 0
-    },
-    "description": "Valor grande Metric 32 Regular/32. No convertir al pesoMedium/Bold del catálogo base; preservar caja fija del importe. Complementario de compatibilidad limitado a estos roles y sus instancias; no es una escala general para nuevas pantallas.",
-    "tokenRefs": {
-      "fontFamily": "font/family/base",
-      "fontStyle": "font/weight/regular",
-      "fontSize": "font/size/2xl",
-      "lineHeight": "font/line-height/xl",
-      "letterSpacing": "font/letter-spacing/normal"
-    },
-    "evidence": [
-      {
-        "source": "specs/metric-card.contract.v0.1.0.md",
-        "sha256": "243abaf3460738916249876eb9b6064edf1341a98a242c54e4a05d78819b824e",
-        "locator": "§§6,10, lines59,86–89: Regular, tokens xs–2xl, fixed compositions",
-        "provenance": "EXPLICIT",
-        "scope": "Reglas y geometría de consumidor; las propiedades exactas no transcritas se verifican en el censo observado, no se atribuyen como cita textual al contrato."
-      },
-      {
-        "source": "sources/figma-snapshots/typography/census.before.202-208.json",
-        "sha256": "81f5136a3e7a9d7a1864e80fa35ad8f77d1b695b1b280a03b70c9372501edce8",
-        "locator": "recipes indices 3; nodes 202:223,202:226,202:287",
-        "provenance": "OBSERVED"
-      }
-    ],
-    "compatibilityOnly": true,
-    "textDecoration": "NONE",
-    "cssClass": "ds-type-ui-metric-value-large",
-    "css": {
-      "family": "var(--ds-font-family-base)",
-      "weight": "var(--ds-font-weight-regular)",
-      "size": "var(--ds-font-size-2xl)",
       "line-height": "var(--ds-font-line-height-xl)",
       "tracking": "var(--ds-font-letter-spacing-normal)",
       "decoration": "none"
@@ -4965,5 +4682,5 @@ export const typography = {
   }
 } as const;
 export type TypographyId = keyof typeof typography;
-export const typographyIds = ["heading-1-bold", "heading-1-semibold", "heading-2-bold", "heading-2-medium", "heading-3-semibold", "heading-3-medium", "heading-4-medium", "heading-4-bold", "heading-5-bold", "heading-5-semibold", "subheading-1-bold", "subheading-1-semibold", "subheading-2-bold", "subheading-2-semibold", "body-regular", "body-semibold", "caption-regular", "caption-semibold", "micro-count-small", "micro-source-path", "micro-count-medium", "micro-count-large", "ui-stepper-caption", "ui-upload-format-success", "ui-avatar-initials-small", "ui-sidebar-release", "ui-caption-compact", "ui-chart-description", "ui-metric-description-small", "ui-chip-label-small", "ui-chat-metadata", "ui-avatar-initials-medium", "ui-caption-compact-emphasis", "ui-source-title", "ui-navigation-label-auto", "ui-field-prefix-compact", "ui-action-text-small", "ui-body-compact", "ui-tooltip-content", "ui-body-spacious", "ui-chip-label-middle", "ui-navigation-emphasis-auto", "ui-stepper-title", "ui-upload-action-feedback", "ui-sidebar-label-active", "ui-navigation-tab-active", "ui-navigation-switch-active", "ui-action-label-small", "ui-label-compact-bold", "ui-header-release", "ui-metric-label-compact", "ui-action-text-medium", "ui-metric-label-trend", "ui-breadcrumb-label", "ui-content-large", "ui-chip-label-large", "ui-chart-legend-medium-emphasis", "ui-breadcrumb-shortened", "ui-action-label-medium", "ui-action-label-normal", "ui-conversation-preview-title", "ui-chart-header-title", "ui-metric-value-small", "ui-chat-subtitle", "ui-empty-main-title", "ui-avatar-initials-extra-large", "ui-metric-value-medium", "ui-empty-title", "ui-modal-title", "ui-metric-value-large", "ui-chart-gauge-value", "ui-chat-title", "ui-checkbox-label-scaled-two-thirds", "ui-checkbox-label-scaled-five-sixths", "micro-count-small-scaled-four-thirds", "ui-action-label-medium-underline", "ui-action-label-small-underline", "ui-action-label-normal-underline", "ui-upload-action-feedback-underline"] as const;
+export const typographyIds = ["heading-1-bold", "heading-1-semibold", "heading-2-bold", "heading-2-medium", "heading-3-semibold", "heading-3-medium", "heading-4-medium", "heading-4-bold", "heading-5-bold", "heading-5-semibold", "subheading-1-bold", "subheading-1-semibold", "subheading-2-bold", "subheading-2-semibold", "body-regular", "body-semibold", "caption-regular", "caption-semibold", "micro-count-small", "micro-source-path", "micro-count-medium", "micro-count-large", "ui-stepper-caption", "ui-upload-format-success", "ui-avatar-initials-small", "ui-sidebar-release", "ui-caption-compact", "ui-chart-description", "ui-chip-label-small", "ui-chat-metadata", "ui-avatar-initials-medium", "ui-caption-compact-emphasis", "ui-source-title", "ui-navigation-label-auto", "ui-field-prefix-compact", "ui-action-text-small", "ui-body-compact", "ui-tooltip-content", "ui-body-spacious", "ui-chip-label-middle", "ui-navigation-emphasis-auto", "ui-stepper-title", "ui-upload-action-feedback", "ui-sidebar-label-active", "ui-navigation-tab-active", "ui-navigation-switch-active", "ui-action-label-small", "ui-label-compact-bold", "ui-header-release", "ui-action-text-medium", "ui-breadcrumb-label", "ui-content-large", "ui-chip-label-large", "ui-chart-legend-medium", "ui-chart-legend-medium-emphasis", "ui-breadcrumb-shortened", "ui-action-label-medium", "ui-action-label-normal", "ui-conversation-preview-title", "ui-chart-header-title", "ui-chat-subtitle", "ui-empty-main-title", "ui-avatar-initials-extra-large", "ui-empty-title", "ui-modal-title", "ui-chart-gauge-value", "ui-chat-title", "ui-checkbox-label-scaled-two-thirds", "ui-checkbox-label-scaled-five-sixths", "micro-count-small-scaled-four-thirds", "ui-action-label-medium-underline", "ui-action-label-small-underline", "ui-action-label-normal-underline", "ui-upload-action-feedback-underline"] as const;
 export const typographyClass = (id: TypographyId) => typography[id].cssClass;

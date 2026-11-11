@@ -65,9 +65,9 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 ## Fuentes y límites
 
 - [charts.contract.v0.1.0.md](../../../../specs/charts.contract.v0.1.0.md) · SHA-256 `e65d084d9f7a9600df1d00f19922c1039b09e926315b9c3052746a1327d08cea`.
-- [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `f569d5e132a0b5480f7b540dea8f157a601f27f24e86bb5ccb05b2d05f4b2cc9`.
+- [six-family-color.amendment.v0.1.0.md](../../../../specs/components/six-family-color.amendment.v0.1.0.md) · SHA-256 `84428396fd7f97969c764c1913f900d995934a990e04a3c59ae701f9e74d1f97`.
 - [composition-slots.amendment.v0.1.1.md](../../../../specs/composition-slots.amendment.v0.1.1.md) · SHA-256 `784535d06d9d996568346426144234fcd49050f509b14976e92ee74e74e3c041`.
-- [charts.typography.amendment.v0.1.0.md](../../../../specs/components/charts.typography.amendment.v0.1.0.md) · SHA-256 `fd174e3ad5e6f3dd16f875aa09ef3d65ff17cb5c9d97d07978d91615b33ca08b`.
+- [charts.typography.amendment.v0.1.0.md](../../../../specs/components/charts.typography.amendment.v0.1.0.md) · SHA-256 `f9a1c01ffe473da3f9477cfc10ff895fa2e630fbb43f61640674c197b1bcf4a5`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.
 

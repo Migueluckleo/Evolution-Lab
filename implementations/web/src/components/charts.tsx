@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { cx,token } from '../lib/utils';
 import gauge from '../generated/gauge.json';
 import { typographyClass, type TypographyId } from '../generated/typography';
-const legendTypography = { small: { regular: 'ui-caption-compact', semibold: 'ui-caption-compact-emphasis' }, medium: { regular: 'ui-metric-label-compact', semibold: 'ui-chart-legend-medium-emphasis' } } as const satisfies Record<'small'|'medium', Record<'regular'|'semibold', TypographyId>>;
+const legendTypography = { small: { regular: 'ui-caption-compact', semibold: 'ui-caption-compact-emphasis' }, medium: { regular: 'ui-chart-legend-medium', semibold: 'ui-chart-legend-medium-emphasis' } } as const satisfies Record<'small'|'medium', Record<'regular'|'semibold', TypographyId>>;
 export interface ChartLegendLabelProps { children:ReactNode; weight?:'regular'|'semibold'; size?:'small'|'medium'; swatch?:'neutral'|'series-1'|'series-2'|'series-3'|'progress'|'track'|false }
 export function ChartLegendLabel({children,weight='regular',size='small',swatch='neutral'}:ChartLegendLabelProps){return <span className={cx('ds-chart-legend',`ds-chart-legend-${size}`,typographyClass(legendTypography[size][weight]))}>{swatch&&<svg width="16" height="16" aria-hidden="true"><rect y="3" width="16" height="10" fill={token(`color/shape/chart/${swatch==='neutral'?'legend-neutral':swatch}`)}/></svg>}<span className="ds-chart-legend-text">{children}</span></span>;}
 export interface ChartCellProps { hasContent?:boolean; position?:'first'|'middle'|'last'; segment?:'solo'|'upper'|'middle'|'lower'; label?:string }

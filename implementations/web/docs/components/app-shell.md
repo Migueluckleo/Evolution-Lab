@@ -14,7 +14,7 @@ import { useState } from 'react';
 import { ArrowRight, Bell, Check, CurrencyCircleDollar, FileText, Gear, House, HouseLine, Question, Info, Plus, Trash } from '@phosphor-icons/react';
 import * as DS from '@/index';
 
-export function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt="CONTPAQi Contable"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className="p-8"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2><DS.MetricCard title="Documentos" values={[{label:'Total',value:'128'}]}/></div></DS.AppShell>;}
+export function AppShellExample(){return <DS.AppShell header={<DS.Header logo={<DS.Logos alt="CONTPAQi Contable"/>}/>} sidebar={<DS.Sidebar items={[{id:'home',label:'Inicio',icon:<House/>,href:'#componer',active:true}]}/>}><div className="p-8"><h2 className={`${DS.typographyClass('heading-5-semibold')} mb-6`}>Pantalla de ejemplo</h2></div></DS.AppShell>;}
 ```
 
 Ejemplo compilado en [examples.tsx](../../src/examples.tsx). Usa React state en memoria; recargar restaura la muestra. No hay endpoint, credencial ni persistencia implícita.
@@ -51,7 +51,7 @@ Los ejemplos que usan estado/eventos requieren `'use client'`. Los datos seriali
 
 - [app-shell.contract.v0.1.0.md](../../../../specs/app-shell.contract.v0.1.0.md) · SHA-256 `f4735e43344b54477df4ab8058f55fa5c45b6c03fdbdf651c6d35feb5d75ad9e`.
 - [app-shell.typography.amendment.v0.1.0.md](../../../../specs/components/app-shell.typography.amendment.v0.1.0.md) · SHA-256 `74768a9059fed6ab27bbe6bc4b081f1ba4bae3b4e504e334ab442c45785cb31b`.
-- [TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md](../../../../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) · SHA-256 `ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55`.
+- [TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md](../../../../specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md) · SHA-256 `3c99993be2ecb4858753fd342a12a363779eac3ee4393603fe7ee2a3c05b04e9`.
 - [app-shell.embedded-chat.amendment.v0.1.1.md](../../../../specs/components/app-shell.embedded-chat.amendment.v0.1.1.md) · SHA-256 `2850341f3b876228f9101faa14455ed25a4e1903dc38841fc8c54ba0497dbcd8`.
 
 Las enmiendas sustituyen solo su alcance explícito. Los estados de aprobación, auditoría y excepciones visuales permanecen en esas fuentes. La API web inicial no certifica identidad pixel a pixel ni conformidad WCAG completa. Ver [decisiones web](../WEB-ADAPTATION.md) para las adaptaciones de HTML, geometría y comportamiento.

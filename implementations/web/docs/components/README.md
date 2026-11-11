@@ -31,7 +31,6 @@
 - [Characters](characters.md) · CHARACTERS-001
 - [Logos](logos.md) · LOGOS-001
 - [EmptyStates](empty-states.md) · EMPTY-STATES-001
-- [MetricCard](metric-card.md) · METRIC-CARD-001
 - [Table](table.md) · TABLE-001
 - [Modal](modal.md) · MODAL-001
 - [Scrollbar](scrollbar.md) · SCROLLBAR-001

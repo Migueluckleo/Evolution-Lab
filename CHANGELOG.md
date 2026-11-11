@@ -1,5 +1,9 @@
 # Changelog del paquete de protocolos
 
+## 2026-11-11
+
+- Retiro de Metric Cards por falta de funcionalidad de producto. [Decisión y alcance](registry/DEC-RETIRE-METRIC-001.md).
+
 ## 0.5.0 · cierre técnico delegado · 2026-10-16
 
 [DEC-AI-TECHNICAL-CLOSURE-001](registry/DEC-AI-TECHNICAL-CLOSURE-001.md) elimina la aprobación/revisión humana rutinaria como gate del trabajo de IA solicitado. QA documental permite delegación técnica; QA de implementación y entregables aplicables permiten cierre. Los agentes mantienen documentación y evidencia, y las observaciones posteriores abren correcciones. `APPROVED` sigue requiriendo decisión humana real; los estados y evidencias históricos se conservan. No modifica diseño, permisos ni publicaciones externas. P08 mantiene el mecanismo de paquetes existente hasta implementar el consumo remoto propuesto.
